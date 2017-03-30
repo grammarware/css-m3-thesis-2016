@@ -1,0 +1,595 @@
+.CategoryPartial-body {
+    margin-bottom: 10px;
+    background-color: #f0f2f5;
+    border-top: 5px solid #e1e1df;
+    padding: 25px 0
+}
+
+.CategoryPartial-list {
+    width: 940px;
+    margin: 0 auto;
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5
+}
+
+.CategoryPartial-list li {
+    width: 165px;
+    color: #7cabca;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-bottom: 3px
+}
+
+.CategoryPartial-list li a {
+    color: #7cabca;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none
+}
+
+.CategoryPartial-list li a:hover {
+    text-decoration: underline
+}
+
+.PartialFooter-body {
+    font-size: 12px;
+    margin-bottom: 20px
+}
+
+.PartialFooter-item {
+    display: inline;
+    color: #888;
+    padding-left: 2px
+}
+
+.PartialFooter-item+:before {
+    content: "-";
+    margin: 0 .4em;
+    position: relative
+}
+
+.PartialFooter-item-link {
+    color: #888;
+    text-decoration: none
+}
+
+.PartialFooter-item a:hover {
+    color: #888;
+    text-decoration: underline
+}
+
+.wrap-top {
+    height: 20px;
+    width: 100%
+}
+
+.wrap-sides {
+    background-color: #fff;
+    height: 92%;
+    min-height: 140px;
+    min-width: 800px;
+    overflow: hidden
+}
+
+.wrap-bottom {
+    font-size: 12px;
+    height: 20px;
+    line-height: 14px;
+    margin-right: 30px;
+    padding-top: 4px;
+    text-align: right
+}
+
+.PartialHome-wrapper {
+    min-width: 64%;
+    max-width: 854px;
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    top: 38%
+}
+
+.PartialHome-wrapper-logo {
+    background-size: 403px;
+    background-repeat: no-repeat;
+    background-image: url('/s/0-0-50/site-ask-sites-askus-home-page-sprite.png');
+    background-position: -270px 0;
+    width: 133px;
+    height: 97px;
+    left: 19px;
+    top: 126px;
+    float: left
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi) {
+    .PartialHome-wrapper-logo {
+        background-size: 201.5px;
+        background-repeat: no-repeat;
+        background-image: url('/s/0-0-50/site-ask-sites-askus-home-page-sprite.png');
+        background-position: 0 0;
+        width: 133px;
+        height: 97px
+    }
+}
+
+#PartialHome-form {
+    position: relative
+}
+
+.search-bar {
+    display: inline-block;
+    margin-left: 20px;
+    width: 81%;
+    height: 48px;
+    border: 1px solid silver;
+    background-color: #fff;
+    margin-top: 25px
+}
+
+#search-box {
+    margin: 0;
+    padding: 0;
+    background: none repeat scroll 0 0 transparent;
+    font-size: 16px
+}
+
+.search-box-input {
+    border: medium none;
+    display: block;
+    width: 100%;
+    height: 48px;
+    float: left;
+    outline: none;
+    font-size: 20px;
+    text-indent: 15px
+}
+
+.sb-button {
+    margin-top: -1px;
+    position: absolute;
+    float: right;
+    background-color: #0062b2;
+    border: medium none;
+    cursor: pointer;
+    width: 45px;
+    height: 50px;
+    right: 0
+}
+
+.s-but {
+    background-size: 403px;
+    background-repeat: no-repeat;
+    background-image: url('/s/0-0-50/site-ask-sites-askus-home-page-sprite.png');
+    background-position: -270px -101px;
+    width: 48px;
+    height: 48px;
+    left: 8px;
+    position: relative;
+    float: right;
+    font-size: 16px;
+    margin-left: 0;
+    cursor: pointer
+}
+
+.ac_results {
+    padding: 0;
+    background-color: white;
+    border: 1px solid #e1e1df;
+    z-index: 99999
+}
+
+.ac_results ul {
+    width: 100%;
+    list-style-position: outside;
+    list-style: none;
+    padding: 0 0 10px 0;
+    margin: 5px 0 0 0
+}
+
+.ac_results li {
+    margin: 0;
+    padding: 6px 0 6px 16px;
+    cursor: default;
+    display: block;
+    color: #333333;
+    height: 18px;
+    overflow: hidden;
+    text-align: left
+}
+
+.ac_results li a,.ac_results li a:hover,.ac_results li a:visited {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.ac_results li .suggest {
+    font-weight: normal
+}
+
+.ac_over,li.ac_over {
+    background-color: #EDEDED;
+    color: #000000
+}
+
+html {
+    color: #000;
+    background: #FFF
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+    margin: 0;
+    padding: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+fieldset,img {
+    border: 0
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style: normal;
+    font-weight: normal
+}
+
+li {
+    list-style: none
+}
+
+caption,th {
+    text-align: left
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;
+    font-weight: normal
+}
+
+q:before,q:after {
+    content: ''
+}
+
+abbr,acronym {
+    border: 0;
+    font-variant: normal
+}
+
+sup {
+    vertical-align: text-top
+}
+
+sub {
+    vertical-align: text-bottom
+}
+
+input,textarea,select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: normal
+}
+
+input,textarea,select {
+    *font-size: 100%
+}
+
+legend {
+    color: #000
+}
+
+body,html {
+    font-family: Helvetica Neue,Arial,sans-serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: #FFFFFF
+}
+
+a {
+    color: #1D1FD2;
+    text-decoration: underline
+}
+
+a:hover {
+    color: #3e40e4
+}
+
+.l-header-container {
+    height: 37px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    max-width: 1020px
+}
+
+.l-footer {
+    clear: both
+}
+
+.PartialRelatedSearch-title,.PartialRelatedSearch-outer-title {
+    font-size: 13px;
+    text-transform: none
+}
+
+.PartialSearchBox-wrapper .PartialSearchBox-input {
+    font-size: 16px;
+    text-indent: 14px
+}
+
+.tipsy {
+    font-size: 12px;
+    padding: 5px;
+    position: absolute;
+    z-index: 100000
+}
+
+.tipsy-inner {
+    background-color: #ebebeb;
+    color: #727272;
+    max-width: 200px;
+    padding: 5px 8px 4px;
+    text-align: center;
+    border-radius: 3px
+}
+
+.main.l-mid-content {
+    min-height: 140px;
+    overflow: hidden;
+    width: 99.5%;
+    min-width: 800px;
+    height: 92%;
+    margin: 0;
+    padding: 0
+}
+
+.main .PartialHome-wrapper {
+    margin: 125px auto 250px auto
+}
+
+.main .wrap-sides {
+    border: none
+}
+
+.l-header-container {
+    display: none
+}
+
+.PartialFooter-body {
+    width: 970px;
+    margin: 0 auto;
+    padding-left: 25px
+}
+
+@media all and (max-width: 719px) {
+    .CategoryPartial-body {
+        padding: 25px
+    }
+
+    .CategoryPartial-list {
+        width: auto;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2
+    }
+
+    .PartialHome-wrapper {
+        max-width: initial;
+        overflow: auto;
+        height: auto;
+        top: 26%
+    }
+
+    .PartialHome-wrapper-logo {
+        background-size: 224.22556391px;
+        background-repeat: no-repeat;
+        background-image: url('/s/0-0-50/site-ask-sites-askus-home-page-sprite.png');
+        background-position: -150.22556391px 0;
+        width: 74px;
+        height: 53.96992481px;
+        left: 19px;
+        top: 126px;
+        float: none;
+        margin: 0 auto
+    }
+
+    .PartialHome-wrapper .search-bar {
+        width: 95%;
+        margin: 20px 10px
+    }
+
+    .PartialHome-wrapper .search-box-input {
+        text-indent: 11px
+    }
+
+    .search-clear {
+        background-size: 201.5px;
+        background-repeat: no-repeat;
+        background-image: url('/s/0-0-50/site-ask-sites-askus-home-page-sprite.png');
+        background-position: -161px -50.5px;
+        width: 12px;
+        height: 12px;
+        cursor: pointer;
+        display: none;
+        float: right;
+        position: absolute;
+        right: 70px;
+        bottom: 42px
+    }
+
+    .wrap-top {
+        height: 20px;
+        width: 100%
+    }
+
+    .wrap-sides {
+        background-color: #fff;
+        height: 91%;
+        min-height: 140px;
+        padding-bottom: 25px;
+        min-width: initial;
+        overflow: hidden
+    }
+
+    .wrap-bottom {
+        font-size: 12px;
+        height: 5px;
+        line-height: 14px;
+        margin-right: 30px;
+        padding-top: 4px;
+        text-align: right
+    }
+
+    .ac_results li {
+        padding: 6px 0 6px 10px
+    }
+
+    html,body {
+        background: #FFFFFF
+    }
+
+    .main .TopAdsPartial,.main .BottomAdsPartial {
+        margin: 5px;
+        border: 1px solid #ebebeb;
+        background: #FFF;
+        padding: 5px 0 5px 7px
+    }
+
+    .main .TopAdsPartial-text-ad-block,.main .BottomAdsPartial-text-ad-block {
+        border: none
+    }
+
+    .l-header {
+        background: #FFF;
+        height: 50px
+    }
+
+    .l-header .l-header-container {
+        height: auto;
+        padding: 3px
+    }
+
+    .l-footer {
+        padding: 0;
+        text-align: left
+    }
+
+    .ac_results li {
+        height: 15px
+    }
+
+    .PartialHome-wrapper {
+        margin: auto
+    }
+
+    .main .PartialHome-wrapper {
+        margin: 0
+    }
+
+    .PartialFooter-body {
+        width: auto
+    }
+}
+
+@media all and (min-width: 720px) and (max-width: 1019px) {
+    .CategoryPartial-body {
+        padding: 25px
+    }
+
+    .CategoryPartial-list {
+        width: auto;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3
+    }
+
+    .PartialHome-wrapper {
+        max-width: initial;
+        overflow: auto;
+        height: auto;
+        top: 26%
+    }
+
+    .PartialHome-wrapper-logo {
+        background-size: 224.22556391px;
+        background-repeat: no-repeat;
+        background-image: url('/s/0-0-50/site-ask-sites-askus-home-page-sprite.png');
+        background-position: -150.22556391px 0;
+        width: 74px;
+        height: 53.96992481px;
+        left: 19px;
+        top: 126px;
+        float: none;
+        margin: 0 auto
+    }
+
+    .PartialHome-wrapper .search-bar {
+        width: 95%
+    }
+
+    .PartialHome-wrapper .search-box-input {
+        text-indent: 16px
+    }
+
+    .wrap-top {
+        height: 20px;
+        width: 100%
+    }
+
+    .wrap-sides {
+        background-color: #fff;
+        height: 91%;
+        min-height: 140px;
+        min-width: initial;
+        overflow: hidden
+    }
+
+    .wrap-bottom {
+        font-size: 12px;
+        height: 5px;
+        line-height: 14px;
+        margin-right: 30px;
+        padding-top: 4px;
+        text-align: right
+    }
+
+    .search-clear {
+        background-size: 235.08333333px;
+        background-repeat: no-repeat;
+        background-image: url('/s/0-0-50/site-ask-sites-askus-home-page-sprite.png');
+        background-position: -187.83333333px -58.91666667px;
+        width: 14px;
+        height: 14px;
+        cursor: pointer;
+        display: none;
+        float: right;
+        position: absolute;
+        right: 70px;
+        bottom: 21px
+    }
+
+    .PartialFooter-body {
+        width: auto
+    }
+}
+
+@media all and (min-width: 1020px) {
+    .main {
+        min-width: 1024px
+    }
+}
+
+@media all and (min-width: 1360px) {
+    .main {
+        min-width: 1024px
+    }
+}

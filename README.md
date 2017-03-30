@@ -1,4 +1,4 @@
-# CSS sheets from [Alexa Top 500](http://www.alexa.com/topsites):
+# CSS sheets from [Alexa Top 500](http://www.alexa.com/topsites), the version of 30.03.2017:
 1. [google.com](http://google.com) — **[CSS](css/google.com.css)**
 1. [youtube.com](http://youtube.com) — **[CSS](css/youtube.com.css)**
 1. [facebook.com](http://facebook.com) — **[CSS](css/facebook.com.css)**
@@ -191,7 +191,7 @@
 1. [force.com](http://force.com) — **[CSS](css/force.com.css)**
 1. [gfycat.com](http://gfycat.com) — **[CSS](css/gfycat.com.css)**
 1. [theladbible.com](http://theladbible.com) — **[CSS](css/theladbible.com.css)**
-1. [blogspot.co.id](http://blogspot.co.id) — **[CSS](css/blogspot.co.id.css)**
+1. [blogspot.co.id](http://blogspot.co.id) — removed (duplicate)
 1. [google.az](http://google.az) — removed (duplicate)
 1. [rambler.ru](http://rambler.ru) — **[CSS](css/rambler.ru.css)**
 1. [sogou.com](http://sogou.com) — **[CSS](css/sogou.com.css)**
