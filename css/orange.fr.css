@@ -1,0 +1,1426 @@
+BODY {
+    font-size: 65%!important;
+    color: #333;
+    background: #fff
+}
+
+* {
+    margin: 0;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    border: 0;
+    padding: 0
+}
+
+UL {
+    list-style: none
+}
+
+LI {
+    list-style-position: outside
+}
+
+A {
+    color: #333;
+    outline: 0
+}
+
+A:hover,A:hover STRONG {
+    text-decoration: underline
+}
+
+DIV.c_sep {
+    clear: both;
+    float: none;
+    width: 100%;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    height: 0
+}
+
+#timeQOS {
+    display: none
+}
+
+UL.evitement {
+    position: absolute;
+    top: -300px
+}
+
+A.ancre {
+    visibility: hidden
+}
+
+.mask {
+    overflow: hidden;
+    display: block;
+    position: relative
+}
+
+.mask IMG {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#o_header {
+    height: 130px;
+    position: relative
+}
+
+#o_header UL.liens {
+    overflow: hidden;
+    font-size: 12px;
+    color: #333;
+    position: absolute;
+    right: 0
+}
+
+#o_header UL.liens LI {
+    display: block;
+    float: left;
+    font-weight: 700;
+    margin-left: 5px;
+    border-right: 1px solid #333;
+    padding-right: 5px
+}
+
+#o_header UL.liens LI A {
+    color: #555
+}
+
+#o_header UL LI.fibre,#o_header UL LI.hpp {
+    border-right: 0
+}
+
+#o_header UL LI.fibre A {
+    background: url(/icons/sprite-HPC.gif?14) -120px -58px no-repeat;
+    display: block;
+    width: 114px;
+    height: 38px
+}
+
+#o_header UL LI.fibre A SPAN {
+    display: none
+}
+
+#o_content {
+    float: none;
+    clear: both;
+    background: #fff
+}
+
+DIV.o_main {
+    margin: 0 auto;
+    width: 950px;
+    padding-top: 20px
+}
+
+.bookmarkHpc {
+    float: left;
+    margin-top: 38px;
+    font-size: 12px;
+    margin-left: 17px;
+    padding-left: 10px;
+    background: url(/icons/sprite-HPC.gif?14) -509px -189px no-repeat;
+    cursor: pointer
+}
+
+A.Obutton {
+    color: #FFF;
+    background: url(/icons/bouton.png?2) no-repeat;
+    font-size: 15px;
+    line-height: 40px;
+    display: block;
+    height: 44px;
+    text-align: center
+}
+
+A.Obutton:hover {
+    text-decoration: none;
+    background-position: 0 -44px
+}
+
+#infoBubble {
+    display: none;
+    border: 1px solid #333;
+    background: #EEE;
+    max-width: 200px;
+    position: absolute;
+    padding: 5px 10px
+}
+
+.popin {
+    color: #333;
+    width: 193px;
+    font-size: 12px
+}
+
+.popin * {
+    font-size: 12px
+}
+
+.popin .pContent {
+    background: #fff;
+    border-right: 1px solid #c7c8ca;
+    border-left: 1px solid #c7c8ca;
+    padding: 7px 7px 3px;
+    font-size: 12px;
+    overflow: hidden
+}
+
+.popin .pHead {
+    height: 9px;
+    background: url(/icons/sprite-HPC.gif?14) -7px -134px no-repeat
+}
+
+#meteo .pHead {
+    background-position: -7px -107px
+}
+
+.popin .pHead IMG {
+    top: 8px;
+    right: 3px;
+    cursor: pointer;
+    position: absolute
+}
+
+.popin .pFooter {
+    height: 6px;
+    background: url(/icons/sprite-HPC.gif?14) -7px -167px no-repeat
+}
+
+#pBookmark A.mask {
+    width: 27px;
+    height: 28px;
+    float: left;
+    margin-right: 2px
+}
+
+#pBookmark OL {
+    float: left;
+    padding: 0 0 10px 25px;
+    width: 100px;
+    clear: right
+}
+
+#pBookmark H3 {
+    margin-bottom: 5px;
+    font-weight: 700
+}
+
+#o_header .headerLogoOrange {
+    width: 53px;
+    height: 53px;
+    float: left
+}
+
+#o_header .headerLogoOrange SPAN {
+    position: absolute;
+    top: -1000px;
+    background: url(/icons/sprite-HPC.gif?14) -508px -190px no-repeat;
+    padding-left: 9px;
+    margin-left: 1px
+}
+
+DIV.formDiv {
+    margin: 0 0 0 250px;
+    width: 484px;
+    padding-top: 20px
+}
+
+DIV.formDiv FORM {
+    background: url(/icons/header/sprite-logo-header.png?2) -53px 0 no-repeat;
+    height: 61px;
+    position: relative
+}
+
+DIV.formDiv FORM.on {
+    background: url(/icons/header/sprite-logo-header.png?2) -53px -61px no-repeat
+}
+
+DIV.formDiv LABEL {
+    margin-left: 13px;
+    line-height: 18px;
+    font-size: 11px
+}
+
+.prospect FORM.o3_formSearch #rech {
+    margin: 6px 0 0 20px
+}
+
+DIV.formDiv INPUT {
+    margin: 6px 0 0 20px;
+    font-size: 18px;
+    color: #333;
+    width: 365px;
+    float: left
+}
+
+DIV.formDiv INPUT[type=text] {
+    width: 320px
+}
+
+DIV.formDiv INPUT[type=image] {
+    margin: 4px 0 0 4px;
+    font-size: 100%;
+    width: 161px;
+    height: 30px;
+    background: url(/icons/header/sprite-logo-header.png?2) -397px -22px no-repeat
+}
+
+DIV.formDiv INPUT[type=image]:hover {
+    background: url(/icons/header/sprite-logo-header.png?2) -397px -83px no-repeat
+}
+
+DIV.formDiv INPUT.ie6Rech {
+    width: 320px
+}
+
+DIV.formDiv INPUT.searchBtn {
+    margin: 4px 0 0 4px;
+    font-size: 100%;
+    width: 98px;
+    height: 30px;
+    background: url(/icons/header/sprite-logo-header.png?2) -397px -22px no-repeat
+}
+
+DIV.formDiv INPUT.searchBtn:hover {
+    background: url(/icons/header/sprite-logo-header.png?2) -397px -83px no-repeat
+}
+
+#rubanPolaris {
+    width: 973px;
+    height: 50px;
+    margin: 20px auto;
+    position: relative
+}
+
+#rubanPolaris .logoOrange {
+    position: absolute;
+    left: 20px;
+    top: 0
+}
+
+#rubanPolaris #o-engine {
+    float: left;
+    margin: 0 30px 0 99px;
+    top: 5px
+}
+
+#rubanPolaris #o-engine .cmpl.ec.box {
+    left: -1px;
+    top: 3px!important;
+    border-color: #000
+}
+
+#rubanPolaris #o-engine .cmpl.ec.box .label.toptrend.blockTop {
+    padding-top: 20px
+}
+
+#rubanPolaris #o-engine #o-search-label {
+    height: 38px;
+    background: #F8F8F8;
+    left: 2px
+}
+
+#rubanPolaris #o-engine #o-search-input {
+    background: #FFF;
+    left: 2px;
+    color: #757575;
+    font-weight: 700
+}
+
+#rubanPolaris #o-engine #formSearchCompletion {
+    width: 373px;
+    border-radius: 0;
+    border: 2px solid #000
+}
+
+#rubanPolaris #o-engine #formSearchCompletion:hover {
+    border: 2px solid #000
+}
+
+#rubanPolaris #o-engine #o-search-submit {
+    border-radius: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding-left: 28px;
+    text-align: center;
+    background: url(/icons/icon_magnify.png) 10px 12px no-repeat #000;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: HelveticaNeueLight,HelveticaNeue45,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",OrangeSans45,Helvetica,Arial,"Lucida Grande",sans-serif
+}
+
+#rubanPolaris #o-engine #o-nav-search-zone-content #o-search-submit:hover,#rubanPolaris #o-engine #o-search-submit:hover {
+    background-color: #F16E00
+}
+
+#rubanPolaris #o-launcher,#rubanPolaris #o-login {
+    float: right;
+    margin-top: -10px
+}
+
+#rubanPolaris #o-login {
+    padding: 0
+}
+
+#o_header {
+    float: left;
+    Xmargin-right: 95px
+}
+
+#o_header DIV.title {
+    float: left;
+    width: 175px;
+    height: 100px
+}
+
+#o_header DIV.title SPAN {
+    display: block;
+    padding: 60px 0 0 12px;
+    color: #666;
+    font-size: 18px
+}
+
+#o_header .headerLogoOrange {
+    height: 53px;
+    margin-top: 27px
+}
+
+#formPortail INPUT.searchTxt {
+    outline: 0!important
+}
+
+#o_footer {
+    width: 943px
+}
+
+#o-cookie {
+    width: 100%;
+    min-width: 950px
+}
+
+A:focus,A:hover {
+    text-decoration: underline
+}
+
+A#eventHeader {
+    display: block;
+    text-align: right;
+    float: left;
+    width: 100%
+}
+
+BODY.prospect DIV.o_main {
+    width: 990px;
+    overflow: hidden;
+    padding-top: 0
+}
+
+BODY.prospect #o_content {
+    clear: none;
+    margin-left: 20px;
+    width: 973px
+}
+
+BODY.prospect #o_header {
+    height: 101px;
+    z-index: 5
+}
+
+BODY.prospect DIV.formDiv {
+    margin: 14px 0 0 28px;
+    padding-top: 0;
+    float: left
+}
+
+.prospect #o-search-input {
+    margin: 2px 0 0 2px;
+    width: 327px;
+    border: none
+}
+
+.prospect .ecAutoCompleteReferenceBox {
+    margin-left: 14px!important
+}
+
+DIV.mainContent {
+    float: right;
+    width: 725px;
+    margin-left: 5px
+}
+
+DIV.leftContent {
+    float: left;
+    width: 235px;
+    margin-left: -1px
+}
+
+DIV.flash {
+    height: 232px;
+    overflow: hidden
+}
+
+DIV.flash LI {
+    margin-bottom: 6px
+}
+
+H1 {
+    color: #666;
+    font-size: 22px;
+    line-height: 45px;
+    font-weight: lighter
+}
+
+DIV.decal H2 {
+    background: url(/icons/sprite-prospect.gif?14) -503px -133px no-repeat;
+    color: #333;
+    font-size: 21px;
+    padding-left: 19px;
+    font-weight: lighter
+}
+
+DIV.decal {
+    margin: 10px auto 0;
+    width: 695px
+}
+
+DIV.acces {
+    width: 235px
+}
+
+DIV.acces DIV.cont {
+    padding: 14px 0 1px 10px;
+    color: #000;
+    font-size: 14px;
+    margin-bottom: 2px;
+    background-color: #fff
+}
+
+DIV.acces DIV.cont H2 {
+    font-size: 16px;
+    color: #000;
+    padding-bottom: 6px;
+    margin-left: 10px
+}
+
+DIV.acces DIV.cont SPAN.desc {
+    margin-left: 10px;
+    display: block
+}
+
+DIV.acces DIV.cont A.Obutton {
+    margin: 7px 0 10px 39px;
+    width: 130px
+}
+
+DIV.acces DIV.cont A.btn-ident {
+    font-weight: 700;
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f60;
+    border: 2px solid #f60
+}
+
+DIV.acces DIV.cont A.btn-ident:hover {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000
+}
+
+DIV.acces DIV.manchette A.btn-portail {
+    color: #000;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    border: 2px solid #000;
+    letter-spacing: -1px
+}
+
+DIV.acces DIV.manchette A.btn-portail:hover {
+    color: #fff;
+    background-color: #f60;
+    border: 2px solid #f60
+}
+
+DIV.acces DIV.manchette A.btn-portail:focus STRONG,DIV.acces DIV.manchette A.btn-portail:hover STRONG {
+    text-decoration: none
+}
+
+DIV.acces DIV.cont A.btn-ident {
+    width: 136px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    margin: 16px 0 10px 37px
+}
+
+DIV.acces DIV.cont A.btn-ident:focus,DIV.acces DIV.cont A.btn-ident:hover {
+    background-position: 1px -92px
+}
+
+DIV.acces DIV.manchette A.btn-portail {
+    width: 136px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    margin: 10px 0 16px 27px
+}
+
+DIV.acces DIV.cont .assistance {
+    padding: 6px 10px 7px;
+    margin: 0 10px 6px 0;
+    font-size: 14px
+}
+
+DIV.acces DIV.cont .assistance A {
+    margin-top: 1px;
+    display: block;
+    font-weight: 700;
+    color: #000;
+    text-decoration: underline
+}
+
+DIV.acces DIV.cont DIV.aide {
+    padding-left: 10px;
+    height: 92px;
+    overflow: hidden;
+    font-size: 12px
+}
+
+DIV.acces DIV.cont DIV.aide.close {
+    height: 21px
+}
+
+DIV.acces DIV.cont DIV.aide UL {
+    display: block;
+    overflow: hidden
+}
+
+DIV.acces DIV.cont DIV.aide SPAN {
+    display: block;
+    background: url(/icons/sprite-prospect.gif?14) -275px -257px no-repeat;
+    padding-right: 14px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    color: #000;
+    font-weight: 700
+}
+
+DIV.acces DIV.cont DIV.open SPAN {
+    background-position: -275px -232px
+}
+
+DIV.acces DIV.cont DIV.aide UL LI {
+    background: url(/icons/sprite-prospect.gif?14) -510px -212px no-repeat;
+    padding-left: 9px;
+    line-height: 15px
+}
+
+DIV.acces DIV.manchette {
+    padding: 6px 0 30px 20px;
+    color: #000;
+    font-size: 14px;
+    background-color: #fff
+}
+
+DIV.acces DIV.manchette H3 {
+    font-size: 12px;
+    font-weight: lighter
+}
+
+DIV.acces DIV.manchette DIV.rappel {
+    height: 124px;
+    margin: 14px 0 20px;
+    width: 192px;
+    position: relative;
+    background-color: #000
+}
+
+DIV.acces DIV.manchette DIV.rappel IMG {
+    height: 102px;
+    width: 192px
+}
+
+DIV.acces DIV.manchette DIV.rappel SPAN {
+    padding: 4px 6px;
+    font-size: 13px;
+    color: #fff;
+    display: block;
+    position: absolute;
+    width: 180px;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background: #000
+}
+
+DIV.acces DIV.manchette A.btn {
+    display: block;
+    margin: 0 0 14px 29px;
+    width: 132px;
+    height: 24px;
+    background: url(/icons/bouton.png?2) -130px -50px no-repeat;
+    text-align: center;
+    padding-top: 8px
+}
+
+DIV.acces DIV.manchette A.btn STRONG {
+    color: #f50;
+    text-decoration: none
+}
+
+DIV.acces DIV.manchette A:focus.btn,DIV.acces DIV.manchette A:hover.btn {
+    background-position: -130px -6px;
+    text-decoration: none
+}
+
+DIV.acces DIV.manchette A:focus.btn STRONG,DIV.acces DIV.manchette A:hover.btn STRONG {
+    color: #fff
+}
+
+DIV.suivi {
+    padding: 13px 0 19px 20px;
+    font-size: 14px;
+    color: #000
+}
+
+DIV.suivi A {
+    display: block
+}
+
+DIV.suivi A STRONG {
+    color: #000;
+    display: block;
+    padding: 5px 0 3px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline
+}
+
+DIV.comRela {
+    width: 194px;
+    background-color: #fff;
+    padding: 20px 20px 10px
+}
+
+DIV.comRela img {
+    width: 193px;
+    height: 90px
+}
+
+DIV.comRela DIV.pad {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #000;
+    background-color: #fff
+}
+
+DIV.comRela STRONG {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 3px;
+    color: #000
+}
+
+DIV.comRela A {
+    display: block;
+    color: #000;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline
+}
+
+DIV.comRela A:focus,DIV.comRela A:hover {
+    text-decoration: underline
+}
+
+DIV.majeure {
+    width: 215px;
+    height: 265px;
+    float: left;
+    margin-right: 10px;
+    padding: 0 10px 10px 0;
+    background: url(/icons/sprite-prospect-ombre.png) -56px 0 no-repeat;
+    position: relative
+}
+
+DIV.majeure H2 {
+    margin-bottom: 15px
+}
+
+DIV.majeure+DIV.majeure+DIV.majeure,DIV.majeureLast {
+    clear: right;
+    margin-right: 0
+}
+
+DIV.majeure DIV.bord {
+    border: 1px solid #CCC;
+    height: 250px;
+    width: 198px;
+    padding-left: 10px;
+    background: url(/icons/sprite-prospect-ombre.png) no-repeat #FFF;
+    position: relative
+}
+
+DIV.majeure IMG {
+    margin-left: 2px
+}
+
+DIV.majeure UL {
+    position: absolute;
+    bottom: 10px;
+    left: 10px
+}
+
+DIV.majeure LI {
+    background: url(/icons/sprite-prospect.gif?14) -507px -168px no-repeat;
+    font-size: 12px;
+    padding-left: 14px
+}
+
+DIV.mobile H2 {
+    margin-bottom: 5px
+}
+
+DIV.mobile DIV.bord DIV {
+    margin-left: -11px
+}
+
+DIV.mobile DIV.bord DIV A {
+    display: block;
+    height: 120px;
+    overflow: hidden;
+    float: left
+}
+
+DIV.mobile DIV.bord DIV IMG {
+    margin: 0 0 0 -1px;
+    padding: 0
+}
+
+DIV.mobile DIV.bord DIV A:focus IMG,DIV.mobile DIV.bord DIV A:hover IMG {
+    margin-top: -120px
+}
+
+DIV.mobile DIV.bord DIV.cartouche {
+    clear: both;
+    float: none;
+    margin: 5px 0 0 3px;
+    color: #F50;
+    font-size: 12px;
+    font-weight: 700;
+    width: 161px;
+    height: 21px;
+    position: relative;
+    background: url(/icons/sprite-prospect.gif?14) -13px -220px no-repeat;
+    line-height: 20px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+DIV.majeure DIV.cartouche .arrow {
+    position: absolute;
+    left: 25px;
+    top: -6px;
+    background: url(/icons/sprite-prospect.gif?14) 0 -217px no-repeat;
+    width: 9px;
+    height: 8px
+}
+
+DIV.majeure DIV.m1 DIV.cartouche {
+    text-align: left
+}
+
+DIV.majeure DIV.m1 A.m1 IMG {
+    margin-top: -120px
+}
+
+DIV.majeure DIV.m1 DIV.cartouche .arrow {
+    left: 25px
+}
+
+DIV.majeure DIV.m2 DIV.cartouche {
+    text-align: center
+}
+
+DIV.majeure DIV.m2 A.m2 IMG {
+    margin-top: -120px
+}
+
+DIV.majeure DIV.m2 DIV.cartouche .arrow {
+    left: 97px
+}
+
+DIV.majeure DIV.m3 DIV.cartouche {
+    text-align: right
+}
+
+DIV.majeure DIV.m3 A.m3 IMG {
+    margin-top: -120px
+}
+
+DIV.majeure DIV.m3 DIV.cartouche .arrow {
+    left: 165px
+}
+
+DIV.mineures {
+    background: url(/icons/sprite-prospect-ombre.png) top right no-repeat #FFF;
+    width: 447px;
+    height: 311px;
+    padding-right: 13px;
+    padding-bottom: 10px;
+    float: left;
+    margin-right: 10px;
+    position: relative
+}
+
+DIV.mineures DIV.bord {
+    border: 1px solid #CCC;
+    background: #FFF;
+    overflow: hidden;
+    width: 450px
+}
+
+DIV.mineures DIV.mineure {
+    float: left;
+    width: 224px;
+    height: 156px;
+    background: url(/icons/sprite-bck-1px.png?5) 0 -932px repeat-x;
+    border-right: 1px solid #CCC;
+    position: relative
+}
+
+DIV.mineures DIV.m2,DIV.mineures DIV.m4 {
+    border-right: 0;
+    width: 225px
+}
+
+DIV.mineures DIV.m3 {
+    border-right: 1px solid #CCC;
+    width: 224px
+}
+
+DIV.mineures DIV.m1 UL {
+    left: 35px;
+    top: 30px
+}
+
+DIV.mineures DIV.m1 UL A {
+    font-size: 12px;
+    background: url(/icons/sprite-prospect.gif?14) -507px -168px no-repeat;
+    padding-left: 12px
+}
+
+DIV.mineures A.posIMG {
+    display: block;
+    bottom: 0;
+    position: absolute
+}
+
+DIV.mineures H2 {
+    margin-left: 10px
+}
+
+DIV.mineures SPAN {
+    font-size: 12px
+}
+
+.mineures DIV+DIV SPAN {
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    top: 30px
+}
+
+.mineures DIV+DIV+DIV SPAN {
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    top: 50px
+}
+
+DIV.mineures UL {
+    position: absolute
+}
+
+DIV.mineures DIV.mineure A.decouvrir {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 12px;
+    background: url(/icons/sprite-prospect.gif?14) -507px -168px no-repeat;
+    padding-left: 12px
+}
+
+DIV.engagementsBckTop {
+    height: 4px;
+    background: url(/icons/sprite-prospect.gif?14) -7px -98px no-repeat;
+    width: 211px;
+    float: left;
+    line-height: 0
+}
+
+DIV.engagementsBckBot {
+    height: 4px;
+    background: url(/icons/sprite-prospect.gif?14) -7px -102px no-repeat;
+    width: 211px;
+    float: left;
+    line-height: 0
+}
+
+DIV.engagements {
+    border: 1px solid #CCC;
+    border-top: 0;
+    border-bottom: 0;
+    width: 210px;
+    float: left;
+    background: url(/icons/sprite-bck-1px.png?5) 0 -908px repeat-x;
+    height: 180px
+}
+
+DIV.engagements H2 {
+    color: #333;
+    font-size: 1.4em;
+    padding: 5px 0 3px 10px;
+    font-weight: 700;
+    background: 0 0
+}
+
+DIV.engagements LI {
+    color: #444;
+    margin: 0 15px 0 9px;
+    padding: 3px 0;
+    position: relative
+}
+
+DIV.engagements LI P {
+    display: none;
+    position: absolute
+}
+
+DIV.engagements LI A {
+    font-size: 13px
+}
+
+DIV.engagements H3 {
+    color: #444;
+    font-size: 1.2em;
+    margin-left: 5px;
+    padding-left: 38px;
+    display: block;
+    background: url(/icons/sprite-prospect.gif?14) no-repeat;
+    line-height: 25px
+}
+
+DIV.engagements H3:focus,DIV.engagements H3:hover {
+    color: #F50;
+    cursor: pointer
+}
+
+DIV.engagements LI+LI {
+    border-top: 1px solid #CCC
+}
+
+DIV.engagements H3.livr {
+    background-position: -495px -5px
+}
+
+DIV.engagements H3.paie {
+    background-position: -495px -32px
+}
+
+DIV.engagements H3.satis {
+    background-position: -495px -64px
+}
+
+DIV.engagements H3.sav {
+    background-position: -495px -94px
+}
+
+DIV.promoBckTop {
+    width: 211px;
+    height: 9px;
+    background: url(/icons/sprite-prospect.gif?14) -7px -191px no-repeat;
+    float: left;
+    margin-top: 30px
+}
+
+DIV.promoBckBot {
+    width: 211px;
+    height: 8px;
+    background: url(/icons/sprite-prospect.gif?14) -7px -200px no-repeat;
+    float: left
+}
+
+DIV.promo {
+    background: url(/icons/sprite-bck-1px.png?5) 0 -1088px repeat-x;
+    width: 209px;
+    height: 80px;
+    border: 1px solid #CCC;
+    border-top: 0;
+    border-bottom: 0;
+    float: left
+}
+
+DIV.promo A {
+    display: block;
+    zoom: 1
+}
+
+DIV.promo A:hover SPAN {
+    text-decoration: underline
+}
+
+DIV.promo IMG {
+    float: left;
+    margin-top: -20px;
+    margin-right: 5px
+}
+
+DIV.promo SPAN {
+    display: block;
+    width: 105px;
+    float: left;
+    background: url(/icons/sprite-prospect.gif?14) -510px -212px no-repeat;
+    padding-left: 10px;
+    font-size: 12px;
+    margin-top: 20px
+}
+
+P.seo {
+    margin-top: 25px;
+    color: #333
+}
+
+P.seo P {
+    width: 100%
+}
+
+DIV.decal P.seo {
+    border-top: 1px solid #CCC;
+    padding-top: 10px;
+    width: 680px
+}
+
+.seoFooter P.seo {
+    border: none;
+    margin: 20px 0 10px 15px
+}
+
+#pafTooltipContainer {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    display: none
+}
+
+#pafTooltipContainer .pafTooltipBubble {
+    position: relative;
+    width: 186px;
+    margin: 14px 10px
+}
+
+#pafTooltipContainer .pafTooltipBubble .pafTooltipDatas {
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 5px;
+    color: #333;
+    font-weight: 400;
+    font-size: 12px
+}
+
+#pafTooltipContainer.pafTooltipOn {
+    display: block
+}
+
+.pafTooltipBubbleArrow {
+    width: 10px;
+    height: 5px;
+    background: url(data:image/gif;base64,R0lGODlhCgAFAJECAMzMzP///////wAAACH5BAEAAAIALAAAAAAKAAUAAAINlAVwCxHKnINIStXsLQA7) no-repeat;
+    position: absolute;
+    top: -4px;
+    left: 90px
+}
+
+p strong {
+    color: #F60
+}
+
+DIV.rse {
+    font-size: 12px;
+    border-top: 1px solid #CCC;
+    width: 944px
+}
+
+DIV.rse H3 {
+    color: #F50;
+    padding: 15px 0 41px;
+    font-size: 1.833em!important
+}
+
+DIV.rse UL {
+    overflow: hidden;
+    background: #fff
+}
+
+DIV.rse UL LI.categorie {
+    display: block;
+    float: left;
+    width: 584px;
+    padding: 10px 15px 8px;
+    border-left: 10px solid #eee
+}
+
+DIV.rse UL LI:first-child.categorie {
+    width: 278px;
+    border-left: 0
+}
+
+DIV.rse UL LI.categorie STRONG {
+    display: block;
+    font-size: 1em;
+    color: #000;
+    padding-bottom: 11px
+}
+
+DIV.rse UL LI.categorie LI,DIV.rse UL LI.categorie LI+LI+LI+LI {
+    line-height: 24px;
+    display: block;
+    float: left;
+    min-width: 200px;
+    margin-left: 0
+}
+
+DIV.rse UL LI.categorie LI+LI+LI {
+    min-width: 100px;
+    margin-left: 40px
+}
+
+DIV.rse .themaLk {
+    background: url(/icons/sprite-prospect.gif?14) -508px -347px no-repeat;
+    padding-left: 12px;
+    font-size: 13px
+}
+
+DIV.mentions {
+    clear: both;
+    width: 944px
+}
+
+DIV.mentions UL {
+    overflow: hidden;
+    margin-top: 26px;
+    border-top: 1px solid #ccc
+}
+
+DIV.mentions UL LI {
+    padding: 1px 0 0;
+    line-height: 31px;
+    display: block;
+    float: left;
+    max-width: 225px
+}
+
+DIV.mentions LI A {
+    font-size: 110%
+}
+
+#formPortail .ecAutoCompleteCompletionBox {
+    top: 2px;
+    width: 285px
+}
+
+#o_content,body.prospect div.o_main {
+    background: #ddd
+}
+
+h1 {
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 12px;
+    font-weight: 700
+}
+
+a.bl_boutik {
+    display: inline-block;
+    width: 215px;
+    height: 228px;
+    margin: 0 20px 20px 0;
+    text-decoration: none
+}
+
+a.bl_boutik:nth-child(4),a.bl_boutik:nth-child(7) {
+    margin-right: 0
+}
+
+a.bl_boutik img {
+    float: left
+}
+
+h3.new_p {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px
+}
+
+div.decal h2.new_pr {
+    background-image: none;
+    padding: 0;
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 14px 0 12px
+}
+
+a.bl_pro {
+    display: inline-block;
+    margin-bottom: 16px
+}
+
+a.bl_buy {
+    display: inline-block
+}
+
+#coverflowCarousel .pafCtrlArrow.pafNext,#coverflowCarousel .pafCtrlArrow.pafPrevious,#coverflowChips .pafChipItem,#coverflowChips .pafChipItem.pafChipSelect,.coverflowShadow {
+    background: url(/icons/hpc-prospect_carousel-sprite.png) top left no-repeat
+}
+
+#coverflowCarousel .pafLoading {
+    background: url(/icons/loadingEEE.gif) 50% 50% no-repeat
+}
+
+#coverflowCarousel {
+    position: relative;
+    width: 684px;
+    height: 223px;
+    margin-left: 18px;
+    z-index: 1
+}
+
+#coverflowCarousel .pafCarouselList {
+    overflow: hidden;
+    position: absolute;
+    width: 3000px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0
+}
+
+#coverflowCarousel .pafCarouselList .pafCarouselItem {
+    display: block;
+    float: left;
+    color: #000;
+    width: 654px;
+    height: 223px;
+    position: relative
+}
+
+#coverflowCarousel .pafCarouselList .pafCarouselItem.pafCarouselSelect {
+    cursor: pointer
+}
+
+#coverflowCarousel .pafCarouselWindow {
+    overflow: hidden;
+    position: relative;
+    width: 654px;
+    height: 223px;
+    margin: 0 0 0 15px;
+    background: #EEE
+}
+
+#coverflowCarousel .pafCarouselItem .alt,#coverflowCarousel .pafCarouselItem img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2
+}
+
+#coverflowCarousel .pafCarouselItem .alt {
+    z-index: 1;
+    left: 10px;
+    top: 10px;
+    color: #333;
+    font-size: 12px;
+    width: 654px;
+    height: 220px;
+    display: block;
+    overflow: hidden
+}
+
+#coverflowChips {
+    width: 685px;
+    padding-top: 0;
+    clear: both;
+    text-align: center;
+    margin-left: 18px
+}
+
+#coverflowChips .pafChipList {
+    list-style: none;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0
+}
+
+#coverflowChips .pafChipList .pafChipItem {
+    cursor: pointer;
+    background-position: 0 0;
+    width: 8px;
+    height: 8px;
+    display: inline;
+    overflow: hidden;
+    padding-right: 3px;
+    margin: 0 5px
+}
+
+#coverflowChips .pafChipList .pafChipItem SPAN {
+    visibility: hidden;
+    line-height: 5px
+}
+
+#coverflowChips .pafChipList .pafChipItem.pafChipSelect {
+    background-position: 0 -58px;
+    width: 8px;
+    height: 8px
+}
+
+#coverflowCarousel .pafCtrlArrow {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    width: 15px;
+    height: 223px
+}
+
+#coverflowCarousel .pafCtrlArrow.pafPrevious {
+    background-position: -55px 93px
+}
+
+#coverflowCarousel .pafCtrlArrow.pafNext {
+    right: 0;
+    background-position: -102px 93px
+}
+
+.coverflowShadow {
+    background-position: 0 -663px;
+    width: 685px;
+    height: 12px
+}

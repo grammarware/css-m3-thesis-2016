@@ -1,0 +1,295 @@
+@media screen and (max-width: 700px) {
+    #sad {
+        display: none !important;
+    }
+}
+
+body {
+    font-family: Arial;
+    background: #fff;
+    margin: 0!important;
+}
+
+#content {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    line-height: 1.2em;
+}
+
+@media screen and (max-width: 500px) {
+    .pd {
+        padding: 0 8px;
+    }
+}
+
+#content h1 {
+    text-align: left;
+    padding: 10px 0;
+    margin: 0
+}
+
+#content #inner {
+    max-width: 480px;
+    float: left;
+}
+
+#rad {
+    margin-top: 43px;
+    text-align: center;
+    padding: 5px 0;
+    background: #eee;
+    border-top: solid 1px #ccc;
+}
+
+#sad {
+    float: left;
+    width: 160px;
+    padding: 5px;
+    background: #eee;
+    border-left: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+    margin-left: 15px;
+    text-align: left;
+}
+
+#form {
+}
+
+#form #youtube-url {
+    font-size: 16px;
+    padding: 1%;
+    width: 97.995%;
+    border-color: #CCCCCC #999999 #999999 #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0;
+}
+
+#form #btns {
+    text-align: center;
+    margin-top: 3px
+}
+
+#form #submit {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    border-color: #CCCCCC #999999 #999999 #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    background: #eee;
+    cursor: pointer;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAjCAYAAABVcWC0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wwQERA6K3+8YAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAKklEQVQI12P4+PHjfyYGBgYGqhN///6Fsv7//4+H+PfvHyEl////hxgFAD9eMOElv11cAAAAAElFTkSuQmCC) repeat scroll center bottom transparent;
+    margin: 0;
+    float: none;
+    min-width: 175px;
+}
+
+#form #submit:active {
+    background: #ccc;
+}
+
+#description {
+    margin-top: 25px;
+    color: #000;
+    font-size: 13px;
+}
+
+#description h2 {
+    font-size: 13px;
+    color: #000;
+    text-align: left;
+    background: #e7eeff;
+    border-top: solid 1px #5573D3;
+    padding: 3px 5px;
+}
+
+#description h3 {
+    font-size: 12px;
+    color: #000;
+    text-align: left;
+    background: #e7eeff;
+    padding: 3px 5px;
+}
+
+#description p {
+    text-align: justify;
+    padding: 0 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+#footer {
+    font-size: 11px;
+    border-top: solid 1px #d2dae0;
+    padding: 2px 5px;
+    color: #888;
+}
+
+#footer .r {
+    float: right;
+    text-align: right;
+}
+
+#footer a {
+    color: #2200CC;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#footer a:visited {
+    color: #2200CC;
+}
+
+#footer .links {
+    float: right;
+}
+
+form {
+    padding: 0;
+    margin: 0;
+}
+
+#progress_info {
+    display: none;
+    padding: 1%;
+    margin-bottom: 5px;
+    line-height: 1.5em;
+    float: left;
+    width: 97.995%;
+    font-size: 12px
+}
+
+#progress_info #details {
+}
+
+#progress_info.success #details {
+    margin-left: 130px!important;
+    width: auto;
+}
+
+.error {
+    background: #ffcfcf;
+    border: solid 1px #cf4a4a;
+}
+
+.captcha {
+    background: #ffebd1;
+    border: solid 1px #e7a146;
+}
+
+.normal {
+    background: #feffe6;
+    border: solid 1px #a6a156;
+}
+
+.success {
+    background: #edfff5;
+    border: solid 1px #56a678;
+}
+
+#status_text {
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+#error_text {
+    display: none;
+}
+
+#title {
+    display: none;
+}
+
+#length {
+    display: none;
+}
+
+#loader {
+    padding: 4px 0 0 0;
+}
+
+#image {
+    float: left;
+    width: 122px;
+    padding-top: 1px;
+}
+
+#image img {
+    border: solid 1px #000;
+    max-width: 120px
+}
+
+.full {
+    float: left;
+    width: 100%;
+}
+
+#dl_link {
+    margin-top: 6px;
+}
+
+#progress {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+#frame {
+    display: none;
+    float: left;
+    width: 100%;
+}
+
+a img {
+    border: 0;
+}
+
+a {
+    color: #2200CC;
+}
+
+.install {
+    float: right;
+    border: solid 1px #e3741a;
+    background: #ffc291;
+    padding: 4px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: 10px;
+    color: #000
+}
+
+.invalid-install {
+    float: right;
+    border: solid 1px #ccc;
+    background: #eee;
+    padding: 4px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: 10px;
+    color: #666
+}
+
+.warning {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 3px 0;
+    clear: both;
+    background: #ffdbdb;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-top: solid 1px #d20505;
+    border-bottom: solid 1px #d20505;
+    font-size: 13px
+}
+
+@media screen and (max-width: 700px) {
+    #sad {
+        display: none!important;
+    }
+}

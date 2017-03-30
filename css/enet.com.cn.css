@@ -1,0 +1,2110 @@
+.hea-nav {
+    position: relative;
+}
+
+.hea-top {
+    height: 140px;
+    padding: 14px 0 0;
+    background: url(/static/images/hea_bg_h.jpg) no-repeat center center #176db6;
+    background-size: cover;
+}
+
+.hea-nav-con {
+    width: 640px;
+    margin: 0 40px 0 17px;
+}
+
+.nav-down {
+    background: none;
+}
+
+.nav-con-ul li.active .nav-down {
+    background: none;
+}
+
+.nav-con-ul .nav-down-wid {
+    border-left: 1px solid #1e76c1;
+    border-right: 1px solid #1e76c1;
+}
+
+.nav-down-wid.net {
+    border: none;
+}
+
+ul.nav-con-ul .nav-down-wid {
+    padding: 0 26px !important;
+    margin: 4px 0;
+    margin-left: -1px;
+}
+
+ul.nav-con-ul li a {
+    width: 100% !important;
+    padding: 0 !important;
+    font-size: 18px !important;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+ul.nav-con-bottom {
+    padding-left: 13px;
+}
+
+ul.nav-con-bottom li {
+    padding: 0 13px;
+    margin-top: 7px;
+}
+
+.nav-con-bottom li.active {
+    background: #1e578e;
+    background: rgba(30,90,145,0.8);
+}
+
+ul.nav-con-bottom li a {
+    font-size: 15px !important;
+}
+
+ul.nav-con-ul .nav-li-sub a {
+    text-align: center;
+    padding: 0 5px !important;
+    font-size: 15px !important;
+}
+
+ul.nav-con-ul .nav-li-xiala a {
+    color: #424242;
+}
+
+.nav-li-xiala {
+    top: 30px;
+    min-width: auto;
+    padding: 15px;
+}
+
+.hea-old-enet {
+    float: right;
+    margin: 58px 7px 0 0;
+}
+
+.old-enet-con {
+ /*left: -114px;*/
+}
+    /*.hea-search{display: none;}*/
+.hea-search {
+    width: 165px;
+    border-radius: 8px;
+    background-color: #68aceb;
+    position: absolute;
+    right: 0;
+    padding: 1px 5px;
+    margin-top: 9px;
+/* border: 1px solid #002d65;*/
+}
+
+.hea-search input {
+    background: none;
+    width: 85%;
+    height: 25px;
+    color: #003474;
+    font-size: 16px;
+}
+
+.hea-search a.search {
+    margin-left: 0;
+    margin-top: 2px;
+    width: 20px;
+}
+&lt;!doctype html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=8" /&gt;
+    &lt;meta name="format-detection" content="telephone=no"&gt;
+    &lt;title&gt;eNet硅谷动力 - 回到起点，承兑初心&lt;/title&gt;
+    &lt;meta name="description" content="eNet硅谷动力网站是中国权威的IT产品信息与商业流通门户，涵盖电脑,笔记本,手机,通信产品,数码产品,家电产品等全线IT领域，拥有IT资讯,科技新闻,IT产品库,IT商城,硬件,DIY,手机,数码,MP3,MP4,游戏,评测,学院,下载,服务器,存储,安全等30余个主力频道，每天发布大量IT产品信息及文章专题，是IT行业最重要的网上信息获取和沟通平台。"&gt;
+    &lt;meta name="keywords" content="硅谷动力,eNet,硅谷,IT新闻,科技资讯,互联网新闻,通信新闻,评论,信息,解决方案,手机,笔记本,整机,PC,台式机,数码相机,摄像机,MP3,MP4,MP5,播放器,硬件,DIY,外设,CPU,内存,硬盘,主板,显卡,显示器,掌上电脑,PDA,数码,DC,DV,电脑,外设,电视,家电,液晶电
+    视,空调,冰箱,洗衣机,小家电,服务器,存储,网络设备,打印机,商城,下载,游戏,学院,软件,教程,经销商,新品,评测,行情,报价,降价,导购,电脑市场,卖场,渠道商情,办公,OA,CIO,CTO,北京,上海,广州,深圳,中关村,培训,认证,论坛,博客,摄影,样张"&gt;
+    &lt;meta name="format-detection" content="telephone=no" /&gt;
+    &lt;meta name="format-detection" content="email=no" /&gt;
+    &lt;link href="static/css/public.css" type="text/css" rel="stylesheet"&gt;
+    &lt;link href="static/css/model.css" type="text/css" rel="stylesheet"&gt;
+    &lt;link href="static/css/slide.css" rel="stylesheet"&gt;
+    &lt;script src="static/js/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;
+
+&lt;/head&gt;
+&lt;!--[if IE 8]&gt;
+&lt;style&gt;
+* {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.nav-li-nav {
+    max-width: 195px;
+    padding: 5px 15px 0;
+}
+
+.nav-li-nav3 {
+    max-width: 130px;
+}
+&lt;/style&gt;
+&lt;![endif]--&gt;
+
+&lt;body&gt;
+    &lt;div class="header"&gt;
+            &lt;script src='http://images.enet.com.cn/js/ad.js'&gt;&lt;/script&gt;
+&lt;!-- top 广告  --&gt;
+&lt;!-- &lt;ul class="advert clearfix"&gt;
+    &lt;li class="first"&gt;&lt;a href="http://shopping1.hp.com/is-bin/INTERSHOP.enfinity/WFS/WW-CNPublicStore-Site/zh_CN/-/CNY/ViewStandardCatalog-Browse?CatalogCategoryID=cU8Q2MZOFnUAAAFCWzxQq6Mz&amp;jumpid=ps_ft4h3m6wy8" target="_blank" title="惠普游戏笔记本 "&gt;&lt;img src="/static/images/advert1.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.ibm.com/cloud-computing/cn/zh/index.html" target="_blank" title="私有云解决方案"&gt;&lt;img src="/static/images/advert2.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.enet.com.cn/enews/zhuanti/2015/ichina2015/" target="_blank" title="2015（第十三届）中国互联网经济论坛"&gt;&lt;img src="/static/images/advert3.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://bj.arm.tedu.cn/zt/qrs/" target="_blank" title="嵌入式培训先就业后付款"&gt;&lt;img src="/static/images/advert4.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.samsung.com/cn/consumer/mobile-phones/smart-phone/" target="_blank" title="Galaxy S6/S6 edge/Note/A7等"&gt;&lt;img src="/static/images/advert5.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.cisco.com/web/CN/offers/iot/manufacturing/index.html" target="_blank" title="思科互联网+解决方案"&gt;&lt;img src="/static/images/advert6.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt; --&gt;
+&lt;div class="advert clearfix"&gt;
+    &lt;div class="ad-left" id='646'&gt;
+&lt;script&gt;
+enetad.load("646");
+&lt;/script&gt;
+    &lt;/div&gt;
+    &lt;!-- &lt;div class="ad-right" id='641'&gt;
+        &lt;a target="_blank" href="http://www.enet.com.cn/enews/zhuanti/2015/ichina2015live/"&gt;&lt;img src="/static/images/ad3.jpg"&gt;&lt;/a&gt;
+        &lt;script type="text/javascript"&gt;
+            enetad.load("641");
+        &lt;/script&gt;
+    &lt;/div&gt; --&gt;
+&lt;/div&gt;
+&lt;!-- &lt;div class="advert clearfix"&gt; --&gt;
+&lt;!--     &lt;div class="ad-left ad-all" id="644"&gt;
+            &lt;script type="text/javascript"&gt;
+            enetad.load("644");
+        &lt;/script&gt; --&gt;
+&lt;!--
+        &lt;script type="text/javascript"&gt;
+            /*640*60 创建于 2015-08-31*/
+            var cpro_id = "u2288885";
+        &lt;/script&gt;
+        &lt;script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"&gt;&lt;/script&gt;
+--&gt;
+&lt;!-- &lt;script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"&gt;&lt;/script&gt; --&gt;
+&lt;!-- topleft 640x60 --&gt;
+&lt;!-- &lt;ins class="adsbygoogle"
+     style="display:inline-block;width:640px;height:60px"
+     data-ad-client="ca-pub-7571901627517328"
+     data-ad-slot="1859818693"&gt;&lt;/ins&gt; --&gt;
+&lt;!-- &lt;script&gt;
+(adsbygoogle = window.adsbygoogle || []).push( {
+});
+&lt;/script&gt; --&gt;
+    &lt;!-- &lt;/div&gt; --&gt;
+        &lt;!-- &lt;a target="_blank" href="http://www.enet.com.cn/enews/zhuanti/2015/ichina2015live/"&gt;&lt;img src="/static/images/ad3.jpg"&gt;&lt;/a&gt; --&gt;
+    &lt;!-- &lt;div class="ad-right" id='641'&gt;
+        &lt;script type="text/javascript"&gt;
+            enetad.load("641");
+        &lt;/script&gt;
+    &lt;/div&gt; --&gt;
+&lt;!-- &lt;/div&gt; --&gt;
+&lt;!-- top end --&gt;
+
+&lt;!-- cat_top --&gt;
+
+&lt;!-- hea-top --&gt;
+
+&lt;style type="text/css"&gt;
+    .hea-nav {
+    position: relative;
+}
+
+.hea-top {
+    height: 140px;
+    padding: 14px 0 0;
+    background: url(/static/images/hea_bg_h.jpg) no-repeat center center #176db6;
+    background-size: cover;
+}
+
+.hea-nav-con {
+    width: 640px;
+    margin: 0 40px 0 17px;
+}
+
+.nav-down {
+    background: none;
+}
+
+.nav-con-ul li.active .nav-down {
+    background: none;
+}
+
+.nav-con-ul .nav-down-wid {
+    border-left: 1px solid #1e76c1;
+    border-right: 1px solid #1e76c1;
+}
+
+.nav-down-wid.net {
+    border: none;
+}
+
+ul.nav-con-ul .nav-down-wid {
+    padding: 0 26px !important;
+    margin: 4px 0;
+    margin-left: -1px;
+}
+
+ul.nav-con-ul li a {
+    width: 100% !important;
+    padding: 0 !important;
+    font-size: 18px !important;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+ul.nav-con-bottom {
+    padding-left: 13px;
+}
+
+ul.nav-con-bottom li {
+    padding: 0 13px;
+    margin-top: 7px;
+}
+
+.nav-con-bottom li.active {
+    background: #1e578e;
+    background: rgba(30,90,145,0.8);
+}
+
+ul.nav-con-bottom li a {
+    font-size: 15px !important;
+}
+
+ul.nav-con-ul .nav-li-sub a {
+    text-align: center;
+    padding: 0 5px !important;
+    font-size: 15px !important;
+}
+
+ul.nav-con-ul .nav-li-xiala a {
+    color: #424242;
+}
+
+.nav-li-xiala {
+    top: 30px;
+    min-width: auto;
+    padding: 15px;
+}
+
+.hea-old-enet {
+    float: right;
+    margin: 58px 7px 0 0;
+}
+
+.old-enet-con {
+ /*left: -114px;*/
+}
+    /*.hea-search{display: none;}*/
+.hea-search {
+    width: 165px;
+    border-radius: 8px;
+    background-color: #68aceb;
+    position: absolute;
+    right: 0;
+    padding: 1px 5px;
+    margin-top: 9px;
+/* border: 1px solid #002d65;*/
+}
+
+.hea-search input {
+    background: none;
+    width: 85%;
+    height: 25px;
+    color: #003474;
+    font-size: 16px;
+}
+
+.hea-search a.search {
+    margin-left: 0;
+    margin-top: 2px;
+    width: 20px;
+}
+&lt;/style&gt;
+&lt;!--[if IE 8]&gt;
+&lt;style&gt;
+    * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.hea-top {
+    height: 128px;
+}
+
+.old-enet-con {
+    width: 207px;
+}
+
+.hea-search input {
+    width: 78%;
+}
+&lt;/style&gt;
+&lt;![endif]--&gt;
+&lt;div class="hea-top"&gt;
+    &lt;div class="hea-nav clearfix"&gt;
+        &lt;div class="hea-logo"&gt;
+            &lt;a href="http://www.enet.com.cn/"&gt;&lt;img src="/static/images/logo_h.png" width="184" height="80" /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="hea-nav-con index-nav"&gt;
+            &lt;ul class="nav-con-ul clearfix"&gt;
+                &lt;li class="news nav-down-wid"&gt;
+                    &lt;a href="/tag/news" target="_blank" class="nav-down"&gt;eNews&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a href="/tag/ceotalk" target="_blank"&gt;CEO访谈&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/enews/zhuanti/figure/" target="_blank"&gt;人物汇&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/special/" target="_blank"&gt;专题&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/sequencing" target="_blank"&gt;基因测序&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/carbonbar" target="_blank"&gt;碳纤维&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/tombarthite" target="_blank"&gt;稀土永磁&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/oled" target="_blank"&gt;OLED&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/graphene" target="_blank"&gt;石墨烯&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/htsc" target="_blank"&gt;超导&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/photovoltaic" target="_blank"&gt;光伏&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/industry4" target="_blank"&gt;工业4.0&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/mlchina" target="_blank"&gt;美丽中国&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/jkchina" target="_blank"&gt;健康中国&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/obor" target="_blank"&gt;一带一路&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/ai" target="_blank" class="nav-down"&gt;人工智能&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/wearablesmartdevices"&gt;智能穿戴&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/drone"&gt;无人机&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/robotsforhome"&gt;机器人（家用）&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/robotsforindustry"&gt;机器人（工业）&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/vrar"&gt;VR、AR&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/autonomousdriving"&gt;无人驾驶&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/smartfrontier"&gt;智能前沿&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/lservice" target="_blank" class="nav-down"&gt;生活服务&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/integratedecommerce"&gt;综合电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/crossborderecommerce"&gt;跨境电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/freshproduceecommerce"&gt;生鲜电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/ecommerceforbaby"&gt;母婴电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/b2becommerce"&gt;B2B电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/ecommercecountryside"&gt;农村电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/affordableluxuries"&gt;轻奢&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/communityservice"&gt;社区服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/cateringservice"&gt;餐饮服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/housedecoration"&gt;家装（装修）&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/housepropertyinformation"&gt;房产信息 &lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/integratedlifeservice"&gt;综合生活服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/logistics"&gt;物流 &lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/Internetmedicaltreatment"&gt;互联网医疗&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/appmarket"&gt;APP应用市场&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/travelagencyService"&gt;旅游服务平台&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/lawservice"&gt;法律服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/transportservice"&gt;出行服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/educationservice"&gt;教育服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/sportsservice"&gt;体育服务平台&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/scenic"&gt;景点&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/fmcg"&gt;快消品&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/society"&gt;社交&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/eservice" target="_blank" class="nav-down"&gt;企业服务&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala nav-li-r"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/serviceprovider"&gt;服务器&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/storage"&gt;存储&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/security"&gt;安全&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/cloudcomputing"&gt;云计算&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/bigdata"&gt;大数据&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/businesswifi"&gt;商用WiFi&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/communication"&gt;通信&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/saas"&gt;SaaS&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/humanresources"&gt;人力&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/financetax"&gt;财税&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/businesssolution"&gt;解决方案&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/financial" target="_blank" class="nav-down"&gt;金融&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala nav-li-r"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/securities"&gt;证券&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/insurances"&gt;保险&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/commercialbank"&gt;商业银行&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/directban"&gt;直销银行&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/municipalcommercialbank"&gt;城市商业银行&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/internetfinance"&gt;互联网金融&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/financeeconomics"&gt;财经&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/payment"&gt;支付&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/banktrust"&gt;信托&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid" style="padding: 0 25px 0 24px !important;"&gt;
+                    &lt;a href="/category/3cproduct" target="_blank" class="nav-down"&gt;3C产品&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/telephone"&gt;手机&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/homecomputer"&gt;家用电脑&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/businesscomputer"&gt;商用电脑&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/allinonepc"&gt;一体机&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/gamecomputer"&gt;游戏本&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/intelligenttv"&gt;智能电视&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/refrigerator"&gt;冰箱&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/purifier"&gt;净化器&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/washingmachine"&gt;洗衣机&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/airconditioner"&gt;空调&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/iptv"&gt;电视盒子&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/bathroomsupply"&gt;卫浴&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/kitchenappliances"&gt;厨电&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/photocopier"&gt;打印机&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/projector"&gt;投影&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/smartcity" target="_blank" class="nav-down"&gt;智慧城市&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/egovernment"&gt;电子政务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/citysolution"&gt;智慧城市解决方案&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/iot"&gt;物联网&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/IntelligentManufacture"&gt;智能制造&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/IntelligentHome"&gt;智慧家庭&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/digitalmarket" target="_blank" class="nav-down"&gt;数字营销&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/internetadvertisement"&gt;网络广告&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/mobilenetworkad"&gt;移动网络广告&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/dsp"&gt;DSP&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/pr"&gt;PR公关传播&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/media"&gt;传媒&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/artdesign" target="_blank" class="nav-down"&gt;文创&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala nav-li-r"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/acg"&gt;二次元&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/shortvideo"&gt;短视频&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/onlinevideo"&gt;在线视频&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/internetradio"&gt;电台&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/picturessharing"&gt;图片分享&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/reading"&gt;阅读&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/industrialpark"&gt;产业园区&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/startup"&gt;科技创投&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/environmentalpreservation"&gt;环保生活&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/incubatortech"&gt;科技孵化&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/filmtelevision"&gt;影视&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/music"&gt;音乐&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/entertainment"&gt;综艺节目&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/Desp"&gt;数字娱乐服务平台&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/telephonegames"&gt;手机游戏&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/internetgames"&gt;网络游戏&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/panentertainment"&gt;泛娱乐&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/live"&gt;直播&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/car" target="_blank" class="nav-down"&gt;汽车&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala nav-li-r"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/InternetofVehicles"&gt;车联网&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/automobilesinformation"&gt;汽车综合信息服务平台&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/secondhandcars"&gt;二手车&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/electricitydrivingautomobiles"&gt;电动汽车&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/financeofcars"&gt;汽车金融&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/automotiveaftermarket"&gt;汽车后市场&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="nav-con-ul nav-con-bottom"&gt;
+                &lt;li&gt;&lt;a href="/tag/energy" target="_blank"&gt;能源&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/rohs" target="_blank"&gt;环保&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/AdMaterials" target="_blank"&gt;新材料&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/photoelectron" target="_blank"&gt;光电子&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/semiconductor" target="_blank"&gt;半导体&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/cheme" target="_blank"&gt;化工&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/spinning" target="_blank"&gt;纺织&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/medicine" target="_blank"&gt;医药&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/art" target="_blank"&gt;艺术&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div class="hea-old-enet"&gt;
+            &lt;span id="old-enet-a"&gt;&lt;img src="/static/images/old-enet.png" width="25" height="30" /&gt;&lt;/span&gt;
+            &lt;div class="old-enet-con"&gt;&lt;a href="http://games.enet.com.cn/" target="_blank"&gt;游戏先锋&lt;/a&gt;&lt;a href="/itbrand/" target="_blank"&gt;ITBrand&lt;/a&gt;&lt;a href="http://www.enet.com.cn/" target="_blank"&gt;产品库&lt;/a&gt;&lt;a href="/elady/" target="_blank"&gt;IT女性&lt;/a&gt;&lt;a href="/eschool/" target="_blank"&gt;学院&lt;/a&gt;&lt;a href="http://bbs.enet.com.cn/" target="_blank"&gt;论坛&lt;/a&gt;&lt;a href="http://download.enet.com.cn/" target="_blank"&gt;下载&lt;/a&gt;&lt;a href="/pic/" target="_blank"&gt;图片&lt;/a&gt;&lt;a href="/pic/" target="_blank"&gt;... ...&lt;/a&gt;&lt;a class="old-enet-btn" href="http://www.enet.com.cn/index.shtml" target="_blank"&gt;旧版首页&lt;/a&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="hea-search"&gt;
+            &lt;script type="text/javascript"&gt;
+                function searchX(event) {
+    if(event&amp;&amp;event.keyCode==13||event==undefined){
+                        var _k=$('#q').val();
+                        if (_k!='搜索'&amp;&amp;_k.length&gt;1) {
+                            $('#searchForm').submit();
+}
+
+else {
+    $('#q').val('关键字太短');
+                            setTimeout(function() {$('#q').val('')
+},1000);
+}
+                    }
+                }
+            &lt;/script&gt;
+            &lt;form action="http://eso.enet.com.cn/?" method="get" id="searchForm" name="searchForm"&gt;
+                &lt;input name="q" id="q" type="text" value="搜索" onfocus="if (value =='搜索'){value =''}" onblur="if (value ==''){value='搜索'}" onkeypress="searchX(event)" /&gt;
+                &lt;input type="" name="" style="display:none;" /&gt;
+                &lt;a class="search" href="#" onclick="searchX()"&gt;&lt;/a&gt;
+            &lt;/form&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- hea-top end--&gt;
+
+&lt;script type="text/javascript"&gt;
+//旧版 ENET 下拉菜单
+$('.hea-old-enet').hover(function() {
+$('.old-enet-con').stop().fadeToggle('4000')
+})
+
+//主导航下拉菜单20160811
+$(".nav-down").mouseover(function() {
+$(this).closest("li").addClass('active').find(".nav-li-xiala").stop().slideDown(200);
+});
+$(".nav-down-wid").mouseleave(function() {
+$(this).closest("li").removeClass('active').find('.nav-li-xiala').stop().slideUp(100);
+});
+
+$(".nav-con-bottom li").hover(function() {
+$(this).addClass('active').siblings().removeClass('active');
+},function() {
+$(this).removeClass('active');
+});
+
+// 设定下拉二级的盒子宽度
+var widthTotal = $('.nav-con-ul').width();
+var x0 = $('.nav-con-ul').offset().left;
+var xOld = $('.hea-old-enet').offset().left;
+$('.nav-li-xiala').each(function() {
+$(this).width(widthTotal-($(this).closest("li").offset().left-x0));
+})
+$('.nav-li-xiala.nav-li-r').each(function() {
+$(this).width(xOld-$(this).closest("li").offset().left-45);
+})
+
+&lt;/script&gt;
+
+    &lt;/div&gt;
+    &lt;div class="shadow"&gt;
+        &lt;div class="sha-con"&gt;
+            &lt;span&gt;今日推荐&amp;nbsp;:&amp;nbsp;&lt;/span&gt;&lt;a target="_blank" href="/article/2017/0330/A20170330029602.html"&gt;不与互联网貌合神离，就不会死在“互联网+”的沙滩上&lt;/a&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="content"&gt;
+        &lt;div class="con-top" style="overflow:hidden;"&gt;
+            &lt;div class="slider"&gt;
+                &lt;div class="bd"&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;
+                            &lt;a target="_blank" title="2017新互联网公司TOP300" href="http://www.enet.com.cn/article/2017/0324/A20170324029293.html"&gt;
+                                &lt;img src="/static/images/2017/slider-13.jpg" alt="2017新互联网公司TOP300" /&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a target="_blank" title="2016企业服务经典案例" href="http://www.enet.com.cn/enews/zhuanti/2017/qyfw/"&gt;
+                                &lt;img src="/static/images/2017/slider-12.jpg" alt="2016企业服务经典案例" /&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a target="_blank" title="我心中的理想世界" href="http://www.enet.com.cn/enews/zhuanti/2017/idealworld/"&gt;
+                                &lt;img src="static/images/2017/slider-11.jpg" alt="我心中的理想世界" /&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a target="_blank" title="2016《互联网周刊》年度人物&amp;年度产品颁奖隆重揭晓" href="http://www.enet.com.cn/enews/zhuanti/2017/2016banjiangyan/"&gt;
+                                &lt;img src="static/images/2017/slider-10.jpg" alt="2016《互联网周刊》年度人物&amp;年度产品颁奖隆重揭晓" /&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="hd"&gt;
+                    &lt;ul&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="pnBtn prev"&gt;&lt;span class="blackBg"&gt;&lt;/span&gt;
+                    &lt;a class="arrows" href="javascript:void(0)"&gt;&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class="pnBtn next"&gt;&lt;span class="blackBg"&gt;&lt;/span&gt;
+                    &lt;a class="arrows" href="javascript:void(0)"&gt;&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="con-bottom"&gt;
+            &lt;div class="con-bot-next clearfix"&gt;
+                &lt;div class="next-sub subfirst"&gt;
+                    &lt;a class="subimg" target="_blank" title="充满鲜花的世界到底在哪里？" href="http://www.enet.com.cn/article/2017/0313/A20170313028575.html"&gt;&lt;img src="/static/images/2017/img5.jpg" width="229" height="150" alt="充满鲜花的世界到底在哪里？" /&gt;&lt;/a&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028577.html" title="理想的光芒终将照进现实" target="_blank"&gt;理想的光芒终将照进现实&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028572.html" title="理想，是开在每个人心中的花" target="_blank"&gt;理想，是开在每个人心中的花&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028573.html" title="治世，须先修心" target="_blank"&gt;治世，须先修心&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+
+                &lt;/div&gt;
+                &lt;div class="next-sub"&gt;
+                    &lt;a class="subimg" target="_blank" title="此谓大同" href="http://www.enet.com.cn/article/2017/0313/A20170313028576.html"&gt;&lt;img src="/static/images/2017/img6.jpg" width="229" height="150" alt="此谓大同" /&gt;&lt;/a&gt;
+                    &lt;ul&gt;
+                       &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028578.html" title="君来看花时，花色一时明" target="_blank"&gt;君来看花时，花色一时明&lt;/a&gt;&lt;/li&gt;
+                       &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028579.html" title="你有理想你厉害" target="_blank"&gt;你有理想你厉害&lt;/a&gt;&lt;/li&gt;
+                       &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028580.html" title="如果爱情……可以这样……" target="_blank"&gt;如果爱情……可以这样……&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="next-sub"&gt;
+                    &lt;a class="subimg" target="_blank" title="未知的世界和当下这座城" href="http://www.enet.com.cn/article/2017/0313/A20170313028569.html"&gt;&lt;img src="/static/images/2017/img7.jpg" width="229" height="150" alt="未知的世界和当下这座城" /&gt;&lt;/a&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028568.html" title="幻想那片有着特别气息的乐土" target="_blank"&gt;幻想那片有着特别气息的乐土&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028567.html" title="平坦的世界，梦想会更近" target="_blank"&gt;平坦的世界，梦想会更近&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028566.html" title="做人一地肝胆，做人何惧艰险，豪情不变年复一年" target="_blank"&gt;做人一地肝胆，做人何惧艰险，豪情不变年复一年&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="next-sub"&gt;
+                    &lt;a class="subimg" target="_blank" title="现在的世界好么？当然不好" href="http://www.enet.com.cn/article/2017/0313/A20170313028562.html"&gt;&lt;img src="/static/images/2017/img8.jpg" width="229" height="150" alt="现在的世界好么？当然不好"/&gt;&lt;/a&gt;
+                    &lt;!-- &lt;div id="636"&gt;&lt;script&gt;enetad.load('636')&lt;/script&gt;&lt;/div&gt; --&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028560.html" title="三体人的世界" target="_blank"&gt;三体人的世界&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028559.html" title="修圣人之心，成不器之器" target="_blank"&gt;修圣人之心，成不器之器&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028558.html" title="“大同”是“仁”的最终归途" target="_blank"&gt;“大同”是“仁”的最终归途&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="footer container-fluid"&gt;
+	&lt;div class="foo-nav"&gt;
+	    &lt;ul class="clearfix"&gt;
+	        &lt;!-- &lt;li&gt;&lt;a href="/about/culture/culture.html"&gt;企业文化&lt;/a&gt;|&lt;/li&gt; --&gt;
+	        &lt;li&gt;&lt;a href="/about/service/service.html"&gt;客户服务&lt;/a&gt;|&lt;/li&gt;
+	        &lt;li&gt;&lt;a href="/about/joinus/joinus.html"&gt;招聘信息&lt;/a&gt;|&lt;/li&gt;
+	        &lt;li&gt;&lt;a href="/about/manual/manual.html"&gt;员工手册&lt;/a&gt;|&lt;/li&gt;
+	        &lt;li&gt;&lt;a href="/tag/gsdt"&gt;公司动态&lt;/a&gt;|&lt;/li&gt;
+	        &lt;li&gt;&lt;a href="/tag/enc"&gt;ENC&lt;/a&gt;|&lt;/li&gt;
+	        &lt;li&gt;&lt;a href="/tag/encplus"&gt;ENC+&lt;/a&gt;&lt;/li&gt;
+	    &lt;/ul&gt;
+	    &lt;p class="foo-nav-p"&gt;网站合作、内容监督、商务咨询、投诉建议：010-65245588&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class="foo-con"&gt;
+		&lt;p class="foo-con-p"&gt;Copyright &amp;#169; 2000--&lt;script language="JavaScript" type="text/JavaScript"&gt;
+    var year="";
+    mydate=new Date();
+    myyear= mydate.getYear();
+    year=(myyear &gt; 200) ? myyear : 1900 + myyear;
+    document.write(year);
+    &lt;/script&gt; 硅谷动力公司版权所有 京ICP证000088号 京公网安备11010502026777号&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;script language="JavaScript" type="text/javascript" src="http://pv.enet.com.cn/counter.php"&gt;&lt;/script&gt;
+&lt;script language="JavaScript" type="text/javascript" src="http://frame.enet.com.cn/a.php"&gt;&lt;/script&gt;
+    &lt;script src="static/js/slide.js"&gt;&lt;/script&gt;
+    &lt;script&gt;
+    jQuery(".slider .bd li").first().before(jQuery(".slider .bd li").last());
+
+
+    jQuery(".slider").mousemove(function(e) {
+jQuery(this).find(".arrows").stop(true, true).fadeIn(300);
+});
+
+jQuery(".slider").hover(function() {
+jQuery(this).find(".arrows").stop(true, true).fadeIn(300);
+},
+function() {
+jQuery(this).find(".arrows").fadeOut(300);
+});
+    /* 轮播图 */
+jQuery(".slider").slide( {
+titCell: ".hd ul",
+        mainCell: ".bd ul",
+        autoPage: true,
+        effect: "leftLoop",
+        autoPlay: true,
+        vis: 3,
+        trigger: "mouseover",
+        pnLoop:true,
+});
+
+    &lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+&lt;!doctype html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=8" /&gt;
+    &lt;meta name="format-detection" content="telephone=no"&gt;
+    &lt;title&gt;eNet硅谷动力 - 回到起点，承兑初心&lt;/title&gt;
+    &lt;meta name="description" content="eNet硅谷动力网站是中国权威的IT产品信息与商业流通门户，涵盖电脑,笔记本,手机,通信产品,数码产品,家电产品等全线IT领域，拥有IT资讯,科技新闻,IT产品库,IT商城,硬件,DIY,手机,数码,MP3,MP4,游戏,评测,学院,下载,服务器,存储,安全等30余个主力频道，每天发布大量IT产品信息及文章专题，是IT行业最重要的网上信息获取和沟通平台。"&gt;
+    &lt;meta name="keywords" content="硅谷动力,eNet,硅谷,IT新闻,科技资讯,互联网新闻,通信新闻,评论,信息,解决方案,手机,笔记本,整机,PC,台式机,数码相机,摄像机,MP3,MP4,MP5,播放器,硬件,DIY,外设,CPU,内存,硬盘,主板,显卡,显示器,掌上电脑,PDA,数码,DC,DV,电脑,外设,电视,家电,液晶电
+    视,空调,冰箱,洗衣机,小家电,服务器,存储,网络设备,打印机,商城,下载,游戏,学院,软件,教程,经销商,新品,评测,行情,报价,降价,导购,电脑市场,卖场,渠道商情,办公,OA,CIO,CTO,北京,上海,广州,深圳,中关村,培训,认证,论坛,博客,摄影,样张"&gt;
+    &lt;meta name="format-detection" content="telephone=no" /&gt;
+    &lt;meta name="format-detection" content="email=no" /&gt;
+    &lt;link href="static/css/public.css" type="text/css" rel="stylesheet"&gt;
+    &lt;link href="static/css/model.css" type="text/css" rel="stylesheet"&gt;
+    &lt;link href="static/css/slide.css" rel="stylesheet"&gt;
+    &lt;script src="static/js/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;
+
+&lt;/head&gt;
+&lt;!--[if IE 8]&gt;
+&lt;style&gt;
+* {
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+-ms-box-sizing: content-box;
+-o-box-sizing: content-box;
+box-sizing: content-box;
+}
+
+.nav-li-nav {
+max-width: 195px;
+padding: 5px 15px 0;
+}
+
+.nav-li-nav3 {
+max-width: 130px;
+}
+&lt;/style&gt;
+&lt;![endif]--&gt;
+
+&lt;body&gt;
+    &lt;div class="header"&gt;
+            &lt;script src='http://images.enet.com.cn/js/ad.js'&gt;&lt;/script&gt;
+&lt;!-- top 广告  --&gt;
+&lt;!-- &lt;ul class="advert clearfix"&gt;
+    &lt;li class="first"&gt;&lt;a href="http://shopping1.hp.com/is-bin/INTERSHOP.enfinity/WFS/WW-CNPublicStore-Site/zh_CN/-/CNY/ViewStandardCatalog-Browse?CatalogCategoryID=cU8Q2MZOFnUAAAFCWzxQq6Mz&amp;jumpid=ps_ft4h3m6wy8" target="_blank" title="惠普游戏笔记本 "&gt;&lt;img src="/static/images/advert1.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.ibm.com/cloud-computing/cn/zh/index.html" target="_blank" title="私有云解决方案"&gt;&lt;img src="/static/images/advert2.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.enet.com.cn/enews/zhuanti/2015/ichina2015/" target="_blank" title="2015（第十三届）中国互联网经济论坛"&gt;&lt;img src="/static/images/advert3.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://bj.arm.tedu.cn/zt/qrs/" target="_blank" title="嵌入式培训先就业后付款"&gt;&lt;img src="/static/images/advert4.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.samsung.com/cn/consumer/mobile-phones/smart-phone/" target="_blank" title="Galaxy S6/S6 edge/Note/A7等"&gt;&lt;img src="/static/images/advert5.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.cisco.com/web/CN/offers/iot/manufacturing/index.html" target="_blank" title="思科互联网+解决方案"&gt;&lt;img src="/static/images/advert6.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt; --&gt;
+&lt;div class="advert clearfix"&gt;
+    &lt;div class="ad-left" id='646'&gt;
+&lt;script&gt;
+enetad.load("646");
+&lt;/script&gt;
+    &lt;/div&gt;
+    &lt;!-- &lt;div class="ad-right" id='641'&gt;
+        &lt;a target="_blank" href="http://www.enet.com.cn/enews/zhuanti/2015/ichina2015live/"&gt;&lt;img src="/static/images/ad3.jpg"&gt;&lt;/a&gt;
+        &lt;script type="text/javascript"&gt;
+            enetad.load("641");
+        &lt;/script&gt;
+    &lt;/div&gt; --&gt;
+&lt;/div&gt;
+&lt;!-- &lt;div class="advert clearfix"&gt; --&gt;
+&lt;!--     &lt;div class="ad-left ad-all" id="644"&gt;
+            &lt;script type="text/javascript"&gt;
+            enetad.load("644");
+        &lt;/script&gt; --&gt;
+&lt;!--
+        &lt;script type="text/javascript"&gt;
+            /*640*60 创建于 2015-08-31*/
+            var cpro_id = "u2288885";
+        &lt;/script&gt;
+        &lt;script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"&gt;&lt;/script&gt;
+--&gt;
+&lt;!-- &lt;script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"&gt;&lt;/script&gt; --&gt;
+&lt;!-- topleft 640x60 --&gt;
+&lt;!-- &lt;ins class="adsbygoogle"
+     style="display:inline-block;width:640px;height:60px"
+     data-ad-client="ca-pub-7571901627517328"
+     data-ad-slot="1859818693"&gt;&lt;/ins&gt; --&gt;
+&lt;!-- &lt;script&gt;
+(adsbygoogle = window.adsbygoogle || []).push( {
+});
+&lt;/script&gt; --&gt;
+    &lt;!-- &lt;/div&gt; --&gt;
+        &lt;!-- &lt;a target="_blank" href="http://www.enet.com.cn/enews/zhuanti/2015/ichina2015live/"&gt;&lt;img src="/static/images/ad3.jpg"&gt;&lt;/a&gt; --&gt;
+    &lt;!-- &lt;div class="ad-right" id='641'&gt;
+        &lt;script type="text/javascript"&gt;
+            enetad.load("641");
+        &lt;/script&gt;
+    &lt;/div&gt; --&gt;
+&lt;!-- &lt;/div&gt; --&gt;
+&lt;!-- top end --&gt;
+
+&lt;!-- cat_top --&gt;
+
+&lt;!-- hea-top --&gt;
+
+&lt;style type="text/css"&gt;
+    .hea-nav {
+position: relative;
+}
+
+.hea-top {
+height: 140px;
+padding: 14px 0 0;
+background: url(/static/images/hea_bg_h.jpg) no-repeat center center #176db6;
+background-size: cover;
+}
+
+.hea-nav-con {
+width: 640px;
+margin: 0 40px 0 17px;
+}
+
+.nav-down {
+background: none;
+}
+
+.nav-con-ul li.active .nav-down {
+background: none;
+}
+
+.nav-con-ul .nav-down-wid {
+border-left: 1px solid #1e76c1;
+border-right: 1px solid #1e76c1;
+}
+
+.nav-down-wid.net {
+border: none;
+}
+
+ul.nav-con-ul .nav-down-wid {
+padding: 0 26px !important;
+margin: 4px 0;
+margin-left: -1px;
+}
+
+ul.nav-con-ul li a {
+width: 100% !important;
+padding: 0 !important;
+font-size: 18px !important;
+line-height: 30px;
+letter-spacing: 1px;
+}
+
+ul.nav-con-bottom {
+padding-left: 13px;
+}
+
+ul.nav-con-bottom li {
+padding: 0 13px;
+margin-top: 7px;
+}
+
+.nav-con-bottom li.active {
+background: #1e578e;
+background: rgba(30,90,145,0.8);
+}
+
+ul.nav-con-bottom li a {
+font-size: 15px !important;
+}
+
+ul.nav-con-ul .nav-li-sub a {
+text-align: center;
+padding: 0 5px !important;
+font-size: 15px !important;
+}
+
+ul.nav-con-ul .nav-li-xiala a {
+color: #424242;
+}
+
+.nav-li-xiala {
+top: 30px;
+min-width: auto;
+padding: 15px;
+}
+
+.hea-old-enet {
+float: right;
+margin: 58px 7px 0 0;
+}
+
+.old-enet-con {
+ /*left: -114px;*/
+}
+    /*.hea-search{display: none;}*/
+.hea-search {
+width: 165px;
+border-radius: 8px;
+background-color: #68aceb;
+position: absolute;
+right: 0;
+padding: 1px 5px;
+margin-top: 9px;
+/* border: 1px solid #002d65;*/
+}
+
+.hea-search input {
+background: none;
+width: 85%;
+height: 25px;
+color: #003474;
+font-size: 16px;
+}
+
+.hea-search a.search {
+margin-left: 0;
+margin-top: 2px;
+width: 20px;
+}
+&lt;/style&gt;
+&lt;!--[if IE 8]&gt;
+&lt;style&gt;
+    * {
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+-ms-box-sizing: content-box;
+-o-box-sizing: content-box;
+box-sizing: content-box;
+}
+
+.hea-top {
+height: 128px;
+}
+
+.old-enet-con {
+width: 207px;
+}
+
+.hea-search input {
+width: 78%;
+}
+&lt;/style&gt;
+&lt;![endif]--&gt;
+&lt;div class="hea-top"&gt;
+    &lt;div class="hea-nav clearfix"&gt;
+        &lt;div class="hea-logo"&gt;
+            &lt;a href="http://www.enet.com.cn/"&gt;&lt;img src="/static/images/logo_h.png" width="184" height="80" /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="hea-nav-con index-nav"&gt;
+            &lt;ul class="nav-con-ul clearfix"&gt;
+                &lt;li class="news nav-down-wid"&gt;
+                    &lt;a href="/tag/news" target="_blank" class="nav-down"&gt;eNews&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a href="/tag/ceotalk" target="_blank"&gt;CEO访谈&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/enews/zhuanti/figure/" target="_blank"&gt;人物汇&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/special/" target="_blank"&gt;专题&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/sequencing" target="_blank"&gt;基因测序&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/carbonbar" target="_blank"&gt;碳纤维&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/tombarthite" target="_blank"&gt;稀土永磁&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/oled" target="_blank"&gt;OLED&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/graphene" target="_blank"&gt;石墨烯&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/htsc" target="_blank"&gt;超导&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/photovoltaic" target="_blank"&gt;光伏&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/industry4" target="_blank"&gt;工业4.0&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/mlchina" target="_blank"&gt;美丽中国&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/jkchina" target="_blank"&gt;健康中国&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/obor" target="_blank"&gt;一带一路&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/ai" target="_blank" class="nav-down"&gt;人工智能&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/wearablesmartdevices"&gt;智能穿戴&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/drone"&gt;无人机&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/robotsforhome"&gt;机器人（家用）&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/robotsforindustry"&gt;机器人（工业）&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/vrar"&gt;VR、AR&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/autonomousdriving"&gt;无人驾驶&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/smartfrontier"&gt;智能前沿&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/lservice" target="_blank" class="nav-down"&gt;生活服务&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/integratedecommerce"&gt;综合电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/crossborderecommerce"&gt;跨境电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/freshproduceecommerce"&gt;生鲜电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/ecommerceforbaby"&gt;母婴电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/b2becommerce"&gt;B2B电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/ecommercecountryside"&gt;农村电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/affordableluxuries"&gt;轻奢&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/communityservice"&gt;社区服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/cateringservice"&gt;餐饮服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/housedecoration"&gt;家装（装修）&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/housepropertyinformation"&gt;房产信息 &lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/integratedlifeservice"&gt;综合生活服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/logistics"&gt;物流 &lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/Internetmedicaltreatment"&gt;互联网医疗&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/appmarket"&gt;APP应用市场&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/travelagencyService"&gt;旅游服务平台&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/lawservice"&gt;法律服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/transportservice"&gt;出行服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/educationservice"&gt;教育服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/sportsservice"&gt;体育服务平台&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/scenic"&gt;景点&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/fmcg"&gt;快消品&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/society"&gt;社交&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/eservice" target="_blank" class="nav-down"&gt;企业服务&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala nav-li-r"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/serviceprovider"&gt;服务器&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/storage"&gt;存储&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/security"&gt;安全&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/cloudcomputing"&gt;云计算&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/bigdata"&gt;大数据&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/businesswifi"&gt;商用WiFi&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/communication"&gt;通信&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/saas"&gt;SaaS&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/humanresources"&gt;人力&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/financetax"&gt;财税&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/businesssolution"&gt;解决方案&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/financial" target="_blank" class="nav-down"&gt;金融&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala nav-li-r"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/securities"&gt;证券&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/insurances"&gt;保险&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/commercialbank"&gt;商业银行&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/directban"&gt;直销银行&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/municipalcommercialbank"&gt;城市商业银行&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/internetfinance"&gt;互联网金融&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/financeeconomics"&gt;财经&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/payment"&gt;支付&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/banktrust"&gt;信托&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid" style="padding: 0 25px 0 24px !important;"&gt;
+                    &lt;a href="/category/3cproduct" target="_blank" class="nav-down"&gt;3C产品&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/telephone"&gt;手机&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/homecomputer"&gt;家用电脑&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/businesscomputer"&gt;商用电脑&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/allinonepc"&gt;一体机&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/gamecomputer"&gt;游戏本&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/intelligenttv"&gt;智能电视&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/refrigerator"&gt;冰箱&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/purifier"&gt;净化器&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/washingmachine"&gt;洗衣机&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/airconditioner"&gt;空调&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/iptv"&gt;电视盒子&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/bathroomsupply"&gt;卫浴&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/kitchenappliances"&gt;厨电&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/photocopier"&gt;打印机&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/projector"&gt;投影&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/smartcity" target="_blank" class="nav-down"&gt;智慧城市&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/egovernment"&gt;电子政务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/citysolution"&gt;智慧城市解决方案&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/iot"&gt;物联网&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/IntelligentManufacture"&gt;智能制造&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/IntelligentHome"&gt;智慧家庭&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/digitalmarket" target="_blank" class="nav-down"&gt;数字营销&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/internetadvertisement"&gt;网络广告&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/mobilenetworkad"&gt;移动网络广告&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/dsp"&gt;DSP&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/pr"&gt;PR公关传播&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/media"&gt;传媒&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/artdesign" target="_blank" class="nav-down"&gt;文创&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala nav-li-r"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/acg"&gt;二次元&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/shortvideo"&gt;短视频&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/onlinevideo"&gt;在线视频&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/internetradio"&gt;电台&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/picturessharing"&gt;图片分享&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/reading"&gt;阅读&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/industrialpark"&gt;产业园区&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/startup"&gt;科技创投&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/environmentalpreservation"&gt;环保生活&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/incubatortech"&gt;科技孵化&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/filmtelevision"&gt;影视&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/music"&gt;音乐&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/entertainment"&gt;综艺节目&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/Desp"&gt;数字娱乐服务平台&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/telephonegames"&gt;手机游戏&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/internetgames"&gt;网络游戏&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/panentertainment"&gt;泛娱乐&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/live"&gt;直播&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/car" target="_blank" class="nav-down"&gt;汽车&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala nav-li-r"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/InternetofVehicles"&gt;车联网&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/automobilesinformation"&gt;汽车综合信息服务平台&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/secondhandcars"&gt;二手车&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/electricitydrivingautomobiles"&gt;电动汽车&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/financeofcars"&gt;汽车金融&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/automotiveaftermarket"&gt;汽车后市场&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="nav-con-ul nav-con-bottom"&gt;
+                &lt;li&gt;&lt;a href="/tag/energy" target="_blank"&gt;能源&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/rohs" target="_blank"&gt;环保&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/AdMaterials" target="_blank"&gt;新材料&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/photoelectron" target="_blank"&gt;光电子&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/semiconductor" target="_blank"&gt;半导体&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/cheme" target="_blank"&gt;化工&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/spinning" target="_blank"&gt;纺织&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/medicine" target="_blank"&gt;医药&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/art" target="_blank"&gt;艺术&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div class="hea-old-enet"&gt;
+            &lt;span id="old-enet-a"&gt;&lt;img src="/static/images/old-enet.png" width="25" height="30" /&gt;&lt;/span&gt;
+            &lt;div class="old-enet-con"&gt;&lt;a href="http://games.enet.com.cn/" target="_blank"&gt;游戏先锋&lt;/a&gt;&lt;a href="/itbrand/" target="_blank"&gt;ITBrand&lt;/a&gt;&lt;a href="http://www.enet.com.cn/" target="_blank"&gt;产品库&lt;/a&gt;&lt;a href="/elady/" target="_blank"&gt;IT女性&lt;/a&gt;&lt;a href="/eschool/" target="_blank"&gt;学院&lt;/a&gt;&lt;a href="http://bbs.enet.com.cn/" target="_blank"&gt;论坛&lt;/a&gt;&lt;a href="http://download.enet.com.cn/" target="_blank"&gt;下载&lt;/a&gt;&lt;a href="/pic/" target="_blank"&gt;图片&lt;/a&gt;&lt;a href="/pic/" target="_blank"&gt;... ...&lt;/a&gt;&lt;a class="old-enet-btn" href="http://www.enet.com.cn/index.shtml" target="_blank"&gt;旧版首页&lt;/a&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="hea-search"&gt;
+            &lt;script type="text/javascript"&gt;
+                function searchX(event) {
+if(event&amp;&amp;event.keyCode==13||event==undefined){
+                        var _k=$('#q').val();
+                        if (_k!='搜索'&amp;&amp;_k.length&gt;1) {
+                            $('#searchForm').submit();
+}
+
+else {
+$('#q').val('关键字太短');
+                            setTimeout(function() {$('#q').val('')
+},1000);
+}
+                    }
+                }
+            &lt;/script&gt;
+            &lt;form action="http://eso.enet.com.cn/?" method="get" id="searchForm" name="searchForm"&gt;
+                &lt;input name="q" id="q" type="text" value="搜索" onfocus="if (value =='搜索'){value =''}" onblur="if (value ==''){value='搜索'}" onkeypress="searchX(event)" /&gt;
+                &lt;input type="" name="" style="display:none;" /&gt;
+                &lt;a class="search" href="#" onclick="searchX()"&gt;&lt;/a&gt;
+            &lt;/form&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- hea-top end--&gt;
+
+&lt;script type="text/javascript"&gt;
+//旧版 ENET 下拉菜单
+$('.hea-old-enet').hover(function() {
+$('.old-enet-con').stop().fadeToggle('4000')
+})
+
+//主导航下拉菜单20160811
+$(".nav-down").mouseover(function() {
+$(this).closest("li").addClass('active').find(".nav-li-xiala").stop().slideDown(200);
+});
+$(".nav-down-wid").mouseleave(function() {
+$(this).closest("li").removeClass('active').find('.nav-li-xiala').stop().slideUp(100);
+});
+
+$(".nav-con-bottom li").hover(function() {
+$(this).addClass('active').siblings().removeClass('active');
+},function() {
+$(this).removeClass('active');
+});
+
+// 设定下拉二级的盒子宽度
+var widthTotal = $('.nav-con-ul').width();
+var x0 = $('.nav-con-ul').offset().left;
+var xOld = $('.hea-old-enet').offset().left;
+$('.nav-li-xiala').each(function() {
+$(this).width(widthTotal-($(this).closest("li").offset().left-x0));
+})
+$('.nav-li-xiala.nav-li-r').each(function() {
+$(this).width(xOld-$(this).closest("li").offset().left-45);
+})
+
+&lt;/script&gt;
+
+    &lt;/div&gt;
+    &lt;div class="shadow"&gt;
+        &lt;div class="sha-con"&gt;
+            &lt;span&gt;今日推荐&amp;nbsp;:&amp;nbsp;&lt;/span&gt;&lt;a target="_blank" href="/article/2017/0330/A20170330029602.html"&gt;不与互联网貌合神离，就不会死在“互联网+”的沙滩上&lt;/a&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="content"&gt;
+        &lt;div class="con-top" style="overflow:hidden;"&gt;
+            &lt;div class="slider"&gt;
+                &lt;div class="bd"&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;
+                            &lt;a target="_blank" title="2017新互联网公司TOP300" href="http://www.enet.com.cn/article/2017/0324/A20170324029293.html"&gt;
+                                &lt;img src="/static/images/2017/slider-13.jpg" alt="2017新互联网公司TOP300" /&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a target="_blank" title="2016企业服务经典案例" href="http://www.enet.com.cn/enews/zhuanti/2017/qyfw/"&gt;
+                                &lt;img src="/static/images/2017/slider-12.jpg" alt="2016企业服务经典案例" /&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a target="_blank" title="我心中的理想世界" href="http://www.enet.com.cn/enews/zhuanti/2017/idealworld/"&gt;
+                                &lt;img src="static/images/2017/slider-11.jpg" alt="我心中的理想世界" /&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a target="_blank" title="2016《互联网周刊》年度人物&amp;年度产品颁奖隆重揭晓" href="http://www.enet.com.cn/enews/zhuanti/2017/2016banjiangyan/"&gt;
+                                &lt;img src="static/images/2017/slider-10.jpg" alt="2016《互联网周刊》年度人物&amp;年度产品颁奖隆重揭晓" /&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="hd"&gt;
+                    &lt;ul&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="pnBtn prev"&gt;&lt;span class="blackBg"&gt;&lt;/span&gt;
+                    &lt;a class="arrows" href="javascript:void(0)"&gt;&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class="pnBtn next"&gt;&lt;span class="blackBg"&gt;&lt;/span&gt;
+                    &lt;a class="arrows" href="javascript:void(0)"&gt;&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="con-bottom"&gt;
+            &lt;div class="con-bot-next clearfix"&gt;
+                &lt;div class="next-sub subfirst"&gt;
+                    &lt;a class="subimg" target="_blank" title="充满鲜花的世界到底在哪里？" href="http://www.enet.com.cn/article/2017/0313/A20170313028575.html"&gt;&lt;img src="/static/images/2017/img5.jpg" width="229" height="150" alt="充满鲜花的世界到底在哪里？" /&gt;&lt;/a&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028577.html" title="理想的光芒终将照进现实" target="_blank"&gt;理想的光芒终将照进现实&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028572.html" title="理想，是开在每个人心中的花" target="_blank"&gt;理想，是开在每个人心中的花&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028573.html" title="治世，须先修心" target="_blank"&gt;治世，须先修心&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+
+                &lt;/div&gt;
+                &lt;div class="next-sub"&gt;
+                    &lt;a class="subimg" target="_blank" title="此谓大同" href="http://www.enet.com.cn/article/2017/0313/A20170313028576.html"&gt;&lt;img src="/static/images/2017/img6.jpg" width="229" height="150" alt="此谓大同" /&gt;&lt;/a&gt;
+                    &lt;ul&gt;
+                       &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028578.html" title="君来看花时，花色一时明" target="_blank"&gt;君来看花时，花色一时明&lt;/a&gt;&lt;/li&gt;
+                       &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028579.html" title="你有理想你厉害" target="_blank"&gt;你有理想你厉害&lt;/a&gt;&lt;/li&gt;
+                       &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028580.html" title="如果爱情……可以这样……" target="_blank"&gt;如果爱情……可以这样……&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="next-sub"&gt;
+                    &lt;a class="subimg" target="_blank" title="未知的世界和当下这座城" href="http://www.enet.com.cn/article/2017/0313/A20170313028569.html"&gt;&lt;img src="/static/images/2017/img7.jpg" width="229" height="150" alt="未知的世界和当下这座城" /&gt;&lt;/a&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028568.html" title="幻想那片有着特别气息的乐土" target="_blank"&gt;幻想那片有着特别气息的乐土&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028567.html" title="平坦的世界，梦想会更近" target="_blank"&gt;平坦的世界，梦想会更近&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028566.html" title="做人一地肝胆，做人何惧艰险，豪情不变年复一年" target="_blank"&gt;做人一地肝胆，做人何惧艰险，豪情不变年复一年&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="next-sub"&gt;
+                    &lt;a class="subimg" target="_blank" title="现在的世界好么？当然不好" href="http://www.enet.com.cn/article/2017/0313/A20170313028562.html"&gt;&lt;img src="/static/images/2017/img8.jpg" width="229" height="150" alt="现在的世界好么？当然不好"/&gt;&lt;/a&gt;
+                    &lt;!-- &lt;div id="636"&gt;&lt;script&gt;enetad.load('636')&lt;/script&gt;&lt;/div&gt; --&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028560.html" title="三体人的世界" target="_blank"&gt;三体人的世界&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028559.html" title="修圣人之心，成不器之器" target="_blank"&gt;修圣人之心，成不器之器&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028558.html" title="“大同”是“仁”的最终归途" target="_blank"&gt;“大同”是“仁”的最终归途&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="footer container-fluid"&gt;
+	&lt;div class="foo-nav"&gt;
+	    &lt;ul class="clearfix"&gt;
+	        &lt;!-- &lt;li&gt;&lt;a href="/about/culture/culture.html"&gt;企业文化&lt;/a&gt;|&lt;/li&gt; --&gt;
+	        &lt;li&gt;&lt;a href="/about/service/service.html"&gt;客户服务&lt;/a&gt;|&lt;/li&gt;
+	        &lt;li&gt;&lt;a href="/about/joinus/joinus.html"&gt;招聘信息&lt;/a&gt;|&lt;/li&gt;
+	        &lt;li&gt;&lt;a href="/about/manual/manual.html"&gt;员工手册&lt;/a&gt;|&lt;/li&gt;
+	        &lt;li&gt;&lt;a href="/tag/gsdt"&gt;公司动态&lt;/a&gt;|&lt;/li&gt;
+	        &lt;li&gt;&lt;a href="/tag/enc"&gt;ENC&lt;/a&gt;|&lt;/li&gt;
+	        &lt;li&gt;&lt;a href="/tag/encplus"&gt;ENC+&lt;/a&gt;&lt;/li&gt;
+	    &lt;/ul&gt;
+	    &lt;p class="foo-nav-p"&gt;网站合作、内容监督、商务咨询、投诉建议：010-65245588&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class="foo-con"&gt;
+		&lt;p class="foo-con-p"&gt;Copyright &amp;#169; 2000--&lt;script language="JavaScript" type="text/JavaScript"&gt;
+    var year="";
+    mydate=new Date();
+    myyear= mydate.getYear();
+    year=(myyear &gt; 200) ? myyear : 1900 + myyear;
+    document.write(year);
+    &lt;/script&gt; 硅谷动力公司版权所有 京ICP证000088号 京公网安备11010502026777号&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;script language="JavaScript" type="text/javascript" src="http://pv.enet.com.cn/counter.php"&gt;&lt;/script&gt;
+&lt;script language="JavaScript" type="text/javascript" src="http://frame.enet.com.cn/a.php"&gt;&lt;/script&gt;
+    &lt;script src="static/js/slide.js"&gt;&lt;/script&gt;
+    &lt;script&gt;
+    jQuery(".slider .bd li").first().before(jQuery(".slider .bd li").last());
+
+
+    jQuery(".slider").mousemove(function(e) {
+jQuery(this).find(".arrows").stop(true, true).fadeIn(300);
+});
+
+jQuery(".slider").hover(function() {
+jQuery(this).find(".arrows").stop(true, true).fadeIn(300);
+},
+function() {
+jQuery(this).find(".arrows").fadeOut(300);
+});
+    /* 轮播图 */
+jQuery(".slider").slide( {
+titCell: ".hd ul",
+        mainCell: ".bd ul",
+        autoPage: true,
+        effect: "leftLoop",
+        autoPlay: true,
+        vis: 3,
+        trigger: "mouseover",
+        pnLoop:true,
+});
+
+    &lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+&lt;!doctype html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=8" /&gt;
+    &lt;meta name="format-detection" content="telephone=no"&gt;
+    &lt;title&gt;eNet硅谷动力 - 回到起点，承兑初心&lt;/title&gt;
+    &lt;meta name="description" content="eNet硅谷动力网站是中国权威的IT产品信息与商业流通门户，涵盖电脑,笔记本,手机,通信产品,数码产品,家电产品等全线IT领域，拥有IT资讯,科技新闻,IT产品库,IT商城,硬件,DIY,手机,数码,MP3,MP4,游戏,评测,学院,下载,服务器,存储,安全等30余个主力频道，每天发布大量IT产品信息及文章专题，是IT行业最重要的网上信息获取和沟通平台。"&gt;
+    &lt;meta name="keywords" content="硅谷动力,eNet,硅谷,IT新闻,科技资讯,互联网新闻,通信新闻,评论,信息,解决方案,手机,笔记本,整机,PC,台式机,数码相机,摄像机,MP3,MP4,MP5,播放器,硬件,DIY,外设,CPU,内存,硬盘,主板,显卡,显示器,掌上电脑,PDA,数码,DC,DV,电脑,外设,电视,家电,液晶电
+    视,空调,冰箱,洗衣机,小家电,服务器,存储,网络设备,打印机,商城,下载,游戏,学院,软件,教程,经销商,新品,评测,行情,报价,降价,导购,电脑市场,卖场,渠道商情,办公,OA,CIO,CTO,北京,上海,广州,深圳,中关村,培训,认证,论坛,博客,摄影,样张"&gt;
+    &lt;meta name="format-detection" content="telephone=no" /&gt;
+    &lt;meta name="format-detection" content="email=no" /&gt;
+    &lt;link href="static/css/public.css" type="text/css" rel="stylesheet"&gt;
+    &lt;link href="static/css/model.css" type="text/css" rel="stylesheet"&gt;
+    &lt;link href="static/css/slide.css" rel="stylesheet"&gt;
+    &lt;script src="static/js/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;
+
+&lt;/head&gt;
+&lt;!--[if IE 8]&gt;
+&lt;style&gt;
+* {
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+-ms-box-sizing: content-box;
+-o-box-sizing: content-box;
+box-sizing: content-box;
+}
+
+.nav-li-nav {
+max-width: 195px;
+padding: 5px 15px 0;
+}
+
+.nav-li-nav3 {
+max-width: 130px;
+}
+&lt;/style&gt;
+&lt;![endif]--&gt;
+
+&lt;body&gt;
+    &lt;div class="header"&gt;
+            &lt;script src='http://images.enet.com.cn/js/ad.js'&gt;&lt;/script&gt;
+&lt;!-- top 广告  --&gt;
+&lt;!-- &lt;ul class="advert clearfix"&gt;
+    &lt;li class="first"&gt;&lt;a href="http://shopping1.hp.com/is-bin/INTERSHOP.enfinity/WFS/WW-CNPublicStore-Site/zh_CN/-/CNY/ViewStandardCatalog-Browse?CatalogCategoryID=cU8Q2MZOFnUAAAFCWzxQq6Mz&amp;jumpid=ps_ft4h3m6wy8" target="_blank" title="惠普游戏笔记本 "&gt;&lt;img src="/static/images/advert1.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.ibm.com/cloud-computing/cn/zh/index.html" target="_blank" title="私有云解决方案"&gt;&lt;img src="/static/images/advert2.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.enet.com.cn/enews/zhuanti/2015/ichina2015/" target="_blank" title="2015（第十三届）中国互联网经济论坛"&gt;&lt;img src="/static/images/advert3.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://bj.arm.tedu.cn/zt/qrs/" target="_blank" title="嵌入式培训先就业后付款"&gt;&lt;img src="/static/images/advert4.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.samsung.com/cn/consumer/mobile-phones/smart-phone/" target="_blank" title="Galaxy S6/S6 edge/Note/A7等"&gt;&lt;img src="/static/images/advert5.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.cisco.com/web/CN/offers/iot/manufacturing/index.html" target="_blank" title="思科互联网+解决方案"&gt;&lt;img src="/static/images/advert6.jpg" width="150" height="28"/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt; --&gt;
+&lt;div class="advert clearfix"&gt;
+    &lt;div class="ad-left" id='646'&gt;
+&lt;script&gt;
+enetad.load("646");
+&lt;/script&gt;
+    &lt;/div&gt;
+    &lt;!-- &lt;div class="ad-right" id='641'&gt;
+        &lt;a target="_blank" href="http://www.enet.com.cn/enews/zhuanti/2015/ichina2015live/"&gt;&lt;img src="/static/images/ad3.jpg"&gt;&lt;/a&gt;
+        &lt;script type="text/javascript"&gt;
+            enetad.load("641");
+        &lt;/script&gt;
+    &lt;/div&gt; --&gt;
+&lt;/div&gt;
+&lt;!-- &lt;div class="advert clearfix"&gt; --&gt;
+&lt;!--     &lt;div class="ad-left ad-all" id="644"&gt;
+            &lt;script type="text/javascript"&gt;
+            enetad.load("644");
+        &lt;/script&gt; --&gt;
+&lt;!--
+        &lt;script type="text/javascript"&gt;
+            /*640*60 创建于 2015-08-31*/
+            var cpro_id = "u2288885";
+        &lt;/script&gt;
+        &lt;script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"&gt;&lt;/script&gt;
+--&gt;
+&lt;!-- &lt;script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"&gt;&lt;/script&gt; --&gt;
+&lt;!-- topleft 640x60 --&gt;
+&lt;!-- &lt;ins class="adsbygoogle"
+     style="display:inline-block;width:640px;height:60px"
+     data-ad-client="ca-pub-7571901627517328"
+     data-ad-slot="1859818693"&gt;&lt;/ins&gt; --&gt;
+&lt;!-- &lt;script&gt;
+(adsbygoogle = window.adsbygoogle || []).push( {
+});
+&lt;/script&gt; --&gt;
+    &lt;!-- &lt;/div&gt; --&gt;
+        &lt;!-- &lt;a target="_blank" href="http://www.enet.com.cn/enews/zhuanti/2015/ichina2015live/"&gt;&lt;img src="/static/images/ad3.jpg"&gt;&lt;/a&gt; --&gt;
+    &lt;!-- &lt;div class="ad-right" id='641'&gt;
+        &lt;script type="text/javascript"&gt;
+            enetad.load("641");
+        &lt;/script&gt;
+    &lt;/div&gt; --&gt;
+&lt;!-- &lt;/div&gt; --&gt;
+&lt;!-- top end --&gt;
+
+&lt;!-- cat_top --&gt;
+
+&lt;!-- hea-top --&gt;
+
+&lt;style type="text/css"&gt;
+    .hea-nav {
+position: relative;
+}
+
+.hea-top {
+height: 140px;
+padding: 14px 0 0;
+background: url(/static/images/hea_bg_h.jpg) no-repeat center center #176db6;
+background-size: cover;
+}
+
+.hea-nav-con {
+width: 640px;
+margin: 0 40px 0 17px;
+}
+
+.nav-down {
+background: none;
+}
+
+.nav-con-ul li.active .nav-down {
+background: none;
+}
+
+.nav-con-ul .nav-down-wid {
+border-left: 1px solid #1e76c1;
+border-right: 1px solid #1e76c1;
+}
+
+.nav-down-wid.net {
+border: none;
+}
+
+ul.nav-con-ul .nav-down-wid {
+padding: 0 26px !important;
+margin: 4px 0;
+margin-left: -1px;
+}
+
+ul.nav-con-ul li a {
+width: 100% !important;
+padding: 0 !important;
+font-size: 18px !important;
+line-height: 30px;
+letter-spacing: 1px;
+}
+
+ul.nav-con-bottom {
+padding-left: 13px;
+}
+
+ul.nav-con-bottom li {
+padding: 0 13px;
+margin-top: 7px;
+}
+
+.nav-con-bottom li.active {
+background: #1e578e;
+background: rgba(30,90,145,0.8);
+}
+
+ul.nav-con-bottom li a {
+font-size: 15px !important;
+}
+
+ul.nav-con-ul .nav-li-sub a {
+text-align: center;
+padding: 0 5px !important;
+font-size: 15px !important;
+}
+
+ul.nav-con-ul .nav-li-xiala a {
+color: #424242;
+}
+
+.nav-li-xiala {
+top: 30px;
+min-width: auto;
+padding: 15px;
+}
+
+.hea-old-enet {
+float: right;
+margin: 58px 7px 0 0;
+}
+
+.old-enet-con {
+ /*left: -114px;*/
+}
+    /*.hea-search{display: none;}*/
+.hea-search {
+width: 165px;
+border-radius: 8px;
+background-color: #68aceb;
+position: absolute;
+right: 0;
+padding: 1px 5px;
+margin-top: 9px;
+/* border: 1px solid #002d65;*/
+}
+
+.hea-search input {
+background: none;
+width: 85%;
+height: 25px;
+color: #003474;
+font-size: 16px;
+}
+
+.hea-search a.search {
+margin-left: 0;
+margin-top: 2px;
+width: 20px;
+}
+&lt;/style&gt;
+&lt;!--[if IE 8]&gt;
+&lt;style&gt;
+    * {
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+-ms-box-sizing: content-box;
+-o-box-sizing: content-box;
+box-sizing: content-box;
+}
+
+.hea-top {
+height: 128px;
+}
+
+.old-enet-con {
+width: 207px;
+}
+
+.hea-search input {
+width: 78%;
+}
+&lt;/style&gt;
+&lt;![endif]--&gt;
+&lt;div class="hea-top"&gt;
+    &lt;div class="hea-nav clearfix"&gt;
+        &lt;div class="hea-logo"&gt;
+            &lt;a href="http://www.enet.com.cn/"&gt;&lt;img src="/static/images/logo_h.png" width="184" height="80" /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="hea-nav-con index-nav"&gt;
+            &lt;ul class="nav-con-ul clearfix"&gt;
+                &lt;li class="news nav-down-wid"&gt;
+                    &lt;a href="/tag/news" target="_blank" class="nav-down"&gt;eNews&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a href="/tag/ceotalk" target="_blank"&gt;CEO访谈&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/enews/zhuanti/figure/" target="_blank"&gt;人物汇&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/special/" target="_blank"&gt;专题&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/sequencing" target="_blank"&gt;基因测序&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/carbonbar" target="_blank"&gt;碳纤维&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/tombarthite" target="_blank"&gt;稀土永磁&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/oled" target="_blank"&gt;OLED&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/graphene" target="_blank"&gt;石墨烯&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/htsc" target="_blank"&gt;超导&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/photovoltaic" target="_blank"&gt;光伏&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/industry4" target="_blank"&gt;工业4.0&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/mlchina" target="_blank"&gt;美丽中国&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/jkchina" target="_blank"&gt;健康中国&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="/tag/obor" target="_blank"&gt;一带一路&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/ai" target="_blank" class="nav-down"&gt;人工智能&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/wearablesmartdevices"&gt;智能穿戴&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/drone"&gt;无人机&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/robotsforhome"&gt;机器人（家用）&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/robotsforindustry"&gt;机器人（工业）&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/vrar"&gt;VR、AR&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/autonomousdriving"&gt;无人驾驶&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/smartfrontier"&gt;智能前沿&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/lservice" target="_blank" class="nav-down"&gt;生活服务&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/integratedecommerce"&gt;综合电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/crossborderecommerce"&gt;跨境电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/freshproduceecommerce"&gt;生鲜电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/ecommerceforbaby"&gt;母婴电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/b2becommerce"&gt;B2B电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/ecommercecountryside"&gt;农村电商&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/affordableluxuries"&gt;轻奢&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/communityservice"&gt;社区服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/cateringservice"&gt;餐饮服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/housedecoration"&gt;家装（装修）&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/housepropertyinformation"&gt;房产信息 &lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/integratedlifeservice"&gt;综合生活服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/logistics"&gt;物流 &lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/Internetmedicaltreatment"&gt;互联网医疗&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/appmarket"&gt;APP应用市场&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/travelagencyService"&gt;旅游服务平台&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/lawservice"&gt;法律服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/transportservice"&gt;出行服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/educationservice"&gt;教育服务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/sportsservice"&gt;体育服务平台&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/scenic"&gt;景点&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/fmcg"&gt;快消品&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/society"&gt;社交&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/eservice" target="_blank" class="nav-down"&gt;企业服务&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala nav-li-r"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/serviceprovider"&gt;服务器&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/storage"&gt;存储&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/security"&gt;安全&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/cloudcomputing"&gt;云计算&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/bigdata"&gt;大数据&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/businesswifi"&gt;商用WiFi&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/communication"&gt;通信&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/saas"&gt;SaaS&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/humanresources"&gt;人力&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/financetax"&gt;财税&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/businesssolution"&gt;解决方案&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/financial" target="_blank" class="nav-down"&gt;金融&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala nav-li-r"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/securities"&gt;证券&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/insurances"&gt;保险&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/commercialbank"&gt;商业银行&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/directban"&gt;直销银行&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/municipalcommercialbank"&gt;城市商业银行&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/internetfinance"&gt;互联网金融&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/financeeconomics"&gt;财经&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/payment"&gt;支付&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/banktrust"&gt;信托&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid" style="padding: 0 25px 0 24px !important;"&gt;
+                    &lt;a href="/category/3cproduct" target="_blank" class="nav-down"&gt;3C产品&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/telephone"&gt;手机&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/homecomputer"&gt;家用电脑&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/businesscomputer"&gt;商用电脑&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/allinonepc"&gt;一体机&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/gamecomputer"&gt;游戏本&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/intelligenttv"&gt;智能电视&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/refrigerator"&gt;冰箱&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/purifier"&gt;净化器&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/washingmachine"&gt;洗衣机&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/airconditioner"&gt;空调&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/iptv"&gt;电视盒子&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/bathroomsupply"&gt;卫浴&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/kitchenappliances"&gt;厨电&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/photocopier"&gt;打印机&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/projector"&gt;投影&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/smartcity" target="_blank" class="nav-down"&gt;智慧城市&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/egovernment"&gt;电子政务&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/citysolution"&gt;智慧城市解决方案&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/iot"&gt;物联网&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/IntelligentManufacture"&gt;智能制造&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/IntelligentHome"&gt;智慧家庭&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/digitalmarket" target="_blank" class="nav-down"&gt;数字营销&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/internetadvertisement"&gt;网络广告&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/mobilenetworkad"&gt;移动网络广告&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/dsp"&gt;DSP&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/pr"&gt;PR公关传播&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/media"&gt;传媒&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/artdesign" target="_blank" class="nav-down"&gt;文创&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala nav-li-r"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/acg"&gt;二次元&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/shortvideo"&gt;短视频&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/onlinevideo"&gt;在线视频&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/internetradio"&gt;电台&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/picturessharing"&gt;图片分享&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/reading"&gt;阅读&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/industrialpark"&gt;产业园区&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/startup"&gt;科技创投&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/environmentalpreservation"&gt;环保生活&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/incubatortech"&gt;科技孵化&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/filmtelevision"&gt;影视&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/music"&gt;音乐&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/entertainment"&gt;综艺节目&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/Desp"&gt;数字娱乐服务平台&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/telephonegames"&gt;手机游戏&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/internetgames"&gt;网络游戏&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/panentertainment"&gt;泛娱乐&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/live"&gt;直播&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-down-wid"&gt;
+                    &lt;a href="/category/car" target="_blank" class="nav-down"&gt;汽车&lt;/a&gt;
+                    &lt;div class="nav-li-sub"&gt;
+                        &lt;div class="nav-li-xiala nav-li-r"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/InternetofVehicles"&gt;车联网&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/automobilesinformation"&gt;汽车综合信息服务平台&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/secondhandcars"&gt;二手车&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/electricitydrivingautomobiles"&gt;电动汽车&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/financeofcars"&gt;汽车金融&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/tag/automotiveaftermarket"&gt;汽车后市场&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="nav-con-ul nav-con-bottom"&gt;
+                &lt;li&gt;&lt;a href="/tag/energy" target="_blank"&gt;能源&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/rohs" target="_blank"&gt;环保&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/AdMaterials" target="_blank"&gt;新材料&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/photoelectron" target="_blank"&gt;光电子&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/semiconductor" target="_blank"&gt;半导体&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/cheme" target="_blank"&gt;化工&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/spinning" target="_blank"&gt;纺织&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/medicine" target="_blank"&gt;医药&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/tag/art" target="_blank"&gt;艺术&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div class="hea-old-enet"&gt;
+            &lt;span id="old-enet-a"&gt;&lt;img src="/static/images/old-enet.png" width="25" height="30" /&gt;&lt;/span&gt;
+            &lt;div class="old-enet-con"&gt;&lt;a href="http://games.enet.com.cn/" target="_blank"&gt;游戏先锋&lt;/a&gt;&lt;a href="/itbrand/" target="_blank"&gt;ITBrand&lt;/a&gt;&lt;a href="http://www.enet.com.cn/" target="_blank"&gt;产品库&lt;/a&gt;&lt;a href="/elady/" target="_blank"&gt;IT女性&lt;/a&gt;&lt;a href="/eschool/" target="_blank"&gt;学院&lt;/a&gt;&lt;a href="http://bbs.enet.com.cn/" target="_blank"&gt;论坛&lt;/a&gt;&lt;a href="http://download.enet.com.cn/" target="_blank"&gt;下载&lt;/a&gt;&lt;a href="/pic/" target="_blank"&gt;图片&lt;/a&gt;&lt;a href="/pic/" target="_blank"&gt;... ...&lt;/a&gt;&lt;a class="old-enet-btn" href="http://www.enet.com.cn/index.shtml" target="_blank"&gt;旧版首页&lt;/a&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="hea-search"&gt;
+            &lt;script type="text/javascript"&gt;
+                function searchX(event) {
+if(event&amp;&amp;event.keyCode==13||event==undefined){
+                        var _k=$('#q').val();
+                        if (_k!='搜索'&amp;&amp;_k.length&gt;1) {
+                            $('#searchForm').submit();
+}
+
+else {
+$('#q').val('关键字太短');
+                            setTimeout(function() {$('#q').val('')
+},1000);
+}
+                    }
+                }
+            &lt;/script&gt;
+            &lt;form action="http://eso.enet.com.cn/?" method="get" id="searchForm" name="searchForm"&gt;
+                &lt;input name="q" id="q" type="text" value="搜索" onfocus="if (value =='搜索'){value =''}" onblur="if (value ==''){value='搜索'}" onkeypress="searchX(event)" /&gt;
+                &lt;input type="" name="" style="display:none;" /&gt;
+                &lt;a class="search" href="#" onclick="searchX()"&gt;&lt;/a&gt;
+            &lt;/form&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- hea-top end--&gt;
+
+&lt;script type="text/javascript"&gt;
+//旧版 ENET 下拉菜单
+$('.hea-old-enet').hover(function() {
+$('.old-enet-con').stop().fadeToggle('4000')
+})
+
+//主导航下拉菜单20160811
+$(".nav-down").mouseover(function() {
+$(this).closest("li").addClass('active').find(".nav-li-xiala").stop().slideDown(200);
+});
+$(".nav-down-wid").mouseleave(function() {
+$(this).closest("li").removeClass('active').find('.nav-li-xiala').stop().slideUp(100);
+});
+
+$(".nav-con-bottom li").hover(function() {
+$(this).addClass('active').siblings().removeClass('active');
+},function() {
+$(this).removeClass('active');
+});
+
+// 设定下拉二级的盒子宽度
+var widthTotal = $('.nav-con-ul').width();
+var x0 = $('.nav-con-ul').offset().left;
+var xOld = $('.hea-old-enet').offset().left;
+$('.nav-li-xiala').each(function() {
+$(this).width(widthTotal-($(this).closest("li").offset().left-x0));
+})
+$('.nav-li-xiala.nav-li-r').each(function() {
+$(this).width(xOld-$(this).closest("li").offset().left-45);
+})
+
+&lt;/script&gt;
+
+    &lt;/div&gt;
+    &lt;div class="shadow"&gt;
+        &lt;div class="sha-con"&gt;
+            &lt;span&gt;今日推荐&amp;nbsp;:&amp;nbsp;&lt;/span&gt;&lt;a target="_blank" href="/article/2017/0330/A20170330029602.html"&gt;不与互联网貌合神离，就不会死在“互联网+”的沙滩上&lt;/a&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="content"&gt;
+        &lt;div class="con-top" style="overflow:hidden;"&gt;
+            &lt;div class="slider"&gt;
+                &lt;div class="bd"&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;
+                            &lt;a target="_blank" title="2017新互联网公司TOP300" href="http://www.enet.com.cn/article/2017/0324/A20170324029293.html"&gt;
+                                &lt;img src="/static/images/2017/slider-13.jpg" alt="2017新互联网公司TOP300" /&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a target="_blank" title="2016企业服务经典案例" href="http://www.enet.com.cn/enews/zhuanti/2017/qyfw/"&gt;
+                                &lt;img src="/static/images/2017/slider-12.jpg" alt="2016企业服务经典案例" /&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a target="_blank" title="我心中的理想世界" href="http://www.enet.com.cn/enews/zhuanti/2017/idealworld/"&gt;
+                                &lt;img src="static/images/2017/slider-11.jpg" alt="我心中的理想世界" /&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a target="_blank" title="2016《互联网周刊》年度人物&amp;年度产品颁奖隆重揭晓" href="http://www.enet.com.cn/enews/zhuanti/2017/2016banjiangyan/"&gt;
+                                &lt;img src="static/images/2017/slider-10.jpg" alt="2016《互联网周刊》年度人物&amp;年度产品颁奖隆重揭晓" /&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="hd"&gt;
+                    &lt;ul&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="pnBtn prev"&gt;&lt;span class="blackBg"&gt;&lt;/span&gt;
+                    &lt;a class="arrows" href="javascript:void(0)"&gt;&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class="pnBtn next"&gt;&lt;span class="blackBg"&gt;&lt;/span&gt;
+                    &lt;a class="arrows" href="javascript:void(0)"&gt;&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="con-bottom"&gt;
+            &lt;div class="con-bot-next clearfix"&gt;
+                &lt;div class="next-sub subfirst"&gt;
+                    &lt;a class="subimg" target="_blank" title="充满鲜花的世界到底在哪里？" href="http://www.enet.com.cn/article/2017/0313/A20170313028575.html"&gt;&lt;img src="/static/images/2017/img5.jpg" width="229" height="150" alt="充满鲜花的世界到底在哪里？" /&gt;&lt;/a&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028577.html" title="理想的光芒终将照进现实" target="_blank"&gt;理想的光芒终将照进现实&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028572.html" title="理想，是开在每个人心中的花" target="_blank"&gt;理想，是开在每个人心中的花&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028573.html" title="治世，须先修心" target="_blank"&gt;治世，须先修心&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+
+                &lt;/div&gt;
+                &lt;div class="next-sub"&gt;
+                    &lt;a class="subimg" target="_blank" title="此谓大同" href="http://www.enet.com.cn/article/2017/0313/A20170313028576.html"&gt;&lt;img src="/static/images/2017/img6.jpg" width="229" height="150" alt="此谓大同" /&gt;&lt;/a&gt;
+                    &lt;ul&gt;
+                       &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028578.html" title="君来看花时，花色一时明" target="_blank"&gt;君来看花时，花色一时明&lt;/a&gt;&lt;/li&gt;
+                       &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028579.html" title="你有理想你厉害" target="_blank"&gt;你有理想你厉害&lt;/a&gt;&lt;/li&gt;
+                       &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028580.html" title="如果爱情……可以这样……" target="_blank"&gt;如果爱情……可以这样……&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="next-sub"&gt;
+                    &lt;a class="subimg" target="_blank" title="未知的世界和当下这座城" href="http://www.enet.com.cn/article/2017/0313/A20170313028569.html"&gt;&lt;img src="/static/images/2017/img7.jpg" width="229" height="150" alt="未知的世界和当下这座城" /&gt;&lt;/a&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028568.html" title="幻想那片有着特别气息的乐土" target="_blank"&gt;幻想那片有着特别气息的乐土&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028567.html" title="平坦的世界，梦想会更近" target="_blank"&gt;平坦的世界，梦想会更近&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028566.html" title="做人一地肝胆，做人何惧艰险，豪情不变年复一年" target="_blank"&gt;做人一地肝胆，做人何惧艰险，豪情不变年复一年&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="next-sub"&gt;
+                    &lt;a class="subimg" target="_blank" title="现在的世界好么？当然不好" href="http://www.enet.com.cn/article/2017/0313/A20170313028562.html"&gt;&lt;img src="/static/images/2017/img8.jpg" width="229" height="150" alt="现在的世界好么？当然不好"/&gt;&lt;/a&gt;
+                    &lt;!-- &lt;div id="636"&gt;&lt;script&gt;enetad.load('636')&lt;/script&gt;&lt;/div&gt; --&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028560.html" title="三体人的世界" target="_blank"&gt;三体人的世界&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028559.html" title="修圣人之心，成不器之器" target="_blank"&gt;修圣人之心，成不器之器&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="http://www.enet.com.cn/article/2017/0313/A20170313028558.html" title="“大同”是“仁”的最终归途" target="_blank"&gt;“大同”是“仁”的最终归途&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="footer container-fluid"&gt;
+	&lt;div class="foo-nav"&gt;
+	    &lt;ul class="clearfix"&gt;
+	        &lt;!-- &lt;li&gt;&lt;a href="/about/culture/culture.html"&gt;企业文化&lt;/a&gt;|&lt;/li&gt; --&gt;
+	        &lt;li&gt;&lt;a href="/about/service/service.html"&gt;客户服务&lt;/a&gt;|&lt;/li&gt;
+	        &lt;li&gt;&lt;a href="/about/joinus/joinus.html"&gt;招聘信息&lt;/a&gt;|&lt;/li&gt;
+	        &lt;li&gt;&lt;a href="/about/manual/manual.html"&gt;员工手册&lt;/a&gt;|&lt;/li&gt;
+	        &lt;li&gt;&lt;a href="/tag/gsdt"&gt;公司动态&lt;/a&gt;|&lt;/li&gt;
+	        &lt;li&gt;&lt;a href="/tag/enc"&gt;ENC&lt;/a&gt;|&lt;/li&gt;
+	        &lt;li&gt;&lt;a href="/tag/encplus"&gt;ENC+&lt;/a&gt;&lt;/li&gt;
+	    &lt;/ul&gt;
+	    &lt;p class="foo-nav-p"&gt;网站合作、内容监督、商务咨询、投诉建议：010-65245588&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class="foo-con"&gt;
+		&lt;p class="foo-con-p"&gt;Copyright &amp;#169; 2000--&lt;script language="JavaScript" type="text/JavaScript"&gt;
+    var year="";
+    mydate=new Date();
+    myyear= mydate.getYear();
+    year=(myyear &gt; 200) ? myyear : 1900 + myyear;
+    document.write(year);
+    &lt;/script&gt; 硅谷动力公司版权所有 京ICP证000088号 京公网安备11010502026777号&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;script language="JavaScript" type="text/javascript" src="http://pv.enet.com.cn/counter.php"&gt;&lt;/script&gt;
+&lt;script language="JavaScript" type="text/javascript" src="http://frame.enet.com.cn/a.php"&gt;&lt;/script&gt;
+    &lt;script src="static/js/slide.js"&gt;&lt;/script&gt;
+    &lt;script&gt;
+    jQuery(".slider .bd li").first().before(jQuery(".slider .bd li").last());
+
+
+    jQuery(".slider").mousemove(function(e) {
+jQuery(this).find(".arrows").stop(true, true).fadeIn(300);
+});
+
+jQuery(".slider").hover(function() {
+jQuery(this).find(".arrows").stop(true, true).fadeIn(300);
+},
+function() {
+jQuery(this).find(".arrows").fadeOut(300);
+});
+    /* 轮播图 */
+jQuery(".slider").slide( {
+titCell: ".hd ul",
+        mainCell: ".bd ul",
+        autoPage: true,
+        effect: "leftLoop",
+        autoPlay: true,
+        vis: 3,
+        trigger: "mouseover",
+        pnLoop:true,
+});
+
+    &lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+
