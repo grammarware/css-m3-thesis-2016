@@ -1,0 +1,339 @@
+#door-full {
+    position: relative;
+    width: 970px;
+}
+
+#door-full-fix {
+    width: 970px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.door-full-mid {
+    width: 980px;
+    height: 150px;
+    margin-left: -5px;
+}
+
+.door-full-left {
+    position: absolute;
+    left: -155px;
+    height: 750px;
+    margin-top: -150px;
+}
+
+.door-full-right {
+    position: absolute;
+    right: -155px;
+    height: 750px;
+    margin-top: -150px;
+}
+
+#main {
+    position: relative;
+}
+
+#door-full-fix-head {
+    height: 150px;
+}
+
+#door {
+    position: relative;
+    width: 970px;
+    top: 97px;
+    height: 1px;
+}
+
+#door-left {
+    position: absolute;
+    left: -155px;
+    height: 600px;
+}
+
+#door-right {
+    position: absolute;
+    right: -155px;
+    height: 600px;
+}
+
+.door-right-head, .door-left-head {
+    width: 155px;
+    height: 83px;
+    background-color: white;
+    margin-top: -96px;
+    margin-left: -5px;
+    margin-bottom: 5px;
+    border-bottom: 6px solid #2e6ab0;
+}
+
+.door-left-head {
+    margin-left: 0px;
+}
+
+#door-top-over, #door-home-over, .door-top-over-amg-open {
+    position: fixed;
+    z-index: 4001;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 120%;
+    width: 100%;
+    text-align: center;
+    padding-top: 95px;
+}
+
+.door-top-close, .door-home-close {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    background: url(http://news.ltn.com.tw/images/news/bt-x.png) top center no-repeat;
+    background-size: 36px 36px;
+    cursor: pointer;
+    z-index: 10999999;
+    margin-left: 400px;
+    margin-top: 95px;
+    padding: 0 20px 20px 0px;
+}
+
+.door-home-close {
+    width: 86px;
+    height: 86px;
+    padding: 0 0 0 0;
+}
+
+.colcon9 {
+    position: relative;
+}
+
+.tit9video {
+    background-color: #e92727;
+}
+
+.swiper-container {
+    height: 290px;
+}
+
+.swiper-wrapper {
+    width: 650px;
+    margin: 10px auto;
+}
+
+.swiper-wrapper .swiper-slide {
+    float: left;
+    width: 320px;
+    height: 239px;
+    margin: 0px;
+    border-bottom: solid 4px #e33d53;
+    background-color: #f8f0e3;
+}
+
+.swiper-wrapper .swiper-slide:nth-child(2n) {
+/*margin-left:10px;*/
+}
+
+.swiper-wrapper .swiper-slide &gt; a &gt; img {
+    width: 100%;
+}
+
+.swiper-wrapper .swiper-slide a {
+    display: block;
+    width: 320px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.swiper-wrapper .swiper-slide a:hover {
+    color: #039;
+}
+
+.swiper-wrapper .swiper-slide a.tit {
+    width: 304px;
+    height: 45px;
+    padding: 5px 8px;
+    margin: 0;
+    color: #222;
+    font-size: 15px;
+}
+
+.swiper-pagination {
+    margin: 0px auto;
+}
+
+.swiper-pagination-bullet-active {
+    background: #222;
+}
+/*左右鍵*/
+.swiper-button-next, .swiper-button-prev {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: -70px;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.swiper-button-next b {
+    display: block;
+    position: absolute;
+    top: 22%;
+    right: -19px;
+}
+
+.swiper-button-prev b {
+    display: block;
+    position: absolute;
+    top: 22%;
+    left: -12px;
+    z-index: 50;
+}
+
+.swiper-button-next {
+    right: 6px;
+}
+
+.swiper-button-prev {
+    left: 0px;
+}
+
+.swiper-button-prev:after {
+    position: absolute;
+    left: -34px;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    color: #ff616d;
+}
+
+.evtTab, .evt {
+    display: none
+}
+
+.colcon41 {
+    font-family: "黑體", "微軟正黑體", "新細明體",Verdana, Arial, Geneva, sans-serif,helvetica;
+    clear: both;
+    height: 300px;
+    width: 650px;
+    border-bottom: 6px solid #fd9a19;
+    margin: 0px 0px 10px;
+}
+
+.colcon41 a.tit41 {
+    display: block;
+    height: 35px;
+    background: url(/images/layout/foodbg.png) no-repeat right 11px;
+    background-size: 190px;
+    border-bottom: 16px solid #fd9a19;
+    position: relative;
+}
+
+.colcon41 a.tit41 img {
+    width: 130px;
+    position: absolute;
+    top: 3px;
+    left: 8px;
+}
+
+.colcon41 a.tit41 span {
+    font-size: 23px;
+    font-weight: 900;
+    color: #43200d;
+    position: absolute;
+    left: 145px;
+    top: 8px;
+}
+
+.photo41 {
+    width: 155px;
+    height: 250px;
+    float: left;
+    text-align: center;
+    margin: 0px 10px 0px 0px;
+}
+
+.photo41 img {
+    width: 155px;
+    border-bottom: 2px solid #fd9a19;
+}
+
+.photo41:nth-child(2n+1) img {
+    border-top: 2px solid #fd9a19;
+    border-bottom: none;
+}
+
+.photo41 a {
+    display: block;
+    height: 222px;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.photo41 a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #fd9a19;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.photo41 .word41 {
+    display: block;
+    height: 27px;
+    line-height: 27px;
+}
+
+.photo41:last-child {
+    float: right;
+    margin: 0px;
+}
+
+.market300 {
+    width: 300px;
+    padding: 0px;
+    margin: 10px 0px;
+    letter-spacing: 1px;
+    clear: both;
+}
+
+.market300 strong {
+    display: block;
+    padding: 3px 5px;
+    margin-bottom: 5px;
+    background-color: #f7e1e3;
+}
+
+.market300 li {
+    width: 96%;
+    line-height: 20px;
+    padding: 5px 0px 5px 20px;
+    list-style: none;
+    background: url(http://news.ltn.com.tw/images/all/dot-light.gif) no-repeat 10px 13px;
+}
+
+.market300 a {
+    color: #005184;
+}
+
+.market300 span {
+    display: block;
+    border-top: 1px solid #dcdcdc;
+    padding: 2px 0px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: right;
+}
+

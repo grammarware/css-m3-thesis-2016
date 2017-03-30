@@ -1,0 +1,6421 @@
+@charset "utf-8";/*!
+Theme Name:Breitbart
+Theme URI:http://www.generationmoonshot.com
+Description:HTML5 Theme for Breitbart by Generation Moonshot.
+Author:Generation Moonshot
+Author URI:http://www.generationmoonshot.com
+Version:1.3
+Text Domain:breitbart
+Tags:breitbart
+*/@font-face {
+    font-family:'Fjalla One';font-weight:400;font-style:normal;src:url(http://fonts.gstatic.com/s/fjallaone/v4/rxxXUYj4oZ6Q5oDJFtEd6lQlYEbsez9cZjKsNMjLOwM.eot);src:url(http://fonts.gstatic.com/s/fjallaone/v4/rxxXUYj4oZ6Q5oDJFtEd6lQlYEbsez9cZjKsNMjLOwM.eot?#iefix) format('embedded-opentype'),url(//fonts.gstatic.com/s/fjallaone/v4/rxxXUYj4oZ6Q5oDJFtEd6vk_vArhqVIZ0nv9q090hN8.woff2) format('woff2'),url(//fonts.gstatic.com/s/fjallaone/v4/rxxXUYj4oZ6Q5oDJFtEd6hsxEYwM7FgeyaSgU71cLG0.woff) format('woff'),url(//fonts.gstatic.com/s/fjallaone/v4/rxxXUYj4oZ6Q5oDJFtEd6i3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')
+}
+
+@font-face {
+    font-family:'BebasNeueRegular';font-weight:400;font-style:normal;src:url(/t/assets/fonts/bbn.woff2) format('woff2'),url(/t/assets/fonts/bbn.woff) format('woff'),url(/t/assets/fonts/bbn.ttf) format('truetype'),url(/t/assets/fonts/bbn.eot?#iefix) format('embedded-opentype')
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline
+}
+
+html {
+    font-size: 62.5%;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+body {
+    background-color: #000;
+    color: #111;
+    font: 16px/1.4 Georgia,serif
+}
+
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,main {
+    display: block
+}
+
+ol,ul {
+    list-style: none
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0
+}
+
+caption,th,td {
+    font-weight: normal;
+    text-align: left
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+    content: ""
+}
+
+blockquote,q {
+    quotes: "" ""
+}
+
+blockquote {
+    border-left: 5px solid #ccc;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 30px
+}
+
+a:focus {
+    outline: thin dotted
+}
+
+a:hover,a:active {
+    outline: 0
+}
+
+a img {
+    border: 0
+}
+
+button,input,select,textarea {
+    color: #404040;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.5
+}
+
+h1,h2,h3,h4,h5,h6 {
+    clear: both;
+    font-family: 'BebasNeueRegular',sans-serif
+}
+
+h1 {
+    font-size: 48px;
+    line-height: .9em
+}
+
+h2 {
+    font-size: 55px
+}
+
+h3 {
+    font-size: 20px
+}
+
+p {
+    margin-bottom: 1.5em
+}
+
+b,strong {
+    font-weight: bold
+}
+
+dfn,cite,em,i {
+    font-style: italic
+}
+
+address {
+    margin: 0 0 1.5em
+}
+
+pre {
+    background: #eee;
+    font-family: "Courier 10 Pitch",Courier,monospace;
+    font-size: 15px;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em
+}
+
+code,kbd,tt,var {
+    font: 15px Monaco,Consolas,"Andale Mono","DejaVu Sans Mono",monospace
+}
+
+abbr,acronym {
+    border-bottom: 1px dotted #666;
+    cursor: help
+}
+
+mark,ins {
+    background: transparent;
+    text-decoration: none
+}
+
+sup,sub {
+    font-size: 75%;
+    height: 0;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    bottom: 1ex
+}
+
+sub {
+    top: .5ex
+}
+
+small {
+    font-size: 75%
+}
+
+big {
+    font-size: 125%
+}
+
+hr {
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    margin-bottom: 1.5em
+}
+
+ul,ol {
+    margin: 0 0 1.5em 3em
+}
+
+ul {
+    list-style: disc
+}
+
+ol {
+    list-style: decimal
+}
+
+li&gt;ul,li&gt;ol {
+    margin-bottom: 0;
+    margin-left: 1.5em
+}
+
+dt {
+    font-weight: bold
+}
+
+dd {
+    margin: 0 1.5em 1.5em
+}
+
+img {
+    height: auto;
+    max-width: 100%
+}
+
+figure {
+    margin: 0
+}
+
+table {
+    margin: 0 0 1.5em;
+    width: 100%
+}
+
+th {
+    font-weight: bold
+}
+
+button,input,select,textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline
+}
+
+button,input[type="button"],input[type="reset"],input[type="submit"] {
+    cursor: pointer;
+    background: none repeat scroll 0 0 #10afdd;
+    border: 0 none;
+    color: #fff;
+    font: italic 12px Georgia,serif;
+    padding: 7px 25px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+button:hover,input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover {
+    background-color: #f50
+}
+
+button:focus,input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,button:active,input[type="button"]:active,input[type="reset"]:active,input[type="submit"]:active {
+    border-color: #aaa #bbb #bbb;
+    box-shadow: inset 0 -1px 0 rgba(255,255,255,0.5),inset 0 2px 5px rgba(0,0,0,0.15)
+}
+
+input[type="checkbox"],input[type="radio"] {
+    padding: 0
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],textarea {
+    color: #666
+}
+
+input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,textarea:focus {
+    color: #111
+}
+
+input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"] {
+    padding: 3px;
+    width: calc(100% - 8px)
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    padding: 3px;
+    width: calc(100% - 8px)
+}
+
+.entry-content .gform_wrapper {
+    margin: 15px 0
+}
+
+.gform_wrapper .gfield {
+    margin: 0 0 10px 0
+}
+
+.gform_wrapper .ginput_complex {
+    overflow: hidden
+}
+
+.gform_wrapper .ginput_complex .ginput_left {
+    float: left;
+    width: 49%
+}
+
+.gform_wrapper .ginput_complex .ginput_right {
+    float: right;
+    width: 49%
+}
+
+.gform_wrapper .ginput_complex label {
+    display: block;
+    font-size: 13px
+}
+
+embed,iframe,object {
+    max-width: 100%
+}
+
+a {
+    color: #08b;
+    text-decoration: none
+}
+
+a:hover {
+    color: #f50;
+    text-decoration: none
+}
+
+#desktop-HP-Top-Leader {
+    width: 728px;
+    height: 96px;
+    margin: 0 auto;
+    padding-top: 5px;
+    overflow: hidden
+}
+
+#desktop-HP-Rail1 {
+    width: 300px;
+    max-height: 600px;
+    min-height: 250px
+}
+
+#desktop-HP-Rail2 {
+    width: 300px;
+    height: 250px
+}
+
+#desktop-HP-Rail3 {
+    width: 300px;
+    height: 250px
+}
+
+#desktop-HP-Rail4 {
+    width: 300px;
+    height: 250px
+}
+
+#desktop-ROS-Top-Leader {
+    width: 728px;
+    height: 96px;
+    margin: 0 auto;
+    padding-top: 5px;
+    overflow: hidden;
+    background: none repeat scroll 0 0 #eee;
+    text-align: center
+}
+
+#desktop-ROS-Rail1 {
+    width: 300px;
+    max-height: 600px;
+    min-height: 250px
+}
+
+#desktop-ROS-Rail2 {
+    width: 300px;
+    height: 250px
+}
+
+#desktop-ROS-Rail3 {
+    width: 300px;
+    height: 250px
+}
+
+#desktop-ROS-Rail4 {
+    width: 300px;
+    height: 250px
+}
+
+#mobile-hp-header {
+    min-width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    border-top: 1px solid #fff
+}
+
+#mobile-hp-body1 {
+    min-width: 300px;
+    max-width: 320px;
+    min-height: 250px;
+    max-height: 480px;
+    margin: 0 auto
+}
+
+#mobile-hp-body2 {
+    min-width: 300px;
+    max-width: 320px;
+    min-height: 250px;
+    max-height: 480px;
+    margin: 0 auto
+}
+
+#mobile-hp-body3 {
+    min-width: 300px;
+    max-width: 320px;
+    min-height: 250px;
+    max-height: 480px;
+    margin: 0 auto
+}
+
+#mobile-hp-body4 {
+    min-width: 300px;
+    max-width: 320px;
+    min-height: 250px;
+    max-height: 480px;
+    margin: 0 auto
+}
+
+#mobile-ROS-header {
+    min-width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    border-top: 1px solid #fff
+}
+
+#mobile-ROS-body1 {
+    min-width: 300px;
+    max-width: 325px;
+    min-height: 250px;
+    max-height: 480px;
+    margin: 0 auto
+}
+
+#mobile-ROS-body2 {
+    min-width: 300px;
+    max-width: 325px;
+    min-height: 250px;
+    max-height: 480px;
+    margin: 0 auto
+}
+
+#mobile-ROS-body3 {
+    min-width: 300px;
+    max-width: 325px;
+    min-height: 250px;
+    max-height: 480px;
+    margin: 0 auto
+}
+
+#mobile-ROS-body4 {
+    min-width: 300px;
+    max-width: 325px;
+    min-height: 250px;
+    max-height: 480px;
+    margin: 0 auto
+}
+
+#HeadW {
+    height: 91px;
+    overflow: hidden;
+    position: relative;
+    background: #000
+}
+
+#HeadWB {
+    height: 25px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #252525;
+    z-index: 1
+}
+
+#HeadW #HWIC {
+    position: relative;
+    background: #000
+}
+
+#HeadW #HWI {
+    position: relative;
+    height: 91px;
+    width: 1010px;
+    padding: 0;
+    margin: 0 auto;
+    background: transparent;
+    overflow: visible
+}
+
+#HeadW .logo {
+    text-indent: -6000px;
+    background: url(/t/assets/i/spriteg.png) no-repeat 0 0;
+    display: block;
+    width: 93px;
+    height: 72px;
+    position: absolute;
+    z-index: 100;
+    bottom: 9px;
+    left: 10px
+}
+
+body.category-london #HeadW .logo {
+    background: url(/t/assets/i/logo-london.png) no-repeat
+}
+
+body.category-texas #HeadW .logo {
+    background: url(/t/assets/i/logo-texas.png) no-repeat
+}
+
+body.category-tech #HeadW .logo {
+    background: url(/t/assets/i/logo-tech.png) no-repeat
+}
+
+body.category-jerusalem #HeadW .logo {
+    background: url(/t/assets/i/logo-jerusalem.png) no-repeat
+}
+
+body.category-california #HeadW .logo {
+    background: url(/t/assets/i/logo-california.png) no-repeat
+}
+
+body.page-id-2723153 #HeadW .logo,body.category-meetups #HeadW .logo {
+    background: url(/t/assets/i/logo-meetup@1x.png) no-repeat
+}
+
+#HeadW .search-form {
+    position: absolute;
+    top: 5px;
+    right: 237px
+}
+
+#HeadW .search-form input[type="text"] {
+    padding: 8px 9px 8px 30px
+}
+
+#HeadW #HTsocial {
+    position: absolute;
+    top: 7px;
+    right: 150px;
+    margin: 0;
+    padding: 0;
+    line-height: 23px;
+    width: 72px;
+    height: 23px;
+    list-style: none;
+    overflow: hidden
+}
+
+#HeadW #HTsocial li {
+    display: inline-block;
+    height: 34px;
+    width: 24px;
+    padding: 0;
+    margin: 0;
+    line-height: 34px
+}
+
+#HeadW #HTsocial a {
+    background: url(/t/assets/i/spriteg.png) no-repeat scroll 0 0 rgba(0,0,0,0);
+    display: block;
+    height: 21px;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 21px;
+    font-size: 0
+}
+
+#HeadW #HTsocial a.fb {
+    background-position: -96px -32px
+}
+
+#HeadW #HTsocial a.fb:hover {
+    background-position: -96px -64px
+}
+
+#HeadW #HTsocial a.tw {
+    background-position: -128px -32px
+}
+
+#HeadW #HTsocial a.tw:hover {
+    background-position: -128px -64px
+}
+
+#HeadW #HTsocial a.rs {
+    background-position: -160px -32px
+}
+
+#HeadW #HTsocial a.rs:hover {
+    background-position: -160px -64px
+}
+
+#HeadW #HTlinks {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    height: 27px;
+    width: 113px;
+    margin: 0;
+    padding: 0;
+    line-height: 27px;
+    list-style: none
+}
+
+#HeadW #HTlinks li {
+    display: inline-block;
+    max-height: 27px;
+    color: #1be;
+    font-size: 11px;
+    border-right: 1px dotted #666;
+    color: #ccc;
+    padding: 0 10px 0 0;
+    margin: 0 4px 0 0
+}
+
+#HeadW #HTlinks li:last-of-type {
+    border-right: 0;
+    padding: 0;
+    margin: 0
+}
+
+#HeadW #HTlinks a {
+    color: #1be;
+    font-size: 11px;
+    text-transform: uppercase
+}
+
+#HeadW #HTlinks a:hover {
+    color: #f50;
+    text-decoration: none
+}
+
+#HeadW ul.menu {
+    font: 15px/0.9 "Fjalla One",sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 840px;
+    height: 25px;
+    line-height: 25px;
+    list-style: none
+}
+
+#HeadW ul.menu li {
+    display: inline-block;
+    height: 15px;
+    line-height: 15px;
+    padding: 0;
+    margin: 0 0 0 19px
+}
+
+#HeadW #NavP {
+    position: absolute;
+    bottom: 27px;
+    left: 120px
+}
+
+#HeadW #NavP li:first-of-type {
+    margin: 0
+}
+
+#HeadW #NavP li a {
+    color: #FFF;
+    text-transform: uppercase
+}
+
+#HeadW #NavP li a:hover {
+    color: #f50;
+    text-decoration: none
+}
+
+#HeadW #NavS {
+    position: absolute;
+    bottom: 2px;
+    left: 120px;
+    z-index: 10
+}
+
+#HeadW #NavS li {
+    border-right: 1px solid #474747;
+    padding: 0 10px 0 8px;
+    margin: 0
+}
+
+#HeadW #NavS li:first-of-type {
+    padding: 0 10px 0 0;
+    margin: 0
+}
+
+#HeadW #NavS li:nth-last-of-type(2) {
+    padding: 0 0 0 8px;
+    border: 0
+}
+
+#HeadW #NavS li:last-of-type {
+    padding: 6px 40px 0 8px;
+    text-align: right;
+    border: 0;
+    float: right
+}
+
+#HeadW #NavS li a {
+    color: #b5afaf;
+    text-transform: uppercase
+}
+
+#HeadW #NavS li a:hover {
+    color: #cecdcd;
+    text-decoration: none
+}
+
+body.category-big-journalism #HeadW #NavP li.category-big-journalism a,body.category-big-hollywood #HeadW #NavP li.category-big-hollywood a,body.category-big-government #HeadW #NavP li.category-big-government a,body.category-national-security #HeadW #NavP li.category-national-security a,body.category-video #HeadW #NavP li.category-video a,body.category-sports #HeadW #NavP li.category-sports a,body.category-blog #HeadW #NavP li.category-blog a,body.category-2016-presidential-race #HeadW #NavP li.category-2016-presidential-race a,body.category-tech #HeadW #NavP li.category-tech a,body.category-tech #HeadW #NavP li.menu-tech a,body.post-type-archive-wire #HeadW #NavP li.post-type-archive-wire a,body.tax-isc_bnn_category #HeadW #NavP li.post-type-archive-wire a,body.tax-isc_bnn_source #HeadW #NavP li.post-type-archive-wire a,body.single-wire #HeadW #NavP li.post-type-archive-wire a {
+    color: #f50;
+    text-decoration: none
+}
+
+body.category-jerusalem #HeadW #NavS li.menu-breitbart-jerusalem a,body.category-london #HeadW #NavS li.category-london a,body.category-texas #HeadW #NavS li.category-texas a,body.category-california #HeadW #NavS li.category-california a,#HeadW #NavS li.bbstorelink a {
+    color: #f50;
+    text-decoration: none
+}
+
+#HeadW #NavS li.bbstorelink a:hover {
+    color: #ff7631;
+    text-decoration: none
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2) {
+    body.page-id-2723153 #HeadW .logo,body.category-meetups #HeadW .logo {
+        background: url(/t/assets/i/logo-meetup@2x.png) no-repeat;
+        background-size: 93px 72px
+    }
+}
+
+@media(-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi) {
+    body.page-id-2723153 #HeadW .logo,body.category-meetups #HeadW .logo {
+        background: url(/t/assets/i/logo-meetup@2x.png) no-repeat;
+        background-size: 93px 72px
+    }
+}
+
+@media screen and (max-width:480px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2),screen and (max-width:767px) and (-webkit-min-device-pixel-ratio:2) {
+    body.page-id-2723153 #HeadW .logo,body.category-meetups #HeadW .logo {
+        background: url(/t/assets/i/logo-meetup-mobile@2x.png) no-repeat scroll 0 0 / contain rgba(0,0,0,0);
+        background-size: 146px 36px
+    }
+}
+
+@media screen and (max-width:600px) {
+    .menu-toggle,.main-navigation.toggled .nav-menu {
+        display: block
+    }
+
+    .main-navigation ul {
+        display: none
+    }
+}
+
+.site-main .comment-navigation,.site-main .paging-navigation,.site-main .post-navigation {
+    margin: 0 0 1.5em;
+    overflow: hidden
+}
+
+.comment-navigation .nav-previous,.paging-navigation .nav-previous,.post-navigation .nav-previous {
+    float: left;
+    width: 50%
+}
+
+.comment-navigation .nav-next,.paging-navigation .nav-next,.post-navigation .nav-next {
+    float: right;
+    text-align: right;
+    width: 50%
+}
+
+.widget {
+    margin: 0 0 1.5em
+}
+
+.widget select {
+    max-width: 100%
+}
+
+.widget_search .search-submit {
+    display: none
+}
+
+#GlobalW&gt;div.ad {
+    background: none repeat scroll 0 0 #eee;
+    text-align: center;
+    margin: 0 auto;
+    min-width: 1010px
+}
+
+.mobile {
+    display: none
+}
+
+*[class*='col'] {
+    float: left;
+    margin: 0 20px 0 0
+}
+
+*[class*='col'].endcol {
+    margin: 0
+}
+
+.col1 {
+    width: 35px
+}
+
+.col2 {
+    width: 90px
+}
+
+.col3 {
+    width: 145px
+}
+
+.col4 {
+    width: 200px
+}
+
+.col5 {
+    width: 255px
+}
+
+.col6 {
+    width: 310px
+}
+
+.col7 {
+    width: 365px
+}
+
+.col8 {
+    width: 420px
+}
+
+.col9 {
+    width: 475px
+}
+
+.col10 {
+    width: 530px
+}
+
+.col11 {
+    width: 585px
+}
+
+.col12 {
+    width: 640px
+}
+
+.col13 {
+    width: 695px
+}
+
+.col14 {
+    width: 750px
+}
+
+.col15 {
+    width: 805px
+}
+
+.col16 {
+    width: 860px
+}
+
+.col17 {
+    width: 915px
+}
+
+.col18 {
+    width: 970px
+}
+
+#ContentW {
+    background-repeat: no-repeat;
+    background-position: center top
+}
+
+body.home #ContentW {
+    background-image: url(http://media.breitbart.com/media/2015/11/FlagDefault.jpg)
+}
+
+body.single.logged-in.not-preview #ContentW {
+    background-image: none !important;
+    background-color: red !important
+}
+
+body.category-london #ContentW {
+    background-image: url(http://media.breitbart.com/media/2015/11/image.jpg)
+}
+
+body.page-template-page-template-podcast #ContentW {
+    background: #000 url(http://media.breitbart.com/media/2016/03/bb-podcast-newwindow-bkgd.jpg) 0 0 no-repeat;
+    width: 1231px;
+    height: 683px
+}
+
+#ContentW #ContainerW {
+    cursor: auto;
+    width: 970px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFF
+}
+
+body.page-template-page-template-podcast #ContentW #ContainerW {
+    background: transparent;
+    width: 804px;
+    height: 360px
+}
+
+#ContentW #ContainerW #MainW,#ContentW #ContainerW #MainVidW {
+    width: 640px;
+    float: left;
+    margin: 0 20px 0 0;
+    background-color: #FFF
+}
+
+#ContentW .top-article .title {
+    font: 55px/0.9 'BebasNeueRegular',sans-serif;
+    letter-spacing: -1px
+}
+
+#ContentW .top-article .title a {
+    color: #111
+}
+
+#ContentW .top-article .title a:hover {
+    color: #f50
+}
+
+#ContentW .top-article .title a span {
+    color: #f50
+}
+
+#ContentW .top-article .byline .by-author {
+    background: url(http://media.breitbart.com/media/2015/12/spriteY.png) 1px -225px no-repeat;
+    padding: 0 0 0 17px
+}
+
+#ContentW .featured article {
+    border-top: 1px dotted #999;
+    margin: 10px 0 0 0;
+    padding: 15px 0 0 0;
+    float: none
+}
+
+#ContentW .featured article:first-of-type {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+
+#ContentW .featured article h2.title {
+    font-family: Georgia,serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+    text-align: center
+}
+
+#ContentW .featured article h2.title a {
+    color: #f50
+}
+
+#ContentW .featured article h2.title a:hover {
+    text-decoration: underline
+}
+
+#ContentW .featured article .byline {
+    text-align: center
+}
+
+#ContentW .featured article .byline .by-author {
+    display: block
+}
+
+#ContentW .featured article .byline .byauthor {
+    border: 0;
+    margin: 0 0 5px 0
+}
+
+#ContentW .featured article .byline .byauthor:after {
+    display: none
+}
+
+#ContentW .breitbart-tv&gt;article:nth-of-type(3n) {
+    margin: 0
+}
+
+#ContentW .breitbart-tv&gt;article a.thumb-container {
+    position: relative;
+    display: block
+}
+
+#ContentW .breitbart-tv&gt;article a.thumb-container:after {
+    background: url(/t/assets/i/spriteg.png) no-repeat scroll -96px -128px rgba(0,0,0,0);
+    bottom: 10px;
+    content: "";
+    height: 25px;
+    opacity: .8;
+    position: absolute;
+    right: 10px;
+    transition: opacity .3s linear 0;
+    width: 25px
+}
+
+#ContentW .breitbart-tv&gt;article a.thumb-container:hover:after {
+    opacity: 1
+}
+
+#ContentW .breitbart-tv&gt;article h2.title {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0
+}
+
+#ContentW .breitbart-tv&gt;article h2.title a {
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #111
+}
+
+#ContentW .breitbart-tv&gt;article h2.title a:hover {
+    color: #111;
+    text-decoration: underline
+}
+
+#ContentW .featured-contributors {
+    margin: 0 0 20px 0
+}
+
+#ContentW .featured-contributors&gt;article {
+    position: relative;
+    min-height: 100px;
+    margin: 0 20px 20px 0
+}
+
+#ContentW .featured-contributors&gt;article:nth-of-type(even) {
+    margin: 0 0 20px 0
+}
+
+#ContentW .featured-contributors&gt;article .avatar {
+    max-height: 100px;
+    width: 80px;
+    float: left;
+    margin: 0 10px 0 0
+}
+
+#ContentW .featured-contributors&gt;article h2.title {
+    clear: none
+}
+
+#ContentW .featured-contributors&gt;article.has-author-img h2.title {
+    margin: 0 0 0 90px
+}
+
+#ContentW .featured-contributors&gt;article h2.title a {
+    color: #111;
+    font-family: Georgia,serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.2;
+    text-transform: none
+}
+
+#ContentW .featured-contributors&gt;article h2.title a:hover {
+    color: #f50;
+    text-decoration: underline
+}
+
+#ContentW .featured-contributors&gt;article.has-author-img .byline {
+    margin: 0 0 0 90px
+}
+
+#ContentW .featured-contributors&gt;article .byline .by-author {
+    display: block;
+    margin: 0 0 5px 0;
+    background: url(http://media.breitbart.com/media/2015/12/spriteY.png) 1px -225px no-repeat;
+    padding: 0 0 0 17px
+}
+
+#ContentW .featured-contributors&gt;article .byline .byauthor {
+    border: 0
+}
+
+#ContentW .featured-contributors&gt;article .byline .by {
+    display: none
+}
+
+body.show_stopper #ContentW .featured {
+    display: none
+}
+
+body.show_stopper #ContentW .top-article {
+    width: 100%;
+    margin: 0;
+    float: none
+}
+
+body.show_stopper #ContentW .top-article img {
+    display: block
+}
+
+body.show_stopper #ContentW .top-article .featured-container {
+    margin: 0 0 10px 0
+}
+
+article .featured-container {
+    position: relative
+}
+
+article .featured-container .attribution {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 11px;
+    color: #FFF;
+    background: rgba(0,0,0,.5);
+    line-height: 25px;
+    padding: 0 10px
+}
+
+article .featured-container .attribution a {
+    font-size: 11px;
+    color: #FFF
+}
+
+.wp-caption {
+    margin-bottom: 1.5em;
+    max-width: 100%
+}
+
+.wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin: 0 auto
+}
+
+.wp-caption-text {
+    text-align: center
+}
+
+.wp-caption .wp-caption-text {
+    margin: .8075em 0
+}
+
+.sprite-y {
+    background-image: url(http://media.breitbart.com/media/2015/12/spriteY.png);
+    background-repeat: no-repeat
+}
+
+.divider {
+    border-bottom: 1px dotted #999;
+    font-size: 0;
+    margin: 20px 0 15px 0;
+    text-align: center
+}
+
+.divider h2 {
+    line-height: 5px
+}
+
+.divider .subtitle {
+    color: #111;
+    display: block;
+    font: 13px Georgia,serif;
+    text-transform: uppercase
+}
+
+.divider a:hover {
+    text-decoration: none
+}
+
+.divider a:hover .subtitle {
+    color: #f50
+}
+
+.divider .title {
+    background: none repeat scroll 0 0 #fff;
+    color: #f50;
+    display: inline-block;
+    font: 38px/0.9 'BebasNeueRegular',sans-serif;
+    bottom: -6px;
+    padding: 0 3px;
+    position: relative
+}
+
+div.ad {
+    background: none repeat scroll 0 0 #eee;
+    text-align: center
+}
+
+div.ad div.ad-wrapper {
+    padding: 5px
+}
+
+div.ad p {
+    color: #999;
+    font: italic 10px Georgia,serif;
+    margin: 0;
+    padding: 0 0 4px;
+    text-align: center
+}
+
+div.widget-area&gt;* {
+    margin-top: 20px
+}
+
+div.widget-area&gt;*:first-of-type {
+    margin-top: 0
+}
+
+form.search-form {
+    position: relative
+}
+
+form.search-form label {
+    background: url(/t/assets/i/spriteg.png) no-repeat scroll -272px -32px rgba(0,0,0,0);
+    height: 12px;
+    left: 12px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -999em;
+    top: 9px;
+    width: 12px
+}
+
+form.search-form input[type="text"] {
+    background: none repeat scroll 0 0 #333;
+    border: 0 none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3) inset;
+    color: #ccc;
+    font: 11px/1 Georgia,serif;
+    outline: 0 none;
+    padding: 9px 9px 9px 30px;
+    transition: width .3s ease-in-out 0,background-color .3s linear 0;
+    width: 149px
+}
+
+form.search-form input[type="text"]:focus {
+    background: none repeat scroll 0 0 #555;
+    width: 221px;
+    color: #fff
+}
+
+form.search-form input[type=submit] {
+    display: none
+}
+
+article .title {
+    color: #111;
+    font-family: Georgia,serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0 0 5px;
+    text-transform: none;
+    letter-spacing: 0;
+    word-wrap: break-word
+}
+
+article .title a span {
+    color: #f50
+}
+
+article .excerpt {
+    color: #444;
+    display: block;
+    font: 12px/1.2 Arial,sans-serif;
+    padding: 0 0 5px
+}
+
+article .byline {
+    font: 11px Georgia,serif;
+    margin: 0;
+    padding: 0
+}
+
+article .byline&gt;div {
+    display: inline-block;
+    border-right: 1px dotted #999;
+    color: #777;
+    padding: 0 7px 0 0;
+    margin: 0 7px 0 0
+}
+
+article .byline&gt;div:last-of-type {
+    border: 0;
+    padding: 0;
+    margin: 0
+}
+
+article .byline&gt;div.author {
+    font-style: italic;
+    position: relative;
+    padding: 0 7px 0 17px
+}
+
+article .byline&gt;div.author:after {
+    background: url(http://media.breitbart.com/media/2015/12/spriteY.png) no-repeat 1px -225px;
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin: 0 4px 0 0;
+    content: "";
+    left: 0;
+    top: 0;
+    position: absolute
+}
+
+article .byline&gt;div.author a {
+    color: #08b;
+    text-transform: uppercase;
+    font-style: normal
+}
+
+article .byline&gt;div.author a:hover {
+    color: #f50;
+    text-decoration: none
+}
+
+article .byline span.by {
+    color: #777;
+    font-style: italic
+}
+
+article .byline span.bydate,article .byline span.bycity {
+    display: inline-block;
+    border-right: 1px dotted #999;
+    color: #777;
+    padding: 0 7px 0 0;
+    margin: 0 7px 0 0;
+    font-style: normal
+}
+
+article .byline a.byauthor {
+    display: inline-block;
+    border-right: 1px dotted #999;
+    color: #777;
+    padding: 0 7px 0 0;
+    margin: 0 7px 0 0;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #08b;
+    text-decoration: none
+}
+
+article .byline a.bycount {
+    color: #777;
+    display: inline-block;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font: italic 11px Georgia,serif
+}
+
+article .byline a.bycount {
+    color: #777;
+    display: inline-block;
+    font: italic 11px Georgia,serif;
+    padding: 5px 0 0 0;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #000;
+    border-color: #000;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px 3px 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font: bold 10px Georgia,serif;
+    min-height: 1em;
+    min-width: 10px;
+    padding: 0 2px 2px;
+    position: relative;
+    text-align: center
+}
+
+article .byline a.bycount:hover {
+    background: #08b;
+    text-decoration: none;
+    border-color: #08b
+}
+
+article .byline a.bycount:after {
+    background: url(/t/assets/i/spriteg.png) no-repeat -224px -64px;
+    bottom: -7px;
+    content: "";
+    display: block;
+    height: 5px;
+    left: 2px;
+    position: absolute;
+    width: 8px
+}
+
+article .byline a.bycount:hover:after {
+    background-position: -240px -64px
+}
+
+article div.comment {
+    color: #777;
+    display: inline-block;
+    font: italic 11px Georgia,serif;
+    padding: 5px 0 0 0
+}
+
+article div.comment a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #000;
+    border-color: #000;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px 3px 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font: bold 10px Georgia,serif;
+    min-height: 1em;
+    min-width: 10px;
+    padding: 0 2px 2px;
+    position: relative;
+    text-align: center
+}
+
+article div.comment a:hover {
+    background: #08b;
+    text-decoration: none;
+    border-color: #08b
+}
+
+article div.comment a:after {
+    background: url(/t/assets/i/spriteg.png) no-repeat -224px -64px;
+    bottom: -7px;
+    content: "";
+    display: block;
+    height: 5px;
+    left: 2px;
+    position: absolute;
+    width: 8px
+}
+
+article div.comment a:hover:after {
+    background-position: -240px -64px
+}
+
+body.single .the-article .entry-content #ContentW_0_maincontent_0_imgAuthor {
+    float: left;
+    margin: 0 10px 10px 0
+}
+
+body.single .the-article .entry-content #ContentW_0_maincontent_0_related_0_divRelatedArticles {
+    display: none
+}
+
+body.single .the-article .entry-content .ndn_embed {
+    max-width: 100%;
+    height: auto
+}
+
+body.single .the-article .entry-content #inform-player-1.ndn_embedded,body.single .the-article .entry-content #inform-player-2.ndn_embedded {
+    margin-bottom: 20px
+}
+
+body.single .the-article .entry-content .ooyala_embed {
+    max-width: 100% !important;
+    height: auto
+}
+
+body.single .the-article .ooyala_embed {
+    max-width: 100% !important;
+    height: auto
+}
+
+body.single .the-article .innerWrapper {
+    max-width: 100% !important
+}
+
+body.single .the-article #ooyalaplayer .oo_error {
+    max-width: 100% !important
+}
+
+body.single .the-article .oo_promo {
+    max-width: 100% !important
+}
+
+div.utility a.print,div.utility a.tip,div.utility span.st_email {
+    background: url(http://media.breitbart.com/media/2015/12/spriteY.png) no-repeat scroll 0 0 rgba(0,0,0,0);
+    color: #111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    min-height: 16px;
+    padding-left: 20px
+}
+
+div.utility a.print {
+    background-position: 0 -99px
+}
+
+div.utility a.print:hover {
+    background-position: 0 -174px;
+    text-decoration: none
+}
+
+div.utility span.st_email {
+    background-position: 0 -72px;
+    margin-left: 10px;
+    display: inline
+}
+
+div.utility span.st_email:hover {
+    background-position: 0 -147px;
+    text-decoration: none
+}
+
+body #MainW .the-article .entry-content .lwsc-entry&gt;h2:first-of-type {
+    display: inline;
+    clear: none !important
+}
+
+body #MainW .the-article .entry-content .lwsc-entry&gt;h2:first-of-type+p:first-of-type {
+    margin-top: 1em
+}
+
+body.single .the-article .entry-content .lwsc-entry&gt;h2:first-of-type {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 10px 0 1em 0;
+    font-family: Georgia,serif;
+    line-height: 1.3em
+}
+
+#lwsc-side-head-brd {
+    border-top: 1px dotted #999;
+    margin: 15px 0 0 0;
+    padding: 10px 0 0 0;
+    width: 100%;
+    height: 2px
+}
+
+#lwsc-side-head {
+    font-size: 22px;
+    line-height: 31px;
+    height: 31px;
+    text-align: center;
+    margin: 0 0 5px 0;
+    padding: 0;
+    background-color: #eee;
+    font-family: 'BebasNeueRegular',sans-serif;
+    color: #000
+}
+
+#ContentW .featured article.live_wire {
+    border: 0;
+    padding: 5px 0 0 0;
+    margin: 0
+}
+
+article.live_wire_sub .byline span.bydate {
+    border-right: 0
+}
+
+#lwsc-links {
+    height: 56px;
+    width: 100%;
+    margin: 0 auto 13px auto;
+    padding: 0;
+    background-color: #eee;
+    position: relative
+}
+
+#lwsc-links p.lwsc-updates {
+    font-size: 32px;
+    line-height: 56px;
+    height: 56px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'BebasNeueRegular',sans-serif;
+    color: #f50
+}
+
+#lwsc-links p.lwsc-updates a {
+    z-index: 998;
+    font-size: 32px;
+    line-height: 56px;
+    height: 56px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'BebasNeueRegular',sans-serif;
+    color: #f50
+}
+
+#lwsc-links p.lwsc-updates a:hover {
+    background-color: #ddd
+}
+
+#lwsc-links p.lwsc-updates a span {
+    color: #000
+}
+
+#lwsc-links div.lwscleft,#lwsc-links div.lwscright {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 120px;
+    height: 56px;
+    line-height: 56px;
+    font-family: 'BebasNeueRegular',sans-serif;
+    color: #1be
+}
+
+#lwsc-links div.lwscleft {
+    left: 13px
+}
+
+#lwsc-links div.lwscright {
+    right: 13px;
+    text-align: right
+}
+
+#lwsc-links div.lwscleft a,#lwsc-links div.lwscright a {
+    display: block;
+    z-index: 999;
+    width: 120px;
+    height: 56px;
+    line-height: 56px;
+    font-family: 'BebasNeueRegular',sans-serif;
+    color: #1be;
+    text-decoration: none;
+    font-size: 19px
+}
+
+#lwsc-links div.lwscleft a span,#lwsc-links div.lwscright a span {
+    font-family: "Fjalla One",sans-serif
+}
+
+#lwsc-links div.lwscleft a:hover,#lwsc-links div.lwscright a:hover {
+    text-decoration: underline
+}
+
+#lwsc-box {
+    position: relative;
+    z-index: 9999;
+    float: right;
+    margin: 3px 0 10px 10px;
+    display: block;
+    width: 267px;
+    height: auto;
+    min-height: 250px;
+    border: 2px solid #ccc
+}
+
+#lwsc-box p.lwsc-updates {
+    font-size: 32px;
+    line-height: 56px;
+    height: 56px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    font-family: 'BebasNeueRegular',sans-serif;
+    color: #f50
+}
+
+#lwsc-box p.lwsc-updates a {
+    z-index: 998;
+    font-size: 32px;
+    line-height: 56px;
+    height: 56px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    font-family: 'BebasNeueRegular',sans-serif;
+    color: #f50
+}
+
+#lwsc-box p.lwsc-updates a:hover {
+    background-color: #ddd
+}
+
+#lwsc-box p.lwsc-updates a span,#lwsc-box p.lwsc-updates span {
+    color: #000
+}
+
+#lwsc-box ul {
+    border: 0;
+    list-style-type: none;
+    list-style: none;
+    margin: 0 auto;
+    width: 95%;
+    padding: 0
+}
+
+#lwsc-box li {
+    padding: 3px 0;
+    text-align: center;
+    line-height: 16px;
+    border-top: 1px dotted #999;
+    margin: 10px 0 0 0;
+    padding: 10px 0 0 0
+}
+
+#lwsc-box li:first-of-type {
+    border-top: 0
+}
+
+#lwsc-box li a {
+    text-align: center;
+    border: 0;
+    font-style: italic;
+    font: Georgia,serif;
+    color: #f50;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 16px
+}
+
+#lwsc-box li a:hover {
+    text-decoration: underline
+}
+
+#lwsc-list {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 2px solid #d7d7d7;
+    border-top: 1px solid #d7d7d7;
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+.lwsc {
+    position: relative;
+    border-bottom: 2px solid #d7d7d7;
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+.lwsc&gt;h2 {
+    font-family: "Fjalla One",sans-serif;
+    font-size: 28px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-top: 0
+}
+
+.lwsc&gt;h2 a {
+    font-size: 20px;
+    line-height: 28px;
+    color: #000;
+    text-transform: uppercase
+}
+
+.lwsc p.lwbdt {
+    font: bold 11px Georgia,serif;
+    line-height: 16px;
+    color: #777
+}
+
+body.single .the-article .lwsc .byline {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    line-height: 16px;
+    padding-bottom: 0
+}
+
+article .lwsc .byline span.bydate {
+    border-right: 0
+}
+
+.grid-block {
+    position: relative;
+    height: 800px;
+    border-top: 3px solid #111;
+    overflow: hidden
+}
+
+.grid-block h2.title a {
+    color: #111
+}
+
+.grid-block h2.title a:hover {
+    color: #f50;
+    text-decoration: underline
+}
+
+.grid-block&gt;article {
+    position: absolute
+}
+
+.grid-block .aw-1 {
+    width: 200px
+}
+
+.grid-block .aw-2 {
+    width: 420px
+}
+
+.grid-block .aw-3 {
+    width: 640px;
+    margin: 0
+}
+
+.grid-block .aw-3 img {
+    width: 100%
+}
+
+.grid-block article .thumb-container {
+    clear: none;
+    overflow: hidden;
+    display: block;
+    margin: 0 0 5px 0
+}
+
+.grid-block article .thumb-container img {
+    display: block
+}
+
+.grid-block article .title {
+    clear: none
+}
+
+.grid-block article.aw-2 h2.title,.grid-block article.aw-3 h2.title {
+    font-family: 'BebasNeueRegular',sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 39.6px
+}
+
+.grid-block article.aw-2 h2.title a:hover,.grid-block article.aw-3 h2.title a:hover {
+    text-decoration: none
+}
+
+.grid-block article .date {
+    font: italic 11px Georgia,serif;
+    color: #777;
+    display: block;
+    margin: 0 0 5px 0;
+    float: left
+}
+
+.grid-block article.aw-2 .date,.grid-block article.aw-3 .date {
+    border-right: 1px dotted #999;
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px 0 0;
+    margin: 0 7px 0 0
+}
+
+.grid-block article div.author {
+    font: italic 11px Georgia,serif;
+    color: #777;
+    padding: 0;
+    margin: 0 0 5px 0
+}
+
+.grid-block article div.author:after {
+    display: none
+}
+
+.grid-block article div.author a {
+    font-style: normal;
+    text-transform: uppercase
+}
+
+.grid-block article.has_author_image.aw-2 .article-content&gt;div.author,.grid-block article.has_author_image.aw-3 .article-content&gt;div.author {
+    display: none
+}
+
+.grid-block article .article-content {
+    position: relative
+}
+
+.grid-block article .comment {
+    float: left;
+    padding: 0
+}
+
+.grid-block article .author-img {
+    display: none
+}
+
+.grid-block article.has_author_image .author-img {
+    display: block;
+    border: 0 none;
+    float: left;
+    line-height: 16px;
+    margin-right: 0;
+    padding-right: 10px;
+    width: 90px;
+    font-size: 11px;
+    word-wrap: break-word
+}
+
+.grid-block article .author-img a {
+    font-size: 11px
+}
+
+.grid-block article.aw-1 .author-img {
+    width: 45px
+}
+
+.grid-block article.aw-1 .author-img img.medium,.grid-block article .author-img img.small,.grid-block article.aw-1 .author-img .author {
+    display: none
+}
+
+.grid-block article.aw-1 .author-img img.small {
+    display: block
+}
+
+.grid-block article.black {
+    background: #000;
+    color: #AAA
+}
+
+.grid-block article.black .thumb-container {
+    margin: 0
+}
+
+.grid-block article.black .article-content {
+    padding: 15px;
+    overflow: hidden
+}
+
+.grid-block article.black div.comment,.grid-block article.black .author-img span,.grid-block article.black div.date,.grid-block article.black .byline&gt;div {
+    color: #AAA
+}
+
+.grid-block article.black .title,.grid-block article.black.aw-1.acol-3 .title,.grid-block article.black.aw-1.acol-1 .title,.grid-block article.black.aw-1.ah-3 .title {
+    font-size: 26px;
+    line-height: 23.4px
+}
+
+.grid-block article.black.aw-1 .title {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 19.2px
+}
+
+.grid-block article.black .title a {
+    color: #FFF
+}
+
+.grid-block article.black .title a:hover {
+    color: #f50
+}
+
+.grid-block article.black.aw-1 .title a {
+    font-family: 'BebasNeueRegular',sans-serif
+}
+
+.grid-block article.black.aw-1 .title a:hover {
+    color: #1be;
+    text-decoration: none
+}
+
+.grid-block article.black .byline div.author a {
+    color: #1be;
+    text-decoration: none
+}
+
+.grid-block article.black .byline div.author a:hover {
+    color: #f50
+}
+
+.grid-block article.black div.comment a {
+    background: none repeat scroll 0 0 #1be;
+    border-color: #1be;
+    color: #111
+}
+
+.grid-block article.black div.comment a:hover {
+    color: #FFF
+}
+
+.grid-block article.black div.comment a:after {
+    background: url(/t/assets/i/spriteg.png) no-repeat scroll -241px -64px rgba(0,0,0,0)
+}
+
+.grid-block .acol-1 {
+    left: 0
+}
+
+.grid-block .acol-2 {
+    left: 220px
+}
+
+.grid-block .acol-3 {
+    left: 440px
+}
+
+.grid-block .arow-1 {
+    top: 20px
+}
+
+.grid-block .arow-2 {
+    top: 65px
+}
+
+.grid-block .arow-3 {
+    top: 110px
+}
+
+.grid-block .arow-4 {
+    top: 155px
+}
+
+.grid-block .arow-5 {
+    top: 200px
+}
+
+.grid-block .arow-6 {
+    top: 245px
+}
+
+.grid-block .arow-7 {
+    top: 290px
+}
+
+.grid-block .arow-8 {
+    top: 335px
+}
+
+.grid-block .arow-9 {
+    top: 380px
+}
+
+.grid-block .arow-10 {
+    top: 425px
+}
+
+.grid-block .arow-11 {
+    top: 470px
+}
+
+.grid-block .arow-12 {
+    top: 515px
+}
+
+.grid-block .arow-13 {
+    top: 560px
+}
+
+.grid-block .arow-14 {
+    top: 605px
+}
+
+.grid-block .arow-15 {
+    top: 650px
+}
+
+.grid-block .arow-16 {
+    top: 695px
+}
+
+.grid-block .arow-17 {
+    top: 740px
+}
+
+.grid-block .arow-18 {
+    top: 785px
+}
+
+.grid-block .arow-19 {
+    top: 830px
+}
+
+.grid-block .arow-20 {
+    top: 875px
+}
+
+.grid-block .arow-21 {
+    top: 920px
+}
+
+.grid-block .arow-22 {
+    top: 965px
+}
+
+.grid-block .arow-23 {
+    top: 1010px
+}
+
+.grid-block .arow-24 {
+    top: 1055px
+}
+
+.grid-block .arow-25 {
+    top: 1100px
+}
+
+.grid-block .arow-26 {
+    top: 1145px
+}
+
+.grid-block .arow-27 {
+    top: 1190px
+}
+
+.grid-block .arow-28 {
+    top: 1235px
+}
+
+.grid-block .arow-29 {
+    top: 1280px
+}
+
+.grid-block .arow-30 {
+    top: 1325px
+}
+
+.grid-block .arow-31 {
+    top: 1370px
+}
+
+.grid-block .arow-32 {
+    top: 1415px
+}
+
+.grid-block .arow-33 {
+    top: 1460px
+}
+
+.grid-block .arow-34 {
+    top: 1505px
+}
+
+.grid-block .arow-35 {
+    top: 1550px
+}
+
+.grid-block .arow-36 {
+    top: 1595px
+}
+
+.grid-block .arow-37 {
+    top: 1640px
+}
+
+.grid-block .arow-38 {
+    top: 1685px
+}
+
+.grid-block .arow-39 {
+    top: 1730px
+}
+
+.grid-block .arow-40 {
+    top: 1775px
+}
+
+.grid-block .arow-41 {
+    top: 1820px
+}
+
+.grid-block .arow-42 {
+    top: 1865px
+}
+
+.grid-block .arow-43 {
+    top: 1910px
+}
+
+.grid-block .arow-44 {
+    top: 1955px
+}
+
+.grid-block .arow-45 {
+    top: 2000px
+}
+
+.grid-block .arow-46 {
+    top: 2045px
+}
+
+.grid-block .arow-47 {
+    top: 2090px
+}
+
+.grid-block .arow-48 {
+    top: 2135px
+}
+
+.grid-block .arow-49 {
+    top: 2180px
+}
+
+.grid-block .arow-50 {
+    top: 2225px
+}
+
+.grid-block .arow-51 {
+    top: 2270px
+}
+
+.grid-block .arow-52 {
+    top: 2315px
+}
+
+.grid-block .arow-53 {
+    top: 2360px
+}
+
+.grid-block .arow-54 {
+    top: 2405px
+}
+
+.grid-block .arow-55 {
+    top: 2450px
+}
+
+.grid-block .arow-56 {
+    top: 2495px
+}
+
+.grid-block .arow-57 {
+    top: 2540px
+}
+
+.grid-block .arow-58 {
+    top: 2585px
+}
+
+.grid-block .arow-59 {
+    top: 2630px
+}
+
+.grid-block .arow-60 {
+    top: 2675px
+}
+
+.grid-block .arow-61 {
+    top: 2720px
+}
+
+.grid-block .arow-62 {
+    top: 2765px
+}
+
+.grid-block .arow-63 {
+    top: 2810px
+}
+
+.grid-block .arow-64 {
+    top: 2855px
+}
+
+.grid-block .arow-65 {
+    top: 2900px
+}
+
+.grid-block .arow-66 {
+    top: 2945px
+}
+
+.grid-block .arow-67 {
+    top: 2990px
+}
+
+.grid-block .arow-68 {
+    top: 3035px
+}
+
+.grid-block .arow-69 {
+    top: 3080px
+}
+
+.grid-block .arow-70 {
+    top: 3125px
+}
+
+.grid-block .arow-71 {
+    top: 3170px
+}
+
+.grid-block .arow-72 {
+    top: 3215px
+}
+
+.grid-block .arow-73 {
+    top: 3260px
+}
+
+.grid-block .arow-74 {
+    top: 3305px
+}
+
+.grid-block .arow-75 {
+    top: 3350px
+}
+
+.grid-block .arow-76 {
+    top: 3395px
+}
+
+body.single .the-article&gt;h1:first-of-type {
+    color: #000;
+    font: 48px/0.9 'BebasNeueRegular',sans-serif;
+    text-transform: uppercase;
+    margin: 0 0 15px 0
+}
+
+body.single .the-article .wp-post-image {
+    display: block;
+    width: 100%
+}
+
+body.single .the-article .byline {
+    padding: 15px 0;
+    margin: 0
+}
+
+body.single .the-article .byline&gt;div.author:after {
+    display: none
+}
+
+body.single .the-article .byline&gt;div.author {
+    padding: 0 7px 0 0
+}
+
+body.single .the-article .entry-content&gt;h2:first-of-type {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 10px 0 1em 0;
+    font-family: Georgia,serif;
+    line-height: 1.3em
+}
+
+body.category.cat-view-customize .article-list,body.category.cat-view-canvas .article-list {
+    border-top: 3px solid #111;
+    margin: 20px 0 0;
+    padding: 20px 0 0
+}
+
+body.archive.cat-view-customize .article-list&gt;h2:first-of-type,body.archive.cat-view-canvas .article-list&gt;h2:first-of-type,body.archive.cat-view-canvas .article-list&gt;h1:first-of-type,body.archive.cat-view-customize .article-list&gt;h1:first-of-type {
+    display: none
+}
+
+body.archive .article-list&gt;h1:first-of-type {
+    padding: 0 0 15px
+}
+
+body.archive .article-list&gt;h2:first-of-type {
+    font: 32px/0.9 'BebasNeueRegular',sans-serif;
+    text-transform: uppercase;
+    padding: 0 0 15px
+}
+
+body.archive.author .article-list&gt;h2:first-of-type {
+    padding: 30px 0 15px
+}
+
+body.archive .article-list article {
+    border-top: 1px dotted #999;
+    margin-top: 10px;
+    padding: 15px 0 0 0;
+    position: relative;
+    overflow: hidden;
+    float: none
+}
+
+body.archive .article-list&gt;article:first-of-type {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+
+body.archive .article-list article .thumb-container {
+    display: table-cell;
+    vertical-align: top
+}
+
+body.archive .article-list article img {
+    max-width: 145px
+}
+
+body.archive .article-list article.has-post-thumbnail .grp-content {
+    display: table-cell;
+    padding: 0 0 0 10px;
+    vertical-align: top
+}
+
+body.archive .article-list article h2.title {
+    font-size: 20px
+}
+
+body.archive .article-list article h2.title a {
+    color: #111
+}
+
+body.archive .article-list article h2.title a:hover {
+    text-decoration: underline;
+    color: #f50
+}
+
+body.archive .article-list article .byline&gt;div.author {
+    padding: 0 7px 0 0
+}
+
+body.archive .article-list article .byline&gt;div.author:after {
+    display: none
+}
+
+div.pagination {
+    background: none repeat scroll 0 0 #eee;
+    font-family: sans-serif;
+    margin: 10px 0 0;
+    padding: 5px 20px;
+    text-align: center;
+    overflow: hidden
+}
+
+div.pagination a {
+    font-size: 12px;
+    font-family: Georgia,serif;
+    text-transform: uppercase
+}
+
+body.author .author-share {
+    clear: both;
+    border-bottom: 1px dotted #999;
+    height: 52px;
+    padding: 15px 0;
+    display: none
+}
+
+body.author .author-share span.title {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px 0 0;
+    text-transform: uppercase
+}
+
+body.author .author-share&gt;* {
+    float: left;
+    margin-right: 10px
+}
+
+body.author .author-share .utility {
+    float: right;
+    margin: -2px 0 0;
+    white-space: nowrap
+}
+
+body.author .article-list&gt;h1:first-of-type {
+    display: block
+}
+
+body.author .article-list article .byline .author {
+    display: none
+}
+
+body.category-video .top-article&gt;article .byline {
+    min-height: 30px
+}
+
+body.category-video article.video {
+    margin-bottom: 20px
+}
+
+body.category-video article.video.large-video {
+    clear: both
+}
+
+body.category-video article.video&gt;a {
+    font-size: 0;
+    display: block
+}
+
+body.category-video article.video img {
+    width: 310px;
+    height: 232px
+}
+
+body.category-video article.video h2.title {
+    background-color: #111;
+    height: auto;
+    min-height: 78px;
+    overflow: hidden;
+    padding: 12px
+}
+
+body.category-video article.video h2.title a {
+    color: #FFF;
+    font: 26px/1 'BebasNeueRegular',sans-serif;
+    letter-spacing: .05em
+}
+
+body.category-video article.video h2.title a:hover {
+    color: #f50;
+    text-decoration: underline
+}
+
+body.category-video .new-videos {
+    clear: both
+}
+
+body.category-video .new-videos article:nth-of-type(even) {
+    margin-right: 0
+}
+
+body.category-video .new-videos article:last-of-type {
+    width: 100%;
+    margin-right: 0
+}
+
+body.category-video .new-videos article:last-of-type h2.title {
+    padding: 10px;
+    height: auto
+}
+
+body.category-video .new-videos article:last-of-type h2.title a {
+    font: 44px/0.9 'BebasNeueRegular',sans-serif
+}
+
+body.category-video .new-videos article:last-of-type h2.title a:hover {
+    text-decoration: none
+}
+
+body.category-video .new-videos article:last-of-type img {
+    width: 100%;
+    height: auto
+}
+
+body.category-video .breitbart-tv-by-cat .breitbart-tv-section article:nth-of-type(3n+3) {
+    margin-right: 0
+}
+
+.breitbart-tv-header {
+    clear: both;
+    margin: 0 0 20px 0;
+    overflow: hidden
+}
+
+.breitbart-tv-header div {
+    border-bottom: 1px dotted grey;
+    height: 31px
+}
+
+.breitbart-tv-header a {
+    display: block;
+    background-color: #f50;
+    color: #FFF;
+    font: 24px/1 'BebasNeueRegular',sans-serif;
+    letter-spacing: .05em;
+    padding: 5px 0 3px 0;
+    text-align: center;
+    position: relative
+}
+
+.breitbart-tv-header a:hover {
+    background-color: #111
+}
+
+.breitbart-tv-header a span {
+    background: url(/t/assets/i/sprite-arrows.png) no-repeat scroll -21px 0 transparent;
+    display: inline-block;
+    height: 14px;
+    margin-left: 20px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    width: 12px
+}
+
+#BBOnAir {
+    position: relative;
+    border-top: 20px solid transparent;
+    padding-bottom: 35px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    display: block;
+    overflow: hidden
+}
+
+#BBOnAir a {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center
+}
+
+#BBOnAir .onairbodylink {
+    min-width: 100%;
+    max-width: 100%
+}
+
+#BBOnAir .onairflash {
+    margin: 0;
+    height: auto;
+    position: absolute;
+    top: 17.5%;
+    right: 2.5%;
+    width: 29%
+}
+
+body.ismobile #BBOnAir .onairflash {
+    top: 17%
+}
+
+#BBOnAirSide {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    max-width: 320px;
+    margin: 0 auto 0 auto
+}
+
+#BBOnAirSide a {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    line-height: 0
+}
+
+#BBOnAirSide a#waronkelloggs {
+    margin-top: 0
+}
+
+#BBOnAirSide a#christmasrail {
+    margin-top: 20px
+}
+
+#BBOnAirSide a#acurtschilling {
+    margin-top: 20px
+}
+
+#BBOnAirSide .onairbodylink {
+    min-width: 100%;
+    max-width: 100%
+}
+
+#gform_47 label {
+    line-height: 2;
+    font-weight: bold
+}
+
+#input_47_1 {
+    width: 250px
+}
+
+#gform_submit_button_47 {
+    margin: 0 0 0 2px;
+    padding: 7px 15px;
+    font-size: 16px
+}
+
+#BBTrendNow {
+    display: block;
+    clear: both;
+    padding-top: 34px
+}
+
+#BBTrendNow h2 {
+    display: block;
+    font-size: 1em;
+    height: 36px;
+    overflow: hidden;
+    text-align: center
+}
+
+#BBTrendNow h2 span {
+    display: block;
+    text-indent: -2000px;
+    font-size: 1em;
+    height: 36px;
+    width: 640px;
+    overflow: hidden;
+    background: url(http://media.breitbart.com/media/2016/03/breitbart-trendingnow-title.png) center center no-repeat
+}
+
+#BBTrendUL {
+    margin: 0;
+    padding: 33px 0 13px 0;
+    list-style: none;
+    list-style-type: none;
+    background: #fff;
+    width: 640px;
+    overflow: hidden
+}
+
+#BBTrendUL li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 288px;
+    height: auto;
+    overflow: hidden;
+    float: right
+}
+
+#BBTrendUL li:nth-of-type(odd) {
+    float: left;
+    clear: both
+}
+
+#BBTrendUL li:nth-of-type(4n+3),#BBTrendUL li:nth-of-type(4n+4) {
+    border-top: 1px dashed #9d9d9d;
+    border-bottom: 1px dashed #9d9d9d
+}
+
+#BBTrendUL li&gt;a {
+    display: block;
+    overflow: hidden;
+    height: auto;
+    width: 85%;
+    padding: 0;
+    margin: 12px 0 12px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #010101;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: italic;
+    font-family: Georgia,serif
+}
+
+#BBTrendUL li&gt;a.ali25 {
+    line-height: 44px
+}
+
+#BBTrendUL li&gt;a:hover {
+    color: #f50
+}
+
+#BBTrendUL li&gt;span {
+    display: block;
+    color: #777;
+    font: italic 11px Georgia,serif;
+    position: absolute;
+    bottom: 14px;
+    right: 2px;
+    min-width: 22px
+}
+
+#BBTrendUL li&gt;span a.bycnt {
+    color: #777;
+    font: italic 11px Georgia,serif;
+    padding: 5px 0 0 0;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #000;
+    border-color: #000;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px 3px 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font: bold 10px Georgia,serif;
+    min-height: 1em;
+    min-width: 10px;
+    padding: 0 2px 2px;
+    position: relative;
+    text-align: center
+}
+
+#BBTrendUL li&gt;span a.bycnt:hover {
+    background: #08b;
+    text-decoration: none;
+    border-color: #08b
+}
+
+#BBTrendUL li&gt;span a.bycnt:after {
+    background: url(/t/assets/i/spriteg.png) no-repeat -224px -64px;
+    bottom: -7px;
+    content: "";
+    display: block;
+    height: 5px;
+    left: 2px;
+    position: absolute;
+    width: 8px
+}
+
+#BBTrendUL li&gt;span a.bycnt:hover:after {
+    background-position: -240px -64px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2) {
+    #BBTrendNow h2 span {
+        display: block;
+        text-indent: -2000px;
+        font-size: 1em;
+        height: 36px;
+        width: 640px;
+        overflow: hidden;
+        background: url(http://media.breitbart.com/media/2016/03/breitbart-trendingnow-title@2x.png) center center no-repeat;
+        background-size: 640px 36px
+    }
+}
+
+@media(-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi) {
+    #BBTrendNow h2 span {
+        display: block;
+        text-indent: -2000px;
+        font-size: 1em;
+        height: 36px;
+        width: 640px;
+        overflow: hidden;
+        background: url(http://media.breitbart.com/media/2016/03/breitbart-trendingnow-title@2x.png) center center no-repeat;
+        background-size: 640px 36px
+    }
+}
+
+@media screen and (max-width:480px) and (orientation:portrait),screen and (max-width:767px) and (orientation:portrait) {
+    #lwsc-links p.lwsc-updates a span {
+        display: none
+    }
+}
+
+@media screen and (max-width:480px) and (orientation:portrait),screen and (max-width:767px) and (orientation:landscape),screen and (max-width:767px) {
+    #BBTrendNow h2 {
+        width: 96%;
+        margin: 0 auto;
+        padding-bottom: 4px
+    }
+
+    #BBTrendNow h2 span {
+        display: block;
+        text-indent: -2000px;
+        font-size: 1em;
+        height: 36px;
+        width: 301px;
+        overflow: hidden;
+        background: url(http://media.breitbart.com/media/2016/04/bb-m-trendingnow.png) center center no-repeat
+    }
+
+    #BBTrendUL {
+        width: 96%;
+        margin: 0 auto;
+        padding: 0 0 13px 0
+    }
+
+    #BBTrendUL li {
+        width: 98% !important;
+        margin: 0 auto !important;
+        float: left !important
+    }
+
+    #BBTrendUL li:nth-of-type(4n+3),#BBTrendUL li:nth-of-type(4n+4) {
+        border: 0
+    }
+
+    #BBTrendUL li:nth-of-type(even) {
+        border-top: 1px dashed #9d9d9d;
+        border-bottom: 1px dashed #9d9d9d
+    }
+
+    #BBTrendUL li:last-of-type {
+        border-bottom: 0
+    }
+
+    #BBTrendUL li&gt;a {
+        font-size: 16px
+    }
+
+    body #lwsc-box {
+        display: none
+    }
+}
+
+@media screen and (max-width:480px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2),screen and (max-width:767px) and (-webkit-min-device-pixel-ratio:2) {
+    #BBTrendNow h2 span {
+        display: block;
+        text-indent: -2000px;
+        font-size: 1em;
+        height: 36px;
+        width: 301px;
+        overflow: hidden;
+        background: url(http://media.breitbart.com/media/2016/04/bb-m-trendingnow@2x.png) center center no-repeat;
+        background-size: 301px 36px
+    }
+}
+
+#SideW,#SideVidW {
+    position: relative;
+    width: 310px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    background-color: #FFF
+}
+
+#SideW #iscshopad {
+    height: 270px;
+    width: 310px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative
+}
+
+#SideW #iscshopad a {
+    display: block;
+    height: 250px;
+    width: 300px;
+    padding: 0 5px;
+    text-decoration: none;
+    border: 0
+}
+
+#SideW #iscshopad a img {
+    display: block;
+    height: 250px;
+    width: 300px
+}
+
+#SideW #iscfbbblikewidget {
+    height: 130px;
+    width: 310px;
+    padding: 0;
+    position: relative
+}
+
+#SideW #iscfbbblikewidget a {
+    display: block;
+    height: 130px;
+    width: 310px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    text-decoration: none;
+    border: 0
+}
+
+#SideW #iscfbbblikewidget #fbpagelikesc {
+    position: absolute;
+    top: 30px;
+    left: 67px;
+    display: block;
+    max-width: 230px;
+    font-size: 12px;
+    line-height: 1.358;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.9);
+    color: #fff;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif
+}
+
+body.ismobile #SideW #iscamazonsbwidget {
+    margin: 20px 10px 0
+}
+
+body.ismobile #SideW #iscbbsocialconnect {
+    margin: 10px 10px 0
+}
+
+#SideW #iscbbsocialconnect .head {
+    background-color: #252525;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 58px;
+    font-size: 40px;
+    line-height: 58px;
+    font-family: 'BebasNeueRegular',sans-serif;
+    color: #ff550f
+}
+
+#SideW #iscbbsocialconnect .head span {
+    color: #fff
+}
+
+#SideW #iscbbsocialconnect .content {
+    border-right: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    padding: 20px 10px 18px;
+    background-color: #eee
+}
+
+#SideW #iscbbsocialconnect .content .social-icons {
+    list-style-type: none;
+    margin: 0;
+    text-align: center
+}
+
+#SideW #iscbbsocialconnect .content .social-icons a {
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+    background: url('http://media.breitbart.com/media/2016/08/connect-icons.png')
+}
+
+#SideW #iscbbsocialconnect .content .social-icons a.facebook {
+    background-position: 0 0
+}
+
+#SideW #iscbbsocialconnect .content .social-icons a.twitter {
+    background-position: -41px 0
+}
+
+#SideW #iscbbsocialconnect .content .social-icons a.youtube {
+    background-position: -82px 0
+}
+
+#SideW #iscbbsocialconnect .content .social-icons a.instagram {
+    background-position: -123px 0
+}
+
+#SideW #iscbbsocialconnect .content .social-icons a.podcasts {
+    background-position: -164px 0;
+    width: 107px
+}
+
+#SideW #iscbbsocialconnect .content .social-icons a:hover {
+    background-position-y: -40px
+}
+
+#SideW #iscbbsocialconnect .content .social-icons a:not(:first-child) {
+    margin-left: 6px
+}
+
+#SideW #iscbbsocialconnect .content .signup {
+    text-align: center
+}
+
+#SideW #iscbbsocialconnect .content .signup .sh3 {
+    font-size: 31px;
+    line-height: 31px;
+    font-family: 'BebasNeueRegular',sans-serif;
+    color: #000;
+    padding: 0;
+    margin: 0
+}
+
+#SideW #iscbbsocialconnect .content .signup .sh3 span {
+    color: #ff550f
+}
+
+#SideW #iscbbsocialconnect .content .signup form {
+    position: relative
+}
+
+#SideW #iscbbsocialconnect .content .signup form li.gfield {
+    margin: 10px 0 0
+}
+
+#SideW #iscbbsocialconnect .content .signup form li.gfield input[type="text"] {
+    box-sizing: border-box;
+    padding: 0 73px 0 10px;
+    height: 36px;
+    line-height: 36px;
+    border: 0;
+    font-family: Georgia,Times,'Times New Roman',serif;
+    font-style: italic
+}
+
+#SideW #iscbbsocialconnect .content .signup form li.gfield input::-webkit-input-placeholder {
+    color: #252525
+}
+
+#SideW #iscbbsocialconnect .content .signup form li.gfield input:-moz-placeholder {
+    color: #252525
+}
+
+#SideW #iscbbsocialconnect .content .signup form li.gfield input::-moz-placeholder {
+    color: #252525
+}
+
+#SideW #iscbbsocialconnect .content .signup form li.gfield input:-ms-input-placeholder {
+    color: #252525
+}
+
+#SideW #iscbbsocialconnect .content .signup form input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    background: 0;
+    color: #ff550f;
+    line-height: 36px;
+    padding: 0;
+    font-size: 21px;
+    font-family: "BebasNeueRegular",sans-serif;
+    font-style: normal
+}
+
+@media(-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi) {
+    #SideW #iscbbsocialconnect .content .social-icons a {
+        background: url('http://media.breitbart.com/media/2016/08/connect-icons@2x.png');
+        background-size: 312px 74px
+    }
+}
+
+.widget-area h2 {
+    color: #000;
+    font: 28px/0.9 'BebasNeueRegular',sans-serif;
+    margin: 0;
+    padding: 0 0 5px;
+    text-transform: uppercase
+}
+
+.widget-area div.ndn-videos h2 {
+    background: none repeat scroll 0 0 #fff;
+    color: #000;
+    font: 28px/0.9 'BebasNeueRegular',sans-serif;
+    margin: 0;
+    padding: 0 0 5px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.trc_rbox_header {
+    overflow: hidden
+}
+
+#disqus-popularUL {
+    margin: 0;
+    list-style: none;
+    background: #eee;
+    padding: 5px 15px
+}
+
+#disqus-popularUL li:first-child {
+    border-top: 0 none
+}
+
+#disqus-popularUL li {
+    margin: 15px 0;
+    list-style-type: none;
+    clear: both
+}
+
+#disqus-popularUL li span {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: #777;
+    font: italic 11px Georgia,serif;
+    text-transform: lowercase
+}
+
+#disqus-popularUL a {
+    color: #000;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal
+}
+
+#disqus-popularUL a:hover {
+    text-decoration: underline
+}
+
+#HPSWUL {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #fff;
+    width: 316px;
+    overflow: hidden
+}
+
+#HPSWUL li {
+    margin: 0;
+    padding: 10px 20px 10px 0;
+    list-style-type: none;
+    width: 148px;
+    overflow: hidden;
+    float: left
+}
+
+#HPSWUL li.flr {
+    float: right;
+    padding: 10px 0
+}
+
+#HPSWUL li&gt;a {
+    display: block;
+    overflow: hidden;
+    max-width: 146px;
+    width: 146px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #111;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal
+}
+
+#HPSWUL li&gt;a img {
+    width: 100%;
+    width: 146px;
+    height: 111px;
+    overflow: hidden
+}
+
+#HPSWUL li&gt;a div {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: #111;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.2em;
+    font-family: Georgia,serif
+}
+
+#HPSWUL li&gt;a:hover div {
+    color: #f50
+}
+
+#HPSWUL li span {
+    display: block;
+    color: #777;
+    display: inline-block;
+    font: italic 11px Georgia,serif
+}
+
+#HPSWUL li span a.bycount {
+    color: #777;
+    display: inline-block;
+    font: italic 11px Georgia,serif;
+    padding: 5px 0 0 0;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #000;
+    border-color: #000;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px 3px 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font: bold 10px Georgia,serif;
+    min-height: 1em;
+    min-width: 10px;
+    padding: 0 2px 2px;
+    position: relative;
+    text-align: center
+}
+
+#HPSWUL li span a.bycount:hover {
+    background: #08b;
+    text-decoration: none;
+    border-color: #08b
+}
+
+#HPSWUL li span a.bycount:after {
+    background: url(/t/assets/i/spriteg.png) no-repeat -224px -64px;
+    bottom: -7px;
+    content: "";
+    display: block;
+    height: 5px;
+    left: 2px;
+    position: absolute;
+    width: 8px
+}
+
+#HPSWUL li span a.bycount:hover:after {
+    background-position: -240px -64px
+}
+
+#HPSWUL li span {
+    color: #777;
+    display: inline-block;
+    font: italic 11px Georgia,serif;
+    padding: 5px 0 0 0
+}
+
+#HPSWUL li span a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #000;
+    border-color: #000;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px 3px 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font: bold 10px Georgia,serif;
+    min-height: 1em;
+    min-width: 10px;
+    padding: 0 2px 2px;
+    position: relative;
+    text-align: center
+}
+
+#HPSWUL li span a:hover {
+    background: #08b;
+    text-decoration: none;
+    border-color: #08b
+}
+
+#HPSWUL li span a:after {
+    background: url(/t/assets/i/spriteg.png) no-repeat -224px -64px;
+    bottom: -7px;
+    content: "";
+    display: block;
+    height: 5px;
+    left: 2px;
+    position: absolute;
+    width: 8px
+}
+
+#HPSWUL li span a:hover:after {
+    background-position: -240px -64px
+}
+
+.widget-area div.send-tip {
+    position: relative;
+    height: 170px
+}
+
+.widget-area div.send-tip img {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.widget-area div.send-tip p {
+    color: #f50;
+    font: 46px/0.9 'BebasNeueRegular',sans-serif;
+    left: 0;
+    margin: -23px 0 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 50%;
+    width: 100%
+}
+
+.widget-area div.send-tip a:hover p {
+    color: #10afdd
+}
+
+.widget-area div.newsletter-signup p {
+    color: #111;
+    font: 31px/0.9 'BebasNeueRegular',sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0 0 5px
+}
+
+.widget-area div.newsletter-signup p span {
+    border-top: 4px solid #000;
+    color: #f50;
+    font: 19px Georgia,serif;
+    margin-left: 2px;
+    padding-top: 1px
+}
+
+.widget-area div.newsletter-signup label,.widget-area div.newsletter-signup .validation_error {
+    display: none
+}
+
+.widget-area div.newsletter-signup .gform_body {
+    float: left;
+    width: 207px
+}
+
+.widget-area div.newsletter-signup .gform_footer {
+    float: left
+}
+
+.widget-area div.newsletter-signup input[type="text"] {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ccc -moz-use-text-color #ccc #ccc;
+    border-image: none;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    color: #666;
+    font: italic 12px Georgia,serif;
+    padding: 6px;
+    width: 195px
+}
+
+.widget-area div.newsletter-signup input[type="text"]:focus {
+    background: none repeat scroll 0 0 #eee;
+    outline: 0 none
+}
+
+.widget-area div.newsletter-signup input[type="submit"] {
+    background: none repeat scroll 0 0 #10afdd;
+    border: 0 none;
+    color: #fff;
+    float: left;
+    font: italic 12px Georgia,serif;
+    padding: 7px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 103px
+}
+
+.widget-area div.newsletter-signup input[type="submit"]:hover {
+    background-color: #f50
+}
+
+.widget-area div.newsletter-signup .gform_wrapper.gform_validation_error {
+    position: relative;
+    padding: 30px 0 0 0
+}
+
+.widget-area div.newsletter-signup .gfield_error .validation_message {
+    position: absolute;
+    width: 290px;
+    max-width: 100%;
+    background: #900;
+    color: #FFF;
+    padding: 5px 10px;
+    top: 0;
+    font-size: 12px
+}
+
+#breitbartpodcasts {
+    width: 312px;
+    height: 494px;
+    overflow: hidden;
+    background: #000 url("http://media.breitbart.com/media/2017/03/bb-podcasts-bkgd-v5.jpg") 0 0 no-repeat;
+    margin: 20px 0 0 0;
+    padding: 0
+}
+
+#bbpodcastspace {
+    display: block;
+    height: 45px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow: hidden
+}
+
+.bbpodcast {
+    width: 306px;
+    height: 149px;
+    padding: 0;
+    margin: 0 auto
+}
+
+.bbpodcastimg {
+    display: block;
+    height: 122px;
+    width: 123px;
+    margin: 14px 0 0 9px;
+    padding: 0;
+    text-decoration: none;
+    overflow: hidden;
+    float: left
+}
+
+.bbpodcastright {
+    float: right;
+    width: 168px;
+    height: 122px;
+    margin: 0;
+    padding: 12px 0 0 0;
+    overflow: hidden;
+    position: relative
+}
+
+.bbpodcasttxt {
+    color: #fff;
+    font: 16px/1 'BebasNeueRegular',sans-serif;
+    text-decoration: none;
+    width: 168px;
+    height: 37px;
+    margin: 0;
+    padding: 0 0 12px 0;
+    overflow: hidden
+}
+
+.bbpodcastlistennow {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    display: block;
+    height: 30px;
+    width: 149px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow: hidden;
+    background: url(http://media.breitbart.com/media/2016/03/bb-podcast-sidebar-listen-button.png) 0 0 no-repeat
+}
+
+.bbpodcastlistennow:hover {
+    background: url(http://media.breitbart.com/media/2016/03/bb-podcast-sidebar-listen-hover.png) 0 0 no-repeat
+}
+
+.bbpodcastitunes {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    height: 33px;
+    width: 93px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow: hidden
+}
+
+body.page-template-page-template-podcast h1 {
+    padding-top: 16px;
+    padding-bottom: 33px
+}
+
+article.podcastarticle {
+    position: relative
+}
+
+#podLeftW {
+    position: relative;
+    display: block;
+    width: 305px;
+    height: 305px;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    float: left
+}
+
+#podRightW {
+    position: relative;
+    display: block;
+    width: 475px;
+    height: 183px;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    float: right
+}
+
+#podRightWBG {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background: #000;
+    opacity: .5
+}
+
+#podRightWI {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 435px;
+    height: 143px;
+    z-index: 100
+}
+
+#podRightWI audio {
+    width: 100%
+}
+
+#podcastTitle {
+    color: #fff;
+    margin: 0;
+    padding: 0 0 13px 0;
+    font: 27px/1 'BebasNeueRegular',sans-serif
+}
+
+#podcastDesc {
+    color: #fff;
+    margin: 0;
+    padding: 0 0 13px 0;
+    font: 20px/1 'BebasNeueRegular',sans-serif
+}
+
+a.bbpodcastitunesfalse {
+    display: block;
+    height: 33px;
+    width: 97px;
+    overflow: hidden;
+    padding: 5px 0 5px 0;
+    margin: 0
+}
+
+div#NBzIDXyaTGIG-alRGD80gG0EgZYntzADRCaNSDUQ {
+    background-color: #fff;
+    width: 300px;
+    max-height: 300px;
+    overflow: hidden
+}
+
+#NBzIDXyaTGIG-alRGD80gG0EgZYntzADRCaNSDUQ .sidebarText.nmDivWrap {
+    width: 97% !important;
+    padding: 3px 0 0 0 !important;
+    margin: 0 0 0 auto
+}
+
+#nmWidget {
+    color: #000;
+    width: 295px;
+    padding-left: 0
+}
+
+#nmWidget.sidebarText ul.nmWidgetUl {
+    height: auto;
+    color: #000 !important;
+    max-height: 303px;
+    width: 92% !important;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 5px 0 0 0 !important;
+    margin: 5px 0 0 auto !important
+}
+
+#nmWidget.sidebarText ul.nmWidgetUl .nmWidgetList {
+    list-style-type: disc !important;
+    list-style-position: outside !important;
+    overflow: initial !important;
+    padding: 1px 0 2px 0 !important;
+    margin: 0 !important;
+    color: #000 !important
+}
+
+#nmWidget.sidebarText ul.nmWidgetUl li a,#nmWidget.sidebarText ul.nmWidgetUl li a:hover {
+    display: block;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+    font-size: 14px !important;
+    color: #000 !important;
+    margin-left: 0
+}
+
+#nmWidget #NmWgWhatsThis112 {
+    position: absolute;
+    top: -3000px;
+    bottom: -3000px;
+    height: 1px;
+    width: 1px;
+    display: none !important;
+    visibility: hidden !important
+}
+
+.sidebarText .nmWidgetList:before {
+    content: none !important;
+    display: none
+}
+
+.sidebarText .nmWidgetList p {
+    font: inherit;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+    font-size: 14px !important;
+    color: #111 !important;
+    text-align: left;
+    font-style: normal;
+    padding: 0;
+    overflow: inherit;
+    display: inline
+}
+
+#iscbbdailybrief {
+    padding: 7px 5px 5px;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 7px
+}
+
+#iscbbdailybrief .top-section {
+    padding: 0 9px 28px
+}
+
+#iscbbdailybrief .top-section .gform_wrapper .gfield {
+    margin: 0
+}
+
+#iscbbdailybrief .top-section label {
+    display: none
+}
+
+#iscbbdailybrief .top-section input[type='submit'] {
+    margin-top: 6px;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    padding: 0;
+    text-transform: none;
+    cursor: pointer
+}
+
+#iscbbdailybrief .top-section input[type='text'] {
+    text-align: center;
+    margin-top: 12px
+}
+
+#iscbbdailybrief .top-section .gform_confirmation_message {
+    padding-top: 25px
+}
+
+#iscbbdailybrief .headshot {
+    width: 115px;
+    height: 115px;
+    float: left;
+    margin-right: 11px
+}
+
+#iscbbdailybrief .logo {
+    margin: 0 auto;
+    display: block;
+    width: 104px;
+    height: 30px
+}
+
+#iscbbdailybrief .title {
+    display: block;
+    font-family: 'BebasNeueRegular',sans-serif
+}
+
+#iscbbdailybrief .title.large {
+    font-size: 41px;
+    line-height: 41px
+}
+
+#iscbbdailybrief .title.small {
+    font-size: 31px;
+    line-height: 27px
+}
+
+#iscbbdailybrief .byline {
+    font-size: 12px
+}
+
+#iscbbdailybrief .byline .name {
+    color: #10afdd
+}
+
+#SideW #clintoncash_widget {
+    position: relative;
+    min-height: 461px;
+    width: 310px;
+    margin: 0 auto
+}
+
+#clintoncash_widget img {
+    position: absolute
+}
+
+#clintoncash_widget .img2 {
+    display: none;
+    visibility: hidden
+}
+
+#clintoncash_widget p {
+    position: absolute;
+    bottom: 20px;
+    width: 284px;
+    margin: 0 13px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial,sans-serif
+}
+
+#SideW #andrew_store_widget {
+    position: relative;
+    min-height: 461px;
+    width: 310px;
+    margin: 0 auto
+}
+
+#andrew_store_widget img {
+    position: absolute
+}
+
+.category-blog .header-image {
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #111
+}
+
+.category-blog .header-image img {
+    display: block
+}
+
+.category-blog .conv-tags {
+    background: none repeat scroll 0 0 #eee;
+    margin: 10px 0 0;
+    overflow: hidden;
+    padding: 0 30px 10px 10px;
+    position: relative;
+    text-transform: uppercase;
+    transition: height .5s linear 0;
+    height: 24px
+}
+
+.category-blog .conv-tags.open {
+    height: auto
+}
+
+.category-blog .conv-tags .arrow {
+    background: url(/t/assets/i/spriteg.png) no-repeat scroll -224px -112px #444;
+    border-radius: 11px;
+    cursor: pointer;
+    height: 22px;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    width: 22px
+}
+
+.category-blog .conv-tags.open .arrow {
+    background-position: -224px -96px
+}
+
+.category-blog .conv-tags ul {
+    list-style: none;
+    margin: 0
+}
+
+.category-blog .conv-tags ul li {
+    display: inline-block
+}
+
+.category-blog .conv-tags a {
+    display: inline-block;
+    font: bold 12px Georgia,serif;
+    padding: 10px 10px 0 0
+}
+
+.category-blog .conv-tags a span.count {
+    color: #444;
+    font: 12px Arial,sans-serif
+}
+
+.category-blog .updated {
+    background-color: #eee;
+    color: #666;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px 20px 10px 10px;
+    text-align: right;
+    display: none;
+    margin: 10px 0 0 0
+}
+
+.category-blog .updated a {
+    display: inline-block;
+    float: left;
+    cursor: pointer
+}
+
+.category-blog .articles-list article {
+    border-top: 1px dotted #999;
+    margin-top: 15px;
+    padding-top: 15px;
+    overflow: hidden
+}
+
+.category-blog .articles-list article:first-of-type {
+    border-top: 0;
+    padding-top: 0
+}
+
+.category-blog .articles-list article .tag {
+    margin: 0 0 15px;
+    color: #f50;
+    font: 10px Georgia,serif;
+    text-transform: uppercase
+}
+
+.category-blog .articles-list article .tag a {
+    background: none repeat scroll 0 0 #f50;
+    color: #fff;
+    display: inline-block;
+    padding: 0 5px;
+    position: relative;
+    line-height: 21px
+}
+
+.category-blog .articles-list article .tag a:after {
+    border-color: transparent transparent transparent #f50;
+    border-style: solid;
+    border-width: 10px;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    width: 1px
+}
+
+.category-blog .articles-list article h2 {
+    font-size: 20px;
+    margin: 0 0 5px;
+    font-family: Georgia,serif;
+    color: #111;
+    font-weight: normal;
+    line-height: 1.2;
+    text-transform: none
+}
+
+.category-blog .articles-list article h2 a {
+    color: #111
+}
+
+.category-blog .articles-list article h2 a:hover {
+    color: #F50;
+    text-decoration: underline
+}
+
+.post-type-archive-wire .wires-menu ul,.tax-isc_bnn_category .wires-menu ul,.tax-isc_bnn_source .wires-menu ul {
+    margin: 0;
+    list-style: none
+}
+
+.post-type-archive-wire .wires-menu ul li a,.tax-isc_bnn_source .wires-menu ul li a,.tax-isc_bnn_category .wires-menu ul li a {
+    background-color: #eee;
+    border-bottom: 1px solid #fff;
+    color: #111;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px 10px;
+    text-transform: uppercase
+}
+
+.post-type-archive-wire .wires-menu ul li a:hover,.tax-isc_bnn_source .wires-menu ul li a:hover,.tax-isc_bnn_category .wires-menu ul li a:hover {
+    background: #FFF;
+    color: #f50
+}
+
+.post-type-archive-wire .wires-filter,.tax-isc_bnn_category .wires-filter,.tax-isc_bnn_source .wires-filter {
+    margin: 30px 0 30px 10px
+}
+
+.post-type-archive-wire .wires-filter h2,.tax-isc_bnn_category .wires-filter h2,.tax-isc_bnn_source .wires-filter h2 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0 0 5px;
+    font-family: Georgia,serif
+}
+
+.post-type-archive-wire .wires-filter ul,.tax-isc_bnn_category .wires-filter ul,.tax-isc_bnn_source .wires-filter ul {
+    border-top: 1px solid #ccc;
+    margin: 0;
+    list-style: none
+}
+
+.post-type-archive-wire .wires-filter ul li,.tax-isc_bnn_category .wires-filter ul li,.tax-isc_bnn_source .wires-filter ul li {
+    border-bottom: 1px solid #ccc
+}
+
+.post-type-archive-wire .wires-filter ul li a,.tax-isc_bnn_category .wires-filter ul li a,.tax-isc_bnn_source .wires-filter ul li a {
+    color: #08b;
+    cursor: pointer;
+    display: block;
+    font: bold 12px sans-serif;
+    padding: 5px 10px
+}
+
+.post-type-archive-wire .wires-filter ul li a:hover,.tax-isc_bnn_category .wires-filter ul li a:hover,.tax-isc_bnn_source .wires-filter ul li a:hover {
+    color: #111
+}
+
+.post-type-archive-wire .wires-filter ul li.selected a,.tax-isc_bnn_source .wires-filter ul li.selected a,.tax-isc_bnn_category .wires-filter ul li.selected a {
+    background: url(http://media.breitbart.com/media/2015/12/spriteY.png) 170px -287px no-repeat;
+    color: #111
+}
+
+.post-type-archive-wire .wires-list&gt;h1:first-of-type,.tax-isc_bnn_source .wires-list&gt;h1:first-of-type,.tax-isc_bnn_category .wires-list&gt;h1:first-of-type {
+    font-size: 32px;
+    margin: 0 0 5px
+}
+
+.post-type-archive-wire .wires-list .updated,.tax-isc_bnn_source .wires-list .updated,.tax-isc_bnn_category .wires-list .updated {
+    background-color: #eee;
+    color: #666;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px 20px 10px 10px;
+    text-align: right;
+    display: none
+}
+
+.post-type-archive-wire .wires-list .updated a,.tax-isc_bnn_category .wires-list .updated a,.tax-isc_bnn_source .wires-list .updated a {
+    display: inline-block;
+    float: left;
+    cursor: pointer
+}
+
+.post-type-archive-wire .wires-list article,.tax-isc_bnn_source .wires-list article,.tax-isc_bnn_category .wires-list article {
+    margin: 10px 0 0;
+    overflow: hidden;
+    border-top: 1px dotted #999;
+    padding: 10px 0 0 0
+}
+
+.post-type-archive-wire .wires-list article:first-of-type,.tax-isc_bnn_source .wires-list article:first-of-type,.tax-isc_bnn_category .wires-list article:first-of-type {
+    border-top: 0
+}
+
+.post-type-archive-wire .wires-list article .article-content,.tax-isc_bnn_source .wires-list article .article-content,.tax-isc_bnn_category .wires-list article .article-content {
+    float: left
+}
+
+.post-type-archive-wire .wires-list article.has-thumb .article-content,.tax-isc_bnn_source .wires-list article.has-thumb .article-content,.tax-isc_bnn_category .wires-list article.has-thumb .article-content {
+    max-width: calc(100% - 100px)
+}
+
+.post-type-archive-wire .wires-list article h2,.tax-isc_bnn_source .wires-list article h2,.tax-isc_bnn_category .wires-list article h2 {
+    color: #111;
+    font-family: Georgia,serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0 0 5px;
+    text-transform: none
+}
+
+.post-type-archive-wire .wires-list article h2 a,.tax-isc_bnn_source .wires-list article h2 a,.tax-isc_bnn_category .wires-list article h2 a {
+    color: #111
+}
+
+.post-type-archive-wire .wires-list article h2 a:hover,.tax-isc_bnn_source .wires-list article h2 a:hover,.tax-isc_bnn_category .wires-list article h2 a:hover {
+    text-decoration: underline;
+    color: #f50
+}
+
+.post-type-archive-wire .wires-list article .byline,.tax-isc_bnn_source .wires-list article .byline,.tax-isc_bnn_category .wires-list article .byline {
+    color: #777;
+    font: italic 11px Georgia,serif;
+    margin: 0 0 5px
+}
+
+.post-type-archive-wire .wires-list .thumb,.tax-isc_bnn_source .wires-list .thumb,.tax-isc_bnn_category .wires-list .thumb {
+    display: block;
+    width: 90px;
+    float: left;
+    margin: 0 10px 0 0;
+    top: 10px;
+    left: 0
+}
+
+.post-type-archive-wire .wires-list img,.tax-isc_bnn_source .wires-list img,.tax-isc_bnn_category .wires-list img {
+    display: block
+}
+
+#bbvb {
+    position: relative;
+    width: 630px;
+    height: 38px;
+    border-bottom: 5px solid #FFF
+}
+
+#bbvb .addthis_toolbox {
+    position: relative;
+    width: 630px;
+    height: 38px
+}
+
+#bbvb .addthis_toolbox a {
+    cursor: pointer;
+    text-indent: -3000px;
+    padding: 0 !important
+}
+
+#bbvb .addthis_toolbox a span {
+    display: none;
+    visibility: hidden
+}
+
+#bbvb .addthis_toolbox a span.acz5 {
+    display: block;
+    visibility: visible;
+    width: 94%;
+    height: 100%;
+    line-height: 38px;
+    color: #FFF;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: right
+}
+
+#bbvb div.adhold5 {
+    display: block;
+    position: relative;
+    height: 38px;
+    width: 124px;
+    float: left;
+    border-right: 9px solid #FFF
+}
+
+#bbvb div.adhold6 {
+    display: block;
+    position: relative;
+    height: 38px;
+    width: 124px;
+    float: left
+}
+
+#bbvb a.addthis_button_facebook {
+    display: block;
+    width: 124px;
+    height: 38px;
+    overflow: hidden;
+    background: url(/t/assets/i/sprite-chunky.png) -492px 0
+}
+
+#bbvb a.addthis_button_facebook:hover {
+    background: url(/t/assets/i/sprite-chunky.png) -492px -38px
+}
+
+#bbvb a.addthis_button_email {
+    display: block;
+    width: 124px;
+    height: 38px;
+    overflow: hidden;
+    background: url(/t/assets/i/sprite-chunky.png) -616px 0
+}
+
+#bbvb a.addthis_button_email:hover {
+    background: url(/t/assets/i/sprite-chunky.png) -616px -38px
+}
+
+#bbvb a.addthis_button_google_plusone_share {
+    display: block;
+    width: 124px;
+    height: 38px;
+    overflow: hidden;
+    background: url(/t/assets/i/sprite-chunky.png) -740px 0
+}
+
+#bbvb a.addthis_button_google_plusone_share:hover {
+    background: url(/t/assets/i/sprite-chunky.png) -740px -38px
+}
+
+#bbvb a.addthis_button_twitter {
+    display: block;
+    width: 124px;
+    height: 38px;
+    overflow: hidden;
+    background: url(/t/assets/i/sprite-chunky.png) -864px 0
+}
+
+#bbvb a.addthis_button_twitter:hover {
+    background: url(/t/assets/i/sprite-chunky.png) -864px -38px
+}
+
+#bbvb .at300bs {
+    display: none;
+    visibility: hidden
+}
+
+#bbbtmshare {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 39px;
+    overflow: hidden;
+    border-bottom: 15px solid #FFF;
+    border-top: 15px solid #FFF
+}
+
+#bbbtmshare .addthis_toolbox {
+    position: relative;
+    width: 100%;
+    height: 39px
+}
+
+#bbbtmshare .addthis_toolbox a {
+    display: block;
+    height: 39px;
+    width: 48%;
+    float: left;
+    cursor: pointer;
+    text-indent: -3000px;
+    padding: 0 !important
+}
+
+#bbbtmshare a.addthis_button_twitter {
+    display: block;
+    background-color: #28bdea;
+    background-image: none;
+    border-right: 9px solid #FFF
+}
+
+#bbbtmshare a.addthis_button_twitter:hover {
+    background-color: #5be5fd;
+    background-image: none
+}
+
+#bbbtmshare a.addthis_button_twitter span.bbbtmspan {
+    display: block;
+    width: 121px;
+    height: 39px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(/t/assets/i/sprite-chunky.png) -988px 0
+}
+
+#bbbtmshare a.addthis_button_twitter:hover span.bbbtmspan {
+    background: url(/t/assets/i/sprite-chunky.png) -988px -39px
+}
+
+#bbbtmshare a.addthis_button_facebook {
+    display: block;
+    background-color: #3c5a9a;
+    background-image: none
+}
+
+#bbbtmshare a.addthis_button_facebook:hover {
+    background-color: #3564bb;
+    background-image: none
+}
+
+#bbbtmshare a.addthis_button_facebook span.bbbtmspan {
+    display: block;
+    width: 121px;
+    height: 39px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(/t/assets/i/sprite-chunky.png) -1109px 0
+}
+
+#bbbtmshare a.addthis_button_facebook:hover span.bbbtmspan {
+    background: url(/t/assets/i/sprite-chunky.png) -1109px -39px
+}
+
+#bbbtmshare .at300bs {
+    display: none;
+    visibility: hidden
+}
+
+.gform_body ul.gform_fields {
+    list-style: none;
+    margin: 0
+}
+
+#FootW {
+    position: relative;
+    min-height: 280px;
+    min-width: 1010px;
+    background: -moz-linear-gradient(center top,#222,#000) repeat scroll 0 0 #000;
+    color: #aaa;
+    font: bold 11px Georgia,serif
+}
+
+#FootW #FWI {
+    position: relative;
+    padding: 0;
+    width: 1010px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+#FootW #FWI .colW {
+    border-right: 1px dashed #999;
+    padding: 30px 0 0 0;
+    height: 250px
+}
+
+#FootW #FWI .endcol {
+    border: 0
+}
+
+#FootW h4 {
+    color: #fff;
+    font: 18px/0.9 'BebasNeueRegular',sans-serif;
+    margin: 0;
+    padding: 0 0 10px;
+    position: relative;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    text-transform: uppercase
+}
+
+#FootW a {
+    color: #999
+}
+
+#FootW a:hover {
+    color: #08b;
+    text-decoration: none
+}
+
+#FootW small {
+    font-size: 100%
+}
+
+#FootW .col7 {
+    margin: 0 20px 0 0
+}
+
+#FootW .logo {
+    background: url(/t/assets/i/spriteg.png) no-repeat 0 0;
+    height: 72px;
+    width: 93px;
+    float: left;
+    display: block
+}
+
+#FootW .logo.mobile {
+    display: none
+}
+
+#FootW .col7 .copyright {
+    float: right;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    font: bold 11px Georgia,serif
+}
+
+#FootW .col7 .copyright p {
+    margin: 0;
+    padding: 0
+}
+
+#FootW .col7 .copyright a {
+    color: #FFF;
+    text-transform: uppercase;
+    background: url(http://media.breitbart.com/media/2015/12/spriteY.png) no-repeat scroll 0 8px rgba(0,0,0,0);
+    padding: 5px 0 5px 10px
+}
+
+#FootW .col7 .copyright a:hover {
+    color: #08b;
+    text-decoration: none
+}
+
+#FootW .col7 .search-form {
+    margin: 10px 0
+}
+
+#FootW .col7 .search-form input[type=text],#FootW .col7 .search-form input[type=text]:focus {
+    transition: none;
+    background: #444;
+    width: 190px
+}
+
+#FootW #NavF {
+    list-style: none;
+    margin: 0;
+    width: 400px
+}
+
+#FootW #NavF&gt;li {
+    display: block;
+    float: left;
+    width: 40%
+}
+
+#FootW #NavF&gt;li:nth-of-type(2n) {
+    width: 30%
+}
+
+#FootW #NavF&gt;li:nth-of-type(3n) {
+    width: 30%
+}
+
+#FootW #NavF&gt;li&gt;a {
+    background: url(http://media.breitbart.com/media/2015/09/blue-arrow1.png) no-repeat scroll 0 8px rgba(0,0,0,0);
+    padding: 5px 0 5px 10px;
+    font-size: 12px;
+    display: block
+}
+
+#FootW #NavF li ul {
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    padding: 0
+}
+
+#FootW #NavF li ul li {
+    display: block;
+    float: left;
+    width: 100%
+}
+
+#FootW #NavF li ul li a {
+    background: url(http://media.breitbart.com/media/2015/09/blue-arrow1.png) no-repeat scroll 0 8px rgba(0,0,0,0);
+    padding: 5px 0 5px 10px;
+    font-size: 12px;
+    display: block
+}
+
+#FootW #FSocialUL {
+    list-style: none;
+    margin: 0
+}
+
+#FootW #FSocialUL li {
+    clear: both
+}
+
+#FootW #FSocialUL li a {
+    font-size: 12px;
+    display: block;
+    position: relative;
+    padding: 5px 0 5px 30px
+}
+
+#FootW #FSocialUL li a:hover {
+    color: #FFF
+}
+
+#FootW #FSocialUL li a span {
+    background: url(/t/assets/i/spriteg.png) 0 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 21px;
+    overflow: hidden;
+    width: 21px;
+    margin: 0 3px 0 0
+}
+
+#FootW #FSocialUL li a span.fb {
+    background-position: -96px -32px
+}
+
+#FootW #FSocialUL li a span.tw {
+    background-position: -128px -32px
+}
+
+#FootW #FSocialUL li a span.rs {
+    background-position: -160px -32px
+}
+
+#FootW #FSocialUL li a span.tp {
+    background-position: -192px -32px
+}
+
+#FootW #foottools {
+    color: #fff;
+    font: 18px/0.9 'BebasNeueRegular',sans-serif;
+    margin: 0;
+    padding: 30px 0 10px;
+    position: relative;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    text-transform: uppercase
+}
+
+#FootW #foottools:after {
+    background: url(/t/assets/i/spriteg.png) no-repeat scroll -240px -48px;
+    bottom: 12px;
+    content: " ";
+    height: 10px;
+    position: absolute;
+    right: -10px;
+    width: 16px
+}
+
+#tallboy-rising-star-outer {
+    opacity: .99
+}
+
+body #MainW .the-article .entry-content&gt;h2:first-of-type {
+    display: inline;
+    clear: none !important
+}
+
+body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
+    margin-top: 1em
+}
+
+#EmailOptin {
+    float: right;
+    margin: 0 0 10px 10px;
+    display: block;
+    width: 310px;
+    height: 106px;
+    border: 2px solid #CCC;
+    background-color: #EEE;
+    padding: 0 10px
+}
+
+#EmailOptin .sh2 {
+    padding: 14px 0 8px;
+    height: 33px;
+    text-align: center;
+    font-family: 'BebasNeueRegular',sans-serif;
+    font-size: 31px;
+    color: #000;
+    margin: 0;
+    line-height: 33px
+}
+
+#EmailOptin .sh2 span {
+    color: #ff550f
+}
+
+#EmailOptin form {
+    position: relative
+}
+
+#EmailOptin .gform_wrapper {
+    margin: 0;
+    width: 100%
+}
+
+#EmailOptin form li.gfield {
+    margin: 0
+}
+
+#EmailOptin form li.gfield input[type='text'] {
+    box-sizing: border-box;
+    padding: 0 73px 0 10px;
+    height: 36px;
+    line-height: 36px;
+    border: 0;
+    font-family: Georgia,Times,'Times New Roman',serif;
+    font-style: italic;
+    width: 100%
+}
+
+#EmailOptin form input[type='submit'] {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    background: 0;
+    color: #ff550f;
+    line-height: 36px;
+    padding: 0;
+    font-size: 21px;
+    font-family: 'BebasNeueRegular',sans-serif;
+    font-style: normal
+}
+
+.C {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #FFF;
+    font-size: 10px;
+    line-height: 2em
+}
+
+.CLB {
+    clear: both;
+    display: block
+}
+
+.IFL {
+    float: left !important;
+    margin: 0 20px 0 0
+}
+
+.text-center {
+    text-align: center
+}
+
+.IFR {
+    float: right !important;
+    margin: 0 0 0 20px
+}
+
+.FL {
+    float: left !important
+}
+
+.FR {
+    float: right !important
+}
+
+.S {
+    display: block !important;
+    visibility: visible !important
+}
+
+.H,.hidden,.gform_hidden {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.VV {
+    visibility: visible !important
+}
+
+.VH {
+    visibility: hidden !important
+}
+
+.HH {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+    visibility: hidden;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    line-height: 3em
+}
+
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.5em
+}
+
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.5em
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin: 0 auto
+}
+
+.clear:before,.clear:after,.entry-content:before,.entry-content:after,.comment-content:before,.comment-content:after,.site-header:before,.site-header:after,.site-content:before,.site-content:after,.site-footer:before,.site-footer:after {
+    content: '';
+    display: table
+}
+
+.clear:after,.entry-content:after,.comment-content:after,.site-header:after,.site-content:after,.site-footer:after {
+    clear: both
+}
+
+@media screen and (max-width:480px) and (orientation:portrait),screen and (max-width:767px) and (orientation:landscape),screen and (max-width:767px) {
+    #isc_homepage_takeover_div {
+        top: 50% !important;
+        transform: translateY(-50%);
+        height: auto !important
+    }
+
+    #isc_homepage_takeover_div&gt;div {
+        height: auto !important
+    }
+
+    #isc_homepage_takeover {
+        height: auto !important
+    }
+
+    #isc_homepage_takeover_div img {
+        max-height: 100% !important;
+        max-width: 100% !important
+    }
+
+    #HeadWB,#HeadW #HTlinks,#HeadW #HTsocial,#HeadW #NavP,#HeadW #NavS,#HeadW .mobile-search,#HeadW #HWI&gt;.search-form,.top-article article .excerpt,#FootW #FWI&gt;.col7,#FootW .endcol #FSocialUL li:last-of-type,.widget-area .send-tip img,.widget-area .newsletter-signup,#FoxPW,.article-list .excerpt,.article-list article .byline&gt;div.date-time,.category-blog .articles-list article .excerpt,.category-blog .articles-list article .byline .date-time,.category-blog .articles-list article .article-content .byline .by,body.author .author-info .share-buttons,body.author .author-info .author-share,body.author .author-info .google-plus,body.post-type-archive-wire .wires-filter h2,body.tax-isc_bnn_category .wires-filter h2,.widget-area .send-tip,#bbvb {
+        display: none
+    }
+
+    body.ismobile .ad.if-mobile {
+        display: block
+    }
+
+    body .mobile {
+        display: block
+    }
+
+    #ContentW #ContainerW {
+        padding: 10px 0;
+        width: 100%;
+        background-color: #FFF
+    }
+
+    #ContentW #ContainerW #MainW,#ContentW #ContainerW #MainVidW {
+        float: none;
+        width: 100%;
+        margin: 0
+    }
+
+    *[class*='col'] {
+        float: none;
+        width: 100%;
+        margin: 0
+    }
+
+    .ad&gt;div {
+        max-width: 100%
+    }
+
+    #lwsc-box {
+        position: relative;
+        z-index: 9999;
+        float: none;
+        margin: 3px auto 30px auto
+    }
+
+    #wpadminbar {
+        position: fixed !important
+    }
+
+    #HeadW {
+        padding: 46px 0 0 0;
+        position: relative;
+        min-width: 100%;
+        overflow: visible
+    }
+
+    #HeadW #HWIC {
+        position: fixed;
+        background: #000;
+        width: 100%;
+        height: 50px;
+        top: 0;
+        border: 0;
+        z-index: 500000
+    }
+
+    #HeadW #HWIC #HWI {
+        position: relative;
+        width: 100%;
+        height: auto;
+        min-width: 100%;
+        padding: 5px 0;
+        margin: auto
+    }
+
+    body.logged-in #HeadW #HWI {
+        top: 46px
+    }
+
+    #HeadW .menu-toggle {
+        width: 30px;
+        margin: 10px 0 0 10px;
+        float: left;
+        cursor: pointer
+    }
+
+    #HeadW .menu-toggle span {
+        display: block;
+        background: #FFF;
+        height: 2px;
+        margin: 0 0 6px 0
+    }
+
+    #HeadW .logo {
+        text-indent: -6000px;
+        background: url(http://media.breitbart.com/media/2015/12/logo-mobile.png) no-repeat scroll 0 0 / contain rgba(0,0,0,0);
+        width: 146px;
+        height: 30px;
+        top: 10px;
+        left: 50px
+    }
+
+    body.category-london #HeadW .logo {
+        background: url(/t/assets/i/logo-london-mobile.png) no-repeat scroll 0 0 / contain rgba(0,0,0,0)
+    }
+
+    body.category-texas #HeadW .logo {
+        background: url(/t/assets/i/logo-texas-mobile.png) no-repeat scroll 0 0 / contain rgba(0,0,0,0)
+    }
+
+    body.category-tech #HeadW .logo {
+        background: url(/t/assets/i/logo-tech-mobile.png) no-repeat scroll 0 0 / contain rgba(0,0,0,0)
+    }
+
+    body.category-jerusalem #HeadW .logo {
+        background: url(/t/assets/i/logo-jerusalem-mobile.png) no-repeat scroll 0 0 / contain rgba(0,0,0,0)
+    }
+
+    body.category-california #HeadW .logo {
+        background: url(/t/assets/i/logo-california-mobile.png) no-repeat scroll 0 0 / contain rgba(0,0,0,0)
+    }
+
+    body.page-id-2723153 #HeadW .logo,body.category-meetups #HeadW .logo {
+        background: url(/t/assets/i/logo-meetup-mobile@1x.png) no-repeat scroll 0 0 / contain rgba(0,0,0,0)
+    }
+
+    #HeadW .mobile-search {
+        background: rgba(17,17,17,.95);
+        width: 90%;
+        margin: 45px 0 0 0;
+        position: static;
+        padding: 10px 0
+    }
+
+    #HeadW .mobile-search .search-form {
+        position: relative;
+        width: calc(100% - 20px);
+        margin: 0 10px;
+        top: auto;
+        right: auto
+    }
+
+    #HeadW .mobile-search .search-form input[type="text"] {
+        border-radius: 5px;
+        width: calc(100% - 41px)
+    }
+
+    #HeadW ul.menu {
+        height: auto;
+        bottom: auto;
+        left: auto
+    }
+
+    #HeadW ul.menu li {
+        height: auto;
+        line-height: normal
+    }
+
+    #HeadW #NavP {
+        background: rgba(17,17,17,.95);
+        width: 90%;
+        margin: 0;
+        position: static
+    }
+
+    #HeadW #NavP li,#HeadW #NavS li {
+        display: block;
+        padding: 0;
+        margin: 0;
+        border-top: 1px solid #4c4c4c
+    }
+
+    #HeadW #NavP li a,#HeadW #NavS li a {
+        display: block;
+        padding: 7px 10px
+    }
+
+    #HeadW #NavS {
+        background: rgba(32,32,32,.95);
+        width: 90%;
+        margin: 0;
+        position: static
+    }
+
+    #HeadW #NavS&gt;li:first-of-type {
+        padding: 0;
+        margin: 0
+    }
+
+    #HeadW #NavS&gt;li:last-of-type {
+        padding: 0;
+        margin: 0;
+        border-top: 1px solid #4c4c4c
+    }
+
+    #HeadW #NavS li:nth-last-of-type(2) {
+        padding: 0;
+        border-top: 1px solid #4c4c4c
+    }
+
+    #HeadW #NavS li:last-of-type {
+        padding: 0;
+        text-align: left;
+        border-top: 1px solid #4c4c4c;
+        float: none
+    }
+
+    #HeadW .ad {
+        border-top: 6px solid #FFF;
+        height: 75px
+    }
+
+    #ContentW .top-article article {
+        margin: 0 10px 20px
+    }
+
+    #ContentW .top-article article .thumb-container {
+        display: table-header-group
+    }
+
+    #ContentW .top-article article .title {
+        font-size: 50px;
+        display: table-footer-group
+    }
+
+    #ContentW .top-article .wp-post-image {
+        width: 100%
+    }
+
+    #ContentW .top-article .byline {
+        font-size: 14px;
+        height: 20px
+    }
+
+    #ContentW .top-article article .byline .byauthor {
+        border: 0
+    }
+
+    #ContentW article .byline .byauthor:after {
+        background: 0
+    }
+
+    #ContentW .top-article article .bycount {
+        float: right
+    }
+
+    #ContentW .featured article {
+        position: relative
+    }
+
+    #ContentW .featured article:first-of-type {
+        border-top: 1px dotted #999;
+        margin: 10px 0 0 0;
+        padding: 15px 0 0 0
+    }
+
+    #ContentW .featured article h2.title {
+        margin: 0 40px 2px 10px;
+        font-size: 16px;
+        text-align: left
+    }
+
+    #ContentW .featured article h2.title a {
+        color: #000
+    }
+
+    #ContentW .featured article .byline {
+        text-align: left;
+        margin: 0 60px 0 10px;
+        font-size: 14px
+    }
+
+    #ContentW .featured article .byauthor {
+        border: 0
+    }
+
+    #ContentW .featured article .byline a.byauthor {
+        display: inline
+    }
+
+    #ContentW .featured article .bycount {
+        position: absolute;
+        bottom: 0;
+        right: 10px
+    }
+
+    #ContentW .divider {
+        text-align: left;
+        margin: 20px 0 10px 0
+    }
+
+    #ContentW .divider .subtitle {
+        display: inline;
+        font: 28px/0.9 'BebasNeueRegular',sans-serif;
+        margin: 0 0 0 10px
+    }
+
+    #ContentW .divider .subtitle em {
+        font-style: normal
+    }
+
+    #ContentW .divider .title {
+        bottom: 0;
+        position: static;
+        background: 0;
+        font: 28px/0.9 'BebasNeueRegular',sans-serif;
+        padding: 0
+    }
+
+    #ContentW .breitbart-tv article,#ContentW .breitbart-tv&gt;article:nth-of-type(3n) {
+        overflow: hidden;
+        margin: 0 0 10px 0
+    }
+
+    #ContentW .breitbart-tv .thumb-container {
+        width: 30%;
+        margin: 0 0 0 10px;
+        float: left;
+        display: inline-block
+    }
+
+    #ContentW .breitbart-tv .thumb-container img {
+        display: block
+    }
+
+    #ContentW .breitbart-tv .title {
+        font-size: 14px;
+        float: right;
+        width: calc(70% - 30px);
+        margin: 0 10px 0 0;
+        display: inline-block;
+        clear: none
+    }
+
+    #ContentW .featured-contributors article,#ContentW .featured-contributors&gt;article:nth-of-type(2n) {
+        overflow: hidden;
+        margin: 0 10px 10px 0;
+        border-bottom: 1px dotted #999;
+        padding: 0 0 10px 0;
+        min-height: 0
+    }
+
+    #ContentW .featured-contributors article:last-of-type {
+        border-bottom: 0;
+        padding: 0
+    }
+
+    #ContentW .featured-contributors&gt;article .avatar {
+        margin: 0 10px;
+        width: 60px;
+        height: auto
+    }
+
+    #ContentW .featured-contributors&gt;article.has-author-img h2.title,#ContentW .featured-contributors article h2.title {
+        font-size: 16px;
+        margin: 0 40px 5px 90px
+    }
+
+    #ContentW .featured-contributors article h2.title a {
+        color: #000
+    }
+
+    #ContentW .featured-contributors article .byline {
+        font-size: 14px;
+        min-height: 20px;
+        position: relative;
+        margin: 0 0 0 90px
+    }
+
+    #ContentW .featured-contributors&gt;article .byline .by {
+        display: inline;
+        margin: 0 5px 0 0;
+        float: none
+    }
+
+    #ContentW .featured-contributors&gt;article .byline .by-author {
+        padding: 0;
+        background: 0;
+        overflow: hidden
+    }
+
+    #ContentW .featured-contributors article .byauthor {
+        border: 0;
+        margin: 0 60px 0 0;
+        display: inline;
+        float: none
+    }
+
+    #ContentW .featured-contributors article .bycount {
+        position: absolute;
+        bottom: 10px;
+        right: 10px
+    }
+
+    #ContentW .grid-block {
+        height: auto !important;
+        margin: 10px 0 0 0
+    }
+
+    #ContentW .grid-block&gt;article {
+        position: relative;
+        top: auto !important;
+        bottom: auto;
+        left: auto;
+        right: auto;
+        border-bottom: 1px dotted #999;
+        width: calc(100% - 20px);
+        height: auto;
+        overflow: hidden;
+        padding: 10px;
+        margin: 0 !important
+    }
+
+    #ContentW .grid-block&gt;article:last-of-type,#ContentW .grid-block article.black {
+        border-bottom: 0
+    }
+
+    #ContentW .grid-block&gt;article .thumb-container img {
+        width: 100%
+    }
+
+    #ContentW .grid-block&gt;article.aw-1 .thumb-container {
+        width: 30%;
+        float: left;
+        margin: 0 10px 0 0
+    }
+
+    #ContentW .grid-block article.black .article-content {
+        padding: 0
+    }
+
+    #ContentW .grid-block&gt;article .title {
+        margin: 0 35px 0 0
+    }
+
+    .grid-block article.black .title,.grid-block article.black.aw-1.ah-3 .title,#ContentW .grid-block&gt;article.aw-1 .title a {
+        font-family: Georgia,serif;
+        font-size: 16px;
+        line-height: 19px
+    }
+
+    #ContentW .grid-block article.aw-1.ah-2 .title {
+        margin: 0 35px 0 30%;
+        margin-left: calc(30%+10px)
+    }
+
+    #ContentW .grid-block article.ah-1 .avatar,#ContentW .grid-block article.ah-2 .avatar,#ContentW .grid-block article div.author,#ContentW .grid-block article div.date {
+        display: none
+    }
+
+    #ContentW .grid-block article div.comment {
+        position: absolute;
+        bottom: 15px;
+        right: 10px;
+        font-size: 0
+    }
+
+    #breitbartpodcasts {
+        margin: 20px auto 0 auto
+    }
+
+    body.page-template-page-template-podcast #ContentW {
+        width: 100%;
+        height: 683px
+    }
+
+    body.page-template-page-template-podcast #ContentW #ContainerW {
+        background: transparent;
+        width: 100%;
+        min-height: 683px
+    }
+
+    body.page-template-page-template-podcast h1 {
+        padding-top: 6px;
+        padding-bottom: 23px
+    }
+
+    #podLeftW {
+        margin: 0 auto;
+        float: none
+    }
+
+    #podRightW {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        float: none
+    }
+
+    #podRightWI {
+        position: absolute;
+        top: 2%;
+        left: 2%;
+        bottom: 0;
+        right: 0;
+        margin: 0 auto;
+        padding: 0;
+        width: 95%;
+        height: 243px;
+        z-index: 100
+    }
+
+    #podRightWBG {
+        opacity: .3
+    }
+
+    #SideW,#SideVidW {
+        width: 100%;
+        float: none
+    }
+
+    .widget-area h2 {
+        margin: 0 0 0 10px;
+        text-align: left
+    }
+
+    #disqus-popularUL {
+        padding: 5px 10px
+    }
+
+    .widget-area div.ndn-videos h2 {
+        margin: 0 0 0 10px;
+        text-align: left
+    }
+
+    .widget-area div.ndn-videos .ndn-videos-content {
+        margin: 0 10px
+    }
+
+    .widget-area div.mobile-send-tip {
+        padding: 20px 0;
+        height: auto;
+        display: block
+    }
+
+    .widget-area div.mobile-send-tip p {
+        margin: 0 10px;
+        position: static;
+        padding: 0;
+        width: auto
+    }
+
+    .widget-area div.mobile-send-tip p a {
+        background: #15bcec;
+        color: #FFF;
+        padding: 12px 0 10px 0;
+        font-size: 32px;
+        display: block
+    }
+
+    .widget-area div.send-tip p a:hover {
+        background: #f50
+    }
+
+    .widget-area .mobile-newsletter-signup p {
+        margin: 10px;
+        background: #f50;
+        padding: 2px 0 0 0
+    }
+
+    .widget-area .mobile-newsletter-signup p a {
+        display: block;
+        padding: 10px;
+        color: #FFF;
+        text-transform: uppercase;
+        font-family: 'BebasNeueRegular',sans-serif;
+        font-size: 32px;
+        text-align: center
+    }
+
+    #HPSW {
+        border: 0
+    }
+
+    #HPSWUL {
+        margin: 0 auto;
+        width: 97%
+    }
+
+    #HPSWUL li {
+        padding: 10px 20px 10px 0;
+        width: 45%
+    }
+
+    #ContentW article.the-article {
+        margin: 0 10px
+    }
+
+    #ContentW .the-article&gt;h1:first-of-type {
+        margin: 0 0 10px 0
+    }
+
+    #ContentW article.the-article .byline {
+        position: relative;
+        padding: 10px 0 20px 0;
+        font-size: 14px
+    }
+
+    #ContentW article.the-article .byline .byauthor {
+        border: 0
+    }
+
+    #ContentW article.the-article .byline .bydate {
+        border: 0;
+        display: block
+    }
+
+    #ContentW article.the-article .byline&gt;.bycount {
+        position: absolute;
+        top: 10px;
+        right: 0
+    }
+
+    #ContentW #comments {
+        margin: 0 10px
+    }
+
+    .article-list&gt;h2:first-of-type {
+        margin: 0 0 0 10px
+    }
+
+    .article-list article .thumb-container {
+        float: left;
+        width: 30%;
+        display: block;
+        margin: 0 0 0 10px
+    }
+
+    .article-list article .thumb-container img,body.archive .article-list article img {
+        width: 100%;
+        max-width: 100%
+    }
+
+    .article-list article.has-post-thumbnail .grp-content,.article-list article.has-thumb .grp-content {
+        float: right;
+        width: calc(70% - 30px);
+        margin: 0 10px 0 0;
+        padding: 0
+    }
+
+    .article-list article .grp-content {
+        width: calc(100% - 20px);
+        margin: 0 10px;
+        padding: 0
+    }
+
+    body.archive .article-list article.has-post-thumbnail .grp-content {
+        padding: 0
+    }
+
+    .article-list article .title {
+        margin: 0 25px 0 0
+    }
+
+    .article-list article .title a {
+        font-size: 16px
+    }
+
+    .article-list article .byline {
+        position: relative;
+        padding: 5px 0 0 0;
+        font-size: 14px
+    }
+
+    .article-list article .byline .byauthor {
+        border: 0
+    }
+
+    .article-list article .byline&gt;.bycount {
+        position: absolute;
+        top: -10px;
+        right: 0
+    }
+
+    #ContentW .pagination {
+        margin: 10px 0
+    }
+
+    body.author .author-info {
+        margin: 0 10px 0 10px
+    }
+
+    .category-blog .header-image {
+        border: 0;
+        margin: 0 10px;
+        font-size: 0
+    }
+
+    .category-blog .header-image a {
+        display: block
+    }
+
+    .category-blog .header-image img {
+        width: 100%
+    }
+
+    .category-blog .conv-tags {
+        margin: 10px
+    }
+
+    .category-blog .articles-list article,.category-blog .articles-list article:first-of-type {
+        border-top: 1px dotted #999;
+        overflow: hidden;
+        margin: 10px 0 0 0;
+        padding: 10px 0 0 0;
+        position: relative
+    }
+
+    .category-blog .articles-list article&gt;.tag {
+        position: absolute;
+        top: 10px;
+        left: 80px
+    }
+
+    .category-blog .articles-list article .tag a {
+        font-size: 14px;
+        color: #f50;
+        background: 0;
+        padding: 0
+    }
+
+    .category-blog .articles-list article .tag a:after {
+        display: none
+    }
+
+    .category-blog .articles-list article&gt;.author {
+        float: left;
+        margin: 0 10px;
+        width: 60px
+    }
+
+    .category-blog .articles-list article img {
+        width: 60px;
+        height: auto
+    }
+
+    .category-blog .articles-list article .article-content {
+        float: left;
+        width: calc(100% - 90px)
+    }
+
+    .category-blog .articles-list article[class*="tag-"] .article-content {
+        margin: 16px 0 0 0
+    }
+
+    .category-blog .articles-list article .article-content&gt;h2 a {
+        font-size: 16px
+    }
+
+    .category-blog .articles-list article .article-content .byline&gt;div {
+        border: 0
+    }
+
+    .category-blog .articles-list article .article-content .byline&gt;div.author {
+        margin: 0;
+        padding: 0;
+        font-size: 14px
+    }
+
+    .category-blog .articles-list article .article-content .byline&gt;div.author:after {
+        background: 0
+    }
+
+    body.author .article-list article .byline div.comment {
+        top: -20px
+    }
+
+    body.post-type-archive-wire .wires-menu&gt;h1,body.tax-isc_bnn_category .wires-menu&gt;h1 {
+        margin: 0 0 0 10px
+    }
+
+    body.post-type-archive-wire .wires-list .list-header,body.tax-isc_bnn_category .wires-list .list-header {
+        margin: 30px 10px 0 10px
+    }
+
+    body.post-type-archive-wire .wires-list article .thumb,body.tax-isc_bnn_category .wires-list article .thumb {
+        width: 30%;
+        margin: 0 0 0 10px
+    }
+
+    body.post-type-archive-wire .wires-list article .thumb img,body.tax-isc_bnn_category .wires-list article .thumb img {
+        width: 100%
+    }
+
+    .post-type-archive-wire .wires-list article .article-content,.tax-isc_bnn_category .wires-list article .article-content {
+        width: calc(100% - 20px);
+        margin: 0 0 0 10px
+    }
+
+    .post-type-archive-wire .wires-list article.has-thumb .article-content,.tax-isc_bnn_category .wires-list article.has-thumb .article-content {
+        width: calc(70% - 30px);
+        margin: 0 0 0 10px
+    }
+
+    body.post-type-archive-wire .get-dd,body.tax-isc_bnn_category .get-dd {
+        height: 34px;
+        position: relative;
+        background: none repeat scroll 0 0 #eee;
+        margin: 10px 10px 0 10px;
+        overflow: hidden;
+        padding: 0 30px 0 10px;
+        cursor: pointer;
+        line-height: 34px
+    }
+
+    body.post-type-archive-wire .get-dd .arrow,body.tax-isc_bnn_category .get-dd .arrow {
+        background: url(/t/assets/i/spriteg.png) no-repeat scroll -224px -112px #444;
+        border-radius: 11px;
+        cursor: pointer;
+        height: 22px;
+        position: absolute;
+        right: 10px;
+        top: 6px;
+        width: 22px
+    }
+
+    body.post-type-archive-wire .open .get-dd&gt;.arrow,body.tax-isc_bnn_category .open .get-dd&gt;.arrow {
+        background-position: -224px -96px
+    }
+
+    body.post-type-archive-wire .wires-menu&gt;ul,body.tax-isc_bnn_category .wires-menu&gt;ul {
+        height: 0;
+        overflow: hidden;
+        transition: height .5s linear 0;
+        margin: 0 10px
+    }
+
+    body.post-type-archive-wire .wires-menu&gt;ul li:first-of-type,body.tax-isc_bnn_category .wires-menu&gt;ul li:first-of-type {
+        border-top: 1px solid #111
+    }
+
+    body.post-type-archive-wire #ContentW .open&gt;ul,body.tax-isc_bnn_category #ContentW .open&gt;ul {
+        height: auto
+    }
+
+    body.post-type-archive-wire .wires-filter,body.tax-isc_bnn_category .wires-filter {
+        margin: 0 0 10px 0
+    }
+
+    body.post-type-archive-wire .wires-filter&gt;ul,body.tax-isc_bnn_category .wires-filter&gt;ul {
+        background: none repeat scroll 0 0 #eee;
+        margin: 0 10px;
+        height: 0;
+        overflow: hidden;
+        transition: height .5s linear 0;
+        border: 0
+    }
+
+    body.post-type-archive-wire .open&gt;ul,body.tax-isc_bnn_category .open&gt;ul {
+        height: auto
+    }
+
+    body.post-type-archive-wire .wires-filter&gt;ul li,body.tax-isc_bnn_category .wires-filter&gt;ul li {
+        border-top: 1px solid #FFF;
+        border-bottom: 0
+    }
+
+    body.post-type-archive-wire .wires-filter&gt;ul li:first-of-type,body.tax-isc_bnn_category .wires-filter&gt;ul li:first-of-type {
+        border-top: 1px solid #111
+    }
+
+    body.post-type-archive-wire .wires-filter&gt;ul li a,body.tax-isc_bnn_category .wires-filter&gt;ul li a {
+        color: #111
+    }
+
+    .post-type-archive-wire .wires-filter ul li.selected a,.tax-isc_bnn_category .wires-filter ul li.selected a {
+        background: #111;
+        color: #FFF
+    }
+
+    body.category-video.archive .breitbart-tv-header {
+        margin: 10px
+    }
+
+    body.category-video.archive .breitbart-tv-header div {
+        border: 0;
+        height: auto
+    }
+
+    body.category-video.archive .breitbart-tv-header a {
+        font-size: 32px;
+        padding: 13px 0 10px 0
+    }
+
+    body.category-video.archive .breitbart-tv-header a span {
+        top: 20px
+    }
+
+    body.category-video.archive #ContentW .top-article {
+        width: calc(100% - 20px);
+        margin: 0 10px
+    }
+
+    body.category-video.archive #ContentW .top-article article.category-video {
+        border-top: 0;
+        overflow: hidden;
+        margin: 0;
+        padding: 0
+    }
+
+    body.category-video.archive #ContentW .top-article article.category-video .thumb-container {
+        width: 100%;
+        float: none;
+        display: table-header-group
+    }
+
+    body.category-video.archive #ContentW .top-article article.category-video h2.title {
+        width: 100%;
+        float: none
+    }
+
+    body.category-video.archive #ContentW .top-article article.category-video h2.title a {
+        font-size: 50px;
+        font-family: 'BebasNeueRegular',sans-serif;
+        font-style: normal
+    }
+
+    body.category-video.archive #ContentW article.category-video {
+        border-top: 1px dotted #999;
+        overflow: hidden;
+        margin: 10px 0 0 0;
+        padding: 10px 0 0 0
+    }
+
+    body.category-video.archive #ContentW article.category-video .thumb-container {
+        display: block;
+        margin: 0 0 0 10px;
+        width: 30%;
+        float: left
+    }
+
+    body.category-video.archive #ContentW article.category-video .thumb-container img {
+        width: 100%;
+        height: auto
+    }
+
+    body.category-video.archive #ContentW article.category-video h2.title {
+        width: calc(70% - 30px);
+        margin: 0 0 0 10px;
+        float: left;
+        clear: none;
+        background: 0;
+        padding: 0
+    }
+
+    body.category-video.archive #ContentW article.category-video h2.title a {
+        font-size: 16px;
+        font-family: Georgia,serif;
+        font-style: italic;
+        color: #111
+    }
+
+    body.category-video.archive #ContentW article.category-video .byline {
+        font-size: 14px
+    }
+
+    body.category-video.archive #ContentW article.category-video .byline&gt;div {
+        border: 0
+    }
+
+    body.error404 #MainW article {
+        margin: 0 10px
+    }
+
+    #FootW {
+        min-width: 100%;
+        width: 100%
+    }
+
+    #FootW #FWI {
+        padding: 10px;
+        width: calc(100% - 20px);
+        border-bottom: 50px solid #000
+    }
+
+    #FootW #FWI .colW {
+        border: 0;
+        height: auto;
+        padding: 10px 0
+    }
+
+    #FootW #foottools {
+        padding: 0;
+        clear: both;
+        position: relative
+    }
+
+    #FootW #foottools:after {
+        right: 10px;
+        background: 0
+    }
+
+    #FootW .endcol #foottools {
+        overflow: hidden;
+        border-top: 1px dotted #999;
+        border-bottom: 1px dotted #999;
+        padding: 10px 0
+    }
+
+    #FootW #NavF {
+        list-style: none;
+        margin: 0;
+        width: 100%
+    }
+
+    #FootW #NavF&gt;li {
+        display: inline-block;
+        width: 33%
+    }
+
+    #FootW #NavF&gt;li:nth-of-type(2n) {
+        width: 33%
+    }
+
+    #FootW #NavF&gt;li:nth-of-type(3n) {
+        width: 33%
+    }
+
+    #FootW #NavF li ul {
+        list-style: none;
+        margin: 0;
+        width: 100%;
+        padding: 0
+    }
+
+    #FootW #NavF li ul li {
+        display: block;
+        float: left;
+        width: 100%
+    }
+
+    #FootW #NavF li {
+        display: block
+    }
+
+    #FootW .endcol h4 {
+        float: left
+    }
+
+    #FootW .endcol #FSocialUL {
+        float: right;
+        margin: 0 10px 0 0
+    }
+
+    #FootW .endcol #FSocialUL li {
+        display: inline-block;
+        font-size: 0
+    }
+
+    #FootW .endcol #FSocialUL li a {
+        font-size: 0;
+        margin: 0 5px 0 0;
+        padding: 0
+    }
+
+    #FootW .endcol #FSocialUL li a span {
+        position: relative;
+        top: -5px
+    }
+
+    #FootW .logo.mobile {
+        display: block;
+        float: left
+    }
+
+    #FootW .subscribe {
+        font-size: 18px;
+        float: left;
+        position: absolute;
+        display: block;
+        color: #FFF;
+        width: calc(100% - 135px);
+        left: 113px;
+        top: 10px
+    }
+
+    #FootW .subscribe:after {
+        background: url(/t/assets/i/spriteg.png) no-repeat scroll -224px -48px rgba(0,0,0,0);
+        bottom: 0;
+        content: " ";
+        height: 10px;
+        position: absolute;
+        right: -20px;
+        width: 16px
+    }
+
+    #FootW .full-site {
+        position: absolute;
+        bottom: 10px;
+        color: #10a8d4;
+        left: 113px;
+        font-size: 13px;
+        font-family: Georgia,serif;
+        text-transform: none
+    }
+
+    #FootW .copyright {
+        clear: both;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 5px 0 15px 0;
+        font: bold 13px Georgia,serif
+    }
+
+    #FootW small {
+        font-size: 100%
+    }
+
+    #iscbbdailybrief {
+        margin: 0 10px
+    }
+
+    #iscbbdailybrief .top-section .right {
+        text-align: center
+    }
+
+    #iscbbdailybrief .top-section input[type='text'] {
+        box-sizing: border-box;
+        width: 100%;
+        border: 1px solid #e7e7e7
+    }
+
+    #iscbbdailybrief .title.large {
+        font-size: 40px;
+        line-height: 40px
+    }
+
+    #iscbbdailybrief .title.small {
+        font-size: 30px;
+        line-height: 27px
+    }
+
+    #iscbbdailybrief .byline {
+        font-size: 11px
+    }
+
+    #EmailOptin {
+        display: none
+    }
+
+    #EmailOptinM {
+        margin: 10px 0;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: 106px;
+        background-color: #252525;
+        padding: 0 10px;
+        box-sizing: border-box
+    }
+
+    #EmailOptinM .sh2 {
+        padding: 14px 0 8px;
+        text-align: center;
+        font-family: 'BebasNeueRegular',sans-serif;
+        font-size: 31px;
+        color: #FFF;
+        margin: 0;
+        line-height: 33px
+    }
+
+    #EmailOptinM .sh2 span {
+        color: #ff550f
+    }
+
+    #EmailOptinM form {
+        position: relative
+    }
+
+    #EmailOptinM .gform_wrapper {
+        margin: 0 auto;
+        width: 83%
+    }
+
+    #EmailOptinM form li.gfield {
+        margin: 0
+    }
+
+    #EmailOptinM form li.gfield input[type='text'] {
+        box-sizing: border-box;
+        padding: 0 73px 0 10px;
+        height: 36px;
+        line-height: 36px;
+        border: 0;
+        font-family: Georgia,Times,'Times New Roman',serif;
+        font-style: italic
+    }
+
+    #EmailOptinM form input[type='submit'] {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        background: 0;
+        color: #ff550f;
+        line-height: 36px;
+        padding: 0;
+        font-size: 21px;
+        font-family: 'BebasNeueRegular',sans-serif;
+        font-style: normal
+    }
+}
+
+body.no-js .hide-no-js,body.no-js .Hnjs {
+    display: none !important;
+    visibility: hidden
+}
+
+body .if-mobile {
+    display: none !important;
+    visibility: hidden
+}
+
+body.ismobile .if-mobile {
+    display: block !important;
+    visibility: visible
+}
+
+body .hide-if-mobile,body .Hmobi {
+    display: block !important;
+    visibility: visible
+}
+
+body.ismobile .hide-if-mobile,body.ismobile .Hmobi {
+    display: none !important;
+    visibility: hidden
+}
+
+body div.ad.adinbody {
+    background: transparent;
+    text-align: center;
+    margin: 0 auto 1.5em auto
+}
+
+body div.ad.adinbody&gt;div.inbodyad {
+    background: none repeat scroll 0 0 #eee;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px
+}
+
+body div.ad.adinbody&gt;div.inbodyad&gt;p {
+    text-align: right
+}
+
+body.cat-view-customize div.ad.adinbody,body.home div.ad.adinbody {
+    background: transparent;
+    text-align: center;
+    margin: 0 auto 1.5em auto;
+    padding-top: 1.5em
+}
+
+#BBFactCheck {
+    clear: both;
+    float: none;
+    margin: 30px 0;
+    border: solid 1px #000
+}
+
+.bb-fact-more {
+    font-family: 'BebasNeueRegular',sans-serif;
+    font-size: 20px;
+    color: #fff
+}
+
+.bb-fact-header {
+    background-color: #000;
+    padding: 12px
+}
+
+.bb-fact-header .bb-fact-logo-container {
+    float: left;
+    max-width: 230px
+}
+
+.bb-fact-header .bb-fact-logo {
+    display: block
+}
+
+.bb-fact-logo img {
+    vertical-align: middle;
+    max-width: 100%
+}
+
+.bb-fact-header .bb-fact-more-container {
+    float: right
+}
+
+.bb-fact-header .bb-fact-more {
+    float: right;
+    padding: 2px 0 0
+}
+
+.bb-fact-single {
+    padding: 0 15px 25px;
+    border-bottom: solid 1px #000;
+    margin: 25px 0 0;
+    display: block
+}
+
+.bb-fact-single .bb-fact-left {
+    float: left;
+    width: 76px;
+    height: 96px;
+    background-repeat: no-repeat;
+    background-image: url('/t/assets/i/factcheck/bb-factchecker-images.png')
+}
+
+.bb-fact-single .bb-fact-left.trump_true {
+    background-position: -274px -109px
+}
+
+.bb-fact-single .bb-fact-left.trump_mostly_true {
+    background-position: -363px -109px
+}
+
+.bb-fact-single .bb-fact-left.trump_half_true {
+    background-position: -186px -109px
+}
+
+.bb-fact-single .bb-fact-left.trump_half_false {
+    background-position: -186px -109px
+}
+
+.bb-fact-single .bb-fact-left.trump_mostly_false {
+    background-position: -100px -109px
+}
+
+.bb-fact-single .bb-fact-left.trump_false {
+    background-position: -10px -109px
+}
+
+.bb-fact-single .bb-fact-left.clinton_true {
+    background-position: -264px -5px;
+    width: 78px
+}
+
+.bb-fact-single .bb-fact-left.clinton_mostly_true {
+    background-position: -342px -5px
+}
+
+.bb-fact-single .bb-fact-left.clinton_half_false {
+    background-position: -190px -5px
+}
+
+.bb-fact-single .bb-fact-left.clinton_half_true {
+    background-position: -190px -5px
+}
+
+.bb-fact-single .bb-fact-left.clinton_mostly_false {
+    background-position: -111px -5px
+}
+
+.bb-fact-single .bb-fact-left.clinton_false {
+    background-position: -33px -5px
+}
+
+.bb-fact-single .bb-fact-right {
+    float: right;
+    width: 80%
+}
+
+.bb-fact-right .sh3 {
+    font-size: 16px;
+    color: #f50;
+    font-family: 'BebasNeueRegular',sans-serif;
+    clear: both
+}
+
+.bb-fact-right .sh2 {
+    color: #111;
+    font-size: 22px;
+    font-family: 'BebasNeueRegular',sans-serif;
+    clear: both
+}
+
+.bb-fact-right .sh2 .rm {
+    padding-left: 4px;
+    font-size: 16px;
+    color: #1be;
+    white-space: nowrap
+}
+
+.bb-fact-single:hover .rm {
+    color: #f50
+}
+
+.bb-fact-footer {
+    background-color: #000;
+    padding: 13px;
+    text-align: center
+}
+
+.bb-fact-footer .bb-fact-more {
+    padding: 2px 0 0
+}
+
+.bb-fact-clr {
+    clear: both;
+    float: none
+}
+
+@media screen and (max-width:767px) {
+    #BBFactCheck {
+        margin: 30px 5px
+    }
+}
+
+@media screen and (max-width:450px) {
+    .bb-fact-single .bb-fact-left {
+        margin: 0 2% 0 0
+    }
+
+    .bb-fact-single .bb-fact-right {
+        width: 70%
+    }
+
+    .bb-fact-header .bb-fact-more {
+        padding: 0
+    }
+}
+
+@media screen and (max-width:375px) {
+    .bb-fact-header .bb-fact-logo-container {
+        width: 55%
+    }
+
+    .bb-fact-header .bb-fact-more-container {
+        width: 45%
+    }
+}
+
+#BBStoreLead {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1010px;
+    height: 274px;
+    margin: 0 auto;
+    -webkit-transition: height .5s;
+    -moz-transition: height .5s;
+    -ms-transition: height .5s;
+    -o-transition: height .5s;
+    transition: height .5s;
+    background-image: url('/t/assets/i/store/bb-store-homepagetakeover-bkgd-v3.jpg');
+    background-repeat: no-repeat;
+    background-repeat-y: repeat
+}
+
+#BBStoreLead.bbs_minimal {
+    height: 57px;
+    -webkit-transition: height .5s;
+    -moz-transition: height .5s;
+    -ms-transition: height .5s;
+    -o-transition: height .5s;
+    transition: height .5s
+}
+
+#BBStoreFullDesk {
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: 1
+}
+
+#BBStoreFullDesk.bbs_store_hide {
+    display: none;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: 0
+}
+
+#BBStoreLead a:focus {
+    outline: 0
+}
+
+#ldr_logo {
+    float: left;
+    width: 241px;
+    height: 198px;
+    margin: 37px 21px 37px 50px;
+    background-position: -335px -375px
+}
+
+#ldr_logo:hover {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0)
+}
+
+#ldr_hoodie {
+    float: left;
+    width: 222px;
+    height: 220px;
+    margin: 28px 17px 0 0;
+    background-position: -26px -98px
+}
+
+#ldr_shirt {
+    float: left;
+    width: 200px;
+    height: 205px;
+    margin: 38px 45px 0 0;
+    background-position: -26px -360px
+}
+
+#ldr_hat {
+    float: left;
+    width: 125px;
+    height: 145px;
+    margin: 40px 0 0 0;
+    background-position: -289px -128px
+}
+
+#BBStoreMinDesk.bbs_hide_mini {
+    display: none
+}
+
+#bbs_mini_logo {
+    display: block;
+    float: left;
+    width: 410px;
+    height: 57px;
+    margin: 0 0 0 25px;
+    background-position: -210px -15px;
+    background-position: -174px -15px
+}
+
+#bbs_mini_logo:hover {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0)
+}
+
+#bbs_now_open {
+    display: block;
+    float: right;
+    width: 135px;
+    height: 57px;
+    margin: 0 75px 0 0;
+    background-position: -478px -200px;
+    background-position: -442px -200px
+}
+
+#bbs_now_open:hover {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0)
+}
+
+#bbs_store_toggle {
+    position: absolute;
+    z-index: 9999;
+    top: 15px;
+    right: 5px;
+    display: block;
+    width: 65px;
+    height: 27px;
+    cursor: pointer;
+    background-position: -495px -106px
+}
+
+#bbs_store_toggle:hover {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0)
+}
+
+#bbs_store_toggle.bbs_show_store_ldr {
+    background-position: -495px -143px
+}
+
+#bbs_shop_now {
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 22px;
+    position: absolute;
+    right: 30px;
+    bottom: 21px;
+    padding: 10px 50px;
+    color: #fff;
+    background-color: #f50;
+    background-image: none
+}
+
+#bbs_shop_now:hover {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0)
+}
+
+#bbs_shop_now.bbs_da_mini {
+    display: none
+}
+
+#BBStoreLead.bbs_minimal #bbs_shop_now {
+    display: none
+}
+
+.bbs_clr {
+    position: relative;
+    float: none;
+    clear: both
+}
+
+.bbs_mobile_store_ldr a {
+    display: block
+}
+
+.bbs_mobile_store_ldr {
+    display: none
+}
+
+body.ismobile .bbs_mobile_store_ldr {
+    display: block
+}
+
+body.ismobile #BBStoreFullDesk,body.ismobile #BBStoreMinDesk,body.ismobile #bbs_shop_now {
+    display: none !important
+}
+
+#ldr_logo,#bbs_mini_logo,#bbs_now_open,#ldr_hoodie,#ldr_shirt,#ldr_hat,#bbs_store_toggle {
+    display: block;
+    background-image: url(/t/assets/i/store/dd/sprite3.png);
+    background-repeat: no-repeat;
+    background-color: transparent
+}
+
+#ldr_hoodie:hover,#ldr_shirt:hover,#ldr_hat:hover {
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg)
+}
+
+@media(min-width:768px) {
+    #bbs_mobile_store_ldr {
+        display: none
+    }
+}
+
+@media(max-width:975px) {
+    #ldr_logo {
+        display: none
+    }
+
+    #ldr_hoodie {
+        margin: 24px 35px 24px 75px
+    }
+
+    #ldr_shirt {
+        margin: 4px 35px 5px
+    }
+
+    #ldr_hat {
+        margin: 35px 50px 0
+    }
+}
+
+@media(max-width:890px) {
+    #ldr_hoodie {
+        margin: 24px 20px 24px 50px
+    }
+
+    #ldr_shirt {
+        margin: 4px 20px 5px
+    }
+
+    #ldr_hat {
+        margin: 35px 30px 0
+    }
+}
+
+@media(max-width:780px) {
+    #ldr_hoodie {
+        margin: 24px 20px 24px 35px
+    }
+
+    #ldr_shirt {
+        margin: 4px 20px 5px
+    }
+
+    #ldr_hat {
+        margin: 35px 30px 0
+    }
+}
+
+@media(max-width:767px) {
+    #BBStoreLead {
+        background: 0;
+        height: auto;
+        width: 300px
+    }
+
+    #BBStoreLead.bbs_minimal {
+        height: 70px;
+        margin: 0 auto 15px
+    }
+
+    #BBStoreFullDesk,#BBStoreMinDesk,#bbs_shop_now {
+        display: none !important
+    }
+}
