@@ -199,3 +199,103 @@
 1. [etsy.com](http://etsy.com) — **[CSS](css/etsy.com.css)**
 1. [huffingtonpost.com](http://huffingtonpost.com) — **[CSS](css/huffingtonpost.com.css)**
 1. [xnxx.com](http://xnxx.com) — **[CSS](css/xnxx.com.css)**
+1. [mozilla.org](http://mozilla.org) — **[CSS](css/mozilla.org.css)**
+1. [steampowered.com](http://steampowered.com) — **[CSS](css/steampowered.com.css)**
+1. [china.com.cn](http://china.com.cn) — removed (duplicate)
+1. [slack.com](http://slack.com) — **[CSS](css/slack.com.css)**
+1. [google.at](http://google.at) — removed (duplicate)
+1. [pinimg.com](http://pinimg.com) — **[CSS](css/pinimg.com.css)**
+1. [upornia.com](http://upornia.com) — **[CSS](css/upornia.com.css)**
+1. [google.co.kr](http://google.co.kr) — removed (duplicate)
+1. [openload.co](http://openload.co) — **[CSS](css/openload.co.css)**
+1. [weather.com](http://weather.com) — **[CSS](css/weather.com.css)**
+1. [google.com.ng](http://google.com.ng) — removed (duplicate)
+1. [walmart.com](http://walmart.com) — **[CSS](css/walmart.com.css)**
+1. [google.cn](http://google.cn) — removed (duplicate)
+1. [roblox.com](http://roblox.com) — **[CSS](css/roblox.com.css)**
+1. [google.com.pe](http://google.com.pe) — removed (duplicate)
+1. [indiatimes.com](http://indiatimes.com) — **[CSS](css/indiatimes.com.css)**
+1. [twimg.com](http://twimg.com) — **[CSS](css/twimg.com.css)**
+1. [4chan.org](http://4chan.org) — **[CSS](css/4chan.org.css)**
+1. [google.cz](http://google.cz) — removed (duplicate)
+1. [yelp.com](http://yelp.com) — **[CSS](css/yelp.com.css)**
+1. [hclips.com](http://hclips.com) — **[CSS](css/hclips.com.css)**
+1. [reimageplus.com](http://reimageplus.com) — **[CSS](css/reimageplus.com.css)**
+1. [cnblogs.com](http://cnblogs.com) — **[CSS](css/cnblogs.com.css)**
+1. [livedoor.jp](http://livedoor.jp) — **[CSS](css/livedoor.jp.css)**
+1. [google.ch](http://google.ch) — removed (duplicate)
+1. [kinogo.club](http://kinogo.club) — **[CSS](css/kinogo.club.css)**
+1. [bankofamerica.com](http://bankofamerica.com) — **[CSS](css/bankofamerica.com.css)**
+1. [cnzz.com](http://cnzz.com) — **[CSS](css/cnzz.com.css)**
+1. [youm7.com](http://youm7.com) — **[CSS](css/youm7.com.css)**
+1. [redtube.com](http://redtube.com) — **[CSS](css/redtube.com.css)**
+1. [myway.com](http://myway.com) — **[CSS](css/myway.com.css)**
+1. [123movies.is](http://123movies.is) — **[CSS](css/123movies.is.css)**
+1. [trello.com](http://trello.com) — **[CSS](css/trello.com.css)**
+1. [prestoris.com](http://prestoris.com) — **[CSS](css/prestoris.com.css)**
+1. [google.cl](http://google.cl) — removed (duplicate)
+1. [mercadolivre.com.br](http://mercadolivre.com.br) — **[CSS](css/mercadolivre.com.br.css)**
+1. [k618.cn](http://k618.cn) — **[CSS](css/k618.cn.css)**
+1. [rolloid.net](http://rolloid.net) — **[CSS](css/rolloid.net.css)**
+1. [abs-cbn.com](http://abs-cbn.com) — **[CSS](css/abs-cbn.com.css)**
+1. [tokopedia.com](http://tokopedia.com) — **[CSS](css/tokopedia.com.css)**
+1. [iqiyi.com](http://iqiyi.com) — **[CSS](css/iqiyi.com.css)**
+1. [amazon.it](http://amazon.it) — removed (duplicate)
+1. [amazon.fr](http://amazon.fr) — removed (duplicate)
+1. [bp.blogspot.com](http://bp.blogspot.com) — removed (duplicate)
+1. [doublepimp.com](http://doublepimp.com) — **[CSS](css/doublepimp.com.css)**
+1. [thesaurus.com](http://thesaurus.com) — **[CSS](css/thesaurus.com.css)**
+1. [tripadvisor.com](http://tripadvisor.com) — **[CSS](css/tripadvisor.com.css)**
+1. [google.no](http://google.no) — removed (duplicate)
+1. [outbrain.com](http://outbrain.com) — **[CSS](css/outbrain.com.css)**
+1. [messenger.com](http://messenger.com) — **[CSS](css/messenger.com.css)**
+1. [google.ae](http://google.ae) — removed (duplicate)
+1. [wellsfargo.com](http://wellsfargo.com) — **[CSS](css/wellsfargo.com.css)**
+1. [wordreference.com](http://wordreference.com) — **[CSS](css/wordreference.com.css)**
+1. [weebly.com](http://weebly.com) — **[CSS](css/weebly.com.css)**
+1. [google.dz](http://google.dz) — removed (duplicate)
+1. [1688.com](http://1688.com) — **[CSS](css/1688.com.css)**
+1. [douyu.com](http://douyu.com) — **[CSS](css/douyu.com.css)**
+1. [doubleclick.net](http://doubleclick.net) — **[CSS](css/doubleclick.net.css)**
+1. [mama.cn](http://mama.cn) — **[CSS](css/mama.cn.css)**
+1. [gamepedia.com](http://gamepedia.com) — **[CSS](css/gamepedia.com.css)**
+1. [rarbg.to](http://rarbg.to) — **[CSS](css/rarbg.to.css)**
+1. [google.pt](http://google.pt) — removed (duplicate)
+1. [breitbart.com](http://breitbart.com) — **[CSS](css/breitbart.com.css)**
+1. [spankbang.com](http://spankbang.com) — **[CSS](css/spankbang.com.css)**
+1. [ameblo.jp](http://ameblo.jp) — **[CSS](css/ameblo.jp.css)**
+1. [zillow.com](http://zillow.com) — **[CSS](css/zillow.com.css)**
+1. [skype.com](http://skype.com) — **[CSS](css/skype.com.css)**
+1. [livejournal.com](http://livejournal.com) — **[CSS](css/livejournal.com.css)**
+1. [forbes.com](http://forbes.com) — **[CSS](css/forbes.com.css)**
+1. [redd.it](http://redd.it) — removed (duplicate)
+1. [lifebuzz.com](http://lifebuzz.com) — **[CSS](css/lifebuzz.com.css)**
+1. [archive.org](http://archive.org) — **[CSS](css/archive.org.css)**
+1. [liputan6.com](http://liputan6.com) — **[CSS](css/liputan6.com.css)**
+1. [battle.net](http://battle.net) — **[CSS](css/battle.net.css)**
+1. [yts.ag](http://yts.ag) — **[CSS](css/yts.ag.css)**
+1. [sharepoint.com](http://sharepoint.com) — **[CSS](css/sharepoint.com.css)**
+1. [files.wordpress.com](http://files.wordpress.com) — removed (duplicate)
+1. [youporn.com](http://youporn.com) — **[CSS](css/youporn.com.css)**
+1. [39.net](http://39.net) — **[CSS](css/39.net.css)**
+1. [ltn.com.tw](http://ltn.com.tw) — **[CSS](css/ltn.com.tw.css)**
+1. [ign.com](http://ign.com) — **[CSS](css/ign.com.css)**
+1. [ikea.com](http://ikea.com) — **[CSS](css/ikea.com.css)**
+1. [giphy.com](http://giphy.com) — **[CSS](css/giphy.com.css)**
+1. [allegro.pl](http://allegro.pl) — **[CSS](css/allegro.pl.css)**
+1. [clarins.tmall.com](http://clarins.tmall.com) — **[CSS](css/clarins.tmall.com.css)**
+1. [babytree.com](http://babytree.com) — **[CSS](css/babytree.com.css)**
+1. [discordapp.com](http://discordapp.com) — **[CSS](css/discordapp.com.css)**
+1. [google.hu](http://google.hu) — removed (duplicate)
+1. [foxnews.com](http://foxnews.com) — **[CSS](css/foxnews.com.css)**
+1. [feedly.com](http://feedly.com) — **[CSS](css/feedly.com.css)**
+1. [kinopoisk.ru](http://kinopoisk.ru) — **[CSS](css/kinopoisk.ru.css)**
+1. [sourceforge.net](http://sourceforge.net) — **[CSS](css/sourceforge.net.css)**
+1. [intuit.com](http://intuit.com) — **[CSS](css/intuit.com.css)**
+1. [wetransfer.com](http://wetransfer.com) — **[CSS](css/wetransfer.com.css)**
+1. [shutterstock.com](http://shutterstock.com) — **[CSS](css/shutterstock.com.css)**
+1. [bilibili.com](http://bilibili.com) — **[CSS](css/bilibili.com.css)**
+1. [google.ie](http://google.ie) — removed (duplicate)
+1. [ebay-kleinanzeigen.de](http://ebay-kleinanzeigen.de) — **[CSS](css/ebay-kleinanzeigen.de.css)**
+1. [aol.com](http://aol.com) — **[CSS](css/aol.com.css)**
+1. [iwanttodeliver.com](http://iwanttodeliver.com) — **[CSS](css/iwanttodeliver.com.css)**
