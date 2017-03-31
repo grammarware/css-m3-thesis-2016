@@ -2431,8 +2431,8 @@ a.pn:hover {
 }
 
 .ie6 .xld .atc img {
-    width: expression(this.width> 80 &amp;&amp; this.width>=this.height ? 80 : true);
-    height: expression(this.height> 80 &amp;&amp; this.width<=this.height ? 80 : true);
+    width: expression(this.width> 80 && this.width>=this.height ? 80 : true);
+    height: expression(this.height> 80 && this.width<=this.height ? 80 : true);
 }
 
 .xld a.d,.xl a.d,.attc a.d,.c a.d,.sinf a.d {
@@ -2576,8 +2576,8 @@ a.pn:hover {
 .mla img {
     max-width: 120px;
     max-height: 120px;
-    _width: expression(this.width> 120 &amp;&amp; this.width>=this.height ? 120 : true);
-    _height: expression(this.height> 120 &amp;&amp; this.width<=this.height ? 120 : true);
+    _width: expression(this.width> 120 && this.width>=this.height ? 120 : true);
+    _height: expression(this.height> 120 && this.width<=this.height ? 120 : true);
 }
 
 .mlp li {
@@ -2600,8 +2600,8 @@ a.pn:hover {
 }
 
 * html .mlp img {
-    width: expression(this.width> 120 &amp;&amp; this.width>=this.height ? 120 : true);
-    height: expression(this.height> 120 &amp;&amp; this.width<=this.height ? 120 : true);
+    width: expression(this.width> 120 && this.width>=this.height ? 120 : true);
+    height: expression(this.height> 120 && this.width<=this.height ? 120 : true);
 }
 
 .gm,.gs,.gol,.god {

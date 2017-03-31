@@ -582,9 +582,9 @@ ul.nav-con-ul .nav-li-xiala a {
         <div class="hea-search">
             <script type="text/javascript">
                 function searchX(event) {
-    if(event&amp;&amp;event.keyCode==13||event==undefined){
+    if(event&&event.keyCode==13||event==undefined){
                         var _k=$('#q').val();
-                        if (_k!='搜索'&amp;&amp;_k.length>1) {
+                        if (_k!='搜索'&&_k.length>1) {
                             $('#searchForm').submit();
 }
 
