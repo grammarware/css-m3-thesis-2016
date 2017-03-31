@@ -28720,11 +28720,11 @@ html[dir="rtl"] .pmg-hero-img {
 }
 
 .jquery-ui-accordion .pmg-expand-white.ui-accordion-header:before {
-    background-image: url("/en-us/CMSImages/Icon_Expand_White_19x19.png?version=f1e831e5-3ad9-0b37-2ae7-f7807cea46e1&amp;amp;CollectionId=de13f4df-6cc5-4c82-a3c3-f5193062c170")
+    background-image: url("/en-us/CMSImages/Icon_Expand_White_19x19.png?version=f1e831e5-3ad9-0b37-2ae7-f7807cea46e1&CollectionId=de13f4df-6cc5-4c82-a3c3-f5193062c170")
 }
 
 .jquery-ui-accordion .pmg-collapse-white.ui-accordion-header.ui-state-active:before {
-    background-image: url("/en-us/CMSImages/Icon_Collapse_White_19x19.png?version=8023f422-a646-41cd-d76d-581181b95c18&amp;amp;CollectionId=de13f4df-6cc5-4c82-a3c3-f5193062c170")
+    background-image: url("/en-us/CMSImages/Icon_Collapse_White_19x19.png?version=8023f422-a646-41cd-d76d-581181b95c18&CollectionId=de13f4df-6cc5-4c82-a3c3-f5193062c170")
 }
 
 .jquery-ui-accordion .ui-accordion-content .accordion-content {
@@ -31576,7 +31576,7 @@ html[dir='rtl'] [class*='pmg-cmp-table'].pmg-table-bdr-5-left>div>div:last-child
 }
 
 #pmg-industry-filter .pmg-css-label {
-    background-image: url(CMSImages/pmg_checkbox_depressed.png?version=9f8c4d35-494d-b87e-3b1d-85473ef7c0fc&amp;CollectionId=496f28fd-c139-a361-3fc9-dbe108ef4df6)
+    background-image: url(CMSImages/pmg_checkbox_depressed.png?version=9f8c4d35-494d-b87e-3b1d-85473ef7c0fc&CollectionId=496f28fd-c139-a361-3fc9-dbe108ef4df6)
 }
 
 #pmg-customer-story .pmg-story-card {
@@ -38770,102 +38770,4 @@ ul.shell-c3-group {
     to {
         height: 54px
     }
-}﻿<!-- Respond.js: min/max-width media query polyfill. Remote proxy (c) Scott Jehl. MIT/GPLv2 Lic. j.mp/respondjs -->
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title>Respond JS Proxy</title>
-</head>
-<body>
-    <script>
-        (function () {
-    var domain, css, query, getQueryString, ajax, xmlHttp;
-
-            /*
-                http://stackoverflow.com/questions/4963673/get-url-array-variables-in-javascript-jquery/4963817#4963817
-            */
-            getQueryString = function () {
-                var ret = {
-},parts, i, p;
-
-                parts = (document.location.toString().split("?")[1]).split("&amp;");
-
-                for (i = 0; i < parts.length; i++) {
-    p = parts[i].split("=");
-                    // so strings will be correctly parsed: p[1] = decodeURIComponent(p[1].replace(/\+/g, " "));
-    if (p[0].search(/\[\]/) >= 0) { // then it"s an array
-                        p[0] = p[0].replace("[]", "");
-
-                        if (typeof ret[p[0]] != "object") {
-                            ret[p[0]] = [];
-                        }
-                        ret[p[0]].push(p[1]);
-                    } else {
-                        ret[p[0]] = p[1];
-                    }
-                }
-                return ret;
-            };
-
-            ajax = function (url, callback) {
-                var req = xmlHttp();
-                if (!req) {
-                    return;
-                }
-                req.open("GET", url, true);
-                req.onreadystatechange = function () {
-                    if (req.readyState != 4 || req.status != 200 &amp;&amp; req.status != 304) {
-                        return;
-                    }
-                    callback(req.responseText);
-                };
-                if (req.readyState == 4) {
-                    return;
-                }
-                req.send();
-            };
-
-            //define ajax obj
-            xmlHttp = (function () {
-                var xmlhttpmethod = false,
-                attempts = [
-                    function () { return new XMLHttpRequest(); },
-                    function () { return new ActiveXObject("Microsoft.XMLHTTP"); },
-                    function () { return new ActiveXObject("MSXML2.XMLHTTP.3.0"); }
-                ],
-                al = attempts.length;
-
-                while (al--) {
-                    try {
-                        xmlhttpmethod = attempts[al]();
-                    }
-                    catch (e) {
-                        continue;
-                    }
-                    break;
-                }
-                return function () {
-                    return xmlhttpmethod;
-                };
-            })();
-
-            query = getQueryString();
-            css = query["css"];
-            domain = query["url"];
-
-            if (css &amp;&amp; domain) {
-
-                if (/^[^:]+javascript:/i.test(domain)) {
-                    return;
-                }
-
-                ajax(css, function (response) {
-                    window.name = response;
-                    window.location.href = domain;
-                });
-            }
-        }());
-    </script>
-</body>
-</html>
+}﻿
