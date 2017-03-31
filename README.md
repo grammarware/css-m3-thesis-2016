@@ -126,7 +126,7 @@
 1. [blogger.com](http://blogger.com) — **[CSS](css/blogger.com.css)**
 1. [bet365.com](http://bet365.com) — **[CSS](css/bet365.com.css)**
 1. [ebay.de](http://ebay.de) — removed (duplicate)
-1. [adexchangeprediction.com](http://adexchangeprediction.com) — **[CSS](css/adexchangeprediction.com.css)**
+1. [adexchangeprediction.com](http://adexchangeprediction.com) — removed (403 Forbidden)
 1. [quora.com](http://quora.com) — **[CSS](css/quora.com.css)**
 1. [pages.tmall.com](http://pages.tmall.com) — removed (duplicate)
 1. [stackexchange.com](http://stackexchange.com) — **[CSS](css/stackexchange.com.css)**
