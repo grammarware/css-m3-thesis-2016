@@ -1,0 +1,1043 @@
+/* General */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+
+#coordAnchor {
+    position: relative;
+    width: 750px;
+    margin: 0px auto;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.clear {
+    clear: both;
+    float: none;
+}
+
+.right {
+    width: 340px;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.left {
+    width: 400px;
+    text-align: right;
+}
+
+.brand {
+    color: #0072bb;
+    text-decoration: none;
+}
+
+sup {
+    font-size: 9px;
+}
+
+/* DSP Elements */
+
+#contentContainer {
+    position: relative;
+    width: 792px;
+    height: 618px;
+    margin: 0 auto;
+    overflow: hidden;
+    clear: both;
+}
+
+.textClass {
+    font-size: 15px;
+}
+
+.assetClass {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.buttonClass {
+    position: absolute;
+}
+
+#sSEMText {
+    margin-top: 10px;
+    overflow-x: hidden;
+    clear: both;
+    text-align: center;
+}
+
+#bullets {
+    position: absolute;
+    top: 230px;
+			/* sBulletsTopCoord */
+    left: 380px;
+		/* sBulletsLeftCoord */
+}
+
+#bullets ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+#bullets li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#footer {
+    position: absolute;
+    top: 500px;
+ 			/* sFooterTopCoord */
+    left: 0px;
+			/* sFooterLeftCoord */
+    margin: 0px auto;
+    width: 100%;
+    padding-top: 25px;
+    color: #000;
+		/* FooterColorColor */
+    text-align: center;
+ /* sFooterTextAlign */
+    padding-bottom: 15px;
+    font: 12px Arial, Helvetica, sans-serif;
+    z-index: 0 !important;
+}
+
+#footer a {
+    text-decoration: underline;
+    color: #000;
+    padding: 2px;
+}
+
+/* Ancillary Template */
+
+#content_header, .textHeaderClass {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+/* RUN RUN Template */
+
+#main_rr {
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    margin: 0 auto;
+    width: 750px;
+    height: 500px;
+    background-color: transparent;
+}
+
+.hotzoneDiv {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    background-color: #ccc;
+    width: 0px;
+    height: 0px;
+    filter: alpha(opacity = 50);
+    opacity: .5;
+    display: none;
+    cursor: pointer;
+    cursor: hand;
+    border: 1px dotted #000;
+}
+
+/* sa and hp and disclaimer text div */
+
+.TextCoords1, .TextCoords2, .HtmlCoords2 {
+    z-index: 1000 !important;
+}
+
+#verisign_footer {
+    width: 100%;
+    clear: both;
+    margin-top: 32px;
+}
+
+#verisign_footer_cont {
+    width: 150px;
+    margin: 0px auto;
+}
+
+#norton {
+    display: none !important;
+}
+
+		/* DSP Elements */
+
+		/* Background */
+body {
+    background-image: url(http://ak.imgfarm.com/images/vicinio/dsp-images/lisa.delmar/background/1360680973264.png);
+    background-repeat: repeat-x;
+    background-color: #3B3B3B;
+    background-position: top center;
+}
+    		/* IE9Enable Background */
+body#Enable_Toolbar {
+}
+
+        /* FF Instruct Background */
+body#Firefox_Instructions {
+    background-color: #fff;
+}
+
+body#Chrome_Instructions {
+    background-color: #fff;
+}
+        	/* Page Background */
+#coordAnchor {
+    width: 1000px;
+}
+
+#chrcoordAnchor {
+    -webkit-animation: fade 0.5s;
+ /* Chrome, Safari, Opera */
+    animation: fade 0.5s;
+    margin-left: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+		/* IE9 Enable Page Background */
+#ie9coordAnchor {
+    position: fixed;
+    bottom: 90px;
+}
+
+#ie9contentContainer {
+    position: relative;
+}
+
+#ffcontentContainer {
+    position: relative;
+}
+
+#ie9coordAnchor, #ie9contentContainer {
+    left: 50%;
+}
+
+#ffcoordAnchor, #ffcontentContainer {
+}
+
+                /* Chrome instructions styles */
+#chrcoordAnchor, #chrcontentContainer {
+    position: relative;
+}
+
+#chrcontentContainer {
+    background-color: transparent;
+}
+        /* end Chrome instructions styles */
+
+#contentContainer {
+    background-image: url(http://ak.imgfarm.com/images/vicinio/dsp-images/lisa.delmar/background999/1432654076962.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 1000px;
+    height: 800px;
+}
+
+		/* Text */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/* Checkbox Text */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/* Asset */
+
+
+#asset1 {
+    width: 1px;
+    height: 1px;
+    top: 180px;
+    left: 50px;
+}
+
+#asset2 {
+    width: 346px;
+    height: 91px;
+    top: 287px;
+    left: 330px;
+}
+
+#asset3 {
+    width: 800px;
+    height: 70px;
+    top: 640px;
+    left: 100px;
+    bottom: px;
+    right: px;
+}
+
+#asset5 {
+    width: 79px;
+    height: 44px;
+    top: 383px;
+    left: 460px;
+}
+
+		/* Button */
+
+.customButtonDiv {
+    background-image: url();
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    width: px;
+    height: px;
+}
+
+.customButton1Div {
+    background-image: url();
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    width: px;
+    height: px;
+}
+
+.customButton4Div {
+    background-image: url();
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    width: px;
+    height: px;
+}
+
+.customButton5Div {
+    background-image: url();
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    width: px;
+    height: px;
+}
+
+.customButton6Div {
+    background-image: url();
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    width: px;
+    height: px;
+}
+
+.customButton8Div {
+    background-image: url();
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    width: px;
+    height: px;
+}
+
+.customButton9Div {
+    background-image: url();
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    width: px;
+    height: px;
+}
+
+.customButton12Div {
+    background-image: url();
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    width: px;
+    height: px;
+}
+
+.customButton13Div {
+    background-image: url();
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    width: px;
+    height: px;
+}
+
+.customButton14Div {
+    background-image: url();
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    width: px;
+    height: px;
+}
+
+		/* Bullet */
+#bullets {
+    top: 250px;
+    left: 460px;
+}
+
+#bullets, #bullets a {
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+#bullets li {
+    list-style-type: disc;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: normal;
+}
+
+		/* Text Coords */
+#TextCoords {
+    top: 212px;
+    left: 211px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: normal;
+    text-align: center;
+}
+
+.TextCoords {
+    top: 212px;
+    left: 211px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    font-style:;
+    text-decoration: normal;
+    text-align: center;
+}
+
+.TextCoords input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.TextCoords3 {
+    top: $data.get("sTextCoords${instanceId}TopCoord")px;
+    left: $data.get("sTextCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.TextCoords3 input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.TextCoords4 {
+    top: $data.get("sTextCoords${instanceId}TopCoord")px;
+    left: $data.get("sTextCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.TextCoords4 input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.TextCoords5 {
+    top: $data.get("sTextCoords${instanceId}TopCoord")px;
+    left: $data.get("sTextCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.TextCoords5 input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.TextCoords6 {
+    top: $data.get("sTextCoords${instanceId}TopCoord")px;
+    left: $data.get("sTextCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.TextCoords6 input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.TextCoords7 {
+    top: $data.get("sTextCoords${instanceId}TopCoord")px;
+    left: $data.get("sTextCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.TextCoords7 input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.TextCoords8 {
+    top: $data.get("sTextCoords${instanceId}TopCoord")px;
+    left: $data.get("sTextCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.TextCoords8 input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.TextCoords9 {
+    top: $data.get("sTextCoords${instanceId}TopCoord")px;
+    left: $data.get("sTextCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.TextCoords9 input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.TextCoords10 {
+    top: $data.get("sTextCoords${instanceId}TopCoord")px;
+    left: $data.get("sTextCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.TextCoords10 input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.TextCoords11 {
+    top: $data.get("sTextCoords${instanceId}TopCoord")px;
+    left: $data.get("sTextCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.TextCoords11 input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.TextCoords12 {
+    top: $data.get("sTextCoords${instanceId}TopCoord")px;
+    left: $data.get("sTextCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.TextCoords12 input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.TextCoords13 {
+    top: $data.get("sTextCoords${instanceId}TopCoord")px;
+    left: $data.get("sTextCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.TextCoords13 input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.TextCoords14 {
+    top: $data.get("sTextCoords${instanceId}TopCoord")px;
+    left: $data.get("sTextCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.TextCoords14 input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+            		/* Asset3 Text */
+#Asset3Text {
+    top: 46px;
+    left: 45px;
+    color: #000000;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: normal;
+    text-align: center;
+    z-index: 1000 !important;
+}
+
+		/* Html Coords */
+#Html1Coords {
+}
+
+.HtmlCoords, .HtmlCoords a {
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.HtmlCoords1, .HtmlCoords1 a {
+    top: $data.get("sHtmlCoords${instanceId}TopCoord")px;
+    left: $data.get("sHtmlCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.HtmlCoords3, .HtmlCoords3 a {
+    top: $data.get("sHtmlCoords${instanceId}TopCoord")px;
+    left: $data.get("sHtmlCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.HtmlCoords4, .HtmlCoords4 a {
+    top: $data.get("sHtmlCoords${instanceId}TopCoord")px;
+    left: $data.get("sHtmlCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.HtmlCoords5, .HtmlCoords5 a {
+    top: $data.get("sHtmlCoords${instanceId}TopCoord")px;
+    left: $data.get("sHtmlCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.HtmlCoords6, .HtmlCoords6 a {
+    top: $data.get("sHtmlCoords${instanceId}TopCoord")px;
+    left: $data.get("sHtmlCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.HtmlCoords7, .HtmlCoords7 a {
+    top: $data.get("sHtmlCoords${instanceId}TopCoord")px;
+    left: $data.get("sHtmlCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.HtmlCoords8, .HtmlCoords8 a {
+    top: $data.get("sHtmlCoords${instanceId}TopCoord")px;
+    left: $data.get("sHtmlCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.HtmlCoords9, .HtmlCoords9 a {
+    top: $data.get("sHtmlCoords${instanceId}TopCoord")px;
+    left: $data.get("sHtmlCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.HtmlCoords10, .HtmlCoords10 a {
+    top: $data.get("sHtmlCoords${instanceId}TopCoord")px;
+    left: $data.get("sHtmlCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.HtmlCoords11, .HtmlCoords11 a {
+    top: $data.get("sHtmlCoords${instanceId}TopCoord")px;
+    left: $data.get("sHtmlCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.HtmlCoords12, .HtmlCoords12 a {
+    top: $data.get("sHtmlCoords${instanceId}TopCoord")px;
+    left: $data.get("sHtmlCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.HtmlCoords13, .HtmlCoords13 a {
+    top: $data.get("sHtmlCoords${instanceId}TopCoord")px;
+    left: $data.get("sHtmlCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+.HtmlCoords14, .HtmlCoords14 a {
+    top: $data.get("sHtmlCoords${instanceId}TopCoord")px;
+    left: $data.get("sHtmlCoords${instanceId}LeftCoord")px;
+    background-color: #;
+    color: #;
+    font-family:;
+    font-size:;
+    font-weight:;
+    font-style:;
+    text-decoration:;
+    text-align:;
+}
+
+		/* Footer SEM-SEO */
+#footer {
+    top: 710px;
+}
+
+#footer, #footer a {
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
+#sSEMText {
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
+#main_rr {
+    background-image: url(http://ak.imgfarm.com/images/vicinio/dsp-images/lisa.delmar/background999/1432654076962.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 1000px;
+    height: 800px;
+}
+
+#hotzoneDiv_asset2 {
+    display: block;
+    background-color: #fff;
+    filter: alpha(opacity=01);
+    opacity: .01;
+    border: none;
+}
+
+#hotzoneDiv_asset2 {
+    width: 346px;
+    height: 91px;
+}
+
+#localStorageIframe {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: -500px;
+}
+
+#ASKlogo {
+    position: absolute;
+    left: 350px;
+    top: 84px;
+}
+
+#cr_logo {
+    position: absolute;
+    left: 167px;
+    top: 16px;
+}
+
+#cr_tagline {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    color: #ffffff;
+    position: absolute;
+    left: 482px;
+    top: 62px;
+    width: 387px;
+}
+
+#cr_headline {
+    text-align: left;
+    vertical-align: top;
+    position: absolute;
+    left: 325px;
+    top: 161px;
+    width: 600px;
+    height: 166px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#cr_headline h1 {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.8em;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.2em;
+}
+
+.DLP_eu_cookie_disclosureModal {
+    width: auto;
+    height: auto;
+    line-height: 28px;
+    text-align: center !important;
+    border: 1px solid #bfbfbf;
+    background-color: #efeff0;
+    padding: 2px 10px 3px !important;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 3px;
+    top: 10px;
+    visibility: hidden;
+}
+
+.DLP_eu_cookie_disclosureOverlay {
+    position: absolute;
+    top: 0px;
+    height: 33px;
+    width: 100%;
+    z-index: 10000;
+    font-family: Arial, sans serif;
+    font-size: 9px;
+    color: #313131;
+    line-height: 12px;
+}
+
+.eu_cookie_ok {
+    font-family: Arial, sans serif;
+    font-size: 12px;
+    color: #fff;
+    line-height: 12px;
+    padding: 1px 10px 3px 10px !important;
+    border-radius: 4px;
+    background-color: #83878f;
+    border: 1px solid #7c8089;
+    cursor: pointer;
+    display: inline;
+    margin-left: 5px;
+}
+
+

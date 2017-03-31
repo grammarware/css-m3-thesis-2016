@@ -491,7 +491,7 @@
 1. [hilltopads.net](http://hilltopads.net) — **[CSS](css/hilltopads.net.css)**
 1. [shink.in](http://shink.in) — **[CSS](css/shink.in.css)**
 1. [ablogica.com](http://ablogica.com) — **[CSS](css/ablogica.com.css)**
-1. [livedoor.com](http://livedoor.com) — **[CSS](css/livedoor.com.css)**
+1. [livedoor.com](http://livedoor.com) — removed (duplicate)
 1. [rediff.com](http://rediff.com) — **[CSS](css/rediff.com.css)**
 1. [nike.com](http://nike.com) — **[CSS](css/nike.com.css)**
 1. [usatoday.com](http://usatoday.com) — **[CSS](css/usatoday.com.css)**
