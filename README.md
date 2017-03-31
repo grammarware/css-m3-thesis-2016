@@ -215,7 +215,7 @@
 1. [roblox.com](http://roblox.com) — **[CSS](css/roblox.com.css)**
 1. [google.com.pe](http://google.com.pe) — removed (duplicate of google.com)
 1. [indiatimes.com](http://indiatimes.com) — **[CSS](css/indiatimes.com.css)**
-1. [twimg.com](http://twimg.com) — **[CSS](css/twimg.com.css)**
+1. [twimg.com](http://twimg.com) — removed (duplicate of twitter.com)
 1. [4chan.org](http://4chan.org) — **[CSS](css/4chan.org.css)**
 1. [google.cz](http://google.cz) — removed (duplicate of google.com)
 1. [yelp.com](http://yelp.com) — **[CSS](css/yelp.com.css)**
@@ -312,7 +312,7 @@
 1. [freepik.com](http://freepik.com) — **[CSS](css/freepik.com.css)**
 1. [blackboard.com](http://blackboard.com) — **[CSS](css/blackboard.com.css)**
 1. [leboncoin.fr](http://leboncoin.fr) — **[CSS](css/leboncoin.fr.css)**
-1. [trackmedia101.com](http://trackmedia101.com) — **[CSS](css/trackmedia101.com.css)**
+1. [trackmedia101.com](http://trackmedia101.com) — removed (error "Route with parameter not found")
 1. [scribd.com](http://scribd.com) — **[CSS](css/scribd.com.css)**
 1. [youtube-mp3.org](http://youtube-mp3.org) — **[CSS](css/youtube-mp3.org.css)**
 1. [go2cloud.org](http://go2cloud.org) — **[CSS](css/go2cloud.org.css)**
@@ -365,7 +365,7 @@
 1. [onedio.com](http://onedio.com) — **[CSS](css/onedio.com.css)**
 1. [hp.com](http://hp.com) — **[CSS](css/hp.com.css)**
 1. [baike.com](http://baike.com) — **[CSS](css/baike.com.css)**
-1. [thewhizproducts.com](http://thewhizproducts.com) — **[CSS](css/thewhizproducts.com.css)**
+1. [thewhizproducts.com](http://thewhizproducts.com) — removed (parked)
 1. [pandora.com](http://pandora.com) — **[CSS](css/pandora.com.css)**
 1. [goo.ne.jp](http://goo.ne.jp) — **[CSS](css/goo.ne.jp.css)**
 1. [daum.net](http://daum.net) — **[CSS](css/daum.net.css)**
