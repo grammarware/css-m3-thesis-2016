@@ -1,3 +1,8 @@
+# CSS Corpus
+* Composed and maintained by [Nico de Groot](https://github.com/Nicasso) and [Vadim Zaytsev](https://github.com/grammarware)
+* Contains full CSS sheets from top websites (as opposed to other corpora that rely on CSS stored on GitHub)
+* **[CC-BY](https://creativecommons.org/licenses/by/4.0/)**: open content, but please state us as the source
+
 # CSS sheets from [Alexa Top 500](http://www.alexa.com/topsites), the version of 30.03.2017:
 1. [google.com](http://google.com) — **[CSS](css/google.com.css)**
 1. [youtube.com](http://youtube.com) — **[CSS](css/youtube.com.css)**
