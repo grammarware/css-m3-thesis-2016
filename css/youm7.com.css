@@ -1,8 +1,32 @@
+/*
+ * Droid Arabic Naskh (Arabic) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+    font-family: 'Droid Arabic Naskh';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Droid Arabic Naskh';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.ttf) format('truetype');
+}
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */@font-face {
-    font-family:'FontAwesome';src:url('../fonts/fontawesome-webfont.eot?v=4.7.0');src:url('../fonts/fontawesome-webfont.eot?#iefix&amp;v=4.7.0') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal
+    font-family:'FontAwesome';src:url('../fonts/fontawesome-webfont.eot?v=4.7.0');src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal
 }
 
 .fa {
@@ -2920,30 +2944,6 @@
     margin: 0;
     overflow: visible;
     clip: auto
-}
-/*
- * Droid Arabic Naskh (Arabic) http://www.google.com/fonts/earlyaccess
- */
-@font-face {
-    font-family: 'Droid Arabic Naskh';
-  font-style: normal;
-  font-weight: 400;
-  src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.eot);
-  src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.eot?#iefix) format('embedded-opentype'),
-       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.woff2) format('woff2'),
-       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.woff) format('woff'),
-       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: 'Droid Arabic Naskh';
-  font-style: normal;
-  font-weight: 700;
-  src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.eot);
-  src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.eot?#iefix) format('embedded-opentype'),
-       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.woff2) format('woff2'),
-       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.woff) format('woff'),
-       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.ttf) format('truetype');
 }
 /*
  * Droid Arabic Kufi (Arabic) http://www.google.com/fonts/earlyaccess
@@ -13202,7 +13202,7 @@ This notice must remain in place!
 |                                                |
 |    AUTHOR  : Sherif Magdy Youssief             |
 |    WEBSITE  : { http://www.youm7.com }         |
-|	 DESCRIPTION  : style sheet                  |
+|    DESCRIPTION  : style sheet                  |                                          
 |    DATE  : 31/03/2016                          |
 |________________________________________________|
 */
@@ -14012,7 +14012,7 @@ table {
 }
 
 .SingleNewDiv:hover  .TopNewNewsLink,
-	.TopNewNewsLink:hover {
+    .TopNewNewsLink:hover {
     background-image: url("http://img.youm7.com/images/link-hover.png?2") !important;
     background-repeat: repeat !important;
 }
@@ -15383,9 +15383,9 @@ article h1 {
 
 #articleHeader h3 A {
     color: #999;
-	font-weight:bold;
-	font-size:20px;
-	font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    font-family:arial;
 }
 #articleHeader h1 {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
@@ -15434,15 +15434,15 @@ article h1 {
 
 body {background-color: #c31e1e;background-image: url("http://img.youm7.com/images/general/bodyBg.jpg");background-position: center center;background-repeat: repeat-y;}
 
-.container { width: @container-desktop !important; }
+.container { width: @container-desktop !important; }    
 
 /*Content Style*/
 .bodyCont {background:url(../images/contBg.jpg) no-repeat scroll center center #FFF;margin:10px auto;min-height:600px;width:960px !Important;}
 .bodyCon {background:#FFF !important;min-width:960px !Important;}
 /*It will apply to all ie from 8 and below * */
-	@media screen\0 {}
-
-	/***********************************************/
+    @media screen\0 {}
+    
+    /***********************************************/
 
     .mostviewedtitle {
     font-family: 'Droid Arabic Kufi';
@@ -15481,43 +15481,43 @@ body {background-color: #c31e1e;background-image: url("http://img.youm7.com/imag
 .smallArticles h3 a:hover {color:#df2829;}
 .smallArticles h3 span { color: #666;font-size: 11px;font-weight: 400;}
 
-/**New Header**/
-	.containerforNewHeader {border-right:1px solid #CDCDCD;border-left:1px solid #CDCDCD;margin:0px 17px 0 0;float:right;position:relative;max-width:620px;direction:rtl;width:620px;direction: rtl;padding:3px 10px 7px;}
-	.containerforNewHeader img {display:block;margin-top:4px;}
-	.containerforNewHeader a {
-	border-right: 0 solid #cdcdcd;
+/**New Header**/        
+    .containerforNewHeader {border-right:1px solid #CDCDCD;border-left:1px solid #CDCDCD;margin:0px 17px 0 0;float:right;position:relative;max-width:620px;direction:rtl;width:620px;direction: rtl;padding:3px 10px 7px;}
+    .containerforNewHeader img {display:block;margin-top:4px;}
+    .containerforNewHeader a {
+    border-right: 0 solid #cdcdcd;
     display: inline-block;
     height: 32px;
     margin: 0 18px !important;
     padding-left: 2px;
     padding-right: 2px;
-    position: relative;
-	}
-	.containerforNewHeader a:hover {cursor:pointer;}
-	.homeIco img {margin-left: 5px; margin-top: -9px;}
-	.homeIco i {font-size: 24px;margin-top: -9px;margin-left: 3px;}
-	.backToClass {opacity:1 !important;display: block !important; float: right; margin-top: 14px;}
-	.containerforNewHeader img:hover {opacity:0.7;}
-	.box21Sh{display: none;position: absolute;}
-	a:hover + .box21Sh,.box21Sh:hover{display: inline-block;z-index: 100;top:43px;right:auto;left:auto;margin-right: -118px;}
-	.box21Sh img {opacity:1 !important;border:2px solid #939393}
-	.leftScreenShot {left:0px !important;}
-	.socialFixed2 {position: fixed; z-index: 10001;padding: 0px 178px; width: 998px !important; top: -14px;}
-	.newHeaderLmenu {margin-bottom:0px;padding:0px;}
-	.dropMenu {margin-top: 1px;}
-	.headerFix {top:0px;width: 100%; position: fixed; background: transparent url("../images/headerNewBg23.jpg") repeat-x scroll 0px 0px; z-index: 9999;display:none;left:0px;right:0px;}
-	.headerFix .header .firstMenu, .header .secondMenu  {min-width:960px !important;}
-	.socialFixed22 {display:block;}
-	.leftAdsFix {float: left; margin-left: -145px; background: transparent ; width: 130px; height: 600px; background:url(http://img.youm7.com/images/graphics/superkoraads/130x600.jpg) no-repeat center center;}
-	.rightAdsFix {float: right; margin-right: -145px; background: transparent; width: 130px; height: 600px; background:url(http://img.youm7.com/images/graphics/superkoraads/130x600.jpg) no-repeat center center;}
-	.rightAdsFix1 {position: fixed; z-index:10001; margin-top: -356px; margin-left: 975px;height: 600px;width: 130px;}
-	.leftAdsFix1 {position: fixed; margin-left: 0px; z-index: 10001; margin-right: 975px; margin-top: -356px; height: 600px;width: 130px;}
-	.secBody .leftAdsFix1, .secBody .rightAdsFix1 {margin-top: -238px !important}
-	.headerNewNew {background:#fff url("../images/headerNewBg23.jpg") repeat-x scroll 0 0;width:100%; }
-	#commentsList .titleComment, #addCommentBlock .titleComment {padding:5px;color:#FFF;background:#5D5D5D;margin: 5px 0px; font-weight: bold; font-family: droid arabic kufi; font-size: 12px;}
-	#addCommentBlock {background:#F0F0F0;}
-	#result label {display:block;font-size:12px;}
-	#PostOpinionForm .submit { background: transparent url("http://img.youm7.com/images/sendBtn.gif?1") no-repeat scroll 0 0;
+    position: relative; 
+    }
+    .containerforNewHeader a:hover {cursor:pointer;}
+    .homeIco img {margin-left: 5px; margin-top: -9px;}
+    .homeIco i {font-size: 24px;margin-top: -9px;margin-left: 3px;}
+    .backToClass {opacity:1 !important;display: block !important; float: right; margin-top: 14px;}
+    .containerforNewHeader img:hover {opacity:0.7;}
+    .box21Sh{display: none;position: absolute;}
+    a:hover + .box21Sh,.box21Sh:hover{display: inline-block;z-index: 100;top:43px;right:auto;left:auto;margin-right: -118px;}
+    .box21Sh img {opacity:1 !important;border:2px solid #939393}
+    .leftScreenShot {left:0px !important;}
+    .socialFixed2 {position: fixed; z-index: 10001;padding: 0px 178px; width: 998px !important; top: -14px;}
+    .newHeaderLmenu {margin-bottom:0px;padding:0px;}
+    .dropMenu {margin-top: 1px;}
+    .headerFix {top:0px;width: 100%; position: fixed; background: transparent url("../images/headerNewBg23.jpg") repeat-x scroll 0px 0px; z-index: 9999;display:none;left:0px;right:0px;}
+    .headerFix .header .firstMenu, .header .secondMenu  {min-width:960px !important;}
+    .socialFixed22 {display:block;}
+    .leftAdsFix {float: left; margin-left: -145px; background: transparent ; width: 130px; height: 600px; background:url(http://img.youm7.com/images/graphics/superkoraads/130x600.jpg) no-repeat center center;}
+    .rightAdsFix {float: right; margin-right: -145px; background: transparent; width: 130px; height: 600px; background:url(http://img.youm7.com/images/graphics/superkoraads/130x600.jpg) no-repeat center center;}
+    .rightAdsFix1 {position: fixed; z-index:10001; margin-top: -356px; margin-left: 975px;height: 600px;width: 130px;}
+    .leftAdsFix1 {position: fixed; margin-left: 0px; z-index: 10001; margin-right: 975px; margin-top: -356px; height: 600px;width: 130px;}
+    .secBody .leftAdsFix1, .secBody .rightAdsFix1 {margin-top: -238px !important}
+    .headerNewNew {background:#fff url("../images/headerNewBg23.jpg") repeat-x scroll 0 0;width:100%; }
+    #commentsList .titleComment, #addCommentBlock .titleComment {padding:5px;color:#FFF;background:#5D5D5D;margin: 5px 0px; font-weight: bold; font-family: droid arabic kufi; font-size: 12px;}
+    #addCommentBlock {background:#F0F0F0;}
+    #result label {display:block;font-size:12px;}
+    #PostOpinionForm .submit { background: transparent url("http://img.youm7.com/images/sendBtn.gif?1") no-repeat scroll 0 0;
     border: medium none !important;
     color: #df2829;
     cursor: pointer;
@@ -15528,15 +15528,15 @@ body {background-color: #c31e1e;background-image: url("http://img.youm7.com/imag
     margin: 0 auto;
     text-decoration: none;
     width: 54px;}
-	#addCommentBlock p input, #addCommentBlock p textarea {
+    #addCommentBlock p input, #addCommentBlock p textarea {
     color: #333;
     font-family: Tahoma;
     font-size: 14px;
-    max-width: 540	px !important;
-	border:1px solid #666;
+    max-width: 540  px !important;
+    border:1px solid #666;
     width: 540px;}
-	#commentsList blockquote {padding:0px;background:#F0F0F0;}
-	.commentCount {background: transparent url("http://img.youm7.com/images/commentIcon.gif?1") no-repeat scroll 0 0;
+    #commentsList blockquote {padding:0px;background:#F0F0F0;}
+    .commentCount {background: transparent url("http://img.youm7.com/images/commentIcon.gif?1") no-repeat scroll 0 0;
     color: #fff;
     display: inline;
     float: right;
@@ -15548,15 +15548,15 @@ body {background-color: #c31e1e;background-image: url("http://img.youm7.com/imag
     padding-left: 8px;
     text-align: left;
     width: 50px;}
-	.socialFixed22 .dropMenu ul {right:-47px !important;width:180px !important;}
-	.socialFixed22 .dropMenu li {min-width:200px !important;clear:both !important;float:none !Important}
-	.ta3leq textarea {height:150px;max-width:100% !important;}
+    .socialFixed22 .dropMenu ul {right:-47px !important;width:180px !important;}
+    .socialFixed22 .dropMenu li {min-width:200px !important;clear:both !important;float:none !Important}
+    .ta3leq textarea {height:150px;max-width:100% !important;}
 .commentBlock {
     border-bottom: 2px solid #fff;
     clear: both;
     margin: 5px 0 0;
     width: 100%;
-	background:#f0f0f0 none repeat scroll 0 0;
+    background:#f0f0f0 none repeat scroll 0 0;
 }
 .commentHeader {
     display: inline;
@@ -15571,7 +15571,7 @@ body {background-color: #c31e1e;background-image: url("http://img.youm7.com/imag
     font-family: Arial,Helvetica,sans-serif;
     font-size: 18px;
     margin: 0 0 3px;
-	font-weight:bold;
+    font-weight:bold;
 }
 
 .commentAuthor {
@@ -15598,46 +15598,46 @@ body {background-color: #c31e1e;background-image: url("http://img.youm7.com/imag
     border-top: 1px solid #f9f9f9;
     display: block;
     margin: 5px 20px 5px 10px;
-    padding: 10px;
+    padding: 10px; 
     text-align: justify;
-	font-family: Tahoma;
+    font-family: Tahoma;
     font-size: 12px;
 }
 .youm7Protocol {background:#F0F0F0;padding:10px;color:#df2829;font-family:Droid Arabic Kufi;font-weight:bold;font-size:13px;text-align:center;}
 .youm7Protocol a {color:#666;font-weight:bold;display:block;text-align:center;margin-top:10px;}
 .youm7Protocol a:hover {color:#df2829;}
-.articleCont img {max-width:100%;margin:0 auto;display:block;}
+.articleCont img {max-width:100%;margin:0 auto;display:block;}   
 .newFooterMenu {text-align:center;}
 .newFooterMenu a {display:inline-block;margin-left:10px;text-shadow:0 2px #282828;font-size:14px;font-family:'Droid Arabic Kufi';color:#ccc;}
 .newFooterMenu a:hover {color:#E03030;}
 .about-us__label, .privacy__label {margin-top:15px;}
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.share_icons .whatsapp {display:inline-block;}
-	.newsInfo .label1 a {font-size:13px;}
-	.headerFix .secondMenu {display:none !important;}
-	.newsLinks h4, .newsLinks h3 {font-size:13px !important;}
-	.smallOneSec a {font-size:13px;}
-	.smallSections .smallSection:nth-child(2n) h3 a {font-size:14px !important;}
-	.searchCont input {height:28px !important;}
-	.rightAdsFix {margin-right: -131px;}
-	.leftAdsFix {margin-left: -131px;}
+    .share_icons .whatsapp {display:inline-block;} 
+    .newsInfo .label1 a {font-size:13px;}
+    .headerFix .secondMenu {display:none !important;}
+    .newsLinks h4, .newsLinks h3 {font-size:13px !important;}
+    .smallOneSec a {font-size:13px;}
+    .smallSections .smallSection:nth-child(2n) h3 a {font-size:14px !important;}
+    .searchCont input {height:28px !important;}
+    .rightAdsFix {margin-right: -131px;}
+    .leftAdsFix {margin-left: -131px;}
 }
 
-/* Extra Small Devices, Phones */
+/* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
-	 .share_icons .whatsapp {display:inline-block;}
-	 .newsInfo .label1 a {font-size:12px;}
-	 .headerFix .secondMenu {display:none !important;}
-	 .newsLinks h4, .newsLinks h3 {font-size:12px !important;}
-	 .smallOneSec a {font-size:12px;}
-	 .smallSections .smallSection:nth-child(2n) h3 a {font-size:13px !important;}
-	 .searchCont input {height:28px !important;}
-	 .rightAdsFix {margin-right: -131px;}
-	 .leftAdsFix {margin-left: -131px;}
-	}
-
-
+     .share_icons .whatsapp {display:inline-block;}
+     .newsInfo .label1 a {font-size:12px;}
+     .headerFix .secondMenu {display:none !important;}
+     .newsLinks h4, .newsLinks h3 {font-size:12px !important;}
+     .smallOneSec a {font-size:12px;}
+     .smallSections .smallSection:nth-child(2n) h3 a {font-size:13px !important;}
+     .searchCont input {height:28px !important;}
+     .rightAdsFix {margin-right: -131px;}
+     .leftAdsFix {margin-left: -131px;}
+    }
+ 
+ 
 /*Search Page*/
 .totalresult {font-family: Droid Arabic Kufi;font-size: 15px;width: 215px;}
 #NewsSectionPaging {direction: rtl;}
@@ -15664,7 +15664,7 @@ body {background-color: #c31e1e;background-image: url("http://img.youm7.com/imag
             left: -9000px;
         }
 
-        <a href="../../Models/News.cs" > ../../Models/News.cs</a > #result {
+        #result {
             border: 1px solid #920013;
             border-radius: 10px 10px 10px 10px;
             float: right;
@@ -15738,43 +15738,43 @@ body {background-color: #c31e1e;background-image: url("http://img.youm7.com/imag
 
         div.frmdata ul {
         }
-		.searchHeader .dropMenu a{padding-top:19px !important;}
-		.searchHeader .dropMenu ul li {clear: both !important;float: none !important;min-width: 200px !important;}
-		.searchHeader .dropMenu h2 {padding:0 8px !important;}
-@media only screen
-and (min-device-width : 768px)
+        .searchHeader .dropMenu a{padding-top:19px !important;}
+        .searchHeader .dropMenu ul li {clear: both !important;float: none !important;min-width: 200px !important;}
+        .searchHeader .dropMenu h2 {padding:0 8px !important;}
+@media only screen 
+and (min-device-width : 768px) 
 and (max-device-width : 1024px)  {
-	.smallOneSec {height:250px !important;}
-	.newsLinks h4, .newsLinks h3, .smallOneSec a {font-size:14px !important;}
-	.smallSections .smallSection:nth-child(2n) h3 a {font-size:15px !important;}
-	.searchCont input {padding-top:0px !Important;line-height:20px !important;}
-	.newsInfo .label1 a {font-size:13px;}
-	.dropMenu ul {left:0px !Important;right:-70px !important;}
-	.newsLinks h4, .newsLinks h3 {font-size:13px !important;}
-	.smallOneSec a {font-size:13px;}
-	.smallSections .smallSection:nth-child(2n) h3 a {font-size:14px !important;}
-	.searchCont input {height:28px !important;}
-	.rightAdsFix {margin-right: -131px;}
-	.leftAdsFix {margin-left: -131px;}
-
-	}
-@media only screen
-and (min-device-width : 375px)
+    .smallOneSec {height:250px !important;}
+    .newsLinks h4, .newsLinks h3, .smallOneSec a {font-size:14px !important;}
+    .smallSections .smallSection:nth-child(2n) h3 a {font-size:15px !important;}
+    .searchCont input {padding-top:0px !Important;line-height:20px !important;}
+    .newsInfo .label1 a {font-size:13px;}
+    .dropMenu ul {left:0px !Important;right:-70px !important;}
+    .newsLinks h4, .newsLinks h3 {font-size:13px !important;}
+    .smallOneSec a {font-size:13px;} 
+    .smallSections .smallSection:nth-child(2n) h3 a {font-size:14px !important;}
+    .searchCont input {height:28px !important;}
+    .rightAdsFix {margin-right: -131px;}
+    .leftAdsFix {margin-left: -131px;}
+    
+    }
+@media only screen 
+and (min-device-width : 375px) 
 and (max-device-width : 667px) {
-	.smallOneSec {height:250px !important;}
-	.newsLinks h4, .newsLinks h3, .smallOneSec a {font-size:14px !important;}
-	.smallSections .smallSection:nth-child(2n) h3 a {font-size:15px !important;}
-	.searchCont input {padding-top:0px !Important;line-height:20px !important;}
-	.newsInfo .label1 a {font-size:13px;}
-	.dropMenu ul {left:0px !Important;right:-70px !important;}
-	.headerFix .secondMenu {display:none !important;}
-	.newsLinks h4, .newsLinks h3 {font-size:12px !important;}
-	.smallOneSec a {font-size:12px;}
-	.smallSections .smallSection:nth-child(2n) h3 a {font-size:13px !important;}
-	.rightAdsFix {margin-right: -131px;}
-	.leftAdsFix {margin-left: -131px;}
-	.searchCont input {height:28px !important;}
-
+    .smallOneSec {height:250px !important;}
+    .newsLinks h4, .newsLinks h3, .smallOneSec a {font-size:14px !important;}
+    .smallSections .smallSection:nth-child(2n) h3 a {font-size:15px !important;}
+    .searchCont input {padding-top:0px !Important;line-height:20px !important;}
+    .newsInfo .label1 a {font-size:13px;}
+    .dropMenu ul {left:0px !Important;right:-70px !important;}
+    .headerFix .secondMenu {display:none !important;}
+    .newsLinks h4, .newsLinks h3 {font-size:12px !important;}
+    .smallOneSec a {font-size:12px;}
+    .smallSections .smallSection:nth-child(2n) h3 a {font-size:13px !important;}
+    .rightAdsFix {margin-right: -131px;}
+    .leftAdsFix {margin-left: -131px;}
+    .searchCont input {height:28px !important;}
+    
 }
         /*div.frmdata .searchbutton {
             background: url("http://www.youm7.com/images/graphics/searchBtn.gif?1") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -15786,7 +15786,7 @@ and (max-device-width : 667px) {
             margin: 20px 334px 0 0;
             width: 53px;
         }*/
-		#showorhide {clear:both !important;}
+        #showorhide {clear:both !important;}
         #headerAds {
             float: left;
             height: 90px;
@@ -15801,10 +15801,10 @@ and (max-device-width : 667px) {
             cursor: pointer !important;
             border: none !important;
         }
-		.chosen-container.chosen-with-drop .chosen-drop {position:relative !important;z-index:9999;overflow:hidden;height:150px !important;right:0px !important;width:100%;}
-		.chosen-container-multi .chosen-choices li.search-choice, .chosen-container .chosen-results li {font-family:Droid Arabic Kufi !important;}
-		.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {background:url('../images/Delete.png?2') 0 0 no-repeat !important;}
-		.chosen-container {width:461px !important;}
+        .chosen-container.chosen-with-drop .chosen-drop {position:relative !important;z-index:9999;overflow:hidden;height:150px !important;right:0px !important;width:100%;}
+        .chosen-container-multi .chosen-choices li.search-choice, .chosen-container .chosen-results li {font-family:Droid Arabic Kufi !important;}
+        .chosen-container-multi .chosen-choices li.search-choice .search-choice-close {background:url('../images/Delete.png?2') 0 0 no-repeat !important;}
+        .chosen-container {width:461px !important;}
         .info_section {
             border-bottom: 2px solid #fff;
             margin-top: 20px;
@@ -15839,7 +15839,7 @@ and (max-device-width : 667px) {
             display: block;
             font-family: Arial,Helvetica,sans-serif;
             font-size: 18px;
-			font-weight:bold;
+            font-weight:bold;
             text-decoration: underline;
         }
 
@@ -16037,7 +16037,7 @@ width:960px;
 .women-cont .bigOneSec h3 {margin-top:5px;}
 .women-cont .bigOneSec img{width:100%;}
 .women-cont .smallSection h3 a {line-height:20px !important;}
-.women-cont .bigOneSec p {padding: 10px 0px;line-height:23px;}
+.women-cont .bigOneSec p {padding: 10px 0px;line-height:23px;} 
 .women-news-small {text-align:right;padding:5px;}
 .women-news-small .smallSection img {width:100%;max-width:100%;}
 .women-news-small .smallSection{width:180px;display: inline-block;margin:0 0 5px;}
@@ -16059,18 +16059,18 @@ width:960px;
 .style-2 .new-poll-option {width:32%;display:inline-block;}
 .style-3 .new-poll-option {width:49%;}
 .new-poll-option img {display:block;width: 100%;}
-/*gold table*/
-.gold-table {text-align:center !important;padding:15px}
-    .gold-table tr {background:#FFF !important;}
-    .gold-table tr th {text-align:center !important;border-right:1px solid #F0F0F0 !important;border-bottom:2px solid #F0F0F0 !important;}
+/*gold table*/  
+.gold-table {text-align:center !important;padding:15px} 
+    .gold-table tr {background:#FFF !important;}       
+    .gold-table tr th {text-align:center !important;border-right:1px solid #F0F0F0 !important;border-bottom:2px solid #F0F0F0 !important;} 
 .gold-table thead tr {background:#D7D7D7 !important;}
 .gold-table td {font-family:arial;font-size:14px;font-weight:bold;border-bottom:2px solid #F0F0F0 !important;border-right:1px solid #F0F0F0 !important;border-top:0px !important}
     .gold-table td span {padding:0px 5px;}
 table { border-collapse: separate; }
-td { border: solid 1px #F0F0F0;border-top:0px; }
-tr td:first-child, tr:first-child th:first-child { border-top-right-radius: 5px !important; }
+td { border: solid 1px #F0F0F0;border-top:0px; } 
+tr td:first-child, tr:first-child th:first-child { border-top-right-radius: 5px !important; } 
 tr td:last-child, tr:first-child th:last-child { border-top-left-radius: 5px !important; }
-tr td:first-child, tr:last-child th:first-child { border-bottom-right-radius: 5px !important; }
+tr td:first-child, tr:last-child th:first-child { border-bottom-right-radius: 5px !important; } 
 tr td:last-child, tr:last-child th:last-child { border-bottom-left-radius: 5px !important; }
 .gold-table h3, .gold-table .selectionShareable {font-weight:bold;color:#df2829;font-family:Droid Arabic Kufi;font-size:16px;margin:0px 0px 15px;text-align:center;}
 .flag {margin-top:5px;float:right;}
@@ -16115,7 +16115,7 @@ tr td:last-child, tr:last-child th:last-child { border-bottom-left-radius: 5px !
 
 
 /* popup_box DIV-Styles*/
-#popup_box {
+#popup_box { 
    /*background: none repeat scroll 0 0 #ffffff;
     border: 2px solid #ab1b1b;
     box-shadow: 0 0 5px #ab1b1b;*/
@@ -16126,25 +16126,25 @@ tr td:last-child, tr:last-child th:last-child { border-bottom-left-radius: 5px !
     left: 0;
     padding: 15px;
     position: absolute;
-	margin:auto !important;
+    margin:auto !important;
     right: 0;
     top: 0;
-	bottom:0;
+    bottom:0;
     width: 823px !important;
     z-index: 999999999999999999999999999999999999999;
-
+    
 }
 #popup_box > div {margin:0 auto !important;}
 
 
 /* This is for the positioning of the Close Link */
 #popupBoxClose {
-
-    font-size:20px;
-    line-height:15px;
-    right:5px;
-    top:5px;
-    position:absolute;
-    color:#6fa5e2;
-    font-weight:500;
+    
+    font-size:20px;  
+    line-height:15px;  
+    right:5px;  
+    top:5px;  
+    position:absolute;  
+    color:#6fa5e2;  
+    font-weight:500;      
 }
