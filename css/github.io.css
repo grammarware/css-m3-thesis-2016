@@ -1,352 +1,773 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link type="text/css" href="/css/pages.css" media="all" rel="stylesheet">
-
-    <!-- Begin Jekyll SEO tag v2.1.0 -->
-<title>GitHub Pages - Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.</title>
-<meta property="og:title" content="GitHub Pages" />
-<meta name="description" content="Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live." />
-<meta property="og:description" content="Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live." />
-<link rel="canonical" href="https://pages.github.com/" />
-<meta property="og:url" content="https://pages.github.com/" />
-<meta property="og:site_name" content="GitHub Pages" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@github" />
-<script type="application/ld+json"> {
-"@context"
-    : "http://schema.org",
-"@type": "WebSite",
-"name": "GitHub Pages",
-"headline": "GitHub Pages",
-"description": "Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.",
-"url": "https://pages.github.com/"
-}</script>
-<!-- End Jekyll SEO tag -->
-
-  </head>
-
-  <body class="home ">
-
-
-<section id="hero-spot" class="hero-spot">
-    <a href="/"><img src="/images/logo.svg" alt="GitHub Pages" class="logo" /></a>
-
-    <h1>Websites for you and your projects.</h1>
-    <h2>Hosted directly from your <a href="https://github.com">GitHub repository</a>. Just edit, push, and your changes are live.</h2>
-
-    <a href="https://help.github.com/pages/" class="help-link">Pages Help</a>
-
-    <div id="slideshow">
-      <img src="/images/slideshow/bootstrap.png" alt="Bootstrap" class="slide active" width="893" />
-    </div>
-</section>
-
-<section id="video" class="video">
-  <h1>What is GitHub Pages?</h1>
-  <iframe width="853" height="480" src="https://www.youtube.com/embed/2MsN8gpT6jY?showinfo=0" frameborder="0" allowfullscreen></iframe>
-</section>
-
-<section id="tutorial" class="tutorial">
-  <h1>Ready to get started? Roll vanilla, or generate a site for your project.</h1>
-  <h2>You get one site per GitHub account and organization, <br />and unlimited project sites. Ready? Let’s get started.</h2>
-
-  <ul class="tabs">
-    <li><a href="#user-site" class="selected">User or organization site</a></li>
-    <li><a href="#project-site">Project site</a></li>
-  </ul>
-
-  <!-- ### Start of tutorials -->
-  <ul id="user-site" class="tutorial-list wrapper active">
-    <li id="create-repo-step" class="image-right">
-      <h4>Create a repository</h4>
-      <p>Head over to <a href="https://github.com">GitHub</a> and <a data-proofer-ignore="true" href="https://github.com/new">create a new repository</a> named <em>username</em>.github.io, where <em>username</em> is your username (or organization name) on GitHub.</p>
-
-      <p class="details">If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.</p>
-    </li>
-
-    <li class="question">
-      <h4>What git client are you using?</h4>
-      <ul class="tabs">
-        <li><a id="option-terminal" href="#terminal-step-1" class="selected">A terminal</a></li>
-        <li><a id="option-ghfw" href="#setup-in-desktop">GitHub for Windows</a></li>
-        <li><a id="option-ghfm" href="#setup-in-desktop">GitHub for Mac</a></li>
-        <li><a id="option-newuser-w" href="#new-user-step-1">I don't know</a></li>
-      </ul>
-    </li>
-
-    <li id="new-user-step-1" class="option-newuser-w">
-      <h4>Download GitHub for Windows</h4>
-      <p>GitHub for Windows is a great way to use git and GitHub on Windows.</p>
-
-      <a class="windows-download" href="https://github-windows.s3.amazonaws.com/GitHubSetup.exe"><span class="icon"></span>Download GitHub for Windows</a>
-
-      <img src="images/dashboard@2x.png" width="1054" alt="GitHub for Windows screenshot" class="full-size" />
-    </li>
-
-    <li class="option-newuser-m">
-      <h4>Download GitHub for Mac</h4>
-      <p>GitHub for Mac is a great way to use git and GitHub on Mac.</p>
-
-      <a class="mac-download" href="https://central.github.com/mac/latest"><span class="icon"></span>Download GitHub for Mac</a>
-
-      <img src="images/ghfm@2x.png" width="1078" alt="GitHub for Mac screenshot" class="full-size" />
-    </li>
-
-    <li id="terminal-step-1" class="option-terminal">
-      <h4>Clone the repository</h4>
-      <p>Go to the folder where you want to store your project, and clone the new repository:</p>
-
-      <div class="terminal">
-        <div class="header"></div>
-        <div class="shell">
-          <p><span class="path">~</span><span class="prompt">$</span>git clone https://github.com/<em>username</em>/<em>username</em>.github.io</p>
-        </div>
-      </div>
-    </li>
-
-    <li id="setup-in-desktop" class="option-ghfm option-ghfw image-right">
-      <h4>Clone the repository</h4>
-      <p>Click the "Set up in Desktop" button. When the GitHub desktop app opens, save the project.</p>
-
-      <p class="details">If the app doesn't open, launch it and clone the repository from the app.</p>
-    </li>
-
-    <li id="setup-in-desktop" class="option-newuser-w option-newuser-m image-right">
-      <h4>Clone the repository</h4>
-      <p>After finishing the installation, head back to GitHub.com and refresh the page. Click the "Set up in Desktop" button. When the GitHub desktop app opens, save the project.</p>
-
-      <p class="details">If the app doesn't open, launch it and clone the repository from the app.</p>
-    </li>
-
-    <li class="option-terminal">
-      <h4>Hello World</h4>
-      <p>Enter the project folder and add an index.html file:</p>
-
-      <div class="terminal">
-        <div class="header"></div>
-        <div class="shell">
-          <p><span class="path">~</span><span class="prompt">$</span>cd <em>username</em>.github.io</p>
-          <p><span class="path">~</span><span class="prompt">$</span>echo "Hello World" > index.html</p>
-        </div>
-      </div>
-    </li>
-
-    <li class="option-ghfm option-ghfw option-newuser-w option-newuser-m">
-      <h4>Create an index file</h4>
-      <p>Grab your favorite text editor and add an index.html file to your project:</p>
-
-      <div class="terminal">
-        <div class="header">index.html</div>
-        <code class="shell">
-          <pre>&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html&amp;gt;
-&amp;lt;body&amp;gt;
-&amp;lt;h1&amp;gt;Hello World&amp;lt;/h1&amp;gt;
-&amp;lt;p&amp;gt;I'm hosted with GitHub Pages.&amp;lt;/p&amp;gt;
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;</pre>
-      </code>
-    </li>
-
-    <li class="option-terminal">
-      <h4>Push it</h4>
-      <p>Add, commit, and push your changes:</p>
-
-      <div class="terminal">
-        <div class="header"></div>
-        <div class="shell">
-          <p><span class="path">~</span><span class="prompt">$</span>git add --all</p>
-          <p><span class="path">~</span><span class="prompt">$</span>git commit -m "Initial commit"</p>
-          <p><span class="path">~</span><span class="prompt">$</span>git push -u origin master</p>
-        </div>
-      </div>
-    </li>
-
-    <li class="option-ghfw option-newuser-w">
-      <h4>Commit &amp;amp; sync</h4>
-
-      <p>Enter the repository, commit your changes, and press the sync button.</p>
-
-      <img src="images/sync-windows@2x.png" width="813" alt="GitHub for Windows screenshot" class="full-size" />
-    </li>
-
-    <li class="option-ghfm option-newuser-m">
-      <h4>Commit &amp;amp; sync</h4>
-
-      <p>Enter the repository, commit your changes, and press the sync button.</p>
-
-      <img src="images/sync-mac.png" alt="GitHub for Mac screenshot" class="full-size" />
-    </li>
-
-    <li class="option-all">
-      <h4>…and you're done!</h4>
-      <p>Fire up a browser and go to <strong>http://<em>username</em>.github.io</strong>.</p>
-      <div class="hero-octicon">
-        <span class="mega-octicon octicon-check"></span>
-      </div>
-    </li>
-  </ul>
-  <!-- End of user site tutorial -->
-
-  <!-- Project Site tutorial -->
-  <ul id="project-site" class="tutorial-list wrapper">
-    <li class="question">
-      <h4>Use a theme, or start from scratch?</h4>
-      <p>You have the option to start with one of the pre-built themes,
-        <br>or to create a site from scratch.
-      <ul class="tabs">
-        <li><a id="option-generate" href="#generate-step-1" class="selected">Choose a theme</a></li>
-        <li><a id="option-vanilla" href="#vanilla-step-1">Start from scratch</a></li>
-      </ul>
-    </li>
-
-    <li id="generate-step-1" class="option-generate">
-      <h4>Repository Settings</h4>
-      <p>Head over to <a href="https://github.com/">GitHub.com</a> and create a new repository, or go to an existing one.
-        <br><strong>Click on the Settings tab</strong>.</p>
-
-      <img src="images/repo-settings@2x.png" width="720" alt="Settings for a repository" />
-    </li>
-
-    <li class="option-generate">
-      <h4>Theme chooser</h4>
-      <p>Scroll down to the <strong>GitHub Pages</strong> section. Press <strong>Choose a theme</strong>.</p>
-      <img src="images/launch-theme-chooser@2x.png" width="720" alt="Automatic Generator button on GitHub.com, Settings" />
-    </li>
-
-    <li class="option-generate">
-      <h4>Pick a theme</h4>
-      <p>Choose one of the themes from the carousel at the top.
-      <br>When you're done, click <strong>Select theme</strong> on the right.</p>
-
-      <img src="images/theme-chooser@2x.png" class="full-size" width="720" alt="Choose layout" />
-    </li>
-
-    <li class="option-generate">
-      <h4>Edit content</h4>
-      <p>Use the editor to add content to your site.</p>
-      <img class="full-size" src="images/code-editor@2x.png" width="720" alt="Add content to your GitHub Pages site" />
-    </li>
-
-    <li class="option-generate">
-      <h4>Commit</h4>
-      <p>Enter a commit comment and click on <strong>Commit changes</strong> below the editor.</p>
-      <img class="full-size" src="images/commit-edits@2x.png" width="720" alt="Commit Markdown content to your repository" />
-    </li>
-
-    <!-- Start of vanilla sub tutorial -->
-    <li id="vanilla-step-1" class="option-vanilla">
-      <h4>Create an index file</h4>
-      <p>Head over to <a href="https://github.com/">GitHub.com</a> and <a data-proofer-ignore="true" href="https://github.com/new">create a new repository</a>, or go to an existing one.
-      <br />Click on the <strong>Create new file</strong> button.</p>
-
-      <img src="images/new-create-file@2x.png" width="720" alt="Create a file in your repository" />
-    </li>
-
-    <li class="option-vanilla">
-      <h4>Hello World</h4>
-      <p>Name the file <code>index.html</code> and type some HTML content into the editor.</p>
-
-      <img src="images/new-index-html@2x.png" width="720" alt="Hello World on GitHub.com" />
-    </li>
-
-    <li class="option-vanilla">
-      <h4>Commit the file</h4>
-      <p>Scroll to the bottom of the page, write a commit message, and commit the new file.</p>
-
-      <img src="images/new-commit-file@2x.png" width="720" alt="Commit the file" />
-    </li>
-
-    <li class="option-vanilla">
-      <h4>Repository Settings</h4>
-      <p><strong>Click on the Settings tab</strong> and scroll down to the GitHub Pages section.
-      <br />Then select the <strong>master branch</strong> source and click on the <strong>Save</strong> button.</p>
-
-      <img src="images/source-setting@2x.png" width="720" alt="GitHub Pages Source Setting" />
-    </li>
-
-    <li class="option-all">
-      <h4>…and you're done!</h4>
-      <p>Fire up a browser and go to <strong>http://<em>username</em>.github.io/<em>repository</em></strong>.</p>
-      <div class="hero-octicon">
-        <span class="mega-octicon octicon-check"></span>
-      </div>
-    </li>
-  </ul>
-
-</section>
-<!-- End of tutorial section -->
-
-<section id="next-steps">
-  <h1>Now that you’re up and running, here are a few things you should know.</h1>
-
-  <ul class="next-steps wrapper">
-    <li class="jekyll">
-      <a class="hero-octicon" href="https://help.github.com/articles/using-jekyll-with-pages">
-        <span class="mega-octicon octicon-pencil"></span>
-      </a>
-      <h4><a href="https://help.github.com/articles/using-jekyll-with-pages">Blogging with Jekyll</a></h4>
-      <p>Using <a href="https://jekyllrb.com">Jekyll</a>, you can blog using beautiful Markdown syntax, and without having to deal with any databases. <a href="https://jekyllrb.com/docs/quickstart/">Learn how to set up Jekyll</a>.</p>
-    </li>
-    <li class="custom-urls">
-      <a class="hero-octicon" href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">
-        <span class="mega-octicon octicon-link"></span>
-      </a>
-      <h4><a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">Custom URLs</a></h4>
-      <p>Want to use your own custom domain for a GitHub Pages site? Just create a file named CNAME  and include your URL. <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">Read more</a>.</p>
-    </li>
-    <li class="guides">
-      <a class="hero-octicon" href="https://help.github.com/categories/20/articles">
-        <span class="mega-octicon octicon-book"></span>
-      </a>
-      <h4><a href="https://help.github.com/categories/20/articles">Guides</a></h4>
-      <p>Learn how to create custom 404 pages, use submodules, and <a href="https://help.github.com/categories/20/articles">learn more about GitHub Pages</a>.</p>
-    </li>
-  </ul>
-</section>
-
-<script src="/js/jquery.js"></script>
-<script>window.slides = {"bootstrap":"Bootstrap","yeoman":"Yeoman","facebookdesign":"Facebook Design","foundation":"Foundation","ghtraining":"GitHub Training","adobeos":"Adobe Open Source","jekyllrb":"Jekyll","electron":"Electron","semanticui":"Semantic UI","microsoft":"Microsoft on GitHub"}</script>
-<script src="/js/application.js"></script>
-
-
-<footer class="page-footer">
-  <ul class="site-footer-links right">
-    <li><a href="https://status.github.com/">Status</a></li>
-    <li><a href="https://developer.github.com">API</a></li>
-    <li><a href="https://training.github.com">Training</a></li>
-    <li><a href="https://shop.github.com">Shop</a></li>
-    <li><a href="https://github.com/blog">Blog</a></li>
-    <li><a href="https://github.com/about">About</a></li>
-  </ul>
-
-  <a href="/">
-    <span class="mega-octicon octicon-mark-github"></span>
-  </a>
-
-  <ul class="site-footer-links">
-    <li>&amp;copy; 2017 <span>GitHub</span>, Inc.</li>
-    <li><a href="https://github.com/site/terms">Terms</a></li>
-    <li><a href="https://github.com/site/privacy">Privacy</a></li>
-    <li><a href="https://github.com/security">Security</a></li>
-    <li><a href="https://github.com/contact">Contact</a></li>
-  </ul>
-</footer>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-3769691-40', 'github.com');
-  ga('send', 'pageview');
-</script>
-
-</body>
-</html>
-
-
+html,body,div,span,object,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,ul {
+    list-style: none
+}
+
+blockquote,q {
+    quotes: none
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+    content: '';
+    content: none
+}
+
+ins {
+    text-decoration: none
+}
+
+del {
+    text-decoration: line-through
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+ol li {
+    list-style-type: decimal
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    line-height: 1.4;
+    font-size: 14px
+}
+
+.octicon {
+    font: normal normal 16px octicons;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased
+}
+
+.mega-octicon {
+    font: normal normal 48px octicons;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    color: #4183c4;
+    line-height: 100px
+}
+
+.wrapper {
+    position: relative;
+    width: 980px;
+    margin: 0 auto
+}
+
+strong {
+    font-weight: bold
+}
+
+a {
+    color: #4183C4;
+    text-decoration: none
+}
+
+a:hover {
+    color: #156cc2
+}
+
+p code {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 2px 5px;
+    font-family: Consolas, "Liberation Mono", Courier, monospace
+}
+
+h2 {
+    text-align: center;
+    font-weight: 200;
+    line-height: 38px;
+    margin: 40px auto 0;
+    font-size: 21px;
+    max-width: 740px
+}
+
+.page h1.title {
+    margin-top: 25px
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1em;
+    -webkit-backface-visibility: hidden
+}
+
+p {
+    margin: 15px 0 30px;
+    font-weight: 300;
+    line-height: 1.7em
+}
+
+em {
+    font-style: italic
+}
+
+textarea {
+    border: none;
+    background-color: transparent;
+    width: 400px;
+    outline: none
+}
+
+.logo {
+    display: block;
+    width: 169px;
+    margin: 0 auto
+}
+
+#hero-spot {
+    padding: 40px 0 0;
+    position: relative;
+    overflow: hidden;
+    background: #222
+}
+
+.help-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #bbb;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: color 0.2s ease-in-out 0s;
+    -moz-transition: color 0.2s ease-in-out 0s;
+    -o-transition: color 0.2s ease-in-out 0s;
+    transition: color 0.2s ease-in-out 0s
+}
+
+.help-link:hover {
+    color: #fff
+}
+
+h1 {
+    margin: 90px auto 0 auto;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 60px;
+    text-align: center;
+    max-width: 910px;
+    color: #333
+}
+
+#hero-spot h1 {
+    color: #fff;
+    -webkit-backface-visibility: hidden;
+    max-width: 830px;
+    margin-top: 50px
+}
+
+.page #hero-spot img {
+    margin-bottom: 25px
+}
+
+#hero-spot h2 {
+    color: #a7a7a7;
+    -webkit-backface-visibility: hidden;
+    line-height: 1.5em;
+    max-width: none;
+    margin: 10px auto 60px;
+    font-size: 18px
+}
+
+.hero-spot h2>a {
+    color: #dcdcdc;
+    text-decoration: underline
+}
+
+.hero-spot h2>a:hover {
+    text-decoration: none
+}
+
+#slideshow {
+    margin: 30px auto 0;
+    position: relative
+}
+
+.slide {
+    margin: 0 auto;
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: 100;
+    -webkit-transition: opacity 0.6s ease-in-out 0s;
+    -moz-transition: opacity 0.6s ease-in-out 0s;
+    -o-transition: opacity 0.6s ease-in-out 0s;
+    transition: opacity 0.6s ease-in-out 0s
+}
+
+.slide:first-child {
+    position: relative;
+    display: block
+}
+
+.slide.active {
+    opacity: 1;
+    z-index: 90
+}
+
+.shadow-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 9px;
+    background: url(../images/section-shadow.png) repeat-x
+}
+
+#video,#tutorial {
+    text-align: center;
+    background-color: #f5f5f5;
+    overflow: hidden
+}
+
+#video iframe {
+    margin-top: 40px
+}
+
+#tutorial {
+    padding-bottom: 20px
+}
+
+.tabs {
+    display: inline-block;
+    margin: 45px auto 0;
+    font-size: 0
+}
+
+.question .tabs {
+    margin: 30px auto 0
+}
+
+.tabs li {
+    display: inline-block;
+    margin: 0;
+    font-size: 15px
+}
+
+.tabs li:first-child a {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+
+.tabs li:last-child a {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+.tabs li:nth-child(even) a {
+    margin: 0 -1px
+}
+
+.tabs a {
+    color: #323232;
+    background-color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 1px solid #dddddd;
+    position: relative;
+    line-height: 1em;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s
+}
+
+.question .tabs a {
+    background-color: #fcfcfc
+}
+
+.tabs a:hover {
+    color: #327fc7;
+    border-color: #327fc7;
+    z-index: 10
+}
+
+.tabs a.selected {
+    z-index: 20;
+    color: #fff;
+    background-color: #327fc7;
+    border-color: #327fc7;
+    outline: none
+}
+
+.tutorial-list {
+    margin-top: 90px;
+    counter-reset: tutorialstep;
+    display: none
+}
+
+.tutorial-list.active {
+    display: block
+}
+
+.tutorial-list>li {
+    position: relative;
+    background-color: #fff;
+    margin: 0 0 70px 0px;
+    padding: 40px 0 60px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 1;
+    -webkit-transition: all 0.6s ease-in-out 0s;
+    -moz-transition: all 0.6s ease-in-out 0s;
+    -o-transition: all 0.6s ease-in-out 0s;
+    transition: all 0.6s ease-in-out 0s
+}
+
+.tutorial-list .image-right {
+    padding-right: 440px
+}
+
+.tutorial-list .image-right p {
+    margin-left: 30px;
+    margin-right: 30px
+}
+
+#create-repo-step {
+    background: #fff url(/images/user-repo@2x.png) right 0 no-repeat;
+    background-size: 446px 344px
+}
+
+#setup-in-desktop {
+    background: #fff url(/images/setup-in-desktop@2x.png) no-repeat right 0;
+    background-size: 443px 303px
+}
+
+.tutorial-list .animate-in {
+    -webkit-transform: translateY(40px);
+    -moz-transform: translateY(40px);
+    -o-transform: translateY(40px);
+    -ms-transform: translateY(40px);
+    transform: translateY(40px);
+    opacity: 0
+}
+
+.tutorial-list p {
+    margin: 30px 120px 30px
+}
+
+.tutorial-list p:last-child {
+    margin-bottom: 0
+}
+
+.article-left p {
+    margin-left: 0;
+    margin-right: 0
+}
+
+.tutorial-list .right-image p,.tutorial-list .right-image h4 {
+    margin-left: 30px
+}
+
+.tutorial-list li .full-size {
+    margin-bottom: -66px;
+    max-width: 90%
+}
+
+.tutorial-list .hidden {
+    display: none
+}
+
+.tutorial-list .question {
+    text-align: center
+}
+
+.windows-download {
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 0 50px;
+    background-color: #71bc22;
+    padding: 10px 14px;
+    line-height: 27px;
+    font-family: "Segoe UI", "Segoe WP", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-weight: 300;
+    -webkit-backface-visibility: hidden
+}
+
+.windows-download:hover {
+    color: #fff;
+    background-color: #62b30e
+}
+
+.windows-download .icon {
+    background: url("../images/download@2x.png") no-repeat center;
+    background-size: 21px 21px;
+    height: 21px;
+    width: 21px;
+    margin: 0 9px -4px 0;
+    display: inline-block
+}
+
+.mac-download {
+    display: inline-block;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+    background-color: #3582df;
+    background-image: -moz-linear-gradient(#45b3f3 0%, #3582df 100%);
+    background-image: -webkit-linear-gradient(#45b3f3 0%, #3582df 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#45b3f3', endColorstr='#3582df')";
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    margin: 0 0 50px;
+    padding: 12px 20px 14px 15px;
+    font-size: 17px;
+    -webkit-backface-visibility: hidden;
+    font-weight: normal;
+    color: #fff
+}
+
+.mac-download::before {
+    content: "";
+    width: 23px;
+    height: 24px;
+    display: inline-block;
+    background-image: url(../images/download-arrow@2x.png);
+    background-size: 23px 24px;
+    margin-right: 11px;
+    margin-bottom: -7px
+}
+
+.mac-download:hover:before {
+    opacity: 0.8
+}
+
+.mac-download:hover {
+    color: #fff;
+    background-image: -moz-linear-gradient(#56bdf9 0%, #358af0 100%);
+    background-image: -webkit-linear-gradient(#56bdf9 0%, #358af0 100%);
+    border-radius: 4px
+}
+
+.tutorial-list>li:last-child:before {
+    content: "";
+    position: absolute;
+    left: -55px;
+    top: 0;
+    height: 105%;
+    width: 10px;
+    background-color: #f5f5f5
+}
+
+.tutorial-list .right {
+    margin: -45px 0 0 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+.details {
+    font-size: 14px;
+    font-weight: 400
+}
+
+.tutorial-list .question:after {
+    content: "?"
+}
+
+.tutorial-list>li:not(.question):after {
+    counter-increment: tutorialstep;
+    content: counter(tutorialstep)
+}
+
+.tutorial-list>li:after {
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    background-color: #327fc7;
+    border-radius: 200px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    z-index: 100
+}
+
+.hero-octicon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+    border: solid 1px #e5e5e5;
+    margin: 0 auto 15px;
+    display: block;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s
+}
+
+.hero-octicon:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.next-steps .hero-octicon {
+    margin-bottom: 35px
+}
+
+.terminal {
+    width: 700px;
+    margin: 30px auto 0
+}
+
+.header {
+    height: 25px;
+    display: block;
+    background: -moz-linear-gradient(top, #f7f7f7 0%, #cfcfcf 5%, #aaa 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(5%, #cfcfcf), color-stop(100%, #aaa));
+    background: -webkit-linear-gradient(top, #f7f7f7 0%, #cfcfcf 5%, #aaa 100%);
+    background: -o-linear-gradient(top, #f7f7f7 0%, #cfcfcf 5%, #aaa 100%);
+    background: -ms-linear-gradient(top, #f7f7f7 0%, #cfcfcf 5%, #aaa 100%);
+    background: linear-gradient(top, #f7f7f7 0%, #cfcfcf 5%, #aaa 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#aaaaaa',GradientType=0 );
+    border: 1px solid #9c9c9c;
+    border-bottom-color: #111;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 25px;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.6);
+    color: #444
+}
+
+.shell {
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    font-size: 17px;
+    line-height: 28px;
+    color: #eeeb82;
+    background-color: #3d3d3d;
+    overflow: hidden;
+    padding: 20px;
+    margin: 0;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-align: left;
+    display: block
+}
+
+.tutorial-list .shell p {
+    margin: 0;
+    font-weight: bold;
+    -webkit-backface-visibility: hidden
+}
+
+.path {
+    color: #71cfee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-right: 0.6em
+}
+
+.prompt {
+    color: #d74d52;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-right: 0.6em
+}
+
+.next-steps {
+    margin-top: 80px
+}
+
+.next-steps p {
+    font-weight: 400
+}
+
+.next-steps li {
+    display: table-cell;
+    text-align: center;
+    padding: 0 20px 0;
+    -webkit-transition: opacity 0.8s ease-in-out 0s;
+    -moz-transition: opacity 0.8s ease-in-out 0s;
+    -ms-transition: opacity 0.8s ease-in-out 0s;
+    -o-transition: opacity 0.8s ease-in-out 0s;
+    transition: opacity 0.8s ease-in-out 0s
+}
+
+.next-steps .animate-in {
+    opacity: 0
+}
+
+.next-steps li:first-child,.next-steps li:last-child {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.next-steps .custom-urls {
+    -webkit-transition-delay: 0.15s;
+    -moz-transition-delay: 0.15s;
+    -ms-transition-delay: 0.15s;
+    -o-transition-delay: 0.15s;
+    transition-delay: 0.15s
+}
+
+.custom-urls .mega-octicon {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.next-steps .guides {
+    -webkit-transition-delay: 0.3s;
+    -moz-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    transition-delay: 0.3s
+}
+
+footer {
+    position: relative;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #777;
+    clear: both;
+    width: 980px;
+    padding: 40px 0;
+    margin: 70px auto 0 auto;
+    border-top: 1px solid #eee
+}
+
+.site-footer-links li {
+    display: inline-block;
+    margin-left: 10px
+}
+
+.site-footer-links li:first-child {
+    margin-left: 0
+}
+
+footer .octicon-mark-github {
+    position: absolute;
+    top: 38px;
+    left: 50%;
+    color: #ccc;
+    height: 24px;
+    width: 24px;
+    margin-left: -12px;
+    font-size: 24px;
+    line-height: 1
+}
+
+footer .right {
+    float: right;
+    margin: 0
+}
+
+.left {
+    float: left
+}
+
+.article-left {
+    width: 500px;
+    margin-left: 20px
+}
+
+@font-face {
+    font-family:'octicons';src:url("octicons.eot");src:url("octicons.eot#iefix") format("embedded-opentype"),url("octicons.woff") format("woff"),url("octicons.ttf") format("truetype"),url("octicons.svg#octicons") format("svg");font-weight:normal;font-style:normal
+}
+
+.octicon-book:before {
+    content: '\f007'
+}
+
+.octicon-check:before {
+    content: '\f03a'
+}
+
+.octicon-link:before {
+    content: '\f05c'
+}
+
+.octicon-mark-github:before {
+    content: '\f00a'
+}
+
+.octicon-pencil:before {
+    content: '\f058'
+}
+
+.page .content {
+    padding-left: 10%;
+    padding-right: 10%
+}
+
+.versions,.themes {
+    font-size: 1.1em
+}
+
+.versions table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    font-size: 1.1em
+}
+
+.versions table tr th {
+    font-weight: bold;
+    text-align: left
+}
+
+.versions table tr td {
+    padding: 5px 20px 5px 0
+}
+
+.themes .content {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.themes .content ul {
+    width: 8em;
+    margin-left: auto;
+    margin-right: auto
+}
