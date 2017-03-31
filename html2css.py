@@ -23,4 +23,4 @@ for line in fileinput.input():
 		if i < 0:
 			break
 		line = line[:i] + line[line.index('>', i)+1:]
-	print(line.replace('</span>', '').replace('&lt;','<').replace('&gt;','>'))
+	print(line.replace('</span>', '').replace('&lt;','<').replace('&gt;','>').replace('&amp;','&'))

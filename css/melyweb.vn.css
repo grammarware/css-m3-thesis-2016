@@ -267,7 +267,7 @@ html.content-loaded .global-wrapper:before,
     transition: all 0.3s;
 }
 
-@import url("//fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900&amp;subset=latin,latin-ext,cyrillic,cyrillic-ext");
+@import url("//fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900&subset=latin,latin-ext,cyrillic,cyrillic-ext");
 
 .dslc-modules-section-wrapper, .dslca-add-modules-section {
     width: 1200px;
@@ -9367,7 +9367,7 @@ display: inline-block;
 }
 
 /* ---------------------------------
-TEXT FIELDS &amp; TEXTAREAS
+TEXT FIELDS & TEXTAREAS
 ----------------------------------*/
 
 .text-wrap.label-left input,
@@ -9409,7 +9409,7 @@ margin-bottom: 10px;
 }
 
 /* ---------------------------------
-RADIO &amp; CHECKBOX LISTS
+RADIO & CHECKBOX LISTS
 ----------------------------------*/
 
 .list-radio-wrap span ul li input,
@@ -27064,7 +27064,7 @@ body.boxed-page-layout:before { position: absolute; content: ''; left: 0; top: 0
 	}
 
 	.global-wrapper{
-		&amp;:before {
+		&:before {
 			@include emptyPseudoElement;
 			position: fixed;
 			height: 100vh;
@@ -27073,7 +27073,7 @@ body.boxed-page-layout:before { position: absolute; content: ''; left: 0; top: 0
 			background: #fff;
 		}
 
-		&amp;:after {
+		&:after {
 			@include icon-font;
 			content: "\e631";
 			position: fixed;
@@ -27107,7 +27107,7 @@ body.boxed-page-layout:before { position: absolute; content: ''; left: 0; top: 0
 }
 
 body.content-loaded .global-wrapper {
-	&amp;:before, &amp;:after {
+	&:before, &:after {
 		opacity: 0;
 		z-index: 0;
 		color: rgba(0,0,0,0);
@@ -27274,7 +27274,7 @@ body .dslca-module-edit-field-font-wrapper { width: 100%; }
 /*
 .blog-add-icons {
 	.dslc-post-no-thumb .dslc-post-main {
-		&amp;:before {
+		&:before {
 			@include emptyPseudoElement;
 			@include icon-font;
 			font-size: 60px;
@@ -27285,7 +27285,7 @@ body .dslca-module-edit-field-font-wrapper { width: 100%; }
 		}
 	}
 
-	&amp;.blog-card-height-med {
+	&.blog-card-height-med {
 		.dslc-post-no-thumb .dslc-post-thumb:before {
 			top: 90px;
 		}
