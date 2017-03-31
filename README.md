@@ -283,7 +283,7 @@
 1. [ikea.com](http://ikea.com) — **[CSS](css/ikea.com.css)**
 1. [giphy.com](http://giphy.com) — **[CSS](css/giphy.com.css)**
 1. [allegro.pl](http://allegro.pl) — **[CSS](css/allegro.pl.css)**
-1. [clarins.tmall.com](http://clarins.tmall.com) — **[CSS](css/clarins.tmall.com.css)**
+1. [clarins.tmall.com](http://clarins.tmall.com) — removed (duplicate)
 1. [babytree.com](http://babytree.com) — **[CSS](css/babytree.com.css)**
 1. [discordapp.com](http://discordapp.com) — **[CSS](css/discordapp.com.css)**
 1. [google.hu](http://google.hu) — removed (duplicate)
@@ -422,7 +422,7 @@
 1. [taboola.com](http://taboola.com) — **[CSS](css/taboola.com.css)**
 1. [seasonvar.ru](http://seasonvar.ru) — **[CSS](css/seasonvar.ru.css)**
 1. [spiegel.de](http://spiegel.de) — **[CSS](css/spiegel.de.css)**
-1. [codeonclick.com](http://codeonclick.com) — **[CSS](css/codeonclick.com.css)**
+1. [codeonclick.com](http://codeonclick.com) — removed (parked)
 1. [shopify.com](http://shopify.com) — **[CSS](css/shopify.com.css)**
 1. [aparat.com](http://aparat.com) — **[CSS](css/aparat.com.css)**
 1. [target.com](http://target.com) — **[CSS](css/target.com.css)**
@@ -448,7 +448,7 @@
 1. [4dsply.com](http://4dsply.com) — **[CSS](css/4dsply.com.css)**
 1. [mercadolibre.com.ar](http://mercadolibre.com.ar) — **[CSS](css/mercadolibre.com.ar.css)**
 1. [homedepot.com](http://homedepot.com) — **[CSS](css/homedepot.com.css)**
-1. [cloudfront.net](http://cloudfront.net) — **[CSS](css/cloudfront.net.css)**
+1. [cloudfront.net](http://cloudfront.net) — removed (server not found)
 1. [teepr.com](http://teepr.com) — **[CSS](css/teepr.com.css)**
 1. [haber7.com](http://haber7.com) — **[CSS](css/haber7.com.css)**
 1. [utorrent.com](http://utorrent.com) — **[CSS](css/utorrent.com.css)**
@@ -469,7 +469,7 @@
 1. [pwwysydh.com](http://pwwysydh.com) — **[CSS](css/pwwysydh.com.css)**
 1. [seznam.cz](http://seznam.cz) — **[CSS](css/seznam.cz.css)**
 1. [elpais.com](http://elpais.com) — **[CSS](css/elpais.com.css)**
-1. [billdesk.com](http://billdesk.com) — **[CSS](css/billdesk.com.css)**
+1. [billdesk.com](http://billdesk.com) — removed (table layout without CSS)
 1. [udemy.com](http://udemy.com) — **[CSS](css/udemy.com.css)**
 1. [videodownloadconverter.com](http://videodownloadconverter.com) — **[CSS](css/videodownloadconverter.com.css)**
 1. [kooora.com](http://kooora.com) — **[CSS](css/kooora.com.css)**
@@ -490,7 +490,7 @@
 1. [setn.com](http://setn.com) — **[CSS](css/setn.com.css)**
 1. [hilltopads.net](http://hilltopads.net) — **[CSS](css/hilltopads.net.css)**
 1. [shink.in](http://shink.in) — **[CSS](css/shink.in.css)**
-1. [ablogica.com](http://ablogica.com) — **[CSS](css/ablogica.com.css)**
+1. [ablogica.com](http://ablogica.com) — removed (parked)
 1. [livedoor.com](http://livedoor.com) — removed (duplicate)
 1. [rediff.com](http://rediff.com) — **[CSS](css/rediff.com.css)**
 1. [nike.com](http://nike.com) — **[CSS](css/nike.com.css)**
