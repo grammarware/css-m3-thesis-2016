@@ -85,7 +85,7 @@
 1. [coccoc.com](http://coccoc.com) — **[CSS](css/coccoc.com.css)**
 1. [txxx.com](http://txxx.com) — **[CSS](css/txxx.com.css)**
 1. [bongacams.com](http://bongacams.com) — **[CSS](css/bongacams.com.css)**
-1. [youth.cn](http://youth.cn) — **[CSS](css/youth.cn.css)**
+1. [youth.cn](http://youth.cn) — removed (connection timed out)
 1. [dropbox.com](http://dropbox.com) — **[CSS](css/dropbox.com.css)**
 1. [google.pl](http://google.pl) — removed (duplicate)
 1. [amazon.de](http://amazon.de) — removed (duplicate)
