@@ -89,7 +89,7 @@
 1. [dropbox.com](http://dropbox.com) — **[CSS](css/dropbox.com.css)**
 1. [google.pl](http://google.pl) — removed (duplicate)
 1. [amazon.de](http://amazon.de) — removed (duplicate)
-1. [googleusercontent.com](http://googleusercontent.com) — **[CSS](css/googleusercontent.com.css)**
+1. [googleusercontent.com](http://googleusercontent.com) — removed (server not found)
 1. [fc2.com](http://fc2.com) — **[CSS](css/fc2.com.css)**
 1. [google.com.eg](http://google.com.eg) — removed (duplicate)
 1. [china.com](http://china.com) — **[CSS](css/china.com.css)**
@@ -138,7 +138,7 @@
 1. [google.co.ve](http://google.co.ve) — removed (duplicate)
 1. [naver.com](http://naver.com) — **[CSS](css/naver.com.css)**
 1. [google.co.za](http://google.co.za) — removed (duplicate)
-1. [onlinesbi.com](http://onlinesbi.com) — **[CSS](css/onlinesbi.com.css)**
+1. [onlinesbi.com](http://onlinesbi.com) — removed (server not found)
 1. [ebay.co.uk](http://ebay.co.uk) — removed (duplicate)
 1. [vice.com](http://vice.com) — **[CSS](css/vice.com.css)**
 1. [slideshare.net](http://slideshare.net) — **[CSS](css/slideshare.net.css)**
@@ -298,7 +298,7 @@
 1. [google.ie](http://google.ie) — removed (duplicate)
 1. [ebay-kleinanzeigen.de](http://ebay-kleinanzeigen.de) — **[CSS](css/ebay-kleinanzeigen.de.css)**
 1. [aol.com](http://aol.com) — **[CSS](css/aol.com.css)**
-1. [iwanttodeliver.com](http://iwanttodeliver.com) — **[CSS](css/iwanttodeliver.com.css)**
+1. [iwanttodeliver.com](http://iwanttodeliver.com) — removed (parked)
 1. [wordpress.org](http://wordpress.org) — [CSS](css/wordpress.org.css)
 1. [kakaku.com](http://kakaku.com) — [CSS](css/kakaku.com.css)
 1. [wikimedia.org](http://wikimedia.org) — [CSS](css/wikimedia.org.css)
@@ -329,7 +329,7 @@
 1. [digikala.com](http://digikala.com) — [CSS](css/digikala.com.css)
 1. [google.fi](http://google.fi) — removed (duplicate)
 1. [kompas.com](http://kompas.com) — [CSS](css/kompas.com.css)
-1. [onclickpredictiv.com](http://onclickpredictiv.com) — [CSS](css/onclickpredictiv.com.css)
+1. [onclickpredictiv.com](http://onclickpredictiv.com) — remove (403 Forbidden)
 1. [sabah.com.tr](http://sabah.com.tr) — [CSS](css/sabah.com.tr.css)
 1. [web.de](http://web.de) — [CSS](css/web.de.css)
 1. [youku.com](http://youku.com) — [CSS](css/youku.com.css)
@@ -344,7 +344,7 @@
 1. [hotstar.com](http://hotstar.com) — [CSS](css/hotstar.com.css)
 1. [extratorrent.cc](http://extratorrent.cc) — [CSS](css/extratorrent.cc.css)
 1. [huanqiu.com](http://huanqiu.com) — [CSS](css/huanqiu.com.css)
-1. [redirectvoluum.com](http://redirectvoluum.com) — [CSS](css/redirectvoluum.com.css)
+1. [redirectvoluum.com](http://redirectvoluum.com) — removed (server not found)
 1. [kissanime.ru](http://kissanime.ru) — [CSS](css/kissanime.ru.css)
 1. [goodreads.com](http://goodreads.com) — [CSS](css/goodreads.com.css)
 1. [genius.com](http://genius.com) — [CSS](css/genius.com.css)
@@ -466,7 +466,7 @@
 1. [ultimate-guitar.com](http://ultimate-guitar.com) — **[CSS](css/ultimate-guitar.com.css)**
 1. [capitalone.com](http://capitalone.com) — **[CSS](css/capitalone.com.css)**
 1. [urbandictionary.com](http://urbandictionary.com) — **[CSS](css/urbandictionary.com.css)**
-1. [pwwysydh.com](http://pwwysydh.com) — **[CSS](css/pwwysydh.com.css)**
+1. [pwwysydh.com](http://pwwysydh.com) — removed (404 Not Found)
 1. [seznam.cz](http://seznam.cz) — **[CSS](css/seznam.cz.css)**
 1. [elpais.com](http://elpais.com) — **[CSS](css/elpais.com.css)**
 1. [billdesk.com](http://billdesk.com) — removed (table layout without CSS)
