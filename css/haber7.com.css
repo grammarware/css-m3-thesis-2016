@@ -971,7 +971,7 @@ body {
     text-align: right
 }
 
-.page-header #top-bar #top-widgets&gt;ul {
+.page-header #top-bar #top-widgets>ul {
     display: inline-block;
     margin: 40px 0 0;
     font-family: 'Brandon Grotesque Black';
@@ -979,18 +979,18 @@ body {
     color: rgba(0,0,0,.8)
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li {
+.page-header #top-bar #top-widgets>ul>li {
     float: left;
     border-right: 1px solid rgba(0,0,0,.1);
     padding: 0 15px;
     position: relative
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li span {
+.page-header #top-bar #top-widgets>ul>li span {
     display: inline-block
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li .icon {
+.page-header #top-bar #top-widgets>ul>li .icon {
     margin: 0 10px 0 0;
     float: left;
     width: 16px;
@@ -1001,11 +1001,11 @@ body {
     position: relative
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li.search {
+.page-header #top-bar #top-widgets>ul>li.search {
     cursor: pointer
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li.search .area {
+.page-header #top-bar #top-widgets>ul>li.search .area {
     opacity: 0;
     -webkit-transition: opacity .2s linear;
     transition: opacity .2s linear;
@@ -1020,55 +1020,55 @@ body {
     color: rgba(0,0,0,.3)
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li.search .icon {
+.page-header #top-bar #top-widgets>ul>li.search .icon {
     font-size: 20px;
     top: -2px;
     margin-right: 0
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li.search:hover .area {
+.page-header #top-bar #top-widgets>ul>li.search:hover .area {
     opacity: 1
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li.prayer .icon {
+.page-header #top-bar #top-widgets>ul>li.prayer .icon {
     color: #29aae3
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li.prayer .when {
+.page-header #top-bar #top-widgets>ul>li.prayer .when {
     margin: 0 10px 0 0;
     color: rgba(0,0,0,.5)
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li.prayer:hover .hbox {
+.page-header #top-bar #top-widgets>ul>li.prayer:hover .hbox {
     display: block
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li.weather .icon {
+.page-header #top-bar #top-widgets>ul>li.weather .icon {
     color: #ffc100;
     top: 2px
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li:first-child {
+.page-header #top-bar #top-widgets>ul>li:first-child {
     padding-left: 0
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li:last-child {
+.page-header #top-bar #top-widgets>ul>li:last-child {
     padding-right: 0;
     border-right: 0
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li .hbox {
+.page-header #top-bar #top-widgets>ul>li .hbox {
     width: 215px;
     display: none
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content {
+.page-header #top-bar #top-widgets>ul>li .hbox .content {
     position: relative;
     top: 15px;
     padding-bottom: 35px
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .city {
+.page-header #top-bar #top-widgets>ul>li .hbox .content .city {
     width: 82%;
     font-size: 13px;
     text-transform: uppercase;
@@ -1077,7 +1077,7 @@ body {
     background-color: #fff
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .city .zelect .zelected:after {
+.page-header #top-bar #top-widgets>ul>li .hbox .content .city .zelect .zelected:after {
     font-family: icomoon;
     content: "\e10f";
     font-size: 20px;
@@ -1086,15 +1086,15 @@ body {
     margin-left: 5px
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .city .zelect.open .zelected:after {
+.page-header #top-bar #top-widgets>ul>li .hbox .content .city .zelect.open .zelected:after {
     content: "\e112"
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .city .zelect.open .dropdown {
+.page-header #top-bar #top-widgets>ul>li .hbox .content .city .zelect.open .dropdown {
     height: 155px
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .city input {
+.page-header #top-bar #top-widgets>ul>li .hbox .content .city input {
     font-family: sans-serif;
     width: 100%;
     font-weight: 300;
@@ -1102,7 +1102,7 @@ body {
     padding: 3px 5px
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .city ol {
+.page-header #top-bar #top-widgets>ul>li .hbox .content .city ol {
     font-family: sans-serif;
     background-color: #fff;
     width: 100%;
@@ -1115,26 +1115,26 @@ body {
     overflow-y: scroll
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .city ol li {
+.page-header #top-bar #top-widgets>ul>li .hbox .content .city ol li {
     font-weight: 300
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .city .name {
+.page-header #top-bar #top-widgets>ul>li .hbox .content .city .name {
     color: rgba(0,0,0,.8)
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .city .change {
+.page-header #top-bar #top-widgets>ul>li .hbox .content .city .change {
     color: rgba(0,0,0,.6);
     float: right
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .times {
+.page-header #top-bar #top-widgets>ul>li .hbox .content .times {
     display: inline-block;
     position: relative;
     top: 25px
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .times li {
+.page-header #top-bar #top-widgets>ul>li .hbox .content .times li {
     display: inline-block;
     width: 100%;
     font-size: 13px;
@@ -1143,7 +1143,7 @@ body {
     color: rgba(0,0,0,.4)
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .times li span {
+.page-header #top-bar #top-widgets>ul>li .hbox .content .times li span {
     display: inline-block;
     width: 50%;
     float: left;
@@ -1151,11 +1151,11 @@ body {
     top: 5px
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .times li .time {
+.page-header #top-bar #top-widgets>ul>li .hbox .content .times li .time {
     text-align: right
 }
 
-.page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .times li:hover {
+.page-header #top-bar #top-widgets>ul>li .hbox .content .times li:hover {
     color: #DA2128
 }
 
@@ -1314,7 +1314,7 @@ body {
     height: 28px
 }
 
-.page-header.classic #top-bar #top-widgets&gt;ul {
+.page-header.classic #top-bar #top-widgets>ul {
     margin-top: 30px
 }
 
@@ -5260,7 +5260,7 @@ div[id^=dfp-] {
     right: 15px
 }
 
-.days-news .more,.days-news&gt;.title {
+.days-news .more,.days-news>.title {
     font-family: 'FreightText Pro Black'
 }
 
@@ -5355,7 +5355,7 @@ div[id^=dfp-] {
     box-shadow: 0 0 6px 0 rgba(0,0,0,.15)
 }
 
-.days-news&gt;.title {
+.days-news>.title {
     font-size: 25px;
     padding: 26px 30px
 }
@@ -5917,7 +5917,7 @@ div[id^=dfp-] {
     float: right
 }
 
-.score-widget-content-fixture .fixture-header .navigate&gt;* {
+.score-widget-content-fixture .fixture-header .navigate>* {
     float: left
 }
 
@@ -6040,7 +6040,7 @@ div[id^=dfp-] {
     margin-top: 6px
 }
 
-.explorer-warning .warning-text&gt;span {
+.explorer-warning .warning-text>span {
     display: block
 }
 
@@ -6470,7 +6470,7 @@ div[id^=dfp-] {
     color: #DA2128
 }
 
-.sub.tumspor .about-pages .contact .box .title,.sub.tumspor .about-pages .team ul li .titles,.sub.tumspor .breaking-news ul li .news .content .info .hour,.sub.tumspor .breaking-news ul li .news .content .info .hour:after,.sub.tumspor .breaking-news-list ul li .news .content .info .time,.sub.tumspor .page-header #breaking-news .title,.sub.tumspor .page-header #menu ul li a:hover,.sub.tumspor .page-header #top-bar #custom-menu .content ul li a:hover,.sub.tumspor .page-header #top-bar #custom-menu .content ul li:hover a:first-child,.sub.tumspor .page-header #top-bar #custom-menu.active .icon:before,.sub.tumspor .page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .times li:hover,.sub.tumspor .page-main .comments .comments-list li .bottom span.like:hover,.sub.tumspor .page-main .comments .comments-list li .bottom span.reply:hover,.sub.tumspor .page-main .comments .comments-list li .top .report,.sub.tumspor .page-main .news-detail .go .options ul li a .icon,.sub.tumspor .page-main .news-detail .print-like span:hover,.sub.tumspor .page-main .news-detail .print-like:hover,.sub.tumspor .page-main .second-headline ul li:last-child a,.sub.tumspor .search-modal .form .search button:hover,.sub.tumspor .search-modal .form .tags a:hover,.sub.tumspor a:focus,.sub.tumspor a:hover {
+.sub.tumspor .about-pages .contact .box .title,.sub.tumspor .about-pages .team ul li .titles,.sub.tumspor .breaking-news ul li .news .content .info .hour,.sub.tumspor .breaking-news ul li .news .content .info .hour:after,.sub.tumspor .breaking-news-list ul li .news .content .info .time,.sub.tumspor .page-header #breaking-news .title,.sub.tumspor .page-header #menu ul li a:hover,.sub.tumspor .page-header #top-bar #custom-menu .content ul li a:hover,.sub.tumspor .page-header #top-bar #custom-menu .content ul li:hover a:first-child,.sub.tumspor .page-header #top-bar #custom-menu.active .icon:before,.sub.tumspor .page-header #top-bar #top-widgets>ul>li .hbox .content .times li:hover,.sub.tumspor .page-main .comments .comments-list li .bottom span.like:hover,.sub.tumspor .page-main .comments .comments-list li .bottom span.reply:hover,.sub.tumspor .page-main .comments .comments-list li .top .report,.sub.tumspor .page-main .news-detail .go .options ul li a .icon,.sub.tumspor .page-main .news-detail .print-like span:hover,.sub.tumspor .page-main .news-detail .print-like:hover,.sub.tumspor .page-main .second-headline ul li:last-child a,.sub.tumspor .search-modal .form .search button:hover,.sub.tumspor .search-modal .form .tags a:hover,.sub.tumspor a:focus,.sub.tumspor a:hover {
     color: #57A534
 }
 
@@ -6573,7 +6573,7 @@ div[id^=dfp-] {
     color: #386b22
 }
 
-.sub.ekotrent .about-pages .contact .box .title,.sub.ekotrent .about-pages .team ul li .titles,.sub.ekotrent .breaking-news ul li .news .content .info .hour,.sub.ekotrent .breaking-news ul li .news .content .info .hour:after,.sub.ekotrent .breaking-news-list ul li .news .content .info .time,.sub.ekotrent .page-header #breaking-news .title,.sub.ekotrent .page-header #menu ul li a:hover,.sub.ekotrent .page-header #top-bar #custom-menu .content ul li a:hover,.sub.ekotrent .page-header #top-bar #custom-menu .content ul li:hover a:first-child,.sub.ekotrent .page-header #top-bar #custom-menu.active .icon:before,.sub.ekotrent .page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .times li:hover,.sub.ekotrent .page-main .comments .comments-list li .bottom span.like:hover,.sub.ekotrent .page-main .comments .comments-list li .bottom span.reply:hover,.sub.ekotrent .page-main .comments .comments-list li .top .report,.sub.ekotrent .page-main .news-detail .go .options ul li a .icon,.sub.ekotrent .page-main .news-detail .print-like span:hover,.sub.ekotrent .page-main .news-detail .print-like:hover,.sub.ekotrent .page-main .second-headline ul li:last-child a,.sub.ekotrent .search-modal .form .search button:hover,.sub.ekotrent .search-modal .form .tags a:hover,.sub.ekotrent a:focus,.sub.ekotrent a:hover {
+.sub.ekotrent .about-pages .contact .box .title,.sub.ekotrent .about-pages .team ul li .titles,.sub.ekotrent .breaking-news ul li .news .content .info .hour,.sub.ekotrent .breaking-news ul li .news .content .info .hour:after,.sub.ekotrent .breaking-news-list ul li .news .content .info .time,.sub.ekotrent .page-header #breaking-news .title,.sub.ekotrent .page-header #menu ul li a:hover,.sub.ekotrent .page-header #top-bar #custom-menu .content ul li a:hover,.sub.ekotrent .page-header #top-bar #custom-menu .content ul li:hover a:first-child,.sub.ekotrent .page-header #top-bar #custom-menu.active .icon:before,.sub.ekotrent .page-header #top-bar #top-widgets>ul>li .hbox .content .times li:hover,.sub.ekotrent .page-main .comments .comments-list li .bottom span.like:hover,.sub.ekotrent .page-main .comments .comments-list li .bottom span.reply:hover,.sub.ekotrent .page-main .comments .comments-list li .top .report,.sub.ekotrent .page-main .news-detail .go .options ul li a .icon,.sub.ekotrent .page-main .news-detail .print-like span:hover,.sub.ekotrent .page-main .news-detail .print-like:hover,.sub.ekotrent .page-main .second-headline ul li:last-child a,.sub.ekotrent .search-modal .form .search button:hover,.sub.ekotrent .search-modal .form .tags a:hover,.sub.ekotrent a:focus,.sub.ekotrent a:hover {
     color: #1684BB
 }
 
@@ -6602,7 +6602,7 @@ div[id^=dfp-] {
     color: #0e5477
 }
 
-.sub.otomobil .about-pages .contact .box .title,.sub.otomobil .about-pages .team ul li .titles,.sub.otomobil .breaking-news ul li .news .content .info .hour,.sub.otomobil .breaking-news ul li .news .content .info .hour:after,.sub.otomobil .breaking-news-list ul li .news .content .info .time,.sub.otomobil .page-header #breaking-news .title,.sub.otomobil .page-header #menu ul li a:hover,.sub.otomobil .page-header #top-bar #custom-menu .content ul li a:hover,.sub.otomobil .page-header #top-bar #custom-menu .content ul li:hover a:first-child,.sub.otomobil .page-header #top-bar #custom-menu.active .icon:before,.sub.otomobil .page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .times li:hover,.sub.otomobil .page-main .comments .comments-list li .bottom span.like:hover,.sub.otomobil .page-main .comments .comments-list li .bottom span.reply:hover,.sub.otomobil .page-main .comments .comments-list li .top .report,.sub.otomobil .page-main .news-detail .go .options ul li a .icon,.sub.otomobil .page-main .news-detail .print-like span:hover,.sub.otomobil .page-main .news-detail .print-like:hover,.sub.otomobil .page-main .second-headline ul li:last-child a,.sub.otomobil .search-modal .form .search button:hover,.sub.otomobil .search-modal .form .tags a:hover,.sub.otomobil a:focus,.sub.otomobil a:hover {
+.sub.otomobil .about-pages .contact .box .title,.sub.otomobil .about-pages .team ul li .titles,.sub.otomobil .breaking-news ul li .news .content .info .hour,.sub.otomobil .breaking-news ul li .news .content .info .hour:after,.sub.otomobil .breaking-news-list ul li .news .content .info .time,.sub.otomobil .page-header #breaking-news .title,.sub.otomobil .page-header #menu ul li a:hover,.sub.otomobil .page-header #top-bar #custom-menu .content ul li a:hover,.sub.otomobil .page-header #top-bar #custom-menu .content ul li:hover a:first-child,.sub.otomobil .page-header #top-bar #custom-menu.active .icon:before,.sub.otomobil .page-header #top-bar #top-widgets>ul>li .hbox .content .times li:hover,.sub.otomobil .page-main .comments .comments-list li .bottom span.like:hover,.sub.otomobil .page-main .comments .comments-list li .bottom span.reply:hover,.sub.otomobil .page-main .comments .comments-list li .top .report,.sub.otomobil .page-main .news-detail .go .options ul li a .icon,.sub.otomobil .page-main .news-detail .print-like span:hover,.sub.otomobil .page-main .news-detail .print-like:hover,.sub.otomobil .page-main .second-headline ul li:last-child a,.sub.otomobil .search-modal .form .search button:hover,.sub.otomobil .search-modal .form .tags a:hover,.sub.otomobil a:focus,.sub.otomobil a:hover {
     color: #e24547
 }
 
@@ -6636,7 +6636,7 @@ div[id^=dfp-] {
     color: #bd1d20
 }
 
-.sub.emlak .about-pages .contact .box .title,.sub.emlak .about-pages .team ul li .titles,.sub.emlak .breaking-news ul li .news .content .info .hour,.sub.emlak .breaking-news ul li .news .content .info .hour:after,.sub.emlak .breaking-news-list ul li .news .content .info .time,.sub.emlak .page-header #breaking-news .title,.sub.emlak .page-header #menu ul li a:hover,.sub.emlak .page-header #top-bar #custom-menu .content ul li a:hover,.sub.emlak .page-header #top-bar #custom-menu .content ul li:hover a:first-child,.sub.emlak .page-header #top-bar #custom-menu.active .icon:before,.sub.emlak .page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .times li:hover,.sub.emlak .page-main .comments .comments-list li .bottom span.like:hover,.sub.emlak .page-main .comments .comments-list li .bottom span.reply:hover,.sub.emlak .page-main .comments .comments-list li .top .report,.sub.emlak .page-main .news-detail .go .options ul li a .icon,.sub.emlak .page-main .news-detail .print-like span:hover,.sub.emlak .page-main .news-detail .print-like:hover,.sub.emlak .page-main .second-headline ul li:last-child a,.sub.emlak .search-modal .form .search button:hover,.sub.emlak .search-modal .form .tags a:hover,.sub.emlak a:focus,.sub.emlak a:hover {
+.sub.emlak .about-pages .contact .box .title,.sub.emlak .about-pages .team ul li .titles,.sub.emlak .breaking-news ul li .news .content .info .hour,.sub.emlak .breaking-news ul li .news .content .info .hour:after,.sub.emlak .breaking-news-list ul li .news .content .info .time,.sub.emlak .page-header #breaking-news .title,.sub.emlak .page-header #menu ul li a:hover,.sub.emlak .page-header #top-bar #custom-menu .content ul li a:hover,.sub.emlak .page-header #top-bar #custom-menu .content ul li:hover a:first-child,.sub.emlak .page-header #top-bar #custom-menu.active .icon:before,.sub.emlak .page-header #top-bar #top-widgets>ul>li .hbox .content .times li:hover,.sub.emlak .page-main .comments .comments-list li .bottom span.like:hover,.sub.emlak .page-main .comments .comments-list li .bottom span.reply:hover,.sub.emlak .page-main .comments .comments-list li .top .report,.sub.emlak .page-main .news-detail .go .options ul li a .icon,.sub.emlak .page-main .news-detail .print-like span:hover,.sub.emlak .page-main .news-detail .print-like:hover,.sub.emlak .page-main .second-headline ul li:last-child a,.sub.emlak .search-modal .form .search button:hover,.sub.emlak .search-modal .form .tags a:hover,.sub.emlak a:focus,.sub.emlak a:hover {
     color: #e24547
 }
 
@@ -6661,7 +6661,7 @@ div[id^=dfp-] {
     color: #bd1d20
 }
 
-.sub.yemek .about-pages .contact .box .title,.sub.yemek .about-pages .team ul li .titles,.sub.yemek .breaking-news ul li .news .content .info .hour,.sub.yemek .breaking-news ul li .news .content .info .hour:after,.sub.yemek .breaking-news-list ul li .news .content .info .time,.sub.yemek .page-header #breaking-news .title,.sub.yemek .page-header #menu ul li a:hover,.sub.yemek .page-header #top-bar #custom-menu .content ul li a:hover,.sub.yemek .page-header #top-bar #custom-menu .content ul li:hover a:first-child,.sub.yemek .page-header #top-bar #custom-menu.active .icon:before,.sub.yemek .page-header #top-bar #top-widgets&gt;ul&gt;li .hbox .content .times li:hover,.sub.yemek .page-main .comments .comments-list li .bottom span.like:hover,.sub.yemek .page-main .comments .comments-list li .bottom span.reply:hover,.sub.yemek .page-main .comments .comments-list li .top .report,.sub.yemek .page-main .news-detail .go .options ul li a .icon,.sub.yemek .page-main .news-detail .print-like span:hover,.sub.yemek .page-main .news-detail .print-like:hover,.sub.yemek .page-main .second-headline ul li:last-child a,.sub.yemek .search-modal .form .search button:hover,.sub.yemek .search-modal .form .tags a:hover,.sub.yemek a:focus,.sub.yemek a:hover {
+.sub.yemek .about-pages .contact .box .title,.sub.yemek .about-pages .team ul li .titles,.sub.yemek .breaking-news ul li .news .content .info .hour,.sub.yemek .breaking-news ul li .news .content .info .hour:after,.sub.yemek .breaking-news-list ul li .news .content .info .time,.sub.yemek .page-header #breaking-news .title,.sub.yemek .page-header #menu ul li a:hover,.sub.yemek .page-header #top-bar #custom-menu .content ul li a:hover,.sub.yemek .page-header #top-bar #custom-menu .content ul li:hover a:first-child,.sub.yemek .page-header #top-bar #custom-menu.active .icon:before,.sub.yemek .page-header #top-bar #top-widgets>ul>li .hbox .content .times li:hover,.sub.yemek .page-main .comments .comments-list li .bottom span.like:hover,.sub.yemek .page-main .comments .comments-list li .bottom span.reply:hover,.sub.yemek .page-main .comments .comments-list li .top .report,.sub.yemek .page-main .news-detail .go .options ul li a .icon,.sub.yemek .page-main .news-detail .print-like span:hover,.sub.yemek .page-main .news-detail .print-like:hover,.sub.yemek .page-main .second-headline ul li:last-child a,.sub.yemek .search-modal .form .search button:hover,.sub.yemek .search-modal .form .tags a:hover,.sub.yemek a:focus,.sub.yemek a:hover {
     color: #f19b2c
 }
 
@@ -6704,7 +6704,7 @@ div[id^=dfp-] {
     border-color: #f19b2c
 }
 
-.ie8 .days-news&gt;.title,.ie8 .days-news&gt;ul li,.ie8 .page-main .news-detail .go .options ul li,.ie8 .search-modal .form .search input {
+.ie8 .days-news>.title,.ie8 .days-news>ul li,.ie8 .page-main .news-detail .go .options ul li,.ie8 .search-modal .form .search input {
     border-bottom: 1px solid #ddd
 }
 
@@ -6973,18 +6973,18 @@ div[id^=dfp-] {
     margin-bottom: 30px
 }
 
-.result-error&gt;div,.result-success&gt;div {
+.result-error>div,.result-success>div {
     font-size: 16px;
     padding: 10px 15px;
     color: #fff;
     display: inline-block
 }
 
-.result-error&gt;div {
+.result-error>div {
     background-color: #DA2128
 }
 
-.result-success&gt;div {
+.result-success>div {
     background-color: green
 }
 

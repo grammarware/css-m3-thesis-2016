@@ -346,7 +346,7 @@ img {
     content: ""
 }
 
-.sixteen-nine .image--loaded,.sixteen-nine&gt;.image {
+.sixteen-nine .image--loaded,.sixteen-nine>.image {
     position: absolute;
     top: 0;
     right: 0;
@@ -419,7 +419,7 @@ img {
     }
 }
 
-.article__body .social-embed .twitter-tweet,.article__body .social-embed&gt;div {
+.article__body .social-embed .twitter-tweet,.article__body .social-embed>div {
     margin: 0 auto
 }
 
@@ -565,7 +565,7 @@ img {
     }
 }
 
-.carousel,.carousel&gt;section {
+.carousel,.carousel>section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1482,7 +1482,7 @@ img {
     }
 }
 
-.share-controls--sticky .share-controls&gt;div {
+.share-controls--sticky .share-controls>div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -1938,19 +1938,19 @@ footer .separator {
 }
 
 @media only screen and (max-width:1279px) {
-    .container--latest .container--emphasise-first-card .container&gt;.card:first-of-type,.container--latest.container--emphasise-first-card&gt;.card:first-of-type {
+    .container--latest .container--emphasise-first-card .container>.card:first-of-type,.container--latest.container--emphasise-first-card>.card:first-of-type {
         width: 100%
     }
 }
 
 @media only screen and (min-width:1280px) {
-    .container--latest .container--emphasise-first-card .container&gt;.card:first-of-type,.container--latest.container--emphasise-first-card&gt;.card:first-of-type {
+    .container--latest .container--emphasise-first-card .container>.card:first-of-type,.container--latest.container--emphasise-first-card>.card:first-of-type {
         width: calc(50% - 10px)
     }
 }
 
 @media only screen and (min-width:768px) {
-    .container--latest .container--emphasise-first-card .container&gt;.card:first-of-type .card__wrap-inner,.container--latest.container--emphasise-first-card&gt;.card:first-of-type .card__wrap-inner {
+    .container--latest .container--emphasise-first-card .container>.card:first-of-type .card__wrap-inner,.container--latest.container--emphasise-first-card>.card:first-of-type .card__wrap-inner {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -1959,7 +1959,7 @@ footer .separator {
 }
 
 @media only screen and (min-width:1280px) {
-    .container--latest .container--emphasise-first-card .container&gt;.card:first-of-type .card__wrap-inner,.container--latest.container--emphasise-first-card&gt;.card:first-of-type .card__wrap-inner {
+    .container--latest .container--emphasise-first-card .container>.card:first-of-type .card__wrap-inner,.container--latest.container--emphasise-first-card>.card:first-of-type .card__wrap-inner {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1968,14 +1968,14 @@ footer .separator {
 }
 
 @media only screen and (min-width:768px) and (max-width:1279px) {
-    .container--latest .container--emphasise-first-card .container&gt;.card:first-of-type .card__image-holder,.container--latest.container--emphasise-first-card&gt;.card:first-of-type .card__image-holder {
+    .container--latest .container--emphasise-first-card .container>.card:first-of-type .card__image-holder,.container--latest.container--emphasise-first-card>.card:first-of-type .card__image-holder {
         min-width: 50%;
         max-width: 50%
     }
 }
 
 @media only screen and (min-width:768px) and (max-width:1279px) {
-    .container--latest .container--emphasise-first-card .container&gt;.card:first-of-type .card__media,.container--latest.container--emphasise-first-card&gt;.card:first-of-type .card__media {
+    .container--latest .container--emphasise-first-card .container>.card:first-of-type .card__media,.container--latest.container--emphasise-first-card>.card:first-of-type .card__media {
         bottom: .5rem;
         -webkit-transform: translateY(0);
         transform: translateY(0)
@@ -2001,13 +2001,13 @@ footer .separator {
 }
 
 @media only screen and (min-width:1280px) {
-    .container--popular .container--emphasise-first-card&gt;.card:first-of-type:not(.card__media-object) {
+    .container--popular .container--emphasise-first-card>.card:first-of-type:not(.card__media-object) {
         width: calc(60% - 10px)
     }
 }
 
 @media only screen and (min-width:768px) {
-    .container--popular .container--emphasise-first-card&gt;.card:first-of-type:not(.card__media-object) .card__wrap-inner {
+    .container--popular .container--emphasise-first-card>.card:first-of-type:not(.card__media-object) .card__wrap-inner {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -2016,7 +2016,7 @@ footer .separator {
 }
 
 @media only screen and (min-width:1280px) {
-    .container--popular .container--emphasise-first-card&gt;.card:first-of-type:not(.card__media-object) .card__wrap-inner {
+    .container--popular .container--emphasise-first-card>.card:first-of-type:not(.card__media-object) .card__wrap-inner {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -2025,7 +2025,7 @@ footer .separator {
 }
 
 @media only screen and (min-width:768px) and (max-width:1279px) {
-    .container--popular .container--emphasise-first-card&gt;.card:first-of-type:not(.card__media-object) .card__image-holder {
+    .container--popular .container--emphasise-first-card>.card:first-of-type:not(.card__media-object) .card__image-holder {
         min-width: 50%;
         max-width: 50%
     }
@@ -2688,7 +2688,7 @@ footer .separator {
     width: 100%
 }
 
-.album__image .article__share&gt;div {
+.album__image .article__share>div {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex
@@ -2797,12 +2797,12 @@ footer .separator {
     position: absolute
 }
 
-.advert__container--landscape .dfp-unit&gt;div:first-child {
+.advert__container--landscape .dfp-unit>div:first-child {
     margin: 0 auto;
     text-align: center
 }
 
-.advert__container--landscape .dfp-unit&gt;div:first-child:before {
+.advert__container--landscape .dfp-unit>div:first-child:before {
     font-size: 12px;
     font-size: .75rem;
     line-height: 14px;
@@ -2814,7 +2814,7 @@ footer .separator {
     content: "Advert"
 }
 
-.articles&gt;.advert:before {
+.articles>.advert:before {
     font-size: 12px;
     font-size: .75rem;
     line-height: 14px;
@@ -2956,7 +2956,7 @@ footer .separator {
     padding: 10px 0
 }
 
-.share-controls,.share-controls&gt;div {
+.share-controls,.share-controls>div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex

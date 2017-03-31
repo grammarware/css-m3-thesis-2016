@@ -2634,7 +2634,7 @@ section .button.oauth-twitter:not(.disabled):not(.connected):hover {
     white-space: nowrap
 }
 
-.download-apps .extra-downloads-box.has-formats .download-container .row&gt;:first-child {
+.download-apps .extra-downloads-box.has-formats .download-container .row>:first-child {
     margin-left: 0
 }
 
@@ -3913,7 +3913,7 @@ section .button.oauth-twitter:not(.disabled):not(.connected):hover {
     box-sizing: border-box
 }
 
-.Select.is-disabled&gt;.Select-control {
+.Select.is-disabled>.Select-control {
     background-color: #f6f6f6
 }
 
@@ -3941,27 +3941,27 @@ section .button.oauth-twitter:not(.disabled):not(.connected):hover {
     box-shadow: 0 1px 0 rgba(0,0,0,.06)
 }
 
-.is-searchable.is-open&gt;.Select-control {
+.is-searchable.is-open>.Select-control {
     cursor: text
 }
 
-.is-open&gt;.Select-control {
+.is-open>.Select-control {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
     background: #fff;
     border-color: #b3b3b3 #ccc #d9d9d9
 }
 
-.is-open&gt;.Select-control&gt;.Select-arrow {
+.is-open>.Select-control>.Select-arrow {
     border-color: transparent transparent #999;
     border-width: 0 5px 5px
 }
 
-.is-searchable.is-focused:not(.is-open)&gt;.Select-control {
+.is-searchable.is-focused:not(.is-open)>.Select-control {
     cursor: text
 }
 
-.is-focused:not(.is-open)&gt;.Select-control {
+.is-focused:not(.is-open)>.Select-control {
     border-color: #08c #0099e6 #0099e6;
     box-shadow: inset 0 1px 2px rgba(0,0,0,.1),0 0 5px -1px rgba(0,136,204,.5)
 }
@@ -3982,7 +3982,7 @@ section .button.oauth-twitter:not(.disabled):not(.connected):hover {
     white-space: nowrap
 }
 
-.has-value&gt;.Select-control&gt;.Select-placeholder {
+.has-value>.Select-control>.Select-placeholder {
     color: #333
 }
 
@@ -3999,7 +3999,7 @@ section .button.oauth-twitter:not(.disabled):not(.connected):hover {
     white-space: nowrap
 }
 
-.has-value&gt;.Select-control&gt;.Select-value {
+.has-value>.Select-control>.Select-value {
     color: #333
 }
 
@@ -4010,7 +4010,7 @@ section .button.oauth-twitter:not(.disabled):not(.connected):hover {
     vertical-align: middle
 }
 
-.Select-input&gt;input {
+.Select-input>input {
     background: none transparent;
     border: 0 none;
     box-shadow: none;
@@ -4025,11 +4025,11 @@ section .button.oauth-twitter:not(.disabled):not(.connected):hover {
     -webkit-appearance: none
 }
 
-.is-focused .Select-input&gt;input {
+.is-focused .Select-input>input {
     cursor: text
 }
 
-.Select-control:not(.is-searchable)&gt;.Select-input {
+.Select-control:not(.is-searchable)>.Select-input {
     outline: none
 }
 
@@ -4101,7 +4101,7 @@ section .button.oauth-twitter:not(.disabled):not(.connected):hover {
     width: 0
 }
 
-.is-open .Select-arrow,.Select-arrow-zone:hover&gt;.Select-arrow {
+.is-open .Select-arrow,.Select-arrow-zone:hover>.Select-arrow {
     border-top-color: #666
 }
 
@@ -4869,7 +4869,7 @@ section .button.oauth-twitter:not(.disabled):not(.connected):hover {
     overflow: hidden
 }
 
-#security-section-hero .background&gt;* {
+#security-section-hero .background>* {
     position: absolute;
     bottom: 0;
     overflow: visible
@@ -5196,7 +5196,7 @@ section .button.oauth-twitter:not(.disabled):not(.connected):hover {
     overflow: hidden
 }
 
-#security-section-submit .background&gt;* {
+#security-section-submit .background>* {
     position: absolute;
     top: 0
 }
@@ -6334,7 +6334,7 @@ section .button.oauth-twitter:not(.disabled):not(.connected):hover {
     transition: box-shadow .1s
 }
 
-.avatar-uploader .avatar-uploader-inner&gt;* {
+.avatar-uploader .avatar-uploader-inner>* {
     position: absolute;
     top: 0;
     left: 0;
@@ -7184,7 +7184,7 @@ section .button.oauth-twitter:not(.disabled):not(.connected):hover {
     overflow-y: scroll
 }
 
-.scroller-wrap .scroller.scrolling&gt;* {
+.scroller-wrap .scroller.scrolling>* {
     pointer-events: none
 }
 
@@ -10654,7 +10654,7 @@ section#landing-hero .images .svg.float.delayed {
     padding-right: 100px
 }
 
-.alternating-list .item .content&gt;* {
+.alternating-list .item .content>* {
     width: 100%;
     max-width: 370px
 }
@@ -11669,7 +11669,7 @@ a {
     margin: 8px 0
 }
 
-.forms-form .row&gt;* {
+.forms-form .row>* {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -11677,7 +11677,7 @@ a {
     margin-right: 8px
 }
 
-.forms-form&gt;:not(.row) {
+.forms-form>:not(.row) {
     margin: 8px 4px
 }
 

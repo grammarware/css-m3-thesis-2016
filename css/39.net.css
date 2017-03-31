@@ -2489,7 +2489,7 @@ cite, em {
     overflow-x: hidden;
     width: 418px;
     max-height: 353px;
-    _height: expression(this.scrollHeight &gt; 359 ? "359px" : "auto");
+    _height: expression(this.scrollHeight > 359 ? "359px" : "auto");
     overflow-y: auto;
     background: #fff;
 }

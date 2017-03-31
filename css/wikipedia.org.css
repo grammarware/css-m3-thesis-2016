@@ -1061,7 +1061,7 @@ a.suggestion-link:active,a.suggestion-link:focus {
     max-width: 100%
 }
 
-.bookshelf,.langlist&gt;ul&gt;li a,.other-project-text {
+.bookshelf,.langlist>ul>li a,.other-project-text {
     white-space: normal
 }
 
@@ -1362,11 +1362,11 @@ hr {
     content: none
 }
 
-.hlist li&gt;ul:before {
+.hlist li>ul:before {
     content: "\00a0("
 }
 
-.hlist li&gt;ul:after {
+.hlist li>ul:after {
     content: ") "
 }
 
@@ -1824,13 +1824,13 @@ hr {
     font-size: inherit
 }
 
-.langlist&gt;ul {
+.langlist>ul {
     -webkit-column-width: 7rem;
     -moz-column-width: 7rem;
     column-width: 7rem
 }
 
-.langlist&gt;ul&gt;li {
+.langlist>ul>li {
     display: block;
     line-height: 1.7;
     -webkit-column-break-inside: avoid;
@@ -1838,37 +1838,37 @@ hr {
     break-inside: avoid
 }
 
-.no-js .langlist&gt;ul {
+.no-js .langlist>ul {
     text-align: center;
     list-style-type: circle
 }
 
-.no-js .langlist&gt;ul&gt;li {
+.no-js .langlist>ul>li {
     display: inline-block;
     padding: 0 8px;
     padding: 0 .5rem
 }
 
-.langlist&gt;ul&gt;li:before {
+.langlist>ul>li:before {
     content: none
 }
 
-.langlist-others&gt;ul {
+.langlist-others>ul {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
     text-align: center
 }
 
-.langlist-others&gt;ul li {
+.langlist-others>ul li {
     display: inline
 }
 
-.langlist-others&gt;ul li:before {
+.langlist-others>ul li:before {
     content: " · "
 }
 
-.langlist-others&gt;ul li:first-child:before {
+.langlist-others>ul li:first-child:before {
     content: none
 }
 

@@ -195,7 +195,7 @@ ol {
     list-style: decimal
 }
 
-li&gt;ul,li&gt;ol {
+li>ul,li>ol {
     margin-bottom: 0;
     margin-left: 1.5em
 }
@@ -801,7 +801,7 @@ body.category-jerusalem #HeadW #NavS li.menu-breitbart-jerusalem a,body.category
     display: none
 }
 
-#GlobalW&gt;div.ad {
+#GlobalW>div.ad {
     background: none repeat scroll 0 0 #eee;
     text-align: center;
     margin: 0 auto;
@@ -1009,16 +1009,16 @@ body.page-template-page-template-podcast #ContentW #ContainerW {
     display: none
 }
 
-#ContentW .breitbart-tv&gt;article:nth-of-type(3n) {
+#ContentW .breitbart-tv>article:nth-of-type(3n) {
     margin: 0
 }
 
-#ContentW .breitbart-tv&gt;article a.thumb-container {
+#ContentW .breitbart-tv>article a.thumb-container {
     position: relative;
     display: block
 }
 
-#ContentW .breitbart-tv&gt;article a.thumb-container:after {
+#ContentW .breitbart-tv>article a.thumb-container:after {
     background: url(/t/assets/i/spriteg.png) no-repeat scroll -96px -128px rgba(0,0,0,0);
     bottom: 10px;
     content: "";
@@ -1030,24 +1030,24 @@ body.page-template-page-template-podcast #ContentW #ContainerW {
     width: 25px
 }
 
-#ContentW .breitbart-tv&gt;article a.thumb-container:hover:after {
+#ContentW .breitbart-tv>article a.thumb-container:hover:after {
     opacity: 1
 }
 
-#ContentW .breitbart-tv&gt;article h2.title {
+#ContentW .breitbart-tv>article h2.title {
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 0
 }
 
-#ContentW .breitbart-tv&gt;article h2.title a {
+#ContentW .breitbart-tv>article h2.title a {
     font-weight: bold;
     line-height: 1.2;
     text-transform: uppercase;
     color: #111
 }
 
-#ContentW .breitbart-tv&gt;article h2.title a:hover {
+#ContentW .breitbart-tv>article h2.title a:hover {
     color: #111;
     text-decoration: underline
 }
@@ -1056,32 +1056,32 @@ body.page-template-page-template-podcast #ContentW #ContainerW {
     margin: 0 0 20px 0
 }
 
-#ContentW .featured-contributors&gt;article {
+#ContentW .featured-contributors>article {
     position: relative;
     min-height: 100px;
     margin: 0 20px 20px 0
 }
 
-#ContentW .featured-contributors&gt;article:nth-of-type(even) {
+#ContentW .featured-contributors>article:nth-of-type(even) {
     margin: 0 0 20px 0
 }
 
-#ContentW .featured-contributors&gt;article .avatar {
+#ContentW .featured-contributors>article .avatar {
     max-height: 100px;
     width: 80px;
     float: left;
     margin: 0 10px 0 0
 }
 
-#ContentW .featured-contributors&gt;article h2.title {
+#ContentW .featured-contributors>article h2.title {
     clear: none
 }
 
-#ContentW .featured-contributors&gt;article.has-author-img h2.title {
+#ContentW .featured-contributors>article.has-author-img h2.title {
     margin: 0 0 0 90px
 }
 
-#ContentW .featured-contributors&gt;article h2.title a {
+#ContentW .featured-contributors>article h2.title a {
     color: #111;
     font-family: Georgia,serif;
     font-size: 20px;
@@ -1090,27 +1090,27 @@ body.page-template-page-template-podcast #ContentW #ContainerW {
     text-transform: none
 }
 
-#ContentW .featured-contributors&gt;article h2.title a:hover {
+#ContentW .featured-contributors>article h2.title a:hover {
     color: #f50;
     text-decoration: underline
 }
 
-#ContentW .featured-contributors&gt;article.has-author-img .byline {
+#ContentW .featured-contributors>article.has-author-img .byline {
     margin: 0 0 0 90px
 }
 
-#ContentW .featured-contributors&gt;article .byline .by-author {
+#ContentW .featured-contributors>article .byline .by-author {
     display: block;
     margin: 0 0 5px 0;
     background: url(http://media.breitbart.com/media/2015/12/spriteY.png) 1px -225px no-repeat;
     padding: 0 0 0 17px
 }
 
-#ContentW .featured-contributors&gt;article .byline .byauthor {
+#ContentW .featured-contributors>article .byline .byauthor {
     border: 0
 }
 
-#ContentW .featured-contributors&gt;article .byline .by {
+#ContentW .featured-contributors>article .byline .by {
     display: none
 }
 
@@ -1228,11 +1228,11 @@ div.ad p {
     text-align: center
 }
 
-div.widget-area&gt;* {
+div.widget-area>* {
     margin-top: 20px
 }
 
-div.widget-area&gt;*:first-of-type {
+div.widget-area>*:first-of-type {
     margin-top: 0
 }
 
@@ -1302,7 +1302,7 @@ article .byline {
     padding: 0
 }
 
-article .byline&gt;div {
+article .byline>div {
     display: inline-block;
     border-right: 1px dotted #999;
     color: #777;
@@ -1310,19 +1310,19 @@ article .byline&gt;div {
     margin: 0 7px 0 0
 }
 
-article .byline&gt;div:last-of-type {
+article .byline>div:last-of-type {
     border: 0;
     padding: 0;
     margin: 0
 }
 
-article .byline&gt;div.author {
+article .byline>div.author {
     font-style: italic;
     position: relative;
     padding: 0 7px 0 17px
 }
 
-article .byline&gt;div.author:after {
+article .byline>div.author:after {
     background: url(http://media.breitbart.com/media/2015/12/spriteY.png) no-repeat 1px -225px;
     width: 16px;
     height: 16px;
@@ -1334,13 +1334,13 @@ article .byline&gt;div.author:after {
     position: absolute
 }
 
-article .byline&gt;div.author a {
+article .byline>div.author a {
     color: #08b;
     text-transform: uppercase;
     font-style: normal
 }
 
-article .byline&gt;div.author a:hover {
+article .byline>div.author a:hover {
     color: #f50;
     text-decoration: none
 }
@@ -1549,16 +1549,16 @@ div.utility span.st_email:hover {
     text-decoration: none
 }
 
-body #MainW .the-article .entry-content .lwsc-entry&gt;h2:first-of-type {
+body #MainW .the-article .entry-content .lwsc-entry>h2:first-of-type {
     display: inline;
     clear: none !important
 }
 
-body #MainW .the-article .entry-content .lwsc-entry&gt;h2:first-of-type+p:first-of-type {
+body #MainW .the-article .entry-content .lwsc-entry>h2:first-of-type+p:first-of-type {
     margin-top: 1em
 }
 
-body.single .the-article .entry-content .lwsc-entry&gt;h2:first-of-type {
+body.single .the-article .entry-content .lwsc-entry>h2:first-of-type {
     font-size: 22px;
     font-weight: normal;
     margin: 10px 0 1em 0;
@@ -1776,7 +1776,7 @@ article.live_wire_sub .byline span.bydate {
     padding-top: 20px
 }
 
-.lwsc&gt;h2 {
+.lwsc>h2 {
     font-family: "Fjalla One",sans-serif;
     font-size: 28px;
     line-height: 28px;
@@ -1785,7 +1785,7 @@ article.live_wire_sub .byline span.bydate {
     padding-top: 0
 }
 
-.lwsc&gt;h2 a {
+.lwsc>h2 a {
     font-size: 20px;
     line-height: 28px;
     color: #000;
@@ -1826,7 +1826,7 @@ article .lwsc .byline span.bydate {
     text-decoration: underline
 }
 
-.grid-block&gt;article {
+.grid-block>article {
     position: absolute
 }
 
@@ -1905,7 +1905,7 @@ article .lwsc .byline span.bydate {
     text-transform: uppercase
 }
 
-.grid-block article.has_author_image.aw-2 .article-content&gt;div.author,.grid-block article.has_author_image.aw-3 .article-content&gt;div.author {
+.grid-block article.has_author_image.aw-2 .article-content>div.author,.grid-block article.has_author_image.aw-3 .article-content>div.author {
     display: none
 }
 
@@ -1964,7 +1964,7 @@ article .lwsc .byline span.bydate {
     overflow: hidden
 }
 
-.grid-block article.black div.comment,.grid-block article.black .author-img span,.grid-block article.black div.date,.grid-block article.black .byline&gt;div {
+.grid-block article.black div.comment,.grid-block article.black .author-img span,.grid-block article.black div.date,.grid-block article.black .byline>div {
     color: #AAA
 }
 
@@ -2335,7 +2335,7 @@ article .lwsc .byline span.bydate {
     top: 3395px
 }
 
-body.single .the-article&gt;h1:first-of-type {
+body.single .the-article>h1:first-of-type {
     color: #000;
     font: 48px/0.9 'BebasNeueRegular',sans-serif;
     text-transform: uppercase;
@@ -2352,15 +2352,15 @@ body.single .the-article .byline {
     margin: 0
 }
 
-body.single .the-article .byline&gt;div.author:after {
+body.single .the-article .byline>div.author:after {
     display: none
 }
 
-body.single .the-article .byline&gt;div.author {
+body.single .the-article .byline>div.author {
     padding: 0 7px 0 0
 }
 
-body.single .the-article .entry-content&gt;h2:first-of-type {
+body.single .the-article .entry-content>h2:first-of-type {
     font-size: 22px;
     font-weight: normal;
     margin: 10px 0 1em 0;
@@ -2374,21 +2374,21 @@ body.category.cat-view-customize .article-list,body.category.cat-view-canvas .ar
     padding: 20px 0 0
 }
 
-body.archive.cat-view-customize .article-list&gt;h2:first-of-type,body.archive.cat-view-canvas .article-list&gt;h2:first-of-type,body.archive.cat-view-canvas .article-list&gt;h1:first-of-type,body.archive.cat-view-customize .article-list&gt;h1:first-of-type {
+body.archive.cat-view-customize .article-list>h2:first-of-type,body.archive.cat-view-canvas .article-list>h2:first-of-type,body.archive.cat-view-canvas .article-list>h1:first-of-type,body.archive.cat-view-customize .article-list>h1:first-of-type {
     display: none
 }
 
-body.archive .article-list&gt;h1:first-of-type {
+body.archive .article-list>h1:first-of-type {
     padding: 0 0 15px
 }
 
-body.archive .article-list&gt;h2:first-of-type {
+body.archive .article-list>h2:first-of-type {
     font: 32px/0.9 'BebasNeueRegular',sans-serif;
     text-transform: uppercase;
     padding: 0 0 15px
 }
 
-body.archive.author .article-list&gt;h2:first-of-type {
+body.archive.author .article-list>h2:first-of-type {
     padding: 30px 0 15px
 }
 
@@ -2401,7 +2401,7 @@ body.archive .article-list article {
     float: none
 }
 
-body.archive .article-list&gt;article:first-of-type {
+body.archive .article-list>article:first-of-type {
     border: 0;
     margin: 0;
     padding: 0
@@ -2435,11 +2435,11 @@ body.archive .article-list article h2.title a:hover {
     color: #f50
 }
 
-body.archive .article-list article .byline&gt;div.author {
+body.archive .article-list article .byline>div.author {
     padding: 0 7px 0 0
 }
 
-body.archive .article-list article .byline&gt;div.author:after {
+body.archive .article-list article .byline>div.author:after {
     display: none
 }
 
@@ -2473,7 +2473,7 @@ body.author .author-share span.title {
     text-transform: uppercase
 }
 
-body.author .author-share&gt;* {
+body.author .author-share>* {
     float: left;
     margin-right: 10px
 }
@@ -2484,7 +2484,7 @@ body.author .author-share .utility {
     white-space: nowrap
 }
 
-body.author .article-list&gt;h1:first-of-type {
+body.author .article-list>h1:first-of-type {
     display: block
 }
 
@@ -2492,7 +2492,7 @@ body.author .article-list article .byline .author {
     display: none
 }
 
-body.category-video .top-article&gt;article .byline {
+body.category-video .top-article>article .byline {
     min-height: 30px
 }
 
@@ -2504,7 +2504,7 @@ body.category-video article.video.large-video {
     clear: both
 }
 
-body.category-video article.video&gt;a {
+body.category-video article.video>a {
     font-size: 0;
     display: block
 }
@@ -2747,7 +2747,7 @@ body.ismobile #BBOnAir .onairflash {
     border-bottom: 1px dashed #9d9d9d
 }
 
-#BBTrendUL li&gt;a {
+#BBTrendUL li>a {
     display: block;
     overflow: hidden;
     height: auto;
@@ -2764,15 +2764,15 @@ body.ismobile #BBOnAir .onairflash {
     font-family: Georgia,serif
 }
 
-#BBTrendUL li&gt;a.ali25 {
+#BBTrendUL li>a.ali25 {
     line-height: 44px
 }
 
-#BBTrendUL li&gt;a:hover {
+#BBTrendUL li>a:hover {
     color: #f50
 }
 
-#BBTrendUL li&gt;span {
+#BBTrendUL li>span {
     display: block;
     color: #777;
     font: italic 11px Georgia,serif;
@@ -2782,7 +2782,7 @@ body.ismobile #BBOnAir .onairflash {
     min-width: 22px
 }
 
-#BBTrendUL li&gt;span a.bycnt {
+#BBTrendUL li>span a.bycnt {
     color: #777;
     font: italic 11px Georgia,serif;
     padding: 5px 0 0 0;
@@ -2807,13 +2807,13 @@ body.ismobile #BBOnAir .onairflash {
     text-align: center
 }
 
-#BBTrendUL li&gt;span a.bycnt:hover {
+#BBTrendUL li>span a.bycnt:hover {
     background: #08b;
     text-decoration: none;
     border-color: #08b
 }
 
-#BBTrendUL li&gt;span a.bycnt:after {
+#BBTrendUL li>span a.bycnt:after {
     background: url(/t/assets/i/spriteg.png) no-repeat -224px -64px;
     bottom: -7px;
     content: "";
@@ -2824,7 +2824,7 @@ body.ismobile #BBOnAir .onairflash {
     width: 8px
 }
 
-#BBTrendUL li&gt;span a.bycnt:hover:after {
+#BBTrendUL li>span a.bycnt:hover:after {
     background-position: -240px -64px
 }
 
@@ -2902,7 +2902,7 @@ body.ismobile #BBOnAir .onairflash {
         border-bottom: 0
     }
 
-    #BBTrendUL li&gt;a {
+    #BBTrendUL li>a {
         font-size: 16px
     }
 
@@ -3216,7 +3216,7 @@ body.ismobile #SideW #iscbbsocialconnect {
     padding: 10px 0
 }
 
-#HPSWUL li&gt;a {
+#HPSWUL li>a {
     display: block;
     overflow: hidden;
     max-width: 146px;
@@ -3231,14 +3231,14 @@ body.ismobile #SideW #iscbbsocialconnect {
     line-height: normal
 }
 
-#HPSWUL li&gt;a img {
+#HPSWUL li>a img {
     width: 100%;
     width: 146px;
     height: 111px;
     overflow: hidden
 }
 
-#HPSWUL li&gt;a div {
+#HPSWUL li>a div {
     display: block;
     margin: 0;
     padding: 0;
@@ -3249,7 +3249,7 @@ body.ismobile #SideW #iscbbsocialconnect {
     font-family: Georgia,serif
 }
 
-#HPSWUL li&gt;a:hover div {
+#HPSWUL li>a:hover div {
     color: #f50
 }
 
@@ -4027,7 +4027,7 @@ div#NBzIDXyaTGIG-alRGD80gG0EgZYntzADRCaNSDUQ {
     color: #111
 }
 
-.post-type-archive-wire .wires-list&gt;h1:first-of-type,.tax-isc_bnn_source .wires-list&gt;h1:first-of-type,.tax-isc_bnn_category .wires-list&gt;h1:first-of-type {
+.post-type-archive-wire .wires-list>h1:first-of-type,.tax-isc_bnn_source .wires-list>h1:first-of-type,.tax-isc_bnn_category .wires-list>h1:first-of-type {
     font-size: 32px;
     margin: 0 0 5px
 }
@@ -4406,21 +4406,21 @@ div#NBzIDXyaTGIG-alRGD80gG0EgZYntzADRCaNSDUQ {
     width: 400px
 }
 
-#FootW #NavF&gt;li {
+#FootW #NavF>li {
     display: block;
     float: left;
     width: 40%
 }
 
-#FootW #NavF&gt;li:nth-of-type(2n) {
+#FootW #NavF>li:nth-of-type(2n) {
     width: 30%
 }
 
-#FootW #NavF&gt;li:nth-of-type(3n) {
+#FootW #NavF>li:nth-of-type(3n) {
     width: 30%
 }
 
-#FootW #NavF&gt;li&gt;a {
+#FootW #NavF>li>a {
     background: url(http://media.breitbart.com/media/2015/09/blue-arrow1.png) no-repeat scroll 0 8px rgba(0,0,0,0);
     padding: 5px 0 5px 10px;
     font-size: 12px;
@@ -4519,12 +4519,12 @@ div#NBzIDXyaTGIG-alRGD80gG0EgZYntzADRCaNSDUQ {
     opacity: .99
 }
 
-body #MainW .the-article .entry-content&gt;h2:first-of-type {
+body #MainW .the-article .entry-content>h2:first-of-type {
     display: inline;
     clear: none !important
 }
 
-body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
+body #MainW .the-article .entry-content>h2:first-of-type+p:first-of-type {
     margin-top: 1em
 }
 
@@ -4692,7 +4692,7 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         height: auto !important
     }
 
-    #isc_homepage_takeover_div&gt;div {
+    #isc_homepage_takeover_div>div {
         height: auto !important
     }
 
@@ -4705,7 +4705,7 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         max-width: 100% !important
     }
 
-    #HeadWB,#HeadW #HTlinks,#HeadW #HTsocial,#HeadW #NavP,#HeadW #NavS,#HeadW .mobile-search,#HeadW #HWI&gt;.search-form,.top-article article .excerpt,#FootW #FWI&gt;.col7,#FootW .endcol #FSocialUL li:last-of-type,.widget-area .send-tip img,.widget-area .newsletter-signup,#FoxPW,.article-list .excerpt,.article-list article .byline&gt;div.date-time,.category-blog .articles-list article .excerpt,.category-blog .articles-list article .byline .date-time,.category-blog .articles-list article .article-content .byline .by,body.author .author-info .share-buttons,body.author .author-info .author-share,body.author .author-info .google-plus,body.post-type-archive-wire .wires-filter h2,body.tax-isc_bnn_category .wires-filter h2,.widget-area .send-tip,#bbvb {
+    #HeadWB,#HeadW #HTlinks,#HeadW #HTsocial,#HeadW #NavP,#HeadW #NavS,#HeadW .mobile-search,#HeadW #HWI>.search-form,.top-article article .excerpt,#FootW #FWI>.col7,#FootW .endcol #FSocialUL li:last-of-type,.widget-area .send-tip img,.widget-area .newsletter-signup,#FoxPW,.article-list .excerpt,.article-list article .byline>div.date-time,.category-blog .articles-list article .excerpt,.category-blog .articles-list article .byline .date-time,.category-blog .articles-list article .article-content .byline .by,body.author .author-info .share-buttons,body.author .author-info .author-share,body.author .author-info .google-plus,body.post-type-archive-wire .wires-filter h2,body.tax-isc_bnn_category .wires-filter h2,.widget-area .send-tip,#bbvb {
         display: none
     }
 
@@ -4735,7 +4735,7 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         margin: 0
     }
 
-    .ad&gt;div {
+    .ad>div {
         max-width: 100%
     }
 
@@ -4885,12 +4885,12 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         position: static
     }
 
-    #HeadW #NavS&gt;li:first-of-type {
+    #HeadW #NavS>li:first-of-type {
         padding: 0;
         margin: 0
     }
 
-    #HeadW #NavS&gt;li:last-of-type {
+    #HeadW #NavS>li:last-of-type {
         padding: 0;
         margin: 0;
         border-top: 1px solid #4c4c4c
@@ -5010,7 +5010,7 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         padding: 0
     }
 
-    #ContentW .breitbart-tv article,#ContentW .breitbart-tv&gt;article:nth-of-type(3n) {
+    #ContentW .breitbart-tv article,#ContentW .breitbart-tv>article:nth-of-type(3n) {
         overflow: hidden;
         margin: 0 0 10px 0
     }
@@ -5035,7 +5035,7 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         clear: none
     }
 
-    #ContentW .featured-contributors article,#ContentW .featured-contributors&gt;article:nth-of-type(2n) {
+    #ContentW .featured-contributors article,#ContentW .featured-contributors>article:nth-of-type(2n) {
         overflow: hidden;
         margin: 0 10px 10px 0;
         border-bottom: 1px dotted #999;
@@ -5048,13 +5048,13 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         padding: 0
     }
 
-    #ContentW .featured-contributors&gt;article .avatar {
+    #ContentW .featured-contributors>article .avatar {
         margin: 0 10px;
         width: 60px;
         height: auto
     }
 
-    #ContentW .featured-contributors&gt;article.has-author-img h2.title,#ContentW .featured-contributors article h2.title {
+    #ContentW .featured-contributors>article.has-author-img h2.title,#ContentW .featured-contributors article h2.title {
         font-size: 16px;
         margin: 0 40px 5px 90px
     }
@@ -5070,13 +5070,13 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         margin: 0 0 0 90px
     }
 
-    #ContentW .featured-contributors&gt;article .byline .by {
+    #ContentW .featured-contributors>article .byline .by {
         display: inline;
         margin: 0 5px 0 0;
         float: none
     }
 
-    #ContentW .featured-contributors&gt;article .byline .by-author {
+    #ContentW .featured-contributors>article .byline .by-author {
         padding: 0;
         background: 0;
         overflow: hidden
@@ -5100,7 +5100,7 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         margin: 10px 0 0 0
     }
 
-    #ContentW .grid-block&gt;article {
+    #ContentW .grid-block>article {
         position: relative;
         top: auto !important;
         bottom: auto;
@@ -5114,15 +5114,15 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         margin: 0 !important
     }
 
-    #ContentW .grid-block&gt;article:last-of-type,#ContentW .grid-block article.black {
+    #ContentW .grid-block>article:last-of-type,#ContentW .grid-block article.black {
         border-bottom: 0
     }
 
-    #ContentW .grid-block&gt;article .thumb-container img {
+    #ContentW .grid-block>article .thumb-container img {
         width: 100%
     }
 
-    #ContentW .grid-block&gt;article.aw-1 .thumb-container {
+    #ContentW .grid-block>article.aw-1 .thumb-container {
         width: 30%;
         float: left;
         margin: 0 10px 0 0
@@ -5132,11 +5132,11 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         padding: 0
     }
 
-    #ContentW .grid-block&gt;article .title {
+    #ContentW .grid-block>article .title {
         margin: 0 35px 0 0
     }
 
-    .grid-block article.black .title,.grid-block article.black.aw-1.ah-3 .title,#ContentW .grid-block&gt;article.aw-1 .title a {
+    .grid-block article.black .title,.grid-block article.black.aw-1.ah-3 .title,#ContentW .grid-block>article.aw-1 .title a {
         font-family: Georgia,serif;
         font-size: 16px;
         line-height: 19px
@@ -5289,7 +5289,7 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         margin: 0 10px
     }
 
-    #ContentW .the-article&gt;h1:first-of-type {
+    #ContentW .the-article>h1:first-of-type {
         margin: 0 0 10px 0
     }
 
@@ -5308,7 +5308,7 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         display: block
     }
 
-    #ContentW article.the-article .byline&gt;.bycount {
+    #ContentW article.the-article .byline>.bycount {
         position: absolute;
         top: 10px;
         right: 0
@@ -5318,7 +5318,7 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         margin: 0 10px
     }
 
-    .article-list&gt;h2:first-of-type {
+    .article-list>h2:first-of-type {
         margin: 0 0 0 10px
     }
 
@@ -5369,7 +5369,7 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         border: 0
     }
 
-    .article-list article .byline&gt;.bycount {
+    .article-list article .byline>.bycount {
         position: absolute;
         top: -10px;
         right: 0
@@ -5409,7 +5409,7 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         position: relative
     }
 
-    .category-blog .articles-list article&gt;.tag {
+    .category-blog .articles-list article>.tag {
         position: absolute;
         top: 10px;
         left: 80px
@@ -5426,7 +5426,7 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         display: none
     }
 
-    .category-blog .articles-list article&gt;.author {
+    .category-blog .articles-list article>.author {
         float: left;
         margin: 0 10px;
         width: 60px
@@ -5446,21 +5446,21 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         margin: 16px 0 0 0
     }
 
-    .category-blog .articles-list article .article-content&gt;h2 a {
+    .category-blog .articles-list article .article-content>h2 a {
         font-size: 16px
     }
 
-    .category-blog .articles-list article .article-content .byline&gt;div {
+    .category-blog .articles-list article .article-content .byline>div {
         border: 0
     }
 
-    .category-blog .articles-list article .article-content .byline&gt;div.author {
+    .category-blog .articles-list article .article-content .byline>div.author {
         margin: 0;
         padding: 0;
         font-size: 14px
     }
 
-    .category-blog .articles-list article .article-content .byline&gt;div.author:after {
+    .category-blog .articles-list article .article-content .byline>div.author:after {
         background: 0
     }
 
@@ -5468,7 +5468,7 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         top: -20px
     }
 
-    body.post-type-archive-wire .wires-menu&gt;h1,body.tax-isc_bnn_category .wires-menu&gt;h1 {
+    body.post-type-archive-wire .wires-menu>h1,body.tax-isc_bnn_category .wires-menu>h1 {
         margin: 0 0 0 10px
     }
 
@@ -5517,22 +5517,22 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         width: 22px
     }
 
-    body.post-type-archive-wire .open .get-dd&gt;.arrow,body.tax-isc_bnn_category .open .get-dd&gt;.arrow {
+    body.post-type-archive-wire .open .get-dd>.arrow,body.tax-isc_bnn_category .open .get-dd>.arrow {
         background-position: -224px -96px
     }
 
-    body.post-type-archive-wire .wires-menu&gt;ul,body.tax-isc_bnn_category .wires-menu&gt;ul {
+    body.post-type-archive-wire .wires-menu>ul,body.tax-isc_bnn_category .wires-menu>ul {
         height: 0;
         overflow: hidden;
         transition: height .5s linear 0;
         margin: 0 10px
     }
 
-    body.post-type-archive-wire .wires-menu&gt;ul li:first-of-type,body.tax-isc_bnn_category .wires-menu&gt;ul li:first-of-type {
+    body.post-type-archive-wire .wires-menu>ul li:first-of-type,body.tax-isc_bnn_category .wires-menu>ul li:first-of-type {
         border-top: 1px solid #111
     }
 
-    body.post-type-archive-wire #ContentW .open&gt;ul,body.tax-isc_bnn_category #ContentW .open&gt;ul {
+    body.post-type-archive-wire #ContentW .open>ul,body.tax-isc_bnn_category #ContentW .open>ul {
         height: auto
     }
 
@@ -5540,7 +5540,7 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         margin: 0 0 10px 0
     }
 
-    body.post-type-archive-wire .wires-filter&gt;ul,body.tax-isc_bnn_category .wires-filter&gt;ul {
+    body.post-type-archive-wire .wires-filter>ul,body.tax-isc_bnn_category .wires-filter>ul {
         background: none repeat scroll 0 0 #eee;
         margin: 0 10px;
         height: 0;
@@ -5549,20 +5549,20 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         border: 0
     }
 
-    body.post-type-archive-wire .open&gt;ul,body.tax-isc_bnn_category .open&gt;ul {
+    body.post-type-archive-wire .open>ul,body.tax-isc_bnn_category .open>ul {
         height: auto
     }
 
-    body.post-type-archive-wire .wires-filter&gt;ul li,body.tax-isc_bnn_category .wires-filter&gt;ul li {
+    body.post-type-archive-wire .wires-filter>ul li,body.tax-isc_bnn_category .wires-filter>ul li {
         border-top: 1px solid #FFF;
         border-bottom: 0
     }
 
-    body.post-type-archive-wire .wires-filter&gt;ul li:first-of-type,body.tax-isc_bnn_category .wires-filter&gt;ul li:first-of-type {
+    body.post-type-archive-wire .wires-filter>ul li:first-of-type,body.tax-isc_bnn_category .wires-filter>ul li:first-of-type {
         border-top: 1px solid #111
     }
 
-    body.post-type-archive-wire .wires-filter&gt;ul li a,body.tax-isc_bnn_category .wires-filter&gt;ul li a {
+    body.post-type-archive-wire .wires-filter>ul li a,body.tax-isc_bnn_category .wires-filter>ul li a {
         color: #111
     }
 
@@ -5657,7 +5657,7 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         font-size: 14px
     }
 
-    body.category-video.archive #ContentW article.category-video .byline&gt;div {
+    body.category-video.archive #ContentW article.category-video .byline>div {
         border: 0
     }
 
@@ -5706,16 +5706,16 @@ body #MainW .the-article .entry-content&gt;h2:first-of-type+p:first-of-type {
         width: 100%
     }
 
-    #FootW #NavF&gt;li {
+    #FootW #NavF>li {
         display: inline-block;
         width: 33%
     }
 
-    #FootW #NavF&gt;li:nth-of-type(2n) {
+    #FootW #NavF>li:nth-of-type(2n) {
         width: 33%
     }
 
-    #FootW #NavF&gt;li:nth-of-type(3n) {
+    #FootW #NavF>li:nth-of-type(3n) {
         width: 33%
     }
 
@@ -5935,14 +5935,14 @@ body div.ad.adinbody {
     margin: 0 auto 1.5em auto
 }
 
-body div.ad.adinbody&gt;div.inbodyad {
+body div.ad.adinbody>div.inbodyad {
     background: none repeat scroll 0 0 #eee;
     text-align: center;
     margin: 0 auto;
     padding-bottom: 10px
 }
 
-body div.ad.adinbody&gt;div.inbodyad&gt;p {
+body div.ad.adinbody>div.inbodyad>p {
     text-align: right
 }
 

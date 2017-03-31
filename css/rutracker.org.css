@@ -408,11 +408,11 @@ select {
     display: block
 }
 
-.f-dropdown&gt;*:first-child {
+.f-dropdown>*:first-child {
     margin-top: 0
 }
 
-.f-dropdown&gt;*:last-child {
+.f-dropdown>*:last-child {
     margin-bottom: 0
 }
 
@@ -476,11 +476,11 @@ select {
     display: block
 }
 
-.f-dropdown.drop-right&gt;*:first-child {
+.f-dropdown.drop-right>*:first-child {
     margin-top: 0
 }
 
-.f-dropdown.drop-right&gt;*:last-child {
+.f-dropdown.drop-right>*:last-child {
     margin-bottom: 0
 }
 
@@ -534,11 +534,11 @@ select {
     display: block
 }
 
-.f-dropdown.drop-left&gt;*:first-child {
+.f-dropdown.drop-left>*:first-child {
     margin-top: 0
 }
 
-.f-dropdown.drop-left&gt;*:last-child {
+.f-dropdown.drop-left>*:last-child {
     margin-bottom: 0
 }
 
@@ -594,11 +594,11 @@ select {
     display: block
 }
 
-.f-dropdown.drop-top&gt;*:first-child {
+.f-dropdown.drop-top>*:first-child {
     margin-top: 0
 }
 
-.f-dropdown.drop-top&gt;*:last-child {
+.f-dropdown.drop-top>*:last-child {
     margin-bottom: 0
 }
 
@@ -672,11 +672,11 @@ select {
     display: block
 }
 
-.f-dropdown.content&gt;*:first-child {
+.f-dropdown.content>*:first-child {
     margin-top: 0
 }
 
-.f-dropdown.content&gt;*:last-child {
+.f-dropdown.content>*:last-child {
     margin-bottom: 0
 }
 
@@ -836,7 +836,7 @@ wbr {
     background: #FFFFE0
 }
 
-.unselectable,.a-like,ul.a-like-items&gt;li,.adm,ul.adm-items&gt;li,a.adm,a.adm:visited,.menu-root {
+.unselectable,.a-like,ul.a-like-items>li,.adm,ul.adm-items>li,a.adm,a.adm:visited,.menu-root {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -859,12 +859,12 @@ a:hover,a:active,a:focus {
     text-decoration: underline !important
 }
 
-.a-like,ul.a-like-items&gt;li {
+.a-like,ul.a-like-items>li {
     color: #006699 !important;
     cursor: pointer
 }
 
-.a-like:hover,ul.a-like-items&gt;li:hover {
+.a-like:hover,ul.a-like-items>li:hover {
     color: #d60000 !important
 }
 
@@ -884,14 +884,14 @@ a:hover,a:active,a:focus {
     color: #0080FF !important
 }
 
-.adm,ul.adm-items&gt;li,a.adm,a.adm:visited {
+.adm,ul.adm-items>li,a.adm,a.adm:visited {
     color: #800000;
     text-decoration: none;
     font-size: 11px;
     cursor: pointer
 }
 
-.adm:hover,ul.adm-items&gt;li:hover {
+.adm:hover,ul.adm-items>li:hover {
     color: #d60000 !important;
     text-decoration: none !important
 }
@@ -1337,25 +1337,25 @@ ul[type="i"] {
     list-style-type: lower-roman
 }
 
-ul.inlined,ul.inlined&gt;li {
+ul.inlined,ul.inlined>li {
     display: inline-block;
     margin: 0
 }
 
-ul.inlined&gt;li::before,ul.inlined&gt;li:hover::before {
+ul.inlined>li::before,ul.inlined>li:hover::before {
     margin: 0 5px 0 1px;
     color: #000
 }
 
-ul.inlined&gt;li:first-child::before {
+ul.inlined>li:first-child::before {
     display: none
 }
 
-ul.inlined.middot-separated&gt;li::before {
+ul.inlined.middot-separated>li::before {
     content: '\00b7'
 }
 
-ul.inlined.bullet-separated&gt;li::before {
+ul.inlined.bullet-separated>li::before {
     content: '\2022'
 }
 
@@ -1523,7 +1523,7 @@ legend a {
     text-decoration: none
 }
 
-fieldset&gt;legend {
+fieldset>legend {
     margin-left: 6px;
     text-align: left
 }
@@ -1629,7 +1629,7 @@ fieldset&gt;legend {
     margin-bottom: 1px
 }
 
-.fieldsets div&gt;p {
+.fieldsets div>p {
     margin-bottom: 2px
 }
 
@@ -1923,7 +1923,7 @@ table.smilies td {
     min-height: 102px
 }
 
-#logo&gt;table {
+#logo>table {
     width: 100%;
     height: 100%
 }
@@ -2627,7 +2627,7 @@ table.topic {
     text-decoration: none !important
 }
 
-.hl-cyrillic:hover&gt;.cyr-symbol {
+.hl-cyrillic:hover>.cyr-symbol {
     color: #C21DD5 !important
 }
 
@@ -3780,7 +3780,7 @@ ul.res-msg li {
     white-space: normal !important
 }
 
-.printable_th_post_head&gt;a {
+.printable_th_post_head>a {
     padding-left: 30px
 }
 
@@ -3815,7 +3815,7 @@ div.nav-hidden-arrow {
     margin-left: -34px !important
 }
 
-div.nav-hidden-arrow&gt;div.nav-hidden-overlay {
+div.nav-hidden-arrow>div.nav-hidden-overlay {
     position: absolute;
     left: 0;
     right: 0;
@@ -3846,12 +3846,12 @@ span.nav-icon {
     border: 1px solid #ABB0B3
 }
 
-#nav-opt-menu&gt;li {
+#nav-opt-menu>li {
     margin: 0;
     padding: 4px 10px
 }
 
-#nav-opt-menu&gt;li:hover {
+#nav-opt-menu>li:hover {
     background-color: #B1B8BB;
     color: #FFFFFF
 }
@@ -3871,15 +3871,15 @@ span.nav-icon {
     position: relative
 }
 
-#nav-up&gt;span {
+#nav-up>span {
     background-position: 0
 }
 
-#nav-down&gt;span {
+#nav-down>span {
     background-position: -24px
 }
 
-#nav-settings&gt;span {
+#nav-settings>span {
     background-position: -48px 2px;
     width: 18px;
     height: 22px

@@ -2225,15 +2225,15 @@ h1 .ts_icon:not(.ts_icon_base_size):before,h1 ts-icon:not(.ts_icon_base_size):be
     content: '\E506'
 }
 
-.away&gt;.ts_icon_presence:before {
+.away>.ts_icon_presence:before {
     content: '\E507'
 }
 
-.dnd&gt;.ts_icon_presence:before {
+.dnd>.ts_icon_presence:before {
     content: '\E508'
 }
 
-.dnd.away&gt;.ts_icon_presence:before {
+.dnd.away>.ts_icon_presence:before {
     content: '\E535'
 }
 
@@ -2241,15 +2241,15 @@ h1 .ts_icon:not(.ts_icon_base_size):before,h1 ts-icon:not(.ts_icon_base_size):be
     content: '\E509'
 }
 
-.away&gt;.ts_icon_presence_external:before,.away&gt;.ts_icon_presence_ra:before {
+.away>.ts_icon_presence_external:before,.away>.ts_icon_presence_ra:before {
     content: '\E510'
 }
 
-.dnd&gt;.ts_icon_presence_external:before,.dnd&gt;.ts_icon_presence_ra:before {
+.dnd>.ts_icon_presence_external:before,.dnd>.ts_icon_presence_ra:before {
     content: '\E511'
 }
 
-.dnd.away&gt;.ts_icon_presence_external:before,.dnd.away&gt;.ts_icon_presence_ra:before {
+.dnd.away>.ts_icon_presence_external:before,.dnd.away>.ts_icon_presence_ra:before {
     content: '\E536'
 }
 
@@ -2257,15 +2257,15 @@ h1 .ts_icon:not(.ts_icon_base_size):before,h1 ts-icon:not(.ts_icon_base_size):be
     content: '\E512'
 }
 
-.away&gt;.ts_icon_presence_ura:before {
+.away>.ts_icon_presence_ura:before {
     content: '\E513'
 }
 
-.dnd&gt;.ts_icon_presence_ura:before {
+.dnd>.ts_icon_presence_ura:before {
     content: '\E514'
 }
 
-.dnd.away&gt;.ts_icon_presence_ura:before {
+.dnd.away>.ts_icon_presence_ura:before {
     content: '\E537'
 }
 
@@ -2941,7 +2941,7 @@ section {
     border-radius: .25rem
 }
 
-.alert&gt;i.ts_icon:first-of-type,.alert&gt;ts-icon:first-of-type {
+.alert>i.ts_icon:first-of-type,.alert>ts-icon:first-of-type {
     margin-right: .5rem;
     margin-left: -2rem;
     width: 1.25rem;
@@ -2953,7 +2953,7 @@ section {
     border-left-color: #3aa3e3
 }
 
-.alert.alert_info&gt;i:first-of-type,.alert.alert_info&gt;ts-icon:first-of-type {
+.alert.alert_info>i:first-of-type,.alert.alert_info>ts-icon:first-of-type {
     color: #3aa3e3
 }
 
@@ -2961,7 +2961,7 @@ section {
     border-left-color: #EDB431
 }
 
-.alert.alert_warning&gt;i:first-of-type,.alert.alert_warning&gt;ts-icon:first-of-type {
+.alert.alert_warning>i:first-of-type,.alert.alert_warning>ts-icon:first-of-type {
     color: #EDB431
 }
 
@@ -2969,7 +2969,7 @@ section {
     border-left-color: #2ab27b
 }
 
-.alert.alert_success&gt;i:first-of-type,.alert.alert_success&gt;ts-icon:first-of-type {
+.alert.alert_success>i:first-of-type,.alert.alert_success>ts-icon:first-of-type {
     color: #2ab27b
 }
 
@@ -2977,7 +2977,7 @@ section {
     border-left-color: #CB5234
 }
 
-.alert.alert_error&gt;i:first-of-type,.alert.alert_error&gt;ts-icon:first-of-type {
+.alert.alert_error>i:first-of-type,.alert.alert_error>ts-icon:first-of-type {
     color: #CB5234
 }
 
@@ -5545,7 +5545,7 @@ html.no_touch .action_cog:hover i {
     display: inline
 }
 
-.pager li&gt;a,.pager li&gt;span {
+.pager li>a,.pager li>span {
     display: inline-block;
     color: #555459;
     background-image: url(/66f9/img/pager_sprite.png);
@@ -5556,40 +5556,40 @@ html.no_touch .action_cog:hover i {
     font-weight: 700
 }
 
-.pager li.next&gt;a,.pager li.next&gt;span {
+.pager li.next>a,.pager li.next>span {
     float: right;
     background-position: 99px 35px;
     padding-left: 25px;
     text-align: left
 }
 
-.pager li.previous&gt;a,.pager li.previous&gt;span {
+.pager li.previous>a,.pager li.previous>span {
     float: left;
     background-position: 0 35px;
     text-align: right;
     padding-right: 13px
 }
 
-.pager .disabled&gt;a,.pager .disabled&gt;span {
+.pager .disabled>a,.pager .disabled>span {
     color: #9e9ea6;
     cursor: default
 }
 
-html.no_touch .pager li&gt;a:focus,html.no_touch .pager li&gt;a:hover {
+html.no_touch .pager li>a:focus,html.no_touch .pager li>a:hover {
     text-decoration: none;
     color: #3aa3e3
 }
 
-html.no_touch .pager .disabled&gt;a:focus,html.no_touch .pager .disabled&gt;a:hover {
+html.no_touch .pager .disabled>a:focus,html.no_touch .pager .disabled>a:hover {
     color: #9e9ea6;
     cursor: default
 }
 
-html.no_touch .pager .next&gt;a:focus,html.no_touch .pager .next&gt;a:hover {
+html.no_touch .pager .next>a:focus,html.no_touch .pager .next>a:hover {
     background-position: 99px -74px
 }
 
-html.no_touch .pager .previous&gt;a:focus,html.no_touch .pager .previous&gt;a:hover {
+html.no_touch .pager .previous>a:focus,html.no_touch .pager .previous>a:hover {
     background-position: 0 -74px
 }
 
@@ -5606,11 +5606,11 @@ html.no_touch .pager .previous&gt;a:focus,html.no_touch .pager .previous&gt;a:ho
     *zoom: 1
 }
 
-.pagination ul&gt;li {
+.pagination ul>li {
     display: inline
 }
 
-.pagination ul&gt;li&gt;a,.pagination ul&gt;li&gt;span {
+.pagination ul>li>a,.pagination ul>li>span {
     float: left;
     padding: .25rem .75rem;
     line-height: 1.25rem;
@@ -5620,29 +5620,29 @@ html.no_touch .pager .previous&gt;a:focus,html.no_touch .pager .previous&gt;a:ho
     text-decoration: none!important
 }
 
-.pagination ul&gt;.active&gt;a,.pagination ul&gt;.active&gt;span,.pagination ul&gt;li&gt;a:focus {
+.pagination ul>.active>a,.pagination ul>.active>span,.pagination ul>li>a:focus {
     background-color: #3aa3e3;
     color: #FFF;
     cursor: default
 }
 
-html.no_touch .pagination ul&gt;li&gt;a:hover {
+html.no_touch .pagination ul>li>a:hover {
     background-color: #3aa3e3;
     color: #FFF
 }
 
-html.no_touch .pagination ul&gt;.disabled&gt;a:hover {
+html.no_touch .pagination ul>.disabled>a:hover {
     color: #9e9ea6;
     background: #FFF
 }
 
-.pagination ul&gt;.disabled&gt;a,.pagination ul&gt;.disabled&gt;a:focus,.pagination ul&gt;.disabled&gt;span {
+.pagination ul>.disabled>a,.pagination ul>.disabled>a:focus,.pagination ul>.disabled>span {
     color: #9e9ea6;
     cursor: default;
     background: #FFF
 }
 
-.pagination ul&gt;li:first-child&gt;a,.pagination ul&gt;li:first-child&gt;span {
+.pagination ul>li:first-child>a,.pagination ul>li:first-child>span {
     border-left-width: 1px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
@@ -5651,7 +5651,7 @@ html.no_touch .pagination ul&gt;.disabled&gt;a:hover {
     background-clip: padding-box
 }
 
-.pagination ul&gt;li:last-child&gt;a,.pagination ul&gt;li:last-child&gt;span {
+.pagination ul>li:last-child>a,.pagination ul>li:last-child>span {
     border-top-right-radius: .25rem;
     border-bottom-right-radius: .25rem;
     border-bottom-left-radius: 0;
@@ -5748,24 +5748,24 @@ html.no_touch .service:not(.no_hover):hover h4,html.no_touch .service:not(.no_ho
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx) {
-    .pager li&gt;a,.pager li&gt;span {
+    .pager li>a,.pager li>span {
         background-image: url(/66f9/img/pager_sprite_@2x.png);
         background-size: 200%
     }
 
-    .pager li.previous&gt;a,.pager li.previous&gt;span {
+    .pager li.previous>a,.pager li.previous>span {
         background-position: 0 34.5px
     }
 
-    .pager li.next&gt;a,.pager li.next&gt;span {
+    .pager li.next>a,.pager li.next>span {
         background-position: 98px 34.5px
     }
 
-    html.no_touch .pager .next&gt;a:focus,html.no_touch .pager .next&gt;a:hover {
+    html.no_touch .pager .next>a:focus,html.no_touch .pager .next>a:hover {
         background-position: 98px -72.5px
     }
 
-    html.no_touch .pager .previous&gt;a:focus,html.no_touch .pager .previous&gt;a:hover {
+    html.no_touch .pager .previous>a:focus,html.no_touch .pager .previous>a:hover {
         background-position: 0 -72.5px
     }
 }
@@ -6188,11 +6188,11 @@ a.delete_link:hover {
     line-height: 1rem
 }
 
-.menu .section_header&gt;.header_label {
+.menu .section_header>.header_label {
     position: relative
 }
 
-.menu .section_header&gt;div.header_label_container {
+.menu .section_header>div.header_label_container {
     color: #9e9ea6;
     padding-right: .375rem;
     position: relative
@@ -6878,11 +6878,11 @@ body.winssb #emoji_menu {
     opacity: 1
 }
 
-#emoji_menu #emoji_skin_picker&gt;span {
+#emoji_menu #emoji_skin_picker>span {
     border-radius: 2px
 }
 
-#emoji_menu #emoji_skin_picker&gt;span[data-preferred=true] {
+#emoji_menu #emoji_skin_picker>span[data-preferred=true] {
     background: #fff
 }
 
@@ -10390,7 +10390,7 @@ body.pink .data_underline {
         transform: translateY(20px)
     }
 
-    nav:not(.mobile)~section .animate_on_scroll,nav:not(.mobile)~section .animate_on_scroll&gt;* {
+    nav:not(.mobile)~section .animate_on_scroll,nav:not(.mobile)~section .animate_on_scroll>* {
         opacity: 0;
         -moz-opacity: 0;
         -khtml-opacity: 0;
@@ -10399,7 +10399,7 @@ body.pink .data_underline {
         transition: all .4s ease .1s
     }
 
-    nav:not(.mobile)~section .animate_on_scroll.animate,nav:not(.mobile)~section .animate_on_scroll.animate&gt;*,nav:not(.mobile)~section .animate_on_scroll&gt;.animate,nav:not(.mobile)~section .animate_on_scroll&gt;.animate&gt;* {
+    nav:not(.mobile)~section .animate_on_scroll.animate,nav:not(.mobile)~section .animate_on_scroll.animate>*,nav:not(.mobile)~section .animate_on_scroll>.animate,nav:not(.mobile)~section .animate_on_scroll>.animate>* {
         opacity: 1;
         -moz-opacity: 1;
         -khtml-opacity: 1;

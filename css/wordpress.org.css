@@ -151,7 +151,7 @@
     font-weight: 300
 }
 
-#home-welcome .showcase&gt;div {
+#home-welcome .showcase>div {
     width: 100%;
     height: 300px;
     background: url(https://s.w.org/images/home/collage-min.jpg) center top;
@@ -160,7 +160,7 @@
 }
 
 @media (min-width:700px) {
-    #home-welcome .showcase&gt;div {
+    #home-welcome .showcase>div {
         height: 600px;
         background-attachment: fixed
     }
@@ -502,7 +502,7 @@
     vertical-align: middle
 }
 
-#home-welcome .button-group&gt;.button {
+#home-welcome .button-group>.button {
     display: inline-block;
     -webkit-border-radius: 0;
     border-radius: 0;
@@ -510,25 +510,25 @@
     z-index: 10
 }
 
-#home-welcome .button-group&gt;.button-primary {
+#home-welcome .button-group>.button-primary {
     z-index: 100
 }
 
-#home-welcome .button-group&gt;.button:hover {
+#home-welcome .button-group>.button:hover {
     z-index: 20
 }
 
-#home-welcome .button-group&gt;.button:first-child {
+#home-welcome .button-group>.button:first-child {
     -webkit-border-radius: 3px 0 0 3px;
     border-radius: 3px 0 0 3px
 }
 
-#home-welcome .button-group&gt;.button:last-child {
+#home-welcome .button-group>.button:last-child {
     -webkit-border-radius: 0 3px 3px 0;
     border-radius: 0 3px 3px 0
 }
 
-#home-welcome .button-group&gt;.button:focus {
+#home-welcome .button-group>.button:focus {
     position: relative;
     z-index: 1
 }

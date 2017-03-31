@@ -101,7 +101,7 @@ body {
     overflow: hidden;
 }
 
-.POPUPS_WRAPPER &gt; div {
+.POPUPS_WRAPPER > div {
     /* page */
     margin: 0 auto;
 }
@@ -118,25 +118,25 @@ html.device-mobile-optimized.device-android {
     margin-bottom: 1px;
 }
 
-html.device-mobile-optimized.blockSiteScrolling &gt; body {
+html.device-mobile-optimized.blockSiteScrolling > body {
     position: fixed;
     width: 100%;
 }
 
-html.device-mobile-optimized.media-zoom-mode &gt; body {
+html.device-mobile-optimized.media-zoom-mode > body {
     touch-action: manipulation;
 }
 
-html.device-mobile-optimized.media-zoom-mode &gt; body &gt; #SITE_CONTAINER {
+html.device-mobile-optimized.media-zoom-mode > body > #SITE_CONTAINER {
     height: 100%;
     overflow: hidden;
 }
 
-html.device-mobile-optimized.media-zoom-mode &gt; body &gt; #SITE_CONTAINER &gt; .noop {
+html.device-mobile-optimized.media-zoom-mode > body > #SITE_CONTAINER > .noop {
     height: 100%;
 }
 
-html.device-mobile-optimized.media-zoom-mode &gt; body &gt; #SITE_CONTAINER &gt; .noop &gt; .siteAspectsContainer {
+html.device-mobile-optimized.media-zoom-mode > body > #SITE_CONTAINER > .noop > .siteAspectsContainer {
     height: 100%;
     z-index: 1005;
 }
@@ -165,7 +165,7 @@ body.device-mobile-optimized #SITE_CONTAINER {
     position: relative;
 }
 
-body.device-mobile-optimized &gt; * {
+body.device-mobile-optimized > * {
     max-width: 100% !important;
 }
 
@@ -174,7 +174,7 @@ body.device-mobile-optimized .SITE_ROOT {
     overflow-y: hidden;
 }
 
-body.device-mobile-non-optimized #SITE_CONTAINER &gt; :not(.mobile-non-optimized-overflow) .SITE_ROOT {
+body.device-mobile-non-optimized #SITE_CONTAINER > :not(.mobile-non-optimized-overflow) .SITE_ROOT {
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -231,7 +231,7 @@ body.fullScreenMode-scrollable.device-mobile-optimized #masterPage,
     overflow-y: hidden;
 }
 
-.fullScreenOverlay &gt; .fullScreenOverlayContent {
+.fullScreenOverlay > .fullScreenOverlayContent {
     margin: 0 auto;
     position: absolute;
     right: 0;
@@ -341,8 +341,8 @@ ol.wix-list-text-align p, ol.wix-list-text-align h1, ol.wix-list-text-align h2, 
     text-align: right;
 }
 
-.wixapps-less-spacers-align &gt; div,
-.wixapps-less-spacers-align &gt; a {
+.wixapps-less-spacers-align > div,
+.wixapps-less-spacers-align > a {
     display: inline-block !important;
 }
 

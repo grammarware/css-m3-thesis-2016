@@ -613,7 +613,7 @@
     text-align: left
 }
 
-.check-list__item&gt;a {
+.check-list__item>a {
     text-decoration: none;
     padding-bottom: 0.375em;
     background-image: -webkit-linear-gradient(bottom, transparent, transparent 0.0625em, currentColor 0.0625em, currentColor 0.125em, transparent 0.125em);
@@ -623,7 +623,7 @@
     transition: background-position 150ms ease-in-out
 }
 
-.check-list__item&gt;a:hover,.check-list__item&gt;a:focus {
+.check-list__item>a:hover,.check-list__item>a:focus {
     background-position: 0 0
 }
 
@@ -989,7 +989,7 @@ a {
     font-size: 1.1875em
 }
 
-.body-link,main p&gt;a {
+.body-link,main p>a {
     text-decoration: none;
     padding-bottom: 0.375em;
     background-image: -webkit-linear-gradient(bottom, transparent, transparent 0.0625em, currentColor 0.0625em, currentColor 0.125em, transparent 0.125em);
@@ -1000,7 +1000,7 @@ a {
     color: #619945
 }
 
-.body-link:hover,main p&gt;a:hover,.body-link:focus,main p&gt;a:focus {
+.body-link:hover,main p>a:hover,.body-link:focus,main p>a:focus {
     background-position: 0 0
 }
 
@@ -2143,7 +2143,7 @@ button.marketing-button[disabled]::after,button[disabled].marketing-nav__button:
     display: none
 }
 
-.marketing-input,.marketing-textarea,.marketing-select-wrapper&gt;select {
+.marketing-input,.marketing-textarea,.marketing-select-wrapper>select {
     font-family: 'Brandon', Helvetica, Arial, sans-serif;
     display: inline-block;
     height: 3em;
@@ -2163,29 +2163,29 @@ button.marketing-button[disabled]::after,button[disabled].marketing-nav__button:
 }
 
 @media screen and (min-width: 61.875em) {
-    .marketing-input,.marketing-textarea,.marketing-select-wrapper&gt;select {
+    .marketing-input,.marketing-textarea,.marketing-select-wrapper>select {
         font-size: 1.125em
     }
 }
 
-.marketing-block--lowlight .marketing-input,.marketing-form--lowlight .marketing-input,.page-block--lowlight .marketing-input,.marketing-block--lowlight .marketing-textarea,.marketing-form--lowlight .marketing-textarea,.page-block--lowlight .marketing-textarea,.marketing-block--lowlight .marketing-select-wrapper&gt;select,.marketing-form--lowlight .marketing-select-wrapper&gt;select,.page-block--lowlight .marketing-select-wrapper&gt;select {
+.marketing-block--lowlight .marketing-input,.marketing-form--lowlight .marketing-input,.page-block--lowlight .marketing-input,.marketing-block--lowlight .marketing-textarea,.marketing-form--lowlight .marketing-textarea,.page-block--lowlight .marketing-textarea,.marketing-block--lowlight .marketing-select-wrapper>select,.marketing-form--lowlight .marketing-select-wrapper>select,.page-block--lowlight .marketing-select-wrapper>select {
     border-color: transparent
 }
 
-.marketing-input:focus,.marketing-input.focus,.marketing-textarea:focus,.marketing-textarea.focus,.marketing-select-wrapper&gt;select:focus,.marketing-select-wrapper&gt;select.focus {
+.marketing-input:focus,.marketing-input.focus,.marketing-textarea:focus,.marketing-textarea.focus,.marketing-select-wrapper>select:focus,.marketing-select-wrapper>select.focus {
     color: #000;
     border: 1px solid #00baff !important
 }
 
-.marketing-input:focus+.marketing-form__messages .error+.suggest,.marketing-input.focus+.marketing-form__messages .error+.suggest,.marketing-textarea:focus+.marketing-form__messages .error+.suggest,.marketing-textarea.focus+.marketing-form__messages .error+.suggest,.marketing-select-wrapper&gt;select:focus+.marketing-form__messages .error+.suggest,.marketing-select-wrapper&gt;select.focus+.marketing-form__messages .error+.suggest {
+.marketing-input:focus+.marketing-form__messages .error+.suggest,.marketing-input.focus+.marketing-form__messages .error+.suggest,.marketing-textarea:focus+.marketing-form__messages .error+.suggest,.marketing-textarea.focus+.marketing-form__messages .error+.suggest,.marketing-select-wrapper>select:focus+.marketing-form__messages .error+.suggest,.marketing-select-wrapper>select.focus+.marketing-form__messages .error+.suggest {
     display: none
 }
 
-.marketing-input:focus+.marketing-form__messages .error+.is-visible,.marketing-input.focus+.marketing-form__messages .error+.is-visible,.marketing-textarea:focus+.marketing-form__messages .error+.is-visible,.marketing-textarea.focus+.marketing-form__messages .error+.is-visible,.marketing-select-wrapper&gt;select:focus+.marketing-form__messages .error+.is-visible,.marketing-select-wrapper&gt;select.focus+.marketing-form__messages .error+.is-visible {
+.marketing-input:focus+.marketing-form__messages .error+.is-visible,.marketing-input.focus+.marketing-form__messages .error+.is-visible,.marketing-textarea:focus+.marketing-form__messages .error+.is-visible,.marketing-textarea.focus+.marketing-form__messages .error+.is-visible,.marketing-select-wrapper>select:focus+.marketing-form__messages .error+.is-visible,.marketing-select-wrapper>select.focus+.marketing-form__messages .error+.is-visible {
     display: block
 }
 
-.marketing-input[disabled],.marketing-textarea[disabled],.marketing-select-wrapper&gt;select[disabled] {
+.marketing-input[disabled],.marketing-textarea[disabled],.marketing-select-wrapper>select[disabled] {
     background-color: #e5e5e5
 }
 
@@ -2216,12 +2216,12 @@ button.marketing-button[disabled]::after,button[disabled].marketing-nav__button:
     margin-bottom: 15px
 }
 
-.marketing-select-wrapper&gt;select {
+.marketing-select-wrapper>select {
     margin: 0;
     padding-right: 2em
 }
 
-.marketing-select-wrapper&gt;select::-ms-expand {
+.marketing-select-wrapper>select::-ms-expand {
     display: none
 }
 
@@ -2595,19 +2595,19 @@ img[data-srcset].lazyloaded {
     float: right
 }
 
-.marketing-nav__items&gt;li {
+.marketing-nav__items>li {
     position: relative;
     display: block;
     line-height: 60px
 }
 
 @media screen and (min-width: 46.875em) {
-    .marketing-nav__items&gt;li {
+    .marketing-nav__items>li {
         float: left
     }
 }
 
-.marketing-nav__items .popover-content&gt;li {
+.marketing-nav__items .popover-content>li {
     line-height: normal
 }
 
@@ -2692,12 +2692,12 @@ img[data-srcset].lazyloaded {
     padding-right: 1.42857em
 }
 
-.popover-wrapper.js-is-active&gt;.marketing-nav__item--primary {
+.popover-wrapper.js-is-active>.marketing-nav__item--primary {
     background-color: #000;
     color: #fff
 }
 
-.popover-wrapper.js-is-active&gt;.marketing-nav__item--primary:focus {
+.popover-wrapper.js-is-active>.marketing-nav__item--primary:focus {
     outline: 0
 }
 
@@ -2720,7 +2720,7 @@ img[data-srcset].lazyloaded {
         display: block !important
     }
 
-    .marketing-nav__secondary&gt;.marketing-nav__items {
+    .marketing-nav__secondary>.marketing-nav__items {
         padding-left: 30px;
         padding-right: 30px
     }
@@ -2753,7 +2753,7 @@ img[data-srcset].lazyloaded {
         background-color: #fff
     }
 
-    .marketing-nav__secondary&gt;.marketing-nav__items {
+    .marketing-nav__secondary>.marketing-nav__items {
         top: 60px
     }
 }
@@ -2887,7 +2887,7 @@ img[data-srcset].lazyloaded {
     color: #000
 }
 
-.page--has-transparent-nav--primary--dark .js-is-active&gt;.marketing-nav__item--primary {
+.page--has-transparent-nav--primary--dark .js-is-active>.marketing-nav__item--primary {
     color: #fff
 }
 
@@ -3002,19 +3002,19 @@ img[data-srcset].lazyloaded {
     }
 }
 
-.footer-bottom__links&gt;a {
+.footer-bottom__links>a {
     line-height: 1.875em;
     white-space: nowrap
 }
 
 @media screen and (min-width: 46.875em) {
-    .footer-bottom__links&gt;a {
+    .footer-bottom__links>a {
         margin-left: 15px
     }
 }
 
 @media screen and (max-width: 46.8125em) {
-    .footer-bottom__links&gt;a {
+    .footer-bottom__links>a {
         display: block
     }
 }
@@ -3359,7 +3359,7 @@ img[data-srcset].lazyloaded {
     float: right
 }
 
-body&gt;.signup--hidden {
+body>.signup--hidden {
     display: none
 }
 
@@ -3690,11 +3690,11 @@ body&gt;.signup--hidden {
     }
 }
 
-.page-block--lowlight .section-heading&gt;h1,.page-block--lowlight .section-heading&gt;h2 {
+.page-block--lowlight .section-heading>h1,.page-block--lowlight .section-heading>h2 {
     color: #fff
 }
 
-.page-block--lowlight .lowlight__heading&gt;p::before {
+.page-block--lowlight .lowlight__heading>p::before {
     background-color: #e5e5e5
 }
 
@@ -3709,7 +3709,7 @@ body&gt;.signup--hidden {
     position: relative
 }
 
-.page-block--image&gt;.page-width {
+.page-block--image>.page-width {
     height: 100%;
     z-index: 1
 }
@@ -4649,7 +4649,7 @@ body&gt;.signup--hidden {
     margin-top: -0.125em
 }
 
-.flash__content.marketing-markdown&gt;*:last-child {
+.flash__content.marketing-markdown>*:last-child {
     margin-bottom: 0
 }
 
@@ -5535,7 +5535,7 @@ body&gt;.signup--hidden {
     padding-left: 1.25em
 }
 
-.marketing-markdown ul&gt;li,.marketing-markdown ol&gt;li {
+.marketing-markdown ul>li,.marketing-markdown ol>li {
     margin-bottom: 8px
 }
 
@@ -5756,7 +5756,7 @@ body&gt;.signup--hidden {
     margin-top: -37px
 }
 
-.testimonial-item__author&gt;strong {
+.testimonial-item__author>strong {
     font-weight: 700
 }
 
@@ -6085,7 +6085,7 @@ body&gt;.signup--hidden {
     }
 }
 
-.announcement__close&gt;.icon {
+.announcement__close>.icon {
     vertical-align: middle
 }
 

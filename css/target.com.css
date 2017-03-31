@@ -34,7 +34,7 @@
     height: 7em
 }
 
-#subLoader&gt;svg,.TGTLazyLoading&gt;svg,.loading-spinner&gt;svg {
+#subLoader>svg,.TGTLazyLoading>svg,.loading-spinner>svg {
     width: 100%;
     height: 100%;
     -webkit-animation: targetSpin 650ms infinite linear;
@@ -96,15 +96,15 @@
     margin: 50px auto
 }
 
-div.price,div.price&gt;span,div.price span.h-text-lowercase,div.price span.h-text-red,span.nb_,span.price--saveStory {
+div.price,div.price>span,div.price span.h-text-lowercase,div.price span.h-text-red,span.nb_,span.price--saveStory {
     visibility: hidden;
 }
 
-div.price[data-bfx],div.price&gt;span[data-bfx],div.price span.h-text-lowercase[data-bfx],div.price span.h-text-red[data-bfx],span.nb_[data-bfx],span.price--saveStory[data-bfx] {
+div.price[data-bfx],div.price>span[data-bfx],div.price span.h-text-lowercase[data-bfx],div.price span.h-text-red[data-bfx],span.nb_[data-bfx],span.price--saveStory[data-bfx] {
     visibility: visible;
 }
 
-#main&gt;div[data-component] {
+#main>div[data-component] {
     display: none;
 }
 
@@ -149,7 +149,7 @@ div.bfx-cc-expanded[style*="block"]+#disclaimer,div.bfx-cc-expanded[style=""]+#d
     visibility: hidden;
 }
 
-#bfx-wm-custom-promo&gt;img {
+#bfx-wm-custom-promo>img {
     margin: 11px 0 0 -25px;
     max-width: 111%;
 }
@@ -178,7 +178,7 @@ div.storycard--text span[data-bfx] {
     visibility: visible !important;
 }
 
-ul.categories&gt;li&gt;a[data-lnk='giftcards'] {
+ul.categories>li>a[data-lnk='giftcards'] {
     display: none;
 }
 
@@ -218,7 +218,7 @@ ul.accordion li[data-tab='addToRegistryandShare'] {
     display: none;
 }
 
-ul.accordion&gt;li[data-tab*='shippingAndreturns'] {
+ul.accordion>li[data-tab*='shippingAndreturns'] {
     display: none;
 }
 
@@ -226,7 +226,7 @@ ul.accordion&gt;li[data-tab*='shippingAndreturns'] {
     display: none;
 }
 
-div.card&gt;:not(:first-child),div.pdp-esp-wrapper {
+div.card>:not(:first-child),div.pdp-esp-wrapper {
     display: none !important;
 }
 
@@ -246,15 +246,15 @@ body #stickySidebar div.bb-promotion-callout-section,button.btn-express,div.bb-p
     display: none;
 }
 
-#cart-page div.title&gt;h1.title--text {
+#cart-page div.title>h1.title--text {
     display: none;
 }
 
-#subtotal&gt;span.h-float-right,div.cartItem--options.l-col-nopadding.h-text-right&gt;div:nth-child(2),div.cartItem--price,div.cartItem--regPrice,div.checkout--overview-total.h-float-clear.ordersummarySubTitle.charlie&gt;span.h-float-right&gt;b,div.price&gt;span,span.cartItem--price {
+#subtotal>span.h-float-right,div.cartItem--options.l-col-nopadding.h-text-right>div:nth-child(2),div.cartItem--price,div.cartItem--regPrice,div.checkout--overview-total.h-float-clear.ordersummarySubTitle.charlie>span.h-float-right>b,div.price>span,span.cartItem--price {
     visibility: hidden;
 }
 
-#subtotal&gt;span.h-float-right[data-bfx],div.cartItem--options.l-col-nopadding.h-text-right&gt;div:nth-child(2)[data-bfx],div.cartItem--price[data-bfx],div.cartItem--regPrice[data-bfx],div.checkout--overview-total.h-float-clear.ordersummarySubTitle.charlie&gt;span.h-float-right&gt;b[data-bfx],div.price&gt;span[data-bfx],span.cartItem--price[data-bfx] {
+#subtotal>span.h-float-right[data-bfx],div.cartItem--options.l-col-nopadding.h-text-right>div:nth-child(2)[data-bfx],div.cartItem--price[data-bfx],div.cartItem--regPrice[data-bfx],div.checkout--overview-total.h-float-clear.ordersummarySubTitle.charlie>span.h-float-right>b[data-bfx],div.price>span[data-bfx],span.cartItem--price[data-bfx] {
     visibility: visible;
 }
 
@@ -275,7 +275,7 @@ div.cartItem--options--promo {
     visibility: hidden;
 }
 
-div.cartItem--options&gt;section,section.promo-tmn-section-common {
+div.cartItem--options>section,section.promo-tmn-section-common {
     display: none;
 }
 
@@ -291,7 +291,7 @@ section #subtotal ~ div ~ *:not(.order--summary-discounts) {
     display: none;
 }
 
-div.cartItem--bottom&gt;section.espContent {
+div.cartItem--bottom>section.espContent {
     display: none;
 }
 
@@ -305,7 +305,7 @@ div.cartItem--bottom&gt;section.espContent {
     margin-bottom: 10px;
 }
 
-#cart-page div:not(.empty-cart) div.title:first-child h1,div.cartItem--options&gt;section,section.promo-tmn-section-common {
+#cart-page div:not(.empty-cart) div.title:first-child h1,div.cartItem--options>section,section.promo-tmn-section-common {
     display: none;
 }
 

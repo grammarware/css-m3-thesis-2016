@@ -802,12 +802,12 @@ section div.headingWrapper h2.center-align-heading,section div.headingWrapper h3
     }
 }
 
-.has-secondary-nav ~ #page-content&gt;.no-herobanner {
+.has-secondary-nav ~ #page-content>.no-herobanner {
     height: 60px
 }
 
 @media screen and (min-width:700px) {
-    .has-secondary-nav ~ #page-content&gt;.no-herobanner {
+    .has-secondary-nav ~ #page-content>.no-herobanner {
         height: 64px
     }
 }
@@ -1177,14 +1177,14 @@ ol {
     padding-left: 0
 }
 
-ol&gt;li {
+ol>li {
     position: relative;
     margin: 0 0 30px 35px;
     padding: 0;
     list-style: none outside none
 }
 
-ol&gt;li:before {
+ol>li:before {
     text-align: left;
     content: counter(li,decimal-leading-zero);
     counter-increment: li;
@@ -3573,7 +3573,7 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
     }
 }
 
-#main-header .visual-row .icons&gt;li {
+#main-header .visual-row .icons>li {
     display: inline-block;
     margin: 20px 0 0 17px;
     width: calc(100% * (1/2) - 20px);
@@ -3582,14 +3582,14 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
 }
 
 @media screen and (max-width:700px) and (orientation:landscape) {
-    #main-header .visual-row .icons&gt;li {
+    #main-header .visual-row .icons>li {
         margin: 20px 0 0 20px;
         width: calc(100% * (1/3) - 20px)
     }
 }
 
 @media screen and (min-width:700px) {
-    #main-header .visual-row .icons&gt;li {
+    #main-header .visual-row .icons>li {
         margin: 0;
         min-width: 111px;
         line-height: 1.1;
@@ -3600,14 +3600,14 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
         width: auto
     }
 
-    #main-header .visual-row .icons&gt;li:hover img {
+    #main-header .visual-row .icons>li:hover img {
         -webkit-transform: scale(1.1);
         transform: scale(1.1)
     }
 }
 
 @media screen and (min-width:1023px) {
-    #main-header .visual-row .icons&gt;li {
+    #main-header .visual-row .icons>li {
         min-width: 150px;
         line-height: inherit
     }
@@ -4606,13 +4606,13 @@ footer .footer-content .footer-content-wrapper .footer-meta {
     }
 }
 
-footer .footer-content .footer-content-wrapper .footer-meta&gt;a {
+footer .footer-content .footer-content-wrapper .footer-meta>a {
     display: block;
     outline: 0
 }
 
 @media screen and (min-width:700px) {
-    footer .footer-content .footer-content-wrapper .footer-meta&gt;a {
+    footer .footer-content .footer-content-wrapper .footer-meta>a {
         margin: 0;
         display: inline
     }
@@ -5199,7 +5199,7 @@ footer.full-width-footer .footer-content .footer-content-wrapper .footer-meta.ac
     margin: 20px 20px 20px 140px
 }
 
-.richtext ol&gt;li {
+.richtext ol>li {
     margin: 0 0 15px 35px
 }
 
@@ -6146,11 +6146,11 @@ header#main-header nav ul.header-nav li.nav-link a.nav-content .mobile-title {
     background-image: none
 }
 
-#main-header nav ul.header-nav li.nav-ecom.selected-nav&gt;a {
+#main-header nav ul.header-nav li.nav-ecom.selected-nav>a {
     background-color: #363636 !important
 }
 
-#main-header nav ul.header-nav li.nav-ecom.selected-nav&gt;a span {
+#main-header nav ul.header-nav li.nav-ecom.selected-nav>a span {
     color: #e55526 !important
 }
 
@@ -7474,14 +7474,14 @@ header#main-header nav ul.header-nav li.nav-link a.nav-content .mobile-title {
     text-decoration: none
 }
 
-.category-panel ul li.selected&gt;a {
+.category-panel ul li.selected>a {
     background-color: #0068bf;
     color: #fff;
     font-family: 'SST W01 Bold','SST W02 Bold','SST W10 Bold','SST W15 Bold','Arial Bold',Arial,Helvetica,sans-serif;
     font-weight: normal
 }
 
-.category-panel ul li.selected&gt;a:hover {
+.category-panel ul li.selected>a:hover {
     background-color: #0068bf;
     text-decoration: none
 }
@@ -8761,7 +8761,7 @@ a.plain-link:hover {
     filter: alpha(opacity=100)
 }
 
-.lt-ie8 .CC025-curated-hero-info-bar .info-item&gt;* {
+.lt-ie8 .CC025-curated-hero-info-bar .info-item>* {
     position: relative
 }
 
@@ -12318,12 +12318,12 @@ a.plain-link:hover {
     padding: 30px 0
 }
 
-.pdc-support .content_par&gt;.section {
+.pdc-support .content_par>.section {
     padding-bottom: 40px
 }
 
 @media screen and (min-width:700px) {
-    .pdc-support .content_par&gt;.section {
+    .pdc-support .content_par>.section {
         padding-bottom: 80px
     }
 }
@@ -13794,7 +13794,7 @@ section.page-section .twocolumn.section:last-child div.richtext p:last-child {
     }
 }
 
-.cq-wcm-edit .three-column-content .content-wrapper&gt;div&gt;.imageblock:before,.cq-wcm-edit .three-column-content .content-wrapper&gt;div&gt;.imageblock:after {
+.cq-wcm-edit .three-column-content .content-wrapper>div>.imageblock:before,.cq-wcm-edit .three-column-content .content-wrapper>div>.imageblock:after {
     display: table;
     line-height: 0;
     clear: both;
@@ -14043,11 +14043,11 @@ section.page-section .twocolumn.section:last-child div.richtext p:last-child {
     font-family: 'SST W01 Roman','SST W02 Roman','SST W10 Roman','SST W15 Roman',Arial,Helvetica,sans-serif
 }
 
-.simple-block .inner-markup ol li ul&gt;li {
+.simple-block .inner-markup ol li ul>li {
     counter-increment: customlistcounter
 }
 
-.simple-block .inner-markup ol li ul&gt;li:before {
+.simple-block .inner-markup ol li ul>li:before {
     content: counter(customlistcounter,decimal-leading-zero) " ";
     position: absolute;
     top: 0;
@@ -16659,12 +16659,12 @@ a#oo_launch_prompt:hover {
     padding: 30px 0
 }
 
-.pdc-support .content_par&gt;.section {
+.pdc-support .content_par>.section {
     padding-bottom: 40px
 }
 
 @media screen and (min-width:700px) {
-    .pdc-support .content_par&gt;.section {
+    .pdc-support .content_par>.section {
         padding-bottom: 80px
     }
 }
@@ -20173,12 +20173,12 @@ img.ytImage {
     display: block
 }
 
-.video-thumbnail a&gt;div {
+.video-thumbnail a>div {
     padding-bottom: 56%
 }
 
 @media screen and (min-width:1023px) {
-    .video-thumbnail a&gt;div {
+    .video-thumbnail a>div {
         width: 440px;
         height: 248px;
         padding: 0;
@@ -20727,7 +20727,7 @@ img.ytImage {
 }
 
 @media screen and (min-width:700px) {
-    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item&gt;.mediaItem {
+    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item>.mediaItem {
         width: calc(312px - 1px);
         margin-top: 2px;
         height: 100%;
@@ -20739,56 +20739,56 @@ img.ytImage {
 }
 
 @media screen and (min-width:1023px) {
-    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item&gt;.mediaItem {
+    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item>.mediaItem {
         width: 312px;
         margin-left: 2px;
         margin-top: 4px
     }
 }
 
-.cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item&gt;.mediaItem.empty-media {
+.cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item>.mediaItem.empty-media {
     background: #000;
     opacity: .2
 }
 
 @media screen and (min-width:700px) {
-    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item&gt;.mediaItem:nth-child(2) {
+    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item>.mediaItem:nth-child(2) {
         margin-right: 2px
     }
 }
 
 @media screen and (min-width:1023px) {
-    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item&gt;.mediaItem:nth-child(2) {
+    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item>.mediaItem:nth-child(2) {
         margin-right: 0;
         margin-bottom: 0
     }
 }
 
-.cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item&gt;.mediaItem .button {
+.cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item>.mediaItem .button {
     width: 41px;
     height: 41px
 }
 
 @media screen and (min-width:700px) {
-    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item&gt;.mediaItem:first-child {
+    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item>.mediaItem:first-child {
         width: 624px;
         height: calc(352px - 2px);
         margin-right: 2px
     }
 
-    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item&gt;.mediaItem:first-child.center {
+    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item>.mediaItem:first-child.center {
         float: none;
         margin: 0 auto
     }
 
-    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item&gt;.mediaItem:first-child .button {
+    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item>.mediaItem:first-child .button {
         width: 71px;
         height: 71px
     }
 }
 
 @media screen and (min-width:1023px) {
-    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item&gt;.mediaItem:first-child {
+    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item>.mediaItem:first-child {
         margin-right: 0;
         margin-bottom: 0;
         margin-top: 4px;
@@ -20798,17 +20798,17 @@ img.ytImage {
 }
 
 @media screen and (min-width:700px) {
-    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item&gt;.mediaItem:not(:first-child):not(:nth-child(2)) {
+    .cm109-mediaCarousel .carousel-container ul.carousel li.carousel-item>.mediaItem:not(:first-child):not(:nth-child(2)) {
         margin-top: 2px
     }
 }
 
-.cm109-mediaCarousel .carousel-container ul.carousel.playlist-initialized li.carousel-item&gt;.mediaItem a.lb_youtube div.hover {
+.cm109-mediaCarousel .carousel-container ul.carousel.playlist-initialized li.carousel-item>.mediaItem a.lb_youtube div.hover {
     display: none
 }
 
 @media screen and (min-width:700px) {
-    .cm109-mediaCarousel .carousel-container ul.carousel.playlist-initialized li.carousel-item&gt;.mediaItem a.lb_youtube div.hover {
+    .cm109-mediaCarousel .carousel-container ul.carousel.playlist-initialized li.carousel-item>.mediaItem a.lb_youtube div.hover {
         display: block
     }
 }
@@ -21293,7 +21293,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     background-color: #dcdcdc
 }
 
-.simpleArticleList.list-small ul li a,.simpleArticleList.list-small ul li&gt;div {
+.simpleArticleList.list-small ul li a,.simpleArticleList.list-small ul li>div {
     padding: 14px 40px 16px 14px;
     height: auto;
     font-family: "SST W01 Bold","SST W02 Bold","SST W10 Bold","SST W15 Bold","Arial Bold",Arial,Helvetica,sans-serif;
@@ -21302,7 +21302,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    .simpleArticleList.list-small ul li a,.simpleArticleList.list-small ul li&gt;div {
+    .simpleArticleList.list-small ul li a,.simpleArticleList.list-small ul li>div {
         padding-left: 24px;
         padding-right: 40px
     }
@@ -21386,22 +21386,22 @@ ul.carousel.carousel-type-image ~ .control-panel {
     text-align: left
 }
 
-.article-topic-list&gt;ul {
+.article-topic-list>ul {
     padding: 0;
     margin: 0;
     list-style: none
 }
 
-.article-topic-list&gt;ul a {
+.article-topic-list>ul a {
     color: #363636;
     text-decoration: none
 }
 
-.article-topic-list&gt;ul a:hover {
+.article-topic-list>ul a:hover {
     color: #0068bf
 }
 
-.article-topic-list&gt;ul&gt;li {
+.article-topic-list>ul>li {
     color: white;
     text-align: left;
     float: left;
@@ -21413,33 +21413,33 @@ ul.carousel.carousel-type-image ~ .control-panel {
     background-position: top left
 }
 
-.article-topic-list&gt;ul&gt;li ul {
+.article-topic-list>ul>li ul {
     padding-left: 66px
 }
 
-.article-topic-list&gt;ul&gt;li ul li {
+.article-topic-list>ul>li ul li {
     list-style-type: none;
     padding: 0;
     margin-bottom: 14px;
     font-size: 16px
 }
 
-.article-topic-list&gt;ul&gt;li ul li.show-more {
+.article-topic-list>ul>li ul li.show-more {
     display: none;
     padding-left: 23px;
     font-family: "SST W01 Roman","SST W02 Roman","SST W10 Roman","SST W15 Roman",Arial,Helvetica;
     background: transparent url('clientlibs_support/images/icon-arrow-blue-down.png') no-repeat left center
 }
 
-.article-topic-list&gt;ul&gt;li ul li.show-more a {
+.article-topic-list>ul>li ul li.show-more a {
     color: #0068bf
 }
 
-.article-topic-list&gt;ul&gt;li ul li.show-more a:hover {
+.article-topic-list>ul>li ul li.show-more a:hover {
     text-decoration: underline
 }
 
-.flexbox .article-topic-list&gt;ul {
+.flexbox .article-topic-list>ul {
     display: inline-block;
     display: -webkit-box;
     display: -moz-box;
@@ -21453,21 +21453,21 @@ ul.carousel.carousel-type-image ~ .control-panel {
     align-items: stretch
 }
 
-.js ul&gt;li&gt;ul li.show-more {
+.js ul>li>ul li.show-more {
     display: block
 }
 
-.js ul&gt;li&gt;ul li.show-more ~ li {
+.js ul>li>ul li.show-more ~ li {
     display: none
 }
 
-.lt-ie10 .article-index&gt;ul&gt;li {
+.lt-ie10 .article-index>ul>li {
     float: left;
     height: 300px
 }
 
 @media(max-width:980px) {
-    .article-topic-list&gt;ul&gt;li {
+    .article-topic-list>ul>li {
         width: 50%
     }
 }
@@ -21481,48 +21481,48 @@ ul.carousel.carousel-type-image ~ .control-panel {
     font-size: 17px
 }
 
-.article-topic-list.simple&gt;ul&gt;li {
+.article-topic-list.simple>ul>li {
     padding: 0 20px 10px 0;
     width: 25%;
     min-height: 250px
 }
 
-.article-topic-list.simple&gt;ul&gt;li ul {
+.article-topic-list.simple>ul>li ul {
     padding-left: 0
 }
 
-.article-topic-list.simple&gt;ul&gt;li ul li {
+.article-topic-list.simple>ul>li ul li {
     margin-bottom: 5px
 }
 
-.article-topic-list.simple&gt;ul&gt;li ul li.show-more {
+.article-topic-list.simple>ul>li ul li.show-more {
     display: none;
     padding-left: 23px;
     font-family: "SST W01 Roman","SST W02 Roman","SST W10 Roman","SST W15 Roman",Arial,Helvetica;
     background: transparent url('clientlibs_support/images/icon-arrow-blue-down.png') no-repeat left center
 }
 
-.article-topic-list.simple&gt;ul&gt;li ul li.show-more a {
+.article-topic-list.simple>ul>li ul li.show-more a {
     color: #0068bf
 }
 
-.article-topic-list.simple&gt;ul&gt;li ul li.show-more a:hover {
+.article-topic-list.simple>ul>li ul li.show-more a:hover {
     text-decoration: underline
 }
 
-.article-topic-list.simple&gt;ul&gt;li ul li a {
+.article-topic-list.simple>ul>li ul li a {
     color: #7f7f7f
 }
 
-.article-topic-list.simple&gt;ul&gt;li ul li a:hover {
+.article-topic-list.simple>ul>li ul li a:hover {
     color: #0068bf
 }
 
-.js .article-topic-list.simple ul&gt;li&gt;ul li.show-more {
+.js .article-topic-list.simple ul>li>ul li.show-more {
     display: block
 }
 
-.js .article-topic-list.simple ul&gt;li&gt;ul li.show-more ~ li {
+.js .article-topic-list.simple ul>li>ul li.show-more ~ li {
     display: none
 }
 
@@ -22031,7 +22031,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     }
 }
 
-.CM106-lead-product-info .prod-media a .overlay&gt;.image:before,.CM106-lead-product-info .prod-media a .overlay&gt;.video:before {
+.CM106-lead-product-info .prod-media a .overlay>.image:before,.CM106-lead-product-info .prod-media a .overlay>.video:before {
     display: block;
     content: "";
     width: 100%;
@@ -22039,7 +22039,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    .CM106-lead-product-info .prod-media a .overlay&gt;.image:before,.CM106-lead-product-info .prod-media a .overlay&gt;.video:before {
+    .CM106-lead-product-info .prod-media a .overlay>.image:before,.CM106-lead-product-info .prod-media a .overlay>.video:before {
         content: normal
     }
 }
@@ -22368,7 +22368,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     overflow: hidden
 }
 
-.CM106-lead-product-info.no-media .prod-meta&gt;* {
+.CM106-lead-product-info.no-media .prod-meta>* {
     width: auto
 }
 
@@ -22727,7 +22727,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper {
+    .CM090-inlineTabs>.wrapper {
         position: relative;
         margin: 0 auto;
         display: inline-block;
@@ -22737,32 +22737,32 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper .tab-heading {
+    .CM090-inlineTabs>.wrapper .tab-heading {
         margin-bottom: 60px
     }
 }
 
-.CM090-inlineTabs&gt;.wrapper .tab-heading .title {
+.CM090-inlineTabs>.wrapper .tab-heading .title {
     text-transform: capitalize
 }
 
-.CM090-inlineTabs&gt;.wrapper .tab-wrapper {
+.CM090-inlineTabs>.wrapper .tab-wrapper {
     margin-bottom: 30px
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper .tab-wrapper {
+    .CM090-inlineTabs>.wrapper .tab-wrapper {
         box-shadow: none;
         margin: auto;
         padding: 0 20px
     }
 }
 
-.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs {
+.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs {
     text-align: center
 }
 
-.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs.no-slick {
+.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs.no-slick {
     display: -webkit-flex;
     display: flex;
     justify-content: center;
@@ -22773,7 +22773,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (max-width:700px) and (orientation:landscape) {
-    .CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs.no-slick {
+    .CM090-inlineTabs>.wrapper .tab-wrapper div.tabs.no-slick {
         margin: 0 auto;
         flex: unset;
         -webkit-flex: unset;
@@ -22782,7 +22782,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs.no-slick {
+    .CM090-inlineTabs>.wrapper .tab-wrapper div.tabs.no-slick {
         flex: unset;
         -webkit-flex: unset;
         display: table;
@@ -22790,7 +22790,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     }
 }
 
-.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs.no-slick a {
+.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs.no-slick a {
     flex: 1;
     -webkit-flex: 1;
     display: flex;
@@ -22802,7 +22802,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (max-width:700px) and (orientation:landscape) {
-    .CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs.no-slick a {
+    .CM090-inlineTabs>.wrapper .tab-wrapper div.tabs.no-slick a {
         flex: unset;
         -webkit-flex: unset;
         display: table-cell
@@ -22810,14 +22810,14 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs.no-slick a {
+    .CM090-inlineTabs>.wrapper .tab-wrapper div.tabs.no-slick a {
         flex: unset;
         -webkit-flex: unset;
         display: table-cell
     }
 }
 
-.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs.slick-slider.slick-initialized:before {
+.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs.slick-slider.slick-initialized:before {
     pointer-events: none;
     background: -webkit-linear-gradient(left,rgba(0,0,0,0.1) 0,rgba(0,0,0,0) 100%);
     background: linear-gradient(to right,rgba(0,0,0,0.1) 0,rgba(0,0,0,0) 100%);
@@ -22829,7 +22829,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     width: 20px
 }
 
-.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs.slick-slider.slick-initialized:after {
+.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs.slick-slider.slick-initialized:after {
     pointer-events: none;
     background: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0.1) 100%);
     background: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0.1) 100%);
@@ -22843,7 +22843,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     top: 0
 }
 
-.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs.slick-slider.slick-initialized .slick-list.draggable:before {
+.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs.slick-slider.slick-initialized .slick-list.draggable:before {
     content: " ";
     display: block;
     width: 100%;
@@ -22858,7 +22858,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs {
+    .CM090-inlineTabs>.wrapper .tab-wrapper div.tabs {
         display: table;
         border-spacing: 2px;
         margin: -2px auto 40px auto;
@@ -22866,7 +22866,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     }
 }
 
-.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a {
+.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a {
     font-family: 'SST W01 Bold','SST W02 Bold','SST W10 Bold','SST W15 Bold','Arial Bold',Arial,Helvetica,sans-serif;
     font-weight: normal;
     background: #f5f5f5;
@@ -22879,7 +22879,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a {
+    .CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a {
         outline: 0;
         padding-left: 15px;
         padding-right: 15px;
@@ -22891,7 +22891,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     }
 }
 
-.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a.selected:not(.slick-slide),.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a.slick-current {
+.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a.selected:not(.slick-slide),.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a.slick-current {
     background: #0070c7;
     color: #fff;
     box-shadow: none;
@@ -22899,23 +22899,23 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a.selected:not(.slick-slide),.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a.slick-current {
+    .CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a.selected:not(.slick-slide),.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a.slick-current {
         -webkit-box-shadow: 0 0 10px -2px #030203 inset;
         box-shadow: 0 0 10px -2px #030203 inset
     }
 }
 
-.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a.selected:not(.slick-slide):hover,.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a.slick-current:hover,.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a.selected:not(.slick-slide):focus,.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a.slick-current:focus {
+.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a.selected:not(.slick-slide):hover,.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a.slick-current:hover,.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a.selected:not(.slick-slide):focus,.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a.slick-current:focus {
     background: #0070c7;
     color: #fff
 }
 
-.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a:hover,.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a:focus {
+.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a:hover,.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a:focus {
     background: #d3d3d3
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a:hover,.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a:focus {
+    .CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a:hover,.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a:focus {
         -webkit-box-shadow: 0 0 10px -2px #030203 inset;
         box-shadow: 0 0 10px -2px #030203 inset;
         background: #0070c7;
@@ -22924,36 +22924,36 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a.type-disabled {
+    .CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a.type-disabled {
         color: rgba(54,54,54,0.3)
     }
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a.type-disabled:hover,.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a.type-disabled.selected,.CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs a.type-disabled:focus {
+    .CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a.type-disabled:hover,.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a.type-disabled.selected,.CM090-inlineTabs>.wrapper .tab-wrapper div.tabs a.type-disabled:focus {
         background-color: whitesmoke
     }
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper .tab-wrapper div.white-tabs a {
+    .CM090-inlineTabs>.wrapper .tab-wrapper div.white-tabs a {
         background-color: whitesmoke
     }
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper .tab-wrapper div.top-padding {
+    .CM090-inlineTabs>.wrapper .tab-wrapper div.top-padding {
         margin: 40px auto 40px auto
     }
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper .tab-heading {
+    .CM090-inlineTabs>.wrapper .tab-heading {
         display: none
     }
 }
 
-.CM090-inlineTabs&gt;.wrapper .content {
+.CM090-inlineTabs>.wrapper .content {
     clear: both;
     position: absolute;
     left: -9999em;
@@ -22963,24 +22963,24 @@ ul.carousel.carousel-type-image ~ .control-panel {
     margin: auto auto 0 auto
 }
 
-.CM090-inlineTabs&gt;.wrapper .content.active {
+.CM090-inlineTabs>.wrapper .content.active {
     overflow: visible
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper .content .section:nth-last-child(2) .moduleComponent {
+    .CM090-inlineTabs>.wrapper .content .section:nth-last-child(2) .moduleComponent {
         padding-bottom: 0;
         margin-bottom: 0
     }
 }
 
-.CM090-inlineTabs&gt;.wrapper .active {
+.CM090-inlineTabs>.wrapper .active {
     position: relative;
     left: auto
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper .active {
+    .CM090-inlineTabs>.wrapper .active {
         display: inline-block;
         overflow: hidden;
         margin: 0 auto -2px auto
@@ -22988,19 +22988,19 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper .active .page-section {
+    .CM090-inlineTabs>.wrapper .active .page-section {
         padding: 0
     }
 }
 
 @media screen and (min-width:700px) {
-    .CM090-inlineTabs&gt;.wrapper .active .page-section .item {
+    .CM090-inlineTabs>.wrapper .active .page-section .item {
         margin-top: 10px
     }
 }
 
 @media screen and (min-width:700px) {
-    .no-js .CM090-inlineTabs&gt;.wrapper .tab-wrapper div.tabs {
+    .no-js .CM090-inlineTabs>.wrapper .tab-wrapper div.tabs {
         display: none
     }
 }
@@ -23817,12 +23817,12 @@ ul.carousel.carousel-type-image ~ .control-panel {
     }
 }
 
-#CM001_homeHero .foreground-container .slide .content&gt;div {
+#CM001_homeHero .foreground-container .slide .content>div {
     clear: both
 }
 
 @media screen and (min-width:700px) {
-    #CM001_homeHero .foreground-container .slide .content&gt;div {
+    #CM001_homeHero .foreground-container .slide .content>div {
         position: absolute
     }
 }
@@ -23939,7 +23939,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     }
 }
 
-#CM001_homeHero .foreground-container .pagination-container .generic&gt;div {
+#CM001_homeHero .foreground-container .pagination-container .generic>div {
     vertical-align: middle;
     background-color: white;
     display: inline-block;
@@ -23954,7 +23954,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    #CM001_homeHero .foreground-container .pagination-container .generic&gt;div {
+    #CM001_homeHero .foreground-container .pagination-container .generic>div {
         margin: 0;
         opacity: 0;
         width: 50px;
@@ -24109,7 +24109,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     opacity: .7
 }
 
-.generic #CM001_homeHero .foreground-container .pagination-container.paused&gt;div[class^=pagination] {
+.generic #CM001_homeHero .foreground-container .pagination-container.paused>div[class^=pagination] {
     background-position: 0 0
 }
 
@@ -24372,14 +24372,14 @@ ul.carousel.carousel-type-image ~ .control-panel {
     }
 }
 
-#CM001_homeHero.loading .foreground-container .pagination-container .generic&gt;div {
+#CM001_homeHero.loading .foreground-container .pagination-container .generic>div {
     opacity: 0;
     -webkit-transform: scale(0,0);
     transform: scale(0,0)
 }
 
 @media screen and (min-width:700px) {
-    #CM001_homeHero.loading .foreground-container .pagination-container .generic&gt;div {
+    #CM001_homeHero.loading .foreground-container .pagination-container .generic>div {
         opacity: 1;
         -webkit-transform: scale(1);
         transform: scale(1)
@@ -24441,7 +24441,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     opacity: 0
 }
 
-#CM001_homeHero.slide-0 .pagination-container .generic&gt;.pagination-0,#CM001_homeHero.slide-1 .pagination-container .generic&gt;.pagination-1,#CM001_homeHero.slide-2 .pagination-container .generic&gt;.pagination-2,#CM001_homeHero.slide-3 .pagination-container .generic&gt;.pagination-3,#CM001_homeHero.slide-4 .pagination-container .generic&gt;.pagination-4 {
+#CM001_homeHero.slide-0 .pagination-container .generic>.pagination-0,#CM001_homeHero.slide-1 .pagination-container .generic>.pagination-1,#CM001_homeHero.slide-2 .pagination-container .generic>.pagination-2,#CM001_homeHero.slide-3 .pagination-container .generic>.pagination-3,#CM001_homeHero.slide-4 .pagination-container .generic>.pagination-4 {
     background-color: #0068bf;
     height: 12px;
     width: 12px;
@@ -24449,7 +24449,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    #CM001_homeHero.slide-0 .pagination-container .generic&gt;.pagination-0,#CM001_homeHero.slide-1 .pagination-container .generic&gt;.pagination-1,#CM001_homeHero.slide-2 .pagination-container .generic&gt;.pagination-2,#CM001_homeHero.slide-3 .pagination-container .generic&gt;.pagination-3,#CM001_homeHero.slide-4 .pagination-container .generic&gt;.pagination-4 {
+    #CM001_homeHero.slide-0 .pagination-container .generic>.pagination-0,#CM001_homeHero.slide-1 .pagination-container .generic>.pagination-1,#CM001_homeHero.slide-2 .pagination-container .generic>.pagination-2,#CM001_homeHero.slide-3 .pagination-container .generic>.pagination-3,#CM001_homeHero.slide-4 .pagination-container .generic>.pagination-4 {
         background-position: 0 126px;
         height: 126px;
         width: 50px;
@@ -24464,13 +24464,13 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    #CM001_homeHero.stopped .foreground-container .pagination-container .generic&gt;div {
+    #CM001_homeHero.stopped .foreground-container .pagination-container .generic>div {
         -webkit-transition: none;
         transition: none
     }
 }
 
-#CM001_homeHero.single-slide .background-container&gt;.slide-0:first-child {
+#CM001_homeHero.single-slide .background-container>.slide-0:first-child {
     top: 0
 }
 
@@ -24556,7 +24556,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     }
 }
 
-.js .homeHeroBanner+.parsys&gt;.section:first-child {
+.js .homeHeroBanner+.parsys>.section:first-child {
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
     position: relative;
@@ -24566,21 +24566,21 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    .js .homeHeroBanner+.parsys&gt;.section:first-child {
+    .js .homeHeroBanner+.parsys>.section:first-child {
         position: static;
         -webkit-transform: translateY(0);
         transform: translateY(0)
     }
 }
 
-.js .homeHeroBanner+.parsys&gt;.section:first-child .headingWrapper,.js .homeHeroBanner+.parsys&gt;.section:first-child .page-section-par {
+.js .homeHeroBanner+.parsys>.section:first-child .headingWrapper,.js .homeHeroBanner+.parsys>.section:first-child .page-section-par {
     -webkit-transition: opacity .5s ease 200ms;
     transition: opacity .5s ease 200ms;
     opacity: 0
 }
 
 @media screen and (min-width:700px) {
-    .js .homeHeroBanner+.parsys&gt;.section:first-child .headingWrapper,.js .homeHeroBanner+.parsys&gt;.section:first-child .page-section-par {
+    .js .homeHeroBanner+.parsys>.section:first-child .headingWrapper,.js .homeHeroBanner+.parsys>.section:first-child .page-section-par {
         opacity: 1
     }
 }
@@ -24635,7 +24635,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     height: 100%
 }
 
-.js #CM001_homeHero.loading .foreground-container .pagination-container .generic&gt;div {
+.js #CM001_homeHero.loading .foreground-container .pagination-container .generic>div {
     background-position: 0 0
 }
 
@@ -25369,7 +25369,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     }
 }
 
-.game-tile&gt;.tile {
+.game-tile>.tile {
     display: block;
     min-height: 0;
     position: relative;
@@ -25377,12 +25377,12 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    .game-tile&gt;.tile {
+    .game-tile>.tile {
         min-height: 206px
     }
 }
 
-.game-tile&gt;.tile .game-tile-util {
+.game-tile>.tile .game-tile-util {
     background-color: rgba(0,0,0,0.8);
     color: #fff;
     font-family: BebasRegular;
@@ -25399,15 +25399,15 @@ ul.carousel.carousel-type-image ~ .control-panel {
     z-index: 2
 }
 
-.game-tile&gt;.tile .game-tile-util .max {
+.game-tile>.tile .game-tile-util .max {
     font-size: 14px
 }
 
-.game-tile&gt;.tile .game-tile-util.score {
+.game-tile>.tile .game-tile-util.score {
     color: #e55526
 }
 
-.game-tile&gt;.tile .text-stripe {
+.game-tile>.tile .text-stripe {
     background-color: rgba(0,0,0,0.8);
     bottom: 28px;
     font-family: 'SST W01 Bold','SST W02 Bold','SST W10 Bold','SST W15 Bold','Arial Bold',Arial,Helvetica,sans-serif;
@@ -25419,22 +25419,22 @@ ul.carousel.carousel-type-image ~ .control-panel {
     text-transform: uppercase
 }
 
-.game-tile&gt;.tile .text-stripe.award .keyword {
+.game-tile>.tile .text-stripe.award .keyword {
     color: #fedc01
 }
 
-.game-tile&gt;.tile .game-tile-details span {
+.game-tile>.tile .game-tile-details span {
     color: #fff;
     text-transform: uppercase
 }
 
 @media screen and (min-width:700px) {
-    .game-tile&gt;.tile .game-tile-details span {
+    .game-tile>.tile .game-tile-details span {
         color: #0068bf
     }
 }
 
-.game-tile&gt;.tile .game-tile-details a.title {
+.game-tile>.tile .game-tile-details a.title {
     color: #3a3a3a
 }
 
@@ -25529,7 +25529,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     text-align: left
 }
 
-.game-tile .game-tile-hover .game-tile-details div.possession&gt;a:hover {
+.game-tile .game-tile-hover .game-tile-details div.possession>a:hover {
     background-color: #424242
 }
 
@@ -25570,7 +25570,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     position: relative
 }
 
-.game-tile .game-tile-details&gt;span {
+.game-tile .game-tile-details>span {
     color: #747474;
     display: block;
     font-size: 14px;
@@ -25582,7 +25582,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    .game-tile .game-tile-details&gt;span {
+    .game-tile .game-tile-details>span {
         padding: 0
     }
 }
@@ -25630,7 +25630,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     top: -5px
 }
 
-.game-tile .possession&gt;a {
+.game-tile .possession>a {
     background-color: transparent;
     cursor: pointer;
     float: left;
@@ -25640,7 +25640,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     width: 16px
 }
 
-.game-tile .possession&gt;a&gt;span {
+.game-tile .possession>a>span {
     background: url("clientlibs_base/images/CM091_gameTiles/util/possession_sprite.png") no-repeat;
     display: block;
     height: 16px;
@@ -25651,23 +25651,23 @@ ul.carousel.carousel-type-image ~ .control-panel {
     width: 16px
 }
 
-.game-tile .possession&gt;a.want-it&gt;span {
+.game-tile .possession>a.want-it>span {
     background-position: center -16px
 }
 
-.game-tile .possession&gt;a.have-it&gt;span {
+.game-tile .possession>a.have-it>span {
     background-position: center bottom
 }
 
-.game-tile .possession&gt;a:hover {
+.game-tile .possession>a:hover {
     background-color: #e3e3e3
 }
 
-.game-tile.want-it .possession&gt;a.want-it&gt;span {
+.game-tile.want-it .possession>a.want-it>span {
     background-position: center top
 }
 
-.game-tile.have-it .possession&gt;a.have-it&gt;span {
+.game-tile.have-it .possession>a.have-it>span {
     background-position: center -30px
 }
 
@@ -26038,7 +26038,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     }
 }
 
-.game-tiles ul li .game-tile-details&gt;span {
+.game-tiles ul li .game-tile-details>span {
     float: left;
     margin: -50px 0 0 -5px;
     background: #3a3a3a;
@@ -26046,7 +26046,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:700px) {
-    .game-tiles ul li .game-tile-details&gt;span {
+    .game-tiles ul li .game-tile-details>span {
         float: none;
         margin: auto;
         background: transparent;
@@ -26274,7 +26274,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     z-index: 2
 }
 
-.no-touch.opacity.generatedcontent #CM021_gameFilter .device-filters a:hover&gt;*,.no-touch.opacity.generatedcontent #CM021_gameFilter .filter-tabs li a&gt;*,.no-touch.opacity.generatedcontent #CM021_gameFilter .tab.layout-list ul li a:hover&gt;*,.no-touch.opacity.generatedcontent #CM021_gameFilter .tab .hide-filter .hide-filter-content&gt;* {
+.no-touch.opacity.generatedcontent #CM021_gameFilter .device-filters a:hover>*,.no-touch.opacity.generatedcontent #CM021_gameFilter .filter-tabs li a>*,.no-touch.opacity.generatedcontent #CM021_gameFilter .tab.layout-list ul li a:hover>*,.no-touch.opacity.generatedcontent #CM021_gameFilter .tab .hide-filter .hide-filter-content>* {
     z-index: 2
 }
 
@@ -26309,7 +26309,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     z-index: 2
 }
 
-.opacity.generatedcontent #CM021_gameFilter .device-filters a&gt;*,.opacity.generatedcontent #CM021_gameFilter .tab.layout-list ul li a&gt;*,.opacity.generatedcontent #CM021_gameFilter .tab.layout-list.media-icons ul li a.no-filter:hover&gt;* {
+.opacity.generatedcontent #CM021_gameFilter .device-filters a>*,.opacity.generatedcontent #CM021_gameFilter .tab.layout-list ul li a>*,.opacity.generatedcontent #CM021_gameFilter .tab.layout-list.media-icons ul li a.no-filter:hover>* {
     z-index: 2
 }
 
@@ -26496,17 +26496,17 @@ ul.carousel.carousel-type-image ~ .control-panel {
     zoom: 1
 }
 
-#CM021_gameFilter .device-filters a .image-wrap&gt;div {
+#CM021_gameFilter .device-filters a .image-wrap>div {
     vertical-align: bottom;
     display: inline-block
 }
 
-.lt-ie8 #CM021_gameFilter .device-filters a .image-wrap&gt;div {
+.lt-ie8 #CM021_gameFilter .device-filters a .image-wrap>div {
     display: inline;
     zoom: 1
 }
 
-#CM021_gameFilter .device-filters a .image-wrap&gt;div.tb {
+#CM021_gameFilter .device-filters a .image-wrap>div.tb {
     display: none
 }
 
@@ -26567,15 +26567,15 @@ ul.carousel.carousel-type-image ~ .control-panel {
     overflow: hidden
 }
 
-.no-flexbox #CM021_gameFilter .filter-tabs li:first-child&gt;li+li,.no-flexbox #CM021_gameFilter .active-filters li:first-child&gt;li+li {
+.no-flexbox #CM021_gameFilter .filter-tabs li:first-child>li+li,.no-flexbox #CM021_gameFilter .active-filters li:first-child>li+li {
     width: 49%
 }
 
-.no-flexbox #CM021_gameFilter .filter-tabs li:first-child&gt;li+li+li,.no-flexbox #CM021_gameFilter .active-filters li:first-child&gt;li+li+li {
+.no-flexbox #CM021_gameFilter .filter-tabs li:first-child>li+li+li,.no-flexbox #CM021_gameFilter .active-filters li:first-child>li+li+li {
     width: 33%
 }
 
-.no-flexbox #CM021_gameFilter .filter-tabs li:first-child&gt;li+li+li+li,.no-flexbox #CM021_gameFilter .active-filters li:first-child&gt;li+li+li+li {
+.no-flexbox #CM021_gameFilter .filter-tabs li:first-child>li+li+li+li,.no-flexbox #CM021_gameFilter .active-filters li:first-child>li+li+li+li {
     width: 24.5%
 }
 
@@ -26903,16 +26903,16 @@ ul.carousel.carousel-type-image ~ .control-panel {
     margin-right: auto
 }
 
-#CM021_gameFilter .tab.layout-not-signed-in .wrapper&gt;* {
+#CM021_gameFilter .tab.layout-not-signed-in .wrapper>* {
     margin: 0 0 40px 20px;
     float: left
 }
 
-#CM021_gameFilter .tab.layout-not-signed-in .wrapper&gt;*:first-child {
+#CM021_gameFilter .tab.layout-not-signed-in .wrapper>*:first-child {
     margin-left: 0
 }
 
-#CM021_gameFilter .tab.layout-not-signed-in .wrapper&gt;img {
+#CM021_gameFilter .tab.layout-not-signed-in .wrapper>img {
     margin-bottom: 0;
     margin-top: -5px
 }
@@ -26929,12 +26929,12 @@ ul.carousel.carousel-type-image ~ .control-panel {
     font-weight: normal
 }
 
-#CM021_gameFilter .tab.layout-not-signed-in .wrapper .buttons&gt;a {
+#CM021_gameFilter .tab.layout-not-signed-in .wrapper .buttons>a {
     float: left;
     margin-left: 20px
 }
 
-#CM021_gameFilter .tab.layout-not-signed-in .wrapper .buttons&gt;a:first-child {
+#CM021_gameFilter .tab.layout-not-signed-in .wrapper .buttons>a:first-child {
     margin-left: 0
 }
 
@@ -27129,15 +27129,15 @@ ul.carousel.carousel-type-image ~ .control-panel {
         white-space: nowrap
     }
 
-    #CM021_gameFilter .device-filters a .image-wrap&gt;div.fw {
+    #CM021_gameFilter .device-filters a .image-wrap>div.fw {
         display: none
     }
 
-    #CM021_gameFilter .device-filters a .image-wrap&gt;div.tb {
+    #CM021_gameFilter .device-filters a .image-wrap>div.tb {
         display: inline-block
     }
 
-    .lt-ie8 #CM021_gameFilter .device-filters a .image-wrap&gt;div.tb {
+    .lt-ie8 #CM021_gameFilter .device-filters a .image-wrap>div.tb {
         display: inline;
         zoom: 1
     }
@@ -28376,7 +28376,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     font-size: 2.1em
 }
 
-.accordion-knowledge-base .item&gt;div&gt;a:link,#accordion-knowledge-base .item&gt;div&gt;a:visited,#accordion-knowledge-base .item&gt;div&gt;a:hover {
+.accordion-knowledge-base .item>div>a:link,#accordion-knowledge-base .item>div>a:visited,#accordion-knowledge-base .item>div>a:hover {
     text-decoration: none;
     color: white
 }
@@ -28401,7 +28401,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     outline: 0
 }
 
-.accordion-knowledge-base&gt;.wrapper {
+.accordion-knowledge-base>.wrapper {
     margin: 0 auto;
     max-width: 940px;
     padding: 0 20px
@@ -28456,19 +28456,19 @@ ul.carousel.carousel-type-image ~ .control-panel {
     background-position: 0 -57px
 }
 
-.accordion-knowledge-base .item&gt;div&gt;a {
+.accordion-knowledge-base .item>div>a {
     display: block;
     background-color: #f5f5f5;
     font-size: 1.4em;
     text-decoration: none
 }
 
-.accordion-knowledge-base .item&gt;div&gt;a&gt;div {
+.accordion-knowledge-base .item>div>a>div {
     display: table;
     width: 100%
 }
 
-.accordion-knowledge-base .item&gt;div&gt;a span {
+.accordion-knowledge-base .item>div>a span {
     padding: 15px 20px;
     display: table-cell;
     vertical-align: middle;
@@ -28476,7 +28476,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     color: #363636
 }
 
-.accordion-knowledge-base .item:nth-child(2n)&gt;div&gt;a {
+.accordion-knowledge-base .item:nth-child(2n)>div>a {
     background-color: #fff;
     color: #000
 }
@@ -28493,7 +28493,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     border-top: 2px solid #f5f5f5
 }
 
-.accordion-knowledge-base .item&gt;div&gt;a span.itemno {
+.accordion-knowledge-base .item>div>a span.itemno {
     color: #3f87c9;
     font-size: 1.4em;
     border-right: 2px solid #fff;
@@ -28569,23 +28569,23 @@ ul.carousel.carousel-type-image ~ .control-panel {
     }
 }
 
-.accordion-knowledge-base a.linkHeader span.toggle-me&gt;div {
+.accordion-knowledge-base a.linkHeader span.toggle-me>div {
     background: url("clientlibs_base/images/arrow_right.png") no-repeat 3px 0;
     width: 20px;
     height: 20px
 }
 
-.accordion-knowledge-base a:hover.linkHeader span.toggle-me&gt;div {
+.accordion-knowledge-base a:hover.linkHeader span.toggle-me>div {
     background-position: 3px -28px
 }
 
-.accordion-knowledge-base .item&gt;div&gt;a:hover {
+.accordion-knowledge-base .item>div>a:hover {
     color: #fff;
     cursor: pointer;
     background-color: #3f87c9 !important
 }
 
-.accordion-knowledge-base .item&gt;div&gt;a:hover span {
+.accordion-knowledge-base .item>div>a:hover span {
     color: #fff
 }
 
@@ -28746,7 +28746,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     margin-bottom: 30px
 }
 
-.page-section-par&gt;.cookieAcceptance .pdc-legal-cookie {
+.page-section-par>.cookieAcceptance .pdc-legal-cookie {
     width: 100%;
     max-width: 940px;
     margin: 0 0 25px 0;
@@ -28755,7 +28755,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
 }
 
 @media screen and (min-width:1023px) {
-    .page-section-par&gt;.cookieAcceptance .pdc-legal-cookie {
+    .page-section-par>.cookieAcceptance .pdc-legal-cookie {
         margin-left: auto;
         margin-right: auto;
         padding: 0
@@ -32207,7 +32207,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     width: 90%
 }
 
-.notificationWall .sort-tab-section&gt;span {
+.notificationWall .sort-tab-section>span {
     display: inline-block
 }
 
@@ -32221,7 +32221,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     margin: 10px 0 0 0
 }
 
-.notificationWall .sort-tab-section .socialview&gt;li {
+.notificationWall .sort-tab-section .socialview>li {
     display: inline-block;
     height: 25px;
     line-height: 25px;
@@ -32236,7 +32236,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     }
 }
 
-.notificationWall .sort-tab-section .socialview&gt;li:hover,.notificationWall .sort-tab-section .socialview&gt;li.selected {
+.notificationWall .sort-tab-section .socialview>li:hover,.notificationWall .sort-tab-section .socialview>li.selected {
     background: #e5e5e5;
     cursor: pointer
 }
@@ -32277,7 +32277,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     position: relative
 }
 
-.wishlistModule .game-tile&gt;.tile {
+.wishlistModule .game-tile>.tile {
     display: block;
     position: relative;
     text-decoration: none;
@@ -32289,7 +32289,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     height: 260px
 }
 
-.wishlistModule .game-tile&gt;.tile .game-tile-util {
+.wishlistModule .game-tile>.tile .game-tile-util {
     position: absolute;
     top: 0;
     left: 0;
@@ -32305,20 +32305,20 @@ ul.carousel.carousel-type-image ~ .control-panel {
     z-index: 2
 }
 
-.wishlistModule .lt-ie9 .game-tile&gt;.tile .game-tile-util {
+.wishlistModule .lt-ie9 .game-tile>.tile .game-tile-util {
     background-color: black;
     filter: alpha(opacity=80)
 }
 
-.wishlistModule .game-tile&gt;.tile .game-tile-util .max {
+.wishlistModule .game-tile>.tile .game-tile-util .max {
     font-size: 14px
 }
 
-.wishlistModule .game-tile&gt;.tile .game-tile-util.score {
+.wishlistModule .game-tile>.tile .game-tile-util.score {
     color: #e55526
 }
 
-.wishlistModule .game-tile&gt;.tile .text-stripe {
+.wishlistModule .game-tile>.tile .text-stripe {
     font-family: Helvetica;
     background-color: rgba(0,0,0,0.8);
     position: absolute;
@@ -32329,29 +32329,29 @@ ul.carousel.carousel-type-image ~ .control-panel {
     font-size: 12px
 }
 
-.wishlistModule .lt-ie9 .game-tile&gt;.tile .text-stripe {
+.wishlistModule .lt-ie9 .game-tile>.tile .text-stripe {
     background-color: black;
     filter: alpha(opacity=80)
 }
 
-.wishlistModule .game-tile&gt;.tile .text-stripe .keyword {
+.wishlistModule .game-tile>.tile .text-stripe .keyword {
     color: #00a2ff;
     margin-right: 6px
 }
 
-.wishlistModule .game-tile&gt;.tile .text-stripe .text {
+.wishlistModule .game-tile>.tile .text-stripe .text {
     color: #fff
 }
 
-.wishlistModule .game-tile&gt;.tile .text-stripe.award .keyword {
+.wishlistModule .game-tile>.tile .text-stripe.award .keyword {
     color: #fedc01
 }
 
-.wishlistModule .game-tile&gt;.tile .game-tile-details span {
+.wishlistModule .game-tile>.tile .game-tile-details span {
     color: #0068bf
 }
 
-.wishlistModule .game-tile&gt;.tile .game-tile-details a.title {
+.wishlistModule .game-tile>.tile .game-tile-details a.title {
     color: #3a3a3a
 }
 
@@ -32442,7 +32442,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     clear: both
 }
 
-.wishlistModule .game-tile .game-tile-hover .game-tile-details div.possession&gt;a:hover {
+.wishlistModule .game-tile .game-tile-hover .game-tile-details div.possession>a:hover {
     background-color: #424242
 }
 
@@ -32489,7 +32489,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     position: relative
 }
 
-.wishlistModule .game-tile .game-tile-details&gt;span {
+.wishlistModule .game-tile .game-tile-details>span {
     margin: 0;
     text-align: left;
     color: #747474;
@@ -32532,7 +32532,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     right: 0
 }
 
-.wishlistModule .game-tile .possession&gt;a {
+.wishlistModule .game-tile .possession>a {
     width: 16px;
     height: 16px;
     float: left;
@@ -32542,7 +32542,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     margin-left: 2px
 }
 
-.wishlistModule .game-tile .possession&gt;a&gt;span {
+.wishlistModule .game-tile .possession>a>span {
     background: url('clientlibs_base/images/CM091_gameTiles/util/possession_sprite.png') no-repeat;
     height: 16px;
     width: 16px;
@@ -32553,23 +32553,23 @@ ul.carousel.carousel-type-image ~ .control-panel {
     outline: 0
 }
 
-.wishlistModule .game-tile .possession&gt;a.want-it&gt;span {
+.wishlistModule .game-tile .possession>a.want-it>span {
     background-position: center 0
 }
 
-.wishlistModule .game-tile .possession&gt;a.have-it&gt;span {
+.wishlistModule .game-tile .possession>a.have-it>span {
     background-position: center bottom
 }
 
-.wishlistModule .game-tile .possession&gt;a:hover {
+.wishlistModule .game-tile .possession>a:hover {
     background-color: #e3e3e3
 }
 
-.wishlistModule .game-tile.want-it .possession&gt;a.want-it&gt;span {
+.wishlistModule .game-tile.want-it .possession>a.want-it>span {
     background-position: center top
 }
 
-.wishlistModule .game-tile.have-it .possession&gt;a.have-it&gt;span {
+.wishlistModule .game-tile.have-it .possession>a.have-it>span {
     background-position: center -30px
 }
 
@@ -32800,7 +32800,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     cursor: pointer
 }
 
-.wishlistModule .game-tile .possession&gt;a:hover {
+.wishlistModule .game-tile .possession>a:hover {
     background: 0
 }
 
@@ -33092,7 +33092,7 @@ ul.carousel.carousel-type-image ~ .control-panel {
     visibility: visible
 }
 
-.trophyFinderModule .moduleHeader .CC034-sortBy&gt;.genericButtonRow {
+.trophyFinderModule .moduleHeader .CC034-sortBy>.genericButtonRow {
     margin-right: 10px
 }
 
@@ -34416,7 +34416,7 @@ h4.lastseen {
     cursor: pointer
 }
 
-.mywall .container .image_thumb&gt;a.trophy {
+.mywall .container .image_thumb>a.trophy {
     cursor: default
 }
 
@@ -37969,12 +37969,12 @@ html.isFullScreenMode {
     padding: 30px 0
 }
 
-.pdc-support .content_par&gt;.section {
+.pdc-support .content_par>.section {
     padding-bottom: 40px
 }
 
 @media screen and (min-width:700px) {
-    .pdc-support .content_par&gt;.section {
+    .pdc-support .content_par>.section {
         padding-bottom: 80px
     }
 }
@@ -38621,7 +38621,7 @@ html.isFullScreenMode {
     background-color: rgba(60,174,251,0.1)
 }
 
-.support-list ul li a,.support-list ul li&gt;div {
+.support-list ul li a,.support-list ul li>div {
     display: block;
     height: auto;
     font-family: 'SST W01 Roman','SST W02 Roman','SST W10 Roman','SST W15 Roman',Arial,Helvetica,sans-serif;
@@ -38631,7 +38631,7 @@ html.isFullScreenMode {
 }
 
 @media screen and (min-width:700px) {
-    .support-list ul li a,.support-list ul li&gt;div {
+    .support-list ul li a,.support-list ul li>div {
         font-weight: bold;
         font-size: 18px
     }
@@ -38950,12 +38950,12 @@ p.jsonError {
         padding: 0
     }
 
-    .support-contact-us .module.twitter&gt;a,.support-contact-us .module.email&gt;a {
+    .support-contact-us .module.twitter>a,.support-contact-us .module.email>a {
         padding: 32px 20px 30px;
         display: block
     }
 
-    .support-contact-us .module.twitter&gt;a {
+    .support-contact-us .module.twitter>a {
         padding-top: 90px
     }
 }
@@ -42505,7 +42505,7 @@ meta.foundation-data-attribute-namespace {
     display: flex
 }
 
-#sb .sb-notification-detail__content-table-row&gt;div {
+#sb .sb-notification-detail__content-table-row>div {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1

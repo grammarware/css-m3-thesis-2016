@@ -1894,7 +1894,7 @@ hr {
     overflow: hidden
 }
 
-.casestudy-teaser&gt;:not(.casestudy-bg) {
+.casestudy-teaser>:not(.casestudy-bg) {
     position: relative;
     z-index: 2
 }
@@ -1995,25 +1995,25 @@ hr {
     font-size: 16px
 }
 
-.casestudy-body&gt;p {
+.casestudy-body>p {
     margin-bottom: 24px;
     color: #586069
 }
 
-.casestudy-body&gt;p:first-child {
+.casestudy-body>p:first-child {
     -webkit-font-smoothing: antialiased;
     font-size: 21px;
     font-weight: 300
 }
 
 @media (min-width: 768px) {
-    .casestudy-body&gt;p:first-child {
+    .casestudy-body>p:first-child {
         font-size: 24px
     }
 }
 
 @media (min-width: 1012px) {
-    .casestudy-body&gt;p:first-child {
+    .casestudy-body>p:first-child {
         font-size: 26px
     }
 }
@@ -2648,7 +2648,7 @@ body:not(.page-responsive) .site-footer-marketing .site-footer-marketing-col {
     padding-left: 24px
 }
 
-.icon-cta&gt;.octicon {
+.icon-cta>.octicon {
     float: left;
     width: 16px;
     margin-top: 0.1em;
@@ -3212,15 +3212,15 @@ div.CodeMirror-dragcursors {
     cursor: crosshair
 }
 
-.CodeMirror-line::-moz-selection,.CodeMirror-line&gt;span::-moz-selection,.CodeMirror-line&gt;span&gt;span::-moz-selection {
+.CodeMirror-line::-moz-selection,.CodeMirror-line>span::-moz-selection,.CodeMirror-line>span>span::-moz-selection {
     background: #d7d4f0
 }
 
-.CodeMirror-line::selection,.CodeMirror-line&gt;span::selection,.CodeMirror-line&gt;span&gt;span::selection {
+.CodeMirror-line::selection,.CodeMirror-line>span::selection,.CodeMirror-line>span>span::selection {
     background: #d7d4f0
 }
 
-.CodeMirror-line::-moz-selection,.CodeMirror-line&gt;span::-moz-selection,.CodeMirror-line&gt;span&gt;span::-moz-selection {
+.CodeMirror-line::-moz-selection,.CodeMirror-line>span::-moz-selection,.CodeMirror-line>span>span::-moz-selection {
     background: #d7d4f0
 }
 
@@ -3486,7 +3486,7 @@ body.chrome-mouse button:focus {
     border-radius: 0
 }
 
-.container-preview .tabnav-tabs&gt;.selected:first-child {
+.container-preview .tabnav-tabs>.selected:first-child {
     border-top-left-radius: 3px
 }
 
@@ -5432,36 +5432,36 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     vertical-align: middle
 }
 
-dl.form-group&gt;dd .form-control.is-autocheck-loading,dl.form-group&gt;dd .form-control.is-autocheck-successful,dl.form-group&gt;dd .form-control.is-autocheck-errored {
+dl.form-group>dd .form-control.is-autocheck-loading,dl.form-group>dd .form-control.is-autocheck-successful,dl.form-group>dd .form-control.is-autocheck-errored {
     padding-right: 30px
 }
 
-dl.form-group&gt;dd .form-control.is-autocheck-loading {
+dl.form-group>dd .form-control.is-autocheck-loading {
     background-image: url("/images/spinners/octocat-spinner-16px.gif")
 }
 
-dl.form-group&gt;dd .form-control.is-autocheck-successful {
+dl.form-group>dd .form-control.is-autocheck-successful {
     background-image: url("/images/modules/ajax/success.png")
 }
 
-dl.form-group&gt;dd .form-control.is-autocheck-errored {
+dl.form-group>dd .form-control.is-autocheck-errored {
     background-image: url("/images/modules/ajax/error.png")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-    dl.form-group&gt;dd .form-control.is-autocheck-loading,dl.form-group&gt;dd .form-control.is-autocheck-successful,dl.form-group&gt;dd .form-control.is-autocheck-errored {
+    dl.form-group>dd .form-control.is-autocheck-loading,dl.form-group>dd .form-control.is-autocheck-successful,dl.form-group>dd .form-control.is-autocheck-errored {
         background-size: 16px 16px
     }
 
-    dl.form-group&gt;dd .form-control.is-autocheck-loading {
+    dl.form-group>dd .form-control.is-autocheck-loading {
         background-image: url("/images/spinners/octocat-spinner-32.gif")
     }
 
-    dl.form-group&gt;dd .form-control.is-autocheck-successful {
+    dl.form-group>dd .form-control.is-autocheck-successful {
         background-image: url("/images/modules/ajax/success@2x.png")
     }
 
-    dl.form-group&gt;dd .form-control.is-autocheck-errored {
+    dl.form-group>dd .form-control.is-autocheck-errored {
         background-image: url("/images/modules/ajax/error@2x.png")
     }
 }
@@ -5513,22 +5513,22 @@ dl.form-group&gt;dd .form-control.is-autocheck-errored {
     opacity: 0.2
 }
 
-.form-cards&gt;.cards {
+.form-cards>.cards {
     margin: 0
 }
 
-.form-cards&gt;.cards&gt;li {
+.form-cards>.cards>li {
     float: left;
     margin: 0 4px 0 0;
     list-style-type: none
 }
 
-.form-cards&gt;.cards&gt;li.text {
+.form-cards>.cards>li.text {
     line-height: 31px
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-    .form-cards&gt;.cards .card {
+    .form-cards>.cards .card {
         background-image: url("/images/modules/pricing/credit-cards-@2x.png");
         background-size: 300px 31px
     }
@@ -6184,7 +6184,7 @@ p.explain .minibutton {
     margin-left: -8px
 }
 
-.gut-sm&gt;[class*="col-"] {
+.gut-sm>[class*="col-"] {
     padding-right: 8px !important;
     padding-left: 8px !important
 }
@@ -6194,7 +6194,7 @@ p.explain .minibutton {
     margin-left: -16px
 }
 
-.gut-md&gt;[class*="col-"] {
+.gut-md>[class*="col-"] {
     padding-right: 16px !important;
     padding-left: 16px !important
 }
@@ -6204,7 +6204,7 @@ p.explain .minibutton {
     margin-left: -24px
 }
 
-.gut-lg&gt;[class*="col-"] {
+.gut-lg>[class*="col-"] {
     padding-right: 24px !important;
     padding-left: 24px !important
 }
@@ -6615,7 +6615,7 @@ p.explain .minibutton {
     color: #586069
 }
 
-.tabnav-extra&gt;.octicon {
+.tabnav-extra>.octicon {
     margin-right: 2px
 }
 
@@ -12229,11 +12229,11 @@ a.tabnav-extra:hover {
     content: ""
 }
 
-.markdown-body&gt;*:first-child {
+.markdown-body>*:first-child {
     margin-top: 0 !important
 }
 
-.markdown-body&gt;*:last-child {
+.markdown-body>*:last-child {
     margin-bottom: 0 !important
 }
 
@@ -12276,11 +12276,11 @@ a.tabnav-extra:hover {
     border-left: 0.25em solid #dfe2e5
 }
 
-.markdown-body blockquote&gt;:first-child {
+.markdown-body blockquote>:first-child {
     margin-top: 0
 }
 
-.markdown-body blockquote&gt;:last-child {
+.markdown-body blockquote>:last-child {
     margin-bottom: 0
 }
 
@@ -12366,7 +12366,7 @@ a.tabnav-extra:hover {
     margin-bottom: 0
 }
 
-.markdown-body li&gt;p {
+.markdown-body li>p {
     margin-top: 16px
 }
 
@@ -12444,7 +12444,7 @@ a.tabnav-extra:hover {
     overflow: hidden
 }
 
-.markdown-body span.frame&gt;span {
+.markdown-body span.frame>span {
     display: block;
     float: left;
     width: auto;
@@ -12472,7 +12472,7 @@ a.tabnav-extra:hover {
     clear: both
 }
 
-.markdown-body span.align-center&gt;span {
+.markdown-body span.align-center>span {
     display: block;
     margin: 13px auto 0;
     overflow: hidden;
@@ -12490,7 +12490,7 @@ a.tabnav-extra:hover {
     clear: both
 }
 
-.markdown-body span.align-right&gt;span {
+.markdown-body span.align-right>span {
     display: block;
     margin: 13px 0 0;
     overflow: hidden;
@@ -12520,7 +12520,7 @@ a.tabnav-extra:hover {
     overflow: hidden
 }
 
-.markdown-body span.float-right&gt;span {
+.markdown-body span.float-right>span {
     display: block;
     margin: 13px auto 0;
     overflow: hidden;
@@ -12554,7 +12554,7 @@ a.tabnav-extra:hover {
     word-wrap: normal
 }
 
-.markdown-body pre&gt;code {
+.markdown-body pre>code {
     padding: 0;
     margin: 0;
     font-size: 100%;
@@ -13009,7 +13009,7 @@ a.tabnav-extra:hover {
     font-size: 12px
 }
 
-.boxed-group&gt;h3,.boxed-group .heading {
+.boxed-group>h3,.boxed-group .heading {
     display: block;
     padding: 9px 10px 10px;
     margin: 0;
@@ -13021,17 +13021,17 @@ a.tabnav-extra:hover {
     border-radius: 3px 3px 0 0
 }
 
-.boxed-group&gt;h3 a,.boxed-group .heading a {
+.boxed-group>h3 a,.boxed-group .heading a {
     color: inherit
 }
 
-.boxed-group&gt;h3 a.boxed-group-breadcrumb,.boxed-group .heading a.boxed-group-breadcrumb {
+.boxed-group>h3 a.boxed-group-breadcrumb,.boxed-group .heading a.boxed-group-breadcrumb {
     font-weight: normal;
     color: #586069;
     text-decoration: none
 }
 
-.boxed-group&gt;h3 .avatar,.boxed-group .heading .avatar {
+.boxed-group>h3 .avatar,.boxed-group .heading .avatar {
     margin-top: -4px
 }
 
@@ -13057,7 +13057,7 @@ a.tabnav-extra:hover {
     font-size: 12px
 }
 
-.boxed-group.dangerzone&gt;h3 {
+.boxed-group.dangerzone>h3 {
     color: #fff;
     background-color: #d73a49;
     border: 1px solid #9e1c23
@@ -13067,12 +13067,12 @@ a.tabnav-extra:hover {
     border-top: 0
 }
 
-.boxed-group.condensed&gt;h3 {
+.boxed-group.condensed>h3 {
     padding: 6px 6px 7px;
     font-size: 12px
 }
 
-.boxed-group.condensed&gt;h3 .octicon {
+.boxed-group.condensed>h3 .octicon {
     padding: 0 6px 0 2px
 }
 
@@ -13173,18 +13173,18 @@ a.tabnav-extra:hover {
     margin: -6px 0 13px
 }
 
-.compact-options&gt;li {
+.compact-options>li {
     display: inline-block;
     margin: 0 12px 0 0;
     font-weight: 600;
     list-style-type: none
 }
 
-.compact-options&gt;li label {
+.compact-options>li label {
     float: left
 }
 
-.compact-options&gt;li .spinner {
+.compact-options>li .spinner {
     display: block;
     float: left;
     width: 16px;
@@ -13197,11 +13197,11 @@ a.tabnav-extra:hover {
     list-style: none
 }
 
-.boxed-group-list:first-child&gt;li:first-child {
+.boxed-group-list:first-child>li:first-child {
     border-top: 0
 }
 
-.boxed-group-list&gt;li {
+.boxed-group-list>li {
     display: block;
     padding: 5px 10px;
     margin-right: -10px;
@@ -13210,46 +13210,46 @@ a.tabnav-extra:hover {
     border-bottom: 1px solid #e1e4e8
 }
 
-.boxed-group-list&gt;li:first-child {
+.boxed-group-list>li:first-child {
     border-top: 1px solid #dfe2e5
 }
 
-.boxed-group-list&gt;li:last-of-type {
+.boxed-group-list>li:last-of-type {
     border-bottom: 0
 }
 
-.boxed-group-list&gt;li.selected {
+.boxed-group-list>li.selected {
     background: #dcffe4
 }
 
-.boxed-group-list&gt;li.approved .btn-sm,.boxed-group-list&gt;li.rejected .btn-sm {
+.boxed-group-list>li.approved .btn-sm,.boxed-group-list>li.rejected .btn-sm {
     display: none
 }
 
-.boxed-group-list&gt;li.rejected a {
+.boxed-group-list>li.rejected a {
     text-decoration: line-through
 }
 
-.boxed-group-list&gt;li .avatar {
+.boxed-group-list>li .avatar {
     margin-top: -2px;
     margin-right: 4px
 }
 
-.boxed-group-list&gt;li .octicon {
+.boxed-group-list>li .octicon {
     width: 24px;
     margin-right: 4px
 }
 
-.boxed-group-list&gt;li .btn-sm {
+.boxed-group-list>li .btn-sm {
     float: right;
     margin: -1px 0 0 10px
 }
 
-.boxed-group-list&gt;li .BtnGroup {
+.boxed-group-list>li .BtnGroup {
     float: right
 }
 
-.boxed-group-list&gt;li .BtnGroup .btn-sm {
+.boxed-group-list>li .BtnGroup .btn-sm {
     float: left
 }
 
@@ -13264,7 +13264,7 @@ a.tabnav-extra:hover {
     margin-top: -1px
 }
 
-.boxed-group-list.standalone&gt;li:first-child {
+.boxed-group-list.standalone>li:first-child {
     border-top: 0
 }
 
@@ -13273,7 +13273,7 @@ a.tabnav-extra:hover {
     margin-bottom: -10px
 }
 
-.boxed-group-standalone&gt;li:last-child {
+.boxed-group-standalone>li:last-child {
     border-radius: 0 0 2px 2px
 }
 
@@ -13316,7 +13316,7 @@ a.tabnav-extra:hover {
     display: block
 }
 
-.ajax-error-message&gt;.octicon-alert {
+.ajax-error-message>.octicon-alert {
     vertical-align: text-top
 }
 
@@ -13555,7 +13555,7 @@ a.commit-ref:hover {
     border-bottom: 1px solid #eaecef
 }
 
-.capped-card&gt;p {
+.capped-card>p {
     display: block;
     padding: 0 10px 10px;
     margin: 0;
@@ -14178,11 +14178,11 @@ a.commit-ref:hover {
     min-height: 0
 }
 
-.timeline-commits .commit-message&gt;code a {
+.timeline-commits .commit-message>code a {
     color: #444d56
 }
 
-.timeline-commits .commit-message&gt;code a:hover {
+.timeline-commits .commit-message>code a:hover {
     color: #0366d6
 }
 
@@ -14353,17 +14353,17 @@ a.commit-ref:hover {
     color: #586069
 }
 
-.full-commit .sha-block&gt;.sha {
+.full-commit .sha-block>.sha {
     color: #444d56
 }
 
-.full-commit .sha-block&gt;a {
+.full-commit .sha-block>a {
     color: #444d56;
     text-decoration: none;
     border-bottom: 1px dotted #c6cbd1
 }
 
-.full-commit .sha-block&gt;a:hover {
+.full-commit .sha-block>a:hover {
     border-bottom: 1px solid #444d56
 }
 
@@ -14686,7 +14686,7 @@ a.commit-ref:hover {
     border-top: 1px solid #eaecef
 }
 
-.table-of-contents li&gt;.octicon {
+.table-of-contents li>.octicon {
     margin-right: 3px
 }
 
@@ -14782,53 +14782,53 @@ a.commit-ref:hover {
     color: #6a737d
 }
 
-.simple-conversation-list&gt;li {
+.simple-conversation-list>li {
     padding: 11px 0 8px;
     margin: 0;
     list-style-type: none;
     border-top: 1px solid #f6f8fa
 }
 
-.simple-conversation-list&gt;li:first-child {
+.simple-conversation-list>li:first-child {
     border-top: 0
 }
 
-.simple-conversation-list&gt;li .title {
+.simple-conversation-list>li .title {
     font-weight: 600
 }
 
-.simple-conversation-list&gt;li .num {
+.simple-conversation-list>li .num {
     color: #6a737d
 }
 
-.simple-conversation-list&gt;li .state {
+.simple-conversation-list>li .state {
     padding-top: 2px;
     padding-bottom: 2px;
     margin-top: -3px;
     margin-right: 3px
 }
 
-.simple-conversation-list&gt;li .meta {
+.simple-conversation-list>li .meta {
     float: right;
     margin-left: 10px
 }
 
-.simple-conversation-list.varied-states&gt;li {
+.simple-conversation-list.varied-states>li {
     padding-left: 90px
 }
 
-.simple-conversation-list.varied-states&gt;li::before {
+.simple-conversation-list.varied-states>li::before {
     display: table;
     content: ""
 }
 
-.simple-conversation-list.varied-states&gt;li::after {
+.simple-conversation-list.varied-states>li::after {
     display: table;
     clear: both;
     content: ""
 }
 
-.simple-conversation-list.varied-states&gt;li .state {
+.simple-conversation-list.varied-states>li .state {
     float: left;
     width: 80px;
     margin-left: -90px
@@ -15686,7 +15686,7 @@ button.discussion-sidebar-toggle {
     border-color: #e1e4e8
 }
 
-.timeline-comment-wrapper&gt;.timeline-comment::after,.timeline-comment-wrapper&gt;.timeline-comment::before,.timeline-new-comment .timeline-comment::after,.timeline-new-comment .timeline-comment::before {
+.timeline-comment-wrapper>.timeline-comment::after,.timeline-comment-wrapper>.timeline-comment::before,.timeline-new-comment .timeline-comment::after,.timeline-new-comment .timeline-comment::before {
     position: absolute;
     top: 11px;
     right: 100%;
@@ -15700,14 +15700,14 @@ button.discussion-sidebar-toggle {
     border-style: solid solid outset
 }
 
-.timeline-comment-wrapper&gt;.timeline-comment::after,.timeline-new-comment .timeline-comment::after {
+.timeline-comment-wrapper>.timeline-comment::after,.timeline-new-comment .timeline-comment::after {
     margin-top: 1px;
     margin-left: 2px;
     border-width: 7px;
     border-right-color: #f6f8fa
 }
 
-.timeline-comment-wrapper&gt;.timeline-comment::before,.timeline-new-comment .timeline-comment::before {
+.timeline-comment-wrapper>.timeline-comment::before,.timeline-new-comment .timeline-comment::before {
     border-width: 8px;
     border-right-color: #d1d5da
 }
@@ -16673,7 +16673,7 @@ button.discussion-sidebar-toggle {
     background-color: #0366d6
 }
 
-.dropdown-item:hover&gt;.octicon,.dropdown-item.zeroclipboard-is-hover&gt;.octicon {
+.dropdown-item:hover>.octicon,.dropdown-item.zeroclipboard-is-hover>.octicon {
     color: inherit;
     opacity: 1
 }
@@ -17935,7 +17935,7 @@ body {
     transform: translateZ(0)
 }
 
-.animated-ellipsis-container&gt;.animated-ellipsis {
+.animated-ellipsis-container>.animated-ellipsis {
     display: inline-block;
     overflow: hidden;
     vertical-align: bottom;
@@ -18026,7 +18026,7 @@ body {
     color: inherit
 }
 
-.pagehead-actions&gt;li {
+.pagehead-actions>li {
     float: left;
     margin: 0 10px 0 0;
     font-size: 11px;
@@ -18034,7 +18034,7 @@ body {
     list-style-type: none
 }
 
-.pagehead-actions&gt;li:last-child {
+.pagehead-actions>li:last-child {
     margin-right: 0
 }
 
@@ -18091,7 +18091,7 @@ body {
     border-color: #e36209 #e1e4e8 transparent
 }
 
-.pagehead-tabs-item.selected&gt;.octicon {
+.pagehead-tabs-item.selected>.octicon {
     color: inherit
 }
 
@@ -18206,7 +18206,7 @@ body {
     border-color: #e36209 #e1e4e8 transparent
 }
 
-.reponav-item.selected&gt;.octicon {
+.reponav-item.selected>.octicon {
     color: inherit
 }
 
@@ -18459,7 +18459,7 @@ body {
     color: #000
 }
 
-.prose-diff.collapsed .rich-diff-level-zero.expandable&gt;.removed,.prose-diff.collapsed .rich-diff-level-zero.expandable&gt;del {
+.prose-diff.collapsed .rich-diff-level-zero.expandable>.removed,.prose-diff.collapsed .rich-diff-level-zero.expandable>del {
     display: none;
     text-decoration: none
 }
@@ -18469,25 +18469,25 @@ body {
     padding-left: 15px
 }
 
-.prose-diff .markdown-body&gt;ins {
+.prose-diff .markdown-body>ins {
     box-shadow: inset 4px 0 0 #7fcb5c
 }
 
-.prose-diff .markdown-body&gt;del {
+.prose-diff .markdown-body>del {
     text-decoration: none;
     box-shadow: inset 4px 0 0 #c94114
 }
 
-.prose-diff .markdown-body&gt;ins,.prose-diff .markdown-body&gt;del {
+.prose-diff .markdown-body>ins,.prose-diff .markdown-body>del {
     display: block;
     border-radius: 0
 }
 
-.prose-diff .markdown-body&gt;ins&gt;.rich-diff-level-zero,.prose-diff .markdown-body&gt;ins&gt;.rich-diff-level-one,.prose-diff .markdown-body&gt;del&gt;.rich-diff-level-zero,.prose-diff .markdown-body&gt;del&gt;.rich-diff-level-one {
+.prose-diff .markdown-body>ins>.rich-diff-level-zero,.prose-diff .markdown-body>ins>.rich-diff-level-one,.prose-diff .markdown-body>del>.rich-diff-level-zero,.prose-diff .markdown-body>del>.rich-diff-level-one {
     margin-left: 15px
 }
 
-.prose-diff .markdown-body&gt;ins:first-child *,.prose-diff .markdown-body&gt;del:first-child * {
+.prose-diff .markdown-body>ins:first-child *,.prose-diff .markdown-body>del:first-child * {
     margin-top: 0
 }
 
@@ -18512,7 +18512,7 @@ body {
     border-radius: 0
 }
 
-.prose-diff .rich-diff-level-zero.added&gt;.rich-diff-level-one,.prose-diff .rich-diff-level-zero.removed&gt;.rich-diff-level-one,.prose-diff .rich-diff-level-zero.changed&gt;.rich-diff-level-one {
+.prose-diff .rich-diff-level-zero.added>.rich-diff-level-one,.prose-diff .rich-diff-level-zero.removed>.rich-diff-level-one,.prose-diff .rich-diff-level-zero.changed>.rich-diff-level-one {
     margin-left: 15px
 }
 
@@ -18520,11 +18520,11 @@ body {
     margin-top: 0
 }
 
-.prose-diff :not(.changed)&gt;:not(.github-user-ins):not(.github-user-del)&gt;.removed,.prose-diff :not(.changed)&gt;:not(.github-user-ins):not(.github-user-del)&gt;del {
+.prose-diff :not(.changed)>:not(.github-user-ins):not(.github-user-del)>.removed,.prose-diff :not(.changed)>:not(.github-user-ins):not(.github-user-del)>del {
     text-decoration: none
 }
 
-.prose-diff .changed del,.prose-diff .changed del pre,.prose-diff .changed del code,.prose-diff .changed del&gt;div,.prose-diff .changed .removed,.prose-diff .changed .removed pre,.prose-diff .changed .removed code,.prose-diff .changed .removed&gt;div {
+.prose-diff .changed del,.prose-diff .changed del pre,.prose-diff .changed del code,.prose-diff .changed del>div,.prose-diff .changed .removed,.prose-diff .changed .removed pre,.prose-diff .changed .removed code,.prose-diff .changed .removed>div {
     color: #a33;
     text-decoration: line-through;
     background: #ffeaea
@@ -18535,101 +18535,101 @@ body {
     border-bottom: 1px solid #3cb371
 }
 
-.prose-diff&gt;.markdown-body .github-user-ins {
+.prose-diff>.markdown-body .github-user-ins {
     text-decoration: underline
 }
 
-.prose-diff&gt;.markdown-body .github-user-del {
+.prose-diff>.markdown-body .github-user-del {
     text-decoration: line-through
 }
 
-.prose-diff&gt;.markdown-body li ul.added {
+.prose-diff>.markdown-body li ul.added {
     background: #eaffea
 }
 
-.prose-diff&gt;.markdown-body li ul.removed {
+.prose-diff>.markdown-body li ul.removed {
     color: #a33;
     background: #ffeaea
 }
 
-.prose-diff&gt;.markdown-body li ul.removed:not(.github-user-ins) {
+.prose-diff>.markdown-body li ul.removed:not(.github-user-ins) {
     text-decoration: line-through
 }
 
-.prose-diff&gt;.markdown-body li.added.moved-up .octicon,.prose-diff&gt;.markdown-body li.added.moved-down .octicon {
+.prose-diff>.markdown-body li.added.moved-up .octicon,.prose-diff>.markdown-body li.added.moved-down .octicon {
     margin-right: 5px;
     margin-left: 5px;
     color: #d3d3d3
 }
 
-.prose-diff&gt;.markdown-body li.added.moved {
+.prose-diff>.markdown-body li.added.moved {
     background: #ffffea
 }
 
-.prose-diff&gt;.markdown-body li.removed.moved {
+.prose-diff>.markdown-body li.removed.moved {
     display: none
 }
 
-.prose-diff&gt;.markdown-body pre {
+.prose-diff>.markdown-body pre {
     padding: 10px 20px
 }
 
-.prose-diff&gt;.markdown-body th.changed,.prose-diff&gt;.markdown-body td.changed {
+.prose-diff>.markdown-body th.changed,.prose-diff>.markdown-body td.changed {
     background: #ffffea;
     border-left-color: #dfe2e5
 }
 
-.prose-diff&gt;.markdown-body :not(li.moved).removed {
+.prose-diff>.markdown-body :not(li.moved).removed {
     color: #a33;
     text-decoration: line-through;
     background: #ffeaea
 }
 
-.prose-diff&gt;.markdown-body :not(.github-user-ins):not(li.moved).removed {
+.prose-diff>.markdown-body :not(.github-user-ins):not(li.moved).removed {
     text-decoration: line-through
 }
 
-.prose-diff&gt;.markdown-body :not(li.moved).added,.prose-diff&gt;.markdown-body li:not(.moved).added {
+.prose-diff>.markdown-body :not(li.moved).added,.prose-diff>.markdown-body li:not(.moved).added {
     background: #eaffea
 }
 
-.prose-diff&gt;.markdown-body :not(.github-user-del):not(li.moved).added li:not(.moved):not(.github-user-del).added {
+.prose-diff>.markdown-body :not(.github-user-del):not(li.moved).added li:not(.moved):not(.github-user-del).added {
     text-decoration: none
 }
 
-.prose-diff&gt;.markdown-body li:not(.moved).removed {
+.prose-diff>.markdown-body li:not(.moved).removed {
     color: #a33;
     background: #ffeaea
 }
 
-.prose-diff&gt;.markdown-body li:not(.moved):not(.github-user-ins).removed {
+.prose-diff>.markdown-body li:not(.moved):not(.github-user-ins).removed {
     text-decoration: line-through
 }
 
-.prose-diff&gt;.markdown-body .added,.prose-diff&gt;.markdown-body ins+.added,.prose-diff&gt;.markdown-body ins {
+.prose-diff>.markdown-body .added,.prose-diff>.markdown-body ins+.added,.prose-diff>.markdown-body ins {
     border-top: 0;
     border-bottom: 0
 }
 
-.prose-diff&gt;.markdown-body .added:not(.github-user-del):not(.github-user-ins),.prose-diff&gt;.markdown-body ins+.added:not(.github-user-del):not(.github-user-ins),.prose-diff&gt;.markdown-body ins:not(.github-user-del):not(.github-user-ins) {
+.prose-diff>.markdown-body .added:not(.github-user-del):not(.github-user-ins),.prose-diff>.markdown-body ins+.added:not(.github-user-del):not(.github-user-ins),.prose-diff>.markdown-body ins:not(.github-user-del):not(.github-user-ins) {
     text-decoration: none
 }
 
-.prose-diff&gt;.markdown-body img.added,.prose-diff&gt;.markdown-body img.removed {
+.prose-diff>.markdown-body img.added,.prose-diff>.markdown-body img.removed {
     border-style: solid;
     border-width: 1px
 }
 
-.prose-diff&gt;.markdown-body ins pre:not(.github-user-del):not(.github-user-ins),.prose-diff&gt;.markdown-body ins code:not(.github-user-del):not(.github-user-ins),.prose-diff&gt;.markdown-body ins&gt;div:not(.github-user-del):not(.github-user-ins) {
+.prose-diff>.markdown-body ins pre:not(.github-user-del):not(.github-user-ins),.prose-diff>.markdown-body ins code:not(.github-user-del):not(.github-user-ins),.prose-diff>.markdown-body ins>div:not(.github-user-del):not(.github-user-ins) {
     text-decoration: none
 }
 
-.prose-diff&gt;.markdown-body ul&gt;ins,.prose-diff&gt;.markdown-body ul&gt;del {
+.prose-diff>.markdown-body ul>ins,.prose-diff>.markdown-body ul>del {
     display: block;
     padding: 0
 }
 
-.prose-diff&gt;.markdown-body .added&gt;li,.prose-diff&gt;.markdown-body .removed&gt;li {
+.prose-diff>.markdown-body .added>li,.prose-diff>.markdown-body .removed>li {
     margin-top: 0;
     margin-bottom: 0
 }
@@ -19242,7 +19242,7 @@ a.added_href,a.changed_href,span.removed_href {
     background-color: #0366d6
 }
 
-.select-menu-item.navigation-focus&gt;.octicon,.select-menu-item.navigation-focus.selected&gt;.octicon,.select-menu-item.navigation-focus.select-menu-action&gt;.octicon,.select-menu-item.navigation-focus .description-inline&gt;.octicon {
+.select-menu-item.navigation-focus>.octicon,.select-menu-item.navigation-focus.selected>.octicon,.select-menu-item.navigation-focus.select-menu-action>.octicon,.select-menu-item.navigation-focus .description-inline>.octicon {
     color: #fff
 }
 
@@ -19258,15 +19258,15 @@ a.added_href,a.changed_href,span.removed_href {
     color: rgba(255,255,255,0.6)
 }
 
-.select-menu-item&gt;.octicon-dash {
+.select-menu-item>.octicon-dash {
     display: none
 }
 
-.select-menu-item.indeterminate&gt;.octicon-check {
+.select-menu-item.indeterminate>.octicon-check {
     display: none
 }
 
-.select-menu-item.indeterminate&gt;.octicon-dash {
+.select-menu-item.indeterminate>.octicon-dash {
     display: block
 }
 
@@ -19278,7 +19278,7 @@ a.added_href,a.changed_href,span.removed_href {
     color: #586069
 }
 
-.select-menu-item.selected&gt;.octicon {
+.select-menu-item.selected>.octicon {
     color: #24292e
 }
 
@@ -19331,7 +19331,7 @@ a.added_href,a.changed_href,span.removed_href {
     margin-left: -20px
 }
 
-form.select-menu-item&gt;div:first-child {
+form.select-menu-item>div:first-child {
     display: none !important
 }
 
@@ -19345,7 +19345,7 @@ form.select-menu-item&gt;div:first-child {
     color: #444d56
 }
 
-.select-menu-action&gt;.octicon {
+.select-menu-action>.octicon {
     color: inherit
 }
 
@@ -20716,7 +20716,7 @@ body.menu-active .modal-backdrop {
     border-bottom-color: #df6e00
 }
 
-.billing-plans tbody&gt;.selected {
+.billing-plans tbody>.selected {
     background-color: #fdffce
 }
 
@@ -22549,7 +22549,7 @@ body.menu-active .modal-backdrop {
     border-top: 1px solid #e1e4e8
 }
 
-.branch-action-item.open&gt;.merge-status-list {
+.branch-action-item.open>.merge-status-list {
     max-height: 215px;
     margin-bottom: -15px
 }
@@ -22849,33 +22849,33 @@ ul.comparison-list {
     border-radius: 3px
 }
 
-ul.comparison-list&gt;li {
+ul.comparison-list>li {
     padding: 7px 10px;
     list-style-type: none;
     border-top: 1px solid #eaecef
 }
 
-ul.comparison-list&gt;li a {
+ul.comparison-list>li a {
     font-weight: 600
 }
 
-ul.comparison-list&gt;li em {
+ul.comparison-list>li em {
     float: right;
     font-style: normal;
     color: #586069
 }
 
-ul.comparison-list&gt;li .octicon {
+ul.comparison-list>li .octicon {
     position: relative;
     top: 1px;
     color: #a3aab1
 }
 
-ul.comparison-list&gt;li .css-truncate-target {
+ul.comparison-list>li .css-truncate-target {
     max-width: 200px
 }
 
-ul.comparison-list&gt;li.title {
+ul.comparison-list>li.title {
     font-size: 12px;
     font-weight: 600;
     color: #6a737d;
@@ -23657,7 +23657,7 @@ span.no-nl-marker {
     resize: vertical
 }
 
-.contact-github .contact-checklist&gt;li {
+.contact-github .contact-checklist>li {
     margin: 5px 0 5px 18px;
     list-style-position: outside
 }
@@ -24519,15 +24519,15 @@ dl.form.developer-select-account {
     vertical-align: middle
 }
 
-.donut-chart&gt;.error,.donut-chart&gt;.failure {
+.donut-chart>.error,.donut-chart>.failure {
     fill: #cb2431
 }
 
-.donut-chart&gt;.expected,.donut-chart&gt;.pending {
+.donut-chart>.expected,.donut-chart>.pending {
     fill: #dbab09
 }
 
-.donut-chart&gt;.success {
+.donut-chart>.success {
     fill: #2cbe4e
 }
 
@@ -24657,7 +24657,7 @@ dl.form.developer-select-account {
     margin-top: 15px
 }
 
-.repo-collection&gt;ul {
+.repo-collection>ul {
     list-style-type: none;
     background: #f7f7f7;
     border: 1px solid #ddd;
@@ -24760,7 +24760,7 @@ dl.form.developer-select-account {
     background: #f9f9f9
 }
 
-.explore-section:nth-child(even) .repo-collection&gt;ul {
+.explore-section:nth-child(even) .repo-collection>ul {
     background: #fff
 }
 
@@ -25270,7 +25270,7 @@ dl.form.developer-select-account {
     background: url("/images/modules/commit/trans_bg.gif") right bottom #eee
 }
 
-.file .image .view&gt;span {
+.file .image .view>span {
     vertical-align: middle
 }
 
@@ -25495,7 +25495,7 @@ h2.ghead::after {
     margin: 0 auto
 }
 
-.graph-canvas&gt;.activity {
+.graph-canvas>.activity {
     display: none
 }
 
@@ -25503,7 +25503,7 @@ h2.ghead::after {
     display: none
 }
 
-.graph-canvas.is-graph-loading&gt;.activity,.graph-canvas.is-graph-without-usable-data&gt;.activity,.graph-canvas.is-graph-empty&gt;.activity {
+.graph-canvas.is-graph-loading>.activity,.graph-canvas.is-graph-without-usable-data>.activity,.graph-canvas.is-graph-empty>.activity {
     display: block
 }
 
@@ -26405,11 +26405,11 @@ h2.ghead::after {
     padding-top: 1px
 }
 
-.boxed-group-list&gt;li.hook-delivery-item .btn-sm {
+.boxed-group-list>li.hook-delivery-item .btn-sm {
     margin: 0
 }
 
-.boxed-group-list&gt;li.hook-delivery-item .hook-delivery-details .btn-sm {
+.boxed-group-list>li.hook-delivery-item .hook-delivery-details .btn-sm {
     margin: 5px 0 0
 }
 
@@ -26601,7 +26601,7 @@ h2.ghead::after {
     margin-bottom: 10px
 }
 
-dl.form-group&gt;dd .integrations-repository-picker .form-control {
+dl.form-group>dd .integrations-repository-picker .form-control {
     margin-right: 0
 }
 
@@ -27006,7 +27006,7 @@ a.task-progress:hover .progress-bar .progress {
     color: transparent
 }
 
-.label-select-menu&gt;form {
+.label-select-menu>form {
     position: relative
 }
 
@@ -27074,7 +27074,7 @@ body.emoji-size-boost .reaction-sort-item g-emoji {
     float: none
 }
 
-.repository-lang-stats ol.repository-lang-stats-numbers li&gt;a,.repository-lang-stats ol.repository-lang-stats-numbers li&gt;span {
+.repository-lang-stats ol.repository-lang-stats-numbers li>a,.repository-lang-stats ol.repository-lang-stats-numbers li>span {
     font-weight: 600;
     color: #6a737d;
     text-decoration: none
@@ -27422,7 +27422,7 @@ body.emoji-size-boost .reaction-sort-item g-emoji {
     margin: 10px 0
 }
 
-.page-new-repo ul.repo-templates&gt;li {
+.page-new-repo ul.repo-templates>li {
     display: inline-block;
     margin: 0 10px 0 0;
     list-style-type: none
@@ -27746,7 +27746,7 @@ body.emoji-size-boost .reaction-sort-item g-emoji {
     padding: 0
 }
 
-.notifications .notifications-more&gt;a {
+.notifications .notifications-more>a {
     display: block;
     padding: 10px 15px;
     font-weight: 600;
@@ -27754,7 +27754,7 @@ body.emoji-size-boost .reaction-sort-item g-emoji {
     text-align: center
 }
 
-.notifications .notifications-more&gt;a:hover {
+.notifications .notifications-more>a:hover {
     text-decoration: underline
 }
 
@@ -27762,7 +27762,7 @@ body.emoji-size-boost .reaction-sort-item g-emoji {
     color: #586069
 }
 
-.notifications .read .list-group-item-name&gt;a {
+.notifications .read .list-group-item-name>a {
     color: #586069
 }
 
@@ -28039,7 +28039,7 @@ body.emoji-size-boost .reaction-sort-item g-emoji {
     vertical-align: middle
 }
 
-.thread-subscription-status .btn-sm&gt;.octicon {
+.thread-subscription-status .btn-sm>.octicon {
     margin-right: 1px
 }
 
@@ -28449,72 +28449,72 @@ body.emoji-size-boost .reaction-sort-item g-emoji {
     border-radius: 3px
 }
 
-.oauth-org-access-details .boxed-group-list&gt;li {
+.oauth-org-access-details .boxed-group-list>li {
     line-height: 24px
 }
 
-.oauth-org-access-details .boxed-group-list&gt;li:first-child {
+.oauth-org-access-details .boxed-group-list>li:first-child {
     border-radius: 3px 3px 0 0
 }
 
-.oauth-org-access-details .boxed-group-list&gt;li .loading-indicator {
+.oauth-org-access-details .boxed-group-list>li .loading-indicator {
     display: none;
     margin: 4px
 }
 
-.oauth-org-access-details .boxed-group-list&gt;li.on {
+.oauth-org-access-details .boxed-group-list>li.on {
     background: #fff
 }
 
-.oauth-org-access-details .boxed-group-list&gt;li.on:hover {
+.oauth-org-access-details .boxed-group-list>li.on:hover {
     background: #ffe
 }
 
-.oauth-org-access-details .boxed-group-list&gt;li.on .authorized-tools {
+.oauth-org-access-details .boxed-group-list>li.on .authorized-tools {
     display: block
 }
 
-.oauth-org-access-details .boxed-group-list&gt;li.on .unauthorized-tools {
+.oauth-org-access-details .boxed-group-list>li.on .unauthorized-tools {
     display: none
 }
 
-.oauth-org-access-details .boxed-group-list&gt;li.on strong {
+.oauth-org-access-details .boxed-group-list>li.on strong {
     color: #24292e
 }
 
-.oauth-org-access-details .boxed-group-list&gt;li.on .octicon-check {
+.oauth-org-access-details .boxed-group-list>li.on .octicon-check {
     display: inline
 }
 
-.oauth-org-access-details .boxed-group-list&gt;li.on .octicon-x {
+.oauth-org-access-details .boxed-group-list>li.on .octicon-x {
     display: none
 }
 
-.oauth-org-access-details .boxed-group-list&gt;li.revoked {
+.oauth-org-access-details .boxed-group-list>li.revoked {
     background: #fff
 }
 
-.oauth-org-access-details .boxed-group-list&gt;li.revoked .unauthorized-tools,.oauth-org-access-details .boxed-group-list&gt;li.revoked .authorized-tools {
+.oauth-org-access-details .boxed-group-list>li.revoked .unauthorized-tools,.oauth-org-access-details .boxed-group-list>li.revoked .authorized-tools {
     display: none
 }
 
-.oauth-org-access-details .boxed-group-list&gt;li.revoked .octicon-x {
+.oauth-org-access-details .boxed-group-list>li.revoked .octicon-x {
     color: #cb2431
 }
 
-.oauth-org-access-details .boxed-group-list&gt;li.loading .unauthorized-tools,.oauth-org-access-details .boxed-group-list&gt;li.loading .authorized-tools {
+.oauth-org-access-details .boxed-group-list>li.loading .unauthorized-tools,.oauth-org-access-details .boxed-group-list>li.loading .authorized-tools {
     display: none
 }
 
-.oauth-org-access-details .boxed-group-list&gt;li.loading .loading-indicator {
+.oauth-org-access-details .boxed-group-list>li.loading .loading-indicator {
     display: block
 }
 
-.oauth-org-access-details .boxed-group-list&gt;li .authorized-tools {
+.oauth-org-access-details .boxed-group-list>li .authorized-tools {
     display: none
 }
 
-.oauth-org-access-details .boxed-group-list&gt;li .unauthorized-tools {
+.oauth-org-access-details .boxed-group-list>li .unauthorized-tools {
     display: block
 }
 
@@ -29308,7 +29308,7 @@ body.emoji-size-boost .reaction-sort-item g-emoji {
     padding-left: 30px
 }
 
-.auto-search-group .spinner,.auto-search-group&gt;.octicon {
+.auto-search-group .spinner,.auto-search-group>.octicon {
     position: absolute;
     left: 10px;
     z-index: 5;
@@ -29321,7 +29321,7 @@ body.emoji-size-boost .reaction-sort-item g-emoji {
     background-color: #fff
 }
 
-.auto-search-group&gt;.octicon {
+.auto-search-group>.octicon {
     top: 10px;
     font-size: 14px;
     color: #bbb;
@@ -30682,14 +30682,14 @@ body.emoji-size-boost .reaction-sort-item g-emoji {
     color: #586069
 }
 
-.manage-member-meta-item&gt;.octicon {
+.manage-member-meta-item>.octicon {
     width: 14px;
     margin-right: 5px;
     color: #586069;
     text-align: center
 }
 
-.manage-member-meta-item&gt;.octicon-alert {
+.manage-member-meta-item>.octicon-alert {
     color: #a04100
 }
 
@@ -31272,7 +31272,7 @@ body.emoji-size-boost .reaction-sort-item g-emoji {
     box-shadow: 0 5px 10px rgba(0,0,0,0.1)
 }
 
-.theme-picker&gt;.container {
+.theme-picker>.container {
     position: relative;
     overflow: hidden;
     text-align: center
@@ -31944,7 +31944,7 @@ body.emoji-size-boost .reaction-sort-item g-emoji {
     max-width: 100%
 }
 
-.vcard-details .css-truncate.css-truncate-target&gt;div {
+.vcard-details .css-truncate.css-truncate-target>div {
     overflow: hidden;
     text-overflow: ellipsis
 }
@@ -32314,7 +32314,7 @@ body.emoji-size-boost .reaction-sort-item g-emoji {
     vertical-align: text-bottom
 }
 
-.open&gt;.profile-rollup-content,.open .profile-rollup-toggle-closed {
+.open>.profile-rollup-content,.open .profile-rollup-toggle-closed {
     display: block
 }
 
@@ -33036,7 +33036,7 @@ body.emoji-size-boost .reaction-sort-item g-emoji {
     height: 150px
 }
 
-.pulse-authors-graph&gt;svg {
+.pulse-authors-graph>svg {
     width: 100%
 }
 
@@ -33186,7 +33186,7 @@ line.axis.even {
     font-size: 10px
 }
 
-.readme.contributing&gt;div {
+.readme.contributing>div {
     max-height: 250px;
     overflow: auto
 }
@@ -33290,23 +33290,23 @@ line.axis.even {
     list-style-type: none
 }
 
-.tag-references&gt;li {
+.tag-references>li {
     display: inline-block;
     margin-right: 10px
 }
 
-.tag-references&gt;li.commit {
+.tag-references>li.commit {
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 12px;
     line-height: 20px
 }
 
-.tag-references&gt;li a {
+.tag-references>li a {
     color: #586069;
     text-decoration: none
 }
 
-.tag-references&gt;li a:hover {
+.tag-references>li a:hover {
     color: #0366d6
 }
 
@@ -33348,16 +33348,16 @@ line.axis.even {
     list-style-type: none
 }
 
-.release-timeline-tags&gt;li {
+.release-timeline-tags>li {
     display: block
 }
 
-.release-timeline-tags&gt;li::before {
+.release-timeline-tags>li::before {
     display: table;
     content: ""
 }
 
-.release-timeline-tags&gt;li::after {
+.release-timeline-tags>li::after {
     display: table;
     clear: both;
     content: ""
@@ -33426,7 +33426,7 @@ line.axis.even {
     display: block
 }
 
-.release-timeline-tags.is-collapsed&gt;.collapsable {
+.release-timeline-tags.is-collapsed>.collapsable {
     display: none
 }
 
@@ -33486,7 +33486,7 @@ line.axis.even {
     margin-top: 8px
 }
 
-.release .tag-references&gt;li {
+.release .tag-references>li {
     display: block;
     margin: 0 0 5px
 }
@@ -33631,7 +33631,7 @@ line.axis.even {
     border-top-right-radius: 0
 }
 
-.uploaded-files&gt;li {
+.uploaded-files>li {
     padding: 8px 10px;
     margin: 0;
     line-height: 22px;
@@ -33639,37 +33639,37 @@ line.axis.even {
     border-top: 1px solid #eee
 }
 
-.uploaded-files&gt;li.template {
+.uploaded-files>li.template {
     display: none
 }
 
-.uploaded-files&gt;li .delete-pending {
+.uploaded-files>li .delete-pending {
     display: none
 }
 
-.uploaded-files&gt;li.delete {
+.uploaded-files>li.delete {
     color: #586069;
     background: #f9f9f9
 }
 
-.uploaded-files&gt;li.delete:nth-child(2) {
+.uploaded-files>li.delete:nth-child(2) {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px
 }
 
-.uploaded-files&gt;li.delete .delete-pending {
+.uploaded-files>li.delete .delete-pending {
     display: block
 }
 
-.uploaded-files&gt;li.delete .live {
+.uploaded-files>li.delete .live {
     display: none
 }
 
-.uploaded-files&gt;li.delete .filename {
+.uploaded-files>li.delete .filename {
     color: #cb2431
 }
 
-.uploaded-files&gt;li:nth-child(2) {
+.uploaded-files>li:nth-child(2) {
     border-top: 0
 }
 
@@ -33993,25 +33993,25 @@ line.axis.even {
     opacity: 1
 }
 
-.dragover .repo-file-upload-tree-target .files-lg&gt;.file-graph {
+.dragover .repo-file-upload-tree-target .files-lg>.file-graph {
     opacity: 1;
     -webkit-transform: translateX(4px);
     transform: translateX(4px)
 }
 
-.dragover .repo-file-upload-tree-target .files-lg&gt;.file-zip {
+.dragover .repo-file-upload-tree-target .files-lg>.file-zip {
     opacity: 1;
     -webkit-transform: translateX(9px);
     transform: translateX(9px)
 }
 
-.dragover .repo-file-upload-tree-target .files-lg&gt;.file-generic {
+.dragover .repo-file-upload-tree-target .files-lg>.file-generic {
     opacity: 1;
     -webkit-transform: translateX(-4px);
     transform: translateX(-4px)
 }
 
-.dragover .repo-file-upload-tree-target .files-lg&gt;.file-acrobat {
+.dragover .repo-file-upload-tree-target .files-lg>.file-acrobat {
     opacity: 1;
     -webkit-transform: translateX(-9px);
     transform: translateX(-9px)
@@ -34374,11 +34374,11 @@ line.axis.even {
     list-style: none
 }
 
-.mini-repo-list&gt;:first-child .mini-repo-list-item {
+.mini-repo-list>:first-child .mini-repo-list-item {
     border-top: 0
 }
 
-.mini-repo-list&gt;:last-child .mini-repo-list-item {
+.mini-repo-list>:last-child .mini-repo-list-item {
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px
 }
@@ -34595,7 +34595,7 @@ line.axis.even {
     border-bottom-left-radius: 3px
 }
 
-.clone-url-button&gt;.clone-url-link {
+.clone-url-button>.clone-url-link {
     position: relative;
     display: block;
     padding: 0 9px;
@@ -34612,7 +34612,7 @@ line.axis.even {
     border: 1px solid #ccc
 }
 
-.clone-url-button&gt;.clone-url-link:hover,.clone-url-button&gt;.clone-url-link:active {
+.clone-url-button>.clone-url-link:hover,.clone-url-button>.clone-url-link:active {
     z-index: 3;
     color: #fff;
     text-decoration: none;
@@ -34622,30 +34622,30 @@ line.axis.even {
     border-color: #2a65a0
 }
 
-.clone-url-button&gt;.clone-url-link:active {
+.clone-url-button>.clone-url-link:active {
     background-color: #3072b3;
     background-image: none;
     border-color: #25588c;
     box-shadow: inset 0 3px 5px rgba(0,0,0,0.15)
 }
 
-.clone-url-button&gt;.clone-url-link:focus {
+.clone-url-button>.clone-url-link:focus {
     outline: 0
 }
 
-.clone-url-button+.clone-url-button&gt;.clone-url-link {
+.clone-url-button+.clone-url-button>.clone-url-link {
     box-shadow: inset 1px 0 0 #fff
 }
 
-.clone-url-button+.clone-url-button&gt;.clone-url-link:hover {
+.clone-url-button+.clone-url-button>.clone-url-link:hover {
     box-shadow: none
 }
 
-.clone-url-button+.clone-url-button&gt;.clone-url-link:active {
+.clone-url-button+.clone-url-button>.clone-url-link:active {
     box-shadow: inset 0 3px 5px rgba(0,0,0,0.15)
 }
 
-.clone-url-button.selected&gt;.clone-url-link,.clone-url-button.selected&gt;.clone-url-link:hover {
+.clone-url-button.selected>.clone-url-link,.clone-url-button.selected>.clone-url-link:hover {
     z-index: 2;
     color: #333;
     text-shadow: 0 1px 0 rgba(255,255,255,0.6);
@@ -35244,7 +35244,7 @@ table.files tbody tr:first-child td {
     text-align: center
 }
 
-.profile-picture-cropper&gt;img {
+.profile-picture-cropper>img {
     max-width: 100%
 }
 
@@ -35359,7 +35359,7 @@ span.label.bouncing {
     float: right
 }
 
-.email-actions&gt;span {
+.email-actions>span {
     float: left
 }
 
@@ -35838,11 +35838,11 @@ span.label.bouncing {
     text-align: right
 }
 
-.boxed-group.application-show-group dl.form-group&gt;dd .form-control.wide {
+.boxed-group.application-show-group dl.form-group>dd .form-control.wide {
     width: 460px
 }
 
-.boxed-group.application-show-group dl.form-group&gt;dd .form-control.short {
+.boxed-group.application-show-group dl.form-group>dd .form-control.short {
     height: 50px;
     min-height: 50px
 }
@@ -36243,14 +36243,14 @@ table.security-history-detail td {
     border-bottom: 1px solid #ddd
 }
 
-.two-factor-settings-group&gt;h3 {
+.two-factor-settings-group>h3 {
     position: absolute;
     left: 0;
     width: 200px;
     font-size: 14px
 }
 
-.two-factor-settings-group&gt;h3 .octicon {
+.two-factor-settings-group>h3 .octicon {
     position: absolute;
     left: -24px;
     color: #cb2431
@@ -36681,7 +36681,7 @@ table.security-history-detail td {
     margin-top: 4px
 }
 
-dl.form-group&gt;dd textarea.compact {
+dl.form-group>dd textarea.compact {
     height: 100px;
     min-height: 0
 }
@@ -38030,7 +38030,7 @@ dl.form-group&gt;dd textarea.compact {
     border-bottom-color: #ededed
 }
 
-.reorderable-task-lists .markdown-body .task-list-item.hovered&gt;.handle {
+.reorderable-task-lists .markdown-body .task-list-item.hovered>.handle {
     opacity: 1
 }
 
@@ -39119,7 +39119,7 @@ ul.clones li {
     border-color: #eee
 }
 
-.wiki-rightbar .boxed-group&gt;h3 {
+.wiki-rightbar .boxed-group>h3 {
     cursor: pointer
 }
 
@@ -39135,7 +39135,7 @@ ul.clones li {
     display: inline
 }
 
-.wiki-rightbar .boxed-group.collapsed&gt;h3 {
+.wiki-rightbar .boxed-group.collapsed>h3 {
     border-bottom: 1px solid #d8d8d8;
     border-radius: 3px
 }
@@ -39230,7 +39230,7 @@ ul.clones li {
     box-shadow: 0 1px 2px rgba(0,0,0,0.06)
 }
 
-.wiki-wrapper .wiki-auxiliary-content.markdown-body.wiki-writable&gt;*:nth-child(2) {
+.wiki-wrapper .wiki-auxiliary-content.markdown-body.wiki-writable>*:nth-child(2) {
     margin-top: 0 !important
 }
 
@@ -39264,7 +39264,7 @@ ul.clones li {
     border-radius: 3px
 }
 
-.wiki-wrapper .wiki-custom-sidebar&gt;:nth-child(2) {
+.wiki-wrapper .wiki-custom-sidebar>:nth-child(2) {
     margin-top: 0
 }
 
@@ -41237,7 +41237,7 @@ hr {
     overflow: hidden
 }
 
-.casestudy-teaser&gt;:not(.casestudy-bg) {
+.casestudy-teaser>:not(.casestudy-bg) {
     position: relative;
     z-index: 2
 }
@@ -41338,25 +41338,25 @@ hr {
     font-size: 16px
 }
 
-.casestudy-body&gt;p {
+.casestudy-body>p {
     margin-bottom: 24px;
     color: #586069
 }
 
-.casestudy-body&gt;p:first-child {
+.casestudy-body>p:first-child {
     -webkit-font-smoothing: antialiased;
     font-size: 21px;
     font-weight: 300
 }
 
 @media (min-width: 768px) {
-    .casestudy-body&gt;p:first-child {
+    .casestudy-body>p:first-child {
         font-size: 24px
     }
 }
 
 @media (min-width: 1012px) {
-    .casestudy-body&gt;p:first-child {
+    .casestudy-body>p:first-child {
         font-size: 26px
     }
 }
@@ -41991,7 +41991,7 @@ body:not(.page-responsive) .site-footer-marketing .site-footer-marketing-col {
     padding-left: 24px
 }
 
-.icon-cta&gt;.octicon {
+.icon-cta>.octicon {
     float: left;
     width: 16px;
     margin-top: 0.1em;

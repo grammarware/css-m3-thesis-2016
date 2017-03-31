@@ -3547,29 +3547,29 @@
     width: 1000px
 }
 
-.column-3-template .span8:nth-child(2) &gt; {
+.column-3-template .span8:nth-child(2) > {
     margin-left: auto;
     margin-right: auto
 }
 
-.column-3-template .span8:nth-child(3) &gt; * {
+.column-3-template .span8:nth-child(3) > * {
     float: right
 }
 
-.column-3-template .span8 + .span8 &gt; * {
+.column-3-template .span8 + .span8 > * {
     margin-left: auto;
     margin-right: auto
 }
 
-.column-3-template .span8 + .span8 + .span8 &gt; * {
+.column-3-template .span8 + .span8 + .span8 > * {
     float: right
 }
 
-.column-2-template [class*="span"]:nth-child(2) &gt; * {
+.column-2-template [class*="span"]:nth-child(2) > * {
     float: right
 }
 
-.column-2-template [class*="span"]:first-child + [class*="span"] &gt; * {
+.column-2-template [class*="span"]:first-child + [class*="span"] > * {
     float: right
 }
 
@@ -3891,7 +3891,7 @@
     margin-bottom: 120px
 }
 
-.row &gt; [class*="mtop"]:not([class*="span"]),.row &gt;[class*="mbot"]:not([class*="span"]) {
+.row > [class*="mtop"]:not([class*="span"]),.row >[class*="mbot"]:not([class*="span"]) {
     display: inline-block;
     width: 100%
 }
@@ -5181,37 +5181,37 @@ body {
         min-width: 0
     }
 
-    .responsive .section &gt; .row {
+    .responsive .section > .row {
         margin: 0 5% 0 3%;
         width: auto;
         display: block
     }
 
-    .responsive .section &gt; .row &gt; .ruler-hor {
+    .responsive .section > .row > .ruler-hor {
         margin-right: -2%
     }
 
-    .responsive .section &gt; .row .span24 {
+    .responsive .section > .row .span24 {
         width: 98%
     }
 
-    .responsive .section &gt; .row .span12 {
+    .responsive .section > .row .span12 {
         width: 48%
     }
 
-    .responsive .section &gt; .row .span8 {
+    .responsive .section > .row .span8 {
         width: 31.33%
     }
 
-    .responsive .section &gt; .row .span6 {
+    .responsive .section > .row .span6 {
         width: 23%
     }
 
-    .responsive .drop-cell-spacings.section &gt; .row {
+    .responsive .drop-cell-spacings.section > .row {
         margin: 0 5%
     }
 
-    .responsive .drop-cell-spacings.section &gt; .row .span24 {
+    .responsive .drop-cell-spacings.section > .row .span24 {
         width: 100%
     }
 
@@ -5238,63 +5238,63 @@ body {
 }
 
 @media (max-width:800px) {
-    .responsive .section &gt; .row {
+    .responsive .section > .row {
         margin: 0 5%
     }
 
-    .responsive .section &gt; .row &gt; .ruler-hor {
+    .responsive .section > .row > .ruler-hor {
         margin-left: -2%
     }
 
-    .responsive .section &gt; .row .span24 {
+    .responsive .section > .row .span24 {
         margin-left: 0;
         width: 100%
     }
 
-    .responsive .section &gt; .row .row,.responsive .section &gt; .row .span24 {
+    .responsive .section > .row .row,.responsive .section > .row .span24 {
         margin: 0
     }
 
-    .responsive .section &gt; .row .span6 {
+    .responsive .section > .row .span6 {
         width: 48%
     }
 
-    .responsive .section &gt; .row .span8,.responsive .section &gt; .row .span9,.responsive .section &gt; .row .span10,.responsive .section &gt; .row .span11,.responsive .section &gt; .row .span12,.responsive .section &gt; .row .span13,.responsive .section &gt; .row .span14,.responsive .section &gt; .row .span15,.responsive .section &gt; .row .span16,.responsive .section &gt; .row .span17,.responsive .section &gt; .row .span18,.responsive .section &gt; .row .span19,.responsive .section &gt; .row .span20,.responsive .section &gt; .row .span21,.responsive .section &gt; .row .span22,.responsive .section &gt; .row .span23 {
+    .responsive .section > .row .span8,.responsive .section > .row .span9,.responsive .section > .row .span10,.responsive .section > .row .span11,.responsive .section > .row .span12,.responsive .section > .row .span13,.responsive .section > .row .span14,.responsive .section > .row .span15,.responsive .section > .row .span16,.responsive .section > .row .span17,.responsive .section > .row .span18,.responsive .section > .row .span19,.responsive .section > .row .span20,.responsive .section > .row .span21,.responsive .section > .row .span22,.responsive .section > .row .span23 {
         width: 100%;
         margin-left: 0
     }
 }
 
 @media (max-width:496px) {
-    .responsive .section &gt; .row .span6 {
+    .responsive .section > .row .span6 {
         margin-left: 0;
         width: 100%
     }
 }
 
 @media (max-width:800px) {
-    .responsive.rtl-page .section &gt; .row {
+    .responsive.rtl-page .section > .row {
         margin: 0 5%
     }
 
-    .responsive.rtl-page .section &gt; .row &gt; .ruler-hor {
+    .responsive.rtl-page .section > .row > .ruler-hor {
         margin-right: -2%
     }
 
-    .responsive.rtl-page .section &gt; .row .span24 {
+    .responsive.rtl-page .section > .row .span24 {
         margin-right: 0;
         width: 100%
     }
 
-    .responsive.rtl-page .section &gt; .row .row,.responsive.rtl-page .section &gt; .row .span24 {
+    .responsive.rtl-page .section > .row .row,.responsive.rtl-page .section > .row .span24 {
         margin: 0
     }
 
-    .responsive.rtl-page .section &gt; .row .span6 {
+    .responsive.rtl-page .section > .row .span6 {
         width: 47.2%
     }
 
-    .responsive.rtl-page .section &gt; .row .span8,.responsive.rtl-page .section &gt; .row .span9,.responsive.rtl-page .section &gt; .row .span10,.responsive.rtl-page .section &gt; .row .span11,.responsive.rtl-page .section &gt; .row .span12,.responsive.rtl-page .section &gt; .row .span13,.responsive.rtl-page .section &gt; .row .span14,.responsive.rtl-page .section &gt; .row .span15,.responsive.rtl-page .section &gt; .row .span16,.responsive.rtl-page .section &gt; .row .span17,.responsive.rtl-page .section &gt; .row .span18,.responsive.rtl-page .section &gt; .row .span19,.responsive.rtl-page .section &gt; .row .span20,.responsive.rtl-page .section &gt; .row .span21,.responsive.rtl-page .section &gt; .row .span22,.responsive.rtl-page .section &gt; .row .span23 {
+    .responsive.rtl-page .section > .row .span8,.responsive.rtl-page .section > .row .span9,.responsive.rtl-page .section > .row .span10,.responsive.rtl-page .section > .row .span11,.responsive.rtl-page .section > .row .span12,.responsive.rtl-page .section > .row .span13,.responsive.rtl-page .section > .row .span14,.responsive.rtl-page .section > .row .span15,.responsive.rtl-page .section > .row .span16,.responsive.rtl-page .section > .row .span17,.responsive.rtl-page .section > .row .span18,.responsive.rtl-page .section > .row .span19,.responsive.rtl-page .section > .row .span20,.responsive.rtl-page .section > .row .span21,.responsive.rtl-page .section > .row .span22,.responsive.rtl-page .section > .row .span23 {
         width: 100%;
         margin-right: 0
     }
@@ -5737,7 +5737,7 @@ body .hf_ac_offscreen_text {
 }
 
 @media \0screen {
-    #header ul li &gt; a {
+    #header ul li > a {
         padding-bottom: 0
     }
 }
@@ -6009,7 +6009,7 @@ body .hf_ac_offscreen_text {
     margin-left: 3px\9
 }
 
-.footer .hf_bottom_links &gt; p.mobile_view {
+.footer .hf_bottom_links > p.mobile_view {
     display: none
 }
 
@@ -6122,7 +6122,7 @@ body .hf_ac_offscreen_text {
 }
 
 @media \0screen {
-    #footer ul li &gt; a {
+    #footer ul li > a {
         padding-bottom: 0
     }
 }
@@ -6554,7 +6554,7 @@ html .hf_clf {
     -moz-osx-font-smoothing: grayscale
 }
 
-.header .hf_menu.level1 &gt; li &gt; a:before,.header .hf_menu li.js_item &gt; a:before {
+.header .hf_menu.level1 > li > a:before,.header .hf_menu li.js_item > a:before {
     font-family: HPIcons;
     speak: none;
     font-style: normal;
@@ -6966,55 +6966,55 @@ html .hf_clf {
 }
 
 @media screen and (max-width:999px) {
-    .header .hf_menu.level1 &gt; li.selectable &gt; a:before {
+    .header .hf_menu.level1 > li.selectable > a:before {
         content: "\E907"
     }
 
-    .header .hf_menu.level1 &gt; li a.level1-desktop:before {
+    .header .hf_menu.level1 > li a.level1-desktop:before {
         display: none
     }
 
-    .header .hf_menu.level1 &gt; li a.icn_laptop &gt; span:before {
+    .header .hf_menu.level1 > li a.icn_laptop > span:before {
         content: "\E91E"
     }
 
-    .header .hf_menu.level1 &gt; li a.icn_desktop &gt; span:before {
+    .header .hf_menu.level1 > li a.icn_desktop > span:before {
         content: "\E924"
     }
 
-    .header .hf_menu.level1 &gt; li a.icn_printer &gt; span:before {
+    .header .hf_menu.level1 > li a.icn_printer > span:before {
         content: "\E92C"
     }
 
-    .header .hf_menu.level1 &gt; li a.icn_ink_toner &gt; span:before {
+    .header .hf_menu.level1 > li a.icn_ink_toner > span:before {
         content: "\E931"
     }
 
-    .header .hf_menu.level1 &gt; li a.icn_monitor &gt; span:before {
+    .header .hf_menu.level1 > li a.icn_monitor > span:before {
         content: "\E933"
     }
 
-    .header .hf_menu.level1 &gt; li a.icn_business &gt; span:before {
+    .header .hf_menu.level1 > li a.icn_business > span:before {
         content: "\E918"
     }
 
-    .header .hf_menu.level1 &gt; li a.icn_support &gt; span:before {
+    .header .hf_menu.level1 > li a.icn_support > span:before {
         content: "\E91C"
     }
 
-    .header .hf_menu.level1 &gt; li a.icn_3d_printing &gt; span:before {
+    .header .hf_menu.level1 > li a.icn_3d_printing > span:before {
         content: "\E92A"
     }
 
-    .header .hf_menu.level2 &gt; li &gt; a:before {
+    .header .hf_menu.level2 > li > a:before {
         content: "\E907"
     }
 
-    .header .hf_menu.level2 &gt; li &gt; a.open:before {
+    .header .hf_menu.level2 > li > a.open:before {
         content: "\E906"
     }
 
-    .header .hf_menu.level2 &gt; li &gt; a.no_submenu:before,.header .hf_menu.level2 &gt; li &gt; a.no_submenu.open:before {
+    .header .hf_menu.level2 > li > a.no_submenu:before,.header .hf_menu.level2 > li > a.no_submenu.open:before {
         content: ""
     }
 }
@@ -7312,52 +7312,52 @@ html .hf_clf {
     color: #007DBA
 }
 
-.header .hf_top_menu .level1 &gt; li.first_li {
+.header .hf_top_menu .level1 > li.first_li {
     margin-left: 0
 }
 
 @media screen and (min-width:1000px) and (max-width:1279px) {
-    .header .hf_top_menu .level1 &gt; li.first_li {
+    .header .hf_top_menu .level1 > li.first_li {
         margin-right: 0
     }
 }
 
 @media screen and (max-width:999px) {
-    .header .hf_top_menu .level1 &gt; li.second-last .level2 {
+    .header .hf_top_menu .level1 > li.second-last .level2 {
         left: 0;
         right: inherit
     }
 }
 
-.header .hf_top_menu .level1 &gt; li.second-last .level2.expanded li {
+.header .hf_top_menu .level1 > li.second-last .level2.expanded li {
     margin-left: 249px
 }
 
 @media screen and (min-width:1401px) {
-    .header .hf_top_menu .level1 &gt; li.second-last .level2.expanded li {
+    .header .hf_top_menu .level1 > li.second-last .level2.expanded li {
         margin-left: 0
     }
 }
 
 @media screen and (max-width:999px) {
-    .header .hf_top_menu .level1 &gt; li.second-last .level2.expanded li {
+    .header .hf_top_menu .level1 > li.second-last .level2.expanded li {
         margin-left: 0
     }
 }
 
-.header .hf_top_menu .level1 &gt; li.second-last .top_corner {
+.header .hf_top_menu .level1 > li.second-last .top_corner {
     right: 8px;
     left: inherit
 }
 
 @media screen and (min-width:1401px) {
-    .header .hf_top_menu .level1 &gt; li.second-last .top_corner {
+    .header .hf_top_menu .level1 > li.second-last .top_corner {
         left: 17px
     }
 }
 
 @media screen and (max-width:999px) {
-    .header .hf_top_menu .level1 &gt; li.second-last .top_corner {
+    .header .hf_top_menu .level1 > li.second-last .top_corner {
         left: 17px
     }
 }
@@ -7790,7 +7790,7 @@ html .hf_clf {
     }
 }
 
-.selectable a &gt; span,.empty a &gt; span {
+.selectable a > span,.empty a > span {
     height: 50px;
     display: table-cell;
     vertical-align: middle
@@ -7800,13 +7800,13 @@ html .hf_clf {
 }
 
 @media screen and (max-width:999px) {
-    .selectable a &gt; span {
+    .selectable a > span {
         height: auto
     }
 }
 
 @media screen and (max-width:999px) {
-    .empty a &gt; span {
+    .empty a > span {
         height: auto
     }
 }
@@ -7840,19 +7840,19 @@ html .hf_clf {
 }
 
 @media screen and (max-width:999px) {
-    .header .hf_top_menu .level1 &gt; li &gt; a:active {
+    .header .hf_top_menu .level1 > li > a:active {
         color: #fff
     }
 }
 
 @media screen and (max-width:999px) {
-    .header .hf_top_menu .level1 &gt; li &gt; a:active:before {
+    .header .hf_top_menu .level1 > li > a:active:before {
         color: #fff
     }
 }
 
 @media screen and (max-width:999px) {
-    .header .hf_top_menu .level1 &gt; li &gt; a &gt; span:before {
+    .header .hf_top_menu .level1 > li > a > span:before {
         display: inline-block;
         font-family: 'HPIcons';
         -webkit-font-smoothing: antialiased;
@@ -7868,7 +7868,7 @@ html .hf_clf {
 }
 
 @media screen and (min-width:1000px) {
-    .header .hf_top_menu .level1 &gt; li &gt; a:before {
+    .header .hf_top_menu .level1 > li > a:before {
         display: none
     }
 }
@@ -8020,7 +8020,7 @@ html .hf_clf {
 }
 
 @media screen and (max-width:999px) {
-    .header .hf_top_menu .hf_menu.level1 &gt; li.selectable &gt; a:before {
+    .header .hf_top_menu .hf_menu.level1 > li.selectable > a:before {
         float: right;
         margin: 0;
         font-size: 12px;
@@ -8037,7 +8037,7 @@ html .hf_clf {
 }
 
 @media screen and (max-width:999px) {
-    .header .hf_top_menu .hf_menu.level2 &gt; li &gt; a:before {
+    .header .hf_top_menu .hf_menu.level2 > li > a:before {
         float: right;
         margin: 0;
         font-size: 12px;
@@ -8105,7 +8105,7 @@ html .hf_clf {
 }
 
 @media screen and (max-width:999px) {
-    .header .js_item &gt; a:active {
+    .header .js_item > a:active {
         background-position: right -390px
     }
 }
@@ -8443,7 +8443,7 @@ html .hf_clf {
 }
 
 @media screen and (max-width:999px) {
-    .header .top_menu_widget_accordion .hf_top_menu .level1 li &gt; a {
+    .header .top_menu_widget_accordion .hf_top_menu .level1 li > a {
         background-position: right -341px;
         color: #5a5a5a;
         line-height: 60px;
@@ -8452,7 +8452,7 @@ html .hf_clf {
 }
 
 @media screen and (max-width:999px) {
-    .header .top_menu_widget_accordion .hf_top_menu .level1 li &gt; a &gt; span &gt; br {
+    .header .top_menu_widget_accordion .hf_top_menu .level1 li > a > span > br {
         display: none
     }
 }
@@ -8525,7 +8525,7 @@ html .hf_clf {
 }
 
 @media screen and (max-width:999px) {
-    .header .top_menu_widget_accordion .hf_top_menu .level2 li &gt; a {
+    .header .top_menu_widget_accordion .hf_top_menu .level2 li > a {
         box-sizing: border-box;
         padding-left: 80px;
         padding-right: 20px;
@@ -8588,7 +8588,7 @@ html .hf_clf {
     transform: translate3d(0px,0,0)
 }
 
-.swiper .swiper-container-free-mode &gt; .hf-swiper-wrapper {
+.swiper .swiper-container-free-mode > .hf-swiper-wrapper {
     margin: 0 auto;
     -webkit-transition-timing-function: ease-out;
     -moz-transition-timing-function: ease-out;
@@ -9971,7 +9971,7 @@ html .hf_clf {
     }
 }
 
-.footer .site_links .ul_site_links li.first_li &gt; a {
+.footer .site_links .ul_site_links li.first_li > a {
     display: none;
     visibility: hidden
 }
@@ -10067,7 +10067,7 @@ html .hf_clf {
     width: 70px
 }
 
-.footer .site_links .ul_site_links.signup_submit li.first_li &gt; a,.footer .site_links .ul_site_links.signup_link li.first_li &gt; a {
+.footer .site_links .ul_site_links.signup_submit li.first_li > a,.footer .site_links .ul_site_links.signup_link li.first_li > a {
     display: block;
     visibility: visible
 }
@@ -10099,7 +10099,7 @@ html .hf_clf {
     display: inline-block
 }
 
-.footer .site_links .ul_site_links .ul_media_links li a &gt; img {
+.footer .site_links .ul_site_links .ul_media_links li a > img {
     display: none
 }
 
@@ -10552,7 +10552,7 @@ ul.footer_media_links li a {
 }
 
 @media screen and (max-width:767px) {
-    .footer .site_links .ul_site_links li.first_li &gt; a {
+    .footer .site_links .ul_site_links li.first_li > a {
         border-bottom: 1px solid #e5e8e8;
         display: block;
         visibility: visible;
@@ -10983,7 +10983,7 @@ h3.asaid-typography {
     margin-bottom: 8px
 }
 
-.bulleted-list ul li &gt; *,ul.bulleted-list li &gt; * {
+.bulleted-list ul li > *,ul.bulleted-list li > * {
     display: inline
 }
 
@@ -12714,7 +12714,7 @@ p {
         font-family: "HPSimplifiedLight"
     }
 
-    .responsive .molecule-801 .prog-disc-content &gt; li &gt; .icon_cnt h2.font-h4 {
+    .responsive .molecule-801 .prog-disc-content > li > .icon_cnt h2.font-h4 {
         font-size: 22px;
         line-height: 112.5%
     }
@@ -12895,7 +12895,7 @@ p {
         font-family: "HPSimplifiedLight"
     }
 
-    .responsive .molecule-801 .prog-disc-content &gt; li &gt; .icon_cnt h2.font-h4 {
+    .responsive .molecule-801 .prog-disc-content > li > .icon_cnt h2.font-h4 {
         font-size: 22px;
         line-height: 112.5%
     }
@@ -13077,7 +13077,7 @@ p {
         font-family: "HPSimplifiedLight"
     }
 
-    .responsive .molecule-801 .prog-disc-content &gt; li &gt; .icon_cnt h2.font-h4 {
+    .responsive .molecule-801 .prog-disc-content > li > .icon_cnt h2.font-h4 {
         font-size: 22px;
         line-height: 112.5%
     }
@@ -14748,7 +14748,7 @@ div.molecule-800.white-boxes .button:hover,div.molecule-800.white-boxes .button:
     display: none
 }
 
-.lightbox-gallery-popup .popup-content &gt; div {
+.lightbox-gallery-popup .popup-content > div {
     display: inline-block
 }
 
@@ -15793,135 +15793,135 @@ div .btn_action .btn_inner .btn_label,.btn_action .primary .btn_inner {
     margin-right: 10px
 }
 
-.prog-disc-content &gt; li {
+.prog-disc-content > li {
     *zoom: 1;
     *display: inline;
     *width: 100%;
     border-bottom: 1px solid #ccc
 }
 
-.prog-disc-content &gt; li:first-child {
+.prog-disc-content > li:first-child {
     border-top: 1px solid #ccc
 }
 
-.prog-disc-content &gt; li &gt; .icon_cnt {
+.prog-disc-content > li > .icon_cnt {
     display: block;
     cursor: pointer;
     padding: 20px 18px 20px 6px
 }
 
 @media (max-width:800px) {
-    .prog-disc-content &gt; li &gt; .icon_cnt {
+    .prog-disc-content > li > .icon_cnt {
         padding: 20px 18px 20px 0
     }
 }
 
-.prog-disc-content &gt; li &gt; .icon_cnt:hover,.prog-disc-content &gt; li &gt; .icon_cnt:focus {
+.prog-disc-content > li > .icon_cnt:hover,.prog-disc-content > li > .icon_cnt:focus {
     background-color: #f2f2f2
 }
 
-.prog-disc-content &gt; li &gt; .icon_cnt i {
+.prog-disc-content > li > .icon_cnt i {
     cursor: pointer
 }
 
-.prog-disc-content &gt; li &gt; .icon_cnt &gt; * {
+.prog-disc-content > li > .icon_cnt > * {
     padding-left: 28px
 }
 
-.prog-disc-content &gt; li &gt; .icon_cnt .font-h4 {
+.prog-disc-content > li > .icon_cnt .font-h4 {
     line-height: 20px;
     margin-bottom: 0
 }
 
-.prog-disc-content &gt; li &gt; .icon_cnt .font-h4 em {
+.prog-disc-content > li > .icon_cnt .font-h4 em {
     font-weight: normal;
     font-style: normal;
     font-size: 16px;
     line-height: 20px
 }
 
-.prog-disc-content &gt; li &gt; .icon_cnt .description {
+.prog-disc-content > li > .icon_cnt .description {
     margin-top: 5px;
     margin-bottom: 0
 }
 
-.prog-disc-content &gt; li &gt; .icon_cnt .hide,.prog-disc-content &gt; li &gt; .icon_cnt.opened .show,.prog-disc-content &gt; li &gt; .icon_cnt.opened.clon .show {
+.prog-disc-content > li > .icon_cnt .hide,.prog-disc-content > li > .icon_cnt.opened .show,.prog-disc-content > li > .icon_cnt.opened.clon .show {
     display: none
 }
 
-.prog-disc-content &gt; li &gt; .icon_cnt.opened .hide,.prog-disc-content &gt; li &gt; .icon_cnt.opened.clon .hide {
+.prog-disc-content > li > .icon_cnt.opened .hide,.prog-disc-content > li > .icon_cnt.opened.clon .hide {
     display: inherit;
     *display: block
 }
 
-.prog-disc-content &gt; li &gt; .icon_cnt.opened.clon {
+.prog-disc-content > li > .icon_cnt.opened.clon {
     clear: both
 }
 
-.prog-disc-content &gt; li &gt; .item-container {
+.prog-disc-content > li > .item-container {
     padding-left: 46px;
     padding-right: 18px
 }
 
-.prog-disc-content &gt; li &gt; .item-container .item {
+.prog-disc-content > li > .item-container .item {
     clear: both;
     height: auto;
     padding: 26px 0 10px
 }
 
-.prog-disc-content &gt; li &gt; .item-container .item.ruler-hor:last-child {
+.prog-disc-content > li > .item-container .item.ruler-hor:last-child {
     border-bottom: none
 }
 
-.prog-disc-content &gt; li &gt; .item-container .item.ruler-hor.last {
+.prog-disc-content > li > .item-container .item.ruler-hor.last {
     border-bottom: none
 }
 
-.prog-disc-content &gt; li &gt; .item-container .item &gt; span {
+.prog-disc-content > li > .item-container .item > span {
     float: left;
     width: 20%;
     margin-right: 5%
 }
 
-.prog-disc-content &gt; li &gt; .item-container .item p {
+.prog-disc-content > li > .item-container .item p {
     float: left;
     width: 75%
 }
 
-.prog-disc-content &gt; li &gt; .item-container .item dl {
+.prog-disc-content > li > .item-container .item dl {
     font-size: 16px;
     line-height: 22px;
     clear: both
 }
 
-.prog-disc-content &gt; li &gt; .item-container .item dl dt {
+.prog-disc-content > li > .item-container .item dl dt {
     float: left;
     width: 20%;
     margin-right: 5%;
     font-weight: bold
 }
 
-.prog-disc-content &gt; li &gt; .item-container .item dl dt h2 {
+.prog-disc-content > li > .item-container .item dl dt h2 {
     font-size: 16px;
     line-height: 22px
 }
 
-.prog-disc-content &gt; li &gt; .item-container .item dl dd {
+.prog-disc-content > li > .item-container .item dl dd {
     float: left;
     width: 75%
 }
 
-.prog-disc-content &gt; li &gt; .item-container .item dl dd &gt; dl {
+.prog-disc-content > li > .item-container .item dl dd > dl {
     margin-bottom: 20px
 }
 
-.prog-disc-content &gt; li &gt; .item-container .item dl dd &gt; dl dt,.prog-disc-content &gt; li &gt; .item-container .item dl dd &gt; dl dd {
+.prog-disc-content > li > .item-container .item dl dd > dl dt,.prog-disc-content > li > .item-container .item dl dd > dl dd {
     float: none;
     width: auto;
     margin: 0
 }
 
-.prog-disc-content &gt; li &gt; .item-container.prog-disc-nested {
+.prog-disc-content > li > .item-container.prog-disc-nested {
     padding-left: 0;
     padding-right: 0
 }
@@ -15930,23 +15930,23 @@ div .btn_action .btn_inner .btn_label,.btn_action .primary .btn_inner {
     *zoom: 1
 }
 
-.prog-disc-nested &gt; [class*="mbot"] {
+.prog-disc-nested > [class*="mbot"] {
     margin-bottom: 0
 }
 
-.prog-disc-nested .prog-disc-content &gt; li:last-child {
+.prog-disc-nested .prog-disc-content > li:last-child {
     border-bottom: none
 }
 
-.prog-disc-nested .prog-disc-content &gt; li &gt; .icon_cnt {
+.prog-disc-nested .prog-disc-content > li > .icon_cnt {
     padding-left: 46px
 }
 
-.prog-disc-nested .prog-disc-content &gt; li &gt; .icon_cnt .font-h4 {
+.prog-disc-nested .prog-disc-content > li > .icon_cnt .font-h4 {
     font-weight: normal
 }
 
-.prog-disc-nested .prog-disc-content &gt; li &gt; .item-container {
+.prog-disc-nested .prog-disc-content > li > .item-container {
     padding-left: 74px
 }
 
@@ -16034,7 +16034,7 @@ div .btn_action .btn_inner .btn_label,.btn_action .primary .btn_inner {
     margin-left: 5px
 }
 
-.secondary-nav-content .secondary-nav-widget &gt; span {
+.secondary-nav-content .secondary-nav-widget > span {
     font-size: 18px;
     line-height: 35px;
     padding-right: 10px
@@ -16130,7 +16130,7 @@ div .btn_action .btn_inner .btn_label,.btn_action .primary .btn_inner {
     display: none
 }
 
-.secondary-nav.pinned &gt; .section {
+.secondary-nav.pinned > .section {
     padding-top: 3px;
     background-color: #FFF;
     position: fixed;
@@ -16141,7 +16141,7 @@ div .btn_action .btn_inner .btn_label,.btn_action .primary .btn_inner {
     max-width: none
 }
 
-.secondary-nav.pinned &gt; .section &gt; .secondary-nav-content {
+.secondary-nav.pinned > .section > .secondary-nav-content {
     border-bottom: 1px solid #cccccc;
     left: 0
 }
@@ -16156,7 +16156,7 @@ div .btn_action .btn_inner .btn_label,.btn_action .primary .btn_inner {
     z-index: 15
 }
 
-.sec-nav-fix .secondary-nav.pinned &gt; .section {
+.sec-nav-fix .secondary-nav.pinned > .section {
     padding-top: 0;
     background-color: #FFF;
     position: static;
@@ -16201,19 +16201,19 @@ div .btn_action .btn_inner .btn_label,.btn_action .primary .btn_inner {
     color: #000
 }
 
-.secondary-nav .level2 &gt; li &gt; a {
+.secondary-nav .level2 > li > a {
     padding: 7px 0
 }
 
-.secondary-nav .level2 &gt; li &gt; a,.secondary-nav .level2 &gt; li &gt; a:visited {
+.secondary-nav .level2 > li > a,.secondary-nav .level2 > li > a:visited {
     color: #767676
 }
 
-.secondary-nav .level2 &gt; li &gt; a:hover {
+.secondary-nav .level2 > li > a:hover {
     color: #007DBA
 }
 
-.secondary-nav .level2 &gt; li &gt; a.current {
+.secondary-nav .level2 > li > a.current {
     color: #000
 }
 
@@ -16586,13 +16586,13 @@ div .btn_action .btn_inner .btn_label,.btn_action .primary .btn_inner {
     display: none
 }
 
-.js-grid-slider-container &gt; .row {
+.js-grid-slider-container > .row {
     position: relative;
     white-space: nowrap;
     overflow: hidden
 }
 
-.js-grid-slider-container &gt; .row * {
+.js-grid-slider-container > .row * {
     white-space: normal
 }
 
@@ -17263,7 +17263,7 @@ cite:not(:last-child) {
     *zoom: 1
 }
 
-.dropdown &gt; div {
+.dropdown > div {
     position: relative;
     top: 9px
 }
@@ -17347,43 +17347,43 @@ cite:not(:last-child) {
     box-shadow: 0 -1px 4px #cccccc
 }
 
-.dropdown-menu li &gt; a,.dropdown-menu li &gt; p,.dropdown-menu li &gt; p &gt; a {
+.dropdown-menu li > a,.dropdown-menu li > p,.dropdown-menu li > p > a {
     display: block;
     padding: 0 20px 0 20px;
     color: #627077;
     margin: 0
 }
 
-.dropdown-menu li &gt; p &gt; a {
+.dropdown-menu li > p > a {
     margin: 0 -20px 0 -20px
 }
 
-.dropdown-menu li &gt; a,.dropdown-menu li &gt; p &gt; a {
+.dropdown-menu li > a,.dropdown-menu li > p > a {
     cursor: pointer
 }
 
-.dropdown-menu li &gt; a:hover,.dropdown-menu li &gt; p &gt; a:hover {
+.dropdown-menu li > a:hover,.dropdown-menu li > p > a:hover {
     text-decoration: none;
     background-color: #ebeeef;
     color: #0f6698
 }
 
-.dropdown-menu li &gt; a:focus,.dropdown-menu li &gt; p &gt; a:focus {
+.dropdown-menu li > a:focus,.dropdown-menu li > p > a:focus {
     text-decoration: none;
     outline: 1px dotted;
     outline-offset: -7px
 }
 
-.dropdown-menu li &gt; a.selected,.dropdown-menu li &gt; p &gt; a.selected {
+.dropdown-menu li > a.selected,.dropdown-menu li > p > a.selected {
     background-color: #ebeeef;
     color: #0f6698
 }
 
-.dropdown-menu li &gt; a.selected:focus,.dropdown-menu li &gt; p &gt; a.selected:focus {
+.dropdown-menu li > a.selected:focus,.dropdown-menu li > p > a.selected:focus {
     outline: 0 dotted
 }
 
-.dropdown-menu li &gt; a.disabled,.dropdown-menu li &gt; p &gt; a.disabled {
+.dropdown-menu li > a.disabled,.dropdown-menu li > p > a.disabled {
     color: #b3b3b3;
     background: #e5e5e5;
     cursor: default
@@ -17655,7 +17655,7 @@ div.overlay-popup {
     display: none !important
 }
 
-.section &gt; .ruler-hor {
+.section > .ruler-hor {
     margin-left: 0
 }
 
@@ -17668,7 +17668,7 @@ div.overlay-popup {
     background-attachment: fixed !important
 }
 
-.section.prevent-grid-wrap div.span6,.section &gt; .row .prevent-grid-wrap div.span6 {
+.section.prevent-grid-wrap div.span6,.section > .row .prevent-grid-wrap div.span6 {
     width: 221px;
     margin-left: 20px
 }
@@ -17972,13 +17972,13 @@ sup {
     left: 0
 }
 
-.responsive .section &gt; .row,.section &gt; .row,.responsive .section.full .row {
+.responsive .section > .row,.section > .row,.responsive .section.full .row {
     margin: 0;
     width: 100%;
     max-width: 100%
 }
 
-.responsive .section &gt; .row .span24,.section &gt; .row .span24,.responsive .section.full .row .span24 {
+.responsive .section > .row .span24,.section > .row .span24,.responsive .section.full .row .span24 {
     width: 100%
 }
 
@@ -18066,7 +18066,7 @@ div.section.layout-1280 .mbot-mol,div.section.layout-1200 .mbot-mol,div.section.
         width: 100%
     }
 
-    div.section.layout-1280 .responsive .section &gt; .row,div.section.layout-1200 .responsive .section &gt; .row,div.section.layout-1000 .responsive .section &gt; .row,div.section.layout-800 .responsive .section &gt; .row {
+    div.section.layout-1280 .responsive .section > .row,div.section.layout-1200 .responsive .section > .row,div.section.layout-1000 .responsive .section > .row,div.section.layout-800 .responsive .section > .row {
         margin: 0
     }
 }
@@ -18105,7 +18105,7 @@ div.section.layout-1280 .mbot-mol,div.section.layout-1200 .mbot-mol,div.section.
     *display: inline
 }
 
-.molecule-301 &gt; div {
+.molecule-301 > div {
     display: table-cell;
     vertical-align: middle;
     padding-right: 7px;
@@ -18114,7 +18114,7 @@ div.section.layout-1280 .mbot-mol,div.section.layout-1200 .mbot-mol,div.section.
     *zoom: 1
 }
 
-.molecule-301 &gt; div span {
+.molecule-301 > div span {
     display: inline-block;
     white-space: normal
 }
@@ -18180,21 +18180,21 @@ body .secondary-nav-content .secondary-nav-widget .molecule-301 {
     border: 1px solid #CCCCCC
 }
 
-.js-grid-slider-container .span8 &gt; .molecule-302,.js-grid-slider-container .span6 &gt; .molecule-302 {
+.js-grid-slider-container .span8 > .molecule-302,.js-grid-slider-container .span6 > .molecule-302 {
     margin-right: 45px
 }
 
-.js-grid-slider-container .span8 &gt; .molecule-302 .middle-aligned-cells,.js-grid-slider-container .span6 &gt; .molecule-302 .middle-aligned-cells {
+.js-grid-slider-container .span8 > .molecule-302 .middle-aligned-cells,.js-grid-slider-container .span6 > .molecule-302 .middle-aligned-cells {
     display: block
 }
 
-.js-grid-slider-container .span8 &gt; .molecule-302 .middle-aligned-cells .image-holder,.js-grid-slider-container .span6 &gt; .molecule-302 .middle-aligned-cells .image-holder {
+.js-grid-slider-container .span8 > .molecule-302 .middle-aligned-cells .image-holder,.js-grid-slider-container .span6 > .molecule-302 .middle-aligned-cells .image-holder {
     display: block;
     max-width: 100%;
     width: 100% !important
 }
 
-.js-grid-slider-container .span8 &gt; .molecule-302 .middle-aligned-cells .image-holder img,.js-grid-slider-container .span6 &gt; .molecule-302 .middle-aligned-cells .image-holder img {
+.js-grid-slider-container .span8 > .molecule-302 .middle-aligned-cells .image-holder img,.js-grid-slider-container .span6 > .molecule-302 .middle-aligned-cells .image-holder img {
     max-width: 100% !important;
     display: block
 }
@@ -18320,7 +18320,7 @@ body .secondary-nav-content .secondary-nav-widget .molecule-301 {
     margin-bottom: 8px
 }
 
-.molecule-302 .description ul li &gt; * {
+.molecule-302 .description ul li > * {
     display: inline
 }
 
@@ -18400,14 +18400,14 @@ body .secondary-nav-content .secondary-nav-widget .molecule-301 {
     text-align: justify
 }
 
-.molecule-302 .description ~ div &gt; span[class="icon_cnt "] &gt; a {
+.molecule-302 .description ~ div > span[class="icon_cnt "] > a {
     font-size: 16px;
     line-height: 22px;
     margin-bottom: 13px;
     padding-left: 0
 }
 
-.molecule-302 .description ~ div &gt; span[class="icon_cnt "] &gt; a.icl_arr {
+.molecule-302 .description ~ div > span[class="icon_cnt "] > a.icl_arr {
     padding-left: 28px
 }
 
@@ -18424,7 +18424,7 @@ body .secondary-nav-content .secondary-nav-widget .molecule-301 {
     height: 100%
 }
 
-.molecule-302 .video-embedded .js-brightcove-player &gt; span {
+.molecule-302 .video-embedded .js-brightcove-player > span {
     height: 100%
 }
 
@@ -18471,7 +18471,7 @@ body .secondary-nav-content .secondary-nav-widget .molecule-301 {
     background: #fff
 }
 
-.molecule-800.white-boxes .molecule-302 &gt; *,.molecule-800.white-boxes .molecule-302 h3.font-lh3 {
+.molecule-800.white-boxes .molecule-302 > *,.molecule-800.white-boxes .molecule-302 h3.font-lh3 {
     color: #000
 }
 
@@ -18776,7 +18776,7 @@ div.section.bg-fixed .molecule-970 {
         color: black !important
     }
 
-    .wrappable-section &gt; .row {
+    .wrappable-section > .row {
         background: none !important
     }
 }
@@ -18902,11 +18902,11 @@ div.section.bg-fixed .molecule-970 {
     margin-bottom: 0
 }
 
-.responsive .molecule-975.mbot-mol .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .button.transparent {
+.responsive .molecule-975.mbot-mol .middle-aligned-cells > div:first-child.text-block.content-wrapper .button.transparent {
     margin-bottom: 40px
 }
 
-.responsive .molecule-975.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper {
+.responsive .molecule-975.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper {
     margin-left: 0;
     padding-top: 40px;
     margin-top: 30px;
@@ -18929,7 +18929,7 @@ div.section.bg-fixed .molecule-970 {
     box-sizing: border-box
 }
 
-.responsive .molecule-975.image-behind .middle-aligned-cells .text-block.content-wrapper,.responsive .molecule-975.image-behind .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper {
+.responsive .molecule-975.image-behind .middle-aligned-cells .text-block.content-wrapper,.responsive .molecule-975.image-behind .middle-aligned-cells > div:first-child.text-block.content-wrapper {
     position: relative;
     width: 90%;
     z-index: 2;
@@ -18938,12 +18938,12 @@ div.section.bg-fixed .molecule-970 {
     text-align: center
 }
 
-.responsive .molecule-975.image-behind .middle-aligned-cells .text-block.content-wrapper &gt; h2,.responsive .molecule-975.image-behind .middle-aligned-cells .text-block.content-wrapper &gt; div,.responsive .molecule-975.image-behind .middle-aligned-cells .text-block.content-wrapper &gt; a,.responsive .molecule-975.image-behind .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; h2,.responsive .molecule-975.image-behind .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; div,.responsive .molecule-975.image-behind .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a {
+.responsive .molecule-975.image-behind .middle-aligned-cells .text-block.content-wrapper > h2,.responsive .molecule-975.image-behind .middle-aligned-cells .text-block.content-wrapper > div,.responsive .molecule-975.image-behind .middle-aligned-cells .text-block.content-wrapper > a,.responsive .molecule-975.image-behind .middle-aligned-cells > div:first-child.text-block.content-wrapper > h2,.responsive .molecule-975.image-behind .middle-aligned-cells > div:first-child.text-block.content-wrapper > div,.responsive .molecule-975.image-behind .middle-aligned-cells > div:first-child.text-block.content-wrapper > a {
     float: none;
     max-width: 100%
 }
 
-.responsive .molecule-975.image-behind .middle-aligned-cells .text-block.content-wrapper h2,.responsive .molecule-975.image-behind .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper h2 {
+.responsive .molecule-975.image-behind .middle-aligned-cells .text-block.content-wrapper h2,.responsive .molecule-975.image-behind .middle-aligned-cells > div:first-child.text-block.content-wrapper h2 {
     width: 100%
 }
 
@@ -18957,23 +18957,23 @@ div.section.bg-fixed .molecule-970 {
     float: none
 }
 
-.responsive .molecule-975.image-behind .middle-aligned-cells .image-holder &gt; img {
+.responsive .molecule-975.image-behind .middle-aligned-cells .image-holder > img {
     position: absolute;
     left: 0
 }
 
-.responsive .molecule-975.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper {
+.responsive .molecule-975.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper {
     margin-left: 90px;
     margin-right: 0;
     padding-top: 0;
     width: 33%
 }
 
-.responsive .molecule-975.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .description {
+.responsive .molecule-975.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper .description {
     max-width: 440px
 }
 
-.responsive .molecule-975.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .button.transparent {
+.responsive .molecule-975.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper .button.transparent {
     padding: 7px 50px 7px 50px !important;
     border-radius: 4px;
     -webkit-border-radius: 4px
@@ -18989,7 +18989,7 @@ div.section.bg-fixed .molecule-970 {
     width: 100%;
 }
 
-.responsive .molecule-975 .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper {
+.responsive .molecule-975 .middle-aligned-cells > div:first-child.text-block.content-wrapper {
     margin-left: 90px;
     float: left;
     width: 40%;
@@ -18997,21 +18997,21 @@ div.section.bg-fixed .molecule-970 {
     padding-top: 0
 }
 
-.responsive .molecule-975 .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper h2 {
+.responsive .molecule-975 .middle-aligned-cells > div:first-child.text-block.content-wrapper h2 {
     max-width: 420px;
     margin-bottom: 30px
 }
 
-.responsive .molecule-975 .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper h2 p {
+.responsive .molecule-975 .middle-aligned-cells > div:first-child.text-block.content-wrapper h2 p {
     margin: 0
 }
 
-.responsive .molecule-975 .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .description {
+.responsive .molecule-975 .middle-aligned-cells > div:first-child.text-block.content-wrapper .description {
     margin-bottom: 25px;
     max-width: 410px
 }
 
-.responsive .molecule-975 .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .button.transparent {
+.responsive .molecule-975 .middle-aligned-cells > div:first-child.text-block.content-wrapper .button.transparent {
     margin-bottom: 0;
     width: auto !important
 }
@@ -19024,7 +19024,7 @@ div.section.bg-fixed .molecule-970 {
     width: 30%
 }
 
-.responsive .molecule-975 .middle-aligned-cells .text-block.content-wrapper &gt; div,.responsive .molecule-975 .middle-aligned-cells .text-block.content-wrapper &gt; h2,.responsive .molecule-975 .middle-aligned-cells .text-block.content-wrapper &gt; a,.responsive .molecule-975 .middle-aligned-cells .text-block.content-wrapper &gt; ul {
+.responsive .molecule-975 .middle-aligned-cells .text-block.content-wrapper > div,.responsive .molecule-975 .middle-aligned-cells .text-block.content-wrapper > h2,.responsive .molecule-975 .middle-aligned-cells .text-block.content-wrapper > a,.responsive .molecule-975 .middle-aligned-cells .text-block.content-wrapper > ul {
     float: left;
     clear: both
 }
@@ -19279,41 +19279,41 @@ div.section.bg-fixed .molecule-970 {
     -webkit-border-radius: 4px
 }
 
-.responsive .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper,.responsive .molecule-975.text-left .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper {
+.responsive .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper,.responsive .molecule-975.text-left .middle-aligned-cells > div:first-child.text-block.content-wrapper {
     text-align: left
 }
 
-.responsive .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper &gt; ul,.responsive .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper &gt; a,.responsive .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper h2,.responsive .molecule-975.text-left .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; ul,.responsive .molecule-975.text-left .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .content-tag,.responsive .molecule-975.text-left .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a,.responsive .molecule-975.text-left .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper h2 {
+.responsive .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper > ul,.responsive .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper > a,.responsive .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper h2,.responsive .molecule-975.text-left .middle-aligned-cells > div:first-child.text-block.content-wrapper > ul,.responsive .molecule-975.text-left .middle-aligned-cells > div:first-child.text-block.content-wrapper .content-tag,.responsive .molecule-975.text-left .middle-aligned-cells > div:first-child.text-block.content-wrapper > a,.responsive .molecule-975.text-left .middle-aligned-cells > div:first-child.text-block.content-wrapper h2 {
     float: left;
     clear: both
 }
 
-.responsive .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper,.responsive .molecule-975.text-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper {
+.responsive .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper,.responsive .molecule-975.text-right .middle-aligned-cells > div:first-child.text-block.content-wrapper {
     text-align: right
 }
 
-.responsive .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper &gt; ul,.responsive .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper &gt; a,.responsive .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper h2,.responsive .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper &gt; div,.responsive .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper .logo img,.responsive .molecule-975.text-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; ul,.responsive .molecule-975.text-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .content-tag,.responsive .molecule-975.text-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a,.responsive .molecule-975.text-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper h2,.responsive .molecule-975.text-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; div,.responsive .molecule-975.text-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .logo img {
+.responsive .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper > ul,.responsive .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper > a,.responsive .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper h2,.responsive .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper > div,.responsive .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper .logo img,.responsive .molecule-975.text-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > ul,.responsive .molecule-975.text-right .middle-aligned-cells > div:first-child.text-block.content-wrapper .content-tag,.responsive .molecule-975.text-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > a,.responsive .molecule-975.text-right .middle-aligned-cells > div:first-child.text-block.content-wrapper h2,.responsive .molecule-975.text-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > div,.responsive .molecule-975.text-right .middle-aligned-cells > div:first-child.text-block.content-wrapper .logo img {
     float: right;
     clear: both
 }
 
-.responsive .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper,.responsive .molecule-975.text-center .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper {
+.responsive .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper,.responsive .molecule-975.text-center .middle-aligned-cells > div:first-child.text-block.content-wrapper {
     text-align: center
 }
 
-.responsive .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper &gt; ul,.responsive .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper h2,.responsive .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper &gt; div,.responsive .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper .logo img,.responsive .molecule-975.text-center .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; ul,.responsive .molecule-975.text-center .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .content-tag,.responsive .molecule-975.text-center .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper h2,.responsive .molecule-975.text-center .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; div,.responsive .molecule-975.text-center .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .logo img {
+.responsive .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper > ul,.responsive .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper h2,.responsive .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper > div,.responsive .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper .logo img,.responsive .molecule-975.text-center .middle-aligned-cells > div:first-child.text-block.content-wrapper > ul,.responsive .molecule-975.text-center .middle-aligned-cells > div:first-child.text-block.content-wrapper .content-tag,.responsive .molecule-975.text-center .middle-aligned-cells > div:first-child.text-block.content-wrapper h2,.responsive .molecule-975.text-center .middle-aligned-cells > div:first-child.text-block.content-wrapper > div,.responsive .molecule-975.text-center .middle-aligned-cells > div:first-child.text-block.content-wrapper .logo img {
     float: none;
     clear: both
 }
 
-.responsive .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper &gt; a.button.transparent,.responsive .molecule-975.text-center .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a.button.transparent {
+.responsive .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper > a.button.transparent,.responsive .molecule-975.text-center .middle-aligned-cells > div:first-child.text-block.content-wrapper > a.button.transparent {
     float: none;
     clear: both;
     padding: 7px 50px 7px 50px;
     text-align: center
 }
 
-.responsive .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper &gt; a.bottom-link.button.transparent,.responsive .molecule-975.text-center .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a.bottom-link.button.transparent {
+.responsive .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper > a.bottom-link.button.transparent,.responsive .molecule-975.text-center .middle-aligned-cells > div:first-child.text-block.content-wrapper > a.bottom-link.button.transparent {
     float: none;
     clear: both;
     text-align: center
@@ -19330,21 +19330,21 @@ body .molecule975-no-image .middle-aligned-cells {
     width: 90% !important
 }
 
-body .molecule975-no-image .middle-aligned-cells &gt; div:first-child.image-holder.first {
+body .molecule975-no-image .middle-aligned-cells > div:first-child.image-holder.first {
     float: none
 }
 
-body .molecule975-no-image .middle-aligned-cells &gt; .text-block.content-wrapper {
+body .molecule975-no-image .middle-aligned-cells > .text-block.content-wrapper {
     margin-left: 0 !important;
     width: 100% !important
 }
 
-body .molecule975-no-image .middle-aligned-cells &gt; .text-block.content-wrapper h2 {
+body .molecule975-no-image .middle-aligned-cells > .text-block.content-wrapper h2 {
     max-width: none !important;
     width: 100% !important
 }
 
-body .molecule975-no-image .middle-aligned-cells &gt; .text-block.content-wrapper .description {
+body .molecule975-no-image .middle-aligned-cells > .text-block.content-wrapper .description {
     max-width: none !important;
     width: 100% !important
 }
@@ -19399,7 +19399,7 @@ body .span24.gallery-fullwidth {
     display: inline-block
 }
 
-.molecule-976 .gallery-viewer .gallery-container &gt; div {
+.molecule-976 .gallery-viewer .gallery-container > div {
     float: left;
     width: 518px;
     height: 400px;
@@ -19407,11 +19407,11 @@ body .span24.gallery-fullwidth {
     transition: .3s
 }
 
-.molecule-976 .gallery-viewer .gallery-container &gt; div img {
+.molecule-976 .gallery-viewer .gallery-container > div img {
     width: 100%
 }
 
-.molecule-976 .gallery-viewer .gallery-container &gt; div .gallery-item-label {
+.molecule-976 .gallery-viewer .gallery-container > div .gallery-item-label {
     opacity: 0;
     display: none;
     width: 100%;
@@ -19420,23 +19420,23 @@ body .span24.gallery-fullwidth {
     transition: .3s
 }
 
-.molecule-976 .gallery-viewer .gallery-container &gt; div:hover {
+.molecule-976 .gallery-viewer .gallery-container > div:hover {
     width: 575px;
     height: 390px;
     margin-top: -20px
 }
 
-.molecule-976 .gallery-viewer .gallery-container &gt; div:hover .gallery-item-label {
+.molecule-976 .gallery-viewer .gallery-container > div:hover .gallery-item-label {
     opacity: 1;
     display: block
 }
 
-.molecule-976 .gallery-viewer .gallery-container &gt; div.item-first:hover {
+.molecule-976 .gallery-viewer .gallery-container > div.item-first:hover {
     transition: .6s;
     margin-left: 417px
 }
 
-.molecule-976 .gallery-viewer .gallery-container &gt; div.item-last:hover {
+.molecule-976 .gallery-viewer .gallery-container > div.item-last:hover {
     transition: .6s;
     margin-right: 417px
 }
@@ -19450,41 +19450,41 @@ body .span24.gallery-fullwidth {
 }
 
 @media (max-width:1290px) {
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div:hover.item-first {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div:hover.item-first {
         margin-left: 530px
     }
 
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div:hover.item-last {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div:hover.item-last {
         margin-right: 540px
     }
 }
 
 @media (max-width:1170px) {
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div:hover.item-first {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div:hover.item-first {
         margin-left: 590px
     }
 
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div:hover.item-last {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div:hover.item-last {
         margin-right: 600px
     }
 }
 
 @media (max-width:1120px) {
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div:hover.item-first {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div:hover.item-first {
         margin-left: 650px
     }
 
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div:hover.item-last {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div:hover.item-last {
         margin-right: 660px
     }
 }
 
 @media (max-width:1150px) {
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div:hover.item-first {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div:hover.item-first {
         margin-left: 700px
     }
 
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div:hover.item-last {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div:hover.item-last {
         margin-right: 710px
     }
 }
@@ -19498,20 +19498,20 @@ body .span24.gallery-fullwidth {
         height: 551px
     }
 
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div {
         width: 360px;
         height: 350px
     }
 
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div:hover {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div:hover {
         width: 420px
     }
 
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div:hover.item-first {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div:hover.item-first {
         margin-left: 320px
     }
 
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div:hover.item-last {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div:hover.item-last {
         margin-right: 330px
     }
 }
@@ -19521,20 +19521,20 @@ body .span24.gallery-fullwidth {
         height: 330px
     }
 
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div {
         width: 360px;
         height: 350px
     }
 
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div:hover {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div:hover {
         width: 420px
     }
 
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div:hover.item-first {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div:hover.item-first {
         margin-left: 400px
     }
 
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div:hover.item-last {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div:hover.item-last {
         margin-right: 410px
     }
 }
@@ -19544,20 +19544,20 @@ body .span24.gallery-fullwidth {
         height: 330px
     }
 
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div {
         width: 360px;
         height: 350px
     }
 
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div:hover {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div:hover {
         width: 420px
     }
 
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div:hover.item-first {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div:hover.item-first {
         margin-left: 460px
     }
 
-    .responsive .molecule-976 .gallery-viewer .gallery-container &gt; div:hover.item-last {
+    .responsive .molecule-976 .gallery-viewer .gallery-container > div:hover.item-last {
         margin-right: 470px
     }
 }
@@ -19616,7 +19616,7 @@ body .span24.gallery-fullwidth {
     line-height: 30px
 }
 
-.molecule-976 .gallery-item-label div:first-child &gt; *,.gallery976-mobile .gallery-item-label div:first-child &gt; * {
+.molecule-976 .gallery-item-label div:first-child > *,.gallery976-mobile .gallery-item-label div:first-child > * {
     margin: 0
 }
 
@@ -19627,7 +19627,7 @@ body .span24.gallery-fullwidth {
     line-height: 18px
 }
 
-.molecule-976 .gallery-item-label div + div &gt; *,.gallery976-mobile .gallery-item-label div + div &gt; * {
+.molecule-976 .gallery-item-label div + div > *,.gallery976-mobile .gallery-item-label div + div > * {
     margin: 0
 }
 
@@ -20267,19 +20267,19 @@ div.section.bg-fixed .molecule-971 {
     margin: auto
 }
 
-.white-popup &gt; div:first-child {
+.white-popup > div:first-child {
     padding-top: 35px;
     padding-left: 50px;
     padding-bottom: 33px;
     background-color: #E5E8E8
 }
 
-.white-popup &gt; div:first-child &gt; div {
+.white-popup > div:first-child > div {
     width: 380px;
     padding-left: 34px
 }
 
-.white-popup &gt; div:first-child &gt; div &gt; span {
+.white-popup > div:first-child > div > span {
     margin-left: 20px;
     font-size: 24px;
     font-family: HPSimplifiedLight;
@@ -20293,7 +20293,7 @@ div.section.bg-fixed .molecule-971 {
     min-height: 200px
 }
 
-.white-popup .popupContent &gt; div:first-child {
+.white-popup .popupContent > div:first-child {
     float: left;
     width: 200px;
     padding-top: 40px;
@@ -20311,7 +20311,7 @@ div.section.bg-fixed .molecule-971 {
     margin-top: 75px
 }
 
-.white-popup .popupContent &gt; div:first-child + div + div {
+.white-popup .popupContent > div:first-child + div + div {
     float: left;
     width: 200px;
     padding-top: 55px
@@ -20390,11 +20390,11 @@ div.section.bg-fixed .molecule-971 {
 }
 
 @media screen and (min-width:0\0) {
-    .white-popup .popupContent &gt; div:first-child {
+    .white-popup .popupContent > div:first-child {
         padding-top: 80px
     }
 
-    .white-popup .popupContent &gt; div:first-child + div + div {
+    .white-popup .popupContent > div:first-child + div + div {
         float: left;
         padding-top: 75px
     }
@@ -20404,7 +20404,7 @@ div.section.bg-fixed .molecule-971 {
     }
 }
 
-.hpnavigationlink &gt; div:first-child button {
+.hpnavigationlink > div:first-child button {
     margin-left: 20px;
     height: 40px;
     width: 170px;
@@ -20418,21 +20418,21 @@ div.section.bg-fixed .molecule-971 {
     outline: none
 }
 
-.hpnavigationlink &gt; div:first-child button &gt; p {
+.hpnavigationlink > div:first-child button > p {
     color: #767676;
     margin-top: 9px;
     font-size: 14px
 }
 
-.hpnavigationlink &gt; div:first-child button:hover p {
+.hpnavigationlink > div:first-child button:hover p {
     color: #000000
 }
 
-.hpnavigationlink &gt; div:first-child button:hover {
+.hpnavigationlink > div:first-child button:hover {
     border-color: #000000
 }
 
-.hpnavigationlink &gt; div:first-child + div button {
+.hpnavigationlink > div:first-child + div button {
     height: 40px;
     width: 170px;
     border-color: #007DBA;
@@ -20460,7 +20460,7 @@ div.section.bg-fixed .molecule-971 {
         width: 220px
     }
 
-    .popupContent &gt; div:first-child + div + div button {
+    .popupContent > div:first-child + div + div button {
         margin-top: 16px
     }
 
@@ -20477,17 +20477,17 @@ div.section.bg-fixed .molecule-971 {
     }
 }
 
-.hpnavigationlink &gt; div:first-child + div button &gt; p {
+.hpnavigationlink > div:first-child + div button > p {
     color: #007DBA;
     margin-top: 9px;
     font-size: 14px
 }
 
-.hpnavigationlink &gt; div:first-child + div button:hover p {
+.hpnavigationlink > div:first-child + div button:hover p {
     color: #006699
 }
 
-.hpnavigationlink &gt; div:first-child + div button:hover {
+.hpnavigationlink > div:first-child + div button:hover {
     border-color: #006699
 }
 
@@ -20524,13 +20524,13 @@ div.section.bg-fixed .molecule-971 {
     height: 45px
 }
 
-.hpnavigationlink &gt; div:first-child {
+.hpnavigationlink > div:first-child {
     float: left;
     width: 40%;
     margin-left: 40px
 }
 
-.hpnavigationlink &gt; div:first-child + div {
+.hpnavigationlink > div:first-child + div {
     float: right;
     margin-right: 28px;
     width: 40%
@@ -20549,11 +20549,11 @@ div.section.bg-fixed .molecule-971 {
         height: 425px
     }
 
-    .popupContent &gt; div:first-child {
+    .popupContent > div:first-child {
         padding-top: 26px
     }
 
-    .popupContent &gt; div:first-child + div + div {
+    .popupContent > div:first-child + div + div {
         padding-top: 41px
     }
 }
@@ -20709,7 +20709,7 @@ div.section.bg-fixed .molecule-971 {
         display: block
     }
 
-    .responsive div.molecule-302 div.image-holder,.responsive .molecule-302.image-left &gt; .middle-align-cells &gt; div.image-holder {
+    .responsive div.molecule-302 div.image-holder,.responsive .molecule-302.image-left > .middle-align-cells > div.image-holder {
         padding: 0 !important
     }
 
@@ -20753,27 +20753,27 @@ div.section.bg-fixed .molecule-971 {
         position: static !important
     }
 
-    .responsive .molecule-302 .image-holder &gt; div {
+    .responsive .molecule-302 .image-holder > div {
         height: auto !important;
         display: inline-block;
         width: auto !important;
         max-width: 100%
     }
 
-    .responsive .molecule-302 .image-holder &gt; div img {
+    .responsive .molecule-302 .image-holder > div img {
         width: auto !important;
         max-width: 100%;
         height: auto !important
     }
 
-    .responsive .molecule-302 .image-holder &gt; div .js-brightcove-player {
+    .responsive .molecule-302 .image-holder > div .js-brightcove-player {
         position: relative;
         height: auto !important;
         max-width: 100%;
         padding-top: 56.25%
     }
 
-    .responsive .molecule-302 .image-holder &gt; div .js-brightcove-player object,.responsive .molecule-302 .image-holder &gt; div .js-brightcove-player iframe,.responsive .molecule-302 .image-holder &gt; div .js-brightcove-player .spooler {
+    .responsive .molecule-302 .image-holder > div .js-brightcove-player object,.responsive .molecule-302 .image-holder > div .js-brightcove-player iframe,.responsive .molecule-302 .image-holder > div .js-brightcove-player .spooler {
         top: 0;
         position: absolute;
         width: 100%;
@@ -20842,7 +20842,7 @@ div.section.bg-fixed .molecule-971 {
         display: block
     }
 
-    .responsive .molecule-302 .content-wrapper.cloned &gt; .font-lh3 {
+    .responsive .molecule-302 .content-wrapper.cloned > .font-lh3 {
         display: block;
         margin-bottom: 0;
         padding-right: 25px
@@ -20952,27 +20952,27 @@ div.section.bg-fixed .molecule-971 {
         max-width: 100%
     }
 
-    .responsive .molecule-303 .image-holder &gt; div {
+    .responsive .molecule-303 .image-holder > div {
         height: auto !important;
         display: inline-block;
         width: auto !important;
         max-width: 100%
     }
 
-    .responsive .molecule-303 .image-holder &gt; div img {
+    .responsive .molecule-303 .image-holder > div img {
         width: auto !important;
         max-width: 100%;
         height: auto !important
     }
 
-    .responsive .molecule-303 .image-holder &gt; div .js-brightcove-player {
+    .responsive .molecule-303 .image-holder > div .js-brightcove-player {
         position: relative;
         height: auto !important;
         max-width: 100%;
         padding-top: 56.25%
     }
 
-    .responsive .molecule-303 .image-holder &gt; div .js-brightcove-player object,.responsive .molecule-303 .image-holder &gt; div .js-brightcove-player iframe,.responsive .molecule-303 .image-holder &gt; div .js-brightcove-player .spooler {
+    .responsive .molecule-303 .image-holder > div .js-brightcove-player object,.responsive .molecule-303 .image-holder > div .js-brightcove-player iframe,.responsive .molecule-303 .image-holder > div .js-brightcove-player .spooler {
         top: 0;
         position: absolute;
         width: 100%;
@@ -21029,7 +21029,7 @@ div.section.bg-fixed .molecule-971 {
         display: block
     }
 
-    .responsive .molecule-303 .content-wrapper.cloned &gt; .font-lh3 {
+    .responsive .molecule-303 .content-wrapper.cloned > .font-lh3 {
         display: block;
         margin-bottom: 7px;
         padding-right: 25px
@@ -21095,29 +21095,29 @@ div.section.bg-fixed .molecule-971 {
     margin-right: 0
 }
 
-.responsive .section .molecule-425 &gt; div.row {
+.responsive .section .molecule-425 > div.row {
     margin-left: 0;
     margin-right: -18px
 }
 
 @media screen and (max-width:1000px) {
-    .responsive .section .molecule-425 &gt; div.row {
+    .responsive .section .molecule-425 > div.row {
         margin-left: auto;
         margin-right: auto
     }
 }
 
-.responsive .section .molecule-425 &gt; div.row &gt; .span24 {
+.responsive .section .molecule-425 > div.row > .span24 {
     margin-left: 18px
 }
 
-.responsive .section .molecule-425 &gt; div.row &gt; .span24.both-shifted {
+.responsive .section .molecule-425 > div.row > .span24.both-shifted {
     margin-left: 0;
     width: 100%
 }
 
 @media screen and (max-width:800px) {
-    .responsive .section .molecule-425 &gt; div.row &gt; .span24 {
+    .responsive .section .molecule-425 > div.row > .span24 {
         margin-left: 0
     }
 }
@@ -21143,7 +21143,7 @@ div.section.bg-fixed .molecule-971 {
     }
 }
 
-.section .molecule-801 .molecule-425 &gt; div.row {
+.section .molecule-801 .molecule-425 > div.row {
     margin-left: 0
 }
 
@@ -21321,7 +21321,7 @@ div.section.bg-fixed .molecule-971 {
 }
 
 @media (max-width:800px) {
-    .responsive .ruler-vertical-content div:not(:last-child) &gt; .molecule-503 {
+    .responsive .ruler-vertical-content div:not(:last-child) > .molecule-503 {
         border-bottom: 1px solid #CCCCCC
     }
 
@@ -21542,7 +21542,7 @@ div.section.bg-fixed .molecule-971 {
 }
 
 @media screen and (max-width:1000px) {
-    .responsive .molecule-802 .tabs-wrapper &gt; .row {
+    .responsive .molecule-802 .tabs-wrapper > .row {
         margin: 0 30px !important
     }
 
@@ -21621,7 +21621,7 @@ div.section.bg-fixed .molecule-971 {
     max-width: none
 }
 
-.body .large-video-thumbnail.img-nometadata .video-thumbnail &gt; img {
+.body .large-video-thumbnail.img-nometadata .video-thumbnail > img {
     width: auto;
     height: auto
 }
@@ -21656,12 +21656,12 @@ div.section.bg-fixed .molecule-971 {
     text-align: center
 }
 
-.responsive .molecule-825 .slider .slider-section &gt; a,.responsive .molecule-811 .slider .slider-section &gt; a {
+.responsive .molecule-825 .slider .slider-section > a,.responsive .molecule-811 .slider .slider-section > a {
     margin: 0;
     margin-right: 15px
 }
 
-.responsive .molecule-825 .slider .slider-section &gt; a:last-child,.responsive .molecule-811 .slider .slider-section &gt; a:last-child {
+.responsive .molecule-825 .slider .slider-section > a:last-child,.responsive .molecule-811 .slider .slider-section > a:last-child {
     margin-right: 0
 }
 
@@ -21816,26 +21816,26 @@ div.section.bg-fixed .molecule-971 {
 }
 
 @media screen and (max-width:800px) {
-    .responsive .prog-disc-content &gt; li &gt; .item-container .molecule-920 .item {
+    .responsive .prog-disc-content > li > .item-container .molecule-920 .item {
         font-family: "HPSimplifiedLight","Arial"
     }
 
-    .responsive .prog-disc-content &gt; li &gt; .item-container .molecule-920 .item.ruler-hor {
+    .responsive .prog-disc-content > li > .item-container .molecule-920 .item.ruler-hor {
         border-bottom: none;
         padding: 0
     }
 
-    .responsive .prog-disc-content &gt; li &gt; .item-container .molecule-920 .item .spec_group &gt; dd {
+    .responsive .prog-disc-content > li > .item-container .molecule-920 .item .spec_group > dd {
         padding-top: 20px;
         padding-left: 25px;
         float: none
     }
 
-    .responsive .prog-disc-content &gt; li &gt; .item-container .molecule-920 .item .spec_group dl dt {
+    .responsive .prog-disc-content > li > .item-container .molecule-920 .item .spec_group dl dt {
         font-family: "HPSimplifiedLight","Arial"
     }
 
-    .responsive .prog-disc-content &gt; li &gt; .item-container .molecule-920 .item .spec_group.expanded.with-title .spec_group_title .spec_title:before {
+    .responsive .prog-disc-content > li > .item-container .molecule-920 .item .spec_group.expanded.with-title .spec_group_title .spec_title:before {
         content: '';
         width: 20px;
         height: 20px;
@@ -21848,11 +21848,11 @@ div.section.bg-fixed .molecule-971 {
         left: 0
     }
 
-    .responsive .prog-disc-content &gt; li &gt; .item-container .molecule-920 .item .spec_group.with-title &gt; dd {
+    .responsive .prog-disc-content > li > .item-container .molecule-920 .item .spec_group.with-title > dd {
         display: none
     }
 
-    .responsive .prog-disc-content &gt; li &gt; .item-container .molecule-920 .item .spec_group.with-title .spec_group_title {
+    .responsive .prog-disc-content > li > .item-container .molecule-920 .item .spec_group.with-title .spec_group_title {
         display: block;
         cursor: pointer;
         width: auto;
@@ -21862,21 +21862,21 @@ div.section.bg-fixed .molecule-971 {
         position: relative
     }
 
-    .responsive .prog-disc-content &gt; li &gt; .item-container .molecule-920 .item .spec_group.with-title .spec_group_title &gt; *,.responsive .prog-disc-content &gt; li &gt; .item-container .molecule-920 .item .spec_group.with-title .spec_group_title &gt; * &gt; * {
+    .responsive .prog-disc-content > li > .item-container .molecule-920 .item .spec_group.with-title .spec_group_title > *,.responsive .prog-disc-content > li > .item-container .molecule-920 .item .spec_group.with-title .spec_group_title > * > * {
         float: none
     }
 
-    .responsive .prog-disc-content &gt; li &gt; .item-container .molecule-920 .item .spec_group.with-title .spec_group_title .spec_title {
+    .responsive .prog-disc-content > li > .item-container .molecule-920 .item .spec_group.with-title .spec_group_title .spec_title {
         padding-left: 5px;
         display: block;
         font-weight: normal
     }
 
-    .responsive .prog-disc-content &gt; li &gt; .item-container .molecule-920 .item .spec_group.with-title .spec_group_title .spec_title .group_head {
+    .responsive .prog-disc-content > li > .item-container .molecule-920 .item .spec_group.with-title .spec_group_title .spec_title .group_head {
         padding-bottom: 0
     }
 
-    .responsive .prog-disc-content &gt; li &gt; .item-container .molecule-920 .item .spec_group.with-title .spec_group_title .spec_title:before {
+    .responsive .prog-disc-content > li > .item-container .molecule-920 .item .spec_group.with-title .spec_group_title .spec_title:before {
         content: '';
         width: 20px;
         height: 20px;
@@ -21889,7 +21889,7 @@ div.section.bg-fixed .molecule-971 {
         left: 0
     }
 
-    .responsive .prog-disc-content &gt; li &gt; .item-container .molecule-920 .item .spec_group.no-title .spec_group_title {
+    .responsive .prog-disc-content > li > .item-container .molecule-920 .item .spec_group.no-title .spec_group_title {
         display: none
     }
 }
@@ -21909,7 +21909,7 @@ div.section.bg-fixed .molecule-971 {
         margin-bottom: 20px
     }
 
-    .responsive div.section.layout-1280 .molecule-975.mbot-mol .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .button.transparent {
+    .responsive div.section.layout-1280 .molecule-975.mbot-mol .middle-aligned-cells > div:first-child.text-block.content-wrapper .button.transparent {
         margin-bottom: 40px
     }
 
@@ -21917,7 +21917,7 @@ div.section.bg-fixed .molecule-971 {
         margin-top: 45px
     }
 
-    .responsive div.section.layout-1280 .molecule-975.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper {
+    .responsive div.section.layout-1280 .molecule-975.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper {
         width: 30%;
         margin-right: 40px
     }
@@ -21926,21 +21926,21 @@ div.section.bg-fixed .molecule-971 {
         padding-left: 0;
     }
 
-    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper {
+    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells > div:first-child.text-block.content-wrapper {
         margin: 0;
         width: 50%;
         padding-top: 0
     }
 
-    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper h2 {
+    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells > div:first-child.text-block.content-wrapper h2 {
         max-width: 345px
     }
 
-    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .description {
+    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells > div:first-child.text-block.content-wrapper .description {
         max-width: 345px
     }
 
-    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .button.transparent {
+    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells > div:first-child.text-block.content-wrapper .button.transparent {
         margin-bottom: 0
     }
 
@@ -21970,7 +21970,7 @@ div.section.bg-fixed .molecule-971 {
         height: auto
     }
 
-    .responsive div.section.layout-1280 .molecule-975.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper {
+    .responsive div.section.layout-1280 .molecule-975.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper {
         width: 50%;
         margin-right: 0
     }
@@ -22005,7 +22005,7 @@ div.section.bg-fixed .molecule-971 {
         margin-top: 25px
     }
 
-    .responsive div.section.layout-1280 .molecule-975.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper {
+    .responsive div.section.layout-1280 .molecule-975.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper {
         width: 100%;
         margin-right: 0;
         margin-left: 0;
@@ -22014,16 +22014,16 @@ div.section.bg-fixed .molecule-971 {
         width: 100%
     }
 
-    .responsive div.section.layout-1280 .molecule-975.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; div,.responsive div.section.layout-1280 .molecule-975.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; h2,.responsive div.section.layout-1280 .molecule-975.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a.bottom-link.link_icn.icl_arr.button.transparent,.responsive div.section.layout-1280 .molecule-975.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a.bottom-link.button.transparent,.responsive div.section.layout-1280 .molecule-975.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a {
+    .responsive div.section.layout-1280 .molecule-975.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > div,.responsive div.section.layout-1280 .molecule-975.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > h2,.responsive div.section.layout-1280 .molecule-975.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > a.bottom-link.link_icn.icl_arr.button.transparent,.responsive div.section.layout-1280 .molecule-975.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > a.bottom-link.button.transparent,.responsive div.section.layout-1280 .molecule-975.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > a {
         width: 100%;
         text-align: center
     }
 
-    .responsive div.section.layout-1280 .molecule-975.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .logo img {
+    .responsive div.section.layout-1280 .molecule-975.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper .logo img {
         float: none
     }
 
-    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper {
+    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper {
         -moz-transform: translate(0px,-75px);
         -ms-transform: translate(0px,-75px);
         transform: translate(0px,-75px);
@@ -22036,16 +22036,16 @@ div.section.bg-fixed .molecule-971 {
         width: 100%
     }
 
-    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; div,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; h2,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a.bottom-link.link_icn.icl_arr.button.transparent,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a.bottom-link.button.transparent,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a {
+    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper > div,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper > h2,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper > a.bottom-link.link_icn.icl_arr.button.transparent,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper > a.bottom-link.button.transparent,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper > a {
         width: 100%;
         text-align: center
     }
 
-    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .logo img {
+    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper .logo img {
         float: none
     }
 
-    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper a.button.transparent,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper a.button {
+    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper a.button.transparent,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper a.button {
         padding: 0
     }
 
@@ -22071,23 +22071,23 @@ div.section.bg-fixed .molecule-971 {
     .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells {
     }
 
-    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper {
+    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells > div:first-child.text-block.content-wrapper {
         width: 100%
     }
 
-    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper h2 {
+    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells > div:first-child.text-block.content-wrapper h2 {
         max-width: none
     }
 
-    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .description {
+    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells > div:first-child.text-block.content-wrapper .description {
         max-width: none
     }
 
-    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .button.transparent {
+    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells > div:first-child.text-block.content-wrapper .button.transparent {
         margin-bottom: 40px
     }
 
-    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; div,.responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; h2,.responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a {
+    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells > div:first-child.text-block.content-wrapper > div,.responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells > div:first-child.text-block.content-wrapper > h2,.responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells > div:first-child.text-block.content-wrapper > a {
         width: 100%
     }
 
@@ -22099,7 +22099,7 @@ div.section.bg-fixed .molecule-971 {
         width: 100%
     }
 
-    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells .text-block.content-wrapper &gt; div,.responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells .text-block.content-wrapper &gt; h2 {
+    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells .text-block.content-wrapper > div,.responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells .text-block.content-wrapper > h2 {
         width: 100%;
         text-align: center;
         float: none
@@ -22109,7 +22109,7 @@ div.section.bg-fixed .molecule-971 {
         float: none
     }
 
-    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells .text-block.content-wrapper &gt; a.bottom-link.link_icn.icl_arr.button.transparent,.responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells .text-block.content-wrapper &gt; a.bottom-link.button.transparent,.responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells .text-block.content-wrapper &gt; a.button.transparent,.responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells .text-block.content-wrapper &gt; a {
+    .responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells .text-block.content-wrapper > a.bottom-link.link_icn.icl_arr.button.transparent,.responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells .text-block.content-wrapper > a.bottom-link.button.transparent,.responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells .text-block.content-wrapper > a.button.transparent,.responsive div.section.layout-1280 .molecule-975 .middle-aligned-cells .text-block.content-wrapper > a {
         display: table;
         margin: 30px auto;
         float: none;
@@ -22238,7 +22238,7 @@ div.section.bg-fixed .molecule-971 {
 }
 
 @media screen and (max-width:490px) {
-    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper {
+    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper {
         -moz-transform: translate(0px,-75px);
         -ms-transform: translate(0px,-75px);
         transform: translate(0px,-75px);
@@ -22251,20 +22251,20 @@ div.section.bg-fixed .molecule-971 {
         width: 100%
     }
 
-    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; div,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; h2,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a.bottom-link.link_icn.icl_arr.button.transparent,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a.bottom-link.button.transparent,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a {
+    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper > div,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper > h2,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper > a.bottom-link.link_icn.icl_arr.button.transparent,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper > a.bottom-link.button.transparent,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper > a {
         width: 100%;
         text-align: center
     }
 
-    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .logo img {
+    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper .logo img {
         float: none
     }
 
-    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper a.button.transparent,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper a.button {
+    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper a.button.transparent,.responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper a.button {
         padding: 0
     }
 
-    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .button {
+    .responsive div.section.layout-1280 .molecule-975.image-right.image-overlay-top .middle-aligned-cells > div:first-child.text-block.content-wrapper .button {
         border-radius: 4px;
         -webkit-border-radius: 4px
     }
@@ -22328,42 +22328,42 @@ div.section.bg-fixed .molecule-971 {
 }
 
 @media (max-width:800px) {
-    .responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells .text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper {
+    .responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells > div:first-child.text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells .text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper {
         text-align: left
     }
 
-    .responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper &gt; ul,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper &gt; a,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper a.bottom-link.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper &gt; .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; ul,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper a.bottom-link.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells .text-block.content-wrapper &gt; ul,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells .text-block.content-wrapper &gt; a,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells .text-block.content-wrapper a.bottom-link.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells .text-block.content-wrapper &gt; .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; ul,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper a.bottom-link.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; .logo img {
+    .responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper > ul,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper > a,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper a.bottom-link.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper > .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells > div:first-child.text-block.content-wrapper > ul,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells > div:first-child.text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells > div:first-child.text-block.content-wrapper > a,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells > div:first-child.text-block.content-wrapper a.bottom-link.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells > div:first-child.text-block.content-wrapper > .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells .text-block.content-wrapper > ul,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells .text-block.content-wrapper > a,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells .text-block.content-wrapper a.bottom-link.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells .text-block.content-wrapper > .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > ul,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > a,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper a.bottom-link.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > .logo img {
         float: left;
         clear: both
     }
 
-    .responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper &gt; div,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; div,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells .text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells .text-block.content-wrapper &gt; div,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; div {
+    .responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells .text-block.content-wrapper > div,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells > div:first-child.text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-left .middle-aligned-cells > div:first-child.text-block.content-wrapper > div,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells .text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells .text-block.content-wrapper > div,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-left.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > div {
         text-align: left
     }
 
-    .responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells .text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper {
+    .responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells > div:first-child.text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells .text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper {
         text-align: right
     }
 
-    .responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper &gt; ul,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper &gt; a,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper a.bottom-link.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; ul,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper a.bottom-link.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells .text-block.content-wrapper &gt; ul,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells .text-block.content-wrapper &gt; a,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells .text-block.content-wrapper a.bottom-link.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells .text-block.content-wrapper .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; ul,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper a.bottom-link.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .logo img {
+    .responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper > ul,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper > a,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper a.bottom-link.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > ul,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells > div:first-child.text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > a,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells > div:first-child.text-block.content-wrapper a.bottom-link.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells > div:first-child.text-block.content-wrapper .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells .text-block.content-wrapper > ul,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells .text-block.content-wrapper > a,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells .text-block.content-wrapper a.bottom-link.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells .text-block.content-wrapper .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > ul,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > a,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper a.bottom-link.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper .logo img {
         float: right;
         clear: both
     }
 
-    .responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper &gt; div,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; div,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells .text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells .text-block.content-wrapper &gt; div,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; div {
+    .responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells .text-block.content-wrapper > div,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells > div:first-child.text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > div,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells .text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells .text-block.content-wrapper > div,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-right.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > div {
         text-align: right
     }
 
-    .responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells .text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper {
+    .responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells > div:first-child.text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells .text-block.content-wrapper,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper {
         text-align: center
     }
 
-    .responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper &gt; ul,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper &gt; div,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; ul,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; div,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells .text-block.content-wrapper &gt; ul,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells .text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells .text-block.content-wrapper &gt; div,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells .text-block.content-wrapper .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; ul,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; div,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper .logo img {
+    .responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper > ul,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper > div,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells > div:first-child.text-block.content-wrapper > ul,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells > div:first-child.text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells > div:first-child.text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells > div:first-child.text-block.content-wrapper > div,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells > div:first-child.text-block.content-wrapper .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells .text-block.content-wrapper > ul,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells .text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells .text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells .text-block.content-wrapper > div,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells .text-block.content-wrapper .logo img,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > ul,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper .content-tag,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper h2,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > div,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper .logo img {
         float: none;
         clear: both
     }
 
-    .responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper &gt; a.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells .text-block.content-wrapper &gt; a.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells &gt; div:first-child.text-block.content-wrapper &gt; a.button.transparent {
+    .responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells .text-block.content-wrapper > a.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-center .middle-aligned-cells > div:first-child.text-block.content-wrapper > a.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells .text-block.content-wrapper > a.button.transparent,.responsive div.section.layout-1280 .row .molecule-975.text-center.image-right .middle-aligned-cells > div:first-child.text-block.content-wrapper > a.button.transparent {
         float: none;
         clear: both;
         padding: 7px 50px 7px 50px
@@ -22383,7 +22383,7 @@ div.sec-nav-rd-icon {
     min-height: 41px
 }
 
-.sec-nav-fix &gt; .section.pinned {
+.sec-nav-fix > .section.pinned {
     position: fixed;
     width: 100%;
     max-width: none;
@@ -22394,12 +22394,12 @@ div.sec-nav-rd-icon {
 }
 
 @media screen and (max-width:1000px) {
-    .sec-nav-fix &gt; .section.pinned {
+    .sec-nav-fix > .section.pinned {
         position: static
     }
 }
 
-.sec-nav-fix &gt; .section.pinned &gt; .row {
+.sec-nav-fix > .section.pinned > .row {
     max-width: 1000px;
     margin: 0 auto
 }
@@ -22408,7 +22408,7 @@ div.sec-nav-rd-icon {
     min-height: 41px
 }
 
-.ie-8 .static-sec-nav .sec-nav-fix &gt; .section.pinned,.ie-7 .static-sec-nav .sec-nav-fix &gt; .section.pinned {
+.ie-8 .static-sec-nav .sec-nav-fix > .section.pinned,.ie-7 .static-sec-nav .sec-nav-fix > .section.pinned {
     position: static
 }
 
@@ -22477,7 +22477,7 @@ div.sec-nav-rd-icon {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff',endColorstr='#ffffff',GradientType=1 )
 }
 
-.responsive .responsive-sec-nav.secondary-nav nav &gt; ul {
+.responsive .responsive-sec-nav.secondary-nav nav > ul {
     position: relative;
     white-space: nowrap
 }
@@ -22485,13 +22485,13 @@ div.sec-nav-rd-icon {
 .responsive .responsive-sec-nav.secondary-nav .level2 {
 }
 
-.responsive .responsive-sec-nav.secondary-nav .level2 &gt; li {
+.responsive .responsive-sec-nav.secondary-nav .level2 > li {
     display: inline-block;
     margin: 0 10px;
     float: none
 }
 
-.responsive .responsive-sec-nav.secondary-nav .level2 &gt; li &gt; a {
+.responsive .responsive-sec-nav.secondary-nav .level2 > li > a {
     white-space: nowrap
 }
 
@@ -22499,7 +22499,7 @@ div.sec-nav-rd-icon {
     display: none
 }
 
-.responsive .responsive-sec-nav.secondary-nav .sec-nav-tab-content &gt; * {
+.responsive .responsive-sec-nav.secondary-nav .sec-nav-tab-content > * {
     display: none
 }
 
@@ -22539,7 +22539,7 @@ div.sec-nav-rd-icon {
     width: auto
 }
 
-.responsive .responsive-sec-nav.secondary-nav .sec-nav-tab-content .expand-area .level3 &gt; ul &gt; li &gt; a,.responsive .responsive-sec-nav.secondary-nav .menu-holder .expand-area .level3 &gt; ul &gt; li &gt; a {
+.responsive .responsive-sec-nav.secondary-nav .sec-nav-tab-content .expand-area .level3 > ul > li > a,.responsive .responsive-sec-nav.secondary-nav .menu-holder .expand-area .level3 > ul > li > a {
     border-bottom: 1px solid #bbb
 }
 
@@ -23218,12 +23218,12 @@ div.sec-nav-rd-icon {
     display: none
 }
 
-.responsive .section &gt; .row &gt; .ruler-hor {
+.responsive .section > .row > .ruler-hor {
     margin-left: 0
 }
 
 @media screen and (max-width:800px) {
-    .responsive .section &gt; .row &gt; .ruler-hor {
+    .responsive .section > .row > .ruler-hor {
         margin-right: 0
     }
 }
@@ -23300,7 +23300,7 @@ div.sec-nav-rd-icon {
         margin-bottom: 8px
     }
 
-    .responsive .one-height-boxes .row [class*="span"] &gt; *,.responsive .ignore-inline-height.auto-height {
+    .responsive .one-height-boxes .row [class*="span"] > *,.responsive .ignore-inline-height.auto-height {
         min-height: 0 !important
     }
 
@@ -23422,7 +23422,7 @@ div.molecule-406 .dropdown .dropdown-toggle .icon {
     right: 13px
 }
 
-div.molecule-406 .dropdown .dropdown-toggle .icon &gt; span {
+div.molecule-406 .dropdown .dropdown-toggle .icon > span {
     margin-top: 7px
 }
 
@@ -23440,22 +23440,22 @@ div.molecule-406 .dropdown .dropdown-toggle .icon &gt; span {
     }
 }
 
-.ie-8 .row &gt; .mbot-mol {
+.ie-8 .row > .mbot-mol {
     margin-bottom: 0;
     padding-bottom: 45px
 }
 
-.ie-8 .row &gt; .mtop-mol {
+.ie-8 .row > .mtop-mol {
     margin-top: 0;
     padding-top: 45px
 }
 
-.ie-8 .row .molecule-406 &gt; .mbot-mol {
+.ie-8 .row .molecule-406 > .mbot-mol {
     margin-bottom: 0;
     padding-bottom: 0
 }
 
-.ie-8 .row .molecule-406 &gt; .mtop-mol {
+.ie-8 .row .molecule-406 > .mtop-mol {
     margin-top: 0;
     padding-top: 0
 }
@@ -23475,7 +23475,7 @@ div.molecule-406 .dropdown .dropdown-toggle .icon &gt; span {
     left: 0
 }
 
-.rtl-page .secondary-nav-content .secondary-nav-widget &gt; .molecule-999 {
+.rtl-page .secondary-nav-content .secondary-nav-widget > .molecule-999 {
     float: left
 }
 
@@ -23553,11 +23553,11 @@ body.rtl-page .menu-holder.slider.js-product-slider {
     float: none
 }
 
-body.rtl-page nav &gt; a,body.rtl-page nav.slider.js-product-slider &gt; a,body.rtl-page nav .slider-section &gt; a {
+body.rtl-page nav > a,body.rtl-page nav.slider.js-product-slider > a,body.rtl-page nav .slider-section > a {
     margin: 0 15px 0 0
 }
 
-body.rtl-page nav &gt; a:first-child,body.rtl-page nav.slider.js-product-slider &gt; a:first-child,body.rtl-page nav .slider-section &gt; a:first-child {
+body.rtl-page nav > a:first-child,body.rtl-page nav.slider.js-product-slider > a:first-child,body.rtl-page nav .slider-section > a:first-child {
     margin-right: 0
 }
 
@@ -24020,11 +24020,11 @@ body.rtl-page nav &gt; a:first-child,body.rtl-page nav.slider.js-product-slider 
     }
 }
 
-.molecule-976 .gallery-viewer .gallery-container &gt; div .gallery-item-label {
+.molecule-976 .gallery-viewer .gallery-container > div .gallery-item-label {
     font-family: "HPSimplified",Arial
 }
 
-.molecule-976 .gallery-viewer .gallery-container &gt; div:hover .gallery-item-label {
+.molecule-976 .gallery-viewer .gallery-container > div:hover .gallery-item-label {
     font-family: "HPSimplified",Arial
 }
 

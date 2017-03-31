@@ -1667,7 +1667,7 @@ a {
     border-top-color: #087bbb
 }
 
-.hot-topics li:hover&gt;.hot-topics-list {
+.hot-topics li:hover>.hot-topics-list {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: -ms-flex;
@@ -1702,11 +1702,11 @@ a {
     }
 }
 
-.ie9 .hot-topics li:hover&gt;.hot-topics-list {
+.ie9 .hot-topics li:hover>.hot-topics-list {
     display: block
 }
 
-.hot-topics li&gt;a {
+.hot-topics li>a {
     color: #797979;
     font-size: 13px;
     text-transform: uppercase;
@@ -2107,7 +2107,7 @@ a {
 }
 
 [class*=from-] .block-overtitle a:before {
-    content: 'vai al sito &gt;&gt;';
+    content: 'vai al sito >>';
     position: absolute;
     right: 40px;
     bottom: 24px;

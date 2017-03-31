@@ -1518,18 +1518,18 @@ video::-webkit-media-text-track-display {
     float: right
 }
 
-.vjs-caption-settings .vjs-tracksetting&gt;div {
+.vjs-caption-settings .vjs-tracksetting>div {
     margin-bottom: 5px;
     min-height: 20px
 }
 
-.vjs-caption-settings .vjs-tracksetting&gt;div:last-child {
+.vjs-caption-settings .vjs-tracksetting>div:last-child {
     margin-bottom: 0;
     padding-bottom: 0;
     min-height: 0
 }
 
-.vjs-caption-settings label&gt;input {
+.vjs-caption-settings label>input {
     margin-right: 10px
 }
 
@@ -1568,7 +1568,7 @@ video::-webkit-media-text-track-display {
 }
 
 @media print {
-    .video-js&gt;:not(.vjs-tech):not(.vjs-poster) {
+    .video-js>:not(.vjs-tech):not(.vjs-poster) {
         visibility: hidden
     }
 }
@@ -2015,11 +2015,11 @@ video::-webkit-media-text-track-display {
 
 @charset "UTF-8";
 
-.colorpicker,body&gt;.select2-container.open {
+.colorpicker,body>.select2-container.open {
     z-index: 9999
 }
 
-.d-filter .ui-select-wrapper .selectize-input .match,.d_popup .fieldset .selectize-input&gt;.ui-select-match,.ellipsis,.tiles_tooltip.embed_code .embed_code_content .link {
+.d-filter .ui-select-wrapper .selectize-input .match,.d_popup .fieldset .selectize-input>.ui-select-match,.ellipsis,.tiles_tooltip.embed_code .embed_code_content .link {
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis;
     white-space: nowrap
@@ -3147,7 +3147,7 @@ colorpicker-preview {
     background-color: #f5f5f5
 }
 
-.ng-dirty.ng-invalid&gt;a.select2-choice {
+.ng-dirty.ng-invalid>a.select2-choice {
     border-color: #D44950
 }
 
@@ -3155,7 +3155,7 @@ colorpicker-preview {
     padding-left: 0
 }
 
-.select-locked&gt;.ui-select-match-close,.select2-locked&gt;.select2-search-choice-close {
+.select-locked>.ui-select-match-close,.select2-locked>.select2-search-choice-close {
     display: none
 }
 
@@ -3183,11 +3183,11 @@ colorpicker-preview {
     border-color: #8E9199
 }
 
-.selectize-control&gt;.selectize-dropdown,.selectize-control&gt;.selectize-input&gt;input {
+.selectize-control>.selectize-dropdown,.selectize-control>.selectize-input>input {
     width: 100%
 }
 
-.ng-dirty.ng-invalid&gt;div.selectize-input {
+.ng-dirty.ng-invalid>div.selectize-input {
     border-color: #D44950
 }
 
@@ -3210,7 +3210,7 @@ colorpicker-preview {
     position: relative
 }
 
-.ui-select-bootstrap .ui-select-toggle&gt;.caret {
+.ui-select-bootstrap .ui-select-toggle>.caret {
     position: absolute;
     height: 10px;
     top: 50%;
@@ -3218,29 +3218,29 @@ colorpicker-preview {
     margin-top: -2px
 }
 
-.input-group&gt;.ui-select-bootstrap.dropdown {
+.input-group>.ui-select-bootstrap.dropdown {
     position: static
 }
 
-.input-group&gt;.ui-select-bootstrap&gt;input.ui-select-search.form-control {
+.input-group>.ui-select-bootstrap>input.ui-select-search.form-control {
     border-radius: 4px 0 0 4px
 }
 
-.input-group&gt;.ui-select-bootstrap&gt;input.ui-select-search.form-control.direction-up {
+.input-group>.ui-select-bootstrap>input.ui-select-search.form-control.direction-up {
     border-radius: 4px 0 0 4px!important
 }
 
-.ui-select-bootstrap&gt;.ui-select-match&gt;.btn {
+.ui-select-bootstrap>.ui-select-match>.btn {
     text-align: left!important
 }
 
-.ui-select-bootstrap&gt;.ui-select-match&gt;.caret {
+.ui-select-bootstrap>.ui-select-match>.caret {
     position: absolute;
     top: 45%;
     right: 15px
 }
 
-.ui-select-bootstrap&gt;.ui-select-choices {
+.ui-select-bootstrap>.ui-select-choices {
     width: 100%;
     height: auto;
     max-height: 200px;
@@ -3248,7 +3248,7 @@ colorpicker-preview {
     margin-top: -1px
 }
 
-body&gt;.ui-select-bootstrap.open {
+body>.ui-select-bootstrap.open {
     z-index: 1000
 }
 
@@ -3299,7 +3299,7 @@ body&gt;.ui-select-bootstrap.open {
     border-right: 1px solid #428bca
 }
 
-.ui-select-bootstrap .ui-select-choices-row&gt;a {
+.ui-select-bootstrap .ui-select-choices-row>a {
     display: block;
     padding: 3px 20px;
     clear: both;
@@ -3309,20 +3309,20 @@ body&gt;.ui-select-bootstrap.open {
     white-space: nowrap
 }
 
-.ui-select-bootstrap .ui-select-choices-row&gt;a:focus,.ui-select-bootstrap .ui-select-choices-row&gt;a:hover {
+.ui-select-bootstrap .ui-select-choices-row>a:focus,.ui-select-bootstrap .ui-select-choices-row>a:hover {
     text-decoration: none;
     color: #262626;
     background-color: #f5f5f5
 }
 
-.ui-select-bootstrap .ui-select-choices-row.active&gt;a {
+.ui-select-bootstrap .ui-select-choices-row.active>a {
     color: #fff;
     text-decoration: none;
     outline: 0;
     background-color: #428bca
 }
 
-.ui-select-bootstrap .ui-select-choices-row.active.disabled&gt;a,.ui-select-bootstrap .ui-select-choices-row.disabled&gt;a {
+.ui-select-bootstrap .ui-select-choices-row.active.disabled>a,.ui-select-bootstrap .ui-select-choices-row.disabled>a {
     color: #777;
     cursor: not-allowed;
     background-color: #fff
@@ -3332,7 +3332,7 @@ body&gt;.ui-select-bootstrap.open {
     display: none!important
 }
 
-.ui-select-bootstrap.ng-dirty.ng-invalid&gt;button.btn.ui-select-match {
+.ui-select-bootstrap.ng-dirty.ng-invalid>button.btn.ui-select-match {
     border-color: #D44950
 }
 
@@ -4558,17 +4558,17 @@ body .date-picker-wrapper .footer {
     border-right: 7px solid #e53935
 }
 
-:hover&gt;.d_tip {
+:hover>.d_tip {
     z-index: 20;
     opacity: 1
 }
 
-:hover&gt;.d_tip.form {
+:hover>.d_tip.form {
     z-index: -10!important;
     opacity: 0!important
 }
 
-.error&gt;.d_tip.form {
+.error>.d_tip.form {
     z-index: 20!important;
     opacity: 1!important
 }
@@ -5082,7 +5082,7 @@ body .date-picker-wrapper .footer {
     font-weight: 400
 }
 
-.d_footer .action li,.d_footer .menu&gt;li,.d_footer .menu&gt;li.multilevel&gt;button:after {
+.d_footer .action li,.d_footer .menu>li,.d_footer .menu>li.multilevel>button:after {
     display: inline-block;
     vertical-align: middle
 }
@@ -5098,12 +5098,12 @@ body .date-picker-wrapper .footer {
     text-align: right
 }
 
-.d_footer .menu&gt;li {
+.d_footer .menu>li {
     margin: 0 0 0 21px;
     text-align: right
 }
 
-.d_footer .menu&gt;li a,.d_footer .menu&gt;li button {
+.d_footer .menu>li a,.d_footer .menu>li button {
     color: #fff;
     font-size: 12px;
     text-align: left;
@@ -5111,25 +5111,25 @@ body .date-picker-wrapper .footer {
     font-weight: 400
 }
 
-.d_footer .menu&gt;li a:hover,.d_footer .menu&gt;li button:hover {
+.d_footer .menu>li a:hover,.d_footer .menu>li button:hover {
     color: orange
 }
 
-.d_footer .menu&gt;li.multilevel {
+.d_footer .menu>li.multilevel {
     position: relative
 }
 
-.d_footer .menu&gt;li.multilevel ul&gt;li a {
+.d_footer .menu>li.multilevel ul>li a {
     line-height: 20px;
     width: 100%;
     padding: 0 8px 0 16px
 }
 
-.d_footer .menu&gt;li.multilevel ul&gt;li:hover {
+.d_footer .menu>li.multilevel ul>li:hover {
     background-color: #2d283b
 }
 
-.d_footer .menu&gt;li.multilevel&gt;button:after {
+.d_footer .menu>li.multilevel>button:after {
     content: "";
     height: 0;
     width: 0;
@@ -5139,11 +5139,11 @@ body .date-picker-wrapper .footer {
     margin-left: 5px
 }
 
-.d_footer .menu&gt;li.multilevel&gt;button:hover:after {
+.d_footer .menu>li.multilevel>button:hover:after {
     border-top-color: orange
 }
 
-.d_footer .menu&gt;li.multilevel ul {
+.d_footer .menu>li.multilevel ul {
     display: none;
     position: absolute;
     right: -6px;
@@ -5156,15 +5156,15 @@ body .date-picker-wrapper .footer {
     z-index: 100
 }
 
-.d_footer .menu&gt;li.multilevel ul li,.d_footer .menu&gt;li.multilevel.active ul {
+.d_footer .menu>li.multilevel ul li,.d_footer .menu>li.multilevel.active ul {
     display: block
 }
 
-.d_footer .menu&gt;li:first-child {
+.d_footer .menu>li:first-child {
     margin-left: 0
 }
 
-.d_footer .menu&gt;li:nth-child(9) {
+.d_footer .menu>li:nth-child(9) {
     margin-left: 24px
 }
 
@@ -5246,7 +5246,7 @@ body .date-picker-wrapper .footer {
         margin-top: 13px
     }
 
-    .d_footer .menu&gt;li.multilevel.active ul {
+    .d_footer .menu>li.multilevel.active ul {
         top: -99px
     }
 
@@ -5473,15 +5473,15 @@ body .date-picker-wrapper .footer {
     width: 100%
 }
 
-.d_menu .sidebar .nav&gt;li {
+.d_menu .sidebar .nav>li {
     position: relative
 }
 
-.d_menu .sidebar .nav&gt;li ul {
+.d_menu .sidebar .nav>li ul {
     display: none
 }
 
-.d_menu .sidebar .nav&gt;li ul li a {
+.d_menu .sidebar .nav>li ul li a {
     color: #fff;
     font-size: 13px;
     text-align: left;
@@ -5489,11 +5489,11 @@ body .date-picker-wrapper .footer {
     font-weight: 400
 }
 
-.d_menu .sidebar .nav&gt;li.active ul {
+.d_menu .sidebar .nav>li.active ul {
     display: block
 }
 
-.d_menu .sidebar .nav&gt;li.multilevel&gt;a:after,.d_menu .sidebar .nav&gt;li.multilevel&gt;button:after,.d_menu .sidebar .session .user_info:after {
+.d_menu .sidebar .nav>li.multilevel>a:after,.d_menu .sidebar .nav>li.multilevel>button:after,.d_menu .sidebar .session .user_info:after {
     content: "";
     display: inline-block;
     vertical-align: middle;
@@ -5554,11 +5554,11 @@ body .date-picker-wrapper .footer {
     margin-top: 8px
 }
 
-.d_menu .sidebar .nav&gt;li.multilevel&gt;a:hover:after,.d_menu .sidebar .nav&gt;li.multilevel&gt;button:hover:after {
+.d_menu .sidebar .nav>li.multilevel>a:hover:after,.d_menu .sidebar .nav>li.multilevel>button:hover:after {
     border-top-color: orange
 }
 
-.d_menu .sidebar .nav&gt;li&gt;a:hover,.d_menu .sidebar .nav&gt;li&gt;button:hover {
+.d_menu .sidebar .nav>li>a:hover,.d_menu .sidebar .nav>li>button:hover {
     color: orange
 }
 
@@ -5574,7 +5574,7 @@ body .date-picker-wrapper .footer {
         background-color: transparent
     }
 
-    .d_menu,.d_menu .sidebar,.d_menu .sidebar .nav&gt;li {
+    .d_menu,.d_menu .sidebar,.d_menu .sidebar .nav>li {
         background-color: transparent
     }
 
@@ -5597,13 +5597,13 @@ body .date-picker-wrapper .footer {
         margin-right: 0
     }
 
-    .d_menu .sidebar .nav&gt;li {
+    .d_menu .sidebar .nav>li {
         border-bottom: none;
         display: inline-block;
         vertical-align: middle
     }
 
-    .d_menu .sidebar .nav&gt;li&gt;a,.d_menu .sidebar .nav&gt;li&gt;button {
+    .d_menu .sidebar .nav>li>a,.d_menu .sidebar .nav>li>button {
         color: #fff;
         font-size: 13px;
         text-align: left;
@@ -5612,11 +5612,11 @@ body .date-picker-wrapper .footer {
         padding: 0 8px 0 16px
     }
 
-    .d_menu .sidebar .nav&gt;li a,.d_menu .sidebar .nav&gt;li button {
+    .d_menu .sidebar .nav>li a,.d_menu .sidebar .nav>li button {
         padding-left: 15px
     }
 
-    .d_menu .sidebar .nav&gt;li ul {
+    .d_menu .sidebar .nav>li ul {
         display: none;
         padding-bottom: 8px;
         margin-bottom: 10px;
@@ -5628,23 +5628,23 @@ body .date-picker-wrapper .footer {
         z-index: 1000000
     }
 
-    .d_menu .sidebar .nav&gt;li ul li.bln {
+    .d_menu .sidebar .nav>li ul li.bln {
         border-bottom: 1px solid #2d283b;
         padding-bottom: 8px;
         margin-bottom: 8px
     }
 
-    .d_menu .sidebar .nav&gt;li ul li.tln {
+    .d_menu .sidebar .nav>li ul li.tln {
         border-top: 1px solid #2d283b;
         padding-top: 8px;
         margin-top: 8px
     }
 
-    .d_menu .sidebar .nav&gt;li ul li.mb {
+    .d_menu .sidebar .nav>li ul li.mb {
         margin-bottom: 8px
     }
 
-    .d_menu .sidebar .nav&gt;li ul li.mt {
+    .d_menu .sidebar .nav>li ul li.mt {
         margin-top: 8px
     }
 
@@ -5848,21 +5848,21 @@ body .date-picker-wrapper .footer {
         -o-background-size: contain
     }
 
-    .d_menu .sidebar .nav&gt;li {
+    .d_menu .sidebar .nav>li {
         background-color: #211d2e;
         border-bottom: 1px solid #2d283b;
         display: block
     }
 
-    .d_menu .sidebar .nav&gt;li ul,.d_menu .sidebar .nav&gt;li&gt;a:hover,.d_menu .sidebar .nav&gt;li&gt;button:hover {
+    .d_menu .sidebar .nav>li ul,.d_menu .sidebar .nav>li>a:hover,.d_menu .sidebar .nav>li>button:hover {
         background-color: transparent
     }
 
-    .d_menu .sidebar .nav&gt;li.multilevel&gt;a:after,.d_menu .sidebar .nav&gt;li.multilevel&gt;button:after {
+    .d_menu .sidebar .nav>li.multilevel>a:after,.d_menu .sidebar .nav>li.multilevel>button:after {
         border-top-color: orange
     }
 
-    .d_menu .sidebar .nav&gt;li&gt;a,.d_menu .sidebar .nav&gt;li&gt;button {
+    .d_menu .sidebar .nav>li>a,.d_menu .sidebar .nav>li>button {
         color: orange;
         font-size: 17px;
         text-align: left;
@@ -5871,14 +5871,14 @@ body .date-picker-wrapper .footer {
         padding: 0 0 0 24px
     }
 
-    .d_menu .sidebar .nav&gt;li ul {
+    .d_menu .sidebar .nav>li ul {
         margin-bottom: 10px;
         position: relative;
         top: 0;
         width: auto
     }
 
-    .d_menu .sidebar .nav&gt;li ul li a,.d_menu .sidebar .nav&gt;li ul li button {
+    .d_menu .sidebar .nav>li ul li a,.d_menu .sidebar .nav>li ul li button {
         line-height: 33px
     }
 
@@ -6288,7 +6288,7 @@ body .date-picker-wrapper .footer {
     position: relative
 }
 
-.d_form .fieldset .select&gt;ul {
+.d_form .fieldset .select>ul {
     list-style: none;
     background-color: #fff;
     border: 1px solid #dbdde2;
@@ -6299,7 +6299,7 @@ body .date-picker-wrapper .footer {
     display: none
 }
 
-.d_form .fieldset .select&gt;ul li {
+.d_form .fieldset .select>ul li {
     color: #95939f;
     font-size: 13px;
     text-align: left;
@@ -6309,7 +6309,7 @@ body .date-picker-wrapper .footer {
     cursor: pointer
 }
 
-.d_form .fieldset .select&gt;ul li:hover {
+.d_form .fieldset .select>ul li:hover {
     background-color: #f7f7f8
 }
 
@@ -6342,7 +6342,7 @@ body .date-picker-wrapper .footer {
     display: none
 }
 
-.d_form .fieldset.recaptcha&gt;div {
+.d_form .fieldset.recaptcha>div {
     display: inline-block
 }
 
@@ -6642,7 +6642,7 @@ body .date-picker-wrapper .footer {
     display: block
 }
 
-.d_form .form.with_captcha .fieldset.recaptcha&gt;div[id*=captcha] {
+.d_form .form.with_captcha .fieldset.recaptcha>div[id*=captcha] {
     -webkit-transform: scale(.93);
     transform: scale(.93);
     transform-origin: 0 0;
@@ -6742,7 +6742,7 @@ body .date-picker-wrapper .footer {
 }
 
 @media (max-width:740px) {
-    .d_form .membership&gt;article {
+    .d_form .membership>article {
         float: none;
         width: 50%;
         margin: 3px auto;
@@ -6751,7 +6751,7 @@ body .date-picker-wrapper .footer {
 }
 
 @media (max-width:490px) {
-    .d_form .membership&gt;article {
+    .d_form .membership>article {
         width: 80%
     }
 }
@@ -7579,7 +7579,7 @@ a.d-dropdown-switcher.show~.d-dropdown {
     height: 35px
 }
 
-.d-filter .ui-select-wrapper .selectize-input&gt;* {
+.d-filter .ui-select-wrapper .selectize-input>* {
     width: 100%
 }
 
@@ -7653,11 +7653,11 @@ d-select {
     display: block
 }
 
-d-select&gt;div {
+d-select>div {
     width: 100%
 }
 
-d-select&gt;div&gt;div.d-select-display {
+d-select>div>div.d-select-display {
     width: 100%;
     background: #fff;
     height: 36px;
@@ -7666,14 +7666,14 @@ d-select&gt;div&gt;div.d-select-display {
     box-sizing: border-box
 }
 
-d-select&gt;div&gt;div.d-select-display&gt;* {
+d-select>div>div.d-select-display>* {
     height: 36px;
     line-height: 36px!important;
     display: inline-block;
     vertical-align: middle
 }
 
-d-select&gt;div&gt;div.d-select-display&gt;span {
+d-select>div>div.d-select-display>span {
     font-size: 14px;
     width: 100%;
     position: relative;
@@ -7682,11 +7682,11 @@ d-select&gt;div&gt;div.d-select-display&gt;span {
     padding-left: 10px
 }
 
-d-select&gt;div&gt;div.d-select-display&gt;span.placeholder {
+d-select>div>div.d-select-display>span.placeholder {
     color: #aaa
 }
 
-d-select&gt;div&gt;div.d-select-display&gt;i {
+d-select>div>div.d-select-display>i {
     position: relative;
     width: 12px;
     margin-left: -22px;
@@ -7697,14 +7697,14 @@ d-select&gt;div&gt;div.d-select-display&gt;i {
     text-align: right
 }
 
-d-select&gt;div&gt;div.d-select-list {
+d-select>div>div.d-select-list {
     position: relative;
     width: 100%;
     display: none;
     z-index: 2
 }
 
-d-select&gt;div&gt;div.d-select-list&gt;div {
+d-select>div>div.d-select-list>div {
     position: absolute;
     width: 100%;
     z-index: 2;
@@ -7716,7 +7716,7 @@ d-select&gt;div&gt;div.d-select-list&gt;div {
     padding-bottom: 3px
 }
 
-d-select&gt;div&gt;div.d-select-list&gt;div&gt;div {
+d-select>div>div.d-select-list>div>div {
     float: left;
     width: calc(100% - 6px);
     border-radius: 2px;
@@ -7725,19 +7725,19 @@ d-select&gt;div&gt;div.d-select-list&gt;div&gt;div {
     margin: 3px 3px 0
 }
 
-d-select&gt;div&gt;div.d-select-list&gt;div&gt;div.selected,d-select&gt;div&gt;div.d-select-list&gt;div&gt;div:hover {
+d-select>div>div.d-select-list>div>div.selected,d-select>div>div.d-select-list>div>div:hover {
     background: grey;
     color: #fff
 }
 
-d-select&gt;div&gt;div.d-select-list&gt;div&gt;div&gt;* {
+d-select>div>div.d-select-list>div>div>* {
     height: 30px;
     line-height: 30px!important;
     display: inline-block;
     vertical-align: middle
 }
 
-d-select&gt;div&gt;div.d-select-list&gt;div&gt;div&gt;span {
+d-select>div>div.d-select-list>div>div>span {
     float: left;
     width: 100%;
     position: relative;
@@ -7746,18 +7746,18 @@ d-select&gt;div&gt;div.d-select-list&gt;div&gt;div&gt;span {
     color: inherit
 }
 
-d-select&gt;div&gt;div.d-select-list&gt;div&gt;div&gt;i {
+d-select>div>div.d-select-list>div>div>i {
     float: left;
     width: 20px;
     margin-left: -20px;
     display: none
 }
 
-d-select&gt;div&gt;div.d-select-list&gt;div&gt;div.selected&gt;i {
+d-select>div>div.d-select-list>div>div.selected>i {
     display: inline-block
 }
 
-d-select&gt;div.show&gt;div.d-select-list {
+d-select>div.show>div.d-select-list {
     display: block
 }
 
@@ -7917,7 +7917,7 @@ body.skin_ad {
     overflow: hidden
 }
 
-.d_tiles ul&gt;li {
+.d_tiles ul>li {
     display: inline-block;
     vertical-align: top;
     background: 0 0!important;
@@ -7925,7 +7925,7 @@ body.skin_ad {
     margin: 1% 1% 35px
 }
 
-.d_tiles ul&gt;li .title {
+.d_tiles ul>li .title {
     color: #d0d0d0;
     font-size: 18px;
     text-align: left;
@@ -7935,19 +7935,19 @@ body.skin_ad {
     word-break: break-word
 }
 
-.d_tiles ul&gt;li .img {
+.d_tiles ul>li .img {
     display: block;
     text-align: center;
     position: relative;
     z-index: 1
 }
 
-.d_tiles ul&gt;li .img img {
+.d_tiles ul>li .img img {
     width: 100%;
     height: auto
 }
 
-.d_tiles ul&gt;li .img:after {
+.d_tiles ul>li .img:after {
     content: "";
     position: absolute;
     display: none;
@@ -7959,7 +7959,7 @@ body.skin_ad {
     z-index: 2
 }
 
-.d_tiles ul&gt;li .description {
+.d_tiles ul>li .description {
     color: #cac5de;
     font-size: 13px;
     text-align: left;
@@ -7967,28 +7967,28 @@ body.skin_ad {
     font-weight: 300
 }
 
-.d_tiles ul&gt;li .description a {
+.d_tiles ul>li .description a {
     color: orange;
     word-break: break-word
 }
 
-.d_tiles ul&gt;li .description ol,.d_tiles ul&gt;li .description ul {
+.d_tiles ul>li .description ol,.d_tiles ul>li .description ul {
     padding-left: 10px
 }
 
-.d_tiles ul&gt;li .description ul {
+.d_tiles ul>li .description ul {
     list-style: disc
 }
 
-.d_tiles ul&gt;li .description ul ul {
+.d_tiles ul>li .description ul ul {
     list-style: circle
 }
 
-.d_tiles ul&gt;li .description ul ul ul {
+.d_tiles ul>li .description ul ul ul {
     list-style: square
 }
 
-.d_tiles ul&gt;li .options {
+.d_tiles ul>li .options {
     display: none;
     position: absolute;
     top: 50%;
@@ -8000,7 +8000,7 @@ body.skin_ad {
     z-index: 2
 }
 
-.d_tiles ul&gt;li .options .option {
+.d_tiles ul>li .options .option {
     height: 48px;
     width: 48px;
     display: inline-block;
@@ -8015,11 +8015,11 @@ body.skin_ad {
     font-weight: 400
 }
 
-.d_tiles ul&gt;li .options .option:hover {
+.d_tiles ul>li .options .option:hover {
     background-color: orange
 }
 
-.d_tiles ul&gt;li .options:after {
+.d_tiles ul>li .options:after {
     content: "";
     height: 100%;
     width: 0;
@@ -8027,7 +8027,7 @@ body.skin_ad {
     vertical-align: middle
 }
 
-.d_tiles ul&gt;li.add_new {
+.d_tiles ul>li.add_new {
     height: 162px;
     color: #504d5e;
     font-size: 13px;
@@ -8036,7 +8036,7 @@ body.skin_ad {
     font-weight: 400
 }
 
-.d_tiles ul&gt;li.add_new .new {
+.d_tiles ul>li.add_new .new {
     border: 1px dashed #504d5e;
     display: block;
     height: 100%;
@@ -8050,7 +8050,7 @@ body.skin_ad {
     transition: all .2s linear
 }
 
-.d_tiles ul&gt;li.add_new .new:hover {
+.d_tiles ul>li.add_new .new:hover {
     -webkit-transition: all .2s linear;
     transition: all .2s linear;
     width: 104%;
@@ -8061,13 +8061,13 @@ body.skin_ad {
     border-color: #7a768a
 }
 
-.d_tiles ul&gt;li.add_new .new:hover .d_icon {
+.d_tiles ul>li.add_new .new:hover .d_icon {
     -webkit-transition: all .2s linear;
     transition: all .2s linear;
     font-size: 45px
 }
 
-.d_tiles ul&gt;li.add_new .d_icon {
+.d_tiles ul>li.add_new .d_icon {
     -webkit-transition: all .2s linear;
     transition: all .2s linear;
     display: block;
@@ -8075,7 +8075,7 @@ body.skin_ad {
     font-size: 32px
 }
 
-.d_tiles ul.editable&gt;li.selected .img:after,.d_tiles ul.editable&gt;li.selected .options,.d_tiles ul.editable&gt;li:hover .img:after,.d_tiles ul.editable&gt;li:hover .options {
+.d_tiles ul.editable>li.selected .img:after,.d_tiles ul.editable>li.selected .options,.d_tiles ul.editable>li:hover .img:after,.d_tiles ul.editable>li:hover .options {
     display: block
 }
 
@@ -9527,12 +9527,12 @@ video::-webkit-media-controls-enclosure {
     text-align: left
 }
 
-.d_popup .fieldset .selectize-input&gt;* {
+.d_popup .fieldset .selectize-input>* {
     height: 41px;
     line-height: 43px
 }
 
-.d_popup .fieldset .selectize-input&gt;.ui-select-match {
+.d_popup .fieldset .selectize-input>.ui-select-match {
     display: inline-block;
     vertical-align: middle;
     overflow: hidden;
@@ -9541,7 +9541,7 @@ video::-webkit-media-controls-enclosure {
     max-width: 189px
 }
 
-.d_popup .fieldset .selectize-input&gt;.ui-select-clear {
+.d_popup .fieldset .selectize-input>.ui-select-clear {
     float: right;
     width: 20px;
     background-color: #fff;
@@ -9550,7 +9550,7 @@ video::-webkit-media-controls-enclosure {
     right: -3px
 }
 
-.d_popup .fieldset .selectize-input&gt;.ui-select-clear .d_icon {
+.d_popup .fieldset .selectize-input>.ui-select-clear .d_icon {
     padding: 0!important;
     line-height: 44px;
     font-size: 13px!important;
@@ -9598,14 +9598,14 @@ video::-webkit-media-controls-enclosure {
     word-wrap: break-word
 }
 
-.d-home-event .event-title,.d_games_list li a .name,.d_home_player .game_event,.game_title .game_breadcrumbs&gt;span {
+.d-home-event .event-title,.d_games_list li a .name,.d_home_player .game_event,.game_title .game_breadcrumbs>span {
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis;
     white-space: nowrap;
     word-wrap: normal
 }
 
-.d_popup .fieldset.error .selectize-control.single .selectize-input,.d_popup .fieldset.error .selectize-input&gt;.ui-select-clear {
+.d_popup .fieldset.error .selectize-control.single .selectize-input,.d_popup .fieldset.error .selectize-input>.ui-select-clear {
     background-color: #ffffec
 }
 
@@ -9982,7 +9982,7 @@ video::-webkit-media-controls-enclosure {
         margin: 0 10px
     }
 
-    .d_categories.d_home .d_items_list.reruns&gt;li .info {
+    .d_categories.d_home .d_items_list.reruns>li .info {
         bottom: 50px
     }
 }
@@ -10420,7 +10420,7 @@ video::-webkit-media-controls-enclosure {
     transition: all .5s linear
 }
 
-.d_home_player .carousel .player-object&gt;a,.d_home_player .player .player-object&gt;a {
+.d_home_player .carousel .player-object>a,.d_home_player .player .player-object>a {
     display: block;
     position: absolute;
     top: 0;
@@ -10523,7 +10523,7 @@ video::-webkit-media-controls-enclosure {
     margin: 2px 15px 14px 0
 }
 
-.d_home_player .carousel-3d-loader-circle&gt;div,.d_home_player.live_stream .stream-info .date-from {
+.d_home_player .carousel-3d-loader-circle>div,.d_home_player.live_stream .stream-info .date-from {
     display: none
 }
 
@@ -10948,7 +10948,7 @@ video::-webkit-media-controls-enclosure {
     transition: all 1s linear
 }
 
-[class^=banners_]&gt;a {
+[class^=banners_]>a {
     display: block;
     position: absolute;
     top: 0;
@@ -10964,11 +10964,11 @@ video::-webkit-media-controls-enclosure {
     height: 90px
 }
 
-.banners_728x90&gt;a {
+.banners_728x90>a {
     background: url(/v2-assets/images/banners_placeholder/728x90.png) center center no-repeat
 }
 
-.banners_728x90.kinguin&gt;a {
+.banners_728x90.kinguin>a {
     background: url(/v2-assets/images/banners_placeholder/kinguin_728x90.jpg) center center no-repeat
 }
 
@@ -10981,7 +10981,7 @@ video::-webkit-media-controls-enclosure {
     height: 250px
 }
 
-.banners_970x250&gt;a {
+.banners_970x250>a {
     background: url(/v2-assets/images/banners_placeholder/970x250.png) center center no-repeat
 }
 
@@ -10995,7 +10995,7 @@ video::-webkit-media-controls-enclosure {
     z-index: 2
 }
 
-.banners_300x250&gt;a {
+.banners_300x250>a {
     background: url(/v2-assets/images/banners_placeholder/300x250.png) center center no-repeat
 }
 
@@ -11009,7 +11009,7 @@ video::-webkit-media-controls-enclosure {
     z-index: 2
 }
 
-.banners_300x600&gt;a {
+.banners_300x600>a {
     background: url(/v2-assets/images/banners_placeholder/300x600.png) center center no-repeat
 }
 
@@ -11054,63 +11054,63 @@ body.playwire .banners_970x250 .banner {
     height: 66px
 }
 
-body.playwire .banners_970x250&gt;a {
+body.playwire .banners_970x250>a {
     background: 0 0
 }
 
-.d_highlight.bright .banners_970x250&gt;a {
+.d_highlight.bright .banners_970x250>a {
     background: url(/v2-assets/images/banners_placeholder/highlights/bright/970x250.png) center center no-repeat
 }
 
-.d_highlight.bright .banners_728x90.bright1&gt;a {
+.d_highlight.bright .banners_728x90.bright1>a {
     background: url(/v2-assets/images/banners_placeholder/highlights/bright/728x90_1.png) center center no-repeat
 }
 
-.d_highlight.bright .banners_728x90.bright2&gt;a {
+.d_highlight.bright .banners_728x90.bright2>a {
     background: url(/v2-assets/images/banners_placeholder/highlights/bright/728x90_2.png) center center no-repeat
 }
 
-.d_highlight.bright .banners_300x600&gt;a {
+.d_highlight.bright .banners_300x600>a {
     background: url(/v2-assets/images/banners_placeholder/highlights/bright/300x600.jpg) center center no-repeat
 }
 
-.d_highlight.bright .banners_300x250.bright1&gt;a,.d_highlight.bright .banners_300x250&gt;a {
+.d_highlight.bright .banners_300x250.bright1>a,.d_highlight.bright .banners_300x250>a {
     background: url(/v2-assets/images/banners_placeholder/highlights/bright/300x250.png) center center no-repeat
 }
 
-.d_highlight.bright .banners_300x250.bright2&gt;a {
+.d_highlight.bright .banners_300x250.bright2>a {
     background-image: none
 }
 
-.d_highlight.skin_league_of_legends .banners_970x250&gt;a,.d_highlight.skin_league_of_legends.bright .banners_970x250&gt;a {
+.d_highlight.skin_league_of_legends .banners_970x250>a,.d_highlight.skin_league_of_legends.bright .banners_970x250>a {
     background-image: url(/v2-assets/images/banners_placeholder/highlights/league_of_legends/970x250.png)
 }
 
-.d_highlight.skin_league_of_legends .banners_728x90&gt;a,.d_highlight.skin_league_of_legends.bright .banners_728x90&gt;a {
+.d_highlight.skin_league_of_legends .banners_728x90>a,.d_highlight.skin_league_of_legends.bright .banners_728x90>a {
     background-image: url(/v2-assets/images/banners_placeholder/highlights/league_of_legends/728x90.jpg)
 }
 
-.d_highlight.skin_league_of_legends .banners_300x600&gt;a,.d_highlight.skin_league_of_legends.bright .banners_300x600&gt;a {
+.d_highlight.skin_league_of_legends .banners_300x600>a,.d_highlight.skin_league_of_legends.bright .banners_300x600>a {
     background-image: url(/v2-assets/images/banners_placeholder/highlights/league_of_legends/300x600.jpg)
 }
 
-.d_highlight.skin_league_of_legends .banners_300x250.bright2&gt;a,.d_highlight.skin_league_of_legends .banners_300x250&gt;a,.d_highlight.skin_league_of_legends.bright .banners_300x250.bright2&gt;a,.d_highlight.skin_league_of_legends.bright .banners_300x250&gt;a {
+.d_highlight.skin_league_of_legends .banners_300x250.bright2>a,.d_highlight.skin_league_of_legends .banners_300x250>a,.d_highlight.skin_league_of_legends.bright .banners_300x250.bright2>a,.d_highlight.skin_league_of_legends.bright .banners_300x250>a {
     background-image: url(/v2-assets/images/banners_placeholder/highlights/league_of_legends/300x250.jpg)
 }
 
-.d_highlight.skin_starcraft .banners_970x250&gt;a,.d_highlight.skin_starcraft.bright .banners_970x250&gt;a {
+.d_highlight.skin_starcraft .banners_970x250>a,.d_highlight.skin_starcraft.bright .banners_970x250>a {
     background-image: url(/v2-assets/images/banners_placeholder/highlights/starcraft/970x250.png)
 }
 
-.d_highlight.skin_starcraft .banners_728x90&gt;a,.d_highlight.skin_starcraft.bright .banners_728x90&gt;a {
+.d_highlight.skin_starcraft .banners_728x90>a,.d_highlight.skin_starcraft.bright .banners_728x90>a {
     background-image: url(/v2-assets/images/banners_placeholder/highlights/starcraft/728x90.jpg)
 }
 
-.d_highlight.skin_starcraft .banners_300x600&gt;a,.d_highlight.skin_starcraft.bright .banners_300x600&gt;a {
+.d_highlight.skin_starcraft .banners_300x600>a,.d_highlight.skin_starcraft.bright .banners_300x600>a {
     background-image: url(/v2-assets/images/banners_placeholder/highlights/starcraft/300x600.jpg)
 }
 
-.d_highlight.skin_starcraft .banners_300x250.bright2&gt;a,.d_highlight.skin_starcraft .banners_300x250&gt;a,.d_highlight.skin_starcraft.bright .banners_300x250.bright2&gt;a,.d_highlight.skin_starcraft.bright .banners_300x250&gt;a {
+.d_highlight.skin_starcraft .banners_300x250.bright2>a,.d_highlight.skin_starcraft .banners_300x250>a,.d_highlight.skin_starcraft.bright .banners_300x250.bright2>a,.d_highlight.skin_starcraft.bright .banners_300x250>a {
     background-image: url(/v2-assets/images/banners_placeholder/highlights/starcraft/300x250.jpg)
 }
 
@@ -11147,101 +11147,101 @@ body.playwire .banners_970x250&gt;a {
 }
 
 @media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi) {
-    .d_highlight.bright .banners_970x250&gt;a {
+    .d_highlight.bright .banners_970x250>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/bright/970x250_2x.png);
         background-size: 970px auto
     }
 
-    .d_highlight.bright .banners_728x90.bright1&gt;a {
+    .d_highlight.bright .banners_728x90.bright1>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/bright/728x90_1_2x.png);
         background-size: 728px auto
     }
 
-    .d_highlight.bright .banners_728x90.bright2&gt;a {
+    .d_highlight.bright .banners_728x90.bright2>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/bright/728x90_2_2x.png);
         background-size: 728px auto
     }
 
-    .d_highlight.bright .banners_300x600&gt;a {
+    .d_highlight.bright .banners_300x600>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/bright/300x600_2x.jpg);
         background-size: 300px auto
     }
 
-    .d_highlight.bright .banners_300x250.bright1&gt;a,.d_highlight.bright .banners_300x250&gt;a {
+    .d_highlight.bright .banners_300x250.bright1>a,.d_highlight.bright .banners_300x250>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/bright/300x250_2x.png);
         background-size: 300px auto
     }
 
-    .d_highlight.bright .banners_300x250.bright2&gt;a {
+    .d_highlight.bright .banners_300x250.bright2>a {
         background-image: none
     }
 
-    .d_highlight.skin_league_of_legends .banners_970x250&gt;a,.d_highlight.skin_league_of_legends.bright .banners_970x250&gt;a {
+    .d_highlight.skin_league_of_legends .banners_970x250>a,.d_highlight.skin_league_of_legends.bright .banners_970x250>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/league_of_legends/970x250_2x.png);
         background-size: 970px auto
     }
 
-    .d_highlight.skin_league_of_legends .banners_728x90&gt;a,.d_highlight.skin_league_of_legends.bright .banners_728x90&gt;a {
+    .d_highlight.skin_league_of_legends .banners_728x90>a,.d_highlight.skin_league_of_legends.bright .banners_728x90>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/league_of_legends/728x90_2x.jpg);
         background-size: 728px auto
     }
 
-    .d_highlight.skin_league_of_legends .banners_300x600&gt;a,.d_highlight.skin_league_of_legends.bright .banners_300x600&gt;a {
+    .d_highlight.skin_league_of_legends .banners_300x600>a,.d_highlight.skin_league_of_legends.bright .banners_300x600>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/league_of_legends/300x600_2x.jpg);
         background-size: 300px auto
     }
 
-    .d_highlight.skin_league_of_legends .banners_300x250.bright2&gt;a,.d_highlight.skin_league_of_legends .banners_300x250&gt;a,.d_highlight.skin_league_of_legends.bright .banners_300x250.bright2&gt;a,.d_highlight.skin_league_of_legends.bright .banners_300x250&gt;a {
+    .d_highlight.skin_league_of_legends .banners_300x250.bright2>a,.d_highlight.skin_league_of_legends .banners_300x250>a,.d_highlight.skin_league_of_legends.bright .banners_300x250.bright2>a,.d_highlight.skin_league_of_legends.bright .banners_300x250>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/league_of_legends/300x250_2x.jpg);
         background-size: 300px auto
     }
 
-    .d_highlight.skin_starcraft .banners_970x250&gt;a {
+    .d_highlight.skin_starcraft .banners_970x250>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/starcraft/970x250_2x.png);
         background-size: 970px auto
     }
 
-    .d_highlight.skin_starcraft .banners_728x90&gt;a {
+    .d_highlight.skin_starcraft .banners_728x90>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/starcraft/728x90_2x.jpg);
         background-size: 728px auto
     }
 
-    .d_highlight.skin_starcraft .banners_300x600&gt;a {
+    .d_highlight.skin_starcraft .banners_300x600>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/starcraft/300x600_2x.jpg);
         background-size: 300px auto
     }
 
-    .d_highlight.skin_starcraft .banners_300x250.bright2&gt;a,.d_highlight.skin_starcraft .banners_300x250&gt;a {
+    .d_highlight.skin_starcraft .banners_300x250.bright2>a,.d_highlight.skin_starcraft .banners_300x250>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/starcraft/300x250_2x.jpg);
         background-size: 300px auto
     }
 
-    .d_highlight.skin_starcraft.bright .banners_970x250&gt;a {
+    .d_highlight.skin_starcraft.bright .banners_970x250>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/starcraft/bright/970x250_2x.png);
         background-size: 970px auto
     }
 
-    .d_highlight.skin_starcraft.bright .banners_728x90.bright1&gt;a {
+    .d_highlight.skin_starcraft.bright .banners_728x90.bright1>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/starcraft/bright/728x90_1_2x.png);
         background-size: 728px auto
     }
 
-    .d_highlight.skin_starcraft.bright .banners_728x90.bright2&gt;a {
+    .d_highlight.skin_starcraft.bright .banners_728x90.bright2>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/starcraft/bright/728x90_2_2x.png);
         background-size: 728px auto
     }
 
-    .d_highlight.skin_starcraft.bright .banners_300x600&gt;a {
+    .d_highlight.skin_starcraft.bright .banners_300x600>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/starcraft/bright/300x600_2x.png);
         background-size: 300px auto
     }
 
-    .d_highlight.skin_starcraft.bright .banners_300x250.bright1&gt;a,.d_highlight.skin_starcraft.bright .banners_300x250&gt;a {
+    .d_highlight.skin_starcraft.bright .banners_300x250.bright1>a,.d_highlight.skin_starcraft.bright .banners_300x250>a {
         background-image: url(/v2-assets/images/banners_placeholder/highlights/starcraft/bright/300x250_2x.png);
         background-size: 300px auto
     }
 
-    .d_highlight.skin_starcraft.bright .banners_300x250.bright2&gt;a {
+    .d_highlight.skin_starcraft.bright .banners_300x250.bright2>a {
         background-image: none
     }
 }
@@ -11452,7 +11452,7 @@ body.playwire .banners_970x250&gt;a {
     padding: 0 10px
 }
 
-.game_title:after,.game_title&gt;svg {
+.game_title:after,.game_title>svg {
     position: absolute;
     top: 0;
     left: 0;
@@ -11460,7 +11460,7 @@ body.playwire .banners_970x250&gt;a {
     height: 96px
 }
 
-.game_title&gt;svg {
+.game_title>svg {
     z-index: 1;
     overflow: hidden
 }
@@ -11495,7 +11495,7 @@ body.playwire .banners_970x250&gt;a {
     max-width: 70%
 }
 
-.game_title .game_breadcrumbs a,.game_title .game_breadcrumbs&gt;span {
+.game_title .game_breadcrumbs a,.game_title .game_breadcrumbs>span {
     display: inline-block;
     vertical-align: middle;
     color: #fff;
@@ -11505,7 +11505,7 @@ body.playwire .banners_970x250&gt;a {
     font-weight: 400
 }
 
-.game_title .game_breadcrumbs&gt;span {
+.game_title .game_breadcrumbs>span {
     margin-left: 9px;
     display: inline-block;
     vertical-align: middle;
@@ -11514,11 +11514,11 @@ body.playwire .banners_970x250&gt;a {
     max-width: 80%
 }
 
-.game_title .game_breadcrumbs&gt;span .game_name {
+.game_title .game_breadcrumbs>span .game_name {
     font-weight: 700
 }
 
-.game_title .game_breadcrumbs&gt;span .separator {
+.game_title .game_breadcrumbs>span .separator {
     display: inline;
     margin-right: 11px
 }
@@ -11783,13 +11783,13 @@ body.playwire .banners_970x250&gt;a {
 }
 
 @media (max-width:960px) {
-    .game_title .game_breadcrumbs a,.game_title .game_breadcrumbs&gt;span {
+    .game_title .game_breadcrumbs a,.game_title .game_breadcrumbs>span {
         font-size: 27px
     }
 }
 
 @media (max-width:875px) {
-    .game_title .game_breadcrumbs a,.game_title .game_breadcrumbs&gt;span {
+    .game_title .game_breadcrumbs a,.game_title .game_breadcrumbs>span {
         font-size: 22px
     }
 }
@@ -11807,13 +11807,13 @@ body.playwire .banners_970x250&gt;a {
 }
 
 @media (max-width:566px) {
-    .game_title .game_breadcrumbs a,.game_title .game_breadcrumbs&gt;span {
+    .game_title .game_breadcrumbs a,.game_title .game_breadcrumbs>span {
         font-size: 17px
     }
 }
 
 @media (max-width:490px) {
-    .game_title:after,.game_title&gt;svg {
+    .game_title:after,.game_title>svg {
         height: 114px
     }
 
@@ -11821,16 +11821,16 @@ body.playwire .banners_970x250&gt;a {
         margin: 10px 0 0 28px
     }
 
-    .game_title .game_breadcrumbs a,.game_title .game_breadcrumbs&gt;span {
+    .game_title .game_breadcrumbs a,.game_title .game_breadcrumbs>span {
         display: block;
         line-height: 28px
     }
 
-    .game_title .game_breadcrumbs&gt;span {
+    .game_title .game_breadcrumbs>span {
         margin-left: 0
     }
 
-    .game_title .game_breadcrumbs&gt;span .separator {
+    .game_title .game_breadcrumbs>span .separator {
         display: none
     }
 
@@ -11848,7 +11848,7 @@ body.playwire .banners_970x250&gt;a {
         margin-right: 13px
     }
 
-    .game_title .game_breadcrumbs&gt;span .game_name {
+    .game_title .game_breadcrumbs>span .game_name {
         display: inline-block;
         vertical-align: middle;
         overflow: hidden;
@@ -12296,7 +12296,7 @@ body.playwire .banners_970x250&gt;a {
     top: 10px
 }
 
-.d_categories .banners_300x250&gt;a {
+.d_categories .banners_300x250>a {
     background: url(/v2-assets/images/banners_placeholder/300x250.png) center center no-repeat
 }
 
@@ -12514,7 +12514,7 @@ body.playwire .banners_970x250&gt;a {
     overflow: hidden
 }
 
-.d_items_list li,.d_items_list.reruns&gt;li {
+.d_items_list li,.d_items_list.reruns>li {
     margin: 9px 16px 20px
 }
 
@@ -12675,11 +12675,11 @@ body.playwire .banners_970x250&gt;a {
     z-index: 3
 }
 
-.categories-banners-section .banners_970x250&gt;a {
+.categories-banners-section .banners_970x250>a {
     background: url(/v2-assets/images/banners_placeholder/970x250.png) center no-repeat
 }
 
-.categories-banners-section .banners_728x90&gt;a {
+.categories-banners-section .banners_728x90>a {
     background: url(/v2-assets/images/banners_placeholder/728x90.png) center no-repeat
 }
 
@@ -12965,7 +12965,7 @@ body.playwire .banners_970x250&gt;a {
         top: 10px
     }
 
-    .d_categories .banners_300x250&gt;a {
+    .d_categories .banners_300x250>a {
         background: url(/v2-assets/images/retina/banners_placeholder/300x250.jpg) center center cover no-repeat
     }
 
@@ -12992,11 +12992,11 @@ body.playwire .banners_970x250&gt;a {
         height: 100%
     }
 
-    .highlights-banners-section .banners_970x250&gt;a {
+    .highlights-banners-section .banners_970x250>a {
         background: url(/v2-assets/images/banners_placeholder/970x250.png) center no-repeat
     }
 
-    .highlights-banners-section .banners_728x90&gt;a {
+    .highlights-banners-section .banners_728x90>a {
         background: url(/v2-assets/images/banners_placeholder/728x90.jpg) center no-repeat
     }
 }
@@ -13062,7 +13062,7 @@ body.playwire .banners_970x250&gt;a {
         width: 73%
     }
 
-    .d_items_list.reruns&gt;li {
+    .d_items_list.reruns>li {
         margin: 8px 1% 100px;
         height: auto;
         min-height: 175px;
@@ -13070,42 +13070,42 @@ body.playwire .banners_970x250&gt;a {
         position: relative
     }
 
-    .d_items_list.reruns&gt;li .cover {
+    .d_items_list.reruns>li .cover {
         height: 175px
     }
 
-    .d_items_list.reruns&gt;li .info {
+    .d_items_list.reruns>li .info {
         height: 50px;
         bottom: -50px
     }
 
-    .d_items_list.reruns&gt;li .info .avatar~.desc {
+    .d_items_list.reruns>li .info .avatar~.desc {
         width: 73%
     }
 
-    .d_items_list.reruns&gt;li .statistic .watches {
+    .d_items_list.reruns>li .statistic .watches {
         color: #fff
     }
 }
 
 @media (max-width:740px) {
-    .d_items_list.reruns&gt;li {
+    .d_items_list.reruns>li {
         width: 48%
     }
 
-    .d_items_list.reruns&gt;li .cover {
+    .d_items_list.reruns>li .cover {
         height: 203px
     }
 }
 
 @media (max-width:450px) {
-    .d_items_list.reruns&gt;li {
+    .d_items_list.reruns>li {
         width: 100%
     }
 }
 
 @media (max-width:435px) {
-    .d_items_list.reruns&gt;li {
+    .d_items_list.reruns>li {
         width: 100%;
         height: 200px;
         margin-bottom: 90px
@@ -13212,7 +13212,7 @@ body.playwire .banners_970x250&gt;a {
 }
 
 @media (max-width:435px) {
-    .d_categories .d_items_list.channels&gt;li {
+    .d_categories .d_items_list.channels>li {
         width: 100%
     }
 }
@@ -14255,7 +14255,7 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
     padding-top: 6px
 }
 
-.share_net a:hover&gt;.d_icon {
+.share_net a:hover>.d_icon {
     box-shadow: 0 0 0 4px rgba(255,255,255,.15)
 }
 
@@ -14366,16 +14366,16 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
     margin: 0 10px
 }
 
-.d-es-calendar-header&gt;span {
+.d-es-calendar-header>span {
     display: block;
     padding-top: 14px
 }
 
-.d-es-calendar-header&gt;span .calendar2 {
+.d-es-calendar-header>span .calendar2 {
     color: orange
 }
 
-.d-es-calendar-header&gt;span a:active&gt;.calendar2 {
+.d-es-calendar-header>span a:active>.calendar2 {
     color: #996300
 }
 
@@ -14818,7 +14818,7 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
     position: relative
 }
 
-.d_esports .esport .cover&gt;img {
+.d_esports .esport .cover>img {
     height: auto;
     width: 100%;
     position: absolute;
@@ -14885,7 +14885,7 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
     line-height: 14px
 }
 
-.d_esports .esport .status .d_icon,.d_esports .esport .status&gt;span {
+.d_esports .esport .status .d_icon,.d_esports .esport .status>span {
     display: none
 }
 
@@ -15128,7 +15128,7 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
     height: 39px
 }
 
-.d-esport-add-relive fieldset&gt;label,.d-esport-edit fieldset&gt;label {
+.d-esport-add-relive fieldset>label,.d-esport-edit fieldset>label {
     display: inline-block;
     vertical-align: top;
     width: 111px;
@@ -15137,7 +15137,7 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
     font-weight: 700
 }
 
-.d-esport-add-relive fieldset&gt;label .red,.d-esport-edit fieldset&gt;label .red {
+.d-esport-add-relive fieldset>label .red,.d-esport-edit fieldset>label .red {
     color: #e33b3b
 }
 
@@ -15186,7 +15186,7 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
     display: inline-block
 }
 
-.d-esport-add-relive .form-input&gt;span,.d-esport-edit .form-input&gt;span {
+.d-esport-add-relive .form-input>span,.d-esport-edit .form-input>span {
     vertical-align: top;
     line-height: 31px;
     font-size: 13px;
@@ -15974,13 +15974,13 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
     padding-top: 4px
 }
 
-.d_acc .selected&gt;.broadcaster-link .live-mark,.d_acc :hover&gt;.broadcaster-link .live-mark {
+.d_acc .selected>.broadcaster-link .live-mark,.d_acc :hover>.broadcaster-link .live-mark {
     opacity: 0;
     -webkit-transition: all .15s linear;
     transition: all .15s linear
 }
 
-.d_acc .selected&gt;.broadcaster-link .username,.d_acc :hover&gt;.broadcaster-link .username {
+.d_acc .selected>.broadcaster-link .username,.d_acc :hover>.broadcaster-link .username {
     opacity: 1;
     -webkit-transition: all .15s linear;
     transition: all .15s linear
@@ -16018,7 +16018,7 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
 }
 
 @media (max-width:750px) {
-    .d_acc&gt;.content {
+    .d_acc>.content {
         margin: 0
     }
 }
@@ -16216,13 +16216,13 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
     margin-bottom: 3px
 }
 
-.d_profile_uploaded_video .uploads_stream_game .game&gt;.d_icon,.d_profile_uploaded_video .uploads_stream_game .streamName&gt;.d_icon,.d_profile_uploaded_video .uploads_stream_title .game&gt;.d_icon,.d_profile_uploaded_video .uploads_stream_title .streamName&gt;.d_icon {
+.d_profile_uploaded_video .uploads_stream_game .game>.d_icon,.d_profile_uploaded_video .uploads_stream_game .streamName>.d_icon,.d_profile_uploaded_video .uploads_stream_title .game>.d_icon,.d_profile_uploaded_video .uploads_stream_title .streamName>.d_icon {
     color: transparent;
     font-size: 10px;
     padding-left: 9px
 }
 
-.d_profile_uploaded_video .uploads_stream_game .game:hover&gt;.d_icon,.d_profile_uploaded_video .uploads_stream_game .streamName:hover&gt;.d_icon,.d_profile_uploaded_video .uploads_stream_title .game:hover&gt;.d_icon,.d_profile_uploaded_video .uploads_stream_title .streamName:hover&gt;.d_icon {
+.d_profile_uploaded_video .uploads_stream_game .game:hover>.d_icon,.d_profile_uploaded_video .uploads_stream_game .streamName:hover>.d_icon,.d_profile_uploaded_video .uploads_stream_title .game:hover>.d_icon,.d_profile_uploaded_video .uploads_stream_title .streamName:hover>.d_icon {
     color: #fff
 }
 
@@ -16615,13 +16615,13 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
     margin-bottom: 3px
 }
 
-.d_uploads_list .rerun-preview .info .desc .uploads_stream_game .broadcaster&gt;.d_icon,.d_uploads_list .rerun-preview .info .desc .uploads_stream_game .game-event&gt;.d_icon,.d_uploads_list .rerun-preview .info .desc .uploads_stream_title .broadcaster&gt;.d_icon,.d_uploads_list .rerun-preview .info .desc .uploads_stream_title .game-event&gt;.d_icon {
+.d_uploads_list .rerun-preview .info .desc .uploads_stream_game .broadcaster>.d_icon,.d_uploads_list .rerun-preview .info .desc .uploads_stream_game .game-event>.d_icon,.d_uploads_list .rerun-preview .info .desc .uploads_stream_title .broadcaster>.d_icon,.d_uploads_list .rerun-preview .info .desc .uploads_stream_title .game-event>.d_icon {
     color: transparent;
     font-size: 10px;
     padding-left: 9px
 }
 
-.d_uploads_list .rerun-preview .info .desc .uploads_stream_game .broadcaster:hover&gt;.d_icon,.d_uploads_list .rerun-preview .info .desc .uploads_stream_game .game-event:hover&gt;.d_icon,.d_uploads_list .rerun-preview .info .desc .uploads_stream_title .broadcaster:hover&gt;.d_icon,.d_uploads_list .rerun-preview .info .desc .uploads_stream_title .game-event:hover&gt;.d_icon {
+.d_uploads_list .rerun-preview .info .desc .uploads_stream_game .broadcaster:hover>.d_icon,.d_uploads_list .rerun-preview .info .desc .uploads_stream_game .game-event:hover>.d_icon,.d_uploads_list .rerun-preview .info .desc .uploads_stream_title .broadcaster:hover>.d_icon,.d_uploads_list .rerun-preview .info .desc .uploads_stream_title .game-event:hover>.d_icon {
     color: #fff
 }
 
@@ -16704,13 +16704,13 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
     background-color: rgba(0,0,0,.5)
 }
 
-.d_uploads_list .options .option,.d_uploads_list .options .option&gt;a,.d_uploads_list .options .option&gt;button {
+.d_uploads_list .options .option,.d_uploads_list .options .option>a,.d_uploads_list .options .option>button {
     display: inline-block;
     vertical-align: middle;
     position: relative
 }
 
-.d_uploads_list .options .option&gt;a,.d_uploads_list .options .option&gt;button {
+.d_uploads_list .options .option>a,.d_uploads_list .options .option>button {
     height: 48px;
     width: 48px;
     border-radius: 3px;
@@ -16723,7 +16723,7 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
     font-weight: 400
 }
 
-.d_uploads_list .options .option&gt;a:hover,.d_uploads_list .options .option&gt;button:hover {
+.d_uploads_list .options .option>a:hover,.d_uploads_list .options .option>button:hover {
     color: orange
 }
 
@@ -16946,13 +16946,13 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
     color: #fff
 }
 
-.acc_settings_fieldset .action&gt;button {
+.acc_settings_fieldset .action>button {
     white-space: nowrap;
     cursor: pointer;
     color: orange!important
 }
 
-.acc_settings_fieldset .action&gt;button .d_icon {
+.acc_settings_fieldset .action>button .d_icon {
     margin-right: 6px
 }
 
@@ -17462,7 +17462,7 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
     display: inline-block
 }
 
-.profile-edit-event .checkbox label&gt;span {
+.profile-edit-event .checkbox label>span {
     position: relative;
     bottom: 4px
 }
@@ -17790,7 +17790,7 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
     display: inline-block
 }
 
-.acc_channel_preview .acc_preview_select&gt;ul {
+.acc_channel_preview .acc_preview_select>ul {
     list-style: none;
     background-color: #211d2f;
     border: 1px solid #a5a5a5;
@@ -17800,7 +17800,7 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
     display: none
 }
 
-.acc_channel_preview .acc_preview_select&gt;ul li {
+.acc_channel_preview .acc_preview_select>ul li {
     color: #95939f;
     font-size: 13px;
     text-align: left;
@@ -17810,16 +17810,16 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
     cursor: pointer
 }
 
-.acc_channel_preview .acc_preview_select&gt;ul li:hover {
+.acc_channel_preview .acc_preview_select>ul li:hover {
     background-color: #fc9b00;
     color: #fff
 }
 
-.acc_channel_preview .acc_preview_select&gt;ul li.active {
+.acc_channel_preview .acc_preview_select>ul li.active {
     background-color: #383445
 }
 
-.acc_channel_preview .acc_preview_select&gt;ul li.active:hover {
+.acc_channel_preview .acc_preview_select>ul li.active:hover {
     color: #95939f
 }
 
@@ -17877,17 +17877,17 @@ body.flash_player .channel_content .channel_player #d-channel-player-html,body.h
 }
 
 @media (max-width:630px) {
-    .d_acc .d_tiles ul&gt;li {
+    .d_acc .d_tiles ul>li {
         width: 48%
     }
 }
 
 @media (max-width:430px) {
-    .d_acc .d_tiles ul&gt;li {
+    .d_acc .d_tiles ul>li {
         width: 100%
     }
 
-    .d_acc .d_tiles ul,.d_acc .d_tiles ul&gt;li {
+    .d_acc .d_tiles ul,.d_acc .d_tiles ul>li {
         margin-left: 0;
         margin-right: 0
     }
@@ -18325,7 +18325,7 @@ body.splyce {
     transition: all .5s linear
 }
 
-.splyce_carousel .player-object&gt;a {
+.splyce_carousel .player-object>a {
     display: block;
     position: absolute;
     top: 0;
@@ -18896,7 +18896,7 @@ body.insomnia {
     transition: all .5s linear
 }
 
-.top_video .player-object&gt;a {
+.top_video .player-object>a {
     display: block;
     position: absolute;
     top: 0;
@@ -19457,7 +19457,7 @@ body.shu {
     transition: all .5s linear
 }
 
-.shu_carousel .player-object&gt;a {
+.shu_carousel .player-object>a {
     display: block;
     position: absolute;
     top: 0;
@@ -20019,7 +20019,7 @@ body.gfinity .gfinity-content-bg {
     transition: all .5s linear
 }
 
-.gfinity_carousel .player-object&gt;a {
+.gfinity_carousel .player-object>a {
     display: block;
     position: absolute;
     top: 0;
@@ -20655,7 +20655,7 @@ body.celtic .celtic-content-bg {
     transition: all .5s linear
 }
 
-.celtic_carousel .player-object&gt;a {
+.celtic_carousel .player-object>a {
     display: block;
     position: absolute;
     top: 0;
@@ -21295,7 +21295,7 @@ body.efrag {
     transition: all .5s linear
 }
 
-.efrag_carousel .player-object&gt;a {
+.efrag_carousel .player-object>a {
     display: block;
     position: absolute;
     top: 0;
@@ -21847,7 +21847,7 @@ body.pentasports {
     transition: all .5s linear
 }
 
-.pentasports_carousel .player-object&gt;a {
+.pentasports_carousel .player-object>a {
     display: block;
     position: absolute;
     top: 0;
@@ -22417,7 +22417,7 @@ body.uccstudio {
     transition: all .5s linear
 }
 
-.uccstudio_carousel .player-object&gt;a {
+.uccstudio_carousel .player-object>a {
     display: block;
     position: absolute;
     top: 0;
@@ -23008,7 +23008,7 @@ body.pwnwin {
     transition: all .5s linear
 }
 
-.pwnwin_carousel .player-object&gt;a {
+.pwnwin_carousel .player-object>a {
     display: block;
     position: absolute;
     top: 0;
@@ -23567,7 +23567,7 @@ body.psistorm {
     transition: all .5s linear
 }
 
-.psistorm_carousel .player-object&gt;a {
+.psistorm_carousel .player-object>a {
     display: block;
     position: absolute;
     top: 0;
@@ -24141,7 +24141,7 @@ body.gamesprout .gamesprout-content-bg {
     transition: all .5s linear
 }
 
-.gamesprout_carousel .player-object&gt;a {
+.gamesprout_carousel .player-object>a {
     display: block;
     position: absolute;
     top: 0;
@@ -24691,7 +24691,7 @@ body.flash_player .carousel .player-object #d-stream-player-html,body.flash_play
     left: 7px
 }
 
-.d-date-picker .datepicker-days div.datepicker-days,.d-date-picker .datepicker-months div.datepicker-months,.d-date-picker .datepicker-years div.datepicker-years,.d-date-picker .datepicker&gt;div {
+.d-date-picker .datepicker-days div.datepicker-days,.d-date-picker .datepicker-months div.datepicker-months,.d-date-picker .datepicker-years div.datepicker-years,.d-date-picker .datepicker>div {
     display: block
 }
 
@@ -25059,7 +25059,7 @@ body {
     -webkit-overflow-scrolling: touch
 }
 
-body&gt;iframe,body&gt;object {
+body>iframe,body>object {
     height: 0;
     width: 0;
     display: block
@@ -25100,7 +25100,7 @@ body.modal-open,html.ngdialog-open body {
     margin: 0 10px
 }
 
-.d_layout&gt;.d_content {
+.d_layout>.d_content {
     padding-bottom: 142px
 }
 
@@ -25501,11 +25501,11 @@ body.modal-open,html.ngdialog-open body {
 }
 
 @media (max-width:750px) {
-    .d_layout&gt;.d_content:after {
+    .d_layout>.d_content:after {
         display: none
     }
 
-    .d_layout&gt;.d_content {
+    .d_layout>.d_content {
         padding-bottom: 288px
     }
 
@@ -25516,7 +25516,7 @@ body.modal-open,html.ngdialog-open body {
 }
 
 @media (max-width:425px) {
-    .d_content,.d_layout&gt;.d_content {
+    .d_content,.d_layout>.d_content {
         padding-bottom: 271px
     }
 
@@ -25526,7 +25526,7 @@ body.modal-open,html.ngdialog-open body {
     }
 }
 
-.selectize-control.plugin-drag_drop.multi&gt;.selectize-input&gt;div.ui-sortable-placeholder {
+.selectize-control.plugin-drag_drop.multi>.selectize-input>div.ui-sortable-placeholder {
     background: #f2f2f2!important;
     background: rgba(0,0,0,.06)!important;
     border: 0!important;
@@ -25660,14 +25660,14 @@ body.modal-open,html.ngdialog-open body {
     cursor: default!important
 }
 
-.selectize-input&gt;* {
+.selectize-input>* {
     display: -moz-inline-stack;
     display: inline-block;
     vertical-align: baseline;
     zoom: 1
 }
 
-.selectize-control.multi .selectize-input&gt;div {
+.selectize-control.multi .selectize-input>div {
     padding: 2px 6px;
     margin: 0 3px 3px 0;
     color: #fff;
@@ -25676,19 +25676,19 @@ body.modal-open,html.ngdialog-open body {
     border: 1px solid #0073bb
 }
 
-.selectize-control.multi .selectize-input&gt;div.active {
+.selectize-control.multi .selectize-input>div.active {
     color: #fff;
     background: #92c836;
     border: 1px solid #00578d
 }
 
-.selectize-control.multi .selectize-input.disabled&gt;div,.selectize-control.multi .selectize-input.disabled&gt;div.active {
+.selectize-control.multi .selectize-input.disabled>div,.selectize-control.multi .selectize-input.disabled>div.active {
     color: #fff;
     background: #d2d2d2;
     border: 1px solid #aaa
 }
 
-.selectize-input&gt;input {
+.selectize-input>input {
     max-width: 100%!important;
     max-height: none!important;
     min-height: 0!important;
@@ -25702,7 +25702,7 @@ body.modal-open,html.ngdialog-open body {
     -webkit-user-select: auto!important
 }
 
-.selectize-input&gt;input:focus {
+.selectize-input>input:focus {
     outline: 0!important
 }
 
@@ -25816,7 +25816,7 @@ body.modal-open,html.ngdialog-open body {
     left: 15px
 }
 
-.selectize-control.rtl .selectize-input&gt;input {
+.selectize-control.rtl .selectize-input>input {
     margin: 0 4px 0 -2px!important
 }
 

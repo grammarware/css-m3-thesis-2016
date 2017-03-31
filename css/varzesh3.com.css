@@ -8,7 +8,7 @@
     z-index: 2
 }
 
-body&gt;.ui-pnotify {
+body>.ui-pnotify {
     position: fixed;
     z-index: 100040
 }
@@ -23,7 +23,7 @@ body&gt;.ui-pnotify {
     z-index: 1
 }
 
-body&gt;.ui-pnotify-modal-overlay {
+body>.ui-pnotify-modal-overlay {
     position: fixed;
     z-index: 100039
 }
@@ -422,7 +422,7 @@ body&gt;.ui-pnotify-modal-overlay {
     height: auto
 }
 
-.mCSB_inside&gt;.mCSB_container {
+.mCSB_inside>.mCSB_container {
     margin-right: 30px
 }
 
@@ -430,12 +430,12 @@ body&gt;.ui-pnotify-modal-overlay {
     margin-right: 0
 }
 
-.mCS-dir-rtl&gt;.mCSB_inside&gt;.mCSB_container {
+.mCS-dir-rtl>.mCSB_inside>.mCSB_container {
     margin-right: 0;
     margin-left: 30px
 }
 
-.mCS-dir-rtl&gt;.mCSB_inside&gt;.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden {
+.mCS-dir-rtl>.mCSB_inside>.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden {
     margin-left: 0
 }
 
@@ -453,12 +453,12 @@ body&gt;.ui-pnotify-modal-overlay {
     right: -26px
 }
 
-.mCS-dir-rtl&gt;.mCSB_inside&gt;.mCSB_scrollTools,.mCS-dir-rtl&gt;.mCSB_outside+.mCSB_scrollTools {
+.mCS-dir-rtl>.mCSB_inside>.mCSB_scrollTools,.mCS-dir-rtl>.mCSB_outside+.mCSB_scrollTools {
     right: auto;
     left: 0
 }
 
-.mCS-dir-rtl&gt;.mCSB_outside+.mCSB_scrollTools {
+.mCS-dir-rtl>.mCSB_outside+.mCSB_scrollTools {
     left: -26px
 }
 
@@ -524,16 +524,16 @@ body&gt;.ui-pnotify-modal-overlay {
     bottom: 0
 }
 
-.mCSB_horizontal.mCSB_inside&gt;.mCSB_container {
+.mCSB_horizontal.mCSB_inside>.mCSB_container {
     margin-right: 0;
     margin-bottom: 30px
 }
 
-.mCSB_horizontal.mCSB_outside&gt;.mCSB_container {
+.mCSB_horizontal.mCSB_outside>.mCSB_container {
     min-height: 100%
 }
 
-.mCSB_horizontal&gt;.mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden {
+.mCSB_horizontal>.mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden {
     margin-bottom: 0
 }
 
@@ -613,7 +613,7 @@ body&gt;.ui-pnotify-modal-overlay {
     margin-bottom: 30px
 }
 
-.mCSB_container_wrapper&gt;.mCSB_container {
+.mCSB_container_wrapper>.mCSB_container {
     padding-right: 30px;
     padding-bottom: 30px;
     -webkit-box-sizing: border-box;
@@ -621,11 +621,11 @@ body&gt;.ui-pnotify-modal-overlay {
     box-sizing: border-box
 }
 
-.mCSB_vertical_horizontal&gt;.mCSB_scrollTools.mCSB_scrollTools_vertical {
+.mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_vertical {
     bottom: 20px
 }
 
-.mCSB_vertical_horizontal&gt;.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+.mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_horizontal {
     right: 20px
 }
 
@@ -633,37 +633,37 @@ body&gt;.ui-pnotify-modal-overlay {
     bottom: 0
 }
 
-.mCS-dir-rtl&gt;.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside&gt;.mCSB_scrollTools.mCSB_scrollTools_horizontal,.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden+.mCSB_scrollTools~.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+.mCS-dir-rtl>.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_scrollTools.mCSB_scrollTools_horizontal,.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden+.mCSB_scrollTools~.mCSB_scrollTools.mCSB_scrollTools_horizontal {
     right: 0
 }
 
-.mCS-dir-rtl&gt;.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside&gt;.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+.mCS-dir-rtl>.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_scrollTools.mCSB_scrollTools_horizontal {
     left: 20px
 }
 
-.mCS-dir-rtl&gt;.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside&gt;.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden+.mCSB_scrollTools~.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+.mCS-dir-rtl>.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden+.mCSB_scrollTools~.mCSB_scrollTools.mCSB_scrollTools_horizontal {
     left: 0
 }
 
-.mCS-dir-rtl&gt;.mCSB_inside&gt;.mCSB_container_wrapper {
+.mCS-dir-rtl>.mCSB_inside>.mCSB_container_wrapper {
     margin-right: 0;
     margin-left: 30px
 }
 
-.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden&gt;.mCSB_container {
+.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden>.mCSB_container {
     padding-right: 0
 }
 
-.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden&gt;.mCSB_container {
+.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden>.mCSB_container {
     padding-bottom: 0
 }
 
-.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside&gt;.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden {
+.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden {
     margin-right: 0;
     margin-left: 0
 }
 
-.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside&gt;.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden {
+.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden {
     margin-bottom: 0
 }
 
@@ -687,13 +687,13 @@ body&gt;.ui-pnotify-modal-overlay {
     -ms-filter: "alpha(opacity=75)"
 }
 
-.mCS-autoHide&gt;.mCustomScrollBox&gt;.mCSB_scrollTools,.mCS-autoHide&gt;.mCustomScrollBox~.mCSB_scrollTools {
+.mCS-autoHide>.mCustomScrollBox>.mCSB_scrollTools,.mCS-autoHide>.mCustomScrollBox~.mCSB_scrollTools {
     opacity: 0;
     filter: "alpha(opacity=0)";
     -ms-filter: "alpha(opacity=0)"
 }
 
-.mCS-autoHide:hover&gt;.mCustomScrollBox&gt;.mCSB_scrollTools,.mCS-autoHide:hover&gt;.mCustomScrollBox~.mCSB_scrollTools,.mCustomScrollBox:hover&gt;.mCSB_scrollTools,.mCustomScrollBox:hover~.mCSB_scrollTools,.mCustomScrollbar&gt;.mCustomScrollBox&gt;.mCSB_scrollTools.mCSB_scrollTools_onDrag,.mCustomScrollbar&gt;.mCustomScrollBox~.mCSB_scrollTools.mCSB_scrollTools_onDrag {
+.mCS-autoHide:hover>.mCustomScrollBox>.mCSB_scrollTools,.mCS-autoHide:hover>.mCustomScrollBox~.mCSB_scrollTools,.mCustomScrollBox:hover>.mCSB_scrollTools,.mCustomScrollBox:hover~.mCSB_scrollTools,.mCustomScrollbar>.mCustomScrollBox>.mCSB_scrollTools.mCSB_scrollTools_onDrag,.mCustomScrollbar>.mCustomScrollBox~.mCSB_scrollTools.mCSB_scrollTools_onDrag {
     opacity: 1;
     filter: "alpha(opacity=100)";
     -ms-filter: "alpha(opacity=100)"
@@ -1445,7 +1445,7 @@ body&gt;.ui-pnotify-modal-overlay {
     margin: 0 12px
 }
 
-.mCS-dir-rtl&gt;.mCSB_outside+.mCS-minimal-dark.mCSB_scrollTools_vertical,.mCS-dir-rtl&gt;.mCSB_outside+.mCS-minimal.mCSB_scrollTools_vertical {
+.mCS-dir-rtl>.mCSB_outside+.mCS-minimal-dark.mCSB_scrollTools_vertical,.mCS-dir-rtl>.mCSB_outside+.mCS-minimal.mCSB_scrollTools_vertical {
     left: 0;
     right: auto
 }
@@ -1907,7 +1907,7 @@ body&gt;.ui-pnotify-modal-overlay {
     outline: 3px dashed #e74c3c
 }
 
-.page-search--result-box ul.news li&gt;div .datetime-container,.page-search--result-box ul.news li&gt;div a img,.page-search--result-box ul.videos li a img {
+.page-search--result-box ul.news li>div .datetime-container,.page-search--result-box ul.news li>div a img,.page-search--result-box ul.videos li a img {
     transition: all ease .3s
 }
 
@@ -3999,7 +3999,7 @@ input,option,select,table,textarea {
     width: 68px
 }
 
-.mCS-dir-rtl&gt;.mCSB_outside+.mCSB_scrollTools {
+.mCS-dir-rtl>.mCSB_outside+.mCSB_scrollTools {
     right: 0
 }
 
@@ -4089,7 +4089,7 @@ select[data-type] {
     font-family: Yekan,YekanNumbers,tahoma
 }
 
-.news-page&gt;div {
+.news-page>div {
     padding-top: 8px
 }
 
@@ -4147,7 +4147,7 @@ select[data-type] {
     color: #4285f4
 }
 
-.news-page .news-page--news-lead,.news-page .news-page--news-lead font,.news-page .news-page--news-lead&gt;p,.news-page .news-page--news-lead&gt;p a,.news-page .news-page--news-lead&gt;p strong,.news-page .news-page--news-text,.news-page .news-page--news-text font,.news-page .news-page--news-text&gt;p,.news-page .news-page--news-text&gt;p a,.news-page .news-page--news-text&gt;p strong {
+.news-page .news-page--news-lead,.news-page .news-page--news-lead font,.news-page .news-page--news-lead>p,.news-page .news-page--news-lead>p a,.news-page .news-page--news-lead>p strong,.news-page .news-page--news-text,.news-page .news-page--news-text font,.news-page .news-page--news-text>p,.news-page .news-page--news-text>p a,.news-page .news-page--news-text>p strong {
     line-height: 22px;
     font-size: 13px;
     margin: 0;
@@ -4155,12 +4155,12 @@ select[data-type] {
 }
 
 @media only screen and (max-device-width:767px) {
-    .news-page .news-page--news-lead,.news-page .news-page--news-lead font,.news-page .news-page--news-lead font&gt;p,.news-page .news-page--news-lead font&gt;p *,.news-page .news-page--news-lead&gt;p,.news-page .news-page--news-lead&gt;p *,.news-page .news-page--news-lead&gt;p a,.news-page .news-page--news-lead&gt;p a&gt;p,.news-page .news-page--news-lead&gt;p a&gt;p *,.news-page .news-page--news-lead&gt;p strong,.news-page .news-page--news-lead&gt;p strong&gt;p,.news-page .news-page--news-lead&gt;p strong&gt;p *,.news-page .news-page--news-lead&gt;p&gt;p,.news-page .news-page--news-lead&gt;p&gt;p *,.news-page .news-page--news-text,.news-page .news-page--news-text font,.news-page .news-page--news-text font&gt;p,.news-page .news-page--news-text font&gt;p *,.news-page .news-page--news-text&gt;p,.news-page .news-page--news-text&gt;p *,.news-page .news-page--news-text&gt;p a,.news-page .news-page--news-text&gt;p a&gt;p,.news-page .news-page--news-text&gt;p a&gt;p *,.news-page .news-page--news-text&gt;p strong,.news-page .news-page--news-text&gt;p strong&gt;p,.news-page .news-page--news-text&gt;p strong&gt;p *,.news-page .news-page--news-text&gt;p&gt;p,.news-page .news-page--news-text&gt;p&gt;p * {
+    .news-page .news-page--news-lead,.news-page .news-page--news-lead font,.news-page .news-page--news-lead font>p,.news-page .news-page--news-lead font>p *,.news-page .news-page--news-lead>p,.news-page .news-page--news-lead>p *,.news-page .news-page--news-lead>p a,.news-page .news-page--news-lead>p a>p,.news-page .news-page--news-lead>p a>p *,.news-page .news-page--news-lead>p strong,.news-page .news-page--news-lead>p strong>p,.news-page .news-page--news-lead>p strong>p *,.news-page .news-page--news-lead>p>p,.news-page .news-page--news-lead>p>p *,.news-page .news-page--news-text,.news-page .news-page--news-text font,.news-page .news-page--news-text font>p,.news-page .news-page--news-text font>p *,.news-page .news-page--news-text>p,.news-page .news-page--news-text>p *,.news-page .news-page--news-text>p a,.news-page .news-page--news-text>p a>p,.news-page .news-page--news-text>p a>p *,.news-page .news-page--news-text>p strong,.news-page .news-page--news-text>p strong>p,.news-page .news-page--news-text>p strong>p *,.news-page .news-page--news-text>p>p,.news-page .news-page--news-text>p>p * {
         font-size: 25px;
         line-height: 1.6
     }
 
-    .news-page .news-page--news-lead .news-page--subtitle,.news-page .news-page--news-lead font .news-page--subtitle,.news-page .news-page--news-lead&gt;p .news-page--subtitle,.news-page .news-page--news-lead&gt;p a .news-page--subtitle,.news-page .news-page--news-lead&gt;p strong .news-page--subtitle,.news-page .news-page--news-text .news-page--subtitle,.news-page .news-page--news-text font .news-page--subtitle,.news-page .news-page--news-text&gt;p .news-page--subtitle,.news-page .news-page--news-text&gt;p a .news-page--subtitle,.news-page .news-page--news-text&gt;p strong .news-page--subtitle {
+    .news-page .news-page--news-lead .news-page--subtitle,.news-page .news-page--news-lead font .news-page--subtitle,.news-page .news-page--news-lead>p .news-page--subtitle,.news-page .news-page--news-lead>p a .news-page--subtitle,.news-page .news-page--news-lead>p strong .news-page--subtitle,.news-page .news-page--news-text .news-page--subtitle,.news-page .news-page--news-text font .news-page--subtitle,.news-page .news-page--news-text>p .news-page--subtitle,.news-page .news-page--news-text>p a .news-page--subtitle,.news-page .news-page--news-text>p strong .news-page--subtitle {
         font-size: 12px
     }
 
@@ -4354,7 +4354,7 @@ select[data-type] {
     color: #666
 }
 
-.live-news-page .live-news li&gt;img {
+.live-news-page .live-news li>img {
     border-radius: 2px;
     margin-top: 6px;
     width: 20%;
@@ -6879,14 +6879,14 @@ hr.tiny-ridge {
     width: 26px
 }
 
-.livescore-page .has-penalty .score.two-scores&gt;span {
+.livescore-page .has-penalty .score.two-scores>span {
     position: absolute;
     bottom: 0;
     height: 100%;
     width: 15px
 }
 
-.livescore-page .has-penalty .score.two-scores&gt;span.extra span {
+.livescore-page .has-penalty .score.two-scores>span.extra span {
     font-size: 11px;
     position: relative;
     top: 2px;
@@ -7153,7 +7153,7 @@ hr.tiny-ridge {
     margin-left: 130px
 }
 
-.livescore-page .v-stat-scorers-wrapper .flag-container.right&gt;div {
+.livescore-page .v-stat-scorers-wrapper .flag-container.right>div {
     height: 50px;
     position: relative
 }
@@ -7854,7 +7854,7 @@ hr.tiny-ridge {
     color: #fff
 }
 
-.match-page .events-timeline&gt;.time::after,.match-page .events-timeline&gt;.time::before {
+.match-page .events-timeline>.time::after,.match-page .events-timeline>.time::before {
     content: '';
     display: block;
     width: 1px;
@@ -8041,11 +8041,11 @@ hr.tiny-ridge {
     top: 0
 }
 
-.match-page .events-timeline&gt;.time::before {
+.match-page .events-timeline>.time::before {
     top: -5px
 }
 
-.match-page .events-timeline&gt;.time::after {
+.match-page .events-timeline>.time::after {
     bottom: -12px
 }
 
@@ -8085,7 +8085,7 @@ hr.tiny-ridge {
     margin: 20px auto
 }
 
-.match-page .stats-and-formation-wrapper&gt;div {
+.match-page .stats-and-formation-wrapper>div {
     vertical-align: top
 }
 
@@ -8329,42 +8329,42 @@ hr.tiny-ridge {
     background-repeat: no-repeat
 }
 
-.match-page .events-list-wrapper&gt;.events-list {
+.match-page .events-list-wrapper>.events-list {
     padding: 0 10px;
     width: 97%;
     background-color: #eee;
     margin: 0 auto
 }
 
-.match-page .events-list-wrapper&gt;.events-list td[data-side=host] {
+.match-page .events-list-wrapper>.events-list td[data-side=host] {
     vertical-align: top;
     width: 30%;
     float: right
 }
 
-.match-page .events-list-wrapper&gt;.events-list td[data-side=host] table {
+.match-page .events-list-wrapper>.events-list td[data-side=host] table {
     background-color: #eee
 }
 
-.match-page .events-list-wrapper&gt;.events-list td[data-side=host] table tr:hover {
+.match-page .events-list-wrapper>.events-list td[data-side=host] table tr:hover {
     background-color: #ddd
 }
 
-.match-page .events-list-wrapper&gt;.events-list td[data-side=guest] {
+.match-page .events-list-wrapper>.events-list td[data-side=guest] {
     vertical-align: top;
     width: 30%;
     float: left
 }
 
-.match-page .events-list-wrapper&gt;.events-list td[data-side=guest] table {
+.match-page .events-list-wrapper>.events-list td[data-side=guest] table {
     background-color: #eee
 }
 
-.match-page .events-list-wrapper&gt;.events-list td[data-side=guest] table tr:hover {
+.match-page .events-list-wrapper>.events-list td[data-side=guest] table tr:hover {
     background-color: #ddd
 }
 
-.match-page .events-list-wrapper&gt;.events-list td table tr:nth-child(2n) {
+.match-page .events-list-wrapper>.events-list td table tr:nth-child(2n) {
     background-color: #ddd
 }
 
@@ -8383,7 +8383,7 @@ hr.tiny-ridge {
     color: #444
 }
 
-.match-page .head-2-heads&gt;.row {
+.match-page .head-2-heads>.row {
     border-bottom: 1px solid #eee;
     height: 31px
 }
@@ -9297,7 +9297,7 @@ hr.tiny-ridge {
     border-bottom: 2px solid #fff
 }
 
-.transfers-page .m3g-ct-row.heading&gt;div {
+.transfers-page .m3g-ct-row.heading>div {
     color: #fff
 }
 
@@ -9501,14 +9501,14 @@ hr.tiny-ridge {
     display: none
 }
 
-.player-ratings-page .player-card .inner&gt;div {
+.player-ratings-page .player-card .inner>div {
     display: inline-block;
     vertical-align: top;
     height: 100%;
     width: 96.7px
 }
 
-.player-ratings-page .player-card .inner&gt;.player-name {
+.player-ratings-page .player-card .inner>.player-name {
     width: 100%;
     height: 30px;
     overflow: hidden;
@@ -9522,13 +9522,13 @@ hr.tiny-ridge {
     max-width: 100%
 }
 
-.player-ratings-page .player-card .image-container&gt;img {
+.player-ratings-page .player-card .image-container>img {
     border-radius: 2px;
     height: 97px;
     width: 97px
 }
 
-.player-ratings-page .player-card .image-container&gt;.image-placeholder {
+.player-ratings-page .player-card .image-container>.image-placeholder {
     height: 97px;
     font-size: 50px;
     padding-top: 20px;
@@ -9567,7 +9567,7 @@ hr.tiny-ridge {
     display: inline-block
 }
 
-.player-ratings-page .player-card .detailed-stats-container .row a&gt;div {
+.player-ratings-page .player-card .detailed-stats-container .row a>div {
     display: inline-block;
     height: 24px;
     border-bottom: 1px solid #eee
@@ -9670,7 +9670,7 @@ hr.tiny-ridge {
     margin-bottom: 0
 }
 
-.player-page .player-stats-wrapper .stats-container&gt;h5 {
+.player-page .player-stats-wrapper .stats-container>h5 {
     background-color: #eee;
     border-bottom: 2px solid #ccc;
     line-height: 30px;
@@ -9685,7 +9685,7 @@ hr.tiny-ridge {
     width: 32.5%
 }
 
-.player-page .player-stats-wrapper .stats-container .item&gt;div {
+.player-page .player-stats-wrapper .stats-container .item>div {
     display: inline-block;
     width: 47%;
     font-size: 12px;
@@ -9912,7 +9912,7 @@ hr.tiny-ridge {
     padding: 0
 }
 
-.league-page .standing .details .stats-wrapper .numbers-wrapper&gt;div,.league-page .standing .details .stats-wrapper .scorer&gt;div {
+.league-page .standing .details .stats-wrapper .numbers-wrapper>div,.league-page .standing .details .stats-wrapper .scorer>div {
     background-color: #fff;
     height: 33px
 }
@@ -10199,7 +10199,7 @@ hr.tiny-ridge {
     padding-left: 4px
 }
 
-.league-page .bracket .tier .slot .team&gt;div {
+.league-page .bracket .tier .slot .team>div {
     min-height: 1px
 }
 
@@ -10744,16 +10744,16 @@ footer.page-footer .color-bar .color-bar--item {
     border-radius: 0!important
 }
 
-.page-search--result-box ul li&gt;div {
+.page-search--result-box ul li>div {
     position: relative;
     width: 100%
 }
 
-.page-search--result-box ul li&gt;div a:hover {
+.page-search--result-box ul li>div a:hover {
     color: #4285f4
 }
 
-.page-search--result-box ul li&gt;div a .image-container {
+.page-search--result-box ul li>div a .image-container {
     overflow: hidden;
     display: inline-block;
     width: 80px;
@@ -10762,11 +10762,11 @@ footer.page-footer .color-bar .color-bar--item {
     border: 1px solid #444
 }
 
-.page-search--result-box ul li&gt;div a .image-container img {
+.page-search--result-box ul li>div a .image-container img {
     width: 100%
 }
 
-.page-search--result-box ul li&gt;div a .link-container {
+.page-search--result-box ul li>div a .link-container {
     width: 295px;
     padding: 10px 0 0;
     display: inline-block;
@@ -10783,12 +10783,12 @@ footer.page-footer .color-bar .color-bar--item {
     background-color: #eee
 }
 
-.page-search--result-box ul.news li:hover&gt;div a {
+.page-search--result-box ul.news li:hover>div a {
     color: #000;
     left: 2px
 }
 
-.page-search--result-box ul.news li:hover&gt;div .datetime-container {
+.page-search--result-box ul.news li:hover>div .datetime-container {
     left: -4px
 }
 
@@ -10796,7 +10796,7 @@ footer.page-footer .color-bar .color-bar--item {
     border: 0!important
 }
 
-.page-search--result-box ul.news li&gt;div a {
+.page-search--result-box ul.news li>div a {
     position: relative;
     display: inline-block;
     width: 100%;
@@ -10804,7 +10804,7 @@ footer.page-footer .color-bar .color-bar--item {
     font-size: 12px
 }
 
-.page-search--result-box ul.news li&gt;div a img {
+.page-search--result-box ul.news li>div a img {
     display: inline-block;
     float: right;
     width: 65px;
@@ -10814,18 +10814,18 @@ footer.page-footer .color-bar .color-bar--item {
     background-color: #eee
 }
 
-.page-search--result-box ul.news li&gt;div a img.not-found {
+.page-search--result-box ul.news li>div a img.not-found {
     height: 65px
 }
 
-.page-search--result-box ul.news li&gt;div a div.news-title {
+.page-search--result-box ul.news li>div a div.news-title {
     display: inline-block;
     width: 390px;
     padding: 2px 8px;
     vertical-align: top
 }
 
-.page-search--result-box ul.news li&gt;div a div.news-title .news-description {
+.page-search--result-box ul.news li>div a div.news-title .news-description {
     width: 305px;
     clear: both;
     font-family: tahoma;
@@ -10833,7 +10833,7 @@ footer.page-footer .color-bar .color-bar--item {
     color: #888
 }
 
-.page-search--result-box ul.news li&gt;div .datetime-container {
+.page-search--result-box ul.news li>div .datetime-container {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -11546,7 +11546,7 @@ footer.page-footer .color-bar .color-bar--item {
     width: 100%
 }
 
-.owl-nav&gt;div,.widget-slider .widget-slider--sprite {
+.owl-nav>div,.widget-slider .widget-slider--sprite {
     background-image: url(../img/sheet/fns-sprite.png);
     background-repeat: no-repeat
 }
@@ -11572,7 +11572,7 @@ footer.page-footer .color-bar .color-bar--item {
     top: 50%
 }
 
-.owl-nav&gt;div {
+.owl-nav>div {
     width: 25px;
     height: 25px;
     cursor: pointer
@@ -12716,7 +12716,7 @@ noscript.noscript-warning {
     box-shadow: 0 0 3px #ddd
 }
 
-.comments-wrapper .comments-container&gt;ul {
+.comments-wrapper .comments-container>ul {
     margin: 0!important;
     padding: 0 3px
 }
@@ -12767,7 +12767,7 @@ noscript.noscript-warning {
     margin: 11px 0
 }
 
-.comments-wrapper .avatar&gt;div {
+.comments-wrapper .avatar>div {
     height: 0;
     width: 100%;
     color: #fff;
@@ -12782,7 +12782,7 @@ noscript.noscript-warning {
     transition: all ease .4s
 }
 
-.comments-wrapper .avatar&gt;div:hover {
+.comments-wrapper .avatar>div:hover {
     background-color: #4285f4;
     transition: all ease .4s
 }
@@ -13190,13 +13190,13 @@ noscript.noscript-warning {
     font-size: 16px
 }
 
-.profile:hover&gt;ul {
+.profile:hover>ul {
     visibility: visible;
     opacity: .96;
     transition: opacity ease .3s
 }
 
-.profile&gt;ul {
+.profile>ul {
     background-color: #333;
     padding: 5px 0;
     position: absolute;
@@ -13211,19 +13211,19 @@ noscript.noscript-warning {
     transition: padding ease .3s,top ease .3s,width ease .3s,left ease .3s,border-radius ease .3s,border ease .3s,opacity ease .3s,line-height ease .3s
 }
 
-.profile&gt;ul&gt;li {
+.profile>ul>li {
     padding: 0 8px;
     line-height: 26px;
     border-bottom: 1px solid #333
 }
 
-.profile&gt;ul&gt;li i {
+.profile>ul>li i {
     position: relative;
     top: 2px;
     margin-left: 8px
 }
 
-.profile&gt;ul&gt;li i::before {
+.profile>ul>li i::before {
     font-size: 11px
 }
 

@@ -1098,7 +1098,7 @@ body {
    Links
    ========================================================================== */
 #cboxClose,
-div &gt; a, li &gt; a {
+div > a, li > a {
     color: #2599c2;
     /*transition: all .3s linear;
     -o-transition: all .3s linear;
@@ -2081,8 +2081,8 @@ textarea::-webkit-input-placeholder {
   float: left;
   margin-left: -18px;
 }
-.controls &gt; .radio:first-child,
-.controls &gt; .checkbox:first-child {
+.controls > .radio:first-child,
+.controls > .checkbox:first-child {
   padding-top: 5px;
 }
 .radio.inline,
@@ -2211,7 +2211,7 @@ input[type="radio"][readonly],
 input[type="checkbox"][readonly] {
   background-color: transparent;
 }
-.control-group.warning &gt; label,
+.control-group.warning > label,
 .control-group.warning .help-block,
 .control-group.warning .help-inline {
   color: #c09853;
@@ -2243,7 +2243,7 @@ input[type="checkbox"][readonly] {
   background-color: #fcf8e3;
   border-color: #c09853;
 }
-.control-group.error &gt; label,
+.control-group.error > label,
 .control-group.error .help-block,
 .control-group.error .help-inline {
   color: #b94a48;
@@ -2275,7 +2275,7 @@ input[type="checkbox"][readonly] {
   background-color: #f2dede;
   border-color: #b94a48;
 }
-.control-group.success &gt; label,
+.control-group.success > label,
 .control-group.success .help-block,
 .control-group.success .help-inline {
   color: #468847;
@@ -3019,8 +3019,8 @@ input[type="submit"].btn.btn-mini {
   padding-top: 14px;
   padding-bottom: 14px;
 }
-.alert-block &gt; p,
-.alert-block &gt; ul {
+.alert-block > p,
+.alert-block > ul {
   margin-bottom: 0;
 }
 .alert-block p + p {
@@ -3099,9 +3099,9 @@ input[type="submit"].btn.btn-mini {
   color: #333333;
   white-space: nowrap;
 }
-.dropdown-menu li &gt; a:hover,
-.dropdown-menu li &gt; a:focus,
-.dropdown-submenu:hover &gt; a {
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
   text-decoration: none;
   color: #ffffff;
   background-color: #0088cc;
@@ -3114,8 +3114,8 @@ input[type="submit"].btn.btn-mini {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
 }
-.dropdown-menu .active &gt; a,
-.dropdown-menu .active &gt; a:hover {
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover {
   color: #ffffff;
   text-decoration: none;
   outline: 0;
@@ -3129,11 +3129,11 @@ input[type="submit"].btn.btn-mini {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
 }
-.dropdown-menu .disabled &gt; a,
-.dropdown-menu .disabled &gt; a:hover {
+.dropdown-menu .disabled > a,
+.dropdown-menu .disabled > a:hover {
   color: #999999;
 }
-.dropdown-menu .disabled &gt; a:hover {
+.dropdown-menu .disabled > a:hover {
   text-decoration: none;
   background-color: transparent;
   cursor: default;
@@ -3141,10 +3141,10 @@ input[type="submit"].btn.btn-mini {
 .open {
   *z-index: 1000;
 }
-.open  &gt; .dropdown-menu {
+.open  > .dropdown-menu {
   display: block;
 }
-.pull-right &gt; .dropdown-menu {
+.pull-right > .dropdown-menu {
   right: 0;
   left: auto;
 }
@@ -3163,7 +3163,7 @@ input[type="submit"].btn.btn-mini {
 .dropdown-submenu {
   position: relative;
 }
-.dropdown-submenu &gt; .dropdown-menu {
+.dropdown-submenu > .dropdown-menu {
   top: 0;
   left: 100%;
   margin-top: -6px;
@@ -3175,7 +3175,7 @@ input[type="submit"].btn.btn-mini {
 .dropdown-submenu:hover .dropdown-menu {
   display: block;
 }
-.dropdown-submenu &gt; a:after {
+.dropdown-submenu > a:after {
   display: block;
   content: " ";
   float: right;
@@ -3188,7 +3188,7 @@ input[type="submit"].btn.btn-mini {
   margin-top: 5px;
   margin-right: -10px;
 }
-.dropdown-submenu:hover &gt; a:after {
+.dropdown-submenu:hover > a:after {
   border-left-color: #ffffff;
 }
 .dropdown .dropdown-menu .nav-header {

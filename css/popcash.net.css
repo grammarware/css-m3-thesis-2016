@@ -957,7 +957,7 @@
     padding: 0;
 }
 
-.flexslider .slides &gt; li {
+.flexslider .slides > li {
     display: none;
     -webkit-backface-visibility: hidden;
 } /* Hide the slides before the JS is loaded. Avoids image jumping */
@@ -991,7 +991,7 @@ html[xmlns] .slides {
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
-.no-js .slides &gt; li:first-child {
+.no-js .slides > li:first-child {
     display: block;
 }
 
@@ -1007,7 +1007,7 @@ html[xmlns] .slides {
     zoom: 1;
 }
 
-.flexslider .slides &gt; li {
+.flexslider .slides > li {
     position: relative;
 }
 /* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
@@ -1187,7 +1187,7 @@ a#scroll-top {
     border-color: #54AEC2;
 }
 
-#header .main-nav &gt; ul &gt; li ul, #header .main-nav &gt; ul &gt; li:hover, #header .main-nav #topsearch #tsearch {
+#header .main-nav > ul > li ul, #header .main-nav > ul > li:hover, #header .main-nav #topsearch #tsearch {
     background: #377F8F;
 }
 
@@ -2113,35 +2113,35 @@ footer .footer-widget a.readmore:hover,
     -webkit-border-radius: 3px 3px 0px 0px;
 }
 
-.main-nav &gt; div {
+.main-nav > div {
     float: left;
 }
 
-.main-nav &gt; div &gt; ul {
+.main-nav > div > ul {
     float: left;
 }
 
-.ie7 .main-nav &gt; div &gt; ul {
+.ie7 .main-nav > div > ul {
     z-index: 9700;
 }
 
-.main-nav &gt; div &gt; ul &gt; li {
+.main-nav > div > ul > li {
     float: left;
     border-right: 1px solid #54aec2;
     position: relative;
 }
 
-.main-nav &gt; div &gt; ul &gt; li:first-child {
+.main-nav > div > ul > li:first-child {
     border-top-left-radius: 3px;
     -moz-border-radius-topleft: 3px;
     -webkit-border-top-left-radius: 3px;
 }
 
-.main-nav &gt; div &gt; ul &gt; li:last-child {
+.main-nav > div > ul > li:last-child {
     border: none;
 }
 
-.main-nav &gt; div ul li a {
+.main-nav > div ul li a {
     display: inline-block;
     padding: 0px 20px;
     font-size: 13px;
@@ -2151,13 +2151,13 @@ footer .footer-widget a.readmore:hover,
     text-shadow: 1px 1px 0px #20606d;
 }
 
-.main-nav &gt; div ul li:hover {
+.main-nav > div ul li:hover {
     background-color: #377f8f;
     background-clip: padding-box;
     -moz-background-clip: padding-box;
 }
 
-.main-nav &gt; div ul li ul {
+.main-nav > div ul li ul {
     display: none;
     width: 220px;
     padding: 12px 0px;
@@ -2174,18 +2174,18 @@ footer .footer-widget a.readmore:hover,
     -webkit-border-bottom-right-radius: 3px;
 }
 
-.ie7 .main-nav &gt; div ul li ul {
+.ie7 .main-nav > div ul li ul {
     z-index: 9800;
 }
 
-.main-nav &gt; div ul li ul li {
+.main-nav > div ul li ul li {
     width: 196px;
     height: auto;
     padding: 0px 12px;
     position: relative;
 }
 
-.main-nav &gt; div ul li ul li a {
+.main-nav > div ul li ul li a {
     display: inline-block;
     font-weight: bold;
     line-height: 34px;
@@ -2196,11 +2196,11 @@ footer .footer-widget a.readmore:hover,
     -webkit-border-radius: 5px;
 }
 
-.main-nav &gt; div ul li ul li:hover {
+.main-nav > div ul li ul li:hover {
     background-color: #2c6774;
 }
 
-.main-nav &gt; div ul li ul li ul {
+.main-nav > div ul li ul li ul {
     top: -12px;
     left: 220px;
     border-radius: 3px;
@@ -2208,7 +2208,7 @@ footer .footer-widget a.readmore:hover,
     -webkit-border-radius: 3px;
 }
 
-.ie7 .main-nav &gt; div ul li ul li ul {
+.ie7 .main-nav > div ul li ul li ul {
     z-index: 9900;
 }
 
@@ -3219,7 +3219,7 @@ footer .footer-widget a.readmore:hover,
     background: url(images/arrow.jpg) 1px 15px no-repeat;
 }
 
-#sidebar .widget ul li &gt; ul li,
+#sidebar .widget ul li > ul li,
 #sidebar .widget ul li .children li {
     border-bottom: none;
 }
@@ -4085,7 +4085,7 @@ article.hentry .post-thumb:hover {
 #comments .comment:first-child {
 }
 
-#comments .comment &gt; article {
+#comments .comment > article {
     margin: 0;
     overflow: hidden;
 }
@@ -5147,7 +5147,7 @@ a#scroll-top:hover {
         border: none;
     }
 
-    #wrapper #header .main-nav ul li ul li:hover &gt; a {
+    #wrapper #header .main-nav ul li ul li:hover > a {
         background: none;
         border: none;
     }
@@ -5741,7 +5741,7 @@ a#scroll-top:hover {
         display: block;
     }
 
-    #wrapper #header .main-nav &gt; div {
+    #wrapper #header .main-nav > div {
         float: none;
     }
 
@@ -5808,7 +5808,7 @@ a#scroll-top:hover {
         border: none;
     }
 
-    #wrapper #header .main-nav ul li ul li:hover &gt; a {
+    #wrapper #header .main-nav ul li ul li:hover > a {
         background: none;
         border: none;
     }

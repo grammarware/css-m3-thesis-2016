@@ -145,7 +145,7 @@ a,img {
     text-shadow: none;
 }
 
-.slideshow &gt; li &gt; a {
+.slideshow > li > a {
     width: 336px;
     height: 447px;
     display: inline-block;
@@ -608,8 +608,8 @@ hr.m0 {
 }
 
 .ie6 .sec .p_pop {
-    white-space: expression(this.offsetWidth&gt;= 220 ? 'normal' : 'nowrap');
-    width: expression(this.offsetWidth&gt;= 220 ? 200 : 'auto');
+    white-space: expression(this.offsetWidth>= 220 ? 'normal' : 'nowrap');
+    width: expression(this.offsetWidth>= 220 ? 200 : 'auto');
 }
 
 .rq {
@@ -2431,8 +2431,8 @@ a.pn:hover {
 }
 
 .ie6 .xld .atc img {
-    width: expression(this.width&gt; 80 &amp;&amp; this.width&gt;=this.height ? 80 : true);
-    height: expression(this.height&gt; 80 &amp;&amp; this.width&lt;=this.height ? 80 : true);
+    width: expression(this.width> 80 &amp;&amp; this.width>=this.height ? 80 : true);
+    height: expression(this.height> 80 &amp;&amp; this.width<=this.height ? 80 : true);
 }
 
 .xld a.d,.xl a.d,.attc a.d,.c a.d,.sinf a.d {
@@ -2478,7 +2478,7 @@ a.pn:hover {
 }
 
 * html .xlda dd img {
-    width: expression(this.width&gt; 550 ? 550 : true);
+    width: expression(this.width> 550 ? 550 : true);
 }
 
 .xlda dd a {
@@ -2576,8 +2576,8 @@ a.pn:hover {
 .mla img {
     max-width: 120px;
     max-height: 120px;
-    _width: expression(this.width&gt; 120 &amp;&amp; this.width&gt;=this.height ? 120 : true);
-    _height: expression(this.height&gt; 120 &amp;&amp; this.width&lt;=this.height ? 120 : true);
+    _width: expression(this.width> 120 &amp;&amp; this.width>=this.height ? 120 : true);
+    _height: expression(this.height> 120 &amp;&amp; this.width<=this.height ? 120 : true);
 }
 
 .mlp li {
@@ -2600,8 +2600,8 @@ a.pn:hover {
 }
 
 * html .mlp img {
-    width: expression(this.width&gt; 120 &amp;&amp; this.width&gt;=this.height ? 120 : true);
-    height: expression(this.height&gt; 120 &amp;&amp; this.width&lt;=this.height ? 120 : true);
+    width: expression(this.width> 120 &amp;&amp; this.width>=this.height ? 120 : true);
+    height: expression(this.height> 120 &amp;&amp; this.width<=this.height ? 120 : true);
 }
 
 .gm,.gs,.gol,.god {
@@ -3524,11 +3524,11 @@ a.pn:hover {
 }
 
 * html .pmd {
-    width: expression(this.offsetWidth&gt; 292 ? 292+'px':'auto');
+    width: expression(this.offsetWidth> 292 ? 292+'px':'auto');
 }
 
 * html .pmd img {
-    width: expression(this.width&gt; 292 ? 292 : true);
+    width: expression(this.width> 292 ? 292 : true);
 }
 
 .pmd .quote {
@@ -7937,16 +7937,16 @@ li.hotty a:hover {
     background-color: #edecee;
 }
 
-.headingNews&gt;ul {
+.headingNews>ul {
     padding: 0 20px;
 }
 
-.headingNews&gt;ul&gt;li {
+.headingNews>ul>li {
     width: 33%;
     border-right: 1px solid #edecee;
 }
 
-.headingNews&gt;ul&gt;li:first-child {
+.headingNews>ul>li:first-child {
     border-left: 1px solid #edecee;
 }
 
@@ -8175,7 +8175,7 @@ li.hotty a:hover {
     margin: 0 15px 0 20px;
 }
 
-.mainBlock&gt;a&gt;h2 {
+.mainBlock>a>h2 {
     width: auto;
 }
 
@@ -8786,7 +8786,7 @@ a.footer_index_boardservice:hover {
     transform: translate(10px,4px);
 }
 
-.footer_block&gt;ul {
+.footer_block>ul {
     margin-top: 22px;
 }
 
@@ -8954,7 +8954,7 @@ a.footer_index_boardservice:hover {
     padding: 10px 20px 10px;
 }
 
-.headingNews&gt;ul&gt;li {
+.headingNews>ul>li {
     width: 25%;
     box-sizing: border-box;
 }
@@ -9063,7 +9063,7 @@ a.footer_index_boardservice:hover {
     color: #9F7912;
 }
 
-.editBlock&gt;.imgTextList,.movieBlock&gt;.imgTextList {
+.editBlock>.imgTextList,.movieBlock>.imgTextList {
     margin: 15px 0 10px;
 }
 

@@ -6514,21 +6514,21 @@ ol.a-p,ol.b-p {
     padding-left: 0;
 }
 
-ol.a-p &gt; li,ol.b-p &gt; li {
+ol.a-p > li,ol.b-p > li {
     padding-left: 1.25rem;
     list-style: none;
 }
 
-ol.a-p &gt; li::before,ol.b-p &gt; li::before {
+ol.a-p > li::before,ol.b-p > li::before {
     counter-increment: list;
     margin-left: -1.25rem;
 }
 
-ol.a-p &gt; li::before {
+ol.a-p > li::before {
     content: counter(list,lower-alpha) ") ";
 }
 
-ol.b-p &gt; li::before {
+ol.b-p > li::before {
     content: counter(list,lower-roman) ") ";
 }
 
@@ -6740,7 +6740,7 @@ blockquote {
     line-height: 2rem;
 }
 
-blockquote &gt; * {
+blockquote > * {
     font-size: inherit;
 }
 
@@ -7228,11 +7228,11 @@ select::-ms-expand {
     font-size: 0;
 }
 
-.cta-in-row &gt; div,.cta-in-row &gt; a,.cta-in-row &gt; input {
+.cta-in-row > div,.cta-in-row > a,.cta-in-row > input {
     margin-right: 1.25rem;
 }
 
-.cta-in-row &gt; div:last-child,.cta-in-row &gt; a:last-child,.cta-in-row &gt; input:last-child {
+.cta-in-row > div:last-child,.cta-in-row > a:last-child,.cta-in-row > input:last-child {
     margin-right: 0;
 }
 
@@ -7245,19 +7245,19 @@ select::-ms-expand {
     align-items: center;
 }
 
-.stacked-cta &gt; div,.stacked-cta &gt; a,.stacked-cta &gt; input {
+.stacked-cta > div,.stacked-cta > a,.stacked-cta > input {
     margin-right: 0;
     margin-bottom: 1.25rem;
     float: left;
 }
 
-.stacked-cta &gt; div::after,.stacked-cta &gt; a::after,.stacked-cta &gt; input::after {
+.stacked-cta > div::after,.stacked-cta > a::after,.stacked-cta > input::after {
     content: '';
     display: table;
     clear: left;
 }
 
-.stacked-cta &gt; div:last-child,.stacked-cta &gt; a:last-child,.stacked-cta &gt; input:last-child {
+.stacked-cta > div:last-child,.stacked-cta > a:last-child,.stacked-cta > input:last-child {
     margin-bottom: 0;
 }
 
@@ -8408,7 +8408,7 @@ select::-ms-expand {
     }
 }
 
-.clickable-logo &gt; .container {
+.clickable-logo > .container {
     overflow: hidden;
 }
 
@@ -10003,19 +10003,19 @@ input#tab-4:checked ~ .pricing-tabs #pricing-tab-4 {
 }
 
 @media (min-width:48em) {
-    .two-column-split-list &gt; li,.two-column-split-list &gt; article {
+    .two-column-split-list > li,.two-column-split-list > article {
         width: 47.74194%;
         float: left;
     }
 
-    .two-column-split-list &gt; li:nth-child(2n + 1),.two-column-split-list &gt; article:nth-child(2n + 1) {
+    .two-column-split-list > li:nth-child(2n + 1),.two-column-split-list > article:nth-child(2n + 1) {
         margin-left: 0;
         margin-right: -100%;
         clear: both;
         margin-left: 0;
     }
 
-    .two-column-split-list &gt; li:nth-child(2n + 2),.two-column-split-list &gt; article:nth-child(2n + 2) {
+    .two-column-split-list > li:nth-child(2n + 2),.two-column-split-list > article:nth-child(2n + 2) {
         margin-left: 52.25806%;
         margin-right: -100%;
         clear: none;
@@ -12442,7 +12442,7 @@ html[lang='es-419'] .footer-top,html[lang='de'] .footer-top,html[lang='it'] .foo
 }
 
 @media (min-width:30em) {
-    .footer-email-signup form &gt; div {
+    .footer-email-signup form > div {
         width: calc(100% - 152px);
         float: left;
     }
@@ -12677,13 +12677,13 @@ html[lang='es-419'] .footer-top,html[lang='de'] .footer-top,html[lang='it'] .foo
 }
 
 @media (min-width:48em) {
-    .main-menu &gt; ul {
+    .main-menu > ul {
         width: 30.67047%;
     }
 }
 
 @media (min-width:64em) {
-    .main-menu &gt; ul {
+    .main-menu > ul {
         width: auto;
     }
 }

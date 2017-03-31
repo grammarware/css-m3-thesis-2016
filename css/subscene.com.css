@@ -211,7 +211,7 @@ li {
     padding: 1px 5px
 }
 
-.sand-box&gt;ul&gt;li,.sand-box .area {
+.sand-box>ul>li,.sand-box .area {
     -moz-box-sizing: border-box;
     background-color: #fff;
     border-bottom: 1px solid #b8b8b8;
@@ -232,26 +232,26 @@ li {
     margin: 0
 }
 
-.sand-box&gt;ul&gt;li.footer {
+.sand-box>ul>li.footer {
     min-height: 28px
 }
 
-.sand-box&gt;ul&gt;li.footer&gt;a {
+.sand-box>ul>li.footer>a {
     height: 28px;
     line-height: 28px;
     display: block;
     padding-left: 3px
 }
 
-.sand-box&gt;ul&gt;li&gt;ol&gt;li:first-child {
+.sand-box>ul>li>ol>li:first-child {
     padding-top: 8px
 }
 
-.sand-box&gt;ul&gt;li&gt;ol&gt;li {
+.sand-box>ul>li>ol>li {
     padding: 3px 3px
 }
 
-.sand-box&gt;ul&gt;li&gt;ol&gt;li:last-child {
+.sand-box>ul>li>ol>li:last-child {
     padding-bottom: 8px
 }
 
@@ -270,11 +270,11 @@ li {
     border-radius: 4px
 }
 
-.pagination&gt;li {
+.pagination>li {
     display: inline
 }
 
-.pagination&gt;li&gt;a,.pagination&gt;li&gt;span {
+.pagination>li>a,.pagination>li>span {
     position: relative;
     float: left;
     padding: 6px 12px;
@@ -285,22 +285,22 @@ li {
     border: 1px solid #ddd
 }
 
-.pagination&gt;li:first-child&gt;a,.pagination&gt;li:first-child&gt;span {
+.pagination>li:first-child>a,.pagination>li:first-child>span {
     margin-left: 0;
     border-bottom-left-radius: 4px;
     border-top-left-radius: 4px
 }
 
-.pagination&gt;li:last-child&gt;a,.pagination&gt;li:last-child&gt;span {
+.pagination>li:last-child>a,.pagination>li:last-child>span {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px
 }
 
-.pagination&gt;li&gt;a:hover,.pagination&gt;li&gt;span:hover,.pagination&gt;li&gt;a:focus,.pagination&gt;li&gt;span:focus {
+.pagination>li>a:hover,.pagination>li>span:hover,.pagination>li>a:focus,.pagination>li>span:focus {
     background-color: #eee
 }
 
-.pagination&gt;.active&gt;a,.pagination&gt;.active&gt;span,.pagination&gt;.active&gt;a:hover,.pagination&gt;.active&gt;span:hover,.pagination&gt;.active&gt;a:focus,.pagination&gt;.active&gt;span:focus {
+.pagination>.active>a,.pagination>.active>span,.pagination>.active>a:hover,.pagination>.active>span:hover,.pagination>.active>a:focus,.pagination>.active>span:focus {
     z-index: 2;
     color: #fff;
     cursor: default;
@@ -308,39 +308,39 @@ li {
     border-color: #428bca
 }
 
-.pagination&gt;.disabled&gt;span,.pagination&gt;.disabled&gt;a,.pagination&gt;.disabled&gt;a:hover,.pagination&gt;.disabled&gt;a:focus {
+.pagination>.disabled>span,.pagination>.disabled>a,.pagination>.disabled>a:hover,.pagination>.disabled>a:focus {
     color: #999;
     cursor: not-allowed;
     background-color: #fff;
     border-color: #ddd
 }
 
-.pagination-lg&gt;li&gt;a,.pagination-lg&gt;li&gt;span {
+.pagination-lg>li>a,.pagination-lg>li>span {
     padding: 10px 16px;
     font-size: 18px
 }
 
-.pagination-lg&gt;li:first-child&gt;a,.pagination-lg&gt;li:first-child&gt;span {
+.pagination-lg>li:first-child>a,.pagination-lg>li:first-child>span {
     border-bottom-left-radius: 6px;
     border-top-left-radius: 6px
 }
 
-.pagination-lg&gt;li:last-child&gt;a,.pagination-lg&gt;li:last-child&gt;span {
+.pagination-lg>li:last-child>a,.pagination-lg>li:last-child>span {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px
 }
 
-.pagination-sm&gt;li&gt;a,.pagination-sm&gt;li&gt;span {
+.pagination-sm>li>a,.pagination-sm>li>span {
     padding: 5px 10px;
     font-size: 12px
 }
 
-.pagination-sm&gt;li:first-child&gt;a,.pagination-sm&gt;li:first-child&gt;span {
+.pagination-sm>li:first-child>a,.pagination-sm>li:first-child>span {
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px
 }
 
-.pagination-sm&gt;li:last-child&gt;a,.pagination-sm&gt;li:last-child&gt;span {
+.pagination-sm>li:last-child>a,.pagination-sm>li:last-child>span {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px
 }
@@ -374,7 +374,7 @@ li {
     display: inline
 }
 
-.pager li&gt;a,.pager li&gt;span {
+.pager li>a,.pager li>span {
     display: inline-block;
     padding: 5px 14px;
     background-color: #fff;
@@ -382,20 +382,20 @@ li {
     border-radius: 15px
 }
 
-.pager li&gt;a:hover,.pager li&gt;a:focus {
+.pager li>a:hover,.pager li>a:focus {
     text-decoration: none;
     background-color: #eee
 }
 
-.pager .next&gt;a,.pager .next&gt;span {
+.pager .next>a,.pager .next>span {
     float: right
 }
 
-.pager .previous&gt;a,.pager .previous&gt;span {
+.pager .previous>a,.pager .previous>span {
     float: left
 }
 
-.pager .disabled&gt;a,.pager .disabled&gt;a:hover,.pager .disabled&gt;a:focus,.pager .disabled&gt;span {
+.pager .disabled>a,.pager .disabled>a:hover,.pager .disabled>a:focus,.pager .disabled>span {
     color: #999;
     cursor: not-allowed;
     background-color: #fff
@@ -659,7 +659,7 @@ nav.main .selected {
     font-weight: bold
 }
 
-nav&gt;ul&gt;li,.delimited&gt;li {
+nav>ul>li,.delimited>li {
     display: inline-block;
     *display: inline
 }
@@ -800,7 +800,7 @@ nav li:last-child,.delimited li:last-child {
 .banner {
 }
 
-.banner&gt;.foot {
+.banner>.foot {
     height: 16px;
     line-height: 16px;
     font-size: 10px;
@@ -820,7 +820,7 @@ nav li:last-child,.delimited li:last-child {
     padding-top: 14px
 }
 
-.banner.size728&gt;.foot {
+.banner.size728>.foot {
     text-align: right;
     padding-right: 120px
 }
@@ -1061,7 +1061,7 @@ h3.deleted,h3.deleted a {
     line-height: 16px
 }
 
-.recent-downloads .content&gt;ul&gt;li {
+.recent-downloads .content>ul>li {
     margin-bottom: 22px
 }
 
@@ -1272,11 +1272,11 @@ li .title {
     display: inline-block
 }
 
-.byFilm .details ol&gt;li {
+.byFilm .details ol>li {
     display: inline-block
 }
 
-.byFilm .details ol&gt;li&gt;a {
+.byFilm .details ol>li>a {
     padding: 0 4px
 }
 
@@ -1374,7 +1374,7 @@ li .title {
     padding-bottom: 10px
 }
 
-.popular-films ul.details&gt;li {
+.popular-films ul.details>li {
     overflow: hidden;
     padding-bottom: 10px;
     margin: 0
@@ -1406,16 +1406,16 @@ li .title {
     font-size: 10px
 }
 
-form.flag&gt;ul&gt;li {
+form.flag>ul>li {
     padding-bottom: 0;
     padding-top: 6px
 }
 
-form.flag&gt;input {
+form.flag>input {
     vertical-align: central
 }
 
-form.flag&gt;h4 {
+form.flag>h4 {
     padding-top: 6px
 }
 
@@ -1466,7 +1466,7 @@ form.flag&gt;h4 {
     width: 450px
 }
 
-.top.left .header ul&gt;li {
+.top.left .header ul>li {
     margin-bottom: 10px
 }
 
@@ -1477,7 +1477,7 @@ form.flag&gt;h4 {
     word-wrap: break-word
 }
 
-.byFilm .details li,.subtitle .details&gt;li {
+.byFilm .details li,.subtitle .details>li {
     line-height: 15px
 }
 
@@ -1487,7 +1487,7 @@ form.flag&gt;h4 {
     margin-top: 2px
 }
 
-.subtitle .user-rating nav ul&gt;li {
+.subtitle .user-rating nav ul>li {
     margin-top: 0
 }
 
@@ -1562,7 +1562,7 @@ form.flag&gt;h4 {
     padding-left: 4px
 }
 
-.ratings ul&gt;li {
+.ratings ul>li {
     margin: 5px 0;
     -moz-box-sizing: border-box;
     background-color: #fff;
@@ -1858,7 +1858,7 @@ div.close {
     margin-bottom: 14px
 }
 
-.posts ul&gt;li {
+.posts ul>li {
     overflow: hidden;
     padding-bottom: 18px
 }
@@ -1956,11 +1956,11 @@ blockquote {
     font-weight: bold
 }
 
-.pagination&gt;li&gt;a,.pagination&gt;li&gt;span {
+.pagination>li>a,.pagination>li>span {
     background: #faf7f1
 }
 
-.pagination ul&gt;li {
+.pagination ul>li {
     display: inline-block;
     padding: 0 8px
 }
@@ -1983,7 +1983,7 @@ blockquote {
     color: #ccc
 }
 
-.pagination&gt;.active&gt;a,.pagination&gt;.active&gt;span,.pagination&gt;.active&gt;a:hover,.pagination&gt;.active&gt;span:hover,.pagination&gt;.active&gt;a:focus,.pagination&gt;.active&gt;span:focus {
+.pagination>.active>a,.pagination>.active>span,.pagination>.active>a:hover,.pagination>.active>span:hover,.pagination>.active>a:focus,.pagination>.active>span:focus {
     color: #fff;
     background-color: #0090ff;
     border: 1px solid #ddd
@@ -2025,7 +2025,7 @@ blockquote {
     width: 532px
 }
 
-.user-home .subtitles ul&gt;li,.user-home .footer {
+.user-home .subtitles ul>li,.user-home .footer {
     float: left;
     width: 173px;
     text-align: center;
@@ -2185,11 +2185,11 @@ blockquote {
     font-weight: bold
 }
 
-.alert&gt;p,.alert&gt;ul {
+.alert>p,.alert>ul {
     margin-bottom: 0
 }
 
-.alert&gt;p+p {
+.alert>p+p {
     margin-top: 5px
 }
 

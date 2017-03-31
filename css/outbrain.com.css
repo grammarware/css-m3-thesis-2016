@@ -341,7 +341,7 @@ select {
     clear: both
 }
 
-.row.collapse&gt;.column,.row.collapse&gt;.columns {
+.row.collapse>.column,.row.collapse>.columns {
     padding-left: 0;
     padding-right: 0
 }
@@ -679,7 +679,7 @@ select {
         float: right
     }
 
-    .row.small-collapse&gt;.column,.row.small-collapse&gt;.columns {
+    .row.small-collapse>.column,.row.small-collapse>.columns {
         padding-left: 0;
         padding-right: 0
     }
@@ -689,7 +689,7 @@ select {
         margin-right: 0
     }
 
-    .row.small-uncollapse&gt;.column,.row.small-uncollapse&gt;.columns {
+    .row.small-uncollapse>.column,.row.small-uncollapse>.columns {
         padding-left: 0.9375rem;
         padding-right: 0.9375rem;
         float: left
@@ -976,7 +976,7 @@ select {
         float: right
     }
 
-    .row.medium-collapse&gt;.column,.row.medium-collapse&gt;.columns {
+    .row.medium-collapse>.column,.row.medium-collapse>.columns {
         padding-left: 0;
         padding-right: 0
     }
@@ -986,7 +986,7 @@ select {
         margin-right: 0
     }
 
-    .row.medium-uncollapse&gt;.column,.row.medium-uncollapse&gt;.columns {
+    .row.medium-uncollapse>.column,.row.medium-uncollapse>.columns {
         padding-left: 0.9375rem;
         padding-right: 0.9375rem;
         float: left
@@ -1417,7 +1417,7 @@ select {
         float: right
     }
 
-    .row.large-collapse&gt;.column,.row.large-collapse&gt;.columns {
+    .row.large-collapse>.column,.row.large-collapse>.columns {
         padding-left: 0;
         padding-right: 0
     }
@@ -1427,7 +1427,7 @@ select {
         margin-right: 0
     }
 
-    .row.large-uncollapse&gt;.column,.row.large-uncollapse&gt;.columns {
+    .row.large-uncollapse>.column,.row.large-uncollapse>.columns {
         padding-left: 0.9375rem;
         padding-right: 0.9375rem;
         float: left
@@ -1596,11 +1596,11 @@ select {
     margin-bottom: 0 !important
 }
 
-.accordion .accordion-navigation.active&gt;a,.accordion dd.active&gt;a {
+.accordion .accordion-navigation.active>a,.accordion dd.active>a {
     background: #e8e8e8
 }
 
-.accordion .accordion-navigation&gt;a,.accordion dd&gt;a {
+.accordion .accordion-navigation>a,.accordion dd>a {
     background: #EFEFEF;
     color: #222;
     padding: 1rem;
@@ -1609,16 +1609,16 @@ select {
     font-size: 1rem
 }
 
-.accordion .accordion-navigation&gt;a:hover,.accordion dd&gt;a:hover {
+.accordion .accordion-navigation>a:hover,.accordion dd>a:hover {
     background: #e3e3e3
 }
 
-.accordion .accordion-navigation&gt;.content,.accordion dd&gt;.content {
+.accordion .accordion-navigation>.content,.accordion dd>.content {
     display: none;
     padding: 0.9375rem
 }
 
-.accordion .accordion-navigation&gt;.content.active,.accordion dd&gt;.content.active {
+.accordion .accordion-navigation>.content.active,.accordion dd>.content.active {
     display: block;
     background: #fff
 }
@@ -1712,7 +1712,7 @@ select {
     clear: both
 }
 
-[class*="block-grid-"]&gt;li {
+[class*="block-grid-"]>li {
     display: block;
     height: auto;
     float: left;
@@ -1720,475 +1720,475 @@ select {
 }
 
 @media only screen {
-    .small-block-grid-1&gt;li {
+    .small-block-grid-1>li {
         width: 100%;
         list-style: none
     }
 
-    .small-block-grid-1&gt;li:nth-of-type(1n) {
+    .small-block-grid-1>li:nth-of-type(1n) {
         clear: none
     }
 
-    .small-block-grid-1&gt;li:nth-of-type(1n+1) {
+    .small-block-grid-1>li:nth-of-type(1n+1) {
         clear: both
     }
 
-    .small-block-grid-2&gt;li {
+    .small-block-grid-2>li {
         width: 50%;
         list-style: none
     }
 
-    .small-block-grid-2&gt;li:nth-of-type(1n) {
+    .small-block-grid-2>li:nth-of-type(1n) {
         clear: none
     }
 
-    .small-block-grid-2&gt;li:nth-of-type(2n+1) {
+    .small-block-grid-2>li:nth-of-type(2n+1) {
         clear: both
     }
 
-    .small-block-grid-3&gt;li {
+    .small-block-grid-3>li {
         width: 33.3333333333%;
         list-style: none
     }
 
-    .small-block-grid-3&gt;li:nth-of-type(1n) {
+    .small-block-grid-3>li:nth-of-type(1n) {
         clear: none
     }
 
-    .small-block-grid-3&gt;li:nth-of-type(3n+1) {
+    .small-block-grid-3>li:nth-of-type(3n+1) {
         clear: both
     }
 
-    .small-block-grid-4&gt;li {
+    .small-block-grid-4>li {
         width: 25%;
         list-style: none
     }
 
-    .small-block-grid-4&gt;li:nth-of-type(1n) {
+    .small-block-grid-4>li:nth-of-type(1n) {
         clear: none
     }
 
-    .small-block-grid-4&gt;li:nth-of-type(4n+1) {
+    .small-block-grid-4>li:nth-of-type(4n+1) {
         clear: both
     }
 
-    .small-block-grid-5&gt;li {
+    .small-block-grid-5>li {
         width: 20%;
         list-style: none
     }
 
-    .small-block-grid-5&gt;li:nth-of-type(1n) {
+    .small-block-grid-5>li:nth-of-type(1n) {
         clear: none
     }
 
-    .small-block-grid-5&gt;li:nth-of-type(5n+1) {
+    .small-block-grid-5>li:nth-of-type(5n+1) {
         clear: both
     }
 
-    .small-block-grid-6&gt;li {
+    .small-block-grid-6>li {
         width: 16.6666666667%;
         list-style: none
     }
 
-    .small-block-grid-6&gt;li:nth-of-type(1n) {
+    .small-block-grid-6>li:nth-of-type(1n) {
         clear: none
     }
 
-    .small-block-grid-6&gt;li:nth-of-type(6n+1) {
+    .small-block-grid-6>li:nth-of-type(6n+1) {
         clear: both
     }
 
-    .small-block-grid-7&gt;li {
+    .small-block-grid-7>li {
         width: 14.2857142857%;
         list-style: none
     }
 
-    .small-block-grid-7&gt;li:nth-of-type(1n) {
+    .small-block-grid-7>li:nth-of-type(1n) {
         clear: none
     }
 
-    .small-block-grid-7&gt;li:nth-of-type(7n+1) {
+    .small-block-grid-7>li:nth-of-type(7n+1) {
         clear: both
     }
 
-    .small-block-grid-8&gt;li {
+    .small-block-grid-8>li {
         width: 12.5%;
         list-style: none
     }
 
-    .small-block-grid-8&gt;li:nth-of-type(1n) {
+    .small-block-grid-8>li:nth-of-type(1n) {
         clear: none
     }
 
-    .small-block-grid-8&gt;li:nth-of-type(8n+1) {
+    .small-block-grid-8>li:nth-of-type(8n+1) {
         clear: both
     }
 
-    .small-block-grid-9&gt;li {
+    .small-block-grid-9>li {
         width: 11.1111111111%;
         list-style: none
     }
 
-    .small-block-grid-9&gt;li:nth-of-type(1n) {
+    .small-block-grid-9>li:nth-of-type(1n) {
         clear: none
     }
 
-    .small-block-grid-9&gt;li:nth-of-type(9n+1) {
+    .small-block-grid-9>li:nth-of-type(9n+1) {
         clear: both
     }
 
-    .small-block-grid-10&gt;li {
+    .small-block-grid-10>li {
         width: 10%;
         list-style: none
     }
 
-    .small-block-grid-10&gt;li:nth-of-type(1n) {
+    .small-block-grid-10>li:nth-of-type(1n) {
         clear: none
     }
 
-    .small-block-grid-10&gt;li:nth-of-type(10n+1) {
+    .small-block-grid-10>li:nth-of-type(10n+1) {
         clear: both
     }
 
-    .small-block-grid-11&gt;li {
+    .small-block-grid-11>li {
         width: 9.0909090909%;
         list-style: none
     }
 
-    .small-block-grid-11&gt;li:nth-of-type(1n) {
+    .small-block-grid-11>li:nth-of-type(1n) {
         clear: none
     }
 
-    .small-block-grid-11&gt;li:nth-of-type(11n+1) {
+    .small-block-grid-11>li:nth-of-type(11n+1) {
         clear: both
     }
 
-    .small-block-grid-12&gt;li {
+    .small-block-grid-12>li {
         width: 8.3333333333%;
         list-style: none
     }
 
-    .small-block-grid-12&gt;li:nth-of-type(1n) {
+    .small-block-grid-12>li:nth-of-type(1n) {
         clear: none
     }
 
-    .small-block-grid-12&gt;li:nth-of-type(12n+1) {
+    .small-block-grid-12>li:nth-of-type(12n+1) {
         clear: both
     }
 }
 
 @media only screen and (min-width: 40.063em) {
-    .medium-block-grid-1&gt;li {
+    .medium-block-grid-1>li {
         width: 100%;
         list-style: none
     }
 
-    .medium-block-grid-1&gt;li:nth-of-type(1n) {
+    .medium-block-grid-1>li:nth-of-type(1n) {
         clear: none
     }
 
-    .medium-block-grid-1&gt;li:nth-of-type(1n+1) {
+    .medium-block-grid-1>li:nth-of-type(1n+1) {
         clear: both
     }
 
-    .medium-block-grid-2&gt;li {
+    .medium-block-grid-2>li {
         width: 50%;
         list-style: none
     }
 
-    .medium-block-grid-2&gt;li:nth-of-type(1n) {
+    .medium-block-grid-2>li:nth-of-type(1n) {
         clear: none
     }
 
-    .medium-block-grid-2&gt;li:nth-of-type(2n+1) {
+    .medium-block-grid-2>li:nth-of-type(2n+1) {
         clear: both
     }
 
-    .medium-block-grid-3&gt;li {
+    .medium-block-grid-3>li {
         width: 33.3333333333%;
         list-style: none
     }
 
-    .medium-block-grid-3&gt;li:nth-of-type(1n) {
+    .medium-block-grid-3>li:nth-of-type(1n) {
         clear: none
     }
 
-    .medium-block-grid-3&gt;li:nth-of-type(3n+1) {
+    .medium-block-grid-3>li:nth-of-type(3n+1) {
         clear: both
     }
 
-    .medium-block-grid-4&gt;li {
+    .medium-block-grid-4>li {
         width: 25%;
         list-style: none
     }
 
-    .medium-block-grid-4&gt;li:nth-of-type(1n) {
+    .medium-block-grid-4>li:nth-of-type(1n) {
         clear: none
     }
 
-    .medium-block-grid-4&gt;li:nth-of-type(4n+1) {
+    .medium-block-grid-4>li:nth-of-type(4n+1) {
         clear: both
     }
 
-    .medium-block-grid-5&gt;li {
+    .medium-block-grid-5>li {
         width: 20%;
         list-style: none
     }
 
-    .medium-block-grid-5&gt;li:nth-of-type(1n) {
+    .medium-block-grid-5>li:nth-of-type(1n) {
         clear: none
     }
 
-    .medium-block-grid-5&gt;li:nth-of-type(5n+1) {
+    .medium-block-grid-5>li:nth-of-type(5n+1) {
         clear: both
     }
 
-    .medium-block-grid-6&gt;li {
+    .medium-block-grid-6>li {
         width: 16.6666666667%;
         list-style: none
     }
 
-    .medium-block-grid-6&gt;li:nth-of-type(1n) {
+    .medium-block-grid-6>li:nth-of-type(1n) {
         clear: none
     }
 
-    .medium-block-grid-6&gt;li:nth-of-type(6n+1) {
+    .medium-block-grid-6>li:nth-of-type(6n+1) {
         clear: both
     }
 
-    .medium-block-grid-7&gt;li {
+    .medium-block-grid-7>li {
         width: 14.2857142857%;
         list-style: none
     }
 
-    .medium-block-grid-7&gt;li:nth-of-type(1n) {
+    .medium-block-grid-7>li:nth-of-type(1n) {
         clear: none
     }
 
-    .medium-block-grid-7&gt;li:nth-of-type(7n+1) {
+    .medium-block-grid-7>li:nth-of-type(7n+1) {
         clear: both
     }
 
-    .medium-block-grid-8&gt;li {
+    .medium-block-grid-8>li {
         width: 12.5%;
         list-style: none
     }
 
-    .medium-block-grid-8&gt;li:nth-of-type(1n) {
+    .medium-block-grid-8>li:nth-of-type(1n) {
         clear: none
     }
 
-    .medium-block-grid-8&gt;li:nth-of-type(8n+1) {
+    .medium-block-grid-8>li:nth-of-type(8n+1) {
         clear: both
     }
 
-    .medium-block-grid-9&gt;li {
+    .medium-block-grid-9>li {
         width: 11.1111111111%;
         list-style: none
     }
 
-    .medium-block-grid-9&gt;li:nth-of-type(1n) {
+    .medium-block-grid-9>li:nth-of-type(1n) {
         clear: none
     }
 
-    .medium-block-grid-9&gt;li:nth-of-type(9n+1) {
+    .medium-block-grid-9>li:nth-of-type(9n+1) {
         clear: both
     }
 
-    .medium-block-grid-10&gt;li {
+    .medium-block-grid-10>li {
         width: 10%;
         list-style: none
     }
 
-    .medium-block-grid-10&gt;li:nth-of-type(1n) {
+    .medium-block-grid-10>li:nth-of-type(1n) {
         clear: none
     }
 
-    .medium-block-grid-10&gt;li:nth-of-type(10n+1) {
+    .medium-block-grid-10>li:nth-of-type(10n+1) {
         clear: both
     }
 
-    .medium-block-grid-11&gt;li {
+    .medium-block-grid-11>li {
         width: 9.0909090909%;
         list-style: none
     }
 
-    .medium-block-grid-11&gt;li:nth-of-type(1n) {
+    .medium-block-grid-11>li:nth-of-type(1n) {
         clear: none
     }
 
-    .medium-block-grid-11&gt;li:nth-of-type(11n+1) {
+    .medium-block-grid-11>li:nth-of-type(11n+1) {
         clear: both
     }
 
-    .medium-block-grid-12&gt;li {
+    .medium-block-grid-12>li {
         width: 8.3333333333%;
         list-style: none
     }
 
-    .medium-block-grid-12&gt;li:nth-of-type(1n) {
+    .medium-block-grid-12>li:nth-of-type(1n) {
         clear: none
     }
 
-    .medium-block-grid-12&gt;li:nth-of-type(12n+1) {
+    .medium-block-grid-12>li:nth-of-type(12n+1) {
         clear: both
     }
 }
 
 @media only screen and (min-width: 64.063em) {
-    .large-block-grid-1&gt;li {
+    .large-block-grid-1>li {
         width: 100%;
         list-style: none
     }
 
-    .large-block-grid-1&gt;li:nth-of-type(1n) {
+    .large-block-grid-1>li:nth-of-type(1n) {
         clear: none
     }
 
-    .large-block-grid-1&gt;li:nth-of-type(1n+1) {
+    .large-block-grid-1>li:nth-of-type(1n+1) {
         clear: both
     }
 
-    .large-block-grid-2&gt;li {
+    .large-block-grid-2>li {
         width: 50%;
         list-style: none
     }
 
-    .large-block-grid-2&gt;li:nth-of-type(1n) {
+    .large-block-grid-2>li:nth-of-type(1n) {
         clear: none
     }
 
-    .large-block-grid-2&gt;li:nth-of-type(2n+1) {
+    .large-block-grid-2>li:nth-of-type(2n+1) {
         clear: both
     }
 
-    .large-block-grid-3&gt;li {
+    .large-block-grid-3>li {
         width: 33.3333333333%;
         list-style: none
     }
 
-    .large-block-grid-3&gt;li:nth-of-type(1n) {
+    .large-block-grid-3>li:nth-of-type(1n) {
         clear: none
     }
 
-    .large-block-grid-3&gt;li:nth-of-type(3n+1) {
+    .large-block-grid-3>li:nth-of-type(3n+1) {
         clear: both
     }
 
-    .large-block-grid-4&gt;li {
+    .large-block-grid-4>li {
         width: 25%;
         list-style: none
     }
 
-    .large-block-grid-4&gt;li:nth-of-type(1n) {
+    .large-block-grid-4>li:nth-of-type(1n) {
         clear: none
     }
 
-    .large-block-grid-4&gt;li:nth-of-type(4n+1) {
+    .large-block-grid-4>li:nth-of-type(4n+1) {
         clear: both
     }
 
-    .large-block-grid-5&gt;li {
+    .large-block-grid-5>li {
         width: 20%;
         list-style: none
     }
 
-    .large-block-grid-5&gt;li:nth-of-type(1n) {
+    .large-block-grid-5>li:nth-of-type(1n) {
         clear: none
     }
 
-    .large-block-grid-5&gt;li:nth-of-type(5n+1) {
+    .large-block-grid-5>li:nth-of-type(5n+1) {
         clear: both
     }
 
-    .large-block-grid-6&gt;li {
+    .large-block-grid-6>li {
         width: 16.6666666667%;
         list-style: none
     }
 
-    .large-block-grid-6&gt;li:nth-of-type(1n) {
+    .large-block-grid-6>li:nth-of-type(1n) {
         clear: none
     }
 
-    .large-block-grid-6&gt;li:nth-of-type(6n+1) {
+    .large-block-grid-6>li:nth-of-type(6n+1) {
         clear: both
     }
 
-    .large-block-grid-7&gt;li {
+    .large-block-grid-7>li {
         width: 14.2857142857%;
         list-style: none
     }
 
-    .large-block-grid-7&gt;li:nth-of-type(1n) {
+    .large-block-grid-7>li:nth-of-type(1n) {
         clear: none
     }
 
-    .large-block-grid-7&gt;li:nth-of-type(7n+1) {
+    .large-block-grid-7>li:nth-of-type(7n+1) {
         clear: both
     }
 
-    .large-block-grid-8&gt;li {
+    .large-block-grid-8>li {
         width: 12.5%;
         list-style: none
     }
 
-    .large-block-grid-8&gt;li:nth-of-type(1n) {
+    .large-block-grid-8>li:nth-of-type(1n) {
         clear: none
     }
 
-    .large-block-grid-8&gt;li:nth-of-type(8n+1) {
+    .large-block-grid-8>li:nth-of-type(8n+1) {
         clear: both
     }
 
-    .large-block-grid-9&gt;li {
+    .large-block-grid-9>li {
         width: 11.1111111111%;
         list-style: none
     }
 
-    .large-block-grid-9&gt;li:nth-of-type(1n) {
+    .large-block-grid-9>li:nth-of-type(1n) {
         clear: none
     }
 
-    .large-block-grid-9&gt;li:nth-of-type(9n+1) {
+    .large-block-grid-9>li:nth-of-type(9n+1) {
         clear: both
     }
 
-    .large-block-grid-10&gt;li {
+    .large-block-grid-10>li {
         width: 10%;
         list-style: none
     }
 
-    .large-block-grid-10&gt;li:nth-of-type(1n) {
+    .large-block-grid-10>li:nth-of-type(1n) {
         clear: none
     }
 
-    .large-block-grid-10&gt;li:nth-of-type(10n+1) {
+    .large-block-grid-10>li:nth-of-type(10n+1) {
         clear: both
     }
 
-    .large-block-grid-11&gt;li {
+    .large-block-grid-11>li {
         width: 9.0909090909%;
         list-style: none
     }
 
-    .large-block-grid-11&gt;li:nth-of-type(1n) {
+    .large-block-grid-11>li:nth-of-type(1n) {
         clear: none
     }
 
-    .large-block-grid-11&gt;li:nth-of-type(11n+1) {
+    .large-block-grid-11>li:nth-of-type(11n+1) {
         clear: both
     }
 
-    .large-block-grid-12&gt;li {
+    .large-block-grid-12>li {
         width: 8.3333333333%;
         list-style: none
     }
 
-    .large-block-grid-12&gt;li:nth-of-type(1n) {
+    .large-block-grid-12>li:nth-of-type(1n) {
         clear: none
     }
 
-    .large-block-grid-12&gt;li:nth-of-type(12n+1) {
+    .large-block-grid-12>li:nth-of-type(12n+1) {
         clear: both
     }
 }
@@ -2295,7 +2295,7 @@ select {
     height: 100%
 }
 
-.clearing-assembled .clearing-container .carousel&gt;ul {
+.clearing-assembled .clearing-container .carousel>ul {
     display: none
 }
 
@@ -2315,7 +2315,7 @@ select {
         top: 0
     }
 
-    .clearing-main-prev&gt;span,.clearing-main-next&gt;span {
+    .clearing-main-prev>span,.clearing-main-next>span {
         position: absolute;
         top: 50%;
         display: block;
@@ -2324,7 +2324,7 @@ select {
         border: solid 12px
     }
 
-    .clearing-main-prev&gt;span:hover,.clearing-main-next&gt;span:hover {
+    .clearing-main-prev>span:hover,.clearing-main-next>span:hover {
         opacity: 0.8
     }
 
@@ -2332,7 +2332,7 @@ select {
         left: 0
     }
 
-    .clearing-main-prev&gt;span {
+    .clearing-main-prev>span {
         left: 5px;
         border-color: transparent;
         border-right-color: #ccc
@@ -2342,7 +2342,7 @@ select {
         right: 0
     }
 
-    .clearing-main-next&gt;span {
+    .clearing-main-next>span {
         border-color: transparent;
         border-left-color: #ccc
     }
@@ -2358,7 +2358,7 @@ select {
         text-align: center
     }
 
-    .clearing-assembled .clearing-container .carousel&gt;ul {
+    .clearing-assembled .clearing-container .carousel>ul {
         display: inline-block;
         z-index: 999;
         height: 100%;
@@ -2366,7 +2366,7 @@ select {
         float: none
     }
 
-    .clearing-assembled .clearing-container .carousel&gt;ul li {
+    .clearing-assembled .clearing-container .carousel>ul li {
         display: block;
         width: 120px;
         min-height: inherit;
@@ -2380,27 +2380,27 @@ select {
         clear: none
     }
 
-    .clearing-assembled .clearing-container .carousel&gt;ul li.fix-height img {
+    .clearing-assembled .clearing-container .carousel>ul li.fix-height img {
         height: 100%;
         max-width: none
     }
 
-    .clearing-assembled .clearing-container .carousel&gt;ul li a.th {
+    .clearing-assembled .clearing-container .carousel>ul li a.th {
         border: none;
         box-shadow: none;
         display: block
     }
 
-    .clearing-assembled .clearing-container .carousel&gt;ul li img {
+    .clearing-assembled .clearing-container .carousel>ul li img {
         cursor: pointer !important;
         width: 100% !important
     }
 
-    .clearing-assembled .clearing-container .carousel&gt;ul li.visible {
+    .clearing-assembled .clearing-container .carousel>ul li.visible {
         opacity: 1
     }
 
-    .clearing-assembled .clearing-container .carousel&gt;ul li:hover {
+    .clearing-assembled .clearing-container .carousel>ul li:hover {
         opacity: 0.8
     }
 
@@ -3086,7 +3086,7 @@ span.error,small.error {
     color: #fff
 }
 
-.error&gt;label&gt;small {
+.error>label>small {
     color: #676767;
     background: transparent;
     padding: 0;
@@ -4162,7 +4162,7 @@ th.hide-for-touch {
     list-style-type: none
 }
 
-.fa-ul&gt;li {
+.fa-ul>li {
     position: relative
 }
 

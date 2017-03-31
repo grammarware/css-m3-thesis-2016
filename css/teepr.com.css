@@ -935,7 +935,7 @@ div.wpcf7 input[type="file"]:disabled {
     padding: 0;
 }
 
-.flexslider .slides &gt; li {
+.flexslider .slides > li {
     display: none;
     list-style: none;
     position: relative;
@@ -978,7 +978,7 @@ html[xmlns] .slides {
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
-.no-js .slides &gt; li:first-child {
+.no-js .slides > li:first-child {
     display: block
 }
 /* FlexSlider Default Theme
@@ -1681,7 +1681,7 @@ a [class^="icon-"],a [class*=" icon-"] {
     list-style-type: none;
 }
 
-.icons-ul&gt;li {
+.icons-ul>li {
     position: relative;
 }
 
@@ -1789,7 +1789,7 @@ a [class^="icon-"],a [class*=" icon-"] {
     margin-top: 0;
 }
 
-.icon-white,.nav-pills&gt;.active&gt;a&gt;[class^="icon-"],.nav-pills&gt;.active&gt;a&gt;[class*=" icon-"],.nav-list&gt;.active&gt;a&gt;[class^="icon-"],.nav-list&gt;.active&gt;a&gt;[class*=" icon-"],.navbar-inverse .nav&gt;.active&gt;a&gt;[class^="icon-"],.navbar-inverse .nav&gt;.active&gt;a&gt;[class*=" icon-"],.dropdown-menu&gt;li&gt;a:hover&gt;[class^="icon-"],.dropdown-menu&gt;li&gt;a:hover&gt;[class*=" icon-"],.dropdown-menu&gt;.active&gt;a&gt;[class^="icon-"],.dropdown-menu&gt;.active&gt;a&gt;[class*=" icon-"],.dropdown-submenu:hover&gt;a&gt;[class^="icon-"],.dropdown-submenu:hover&gt;a&gt;[class*=" icon-"] {
+.icon-white,.nav-pills>.active>a>[class^="icon-"],.nav-pills>.active>a>[class*=" icon-"],.nav-list>.active>a>[class^="icon-"],.nav-list>.active>a>[class*=" icon-"],.navbar-inverse .nav>.active>a>[class^="icon-"],.navbar-inverse .nav>.active>a>[class*=" icon-"],.dropdown-menu>li>a:hover>[class^="icon-"],.dropdown-menu>li>a:hover>[class*=" icon-"],.dropdown-menu>.active>a>[class^="icon-"],.dropdown-menu>.active>a>[class*=" icon-"],.dropdown-submenu:hover>a>[class^="icon-"],.dropdown-submenu:hover>a>[class*=" icon-"] {
     background-image: none;
 }
 
@@ -3744,7 +3744,7 @@ a:link, a:visited, a:active {
     border-right: 0;
 }
 
-#top-navigation .sub-menu [class^="icon-"] &gt; a {
+#top-navigation .sub-menu [class^="icon-"] > a {
     display: block;
     width: 215px;
 }
@@ -3786,11 +3786,11 @@ a:link, a:visited, a:active {
     border-bottom: 1px solid rgba(0, 0, 0, 0.09)
 }
 
-#top-navigation .menu &gt; li:first-child a {
+#top-navigation .menu > li:first-child a {
     border-left: 1px solid rgba(0, 0, 0, 0.25)
 }
 
-#top-navigation ul .menu-item-has-children &gt; a, .navigation ul .menu-item-has-children &gt; a {
+#top-navigation ul .menu-item-has-children > a, .navigation ul .menu-item-has-children > a {
     padding-right: 30px
 }
 
@@ -3816,7 +3816,7 @@ a:link, a:visited, a:active {
     color: #fff
 }
 /*-[ Header ]-----------------------*/
-body &gt; header {
+body > header {
     float: left;
     width: 100%;
     position: relative;
@@ -3933,7 +3933,7 @@ body &gt; header {
     transition: none;
 }
 
-.navigation ul li:hover &gt; a {
+.navigation ul li:hover > a {
     color: #fff!important
 }
 
@@ -3994,7 +3994,7 @@ body &gt; header {
     display: inline-block;
 }
 
-.navigation &gt; ul &gt; .current a {
+.navigation > ul > .current a {
     background: transparent;
     color: #5a5a5a !important;
 }
@@ -4098,11 +4098,11 @@ body &gt; header {
     color: #777;
 }
 
-.navigation .menu [class^="icon-"] &gt; a, .navigation .menu [class*=" icon-"] &gt; a {
+.navigation .menu [class^="icon-"] > a, .navigation .menu [class*=" icon-"] > a {
     padding-left: 39px !important
 }
 
-.navigation .menu ul [class^="icon-"] &gt; a, .navigation .menu ul [class*=" icon-"] &gt; a {
+.navigation .menu ul [class^="icon-"] > a, .navigation .menu ul [class*=" icon-"] > a {
     padding-right: 20px
 }
 
@@ -4525,7 +4525,7 @@ article header {
     display: list-item
 }
 
-.widget_nav_menu [class^="icon-"] &gt; a, .widget_nav_menu [class*=" icon-"] &gt; a {
+.widget_nav_menu [class^="icon-"] > a, .widget_nav_menu [class*=" icon-"] > a {
     padding-left: 5px
 }
 
@@ -4951,12 +4951,12 @@ hr {
     background: url(images/social-reddit.png) no-repeat
 }
 /*-[ Footer ]-------------------*/
-body &gt; footer .advanced-recent-posts li, body &gt; footer .popular-posts li, body &gt; footer .category-posts li {
+body > footer .advanced-recent-posts li, body > footer .popular-posts li, body > footer .category-posts li {
     border-bottom: 1px dashed #ccc;
     padding-top: 8px;
 }
 
-body &gt; footer .widget li:first-child {
+body > footer .widget li:first-child {
     padding-top: 0
 }
 
@@ -4977,12 +4977,12 @@ body &gt; footer .widget li:first-child {
     margin: 0
 }
 
-body &gt; footer {
+body > footer {
     overflow: hidden;
     width: 100%;
 }
 
-body &gt; footer .footeText {
+body > footer .footeText {
     width: 960px;
     margin: 22px auto;
     text-align: center;
@@ -4991,16 +4991,16 @@ body &gt; footer .footeText {
     font-weight: bold;
 }
 
-body &gt; footer .footeText a {
+body > footer .footeText a {
     color: #fff;
     border-bottom: 2px solid #ee3f02;
 }
 
-body &gt; footer .widget {
+body > footer .widget {
     padding: 1px 0 0 0
 }
 
-body &gt; footer .sidebar .widget .title {
+body > footer .sidebar .widget .title {
     font-size: 135%;
     color: #D4D8DB;
 }
@@ -5297,7 +5297,7 @@ footer p {
 .tagcloud a:hover {
 }
 /*-[ Subscribe Widget ]------------------------*/
-.mts_subscribe_widget &gt; div &gt; form {
+.mts_subscribe_widget > div > form {
     position: relative;
 }
 
@@ -6021,7 +6021,7 @@ a .current .currenttext {
     background: none!important;
 }
 
-#commentform input#submit, .contactform #submit, .mts-subscribe input[type='submit'], #move-to-top:hover, #navigation ul .current-menu-item a, #navigation ul li:hover, .widget_tabs2 .tab_title.selected a, .tagcloud a:hover, #navigation ul .sfHover &gt; a, #cancel-comment-reply-link,#top-navigation li:hover, #top-navigation ul .sfHover &gt; a, .currenttext, .pagination a:hover, .single .pagination a:hover .currenttext, #move-to-top, .pace .pace-progress, .widget_tabs2 .pagination a, #top-navigation .current-menu-item a {
+#commentform input#submit, .contactform #submit, .mts-subscribe input[type='submit'], #move-to-top:hover, #navigation ul .current-menu-item a, #navigation ul li:hover, .widget_tabs2 .tab_title.selected a, .tagcloud a:hover, #navigation ul .sfHover > a, #cancel-comment-reply-link,#top-navigation li:hover, #top-navigation ul .sfHover > a, .currenttext, .pagination a:hover, .single .pagination a:hover .currenttext, #move-to-top, .pace .pace-progress, .widget_tabs2 .pagination a, #top-navigation .current-menu-item a {
     background-color: #E03F00;
     color: #fff!important;
 }
@@ -6170,7 +6170,7 @@ a .current .currenttext {
         border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
     }
 
-    #top-navigation .menu [class^="icon-"] &gt; a {
+    #top-navigation .menu [class^="icon-"] > a {
         border-left: 0!important
     }
 
@@ -6932,7 +6932,7 @@ h2.title.front-view-title {
     font-weight: bold;
 }
 
-#widget_recent_entries&gt;h3 {
+#widget_recent_entries>h3 {
     margin-bottom: 0!important
 }
 
@@ -6993,7 +6993,7 @@ h2.title.front-view-title {
 .post-single-content p[style*="center"] a, .post-single-content div[style*="center"] a {
 }
 
-#wpadminbar #wp-admin-bar-my-account.with-avatar&gt;a img {
+#wpadminbar #wp-admin-bar-my-account.with-avatar>a img {
     height: 16px!important;
 }
 
@@ -7006,7 +7006,7 @@ h2.title.front-view-title {
     margin-top: -5px;
 }
 
-div[style*="center"] div&gt;a {
+div[style*="center"] div>a {
 }
 
 .post-single-content img {
@@ -7142,7 +7142,7 @@ li#popularitypostswidget h3 {
     display: inline-block;
 }
 
-.post-bot-fb-text &gt; font {
+.post-bot-fb-text > font {
     position: relative;
     top: -10px;
 }
@@ -7768,11 +7768,11 @@ div.pagination a:hover, div.pagination a:focus {
     display: inline-block;
 }
 
-#top-navigation .menu&gt;li:first-child a {
+#top-navigation .menu>li:first-child a {
     border-left: 0!important
 }
 
-#top-navigation .menu&gt;li a {
+#top-navigation .menu>li a {
     font-size: 14px;
 }
 
@@ -8119,7 +8119,7 @@ wp-polls h3 {
     -webkit-box-shadow: 1px 1px 3px #cbcbcb!important;
 }
 
-.smaato_modalDialog &gt; div {
+.smaato_modalDialog > div {
     border-radius: 0px!important;
 }
 
@@ -8133,7 +8133,7 @@ wp-polls h3 {
     padding: 0!important;
 }
 
-#popmake-103747 &gt; .popmake-content &gt; p, #popmake-221028 &gt; .popmake-content, #popmake-221028 &gt; .popmake-content &gt; p {
+#popmake-103747 > .popmake-content > p, #popmake-221028 > .popmake-content, #popmake-221028 > .popmake-content > p {
     margin: 0px;
 }
 
@@ -8315,7 +8315,7 @@ a.post-infinite-posts {
     height: 250px!important;
 }
 
-.teepr-popup-ad, #popmake-103747 &gt; .popmake-content/*, #popmake-221028 &gt; .popmake-content*/ {
+.teepr-popup-ad, #popmake-103747 > .popmake-content/*, #popmake-221028 > .popmake-content*/ {
     /*width: 640px!important;
     height: 250px!important;*/
 /*    width:970px;
@@ -8663,7 +8663,7 @@ article.latestPost h2.title {
         display: none;
     }
 
-    .teepr-popup-ad, #popmake-103747 &gt; .popmake-content/*, #popmake-221028 &gt; .popmake-content */ {
+    .teepr-popup-ad, #popmake-103747 > .popmake-content/*, #popmake-221028 > .popmake-content */ {
         /*width: 300px!important;
         height: 250px!important;*/
 /*        width:336px!important;
@@ -8674,7 +8674,7 @@ article.latestPost h2.title {
 
 @media screen and (max-width:640px) {
 
-    .teepr-popup-ad, #popmake-103747 &gt; .popmake-content/*, #popmake-221028 &gt; .popmake-content */ {
+    .teepr-popup-ad, #popmake-103747 > .popmake-content/*, #popmake-221028 > .popmake-content */ {
         /*width: 300px!important;
         height: 250px!important;*/
 /*        width:336px!important;
@@ -8735,7 +8735,7 @@ article.latestPost h2.title {
         display: none!important
     }
 
-    .teepr-popup-ad, #popmake-103747 &gt; .popmake-content/*, #popmake-221028 &gt; .popmake-content*/ {
+    .teepr-popup-ad, #popmake-103747 > .popmake-content/*, #popmake-221028 > .popmake-content*/ {
         /*width: 300px!important;
         height: 250px!important;*/
 /*        width:336px!important;
@@ -8776,7 +8776,7 @@ article.latestPost h2.title {
         overflow: visible;
     }
 
-    .post-single-content div &gt; img {
+    .post-single-content div > img {
         width: calc(100% + 20px)!important;
         position: relative;
         left: -10px;
@@ -9005,7 +9005,7 @@ article.latestPost h2.title {
         display: none;
     }
 
-    .teepr-popup-ad, #popmake-103747 &gt; .popmake-content/*, #popmake-221028 &gt; .popmake-content*/ {
+    .teepr-popup-ad, #popmake-103747 > .popmake-content/*, #popmake-221028 > .popmake-content*/ {
         /*width: 300px!important;
         height: 250px!important;*/
 /*        width:336px!important;
@@ -9147,7 +9147,7 @@ article.latestPost h2.title {
         font-size: 12px
     }
 
-    .teepr-popup-ad, #popmake-103747 &gt; .popmake-content/*, #popmake-221028 &gt; .popmake-content*/ {
+    .teepr-popup-ad, #popmake-103747 > .popmake-content/*, #popmake-221028 > .popmake-content*/ {
         /*width: 300px!important;
         height: 250px!important;*/
 /*      width:300px!important;

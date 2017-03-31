@@ -328,7 +328,7 @@
         margin-bottom: 0;
     }
 
-    .country-selection__region &gt; ul &gt; li {
+    .country-selection__region > ul > li {
         -webkit-column-break-inside: avoid;
         page-break-inside: avoid;
         break-inside: avoid;
@@ -375,24 +375,24 @@
         margin-left: 0.5rem;
     }
 
-    .country-selection__single-lang &gt; ul {
+    .country-selection__single-lang > ul {
         padding-left: 1.25rem;
     }
 
-    .country-selection__single-lang &gt; a,
-  .country-selection__multi-lang &gt; a,
-  .country-selection__multi-lang &gt; ul a {
+    .country-selection__single-lang > a,
+  .country-selection__multi-lang > a,
+  .country-selection__multi-lang > ul a {
         border-bottom: 1px solid #eee;
     }
 
-    .country-selection__multi-lang &gt; a span {
+    .country-selection__multi-lang > a span {
         -webkit-box-flex: 1;
         -webkit-flex: 1 1 auto;
         -ms-flex: 1 1 auto;
         flex: 1 1 auto;
     }
 
-    .country-selection__multi-lang &gt; a span:first-child {
+    .country-selection__multi-lang > a span:first-child {
         -webkit-box-flex: 0;
         -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
@@ -430,7 +430,7 @@
         transition: background 0.3s ease;
     }
 
-    .js .country-selection__multi-lang &gt; a + ul {
+    .js .country-selection__multi-lang > a + ul {
         max-height: 0;
         overflow: hidden;
         -webkit-transition: max-height 0.3s ease-in-out;
@@ -446,7 +446,7 @@
         border-right: 1px solid #eee;
     }
 
-    .js .country-selection__multi-lang &gt; a .svg-icon:last-child {
+    .js .country-selection__multi-lang > a .svg-icon:last-child {
         -webkit-transition: -webkit-transform 0.3s ease-in-out;
         transition: -webkit-transform 0.3s ease-in-out;
         transition: transform 0.3s ease-in-out;
@@ -455,20 +455,20 @@
         transform: rotate(180deg);
     }
 
-    .js .country-selection__multi-lang &gt; a.collapsed .svg-icon:last-child {
+    .js .country-selection__multi-lang > a.collapsed .svg-icon:last-child {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
 
-    .js .country-selection__multi-lang &gt; a {
+    .js .country-selection__multi-lang > a {
         background: #eee;
     }
 
-    .js .country-selection__multi-lang &gt; a.collapsed {
+    .js .country-selection__multi-lang > a.collapsed {
         background: none;
     }
 
-    .js .country-selection__multi-lang &gt; a.collapsed + ul {
+    .js .country-selection__multi-lang > a.collapsed + ul {
         display: none;
     }
 
@@ -484,26 +484,26 @@
         margin: 0 0.5rem;
     }
 
-    .country-selection__region &gt; ul:after {
+    .country-selection__region > ul:after {
         content: ' ';
         clear: both;
         display: block;
     }
 
-    .country-selection__region &gt; ul {
+    .country-selection__region > ul {
         margin: 0 -0.5rem;
     }
 
-    .country-selection__region &gt; ul &gt; li:first-child,
-  .country-selection__region &gt; ul &gt; li:last-child {
+    .country-selection__region > ul > li:first-child,
+  .country-selection__region > ul > li:last-child {
         width: 50%;
     }
 
-    .country-selection__region &gt; ul &gt; li:first-child {
+    .country-selection__region > ul > li:first-child {
         float: left;
     }
 
-    .country-selection__region &gt; ul &gt; li:last-child {
+    .country-selection__region > ul > li:last-child {
         float: right;
     }
 
@@ -518,27 +518,27 @@
         margin: 0 auto;
     }
 
-    .js .country-selection__region &gt; ul {
+    .js .country-selection__region > ul {
         position: relative;
     }
 
-    .js .country-selection__region &gt; ul &gt; li:first-child,
-  .js .country-selection__region &gt; ul &gt; li:last-child {
+    .js .country-selection__region > ul > li:first-child,
+  .js .country-selection__region > ul > li:last-child {
         width: 33.33%;
     }
 
-    .js .country-selection__region &gt; ul &gt; li:first-child &gt; div:last-child,
-  .js .country-selection__region &gt; ul &gt; li:last-child &gt; div:first-child {
+    .js .country-selection__region > ul > li:first-child > div:last-child,
+  .js .country-selection__region > ul > li:last-child > div:first-child {
         position: absolute;
         left: 33.33%;
         width: 33.33%;
     }
 
-    .js .country-selection__region &gt; ul &gt; li:first-child &gt; div:last-child {
+    .js .country-selection__region > ul > li:first-child > div:last-child {
         top: 0;
     }
 
-    .js .country-selection__region &gt; ul &gt; li:last-child &gt; div:first-child {
+    .js .country-selection__region > ul > li:last-child > div:first-child {
         bottom: 0;
     }
 }
@@ -1544,7 +1544,7 @@
         padding: 0.5rem 1rem;
     }
 
-    .search-results li &gt; p {
+    .search-results li > p {
         text-align: center;
         margin: 1rem;
     }
@@ -1570,7 +1570,7 @@
         text-decoration: underline;
     }
 
-    .search-results li a &gt; span:first-child {
+    .search-results li a > span:first-child {
         -webkit-box-flex: 0;
         -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
@@ -1578,14 +1578,14 @@
         margin-right: 0.5rem;
     }
 
-    .search-results li a &gt; span:nth-child(2) {
+    .search-results li a > span:nth-child(2) {
         -webkit-box-flex: 1;
         -webkit-flex: 1 1 auto;
         -ms-flex: 1 1 auto;
         flex: 1 1 auto;
     }
 
-    .search-results li a &gt; span:last-child {
+    .search-results li a > span:last-child {
         -webkit-box-flex: 0;
         -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;

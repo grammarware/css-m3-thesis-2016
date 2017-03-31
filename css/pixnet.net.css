@@ -58,14 +58,14 @@
     line-height: 29px
 }
 
-#nav-bar&gt;.tab {
+#nav-bar>.tab {
     position: relative;
     padding: 10px 15px 0 15px;
     height: 40px;
     float: left
 }
 
-#nav-bar&gt;.tab:after {
+#nav-bar>.tab:after {
     position: absolute;
     top: 17px;
     right: 0;
@@ -85,11 +85,11 @@
     text-decoration: none
 }
 
-#navigation-wapper .topbar__user:hover&gt;a,#navigation-wapper .topbar__user:hover&gt;::after,#navigation-wapper .topbar__lang:hover&gt;a,#navigation-wapper .topbar__lang:hover&gt;::after {
+#navigation-wapper .topbar__user:hover>a,#navigation-wapper .topbar__user:hover>::after,#navigation-wapper .topbar__lang:hover>a,#navigation-wapper .topbar__lang:hover>::after {
     color: #000
 }
 
-#navigation-wapper .active&gt;a {
+#navigation-wapper .active>a {
     color: #006ac6;
     font-family: "NotoSansCJKtc-Regular",BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     -webkit-font-smoothing: antialiased
@@ -99,7 +99,7 @@
     background-color: #f2f2f2
 }
 
-#navigation-wapper .tab:hover&gt;a,#navigation-wapper #nav-bar&gt;li.more-channel:hover:after {
+#navigation-wapper .tab:hover>a,#navigation-wapper #nav-bar>li.more-channel:hover:after {
     color: #000
 }
 
@@ -233,7 +233,7 @@
     width: 62px
 }
 
-#new-navigation #nav-bar&gt;li.more-channel:after {
+#new-navigation #nav-bar>li.more-channel:after {
     content: '';
     top: 22px;
     right: 30%;
@@ -574,7 +574,7 @@
     }
 }
 
-.topbar__flip--back,.topbar__flip--back a,.topbar__flip--back img,.topbar__logo&gt;.topbar__logo__title:after {
+.topbar__flip--back,.topbar__flip--back a,.topbar__flip--back img,.topbar__logo>.topbar__logo__title:after {
     position: absolute;
     top: 0;
     right: 0;
@@ -631,7 +631,7 @@
     margin: 0
 }
 
-.topbar__logo&gt;.topbar__logo__title {
+.topbar__logo>.topbar__logo__title {
     position: relative;
     display: block;
     width: 150px;
@@ -641,11 +641,11 @@
     overflow: hidden
 }
 
-.topbar__logo--family&gt;.topbar__logo__title,.topbar__logo--food&gt;.topbar__logo__title,.topbar__logo--movie&gt;.topbar__logo__title,.topbar__logo--styleme&gt;.topbar__logo__title,.topbar__logo--tech3c&gt;.topbar__logo__title,.topbar__logo--travel&gt;.topbar__logo__title {
+.topbar__logo--family>.topbar__logo__title,.topbar__logo--food>.topbar__logo__title,.topbar__logo--movie>.topbar__logo__title,.topbar__logo--styleme>.topbar__logo__title,.topbar__logo--tech3c>.topbar__logo__title,.topbar__logo--travel>.topbar__logo__title {
     width: 190px
 }
 
-.topbar__logo&gt;.topbar__logo__title:after {
+.topbar__logo>.topbar__logo__title:after {
     content: "";
     margin: auto;
     background-repeat: no-repeat;
@@ -654,27 +654,27 @@
     background-size: contain
 }
 
-.topbar__logo--tech3c&gt;.topbar__logo__title:after {
+.topbar__logo--tech3c>.topbar__logo__title:after {
     background-image: url(../img/desk_3C_logo@2x.png)
 }
 
-.topbar__logo--styleme&gt;.topbar__logo__title:after {
+.topbar__logo--styleme>.topbar__logo__title:after {
     background-image: url(../../../images/topbar/desk-styleMe-logo@2x.png)
 }
 
-.topbar__logo--movie&gt;.topbar__logo__title:after {
+.topbar__logo--movie>.topbar__logo__title:after {
     background-image: url(/images/topbar/desk-movie-logo.png)
 }
 
-.topbar__logo--travel&gt;.topbar__logo__title:after {
+.topbar__logo--travel>.topbar__logo__title:after {
     background-image: url(/images/topbar/desk-travel-logo.png)
 }
 
-.topbar__logo--family&gt;.topbar__logo__title:after {
+.topbar__logo--family>.topbar__logo__title:after {
     background-image: url(/images/topbar/desk-family-logo.png)
 }
 
-.topbar__logo--food&gt;.topbar__logo__title:after {
+.topbar__logo--food>.topbar__logo__title:after {
     background-image: url(/images/topbar/desk-food-logo.png)
 }
 
@@ -970,20 +970,20 @@
     color: #d0021b
 }
 
-.topbar__related-article__cat.topbar__related-article__tab&gt;.topbar__related-article__txt {
+.topbar__related-article__cat.topbar__related-article__tab>.topbar__related-article__txt {
     color: #f6559e
 }
 
-.topbar__related-article__cat.topbar__related-article__tab&gt;.topbar__related-article__txt:hover {
+.topbar__related-article__cat.topbar__related-article__tab>.topbar__related-article__txt:hover {
     color: #d0021b!important
 }
 
-.topbar__related-article__cat.topbar__related-article__tab&gt;.topbar__related-article__txt:hover::after {
+.topbar__related-article__cat.topbar__related-article__tab>.topbar__related-article__txt:hover::after {
     content: '';
     opacity: 0
 }
 
-.topbar__related-article__cat.topbar__related-article__tab&gt;.topbar__related-article__txt::after {
+.topbar__related-article__cat.topbar__related-article__tab>.topbar__related-article__txt::after {
     position: absolute;
     top: 13px;
     right: -5px;
@@ -995,23 +995,23 @@
     border-radius: 5px
 }
 
-.topbar__related-article__cat.topbar__related-article__tab&gt;.topbar__related-article__txt.topbar__related-article__txt--hot::after {
+.topbar__related-article__cat.topbar__related-article__tab>.topbar__related-article__txt.topbar__related-article__txt--hot::after {
     content: ''
 }
 
-.topbar__related-article__cat.topbar__related-article__tab&gt;.topbar__related-article__txt.topbar__related-article__txt--hot:hover {
+.topbar__related-article__cat.topbar__related-article__tab>.topbar__related-article__txt.topbar__related-article__txt--hot:hover {
     padding-right: 24px
 }
 
-.topbar__related-article__cat.topbar__related-article__tab&gt;.topbar__related-article__txt.topbar__related-article__txt--current {
+.topbar__related-article__cat.topbar__related-article__tab>.topbar__related-article__txt.topbar__related-article__txt--current {
     color: #3582e6
 }
 
-.topbar__related-article__cat.topbar__related-article__tab&gt;.topbar__related-article__txt.topbar__related-article__txt--current::after {
+.topbar__related-article__cat.topbar__related-article__tab>.topbar__related-article__txt.topbar__related-article__txt--current::after {
     opacity: 0
 }
 
-.topbar__related-article__cat.topbar__related-article__tab:hover&gt;.topbar__related-article__txt {
+.topbar__related-article__cat.topbar__related-article__tab:hover>.topbar__related-article__txt {
     color: #d0021b
 }
 
@@ -1091,11 +1091,11 @@
         padding: 0 10px
     }
 
-    .topbar__related-article__cat--dropdown&gt;.topbar__related-article__txt {
+    .topbar__related-article__cat--dropdown>.topbar__related-article__txt {
         padding-right: 15px
     }
 
-    .topbar__related-article__cat--dropdown&gt;.topbar__related-article__txt::after {
+    .topbar__related-article__cat--dropdown>.topbar__related-article__txt::after {
         content: '';
         position: absolute;
         top: 23px;
@@ -1104,11 +1104,11 @@
         border-top-color: currentColor
     }
 
-    .topbar__related-article__cat--dropdown&gt;.topbar__related-article__txt.topbar__related-article__txt--hot {
+    .topbar__related-article__cat--dropdown>.topbar__related-article__txt.topbar__related-article__txt--hot {
         padding-right: 24px
     }
 
-    .topbar__related-article__cat--dropdown&gt;.topbar__related-article__txt.topbar__related-article__txt--hot::after {
+    .topbar__related-article__cat--dropdown>.topbar__related-article__txt.topbar__related-article__txt--hot::after {
         content: '';
         position: absolute;
         top: 13px;
@@ -1165,7 +1165,7 @@
     background-size: cover
 }
 
-.topbar__related-article__img&gt;img {
+.topbar__related-article__img>img {
     width: 100%
 }
 
@@ -1196,7 +1196,7 @@
     white-space: normal
 }
 
-.topbar__related-article__title&gt;span {
+.topbar__related-article__title>span {
     display: block;
     font-size: 13px;
     color: #bf8221
@@ -1274,7 +1274,7 @@
     text-align: center
 }
 
-.topbar__logo:hover .topbar__logo__chanenl-lists,.topbar__logo&gt;.topbar__logo__title:focus+.topbar__logo__chanenl-lists,.topbar__user:hover .topbar__user__lists,.topbar__user__avator:focus+.topbar__user__lists {
+.topbar__logo:hover .topbar__logo__chanenl-lists,.topbar__logo>.topbar__logo__title:focus+.topbar__logo__chanenl-lists,.topbar__user:hover .topbar__user__lists,.topbar__user__avator:focus+.topbar__user__lists {
     max-height: 252px
 }
 
@@ -1287,11 +1287,11 @@
     transition: max-height .25s
 }
 
-.topbar__logo__chanenl-lists li&gt;a,.topbar__user__lists li&gt;a {
+.topbar__logo__chanenl-lists li>a,.topbar__user__lists li>a {
     color: #6e7071
 }
 
-.topbar__logo__chanenl-lists li&gt;a:hover,.topbar__user__lists li&gt;a:hover {
+.topbar__logo__chanenl-lists li>a:hover,.topbar__user__lists li>a:hover {
     color: #000;
     text-decoration: none
 }
@@ -1762,7 +1762,7 @@
     list-style: none
 }
 
-.topbar__logo__channel&gt;.topbar__logo__channel-link {
+.topbar__logo__channel>.topbar__logo__channel-link {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -1773,12 +1773,12 @@
     color: #6e7071
 }
 
-.topbar__logo__channel&gt;.topbar__logo__channel-link:hover {
+.topbar__logo__channel>.topbar__logo__channel-link:hover {
     color: #000;
     background: #f2f2f2
 }
 
-.topbar__logo__channel&gt;.topbar__logo__channel-link.topbar__logo__channel-link--active {
+.topbar__logo__channel>.topbar__logo__channel-link.topbar__logo__channel-link--active {
     color: #106CC3
 }
 

@@ -88,7 +88,7 @@
     left: 1px
 }
 
-.feat-container&gt;.flex-column:first-child.flex-size-2&gt;feat-item {
+.feat-container>.flex-column:first-child.flex-size-2>feat-item {
     left: 0
 }
 
@@ -152,7 +152,7 @@
     color: #000
 }
 
-.feat-item-extra-links&gt;b {
+.feat-item-extra-links>b {
     text-transform: uppercase;
     font-size: 12px;
     color: #000
@@ -284,13 +284,13 @@
     left: 1px
 }
 
-.review-column-list-item-secondary&gt;article {
+.review-column-list-item-secondary>article {
     height: 135px;
     position: relative;
     overflow: hidden
 }
 
-.review-column-list-item-secondary&gt;article:last-of-type {
+.review-column-list-item-secondary>article:last-of-type {
     top: 1px
 }
 
@@ -456,18 +456,18 @@ h3 {
     border: 1px solid #d7d7d7
 }
 
-.news-item&gt;a {
+.news-item>a {
     display: block;
     float: left;
     width: 100%;
     height: 100%
 }
 
-.news-item&gt;a:hover img {
+.news-item>a:hover img {
     opacity: .9!important
 }
 
-.news-item&gt;a:hover,.news-item&gt;a:hover h3,.news-item&gt;a:hover p {
+.news-item>a:hover,.news-item>a:hover h3,.news-item>a:hover p {
     color: inherit;
     text-decoration: none!important;
     border-bottom: none!important
@@ -477,7 +477,7 @@ h3 {
     width: 73%
 }
 
-.news-item&gt;a:hover h3 {
+.news-item>a:hover h3 {
     color: #b23f33
 }
 
@@ -697,7 +697,7 @@ a.module-phones-link:after {
     background: #fff
 }
 
-.module-phones&gt;h4~div {
+.module-phones>h4~div {
     padding-top: 5px
 }
 
@@ -1407,7 +1407,7 @@ strong {
     margin-bottom: 10px
 }
 
-#cloudx #outer,.row&gt;.row {
+#cloudx #outer,.row>.row {
     margin-bottom: 0
 }
 
@@ -2171,7 +2171,7 @@ header .head-icon {
     -moz-transform: translateY(-53px)
 }
 
-#header .login-icon.new-notification span.icon-count,#header.open .icon-count,#header span.icon-count.new-notification,#social-connect a:hover&gt;.icon-count {
+#header .login-icon.new-notification span.icon-count,#header.open .icon-count,#header span.icon-count.new-notification,#social-connect a:hover>.icon-count {
     transform: translateY(0);
     -moz-transform: translateY(0);
     -webkit-transform: translateY(0);
@@ -2942,7 +2942,7 @@ path {
     text-decoration: underline
 }
 
-.article-info-meta-link a:hover&gt;.head-icon,.help-submit-button {
+.article-info-meta-link a:hover>.head-icon,.help-submit-button {
     text-decoration: none!important
 }
 
@@ -3682,16 +3682,16 @@ a.module-phones-link:after {
     z-index: 12
 }
 
-.module-news-l li:nth-child(odd)&gt;a {
+.module-news-l li:nth-child(odd)>a {
     background: #76bcc4
 }
 
-.module-news-l li&gt;a:hover {
+.module-news-l li>a:hover {
     opacity: .93;
     text-decoration: none
 }
 
-.module-news-l li&gt;a {
+.module-news-l li>a {
     font: 100 17px Google-Oswald,Arimo,Arial,sans-serif;
     display: block;
     padding: 5px 33px 5px 10px;

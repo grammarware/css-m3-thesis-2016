@@ -3493,7 +3493,7 @@ img.background-stretch-height {
         margin-right: -.5vw;
     }
 
-        .ms-grid .ms-row &gt; [class*="col-"] {
+        .ms-grid .ms-row > [class*="col-"] {
             padding-left: 1em;
             padding-right: 1em;
             padding-left: .5vw;
@@ -5843,7 +5843,7 @@ html.ie11[lang="ar"] .pmg-category-header .pmg-vertical-text, html.ie11[lang="he
     padding-bottom: 1px;
 }
 
-    .pmg-category-header .pmg-header-item:hover, .pmg-category-header .pmg-header-item &gt; a:focus {
+    .pmg-category-header .pmg-header-item:hover, .pmg-category-header .pmg-header-item > a:focus {
         background: #AC2F00;
     }
 
@@ -5918,7 +5918,7 @@ html.ie11[lang="ar"] .pmg-category-header .pmg-vertical-text, html.ie11[lang="he
         padding-right: 0;
     }
 
-    .pmg-category-header .pmg-menu .pmg-flyout-column .pmg-flyout-body .pmg-flyout-header:hover, .pmg-category-header .pmg-menu .pmg-flyout-column .pmg-flyout-body .pmg-flyout-header &gt; a:focus {
+    .pmg-category-header .pmg-menu .pmg-flyout-column .pmg-flyout-body .pmg-flyout-header:hover, .pmg-category-header .pmg-menu .pmg-flyout-column .pmg-flyout-body .pmg-flyout-header > a:focus {
         background: #931600;
     }
 }
@@ -6138,12 +6138,12 @@ html.ie11[lang="ar"] .pmg-category-header .pmg-vertical-text, html.ie11[lang="he
     }
 }
 
-.pmg-category-header &gt; section.ms-grid {
+.pmg-category-header > section.ms-grid {
     /*Utilizing a max-width here to allow for changing the section padding behavior on mobile without affecting higher viewports*/
 }
 
 @media screen and (max-width: 768px) {
-    .pmg-category-header &gt; section.ms-grid {
+    .pmg-category-header > section.ms-grid {
         padding-left: 0;
         padding-right: 0;
         margin-left: 0;
@@ -6151,7 +6151,7 @@ html.ie11[lang="ar"] .pmg-category-header .pmg-vertical-text, html.ie11[lang="he
     }
 }
 
-.pmg-category-header &gt; section.ms-grid &gt; ul {
+.pmg-category-header > section.ms-grid > ul {
     padding-left: 0;
     cursor: pointer;
     min-height: 50px;
@@ -6159,7 +6159,7 @@ html.ie11[lang="ar"] .pmg-category-header .pmg-vertical-text, html.ie11[lang="he
 }
 
 @media screen and (min-width: 769px) {
-    .pmg-category-header &gt; section.ms-grid &gt; ul {
+    .pmg-category-header > section.ms-grid > ul {
         min-height: 70px;
         margin-top: 0;
         margin-bottom: 0;

@@ -1240,7 +1240,7 @@ audio:not([controls]) {
 }
 /**
  * Address `[hidden]` styling not present in IE 8/9/10.
- * Hide the `template` element in IE 8/9/11, Safari, and Firefox &lt; 22.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
 [hidden],
 template {
@@ -2701,25 +2701,25 @@ html[data-device-type="mobile"] .span4Mobile {
 }
 /** Creates a bootstrap like layout that is 100% full width on mobile channel devices
  * ----------------------------------------
- *  &lt;div class="containerMobileFullWidth"&gt;
- *    &lt;div class ="row-fluid"&gt;
- *      &lt;section class="span4"&gt;
- *        &lt;header&gt; Headline &lt;/header&gt;
- *        &lt;div&gt; Container body content &lt;/div&gt;
- *        &lt;footer&gt; Footer link if any for the container &lt;/footer&gt;
- *      &lt;/section&gt;
- *      &lt;section class="span4"&gt;
- *        &lt;header&gt; Headline &lt;/header&gt;
- *        &lt;div&gt; Container body content &lt;/div&gt;
- *        &lt;footer&gt; Footer link if any for the container &lt;/footer&gt;
- *      &lt;/section&gt;
- *      &lt;section class="span4"&gt;
- *        &lt;header&gt; Headline &lt;/header&gt;
- *        &lt;div&gt; Container body content &lt;/div&gt;
- *        &lt;footer&gt; Footer link if any for the container &lt;/footer&gt;
- *      &lt;/section&gt;
- *    &lt;/div&gt;
- *  &lt;div&gt;
+ *  <div class="containerMobileFullWidth">
+ *    <div class ="row-fluid">
+ *      <section class="span4">
+ *        <header> Headline </header>
+ *        <div> Container body content </div>
+ *        <footer> Footer link if any for the container </footer>
+ *      </section>
+ *      <section class="span4">
+ *        <header> Headline </header>
+ *        <div> Container body content </div>
+ *        <footer> Footer link if any for the container </footer>
+ *      </section>
+ *      <section class="span4">
+ *        <header> Headline </header>
+ *        <div> Container body content </div>
+ *        <footer> Footer link if any for the container </footer>
+ *      </section>
+ *    </div>
+ *  <div>
  */
 html[data-device-type="mobile"] .containerMobileFullWidth {
   overflow: auto;
@@ -2732,25 +2732,25 @@ html[data-device-type="mobile"] .row-fluid .containerMobileFullWidth [class*="sp
 }
 /** Creates equal height columns
  * ----------------------------------------
- *  &lt;div class="containerEqualHeights"&gt;
- *    &lt;div class ="row-fluid"&gt;
- *      &lt;section class="span4"&gt;
- *        &lt;header&gt; Headline &lt;/header&gt;
- *        &lt;div&gt; Container body content &lt;/div&gt;
- *        &lt;footer&gt; Footer link if any for the container &lt;/footer&gt;
- *      &lt;/section&gt;
- *      &lt;section class="span4"&gt;
- *        &lt;header&gt; Headline &lt;/header&gt;
- *        &lt;div&gt; Container body content &lt;/div&gt;
- *        &lt;footer&gt; Footer link if any for the container &lt;/footer&gt;
- *      &lt;/section&gt;
- *      &lt;section class="span4"&gt;
- *        &lt;header&gt; Headline &lt;/header&gt;
- *        &lt;div&gt; Container body content &lt;/div&gt;
- *        &lt;footer&gt; Footer link if any for the container &lt;/footer&gt;
- *      &lt;/section&gt;
- *    &lt;/div&gt;
- *  &lt;div&gt;
+ *  <div class="containerEqualHeights">
+ *    <div class ="row-fluid">
+ *      <section class="span4">
+ *        <header> Headline </header>
+ *        <div> Container body content </div>
+ *        <footer> Footer link if any for the container </footer>
+ *      </section>
+ *      <section class="span4">
+ *        <header> Headline </header>
+ *        <div> Container body content </div>
+ *        <footer> Footer link if any for the container </footer>
+ *      </section>
+ *      <section class="span4">
+ *        <header> Headline </header>
+ *        <div> Container body content </div>
+ *        <footer> Footer link if any for the container </footer>
+ *      </section>
+ *    </div>
+ *  <div>
  */
 .containerEqualHeights {
   overflow: hidden;
@@ -2761,34 +2761,34 @@ html[data-device-type="mobile"] .row-fluid .containerMobileFullWidth [class*="sp
 }
 /**  Layout for 4 containers and a common way of laying them on 12, 6 and 4 column grids
  * ----------------------------------------
- * 4 containers in a row on desktop (12 column grid) -&gt; 4d
- * switches to 2 containers in a row on tablet and mobile (6 column grid) -&gt;2p
- * switches to full width on a mobile portrait (4 column grid) -&gt; 1m
+ * 4 containers in a row on desktop (12 column grid) -> 4d
+ * switches to 2 containers in a row on tablet and mobile (6 column grid) ->2p
+ * switches to full width on a mobile portrait (4 column grid) -> 1m
  * ----------------------------------------
- *  &lt;div class="container4d2p1m"&gt;
- *    &lt;div class ="row-fluid"&gt;
- *      &lt;section class="span3"&gt;
- *        &lt;header&gt; Headline &lt;/header&gt;
- *        &lt;div&gt; Container body content &lt;/div&gt;
- *        &lt;footer&gt; Footer link if any for the container &lt;/footer&gt;
- *      &lt;/section&gt;
- *      &lt;section class="span3"&gt;
- *        &lt;header&gt; Headline &lt;/header&gt;
- *        &lt;div&gt; Container body content &lt;/div&gt;
- *        &lt;footer&gt; Footer link if any for the container &lt;/footer&gt;
- *      &lt;/section&gt;
- *      &lt;section class="span3"&gt;
- *        &lt;header&gt; Headline &lt;/header&gt;
- *        &lt;div&gt; Container body content &lt;/div&gt;
- *        &lt;footer&gt; Footer link if any for the container &lt;/footer&gt;
- *      &lt;/section&gt;
- *      &lt;section class="span3"&gt;
- *        &lt;header&gt; Headline &lt;/header&gt;
- *        &lt;div&gt; Container body content &lt;/div&gt;
- *        &lt;footer&gt; Footer link if any for the container &lt;/footer&gt;
- *      &lt;/section&gt;
- *    &lt;/div&gt;
- *  &lt;div&gt;
+ *  <div class="container4d2p1m">
+ *    <div class ="row-fluid">
+ *      <section class="span3">
+ *        <header> Headline </header>
+ *        <div> Container body content </div>
+ *        <footer> Footer link if any for the container </footer>
+ *      </section>
+ *      <section class="span3">
+ *        <header> Headline </header>
+ *        <div> Container body content </div>
+ *        <footer> Footer link if any for the container </footer>
+ *      </section>
+ *      <section class="span3">
+ *        <header> Headline </header>
+ *        <div> Container body content </div>
+ *        <footer> Footer link if any for the container </footer>
+ *      </section>
+ *      <section class="span3">
+ *        <header> Headline </header>
+ *        <div> Container body content </div>
+ *        <footer> Footer link if any for the container </footer>
+ *      </section>
+ *    </div>
+ *  <div>
  */
 @media (orientation: portrait) and (max-width: 768px) {
   html[data-device-type="portable"] .row-fluid .container4d2p1m [class*="span"] {
@@ -5067,15 +5067,15 @@ html[data-device-type="portable"] #body,
     z-index: 1;
 }
 /* Fix firefox incorrectly layering header */
-.container-fixed &gt; header &gt; div {
+.container-fixed > header > div {
     z-index: 1;
 }
 
-.container-fixed &gt; .table-row {
+.container-fixed > .table-row {
     display: table-row;
 }
 
-.container-fixed &gt; .table-row &gt; * {
+.container-fixed > .table-row > * {
     display: table-cell;
     vertical-align: bottom;
 }
@@ -5089,7 +5089,7 @@ html[data-device-type="portable"] #body,
     transform: translate(0, 0);
 }
 
-html[data-device-type="mobile"] .container-fixed + #main &gt; section:first-child {
+html[data-device-type="mobile"] .container-fixed + #main > section:first-child {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: none;
 }
@@ -5131,7 +5131,7 @@ html[data-device-type="mobile"] .carousel {
     padding: 20px;
 }
 
-html[data-device-type="mobile"] .containerMobileFullWidth .carousel &gt; div {
+html[data-device-type="mobile"] .containerMobileFullWidth .carousel > div {
     display: block;
     white-space: nowrap;
     -webkit-transform: translate3d(0, 0, 0);
@@ -5140,12 +5140,12 @@ html[data-device-type="mobile"] .containerMobileFullWidth .carousel &gt; div {
     transition: transform 0.3s ease;
 }
 
-html[data-device-type="mobile"] .carousel.moving &gt; div {
+html[data-device-type="mobile"] .carousel.moving > div {
     -webkit-transition: all 0 ease 0;
     transition: all 0 ease 0;
 }
 
-html[data-device-type="mobile"] .containerMobileFullWidth .carousel &gt; div &gt; [class*="span"] {
+html[data-device-type="mobile"] .containerMobileFullWidth .carousel > div > [class*="span"] {
     display: inline-block;
     float: none;
     white-space: normal;
@@ -5153,7 +5153,7 @@ html[data-device-type="mobile"] .containerMobileFullWidth .carousel &gt; div &gt
     margin-left: 10px;
 }
 
-html[data-device-type="mobile"] .carousel &gt; div &gt; [class*="span"]:first-child {
+html[data-device-type="mobile"] .carousel > div > [class*="span"]:first-child {
     margin-left: 0;
 }
 
@@ -5163,7 +5163,7 @@ html[data-device-type="mobile"] .carousel .carousel-indicator {
     margin: 6px auto;
 }
 
-html[data-device-type="mobile"] .carousel .carousel-indicator &gt; span {
+html[data-device-type="mobile"] .carousel .carousel-indicator > span {
     display: inline-block;
     width: 0;
     height: 0;
@@ -5173,7 +5173,7 @@ html[data-device-type="mobile"] .carousel .carousel-indicator &gt; span {
     margin: 0 3px;
 }
 
-html[data-device-type="mobile"] .carousel .carousel-indicator &gt; span.selected {
+html[data-device-type="mobile"] .carousel .carousel-indicator > span.selected {
     border-color: #777;
 }
 /**
@@ -5304,7 +5304,7 @@ NOTE: I had to add timestamp to the fonts because of caching bug could not resol
 /* COMMON STYLES FOR PARTIALS */
 /* compile the common file /resources/less/base-mpp.less */
 /* Link focus on header and buttons */
-header #main-menu &gt; ul &gt; li &gt; a:focus {
+header #main-menu > ul > li > a:focus {
     outline: 1px solid #777;
 }
 
@@ -5352,7 +5352,7 @@ html[data-device-type="dedicated"] .hero.dark {
     z-index: 4;
 }
 
-.hero-bg.hero-pop-out &gt; div {
+.hero-bg.hero-pop-out > div {
     position: relative;
 }
 
@@ -5934,7 +5934,7 @@ html[data-device-type="mobile"] .row-fluid [class*="span"]:first-child.center-bl
     height: 356px;
 }
 
-.video-module &gt; .containerCentered &gt; .editorial-container {
+.video-module > .containerCentered > .editorial-container {
     height: 356px;
     line-height: 356px;
 }
@@ -5947,7 +5947,7 @@ html[data-device-type="mobile"] .row-fluid [class*="span"]:first-child.center-bl
     top: 0;
 }
 
-.video-module .play-button &gt; span {
+.video-module .play-button > span {
     content: '';
     position: absolute;
     left: 50%;
@@ -5962,7 +5962,7 @@ html[data-device-type="mobile"] .row-fluid [class*="span"]:first-child.center-bl
     border-radius: 36px;
 }
 
-.video-module .play-button &gt; span:after {
+.video-module .play-button > span:after {
     content: '';
     position: absolute;
     width: 0;
@@ -5977,7 +5977,7 @@ html[data-device-type="mobile"] .row-fluid [class*="span"]:first-child.center-bl
     border-left-color: #fff;
 }
 
-html[data-device-type="mobile"] .video-module .play-button &gt; span {
+html[data-device-type="mobile"] .video-module .play-button > span {
     top: 75%;
 }
 /* Video Thumnail Module added by eClerx*/
@@ -6000,13 +6000,13 @@ html[data-device-type="mobile"] .video-module .play-button &gt; span {
     margin-bottom: 60px;
 }
 
-.videos-thumbnails .txtOverVideo &gt; a &gt; div {
+.videos-thumbnails .txtOverVideo > a > div {
     height: 100%;
     position: absolute;
     top: 0;
 }
 
-.videos-thumbnails .txtOverVideo &gt; a &gt; div &gt; h3 {
+.videos-thumbnails .txtOverVideo > a > div > h3 {
     padding: 0 2%;
     position: relative;
     top: 50%;
@@ -6015,7 +6015,7 @@ html[data-device-type="mobile"] .video-module .play-button &gt; span {
     transform: translateY(-50%);
 }
 
-.videos-thumbnails .play &gt; span {
+.videos-thumbnails .play > span {
     content: '';
     position: absolute;
     left: 52%;
@@ -6030,7 +6030,7 @@ html[data-device-type="mobile"] .video-module .play-button &gt; span {
     border-radius: 36px;
 }
 
-.videos-thumbnails .play &gt; span:after {
+.videos-thumbnails .play > span:after {
     content: '';
     position: absolute;
     width: 0;
@@ -6045,7 +6045,7 @@ html[data-device-type="mobile"] .video-module .play-button &gt; span {
     border-left-color: #fff;
 }
 
-html[data-device-type="mobile"] .videos-thumbnails .play &gt; span {
+html[data-device-type="mobile"] .videos-thumbnails .play > span {
     top: 84%;
     left: 93%;
 }
@@ -6054,26 +6054,26 @@ html[data-device-type="mobile"] .videos-thumbnails .txtOverVideo .play {
     margin-bottom: 30px;
 }
 
-html[data-device-type="dedicated"] .four-panel .videos-thumbnails .play &gt; span:after {
+html[data-device-type="dedicated"] .four-panel .videos-thumbnails .play > span:after {
     border-width: 7px 14px;
     left: 67%;
     top: 65%;
 }
 
-html[data-device-type="dedicated"] .four-panel .videos-thumbnails .play &gt; span {
+html[data-device-type="dedicated"] .four-panel .videos-thumbnails .play > span {
     height: 30px;
     width: 30px;
 }
 
-html[data-device-type="portable"] .four-panel .videos-thumbnails .txtOverVideo &gt; a &gt; div.span12 {
+html[data-device-type="portable"] .four-panel .videos-thumbnails .txtOverVideo > a > div.span12 {
     width: 100%;
 }
 
-html[data-device-type="portable"] .four-panel .videos-thumbnails .play &gt; span {
+html[data-device-type="portable"] .four-panel .videos-thumbnails .play > span {
     top: 89%;
 }
 
-html[data-device-type="portable"] .span4 .videos-thumbnails .play &gt; span {
+html[data-device-type="portable"] .span4 .videos-thumbnails .play > span {
     left: 93%;
     top: 87%;
 }
@@ -6623,7 +6623,7 @@ html[data-device-type] .hero-bar-msg p {
     margin: 0 12px 0 0;
 }
 
-.rtl header #main-menu &gt; ul &gt; li &gt; a:after {
+.rtl header #main-menu > ul > li > a:after {
     margin-right: 8px;
 }
 
@@ -6689,8 +6689,8 @@ html[data-device-type="mobile"] .rtl header #main-menu .menu-wrapper .subnav.lis
     text-align: right;
 }
 
-html[data-device-type="mobile"] .rtl header #main-menu &gt; ul.sublist &gt; li &gt; a:before,
-html[data-device-type="mobile"] .rtl header #main-menu &gt; ul.sublist &gt; li &gt; form &gt; button:before {
+html[data-device-type="mobile"] .rtl header #main-menu > ul.sublist > li > a:before,
+html[data-device-type="mobile"] .rtl header #main-menu > ul.sublist > li > form > button:before {
     margin: 0 0 3px 8px;
 }
 
@@ -6866,7 +6866,7 @@ html[data-device-type="dedicated"] .rtl .footer-notes {
     padding-right: 10px;
 }
 
-.rtl .pp-header .subnav li &gt; a {
+.rtl .pp-header .subnav li > a {
     text-align: right;
 }
 
@@ -7003,7 +7003,7 @@ html[data-device-type="mobile"] .rtl .pp-header .main-menu {
     border-bottom: 1px solid #fff;
 }
 
-#skipToMenu .dropMenu-menu &gt; li &gt; a {
+#skipToMenu .dropMenu-menu > li > a {
     display: block;
     padding: 3px 20px;
     clear: both;
@@ -7014,25 +7014,25 @@ html[data-device-type="mobile"] .rtl .pp-header .main-menu {
     text-decoration: none;
 }
 
-#skipToMenu .dropMenu-menu &gt; li[role=separator] {
+#skipToMenu .dropMenu-menu > li[role=separator] {
     padding-left: 20px;
     margin-top: 9px;
     font-weight: bold;
     border-bottom: thin solid black;
 }
 
-#skipToMenu .dropMenu-menu &gt; li &gt; a:hover,
-#skipToMenu .dropMenu-menu &gt; li &gt; a:focus,
-#skipToMenu .dropMenu-submenu:hover &gt; a,
-#skipToMenu .dropMenu-submenu:focus &gt; a {
+#skipToMenu .dropMenu-menu > li > a:hover,
+#skipToMenu .dropMenu-menu > li > a:focus,
+#skipToMenu .dropMenu-submenu:hover > a,
+#skipToMenu .dropMenu-submenu:focus > a {
     text-decoration: none;
     color: #fff;
     background-color: #009cde;
 }
 
-#skipToMenu .dropMenu-menu &gt; .active &gt; a,
-#skipToMenu .dropMenu-menu &gt; .active &gt; a:hover,
-#skipToMenu .dropMenu-menu &gt; .active &gt; a:focus {
+#skipToMenu .dropMenu-menu > .active > a,
+#skipToMenu .dropMenu-menu > .active > a:hover,
+#skipToMenu .dropMenu-menu > .active > a:focus {
     color: #fff;
     text-decoration: none;
     outline: 0;
@@ -7045,14 +7045,14 @@ html[data-device-type="mobile"] .rtl .pp-header .main-menu {
     background-repeat: repeat-x;
 }
 
-#skipToMenu .dropMenu-menu &gt; .disabled &gt; a,
-#skipToMenu .dropMenu-menu &gt; .disabled &gt; a:hover,
-#skipToMenu .dropMenu-menu &gt; .disabled &gt; a:focus {
+#skipToMenu .dropMenu-menu > .disabled > a,
+#skipToMenu .dropMenu-menu > .disabled > a:hover,
+#skipToMenu .dropMenu-menu > .disabled > a:focus {
     color: #999;
 }
 
-#skipToMenu .dropMenu-menu &gt; .disabled &gt; a:hover,
-#skipToMenu .dropMenu-menu &gt; .disabled &gt; a:focus {
+#skipToMenu .dropMenu-menu > .disabled > a:hover,
+#skipToMenu .dropMenu-menu > .disabled > a:focus {
     text-decoration: none;
     background-color: transparent;
     background-image: none;
@@ -7063,11 +7063,11 @@ html[data-device-type="mobile"] .rtl .pp-header .main-menu {
     *z-index: 1000;
 }
 
-#skipToMenu.open &gt; .dropMenu-menu {
+#skipToMenu.open > .dropMenu-menu {
     display: block;
 }
 
-#skipToMenu .pull-right &gt; .dropMenu-menu {
+#skipToMenu .pull-right > .dropMenu-menu {
     right: 0;
     left: auto;
 }
@@ -7090,7 +7090,7 @@ html[data-device-type="mobile"] .rtl .pp-header .main-menu {
     position: relative;
 }
 
-#skipToMenu .dropMenu-submenu &gt; .dropMenu-menu {
+#skipToMenu .dropMenu-submenu > .dropMenu-menu {
     top: 0;
     left: 100%;
     margin-top: -6px;
@@ -7100,11 +7100,11 @@ html[data-device-type="mobile"] .rtl .pp-header .main-menu {
     border-radius: 0 6px 6px 6px;
 }
 
-#skipToMenu .dropMenu-submenu:hover &gt; .dropMenu-menu {
+#skipToMenu .dropMenu-submenu:hover > .dropMenu-menu {
     display: block;
 }
 
-#skipToMenu .dropup .dropMenu-submenu &gt; .dropMenu-menu {
+#skipToMenu .dropup .dropMenu-submenu > .dropMenu-menu {
     top: auto;
     bottom: 0;
     margin-top: 0;
@@ -7114,7 +7114,7 @@ html[data-device-type="mobile"] .rtl .pp-header .main-menu {
     border-radius: 5px 5px 5px 0;
 }
 
-#skipToMenu .dropMenu-submenu &gt; a:after {
+#skipToMenu .dropMenu-submenu > a:after {
     display: block;
     content: ' ';
     float: right;
@@ -7128,7 +7128,7 @@ html[data-device-type="mobile"] .rtl .pp-header .main-menu {
     margin-right: -10px;
 }
 
-#skipToMenu .dropMenu-submenu:hover &gt; a:after {
+#skipToMenu .dropMenu-submenu:hover > a:after {
     border-left-color: #fff;
 }
 
@@ -7136,7 +7136,7 @@ html[data-device-type="mobile"] .rtl .pp-header .main-menu {
     float: none;
 }
 
-#skipToMenu .dropMenu-submenu.pull-left &gt; .dropMenu-menu {
+#skipToMenu .dropMenu-submenu.pull-left > .dropMenu-menu {
     left: -100%;
     margin-left: 10px;
     -webkit-border-radius: 6px 0 6px 6px;
@@ -7640,25 +7640,25 @@ label.select-arrow {
     top: -4px;
 }
 
-html[data-device-type="dedicated"] header .main-menu &gt; ul &gt; li &gt; a.selected,
-html[data-device-type="dedicated"] header .main-menu &gt; ul &gt; li &gt; a.selected:after {
+html[data-device-type="dedicated"] header .main-menu > ul > li > a.selected,
+html[data-device-type="dedicated"] header .main-menu > ul > li > a.selected:after {
     color: #0070ba;
     border-top-color: #0070ba;
 }
 
-html[data-device-type="dedicated"] header .main-menu &gt; ul &gt; li &gt; a:hover,
-html[data-device-type="dedicated"] header .main-menu &gt; ul &gt; li &gt; a:focus,
-html[data-device-type="dedicated"] header .main-menu &gt; ul &gt; li &gt; a:hover:after,
-html[data-device-type="dedicated"] header .main-menu &gt; ul &gt; li &gt; a:focus:after {
+html[data-device-type="dedicated"] header .main-menu > ul > li > a:hover,
+html[data-device-type="dedicated"] header .main-menu > ul > li > a:focus,
+html[data-device-type="dedicated"] header .main-menu > ul > li > a:hover:after,
+html[data-device-type="dedicated"] header .main-menu > ul > li > a:focus:after {
     color: #005ea6;
     border-top-color: #005ea6;
 }
 
-html[data-device-type="dedicated"] header .main-menu &gt; ul &gt; li &gt; a.highlight {
+html[data-device-type="dedicated"] header .main-menu > ul > li > a.highlight {
     color: #0070ba;
 }
 
-html[data-device-type="dedicated"] header .main-menu &gt; ul &gt; li &gt; a.highlight:after {
+html[data-device-type="dedicated"] header .main-menu > ul > li > a.highlight:after {
     color: #0070ba;
     border-top-color: #0070ba;
 }
@@ -8362,12 +8362,12 @@ html[data-device-type="mobile"] .pp-header #menu-button:after {
     border-bottom: 0;
 }
 
-.pp-header &gt; div {
+.pp-header > div {
     background: none;
 }
 
-html[data-device-type="portable"] .menu-close .pp-header &gt; div,
-html[data-device-type="dedicated"] .menu-close .pp-header &gt; div {
+html[data-device-type="portable"] .menu-close .pp-header > div,
+html[data-device-type="dedicated"] .menu-close .pp-header > div {
     -webkit-animation: headerclose 0.2s steps(10, end) 1 300ms 0 ease;
     -moz-animation: headerclose 0.2s steps(10, end) 1 300ms 0 ease;
     -ms-animation: headerclose 0.2s steps(10, end) 1 300ms 0 ease;
@@ -8448,8 +8448,8 @@ html[data-device-type="mobile"] .pp-header .main-menu li {
 
 html[data-device-type="portable"] .pp-header .main-menu ul,
 html[data-device-type="dedicated"] .pp-header .main-menu ul,
-html[data-device-type="portable"] .pp-header .main-menu &gt; ul &gt; li,
-html[data-device-type="dedicated"] .pp-header .main-menu &gt; ul &gt; li {
+html[data-device-type="portable"] .pp-header .main-menu > ul > li,
+html[data-device-type="dedicated"] .pp-header .main-menu > ul > li {
     height: 100%;
 }
 
@@ -8465,7 +8465,7 @@ html[data-device-type="dedicated"] .pp-header .main-menu &gt; ul &gt; li {
     padding: 0 3px;
 }
 
-.pp-header .main-menu &gt; ul &gt; li &gt; a {
+.pp-header .main-menu > ul > li > a {
     text-transform: uppercase;
     display: inline-block;
     text-decoration: none;
@@ -8477,45 +8477,45 @@ html[data-device-type="dedicated"] .pp-header .main-menu &gt; ul &gt; li {
     font-size: 1rem;
 }
 
-.pp-header .main-menu &gt; ul &gt; li &gt; a.logout-mobile,
-.pp-header .main-menu &gt; ul &gt; li &gt; a.signup-mobile {
+.pp-header .main-menu > ul > li > a.logout-mobile,
+.pp-header .main-menu > ul > li > a.signup-mobile {
     text-transform: none;
     position: absolute;
     width: 68%;
     margin: 22px 19px;
 }
 
-.pp-header .main-menu &gt; ul &gt; li &gt; a:focus {
+.pp-header .main-menu > ul > li > a:focus {
     outline: none;
 }
 
-html[data-device-type="mobile"] .pp-header .main-menu &gt; ul &gt; li &gt; a:not(.btn) {
+html[data-device-type="mobile"] .pp-header .main-menu > ul > li > a:not(.btn) {
     color: #fff;
     display: block;
     font-size: 16px;
     padding: 15px 0;
 }
 
-html[data-device-type="portable"] .pp-header .main-menu &gt; ul &gt; li &gt; a,
-html[data-device-type="dedicated"] .pp-header .main-menu &gt; ul &gt; li &gt; a {
+html[data-device-type="portable"] .pp-header .main-menu > ul > li > a,
+html[data-device-type="dedicated"] .pp-header .main-menu > ul > li > a {
     padding: 3px 30px;
     height: 100%;
 }
 
-html[data-device-type="portable"] .pp-header .main-menu &gt; ul &gt; li &gt; a:hover,
-html[data-device-type="dedicated"] .pp-header .main-menu &gt; ul &gt; li &gt; a:hover,
-html[data-device-type="portable"] .pp-header .main-menu &gt; ul &gt; li &gt; a:focus,
-html[data-device-type="dedicated"] .pp-header .main-menu &gt; ul &gt; li &gt; a:focus,
-html[data-device-type="portable"] .pp-header .main-menu &gt; ul &gt; li &gt; a.selected,
-html[data-device-type="dedicated"] .pp-header .main-menu &gt; ul &gt; li &gt; a.selected,
-html[data-device-type="portable"] .pp-header .main-menu &gt; ul &gt; li &gt; a.highlight,
-html[data-device-type="dedicated"] .pp-header .main-menu &gt; ul &gt; li &gt; a.highlight {
+html[data-device-type="portable"] .pp-header .main-menu > ul > li > a:hover,
+html[data-device-type="dedicated"] .pp-header .main-menu > ul > li > a:hover,
+html[data-device-type="portable"] .pp-header .main-menu > ul > li > a:focus,
+html[data-device-type="dedicated"] .pp-header .main-menu > ul > li > a:focus,
+html[data-device-type="portable"] .pp-header .main-menu > ul > li > a.selected,
+html[data-device-type="dedicated"] .pp-header .main-menu > ul > li > a.selected,
+html[data-device-type="portable"] .pp-header .main-menu > ul > li > a.highlight,
+html[data-device-type="dedicated"] .pp-header .main-menu > ul > li > a.highlight {
     color: #FFF;
     border-bottom: 2px solid;
 }
 
 @media (orientation: portrait) {
-    html[data-device-type="portable"] .pp-header .main-menu &gt; ul &gt; li &gt; a {
+    html[data-device-type="portable"] .pp-header .main-menu > ul > li > a {
         padding: 3px 8px;
         font-size: 90%;
     }
@@ -8548,25 +8548,25 @@ html[data-device-type="mobile"] .pp-header a[rel="menuitem"].desktop-only:after 
     display: none;
 }
 
-.pp-header #main-menu &gt; ul &gt; li &gt; a:focus {
+.pp-header #main-menu > ul > li > a:focus {
     outline: none;
 }
 
-html[data-device-type="portable"] .pp-header .main-menu &gt; ul &gt; li &gt; a[rel="menuitem"].selected,
-html[data-device-type="dedicated"] .pp-header .main-menu &gt; ul &gt; li &gt; a[rel="menuitem"].selected {
+html[data-device-type="portable"] .pp-header .main-menu > ul > li > a[rel="menuitem"].selected,
+html[data-device-type="dedicated"] .pp-header .main-menu > ul > li > a[rel="menuitem"].selected {
     color: #FFF;
 }
 
-html[data-device-type="portable"] .pp-header .main-menu &gt; ul &gt; li &gt; a[rel="menuitem"].selected:after,
-html[data-device-type="dedicated"] .pp-header .main-menu &gt; ul &gt; li &gt; a[rel="menuitem"].selected:after {
+html[data-device-type="portable"] .pp-header .main-menu > ul > li > a[rel="menuitem"].selected:after,
+html[data-device-type="dedicated"] .pp-header .main-menu > ul > li > a[rel="menuitem"].selected:after {
     -webkit-transform: rotate(-135deg);
     -moz-transform: rotate(-135deg);
     transform: rotate(-135deg);
     top: 2px;
 }
 
-html[data-device-type="portable"] .pp-header .main-menu &gt; ul &gt; li &gt; a[rel="menuitem"]:after,
-html[data-device-type="dedicated"] .pp-header .main-menu &gt; ul &gt; li &gt; a[rel="menuitem"]:after {
+html[data-device-type="portable"] .pp-header .main-menu > ul > li > a[rel="menuitem"]:after,
+html[data-device-type="dedicated"] .pp-header .main-menu > ul > li > a[rel="menuitem"]:after {
     color: #FFF;
     border-top-color: transparent;
 }
@@ -8610,7 +8610,7 @@ html[data-device-type="mobile"] .pp-header .main-menu .menu-wrapper.on.open.done
     height: initial!important;
 }
 
-.pp-header .main-menu .menu-wrapper &gt; div {
+.pp-header .main-menu .menu-wrapper > div {
     height: 100%;
 }
 
@@ -8666,7 +8666,7 @@ html[data-device-type="dedicated"] .pp-header .closer:focus {
     color: #FFF;
 }
 
-html[data-device-type="portable"] .pp-header .step &gt; div &gt; strong.headline {
+html[data-device-type="portable"] .pp-header .step > div > strong.headline {
     margin-right: 192px;
 }
 
@@ -8809,7 +8809,7 @@ html[data-device-type="dedicated"] .pp-header .subnav li {
     padding-top: 15px;
 }
 
-.pp-header .subnav li &gt; a {
+.pp-header .subnav li > a {
     font-weight: 300;
     color: #fff;
     display: block;
@@ -8821,7 +8821,7 @@ html[data-device-type="dedicated"] .pp-header .subnav li {
     overflow: visible;
 }
 
-html[data-device-type="mobile"] .pp-header .subnav li &gt; a {
+html[data-device-type="mobile"] .pp-header .subnav li > a {
     padding: 10px 0 10px 10px;
     width: 210px;
     font-family: "pp-sans-small-light", Helvetica Neue, Arial, sans-serif;
@@ -8830,8 +8830,8 @@ html[data-device-type="mobile"] .pp-header .subnav li &gt; a {
     font-size: 14px;
 }
 
-html[data-device-type="dedicated"] .pp-header .subnav li &gt; a,
-html[data-device-type="portable"] .pp-header .subnav li &gt; a {
+html[data-device-type="dedicated"] .pp-header .subnav li > a,
+html[data-device-type="portable"] .pp-header .subnav li > a {
     line-height: 1.1em;
     font-size: 15px;
 }
@@ -8886,7 +8886,7 @@ html[data-device-type="portable"] .pp-header .subnav:not(.light).two-col {
     height: 108px;
 }
 
-html[data-device-type="portable"] .pp-header .subnav:not(.light) &gt; li {
+html[data-device-type="portable"] .pp-header .subnav:not(.light) > li {
     padding-top: 0;
 }
 
@@ -8956,24 +8956,24 @@ html[data-device-type="mobile"] body.samsung.on header.pp-header .main-menu {
     position: absolute;
 }
 
-html[data-device-type="portable"] header[role="banner"].pp-header + #main &gt; section:not(.hero-pop-out):first-of-type,
-html[data-device-type="dedicated"] header[role="banner"].pp-header + #main &gt; section:not(.hero-pop-out):first-of-type {
+html[data-device-type="portable"] header[role="banner"].pp-header + #main > section:not(.hero-pop-out):first-of-type,
+html[data-device-type="dedicated"] header[role="banner"].pp-header + #main > section:not(.hero-pop-out):first-of-type {
     padding-top: 72px;
     margin-top: 0;
 }
 
-html[data-device-type="portable"] header[role="banner"].pp-header + #main &gt; section.clickthru-fixed:first-of-type,
-html[data-device-type="dedicated"] header[role="banner"].pp-header + #main &gt; section.clickthru-fixed:first-of-type {
+html[data-device-type="portable"] header[role="banner"].pp-header + #main > section.clickthru-fixed:first-of-type,
+html[data-device-type="dedicated"] header[role="banner"].pp-header + #main > section.clickthru-fixed:first-of-type {
     padding-top: 144px;
 }
 
-html[data-device-type="portable"] header[role="banner"].pp-header + #main &gt; section.first-section-no-hero:first-of-type,
-html[data-device-type="dedicated"] header[role="banner"].pp-header + #main &gt; section.first-section-no-hero:first-of-type {
+html[data-device-type="portable"] header[role="banner"].pp-header + #main > section.first-section-no-hero:first-of-type,
+html[data-device-type="dedicated"] header[role="banner"].pp-header + #main > section.first-section-no-hero:first-of-type {
     padding-top: 140px;
 }
 
-html[data-device-type="portable"] header[role="banner"].pp-header + #main &gt; section.panel:first-of-type,
-html[data-device-type="dedicated"] header[role="banner"].pp-header + #main &gt; section.panel:first-of-type {
+html[data-device-type="portable"] header[role="banner"].pp-header + #main > section.panel:first-of-type,
+html[data-device-type="dedicated"] header[role="banner"].pp-header + #main > section.panel:first-of-type {
     padding-top: 144px;
 }
 
@@ -8988,11 +8988,11 @@ html[data-device-type="dedicated"] div#body.menu-open #main {
     padding-top: 160px;
 }
 
-html[data-device-type="mobile"] header[role="banner"].pp-header + #main &gt; section:first-of-type {
+html[data-device-type="mobile"] header[role="banner"].pp-header + #main > section:first-of-type {
     padding-top: 72px;
 }
 
-html[data-device-type="mobile"] header[role="banner"].pp-header + #main &gt; section.clickthru-fixed:first-of-type {
+html[data-device-type="mobile"] header[role="banner"].pp-header + #main > section.clickthru-fixed:first-of-type {
     padding-top: 100px;
 }
 

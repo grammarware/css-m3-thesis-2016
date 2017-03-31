@@ -74,7 +74,7 @@
     list-style-type: none
 }
 
-.fa-ul&gt;li {
+.fa-ul>li {
     position: relative
 }
 
@@ -3402,14 +3402,14 @@ header .topFrame .menu.current .arrow {
     opacity: 1;
 }
 
-header .topFrame .menu &gt; ul {
+header .topFrame .menu > ul {
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
 }
 
-header .topFrame .menu &gt; ul &gt; li {
+header .topFrame .menu > ul > li {
     height: 62px;
     display: inline-block;
     -webkit-flex: 1 1 auto;
@@ -3418,7 +3418,7 @@ header .topFrame .menu &gt; ul &gt; li {
     line-height: 60px;
 }
 
-header .topFrame .menu &gt; ul &gt; li &gt; a {
+header .topFrame .menu > ul > li > a {
     height: 62px;
     display: block;
     position: relative;
@@ -3434,26 +3434,26 @@ header .topFrame .menu &gt; ul &gt; li &gt; a {
     transition: all 0.3s ease;
 }
 
-header .topFrame .menu &gt; ul &gt; li.desktop-none,
-	header .topFrame .menu &gt; ul &gt; li .down,
-	header .topFrame .menu &gt; ul &gt; li:first-child &gt; a {
+header .topFrame .menu > ul > li.desktop-none,
+	header .topFrame .menu > ul > li .down,
+	header .topFrame .menu > ul > li:first-child > a {
     display: none;
 }
 
-header .topFrame .menu &gt; ul &gt; li &gt; a &gt; .fa {
+header .topFrame .menu > ul > li > a > .fa {
     margin-right: 3px;
 }
 
-header .topFrame .menu &gt; ul &gt; li &gt; a &gt; .fa.fa-line-chart {
+header .topFrame .menu > ul > li > a > .fa.fa-line-chart {
     color: #098efb;
 }
 
-header .topFrame .menu &gt; ul &gt; li &gt; a &gt; .fa.fa-heart {
+header .topFrame .menu > ul > li > a > .fa.fa-heart {
     color: #d11919;
 }
 
-header .topFrame .menu &gt; ul &gt; li &gt; a .special-category,
-	.menu.navobile-navigation &gt; ul &gt; li &gt; a .special-category {
+header .topFrame .menu > ul > li > a .special-category,
+	.menu.navobile-navigation > ul > li > a .special-category {
     height: 30px;
     margin-top: 16px;
     display: inline-block;
@@ -3465,22 +3465,22 @@ header .topFrame .menu &gt; ul &gt; li &gt; a .special-category,
     line-height: 30px;
 }
 
-.menu.navobile-navigation &gt; ul &gt; li &gt; a .special-category {
+.menu.navobile-navigation > ul > li > a .special-category {
     margin-top: 6px;
 }
 
-header .topFrame .menu &gt; ul &gt; li &gt; a .special-category.temmuz15 {
+header .topFrame .menu > ul > li > a .special-category.temmuz15 {
     padding: 0 6px 0 32px;
     background: #dc230d url(../i/special-category.png?v2) no-repeat 0 1px;
 }
 
-header .topFrame .menu &gt; ul &gt; li &gt; a .special-category.spor,
-	.menu.navobile-navigation &gt; ul &gt; li &gt; a .special-category.spor {
+header .topFrame .menu > ul > li > a .special-category.spor,
+	.menu.navobile-navigation > ul > li > a .special-category.spor {
     background: #206602;
 }
 
-header .topFrame .menu &gt; ul &gt; li &gt; a .special-category.magazin,
-	.menu.navobile-navigation &gt; ul &gt; li &gt; a .special-category.magazin {
+header .topFrame .menu > ul > li > a .special-category.magazin,
+	.menu.navobile-navigation > ul > li > a .special-category.magazin {
     width: 72px;
     background: #93278f;
     -webkit-box-sizing: content-box;
@@ -3488,14 +3488,14 @@ header .topFrame .menu &gt; ul &gt; li &gt; a .special-category.magazin,
     box-sizing: content-box;
 }
 
-.menu.navobile-navigation &gt; ul &gt; li &gt; a .special-category.magazin {
+.menu.navobile-navigation > ul > li > a .special-category.magazin {
     width: 92px;
 }
 
-header .topFrame .menu &gt; ul &gt; li &gt; a .special-category .eff1,
-  	header .topFrame .menu &gt; ul &gt; li &gt; a .special-category .eff2,
-  	.menu.navobile-navigation &gt; ul &gt; li &gt; a .special-category .eff1,
-  	.menu.navobile-navigation &gt; ul &gt; li &gt; a .special-category .eff2 {
+header .topFrame .menu > ul > li > a .special-category .eff1,
+  	header .topFrame .menu > ul > li > a .special-category .eff2,
+  	.menu.navobile-navigation > ul > li > a .special-category .eff1,
+  	.menu.navobile-navigation > ul > li > a .special-category .eff2 {
     width: 100%;
     position: absolute;
     top: 0;
@@ -3521,16 +3521,16 @@ header .topFrame .menu &gt; ul &gt; li &gt; a .special-category .eff1,
     animation-duration: 4s;
 }
 
-header .topFrame .menu &gt; ul &gt; li &gt; a .special-category .eff1,
-	.menu.navobile-navigation &gt; ul &gt; li &gt; a .special-category .eff1 {
+header .topFrame .menu > ul > li > a .special-category .eff1,
+	.menu.navobile-navigation > ul > li > a .special-category .eff1 {
     -webkit-animation-delay: 2s;
     -moz-animation-delay: 2s;
     -o-animation-delay: 2s;
     animation-delay: 2s;
 }
 
-header .topFrame .menu &gt; ul &gt; li &gt; a .special-category .eff2,
-	.menu.navobile-navigation &gt; ul &gt; li &gt; a .special-category .eff2 {
+header .topFrame .menu > ul > li > a .special-category .eff2,
+	.menu.navobile-navigation > ul > li > a .special-category .eff2 {
     -webkit-animation-delay: 0s;
     -moz-animation-delay: 0s;
     -o-animation-delay: 0s;
@@ -3593,7 +3593,7 @@ header .topFrame .menu &gt; ul &gt; li &gt; a .special-category .eff2,
     }
 }
 
-header .topFrame .menu &gt; ul &gt; li &gt; a .special-category2 {
+header .topFrame .menu > ul > li > a .special-category2 {
     padding: 2px 10px;
     background: #d11919;
     color: #fff;
@@ -3601,8 +3601,8 @@ header .topFrame .menu &gt; ul &gt; li &gt; a .special-category2 {
     border-radius: 5px;
 }
 
-header .topFrame .menu &gt; ul &gt; li .sidebar,
-	header .topFrame .menu &gt; ul &gt; li .search {
+header .topFrame .menu > ul > li .sidebar,
+	header .topFrame .menu > ul > li .search {
     display: block;
     position: relative;
     font-size: 18px;
@@ -3617,8 +3617,8 @@ header .topFrame .menu &gt; ul &gt; li .sidebar,
     transition: all 0.3s ease;
 }
 
-header .topFrame .menu &gt; ul &gt; li .sidebar i,
-	header .topFrame .menu &gt; ul &gt; li .search i {
+header .topFrame .menu > ul > li .sidebar i,
+	header .topFrame .menu > ul > li .search i {
     width: 18px;
     -webkit-transition: all .25s ease-in-out;
     -moz-transition: all .25s ease-in-out;
@@ -3627,7 +3627,7 @@ header .topFrame .menu &gt; ul &gt; li .sidebar i,
     transition: all .25s ease-in-out;
 }
 
-header .topFrame .menu &gt; ul &gt; li .sidebar.show i {
+header .topFrame .menu > ul > li .sidebar.show i {
 		/*-webkit-transform: rotate(90deg);
 		   -moz-transform: rotate(90deg);
 		    -ms-transform: rotate(90deg);
@@ -3635,22 +3635,22 @@ header .topFrame .menu &gt; ul &gt; li .sidebar.show i {
 		        transform: rotate(90deg);*/
 }
 
-header .topFrame .menu &gt; ul &gt; li .sidebar.show i:before,
-	header .topFrame .menu &gt; ul &gt; li .search.show i:before {
+header .topFrame .menu > ul > li .sidebar.show i:before,
+	header .topFrame .menu > ul > li .search.show i:before {
     content: '\f00d';
 }
 
-header .topFrame .menu &gt; ul &gt; li.selected a,
-	header .topFrame .menu &gt; ul &gt; li .sidebar.show,
-	header .topFrame .menu &gt; ul &gt; li .search.show,
-	header .topFrame .menu &gt; ul &gt; li &gt; a:hover,
-	header .topFrame .menu &gt; ul &gt; li .sidebar:hover,
-	header .topFrame .menu &gt; ul &gt; li .search:hover {
+header .topFrame .menu > ul > li.selected a,
+	header .topFrame .menu > ul > li .sidebar.show,
+	header .topFrame .menu > ul > li .search.show,
+	header .topFrame .menu > ul > li > a:hover,
+	header .topFrame .menu > ul > li .sidebar:hover,
+	header .topFrame .menu > ul > li .search:hover {
     color: #d11919;
 }
 
-header .topFrame .menu &gt; ul &gt; li &gt; a:after,
-	header .topFrame .menu &gt; ul &gt; li .search:after {
+header .topFrame .menu > ul > li > a:after,
+	header .topFrame .menu > ul > li .search:after {
     content: '';
     width: 0;
     height: 30px;
@@ -3665,7 +3665,7 @@ header .topFrame .menu &gt; ul &gt; li &gt; a:after,
     transform: translate(0, -50%);
 }
 
-header .topFrame .menu &gt; ul li .subMenu {
+header .topFrame .menu > ul li .subMenu {
     width: 100%;
     height: 0;
     position: absolute;
@@ -3685,13 +3685,13 @@ header .topFrame .menu &gt; ul li .subMenu {
     transition: all .25s .5s ease-in-out;
 }
 
-header .topFrame .menu &gt; ul li.current .subMenu {
+header .topFrame .menu > ul li.current .subMenu {
     height: 370px;
     visibility: visible;
     opacity: 1;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .allLink {
+header .topFrame .menu > ul li .subMenu .allLink {
     width: 100%;
     height: 40px;
     padding: 0 10px;
@@ -3706,38 +3706,38 @@ header .topFrame .menu &gt; ul li .subMenu .allLink {
     box-sizing: border-box;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .tabFrame .allLink {
+header .topFrame .menu > ul li .subMenu .tabFrame .allLink {
     width: 75%;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .allLink a {
+header .topFrame .menu > ul li .subMenu .allLink a {
     font-family: 'Roboto Slab', serif;
     font-size: 14px;
     color: #356083;
     font-weight: 700;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .allLink a:hover {
+header .topFrame .menu > ul li .subMenu .allLink a:hover {
     color: #d11919;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .listFrame {
+header .topFrame .menu > ul li .subMenu .listFrame {
     padding: 0 4px;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .listFrame ol {
+header .topFrame .menu > ul li .subMenu .listFrame ol {
     width: 100%;
     display: inline-block;
     vertical-align: top;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .listFrame ol li {
+header .topFrame .menu > ul li .subMenu .listFrame ol li {
     width: 25%;
     float: left;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .listFrame ol li a,
-	header .topFrame .menu &gt; ul li .subMenu .tabFrame dl dd a {
+header .topFrame .menu > ul li .subMenu .listFrame ol li a,
+	header .topFrame .menu > ul li .subMenu .tabFrame dl dd a {
     display: block;
     margin: 16px 5px;
     font-family: 'Roboto Slab', serif;
@@ -3745,16 +3745,16 @@ header .topFrame .menu &gt; ul li .subMenu .listFrame ol li a,
     color: #14233a;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .listFrame ol li a span,
-	header .topFrame .menu &gt; ul li .subMenu .tabFrame dl dd a span {
+header .topFrame .menu > ul li .subMenu .listFrame ol li a span,
+	header .topFrame .menu > ul li .subMenu .tabFrame dl dd a span {
     width: 230px;
     height: 230px;
     display: block;
     overflow: hidden;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .listFrame ol li a span img,
-	header .topFrame .menu &gt; ul li .subMenu .tabFrame dl dd a span img {
+header .topFrame .menu > ul li .subMenu .listFrame ol li a span img,
+	header .topFrame .menu > ul li .subMenu .tabFrame dl dd a span img {
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -3766,8 +3766,8 @@ header .topFrame .menu &gt; ul li .subMenu .listFrame ol li a span img,
     user-select: none;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .listFrame ol li a:hover span img,
-	header .topFrame .menu &gt; ul li .subMenu .tabFrame dl dd a:hover span img {
+header .topFrame .menu > ul li .subMenu .listFrame ol li a:hover span img,
+	header .topFrame .menu > ul li .subMenu .tabFrame dl dd a:hover span img {
     transform: scale(1.05);
     -ms-transform: scale(1.05);
     -moz-transform: scale(1.05);
@@ -3775,8 +3775,8 @@ header .topFrame .menu &gt; ul li .subMenu .listFrame ol li a:hover span img,
     -o-transform: scale(1.05);
 }
 
-header .topFrame .menu &gt; ul li .subMenu .listFrame ol li a strong,
-	header .topFrame .menu &gt; ul li .subMenu .tabFrame dl dd a strong {
+header .topFrame .menu > ul li .subMenu .listFrame ol li a strong,
+	header .topFrame .menu > ul li .subMenu .tabFrame dl dd a strong {
     height: 48px;
     display: block;
     margin: 10px;
@@ -3785,15 +3785,15 @@ header .topFrame .menu &gt; ul li .subMenu .listFrame ol li a strong,
     overflow: hidden;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .listFrame ol li a:hover,
-	header .topFrame .menu &gt; ul li .subMenu .tabFrame dl dd a:hover {
+header .topFrame .menu > ul li .subMenu .listFrame ol li a:hover,
+	header .topFrame .menu > ul li .subMenu .tabFrame dl dd a:hover {
     color: #d11919;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .tabFrame {
+header .topFrame .menu > ul li .subMenu .tabFrame {
 }
 
-header .topFrame .menu &gt; ul li .subMenu .tabFrame ol {
+header .topFrame .menu > ul li .subMenu .tabFrame ol {
     width: 25%;
     height: 370px;
     padding-bottom: 40px;
@@ -3811,7 +3811,7 @@ header .topFrame .menu &gt; ul li .subMenu .tabFrame ol {
     justify-content: center;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .tabFrame ol &gt; li {
+header .topFrame .menu > ul li .subMenu .tabFrame ol > li {
     width: 101%;
     height: 32px;
     display: inline-block;
@@ -3819,7 +3819,7 @@ header .topFrame .menu &gt; ul li .subMenu .tabFrame ol &gt; li {
     line-height: 32px;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .tabFrame ol &gt; li &gt; a {
+header .topFrame .menu > ul li .subMenu .tabFrame ol > li > a {
     display: block;
     padding: 0 18px;
     position: relative;
@@ -3832,7 +3832,7 @@ header .topFrame .menu &gt; ul li .subMenu .tabFrame ol &gt; li &gt; a {
     -moz-box-sizing: border-box;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .tabFrame ol &gt; li &gt; a i {
+header .topFrame .menu > ul li .subMenu .tabFrame ol > li > a i {
     position: absolute;
     top: 50%;
     right: 16px;
@@ -3846,11 +3846,11 @@ header .topFrame .menu &gt; ul li .subMenu .tabFrame ol &gt; li &gt; a i {
     transform: translate(0, -50%);
 }
 
-header .topFrame .menu &gt; ul li .subMenu .tabFrame ol &gt; li:hover &gt; a {
+header .topFrame .menu > ul li .subMenu .tabFrame ol > li:hover > a {
     color: #d11919;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .tabFrame ol &gt; li.current &gt; a {
+header .topFrame .menu > ul li .subMenu .tabFrame ol > li.current > a {
     background-color: #fff;
     border: solid #e7e9eb;
     border-width: 1px 0;
@@ -3858,11 +3858,11 @@ header .topFrame .menu &gt; ul li .subMenu .tabFrame ol &gt; li.current &gt; a {
     line-height: 30px;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .tabFrame ol &gt; li.current &gt; a i {
+header .topFrame .menu > ul li .subMenu .tabFrame ol > li.current > a i {
     opacity: 1;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .tabFrame ol &gt; li dl {
+header .topFrame .menu > ul li .subMenu .tabFrame ol > li dl {
     width: 75%;
     padding: 0 3px;
     position: absolute;
@@ -3880,12 +3880,12 @@ header .topFrame .menu &gt; ul li .subMenu .tabFrame ol &gt; li dl {
     box-sizing: border-box;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .tabFrame ol &gt; li.current dl {
+header .topFrame .menu > ul li .subMenu .tabFrame ol > li.current dl {
     visibility: visible;
     opacity: 1;
 }
 
-header .topFrame .menu &gt; ul li .subMenu .tabFrame ol &gt; li dl dd {
+header .topFrame .menu > ul li .subMenu .tabFrame ol > li dl dd {
     width: 33.333%;
     float: left;
 }
@@ -3931,26 +3931,26 @@ header .searchFrame .wrapper .endList {
     font-size: 14px;
 }
 
-header .searchFrame .wrapper .endList &gt; span {
+header .searchFrame .wrapper .endList > span {
     display: inline-block;
     vertical-align: top;
     padding-top: 12px;
     font-weight: 700;
 }
 
-header .searchFrame .wrapper .endList &gt; ul {
+header .searchFrame .wrapper .endList > ul {
     width: calc(100% - 560px);
     display: inline-block;
     vertical-align: top;
     padding-top: 12px;
 }
 
-header .searchFrame .wrapper .endList &gt; ul li {
+header .searchFrame .wrapper .endList > ul li {
     margin: 0 7px;
     float: left;
 }
 
-header .searchFrame .wrapper .endList &gt; ul li a:hover {
+header .searchFrame .wrapper .endList > ul li a:hover {
     text-decoration: underline;
 }
 
@@ -4014,7 +4014,7 @@ header .bottomFrame .menu ul {
     align-items: center;
 }
 
-header .bottomFrame .menu ul &gt; li {
+header .bottomFrame .menu ul > li {
     height: 38px;
     display: block;
     -webkit-flex: 1 1 auto;
@@ -4023,7 +4023,7 @@ header .bottomFrame .menu ul &gt; li {
     position: relative;
 }
 
-header .bottomFrame .menu ul &gt; li &gt; a {
+header .bottomFrame .menu ul > li > a {
     height: 38px;
     display: block;
     position: relative;
@@ -4034,7 +4034,7 @@ header .bottomFrame .menu ul &gt; li &gt; a {
     line-height: 38px;
 }
 
-header .bottomFrame .menu ul &gt; li.selected &gt; a:after {
+header .bottomFrame .menu ul > li.selected > a:after {
     content: '';
     width: 100%;
     height: 1px;
@@ -4044,16 +4044,16 @@ header .bottomFrame .menu ul &gt; li.selected &gt; a:after {
     background: #fff;
 }
 
-header .bottomFrame .menu ul &gt; li:hover &gt; a {
+header .bottomFrame .menu ul > li:hover > a {
     background: #1e3764;
 }
 
-header .bottomFrame .menu ul &gt; li.selected:hover &gt; a:after {
+header .bottomFrame .menu ul > li.selected:hover > a:after {
     visibility: hidden;
 }
 
-header .bottomFrame .menu ul &gt; li &gt; div,
-	header .bottomFrame .menu ul &gt; li &gt; ol {
+header .bottomFrame .menu ul > li > div,
+	header .bottomFrame .menu ul > li > ol {
     min-width: 120px;
     display: none;
     position: absolute;
@@ -4062,7 +4062,7 @@ header .bottomFrame .menu ul &gt; li &gt; div,
     background: #1e3764;
 }
 
-header .bottomFrame .menu ul &gt; li ol a {
+header .bottomFrame .menu ul > li ol a {
     display: block;
     height: 39px;
     line-height: 39px;
@@ -4071,21 +4071,21 @@ header .bottomFrame .menu ul &gt; li ol a {
     white-space: nowrap;
 }
 
-header .bottomFrame .menu ul &gt; li ol a:before {
+header .bottomFrame .menu ul > li ol a:before {
     content: '';
     display: block;
     height: 1px;
     background: #1d2647;
 }
 
-header .bottomFrame .menu ul &gt; li ol li:first-child a:before,
-	header .bottomFrame .menu ul &gt; li.diziler ol li:nth-child(-n+3) a:before,
-	header .bottomFrame .menu ul &gt; li &gt; ol a:hover:before {
+header .bottomFrame .menu ul > li ol li:first-child a:before,
+	header .bottomFrame .menu ul > li.diziler ol li:nth-child(-n+3) a:before,
+	header .bottomFrame .menu ul > li > ol a:hover:before {
     visibility: hidden;
 }
 
-header .bottomFrame .menu ul &gt; li:hover &gt; div,
-	header .bottomFrame .menu ul &gt; li:hover &gt; ol {
+header .bottomFrame .menu ul > li:hover > div,
+	header .bottomFrame .menu ul > li:hover > ol {
     display: block;
 }
 
@@ -4093,34 +4093,34 @@ header .bottomFrame .menu ul ol a:hover {
     background: rgba(255,255,255,0.3);
 }
 
-header .bottomFrame .menu ul &gt; li.diziler &gt; div {
+header .bottomFrame .menu ul > li.diziler > div {
     min-width: 200px;
     left: auto;
     right: 0;
 }
 
-header .bottomFrame .menu ul &gt; li.diziler &gt; div ol {
+header .bottomFrame .menu ul > li.diziler > div ol {
     overflow: hidden;
 }
 
-header .bottomFrame .menu ul &gt; li.diziler &gt; div ol li {
+header .bottomFrame .menu ul > li.diziler > div ol li {
     float: left;
 }
 
-header .bottomFrame .menu ul &gt; li.onhayat &gt; a &gt; img {
+header .bottomFrame .menu ul > li.onhayat > a > img {
     margin-top: -3px;
 }
 
-header .bottomFrame .menu ul &gt; li.onhayat ol a:before {
+header .bottomFrame .menu ul > li.onhayat ol a:before {
     background-color: #ff0a8f;
 }
 
-header .bottomFrame .menu ul &gt; li.onhayat:hover &gt; a,
-	header .bottomFrame .menu ul &gt; li.onhayat.current &gt; a {
+header .bottomFrame .menu ul > li.onhayat:hover > a,
+	header .bottomFrame .menu ul > li.onhayat.current > a {
     background: #ff780f;
 }
 
-header .bottomFrame .menu ul &gt; li.onhayat ol {
+header .bottomFrame .menu ul > li.onhayat ol {
     background: rgba(255,119,15,1);
     background: -moz-linear-gradient(top, rgba(255,119,15,1) 0%, rgba(255,9,144,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,119,15,1)), color-stop(100%, rgba(255,9,144,1)));
@@ -4131,13 +4131,13 @@ header .bottomFrame .menu ul &gt; li.onhayat ol {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff770f', endColorstr='#ff0990', GradientType=0 );
 }
 
-header .bottomFrame .menu li.diziler &gt; div .seriesAll {
+header .bottomFrame .menu li.diziler > div .seriesAll {
     display: block;
     background-color: rgba(255, 255, 255, 0.2);
     overflow: hidden;
 }
 
-header .bottomFrame .menu li.diziler &gt; div .seriesAll a {
+header .bottomFrame .menu li.diziler > div .seriesAll a {
     height: 30px;
     padding: 0 10px;
     float: right;
@@ -4159,7 +4159,7 @@ header .bottomFrame .menu li.diziler ol a {
     white-space: normal;
 }
 
-header .bottomFrame .menu li.diziler ol a &gt; span {
+header .bottomFrame .menu li.diziler ol a > span {
     width: 180px;
     height: 39px;
     display: table-cell;
@@ -4226,7 +4226,7 @@ header .bottomFrame .menu li.diziler ol a em {
     border-bottom: 1px solid #e7e9eb;
 }
 
-.menuSideBar nav &gt; ul &gt; li {
+.menuSideBar nav > ul > li {
     height: 40px;
     display: block;
     position: relative;
@@ -4240,17 +4240,17 @@ header .bottomFrame .menu li.diziler ol a em {
     transition: all .25s ease-in-out;
 }
 
-.menuSideBar nav &gt; ul &gt; li:first-child {
+.menuSideBar nav > ul > li:first-child {
     border-top: none;
 }
 
-.menuSideBar nav &gt; ul &gt; li.current {
+.menuSideBar nav > ul > li.current {
     background-color: #f4f4f4;
 }
 
-.menuSideBar nav &gt; ul &gt; li.meteor,
+.menuSideBar nav > ul > li.meteor,
 	.menuSideBar .nav-modal ol li a,
-	.menuSideBar nav &gt; ul &gt; li a {
+	.menuSideBar nav > ul > li a {
     display: block;
     padding-left: 20px;
     position: relative;
@@ -4261,27 +4261,27 @@ header .bottomFrame .menu li.diziler ol a em {
     white-space: nowrap;
 }
 
-.menuSideBar nav &gt; ul &gt; li.meteor {
+.menuSideBar nav > ul > li.meteor {
     font-size: 15px;
     cursor: default;
 }
 
-.menuSideBar nav &gt; ul &gt; li.meteor .iconDiv {
+.menuSideBar nav > ul > li.meteor .iconDiv {
     width: 41px;
     height: 41px;
     display: inline-block;
     vertical-align: top;
 }
 
-.menuSideBar nav &gt; ul &gt; li.meteor .iconDiv [class^="flaticon-"]:before,
-	.menuSideBar nav &gt; ul &gt; li.meteor .iconDiv [class*=" flaticon-"]:before,
-	.menuSideBar nav &gt; ul &gt; li.meteor .iconDiv [class^="flaticon-"]:after,
-	.menuSideBar nav &gt; ul &gt; li.meteor .iconDiv [class*=" flaticon-"]:after {
+.menuSideBar nav > ul > li.meteor .iconDiv [class^="flaticon-"]:before,
+	.menuSideBar nav > ul > li.meteor .iconDiv [class*=" flaticon-"]:before,
+	.menuSideBar nav > ul > li.meteor .iconDiv [class^="flaticon-"]:after,
+	.menuSideBar nav > ul > li.meteor .iconDiv [class*=" flaticon-"]:after {
     font-size: 46px;
     color: #14233a;
 }
 
-.menuSideBar nav &gt; ul &gt; li .fa {
+.menuSideBar nav > ul > li .fa {
     position: absolute;
     top: 50%;
     right: 15px;
@@ -4293,11 +4293,11 @@ header .bottomFrame .menu li.diziler ol a em {
     transform: translate(0, -50%);
 }
 
-.menuSideBar nav &gt; ul &gt; li a.icon {
+.menuSideBar nav > ul > li a.icon {
     padding: 0 0 0 60px;
 }
 
-.menuSideBar nav &gt; ul &gt; li a.icon img {
+.menuSideBar nav > ul > li a.icon img {
     position: absolute;
     top: 50%;
     left: 20px;
@@ -4308,7 +4308,7 @@ header .bottomFrame .menu li.diziler ol a em {
     transform: translateY(-50%);
 }
 
-.menuSideBar nav &gt; ul &gt; li ol {
+.menuSideBar nav > ul > li ol {
     display: none;
 }
 
@@ -4336,11 +4336,11 @@ header .bottomFrame .menu li.diziler ol a em {
     font-size: 15px;
 }
 
-.menuSideBar .nav-modal ol li a &gt; i {
+.menuSideBar .nav-modal ol li a > i {
     font-style: normal;
 }
 
-.menuSideBar .nav-modal ol li a &gt; i.yellow {
+.menuSideBar .nav-modal ol li a > i.yellow {
     background: #fed55b;
     padding: 2px 5px;
 }
@@ -4502,7 +4502,7 @@ main .mansetSmall {
 
 
 /* ztk logo effect */
-header .topFrame .menu &gt; ul &gt; li &gt; a.zk strong {
+header .topFrame .menu > ul > li > a.zk strong {
     margin: 20px 0 0 3px;
     float: left;
     font-size: 12px;
@@ -4510,9 +4510,9 @@ header .topFrame .menu &gt; ul &gt; li &gt; a.zk strong {
     line-height: 12px;
 }
 
-.menuSideBar nav &gt; ul &gt; li a.zk.effect-6 span,
-	header .topFrame .menu &gt; ul &gt; li &gt; a.zk.effect-6 span,
-	.menu.navobile-navigation &gt; ul &gt; li &gt; a.zk.effect-6 span {
+.menuSideBar nav > ul > li a.zk.effect-6 span,
+	header .topFrame .menu > ul > li > a.zk.effect-6 span,
+	.menu.navobile-navigation > ul > li > a.zk.effect-6 span {
     display: block;
     width: 25px;
     height: 25px;
@@ -4521,7 +4521,7 @@ header .topFrame .menu &gt; ul &gt; li &gt; a.zk strong {
     float: left;
 }
 
-.menuSideBar nav &gt; ul &gt; li a.zk.effect-6 span {
+.menuSideBar nav > ul > li a.zk.effect-6 span {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -4533,13 +4533,13 @@ header .topFrame .menu &gt; ul &gt; li &gt; a.zk strong {
     transform: translateY(-50%);
 }
 
-.menu.navobile-navigation &gt; ul &gt; li &gt; a.zk.effect-6 span {
+.menu.navobile-navigation > ul > li > a.zk.effect-6 span {
     margin: 7px 7px 0 0;
 }
 
-.menuSideBar nav &gt; ul &gt; li a.zk.effect-6 span em,
-	header .topFrame .menu &gt; ul &gt; li &gt; a.zk.effect-6 span em,
-	.menu.navobile-navigation &gt; ul &gt; li &gt; a.zk.effect-6 span em {
+.menuSideBar nav > ul > li a.zk.effect-6 span em,
+	header .topFrame .menu > ul > li > a.zk.effect-6 span em,
+	.menu.navobile-navigation > ul > li > a.zk.effect-6 span em {
     width: 25px;
     height: 25px;
     display: block;
@@ -4564,9 +4564,9 @@ header .topFrame .menu &gt; ul &gt; li &gt; a.zk strong {
     animation-duration: 4s
 }
 
-.menuSideBar nav &gt; ul &gt; li a.zk.effect-6 span em.eff1,
-	header .topFrame .menu &gt; ul &gt; li &gt; a.zk.effect-6 span em.eff1,
-	.menu.navobile-navigation &gt; ul &gt; li &gt; a.zk.effect-6 span em.eff1 {
+.menuSideBar nav > ul > li a.zk.effect-6 span em.eff1,
+	header .topFrame .menu > ul > li > a.zk.effect-6 span em.eff1,
+	.menu.navobile-navigation > ul > li > a.zk.effect-6 span em.eff1 {
     background-image: url('../i/ztk-1.png?v=3');
     -webkit-animation-delay: 2s;
     -moz-animation-delay: 2s;
@@ -4574,9 +4574,9 @@ header .topFrame .menu &gt; ul &gt; li &gt; a.zk strong {
     animation-delay: 2s;
 }
 
-.menuSideBar nav &gt; ul &gt; li a.zk.effect-6 span em.eff2,
-	header .topFrame .menu &gt; ul &gt; li &gt; a.zk.effect-6 span em.eff2,
-	.menu.navobile-navigation &gt; ul &gt; li &gt; a.zk.effect-6 span em.eff2 {
+.menuSideBar nav > ul > li a.zk.effect-6 span em.eff2,
+	header .topFrame .menu > ul > li > a.zk.effect-6 span em.eff2,
+	.menu.navobile-navigation > ul > li > a.zk.effect-6 span em.eff2 {
     background-image: url('../i/ztk-2.png?v3');
     -webkit-animation-delay: 0s;
     -moz-animation-delay: 0s;
@@ -4806,12 +4806,12 @@ header .topFrame .menu &gt; ul &gt; li &gt; a.zk strong {
     border-top: 1px solid #66cac4;
 }
 
-body.gallDetail main &gt; aside.leftSticky {
+body.gallDetail main > aside.leftSticky {
     margin: 0 0 0 640px;
     position: fixed;
 }
 
-body.gallDetail.pageSkinFull main &gt; aside.leftSticky {
+body.gallDetail.pageSkinFull main > aside.leftSticky {
     top: 256px!important;
 }
 
@@ -4878,12 +4878,12 @@ body.gallDetail.pageSkinFull main &gt; aside.leftSticky {
     background-color: red;
 }
 
-.menu.navobile-navigation &gt; ul {
+.menu.navobile-navigation > ul {
     display: block;
     height: 100%;
 }
 
-.menu.navobile-navigation &gt; ul &gt; li {
+.menu.navobile-navigation > ul > li {
     float: none;
     display: block;
     height: auto;
@@ -4891,15 +4891,15 @@ body.gallDetail.pageSkinFull main &gt; aside.leftSticky {
     cursor: pointer;
 }
 
-.menu.navobile-navigation &gt; ul &gt; li.desktop-none {
+.menu.navobile-navigation > ul > li.desktop-none {
     border: none;
 }
 
-.menu.navobile-navigation &gt; ul &gt; li.list-visible {
+.menu.navobile-navigation > ul > li.list-visible {
     position: relative;
 }
 
-.menu.navobile-navigation &gt; ul &gt; li .down {
+.menu.navobile-navigation > ul > li .down {
     width: 40px;
     height: 40px;
     padding: 0;
@@ -4912,7 +4912,7 @@ body.gallDetail.pageSkinFull main &gt; aside.leftSticky {
     line-height: 40px;
 }
 
-.menu.navobile-navigation &gt; ul &gt; li &gt; a {
+.menu.navobile-navigation > ul > li > a {
     width: 100%;
     display: block;
     padding: 0 20px;
@@ -4927,7 +4927,7 @@ body.gallDetail.pageSkinFull main &gt; aside.leftSticky {
     box-sizing: border-box;
 }
 
-.menu.navobile-navigation &gt; ul &gt; li &gt; .subMenu {
+.menu.navobile-navigation > ul > li > .subMenu {
     width: 100%;
     display: none;
     background: rgba(20,35,58,0.8);
@@ -4939,11 +4939,11 @@ body.gallDetail.pageSkinFull main &gt; aside.leftSticky {
     box-sizing: border-box;
 }
 
-.menu.navobile-navigation &gt; ul &gt; li.list-none &gt; .subMenu {
+.menu.navobile-navigation > ul > li.list-none > .subMenu {
     display: none!important;
 }
 
-.menu.navobile-navigation &gt; ul &gt; li &gt; .subMenu a {
+.menu.navobile-navigation > ul > li > .subMenu a {
     width: 100%;
     display: block;
     font-family: 'Roboto Slab', serif;
@@ -5014,12 +5014,12 @@ body.gallDetail.pageSkinFull main &gt; aside.leftSticky {
 }
 
 .menu.navobile-mobile-only,
-.menu.navobile-mobile-only &gt; ul li .subMenu .listFrame,
-.menu.navobile-mobile-only &gt; ul li .subMenu .tabFrame ol &gt; li dl,
-.menu.navobile-mobile-only &gt; ul &gt; li:last-child,
-.menu.navobile-mobile-only &gt; ul &gt; li &gt; .sidebar,
-.menu.navobile-mobile-only &gt; ul &gt; li.mobile-none,
-.menu.navobile-mobile-only &gt; ul &gt; li .subMenu .tabFrame ol &gt; li &gt; a i {
+.menu.navobile-mobile-only > ul li .subMenu .listFrame,
+.menu.navobile-mobile-only > ul li .subMenu .tabFrame ol > li dl,
+.menu.navobile-mobile-only > ul > li:last-child,
+.menu.navobile-mobile-only > ul > li > .sidebar,
+.menu.navobile-mobile-only > ul > li.mobile-none,
+.menu.navobile-mobile-only > ul > li .subMenu .tabFrame ol > li > a i {
     display: none;
 }
 
@@ -5185,7 +5185,7 @@ body.gallDetail.pageSkinFull main &gt; aside.leftSticky {
         line-height: 16px;
     }
 
-    header .bottomFrame .menu ul &gt; li &gt; a {
+    header .bottomFrame .menu ul > li > a {
         font-size: 10px;
     }
 }
@@ -5219,11 +5219,11 @@ body.gallDetail.pageSkinFull main &gt; aside.leftSticky {
     margin-right: 0
 }
 
-.mCS-dir-rtl&gt;.mCSB_inside&gt;.mCSB_container {
+.mCS-dir-rtl>.mCSB_inside>.mCSB_container {
     margin-right: 0
 }
 
-.mCS-dir-rtl&gt;.mCSB_inside&gt;.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden {
+.mCS-dir-rtl>.mCSB_inside>.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden {
     margin-left: 0
 }
 
@@ -5241,12 +5241,12 @@ body.gallDetail.pageSkinFull main &gt; aside.leftSticky {
     right: -26px
 }
 
-.mCS-dir-rtl&gt;.mCSB_inside&gt;.mCSB_scrollTools,.mCS-dir-rtl&gt;.mCSB_outside+.mCSB_scrollTools {
+.mCS-dir-rtl>.mCSB_inside>.mCSB_scrollTools,.mCS-dir-rtl>.mCSB_outside+.mCSB_scrollTools {
     right: auto;
     left: 0
 }
 
-.mCS-dir-rtl&gt;.mCSB_outside+.mCSB_scrollTools {
+.mCS-dir-rtl>.mCSB_outside+.mCSB_scrollTools {
     left: -26px
 }
 
@@ -5312,16 +5312,16 @@ body.gallDetail.pageSkinFull main &gt; aside.leftSticky {
     bottom: 0
 }
 
-.mCSB_horizontal.mCSB_inside&gt;.mCSB_container {
+.mCSB_horizontal.mCSB_inside>.mCSB_container {
     margin-right: 0;
     margin-bottom: 30px
 }
 
-.mCSB_horizontal.mCSB_outside&gt;.mCSB_container {
+.mCSB_horizontal.mCSB_outside>.mCSB_container {
     min-height: 100%
 }
 
-.mCSB_horizontal&gt;.mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden {
+.mCSB_horizontal>.mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden {
     margin-bottom: 0
 }
 
@@ -5401,7 +5401,7 @@ body.gallDetail.pageSkinFull main &gt; aside.leftSticky {
     margin-bottom: 30px
 }
 
-.mCSB_container_wrapper&gt;.mCSB_container {
+.mCSB_container_wrapper>.mCSB_container {
     padding-right: 30px;
     padding-bottom: 30px;
     -webkit-box-sizing: border-box;
@@ -5409,11 +5409,11 @@ body.gallDetail.pageSkinFull main &gt; aside.leftSticky {
     box-sizing: border-box
 }
 
-.mCSB_vertical_horizontal&gt;.mCSB_scrollTools.mCSB_scrollTools_vertical {
+.mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_vertical {
     bottom: 20px
 }
 
-.mCSB_vertical_horizontal&gt;.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+.mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_horizontal {
     right: 20px
 }
 
@@ -5421,37 +5421,37 @@ body.gallDetail.pageSkinFull main &gt; aside.leftSticky {
     bottom: 0
 }
 
-.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden+.mCSB_scrollTools~.mCSB_scrollTools.mCSB_scrollTools_horizontal,.mCS-dir-rtl&gt;.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside&gt;.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden+.mCSB_scrollTools~.mCSB_scrollTools.mCSB_scrollTools_horizontal,.mCS-dir-rtl>.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_scrollTools.mCSB_scrollTools_horizontal {
     right: 0
 }
 
-.mCS-dir-rtl&gt;.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside&gt;.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+.mCS-dir-rtl>.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_scrollTools.mCSB_scrollTools_horizontal {
     left: 20px
 }
 
-.mCS-dir-rtl&gt;.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside&gt;.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden+.mCSB_scrollTools~.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+.mCS-dir-rtl>.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden+.mCSB_scrollTools~.mCSB_scrollTools.mCSB_scrollTools_horizontal {
     left: 0
 }
 
-.mCS-dir-rtl&gt;.mCSB_inside&gt;.mCSB_container_wrapper {
+.mCS-dir-rtl>.mCSB_inside>.mCSB_container_wrapper {
     margin-right: 0;
     margin-left: 30px
 }
 
-.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden&gt;.mCSB_container {
+.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden>.mCSB_container {
     padding-right: 0
 }
 
-.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden&gt;.mCSB_container {
+.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden>.mCSB_container {
     padding-bottom: 0
 }
 
-.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside&gt;.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden {
+.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden {
     margin-right: 0;
     margin-left: 0
 }
 
-.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside&gt;.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden {
+.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden {
     margin-bottom: 0
 }
 
@@ -5475,13 +5475,13 @@ body.gallDetail.pageSkinFull main &gt; aside.leftSticky {
     -ms-filter: "alpha(opacity=75)"
 }
 
-.mCS-autoHide&gt;.mCustomScrollBox&gt;.mCSB_scrollTools,.mCS-autoHide&gt;.mCustomScrollBox~.mCSB_scrollTools {
+.mCS-autoHide>.mCustomScrollBox>.mCSB_scrollTools,.mCS-autoHide>.mCustomScrollBox~.mCSB_scrollTools {
     opacity: 0;
     filter: "alpha(opacity=0)";
     -ms-filter: "alpha(opacity=0)"
 }
 
-.mCustomScrollbar&gt;.mCustomScrollBox&gt;.mCSB_scrollTools.mCSB_scrollTools_onDrag,.mCustomScrollbar&gt;.mCustomScrollBox~.mCSB_scrollTools.mCSB_scrollTools_onDrag,.mCustomScrollBox:hover&gt;.mCSB_scrollTools,.mCustomScrollBox:hover~.mCSB_scrollTools,.mCS-autoHide:hover&gt;.mCustomScrollBox&gt;.mCSB_scrollTools,.mCS-autoHide:hover&gt;.mCustomScrollBox~.mCSB_scrollTools {
+.mCustomScrollbar>.mCustomScrollBox>.mCSB_scrollTools.mCSB_scrollTools_onDrag,.mCustomScrollbar>.mCustomScrollBox~.mCSB_scrollTools.mCSB_scrollTools_onDrag,.mCustomScrollBox:hover>.mCSB_scrollTools,.mCustomScrollBox:hover~.mCSB_scrollTools,.mCS-autoHide:hover>.mCustomScrollBox>.mCSB_scrollTools,.mCS-autoHide:hover>.mCustomScrollBox~.mCSB_scrollTools {
     opacity: 1;
     filter: "alpha(opacity=100)";
     -ms-filter: "alpha(opacity=100)"
@@ -6226,7 +6226,7 @@ body.gallDetail.pageSkinFull main &gt; aside.leftSticky {
     margin: 0 12px
 }
 
-.mCS-dir-rtl&gt;.mCSB_outside+.mCS-minimal.mCSB_scrollTools_vertical,.mCS-dir-rtl&gt;.mCSB_outside+.mCS-minimal-dark.mCSB_scrollTools_vertical {
+.mCS-dir-rtl>.mCSB_outside+.mCS-minimal.mCSB_scrollTools_vertical,.mCS-dir-rtl>.mCSB_outside+.mCS-minimal-dark.mCSB_scrollTools_vertical {
     left: 0;
     right: auto
 }
@@ -6530,7 +6530,7 @@ body.gallDetail.pageSkinFull main &gt; aside.leftSticky {
     font-style: normal;
 }
 
-/* Generated by Fontie - the magic webfont generator &lt;http://fontie.flowyapps.com&gt; */
+/* Generated by Fontie - the magic webfont generator <http://fontie.flowyapps.com> */
 
 @font-face {
     font-family: 'pt_sansbold';
@@ -6844,15 +6844,15 @@ section, aside, footer {
     display: none;
 }
 
-.katBar .subMenu .list &gt; ul &gt; li {
+.katBar .subMenu .list > ul > li {
     border-top: 1px solid rgba(255,255,255,0.5);
 }
 
-.katBar .subMenu .list &gt; ul &gt; li:first-child {
+.katBar .subMenu .list > ul > li:first-child {
     border: 0;
 }
 
-.katBar .subMenu .list &gt; ul &gt; li &gt; a {
+.katBar .subMenu .list > ul > li > a {
     height: 46px;
     line-height: 46px;
     text-align: center;
@@ -6860,11 +6860,11 @@ section, aside, footer {
     display: block;
 }
 
-.katBar .subMenu .list &gt; ul &gt; li.sub &gt; a {
+.katBar .subMenu .list > ul > li.sub > a {
     background: url(../i/arrRight.png) no-repeat 265px 50%;
 }
 
-.katBar .subMenu .list &gt; ul &gt; li.over .subSub {
+.katBar .subMenu .list > ul > li.over .subSub {
     left: 0;
     opacity: 1;
 }
@@ -7106,7 +7106,7 @@ body.ramazan .katBar,
     background-color: #674559;
 }
 
-body.ramazan .katBar .subMenu .list &gt; ul &gt; li:hover {
+body.ramazan .katBar .subMenu .list > ul > li:hover {
     background-color: #856a7a;
 }
 
@@ -7234,7 +7234,7 @@ body.cizerler .subTit, body.cizerler .subTit a {
     color: #65318f;
 }
 
-body.cizerler main &gt; aside.sticky {
+body.cizerler main > aside.sticky {
     position: fixed;
     margin-left: 660px;
     top: 70px;
@@ -7665,7 +7665,7 @@ main .haber4lu li img {
     left: 0;
 }
 
-main .haber4lu li &gt; a {
+main .haber4lu li > a {
     display: block;
     padding: 5px 10px;
     max-height: 70px;
@@ -9137,7 +9137,7 @@ body[class*="bilgi-"] section {
     background-color: #14233a;
 }
 
-.borsaCover &gt; a {
+.borsaCover > a {
     display: block;
 }
 
@@ -9605,18 +9605,18 @@ aside {float:right; width:300px;}
 	.shadowBox.sabahNews h2 {text-align: center; line-height:25px;}
 	.shadowBox.sabahNews h2 span {display:inline-block; position:relative; top:-4px;}
 	.shadowBox.sabahNews h2 em {display:inline-block; background:url(../i/logoBs.png?v=1); width:46px; height:21px; margin:3px 4px 0;}
-	.shadowBox &gt; a img {display:block;}
+	.shadowBox > a img {display:block;}
 
 .sabahTV {display:block;}
 	.sabahTV li {display:block; margin:10px 0 0; padding-bottom:10px; position:relative;}
 	.sabahTV li:first-child {margin:2px 0 0;}
 	.sabahTV li img {display:block;}
-	.sabahTV li &gt; a {display:block; position:relative;}
-	.sabahTV li &gt; a:before {content:""; width:50px; height:50px; position:absolute; top:60px; left:125px; transition: all 0.3s ease;
+	.sabahTV li > a {display:block; position:relative;}
+	.sabahTV li > a:before {content:""; width:50px; height:50px; position:absolute; top:60px; left:125px; transition: all 0.3s ease;
   background: rgba(255,255,255,0.5);}
-	.sabahTV li &gt; a:after {content:""; width:0; height:0; position:absolute; top:73px; left:143px; border:12px solid transparent; height:0; width:0; border-left:16px solid #d11919; z-index:3;}
+	.sabahTV li > a:after {content:""; width:0; height:0; position:absolute; top:73px; left:143px; border:12px solid transparent; height:0; width:0; border-left:16px solid #d11919; z-index:3;}
 	.sabahTV li span{display:block; margin:7px 10px 0; font-size: 20px; line-height:30px; max-height:60px; overflow:hidden; font-family: 'Roboto Slab', serif; font-weight: 700;}
-	.sabahTV li &gt; a:hover:before {background:rgba(255,255,255,0.4); width:300px; height:170px; top:0; left:0;}
+	.sabahTV li > a:hover:before {background:rgba(255,255,255,0.4); width:300px; height:170px; top:0; left:0;}
 	/*.sabahTV li a:hover {color:#d11919;}*/
 	.sabahTV li .social {position:absolute; right:10px; top:10px; z-index:1;}
 	.sabahTV li .social a {float:left; margin-left:4px; background:url(../i/icoDetay.png?v=2) 0 -353px; width:17px; height:17px;}
@@ -9655,24 +9655,24 @@ aside {float:right; width:300px;}
 	.shadowBox.burclar .burcList ul {display:block; margin:-1px 0 0 -1px;}
 	.shadowBox.burclar .burcList ul li {float:left; position: relative; perspective: 800px; width:74px; height:74px; border-top:1px dashed #d11919; border-left:1px dashed #d11919;}
 	.shadowBox.burclar .burcList ul li a {width: 100%; height: 100%; position: absolute; transform-style: preserve-3d; transition: transform 500ms;}
-	.shadowBox.burclar .burcList ul li a &gt; strong {display:block; background:url(../i/burclar.png?v=1) no-repeat #fff; position: absolute; width: 100%; height: 100%; backface-visibility: hidden; left:0; top:0;}
+	.shadowBox.burclar .burcList ul li a > strong {display:block; background:url(../i/burclar.png?v=1) no-repeat #fff; position: absolute; width: 100%; height: 100%; backface-visibility: hidden; left:0; top:0;}
 	.shadowBox.burclar .burcList ul li:hover a {transform: rotateY( 180deg );}
 	.shadowBox.burclar .burcList ul li div {display: block; position: absolute; width: 100%; height: 100%; backface-visibility: hidden; background:#d11919; color:#fff; font-size:12px; text-align:center; transform: rotateY( 180deg ); font-family: 'Roboto Slab', serif;}
 	.shadowBox.burclar .burcList ul li div span {display:block; padding-top:6px;}
 	.shadowBox.burclar .burcList ul li div strong {display:inline-block; padding: 3px 0; border-bottom:1px solid #fff; font-size:15px; font-weight: 700;}
 	.shadowBox.burclar .burcList ul li:hover div {opacity:1;}
-	.shadowBox.burclar .burcList ul li.koc a &gt; strong 		{background-position:0 		0;}
-	.shadowBox.burclar .burcList ul li.boga a &gt; strong		{background-position:-75px 	0;}
-	.shadowBox.burclar .burcList ul li.ikizler a &gt; strong		{background-position:-150px 0;}
-	.shadowBox.burclar .burcList ul li.yengec a &gt; strong		{background-position:-225px 0;}
-	.shadowBox.burclar .burcList ul li.aslan a &gt; strong		{background-position:0		-75px;}
-	.shadowBox.burclar .burcList ul li.basak a &gt; strong		{background-position:-75px 	-75px;}
-	.shadowBox.burclar .burcList ul li.terazi a &gt; strong		{background-position:-150px -75px;}
-	.shadowBox.burclar .burcList ul li.akrep a &gt; strong		{background-position:-225px -75px;}
-	.shadowBox.burclar .burcList ul li.yay a &gt; strong			{background-position:0 		-150px;}
-	.shadowBox.burclar .burcList ul li.oglak a &gt; strong		{background-position:-75px 	-150px;}
-	.shadowBox.burclar .burcList ul li.kova a &gt; strong		{background-position:-150px -150px;}
-	.shadowBox.burclar .burcList ul li.balik a &gt; strong		{background-position:-225px -150px;}
+	.shadowBox.burclar .burcList ul li.koc a > strong 		{background-position:0 		0;}
+	.shadowBox.burclar .burcList ul li.boga a > strong		{background-position:-75px 	0;}
+	.shadowBox.burclar .burcList ul li.ikizler a > strong		{background-position:-150px 0;}
+	.shadowBox.burclar .burcList ul li.yengec a > strong		{background-position:-225px 0;}
+	.shadowBox.burclar .burcList ul li.aslan a > strong		{background-position:0		-75px;}
+	.shadowBox.burclar .burcList ul li.basak a > strong		{background-position:-75px 	-75px;}
+	.shadowBox.burclar .burcList ul li.terazi a > strong		{background-position:-150px -75px;}
+	.shadowBox.burclar .burcList ul li.akrep a > strong		{background-position:-225px -75px;}
+	.shadowBox.burclar .burcList ul li.yay a > strong			{background-position:0 		-150px;}
+	.shadowBox.burclar .burcList ul li.oglak a > strong		{background-position:-75px 	-150px;}
+	.shadowBox.burclar .burcList ul li.kova a > strong		{background-position:-150px -150px;}
+	.shadowBox.burclar .burcList ul li.balik a > strong		{background-position:-225px -150px;}
 
 .shadowBox.oyun {padding: 6px 6px 0; background: #eee;}
 	.shadowBox.oyun .oyunList ul,
@@ -9853,39 +9853,39 @@ footer .footerNav {}
 	footer .footLogos p {display:block; text-align:center; font:12px/25px arial;}
 
 .selectBox {width:136px; height:23px; margin:0; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none; cursor:pointer;}
-	.selectBox &gt; select {height:23px; font-size:17px; color:#333;}
-	.selectBox .customSelect &gt; span {height:23px; display:block; padding:0 24px 0 0; border:1px solid #e7ecf0; background:#fff; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none;}
-	.selectBox .customSelect &gt; span:after {background:url(../i/arrSelect.png) no-repeat 50% 50%; content:""; width:24px; height:23px; position:absolute; right:0; top:1px;}
-	.selectBox .customSelect &gt; span span {font-family: 'Roboto Slab', serif; font-weight: 700; height:23px; display:block; padding:0 0 0 12px; font-size: 14px; color:#14233a; line-height:20px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
-	.selectBox .customSelect &gt; span span:hover {color:#ad090f;}
+	.selectBox > select {height:23px; font-size:17px; color:#333;}
+	.selectBox .customSelect > span {height:23px; display:block; padding:0 24px 0 0; border:1px solid #e7ecf0; background:#fff; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none;}
+	.selectBox .customSelect > span:after {background:url(../i/arrSelect.png) no-repeat 50% 50%; content:""; width:24px; height:23px; position:absolute; right:0; top:1px;}
+	.selectBox .customSelect > span span {font-family: 'Roboto Slab', serif; font-weight: 700; height:23px; display:block; padding:0 0 0 12px; font-size: 14px; color:#14233a; line-height:20px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+	.selectBox .customSelect > span span:hover {color:#ad090f;}
 
 	.shadowBox.tvBugun .selectBox {width:130px; height:26px; position:absolute !important; right:0; top:0;}
-	.shadowBox.tvBugun .selectBox &gt; select {height:26px;}
-	.shadowBox.tvBugun .selectBox .customSelect &gt; span {background:#434f61; height:26px; border:0;}
-	.shadowBox.tvBugun .selectBox .customSelect &gt; span span {font-size:14px; color:#fff; height:26px; line-height:26px;}
-	.shadowBox.tvBugun .selectBox .customSelect &gt; span:after {background-image:url(../i/arrSelect2.png?v=1); height:26px;}
+	.shadowBox.tvBugun .selectBox > select {height:26px;}
+	.shadowBox.tvBugun .selectBox .customSelect > span {background:#434f61; height:26px; border:0;}
+	.shadowBox.tvBugun .selectBox .customSelect > span span {font-size:14px; color:#fff; height:26px; line-height:26px;}
+	.shadowBox.tvBugun .selectBox .customSelect > span:after {background-image:url(../i/arrSelect2.png?v=1); height:26px;}
 
 	.shadowBox.sinema .selectBox {width:229px; height:21px; border:1px solid #e6e6e6; position:relative;}
 	.shadowBox.sinema .selectBox:first-child {margin-bottom:4px;}
 	.shadowBox.sinema .sel2 .selectBox {margin-bottom:0;}
-	.shadowBox.sinema .selectBox &gt; select {height:21px;}
-	.shadowBox.sinema .selectBox .customSelect &gt; span {background:#f2f2f2; height:21px; border:0;}
-	.shadowBox.sinema .selectBox .customSelect &gt; span span {font-size:13px; color:#356083; height:21px; line-height:21px;}
-	.shadowBox.sinema .selectBox .customSelect &gt; span:after {background-image:url(../i/arrSelect3.png); height:21px;}
+	.shadowBox.sinema .selectBox > select {height:21px;}
+	.shadowBox.sinema .selectBox .customSelect > span {background:#f2f2f2; height:21px; border:0;}
+	.shadowBox.sinema .selectBox .customSelect > span span {font-size:13px; color:#356083; height:21px; line-height:21px;}
+	.shadowBox.sinema .selectBox .customSelect > span:after {background-image:url(../i/arrSelect3.png); height:21px;}
 
 	.kategoriSecim .selectBox {width:150px; height:46px; float:right;}
-	.kategoriSecim .selectBox &gt; select {height:46px;}
-	.kategoriSecim .customSelect &gt; span {background:#da4747; height:46px; border:0; padding-right:46px;}
-	.kategoriSecim .selectBox .customSelect &gt; span span {color:#fff; height:46px; line-height:46px; padding-left:9px;}
-	.kategoriSecim .selectBox .customSelect &gt; span:after {background-image:url(../i/arrSelect2.png?v=1); width:46px; height:46px;}
+	.kategoriSecim .selectBox > select {height:46px;}
+	.kategoriSecim .customSelect > span {background:#da4747; height:46px; border:0; padding-right:46px;}
+	.kategoriSecim .selectBox .customSelect > span span {color:#fff; height:46px; line-height:46px; padding-left:9px;}
+	.kategoriSecim .selectBox .customSelect > span:after {background-image:url(../i/arrSelect2.png?v=1); width:46px; height:46px;}
 
-	.kategoriSecim.bolge .customSelect &gt; span {background:#434f61;}
+	.kategoriSecim.bolge .customSelect > span {background:#434f61;}
 
 	.userPrivate .selectBox {width: 160px; height: 44px;}
-	.userPrivate .selectBox &gt; select {height: 44px;}
-	.userPrivate .customSelect &gt; span {background: #d11919; height: 44px; border: 0; padding-right: 26px;}
-	.userPrivate .selectBox .customSelect &gt; span span {font-family: 'Roboto Slab', serif; font-size: 13px; font-weight: 700; color: #fff; height: 40px; line-height: 44px; padding-left: 7px;}
-	.userPrivate .selectBox .customSelect &gt; span:after {background-image: url(../i/arrSelect2.png?v=1); background-position: 62% 50% width: 40px; height: 44px;}
+	.userPrivate .selectBox > select {height: 44px;}
+	.userPrivate .customSelect > span {background: #d11919; height: 44px; border: 0; padding-right: 26px;}
+	.userPrivate .selectBox .customSelect > span span {font-family: 'Roboto Slab', serif; font-size: 13px; font-weight: 700; color: #fff; height: 40px; line-height: 44px; padding-left: 7px;}
+	.userPrivate .selectBox .customSelect > span:after {background-image: url(../i/arrSelect2.png?v=1); background-position: 62% 50% width: 40px; height: 44px;}
 
 body .selectDrop ul {background:#d7dfe6;}
 	body .selectDrop ul li {height:23px; padding:0 13px; font-size:14px; color:#14233a; line-height:23px; transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; -webkit-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out; text-overflow:ellipsis; white-space:nowrap; cursor:pointer; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none; font-family: 'Roboto Slab', serif; width:100%; overflow:hidden;
@@ -9947,9 +9947,9 @@ body .selectDrop ul {background:#d7dfe6;}
 	.detailNew .detay:first-child {margin-top: 0;}
 	.detailNew main {position: relative;}
 	.detailNew section:not(.detailRandom):before {content: ''; width: 300px; height: 100%; position: absolute; top: 0; right: 0; z-index: 1; background: #ebf1f6;}
-	.detailNew main &gt; aside {position: relative; z-index: 2;}
-	.detailNew main &gt; aside.sticky {margin-left: 660px; position: fixed; top: 64px;}
-	.detailNew main &gt; aside.sticky.more {top: auto; bottom: 570px;}
+	.detailNew main > aside {position: relative; z-index: 2;}
+	.detailNew main > aside.sticky {margin-left: 660px; position: fixed; top: 64px;}
+	.detailNew main > aside.sticky.more {top: auto; bottom: 570px;}
 
 	.detailNew .detay .advert {height: 250px; margin: 30px 0 -30px; padding: 20px 0 0; border-top: 5px solid #E1E8EC; overflow: hidden; text-align: center;}
 	.detailNew .detay.yazarDetay .advert {margin-top: 40px;}
@@ -9988,9 +9988,9 @@ body .selectDrop ul {background:#d7dfe6;}
 
 .detay .social {margin-bottom:2px; display:inline-block; width:100%;}
 	.detay .social.alt {margin-bottom:5px;}
-	.detay .social.alt li.ekle &gt; a,
-	.detay .social.alt li.yorum &gt; a {width:145px; padding-left: 28px; box-sizing:border-box;}
-	.detay .social.alt li.yorum &gt; a:before {left: 18px;}
+	.detay .social.alt li.ekle > a,
+	.detay .social.alt li.yorum > a {width:145px; padding-left: 28px; box-sizing:border-box;}
+	.detay .social.alt li.yorum > a:before {left: 18px;}
 	.detay .social li {float:left; margin-left:1px; position:relative; z-index:2;}
 	.cropy-crop-share-button-wrapper .cropy-crop-share-button {width:160px;border-radius: 0px;margin: 0px;height: 32px;padding: 8px 20px 6px 42px;}
 	.detay .social li:first-child {margin:0;}
@@ -10002,16 +10002,16 @@ body .selectDrop ul {background:#d7dfe6;}
 	.detay .social li.tweet .sub span {background:#54b7e4;}
 	.detay .social li.google .sub span {background:#e47061;}
 	.detay .social li.face .sub span iframe {display:block; margin:0 !important; height:27px; padding:0 !important;}
-	.detay .social li &gt; a {display:block; background:#617bab url(../i/icoDetay.png?v=2) no-repeat; padding-left:32px; text-align:center; height:32px; line-height:32px; font-size:15px; color:#fff;}
-	.detay .social li.tweet &gt; a {background-color:#54b7e4; background-position:left -52px;}
-	.detay .social li.google &gt; a {background-color:#e47061; background-position:left -104px;}
-	.detay .social li.bk &gt; a {float:left; background:#2f475f; width:32px; padding:0; font-size:26px;}
-	.detay .social li.bk &gt; a:first-child + a {font-size:13px;}
-	.detay .social li.ekle &gt; a {background:none; width:193px; background:#ca3636; box-sizing:border-box; font-size:17px; position:relative;}
-	.detay .social li.ekle &gt; a:before {content:""; background:url(../i/icoPlus.png) no-repeat left 50%; width:14px; height:32px; position:absolute; left:27px; top:0;}
-	.detay .social li.yorum &gt; a {background:none; width:193px; background:#336085; box-sizing:border-box; font-size:17px; position:relative;}
-	.detay .social li.yorum &gt; a:before {content:""; background:url(../i/icoYorum.png) no-repeat left 50%; width:21px; height:32px; position:absolute; left:32px; top:0;}
-	.detay .social li.print &gt; a {width:32px; padding:0; background-position:6px -192px; background-color:#ff9933;}
+	.detay .social li > a {display:block; background:#617bab url(../i/icoDetay.png?v=2) no-repeat; padding-left:32px; text-align:center; height:32px; line-height:32px; font-size:15px; color:#fff;}
+	.detay .social li.tweet > a {background-color:#54b7e4; background-position:left -52px;}
+	.detay .social li.google > a {background-color:#e47061; background-position:left -104px;}
+	.detay .social li.bk > a {float:left; background:#2f475f; width:32px; padding:0; font-size:26px;}
+	.detay .social li.bk > a:first-child + a {font-size:13px;}
+	.detay .social li.ekle > a {background:none; width:193px; background:#ca3636; box-sizing:border-box; font-size:17px; position:relative;}
+	.detay .social li.ekle > a:before {content:""; background:url(../i/icoPlus.png) no-repeat left 50%; width:14px; height:32px; position:absolute; left:27px; top:0;}
+	.detay .social li.yorum > a {background:none; width:193px; background:#336085; box-sizing:border-box; font-size:17px; position:relative;}
+	.detay .social li.yorum > a:before {content:""; background:url(../i/icoYorum.png) no-repeat left 50%; width:21px; height:32px; position:absolute; left:32px; top:0;}
+	.detay .social li.print > a {width:32px; padding:0; background-position:6px -192px; background-color:#ff9933;}
 	.detay .social li.print .sub {left:auto; right:0; padding-top:1px;}
 	.detay .social li.print .sub span {display:block; width:64px; height:29px; color:#fff; text-align:center; background:#ffad5c;}
 	.detay .social li.print .sub span a,
@@ -10024,7 +10024,7 @@ body .selectDrop ul {background:#d7dfe6;}
 	.detay .social li.sms .sub span.cover span {display:block; padding:3px 5px; height:auto; background:none;}
 	.detay .social li.sms .sub span.cover span.top {text-align:center; font-size:15px; height:25px; line-height:25px; padding:0; background:#66cbc4;}
 	.detay .social li.sms .sub span.cover span.bottom {background:#007f76; font-size:11px; height:auto;}
-	.detay .social li.mail &gt; a {width:32px; padding:0; background-position:6px -231px; background-color:#7f3f98;}
+	.detay .social li.mail > a {width:32px; padding:0; background-position:6px -231px; background-color:#7f3f98;}
 	.detay .social li.mail .sub {left:auto; right:0; padding-top:1px;}
 	.detay .social li.mail .sub span {display:block; width:125px; height:29px; color:#fff; text-align:center; background:#9866ad;}
 	.detay .social li.ses a {width:32px; padding:0; background-position:6px -267px; background-color:#669933;}
@@ -10056,11 +10056,11 @@ body .selectDrop ul {background:#d7dfe6;}
 	.detay article p {margin-bottom:15px;}
 	.detay article p strong,
 	.detay article p b {font-weight:normal; font-family:pt_sansbold;}
-	.detay article &gt; img,
-	.detay article &gt; a img,
-	.detay article p &gt; img,
-	.detay article p &gt; a img,
-	.detay article p strong &gt; a img {max-width:100%; height: auto!important;}
+	.detay article > img,
+	.detay article > a img,
+	.detay article p > img,
+	.detay article p > a img,
+	.detay article p strong > a img {max-width:100%; height: auto!important;}
 	.detay article a {text-decoration:underline;}
 	.detay article a:hover {text-decoration:none;}
 	.detay article h3 {font-size:23px; font-family:pt_sansbold; color:#14233a; margin-bottom:15px; font-weight:normal;}
@@ -10120,10 +10120,10 @@ body .selectDrop ul {background:#d7dfe6;}
 	.detay article .videoModule.opac0 .videoWrapper .videoAbsolute .videoFixed .videoIframe {opacity: 0;}
 	.detay article .videoModule.opac1 .videoWrapper .videoAbsolute .videoFixed .videoIframe {opacity: 1; transition: opacity 0.5s linear; -moz-transition: opacity 0.5s linear; -webkit-transition: opacity 0.5s linear; -o-transition: opacity 0.5s linear;}
 
-	.detay article .videoModule.expand .videoWrapper .videoAbsolute .videoFixed &gt; .close {width: 60px; display: none; padding: 4px 3px; position: absolute; top: 0; right: 0; font-size: 13px; color: #fff; line-height: normal; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none; cursor:pointer;}
-	.detay article .videoModule.expand .videoWrapper .videoAbsolute .videoFixed &gt; .close:after {content: 'X'; width: 15px; height: 15px; display: inline-block; margin-left: 5px; background: #243858; font-size: 10px; color: #aaafb8; text-align: center; line-height: 15px;}
-	.detay article .videoModule.expand .videoWrapper .videoAbsolute .videoFixed &gt; .close:hover {background: #c31b21;}
-	.detay article .videoModule.opac1 .videoWrapper .videoAbsolute .videoFixed &gt; .close {display: block;}
+	.detay article .videoModule.expand .videoWrapper .videoAbsolute .videoFixed > .close {width: 60px; display: none; padding: 4px 3px; position: absolute; top: 0; right: 0; font-size: 13px; color: #fff; line-height: normal; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none; cursor:pointer;}
+	.detay article .videoModule.expand .videoWrapper .videoAbsolute .videoFixed > .close:after {content: 'X'; width: 15px; height: 15px; display: inline-block; margin-left: 5px; background: #243858; font-size: 10px; color: #aaafb8; text-align: center; line-height: 15px;}
+	.detay article .videoModule.expand .videoWrapper .videoAbsolute .videoFixed > .close:hover {background: #c31b21;}
+	.detay article .videoModule.opac1 .videoWrapper .videoAbsolute .videoFixed > .close {display: block;}
 	.detay article .videoModule .videoIframe {width: 600px; height: 320px;}
 
 /* canli yayin */
@@ -10215,19 +10215,19 @@ body .selectDrop ul {background:#d7dfe6;}
 	.yazarlarM .yazarList li .in span {display:block;max-height: 41px;overflow: hidden;}
 
 .yazarList {display:inline-table; width:100%;}
-	.yazarList &gt; ul &gt; li:before {content:""; width:100%; position:absolute; display:block; height:110px; left:0; bottom:0; z-index:0; border-bottom:4px solid #d11919;
+	.yazarList > ul > li:before {content:""; width:100%; position:absolute; display:block; height:110px; left:0; bottom:0; z-index:0; border-bottom:4px solid #d11919;
 		-webkit-box-shadow: 0px 0px 3px 0px rgba(154, 154, 154, 0.75);
 		-moz-box-shadow:    0px 0px 3px 0px rgba(154, 154, 154, 0.75);
 		box-shadow:         0px 0px 3px 0px rgba(154, 154, 154, 0.75);}
-	.yazarList &gt; ul &gt; li {position:relative; height:124px; display:table; width:100%; font-family:ptsansnarrowbold; margin-bottom:10px;}
+	.yazarList > ul > li {position:relative; height:124px; display:table; width:100%; font-family:ptsansnarrowbold; margin-bottom:10px;}
 	.yazarList .in {display:table-cell; vertical-align:bottom; padding:0 0 10px 171px; position:relative; z-index:1;}
-	.yazarList &gt; ul &gt; li img {position:absolute; left:0; bottom:0; margin:0 20px 4px 4px;}
-	.yazarList &gt; ul &gt; li span.date {display:block; text-align:right; font-weight:normal; font-size:13px; color:#aeb2b3; font-family:ptsans; position:absolute; top:20px; right:15px;}
-	.yazarList &gt; ul &gt; li em {display:block; font-size:15px; color:#4198d2; font-style:normal;}
-	.yazarList &gt; ul &gt; li strong {display:block; font-size:20px; color:#d11919; font-weight:normal;}
-	.yazarList &gt; ul &gt; li h1,
-	.yazarList &gt; ul &gt; li h3 {font-weight:normal; font-size:20px; padding:0; text-align:left;}
-	.yazarList &gt; ul &gt; li &gt; span {font-family:ptsansnarrow; font-size:17px; line-height:21px; max-height:63px; overflow:hidden; display:block; color:#2f475f;}
+	.yazarList > ul > li img {position:absolute; left:0; bottom:0; margin:0 20px 4px 4px;}
+	.yazarList > ul > li span.date {display:block; text-align:right; font-weight:normal; font-size:13px; color:#aeb2b3; font-family:ptsans; position:absolute; top:20px; right:15px;}
+	.yazarList > ul > li em {display:block; font-size:15px; color:#4198d2; font-style:normal;}
+	.yazarList > ul > li strong {display:block; font-size:20px; color:#d11919; font-weight:normal;}
+	.yazarList > ul > li h1,
+	.yazarList > ul > li h3 {font-weight:normal; font-size:20px; padding:0; text-align:left;}
+	.yazarList > ul > li > span {font-family:ptsansnarrow; font-size:17px; line-height:21px; max-height:63px; overflow:hidden; display:block; color:#2f475f;}
 	.yazarList ul.social {position:absolute; top:43px; right:34px; width:auto;}
 	.yazarList ul.social li a,
 	.yazarList ul.social li.face a {width:auto; text-indent:-9999px;}
@@ -10254,13 +10254,13 @@ body .selectDrop ul {background:#d7dfe6;}
 	.yazarDetay .social.alt li.tweet a,
 	.yazarDetay .social.alt li.google a {width:140px;}
 
-	.detailNew.yazarlar .yazarDetay .social li.face &gt; a,
-	.detailNew.yazarlar .yazarDetay .social li.tweet &gt; a,
-	.detailNew.yazarlar .yazarDetay .social li.google &gt; a {width: 0;}
+	.detailNew.yazarlar .yazarDetay .social li.face > a,
+	.detailNew.yazarlar .yazarDetay .social li.tweet > a,
+	.detailNew.yazarlar .yazarDetay .social li.google > a {width: 0;}
 	.detailNew.yazarlar .yazarDetay.detay .social li .sub a {width: auto;}
 	.detailNew.yazarlar .yazarDetay.detay .social li.face .sub span {width: 163px;}
-	.detailNew.yazarlar .detay .social li.ekle &gt; a,
-	.detailNew.yazarlar .detay .social li.yorum &gt; a {/*width: 225px;*/ width: 145px;}
+	.detailNew.yazarlar .detay .social li.ekle > a,
+	.detailNew.yazarlar .detay .social li.yorum > a {/*width: 225px;*/ width: 145px;}
 
 	.yazarDetay article img {margin-right:10px; margin-bottom:10px;}
 
@@ -10382,16 +10382,16 @@ ol.pDurum {width:100%;}
 	.headEcoBist h2 {background:#14233a url(../i/borsaIst.png) no-repeat 14px 9px; height:66px; text-indent:-9999px;}
 	.headEcoBist .list {width:100%; display:inline-table;}
 	.headEcoBist .list:first-child {border-top:none;}
-	.headEcoBist .list &gt; li {width:71px; height:92px; padding:16px 18px 10px 10px; float:left; border-right:1px solid #aebfcd;}
-	.headEcoBist .list &gt; li:first-child {width:100%; height:33px; line-height:33px; text-indent:8px; background:#aebfcd; font-size:20px; float:none; display:block; border:none; padding:0;}
-	.headEcoBist .list &gt; li:nth-child(2) {border-left:none;}
-	.headEcoBist .list &gt; li:nth-child(5) {border-right:none;}
+	.headEcoBist .list > li {width:71px; height:92px; padding:16px 18px 10px 10px; float:left; border-right:1px solid #aebfcd;}
+	.headEcoBist .list > li:first-child {width:100%; height:33px; line-height:33px; text-indent:8px; background:#aebfcd; font-size:20px; float:none; display:block; border:none; padding:0;}
+	.headEcoBist .list > li:nth-child(2) {border-left:none;}
+	.headEcoBist .list > li:nth-child(5) {border-right:none;}
 	/* for ie8 */
-	.headEcoBist .list &gt; li:first-child +li {border-left:none;}
-	.headEcoBist .list &gt; li:first-child +li+li+li+li {border-right:none;}
+	.headEcoBist .list > li:first-child +li {border-left:none;}
+	.headEcoBist .list > li:first-child +li+li+li+li {border-right:none;}
 	.headEcoBist .list li.up {background:url(../i/arrBorsa.png) no-repeat 10px 96px;}
 	.headEcoBist .list li.down {background:url(../i/arrBorsa.png) no-repeat -171px 96px;}
-	.headEcoBist .list &gt; li a {padding:8px; float:left;}
+	.headEcoBist .list > li a {padding:8px; float:left;}
 
 	.headEcoBist .list ol {display:block; text-align:right;}
 	.headEcoBist .list ol li {display:block; text-align:right; font-size:20px;}
@@ -10402,7 +10402,7 @@ ol.pDurum {width:100%;}
 	.headEcoBist .subGroup .link {margin-left:5px; float:left;}
 	.headEcoBist .subGroup .bistSearch {float:right; font-size:18px; color:#fff; font-weight:bold; line-height:26px;}
 	.headEcoBist .subGroup .bistSearch li {float:left; margin-right:5px;}
-	.headEcoBist .subGroup .bistSearch li &gt; span {width:82px; height:18px; display:block; padding:2px; position:relative; background:#fff; border:2px solid #7f7f7f; border-radius:5px; /*behavior:url(pie/PIE.htc);*/}
+	.headEcoBist .subGroup .bistSearch li > span {width:82px; height:18px; display:block; padding:2px; position:relative; background:#fff; border:2px solid #7f7f7f; border-radius:5px; /*behavior:url(pie/PIE.htc);*/}
 	.headEcoBist .subGroup .bistSearch li input {width:82px; margin:0; padding:0; border:none; font-size:13px;}
 	.headEcoBist .subGroup .bistSearch li .bt {display:block; padding:0 3px; font-size:18px; color:#fff;}
 	.headEcoBist .subGroup .bistSearch li .bt:hover {background:#2d2d2d; color:#ffc000; text-decoration:none;}
@@ -10454,14 +10454,14 @@ ol.pDurum {width:100%;}
 	.aGonderPop .alert.warning {background-color:#e2b630; background-position:left bottom;}
 
 .billBoardFrame {max-width: 980px; margin: 0 auto; position: relative; z-index: 11;}
-	.billBoardFrame &gt; div {margin-top: 0!important; margin-bottom: 0!important;}
+	.billBoardFrame > div {margin-top: 0!important; margin-bottom: 0!important;}
 	.billBoardFrame #bilboard_genel {margin: 5px 0;}
 
 	/*.billBoard {width:960px; margin:0 auto; position:relative; z-index:11;display:none;}
 	.billBoard .expand {height:30px; margin-bottom:10px; display:none; position:relative; overflow:hidden; z-index:50;}
 	.billBoard.close .expand {display:block;}
 	.billBoard .wrap {width:960px; display:block; position:relative; overflow:hidden; z-index:50;}
-	.billBoard .wrap &gt; div {display:inline-block; margin:auto 0px; margin-bottom:10px;}
+	.billBoard .wrap > div {display:inline-block; margin:auto 0px; margin-bottom:10px;}
 	.billBoard.close .wrap {display:none;}
 	.billBoard span {width:100px; height:17px; display:block; position:absolute; top:0px; right:0; background:url(../i/reklamKapat.png) 0 0 no-repeat; text-indent:-9999px; cursor:pointer; z-index:150;}
 	.billBoard.close span {width:100%; height:30px; background-position:right -24px;}
@@ -10522,34 +10522,34 @@ ol.pDurum {width:100%;}
 .secimInfo p {padding:10px; font-size:18px; line-height:30px;}
 
 .namazV .selectDiv {border:solid #a1a7b0; border-width:1px 0; padding:10px 0 15px; margin-bottom:15px; display:inline-block; width:100%;}
-	.namazV .selectDiv &gt; div {float:right; width:320px;}
-	.namazV .selectDiv &gt; div:first-child {float:left;}
-	.namazV .selectDiv &gt; div &gt; strong {display:block; font-size:20px; text-indent:10px; margin-bottom:5px; font-family:pt_sansbold; font-weight:normal;}
-	.namazV .selectDiv &gt; div div.selectBox {width:320px; height:36px;}
-	.namazV .selectDiv &gt; div div.selectBox .customSelect &gt; span,
-	.namazV .selectDiv &gt; div div.selectBox .customSelect &gt; span span {height:36px; line-height:36px; font-family:ptsansnarrow; border-color:#b8bcc3;}
-	.namazV .selectDiv &gt; div div.selectBox .customSelect &gt; span:after {background-image:url(../i/arrSelect4.png); height:36px; width:36px;}
+	.namazV .selectDiv > div {float:right; width:320px;}
+	.namazV .selectDiv > div:first-child {float:left;}
+	.namazV .selectDiv > div > strong {display:block; font-size:20px; text-indent:10px; margin-bottom:5px; font-family:pt_sansbold; font-weight:normal;}
+	.namazV .selectDiv > div div.selectBox {width:320px; height:36px;}
+	.namazV .selectDiv > div div.selectBox .customSelect > span,
+	.namazV .selectDiv > div div.selectBox .customSelect > span span {height:36px; line-height:36px; font-family:ptsansnarrow; border-color:#b8bcc3;}
+	.namazV .selectDiv > div div.selectBox .customSelect > span:after {background-image:url(../i/arrSelect4.png); height:36px; width:36px;}
 	.namazV .list .date {height:40px; line-height:40px; color:#fff; background:url(../i/dsnNamaz.png); box-shadow:0 0 4px 0 rgba(151,147,147,0.75); font-size:25px; padding:0 10px; margin-bottom:10px;}
-	.namazV .list .date &gt; strong {float:left; font-family:ptsansnarrowbold; font-weight:normal;}
-	.namazV .list .date &gt; strong  span {font-family:ptsansnarrow;}
-	.namazV .list .date &gt; span {float:right; font-family:ptsansnarrowbold; font-weight:normal;}
-	.namazV .list &gt; ul &gt; li {float:left; width:210px; margin:0 10px 10px 0; box-shadow:0 0 5px 0 rgba(172,166,166,0.7); overflow:hidden;}
-	.namazV .list &gt; ul &gt; li:nth-child(3n) {margin-right:0;}
-	.namazV .list &gt; ul &gt; li div.vakit {box-shadow:0 1px 3px 0 rgba(119,118,118,0.75); display:block; position:relative; z-index:1; background:url(../i/dsnNamaz2.png); font-family:pt_sansbold;}
-	.namazV .list &gt; ul &gt; li a.lokasyon {display:block; height:34px; line-height:38px; background:#132239; font-size:18px; font-weight:normal; text-indent:10px; color:#fff;}
-	.namazV .list &gt; ul &gt; li div.vakit li {height:53px; line-height:58px; font-size:19px; padding:0 15px; overflow:hidden;}
-	.namazV .list &gt; ul &gt; li div.vakit li:hover,
-	.namazV .list &gt; ul &gt; li div.vakit li.cur {background:#356a8e;}
-	.namazV .list &gt; ul &gt; li div.vakit li:hover span.txt,
-	.namazV .list &gt; ul &gt; li div.vakit li:hover span.txt span,
-	.namazV .list &gt; ul &gt; li div.vakit li.cur span.txt,
-	.namazV .list &gt; ul &gt; li div.vakit li.cur span.txt span {color:#fff; border-color:#356a8e;}
-	.namazV .list &gt; ul &gt; li div.vakit li span.txt {display:block; border-top:1px solid #bdd0de; padding:0 13px;}
-	.namazV .list &gt; ul &gt; li div.vakit li:first-child span.txt {border:0;}
-	.namazV .list &gt; ul &gt; li div.vakit li span.txt strong {float:left; font-weight:normal;}
-	.namazV .list &gt; ul &gt; li div.vakit li span.txt span {float:right; color:#4198d2;}
-	.namazV .list &gt; ul &gt; li a.tumu {background:#d6dfe6 url(../i/arrNamaz.png) no-repeat 187px 8px; display:block; height:26px; line-height:26px; text-align:center; font-size:14px; color:#4198d2; position:relative; z-index:0; font-family:ptsans;}
-	.namazV .list &gt; ul &gt; li a.tumu:hover {color:#132239;}
+	.namazV .list .date > strong {float:left; font-family:ptsansnarrowbold; font-weight:normal;}
+	.namazV .list .date > strong  span {font-family:ptsansnarrow;}
+	.namazV .list .date > span {float:right; font-family:ptsansnarrowbold; font-weight:normal;}
+	.namazV .list > ul > li {float:left; width:210px; margin:0 10px 10px 0; box-shadow:0 0 5px 0 rgba(172,166,166,0.7); overflow:hidden;}
+	.namazV .list > ul > li:nth-child(3n) {margin-right:0;}
+	.namazV .list > ul > li div.vakit {box-shadow:0 1px 3px 0 rgba(119,118,118,0.75); display:block; position:relative; z-index:1; background:url(../i/dsnNamaz2.png); font-family:pt_sansbold;}
+	.namazV .list > ul > li a.lokasyon {display:block; height:34px; line-height:38px; background:#132239; font-size:18px; font-weight:normal; text-indent:10px; color:#fff;}
+	.namazV .list > ul > li div.vakit li {height:53px; line-height:58px; font-size:19px; padding:0 15px; overflow:hidden;}
+	.namazV .list > ul > li div.vakit li:hover,
+	.namazV .list > ul > li div.vakit li.cur {background:#356a8e;}
+	.namazV .list > ul > li div.vakit li:hover span.txt,
+	.namazV .list > ul > li div.vakit li:hover span.txt span,
+	.namazV .list > ul > li div.vakit li.cur span.txt,
+	.namazV .list > ul > li div.vakit li.cur span.txt span {color:#fff; border-color:#356a8e;}
+	.namazV .list > ul > li div.vakit li span.txt {display:block; border-top:1px solid #bdd0de; padding:0 13px;}
+	.namazV .list > ul > li div.vakit li:first-child span.txt {border:0;}
+	.namazV .list > ul > li div.vakit li span.txt strong {float:left; font-weight:normal;}
+	.namazV .list > ul > li div.vakit li span.txt span {float:right; color:#4198d2;}
+	.namazV .list > ul > li a.tumu {background:#d6dfe6 url(../i/arrNamaz.png) no-repeat 187px 8px; display:block; height:26px; line-height:26px; text-align:center; font-size:14px; color:#4198d2; position:relative; z-index:0; font-family:ptsans;}
+	.namazV .list > ul > li a.tumu:hover {color:#132239;}
 
 .sehirList {padding:15px; display:inline-block; width:100%; box-sizing:border-box;}
 	.sehirList strong {display:block; color:#75b6e3; font-size:18px; font-family:pt_sansbold; font-weight:normal; padding-bottom:5px; border-bottom:1px solid #132239; margin-bottom:10px;}
@@ -10575,9 +10575,9 @@ ol.pDurum {width:100%;}
 	.nDetay .tablo .head {height:38px; background:#4198d2; line-height:38px; padding:0 0 0 10px;}
 	.nDetay .tablo .head strong {float:left; font-family:ptsansnarrowbold; color:#fff; font-size:20px; font-weight:normal;}
 	.nDetay .tablo .head div.selectBox {float:right; width:160px;}
-	.nDetay .tablo .head div.selectBox .customSelect &gt; span {background:#67addb; width:160px; height:38px; border:0; padding:0; line-height:38px;}
-	.nDetay .tablo .head div.selectBox .customSelect &gt; span span {color:#fff; height:38px; line-height:38px; text-indent:10px; padding:0; font-family:ptsansnarrow; font-size:18px; font-weight:normal;}
-	.nDetay .tablo .head div.selectBox .customSelect &gt; span:after {height:38px; margin-right:10px; background:url(../i/arrSelect2.png?v=1) no-repeat 50% 50%;}
+	.nDetay .tablo .head div.selectBox .customSelect > span {background:#67addb; width:160px; height:38px; border:0; padding:0; line-height:38px;}
+	.nDetay .tablo .head div.selectBox .customSelect > span span {color:#fff; height:38px; line-height:38px; text-indent:10px; padding:0; font-family:ptsansnarrow; font-size:18px; font-weight:normal;}
+	.nDetay .tablo .head div.selectBox .customSelect > span:after {height:38px; margin-right:10px; background:url(../i/arrSelect2.png?v=1) no-repeat 50% 50%;}
 	.nDetay .tablo table {width:100%; font-size:20px; font-family:ptsansnarrowbold;}
 	.nDetay .tablo th {height:38px; color:#fff; background:#2874a6; font-weight:normal; line-height:38px;}
 	.nDetay .tablo td {width:89px; text-align:center; height:42px; border-left:1px solid #aab5c6; line-height:42px; color:#2874a6;}
@@ -10593,7 +10593,7 @@ body.ramazan .nDetay .titIms {display:block; background:#4c3041; height:30px; li
 	body.ramazan .nDetay .content .kalan span {color:#132239;}
 	body.ramazan .nDetay .tablo table {font-family:inherit;}
 	body.ramazan .nDetay .tablo .head {background:#674559;}
-	body.ramazan .nDetay .tablo .head div.selectBox .customSelect &gt; span {background:#856a7a;}
+	body.ramazan .nDetay .tablo .head div.selectBox .customSelect > span {background:#856a7a;}
 	body.ramazan .nDetay .tablo th {background:#4c3041;}
 	body.ramazan .nDetay .tablo tr:nth-child(even) td {background:#f5eff3;}
 	body.ramazan .nDetay .tablo td {width:70px; font-size:18px; color:#674559; border-color:#ddd2d8;}
@@ -10636,7 +10636,7 @@ main.siteneEkle section {display:table-cell; width:772px; float:none; vertical-a
 	main.siteneEkle section .form td select {width:203px; height:20px;}
 	main.siteneEkle section .form td .selectBox {width:203px; height:24px;}
 	main.siteneEkle section .form td .selectBox span {color:#567693 !important;}
-	main.siteneEkle section .form td .selectBox .customSelect &gt; span:after {background-image:url(../i/arrSelectForm.png); width:33px;}
+	main.siteneEkle section .form td .selectBox .customSelect > span:after {background-image:url(../i/arrSelectForm.png); width:33px;}
 	main.siteneEkle section .form td input {width:197px; height:18px; border:0; padding:3px;}
 	main.siteneEkle section .form td input.check {display:none; width:auto; height:auto;}
 	main.siteneEkle section .form td label {width:20px; height:20px; background:#fff; display:block; padding:4px;}
@@ -10694,13 +10694,13 @@ aside .row {display:inline-block; width:100%; margin-bottom:10px;}
 
 
 .havaDurumu .selectDiv {border:solid #99ddd8; border-width:1px 0; padding:10px 0 15px; margin-bottom:15px; display:inline-block; width:100%; color:#00a99d;}
-	.havaDurumu .selectDiv &gt; div {float:right; width:320px;}
-	.havaDurumu .selectDiv &gt; div:first-child {float:left;}
-	.havaDurumu .selectDiv &gt; div &gt; strong {display:block; font-size:20px; text-indent:10px; margin-bottom:5px; font-family:pt_sansbold; font-weight:normal;}
-	.havaDurumu .selectDiv &gt; div div.selectBox {width:320px; height:36px;}
-	.havaDurumu .selectDiv &gt; div div.selectBox .customSelect &gt; span,
-	.havaDurumu .selectDiv &gt; div div.selectBox .customSelect &gt; span span {height:36px; line-height:36px; font-family:ptsansnarrow; border-color:#99ddd8; color:#99ddd8;}
-	.havaDurumu .selectDiv &gt; div div.selectBox .customSelect &gt; span:after {background-image:url(../i/arrSelect5.png); height:36px; width:36px;}
+	.havaDurumu .selectDiv > div {float:right; width:320px;}
+	.havaDurumu .selectDiv > div:first-child {float:left;}
+	.havaDurumu .selectDiv > div > strong {display:block; font-size:20px; text-indent:10px; margin-bottom:5px; font-family:pt_sansbold; font-weight:normal;}
+	.havaDurumu .selectDiv > div div.selectBox {width:320px; height:36px;}
+	.havaDurumu .selectDiv > div div.selectBox .customSelect > span,
+	.havaDurumu .selectDiv > div div.selectBox .customSelect > span span {height:36px; line-height:36px; font-family:ptsansnarrow; border-color:#99ddd8; color:#99ddd8;}
+	.havaDurumu .selectDiv > div div.selectBox .customSelect > span:after {background-image:url(../i/arrSelect5.png); height:36px; width:36px;}
 	.havaDurumu .sList li {float:left; margin:0 10px 10px 0;}
 	.havaDurumu .sList li a {width:174px; height:254px; display:block; background:url(../i/havaSehir.jpg); padding:18px; color:#fff; font-family:"ptsans"; text-shadow:0 1px 1px rgba(0,0,0,0.5);}
 	.havaDurumu .sList li.ankara a {background-position:-220px top;}
@@ -10831,9 +10831,9 @@ aside .row {display:inline-block; width:100%; margin-bottom:10px;}
 
 .imsakiye .main {padding:10px; background:url(../i/dsnRmzn2.png) #f5eff3;}
 	.imsakiye .main .selectBox {width:278px; height:34px; border:1px solid #836778; background:rgba(255,255,255,0.8); margin-bottom:15px;}
-	.imsakiye .main .selectBox .customSelect &gt; span {height:32px; background:none;}
-	.imsakiye .main .selectBox .customSelect &gt; span span {height:34px; line-height:34px; font-family:"ptsans"; font-weight:normal; color:#674559; font-size:15px;}
-	.imsakiye .main .selectBox .customSelect &gt; span:after {height:34px; width:34px; background-image:url(../i/arrRmzn.png);}
+	.imsakiye .main .selectBox .customSelect > span {height:32px; background:none;}
+	.imsakiye .main .selectBox .customSelect > span span {height:34px; line-height:34px; font-family:"ptsans"; font-weight:normal; color:#674559; font-size:15px;}
+	.imsakiye .main .selectBox .customSelect > span:after {height:34px; width:34px; background-image:url(../i/arrRmzn.png);}
 	.imsakiye .main strong.tit {display:block; font-family:"pt_sansbold"; font-size:18px; height:44px; line-height:50px; border:solid #132239; border-width:1px 0; font-weight:normal; text-align:center; overflow:hidden;}
 	.imsakiye .main li {font-family:"pt_sansbold"; font-size:19px; height:46px; border-top:1px solid #ddd2d8; line-height:50px; overflow:hidden;}
 	.imsakiye .main li.current {background:#856a7a;}
@@ -10858,29 +10858,29 @@ aside .row {display:inline-block; width:100%; margin-bottom:10px;}
 	.mainPImg img {width:100%; display:block;}
 
 .sansOyunlari {padding:0 0 33px;}
-	.sansOyunlari &gt; ul {display:table; width:100%;}
-	.sansOyunlari &gt; ul &gt; li {display:table-cell; width:25%; position:relative; color:#5f7494; padding:10px 0;}
-	.sansOyunlari &gt; ul &gt; li .in {width:100%; height:146px; padding:0 10px; box-sizing:border-box; border-left:1px solid #e6e6e6;}
-	.sansOyunlari &gt; ul &gt; li:first-child .in {border:0;}
-	.sansOyunlari &gt; ul &gt; li a.go {position:absolute; left:0; bottom:-33px; background:#8e9eb6 url(../i/arrSans.png) no-repeat 132px 11px; box-shadow:inset 0 2px 6px -4px rgba(0,0,0,0.75); width:100%; height:33px; line-height:32px; color:#fff; box-sizing:border-box; text-indent:22px; font-size:14px; border-left:1px solid #fff;}
-	.sansOyunlari &gt; ul &gt; li:first-child a.go {border:0;}
-	.sansOyunlari &gt; ul &gt; li a.logo {display:block; background:url(../i/logosSans.png?v=1) no-repeat -10px; height:73px; position:relative; margin-bottom:18px;}
-	.sansOyunlari &gt; ul &gt; li a.logo:hover {top:-2px; position:relative;}
-	.sansOyunlari &gt; ul &gt; li a.logo:before {content:""; position:absolute; background:#e6e6e6; width:75px; height:1px; left:33px; bottom:1px;}
-	.sansOyunlari &gt; ul &gt; li.mp {background:#4198d2; color:#fff;}
-	.sansOyunlari &gt; ul &gt; li.mp a.logo {background:url(../i/logoMPB.png) no-repeat 50% 16px;}
-	.sansOyunlari &gt; ul &gt; li.mp a.logo:before {background-color:#fff;}
-	.sansOyunlari &gt; ul &gt; li.mp a.go {background-color:#ecf5fb; background-image:url(../i/arrMp.png); color:#4198d2;}
-	.sansOyunlari &gt; ul &gt; li.sansT a.logo {background-position:-173px top;}
-	.sansOyunlari &gt; ul &gt; li.sayisal a.logo {background-position:-336px top;}
-	.sansOyunlari &gt; ul &gt; li.superL a.logo {background-position:-499px top;}
-	.sansOyunlari &gt; ul &gt; li strong {font-family:ptsansnarrowbold; font-weight:normal; font-size:18px; display:block; text-align:center;}
-	.sansOyunlari &gt; ul &gt; li span {display:block; font-size:16px; text-align:center; margin-bottom:15px;}
-	.sansOyunlari &gt; ul &gt; li ul {display:inline-block;}
-	.sansOyunlari &gt; ul &gt; li li {float:left; width:20px; height:20px; color:#fff; background:#6e809c; text-align:center; line-height:20px; font-size:14px; margin:0 0 3px 3px;}
-	.sansOyunlari &gt; ul &gt; li li:first-child {margin-right:0;}
-	.sansOyunlari &gt; ul &gt; li li.arti {background:#d11919; font-size:16px; line-height:18px;}
-	.sansOyunlari.snc &gt; ul &gt; li .in {margin-bottom:0; height:auto; padding-bottom:18px;}
+	.sansOyunlari > ul {display:table; width:100%;}
+	.sansOyunlari > ul > li {display:table-cell; width:25%; position:relative; color:#5f7494; padding:10px 0;}
+	.sansOyunlari > ul > li .in {width:100%; height:146px; padding:0 10px; box-sizing:border-box; border-left:1px solid #e6e6e6;}
+	.sansOyunlari > ul > li:first-child .in {border:0;}
+	.sansOyunlari > ul > li a.go {position:absolute; left:0; bottom:-33px; background:#8e9eb6 url(../i/arrSans.png) no-repeat 132px 11px; box-shadow:inset 0 2px 6px -4px rgba(0,0,0,0.75); width:100%; height:33px; line-height:32px; color:#fff; box-sizing:border-box; text-indent:22px; font-size:14px; border-left:1px solid #fff;}
+	.sansOyunlari > ul > li:first-child a.go {border:0;}
+	.sansOyunlari > ul > li a.logo {display:block; background:url(../i/logosSans.png?v=1) no-repeat -10px; height:73px; position:relative; margin-bottom:18px;}
+	.sansOyunlari > ul > li a.logo:hover {top:-2px; position:relative;}
+	.sansOyunlari > ul > li a.logo:before {content:""; position:absolute; background:#e6e6e6; width:75px; height:1px; left:33px; bottom:1px;}
+	.sansOyunlari > ul > li.mp {background:#4198d2; color:#fff;}
+	.sansOyunlari > ul > li.mp a.logo {background:url(../i/logoMPB.png) no-repeat 50% 16px;}
+	.sansOyunlari > ul > li.mp a.logo:before {background-color:#fff;}
+	.sansOyunlari > ul > li.mp a.go {background-color:#ecf5fb; background-image:url(../i/arrMp.png); color:#4198d2;}
+	.sansOyunlari > ul > li.sansT a.logo {background-position:-173px top;}
+	.sansOyunlari > ul > li.sayisal a.logo {background-position:-336px top;}
+	.sansOyunlari > ul > li.superL a.logo {background-position:-499px top;}
+	.sansOyunlari > ul > li strong {font-family:ptsansnarrowbold; font-weight:normal; font-size:18px; display:block; text-align:center;}
+	.sansOyunlari > ul > li span {display:block; font-size:16px; text-align:center; margin-bottom:15px;}
+	.sansOyunlari > ul > li ul {display:inline-block;}
+	.sansOyunlari > ul > li li {float:left; width:20px; height:20px; color:#fff; background:#6e809c; text-align:center; line-height:20px; font-size:14px; margin:0 0 3px 3px;}
+	.sansOyunlari > ul > li li:first-child {margin-right:0;}
+	.sansOyunlari > ul > li li.arti {background:#d11919; font-size:16px; line-height:18px;}
+	.sansOyunlari.snc > ul > li .in {margin-bottom:0; height:auto; padding-bottom:18px;}
 
 .addsMain {background: #f3f2f2;}
 	.addsMain ul {display: inline-block; padding: 10px 0; vertical-align: top; text-align: center;}
@@ -10964,9 +10964,9 @@ aside .sansOyunlari ul {padding:0 15px 10px; box-sizing:border-box;}
 	.sonucM .top .info strong {float:left; font-size:18px; color:#d11919; margin-right:10px; font-weight:normal; line-height:25px;}
 	.sonucM .top .info em {float:left; font-style:normal; font-size:18px; color:#5f7494; font-family:"pt_sansbold"; line-height:30px;}
 	.sonucM .top .info div.selectBox {float:left; height:23px; width:135px; border:1px solid #5f7494; box-shadow:none; margin-right:10px;}
-	.sonucM .top .info div.selectBox .customSelect &gt; span {border:0;}
-	.sonucM .top .info div.selectBox .customSelect &gt; span span {font-size:18px; color:#5f7494; font-family:"pt_sansbold"; line-height:28px;}
-	.sonucM .top .info div.selectBox .customSelect &gt; span:after {width:34px; height:23px; top:0;}
+	.sonucM .top .info div.selectBox .customSelect > span {border:0;}
+	.sonucM .top .info div.selectBox .customSelect > span span {font-size:18px; color:#5f7494; font-family:"pt_sansbold"; line-height:28px;}
+	.sonucM .top .info div.selectBox .customSelect > span:after {width:34px; height:23px; top:0;}
 	.sonucM .sonuc {height:113px; background:#eff1f4; display:table; width:540px; padding:0 55px;}
 	.sonucM .sonuc ul {display:table-cell; vertical-align:middle; text-align:center;}
 	.sonucM .sonuc li {display:inline-block; width:40px; height:40px; line-height:46px; text-align:center; background:#d11919; color:#fff; border-radius:50%; font-family:"pt_sansbold"; font-size:18px; margin:4px;}
@@ -10985,9 +10985,9 @@ aside .sansOyunlari ul {padding:0 15px 10px; box-sizing:border-box;}
 	.mPiyango li {float:left; width:100%; margin-bottom:18px;}
 	.mPiyango li span {float:left; width:110px; font-size:18px; color:#4198d2; line-height:25px;}
 	.mPiyango li .selectBox {float:left; width:229px; height:23px; border:1px solid #3399cc; background:#fff;}
-	.mPiyango li .selectBox .customSelect &gt; span {background:none; border:0; width:100%; box-sizing:border-box;}
-	.mPiyango li .selectBox .customSelect &gt; span span {width:100%; box-sizing:border-box; font-size:18px; color:#5f7494; font-family:"pt_sansbold"; line-height:28px;}
-	.mPiyango li .selectBox .customSelect &gt; span:after {top:0; background-image:url(../i/arr254.png);}
+	.mPiyango li .selectBox .customSelect > span {background:none; border:0; width:100%; box-sizing:border-box;}
+	.mPiyango li .selectBox .customSelect > span span {width:100%; box-sizing:border-box; font-size:18px; color:#5f7494; font-family:"pt_sansbold"; line-height:28px;}
+	.mPiyango li .selectBox .customSelect > span:after {top:0; background-image:url(../i/arr254.png);}
 	.mPiyango li input {float:left; width:229px; height:23px; border:1px solid #3399cc; background:#fff;}
 	.mPiyango li a {float:left; width:105px; height:25px; background:#4198d2; color:#fff; text-align:center; line-height:25px; font-size:16px; margin-left:15px;}
 	.mPiyango li a:first-child {margin:0;}
@@ -11025,82 +11025,82 @@ main .mansetD {display:block; height:207px; margin:0 0 10px 0; width:100%; posit
 	main .mansetD:hover .next {opacity:1;}
 
 .detay article a.sty1,
-.galleryDetail ul &gt; li figcaption a.sty1 {background:#16243e; font-size: 26px; color:#fff; line-height: normal; font-family:ptsansnarrowbold; text-align:center; text-decoration: inherit; display:inline-block; box-sizing:border-box; width:100%; text-shadow:-2px -5px 5px rgba(0,0,0,0.75); margin-bottom:10px;}
-	.detay article a.sty1 &gt; span,
-	.galleryDetail ul &gt; li figcaption a.sty1 &gt; span {display: block; padding: 5px;}
+.galleryDetail ul > li figcaption a.sty1 {background:#16243e; font-size: 26px; color:#fff; line-height: normal; font-family:ptsansnarrowbold; text-align:center; text-decoration: inherit; display:inline-block; box-sizing:border-box; width:100%; text-shadow:-2px -5px 5px rgba(0,0,0,0.75); margin-bottom:10px;}
+	.detay article a.sty1 > span,
+	.galleryDetail ul > li figcaption a.sty1 > span {display: block; padding: 5px;}
 	.detay article a.sty1 img,
-	.galleryDetail ul &gt; li figcaption a.sty1 img {max-width:inherit; height:110px !important; float:left; margin: 0 10px;}
+	.galleryDetail ul > li figcaption a.sty1 img {max-width:inherit; height:110px !important; float:left; margin: 0 10px;}
 	.detay article a.sty1 strong,
-	.galleryDetail ul &gt; li figcaption a.sty1 strong {/*display:table-cell; vertical-align:middle; padding:15px 10px; line-height:40px; max-height:80px; overflow:hidden; font-weight:normal;*/display: block; height: 100px; position: relative; overflow:hidden; font-weight: normal;
+	.galleryDetail ul > li figcaption a.sty1 strong {/*display:table-cell; vertical-align:middle; padding:15px 10px; line-height:40px; max-height:80px; overflow:hidden; font-weight:normal;*/display: block; height: 100px; position: relative; overflow:hidden; font-weight: normal;
 		-webkit-box-sizing: border-box;
 		   -moz-box-sizing: border-box;
 		        box-sizing: border-box;
 	}
 	.detay article a.sty1 strong em,
-	.galleryDetail ul &gt; li figcaption a.sty1 strong em {/*line-height:48px; max-height:95px; overflow:hidden; font-style:normal; display:block;*/ width: 95%; display: block; overflow:hidden;  position: absolute; top: 50%; left: 10px; transform: translate(0, -50%); font-style:normal;}
+	.galleryDetail ul > li figcaption a.sty1 strong em {/*line-height:48px; max-height:95px; overflow:hidden; font-style:normal; display:block;*/ width: 95%; display: block; overflow:hidden;  position: absolute; top: 50%; left: 10px; transform: translate(0, -50%); font-style:normal;}
 	.detay article a.sty1 em + strong,
-	.galleryDetail ul &gt; li figcaption a.sty1 em + strong {/*font-size:32px; padding:0 10px; font-weight:normal;*/display: block;}
+	.galleryDetail ul > li figcaption a.sty1 em + strong {/*font-size:32px; padding:0 10px; font-weight:normal;*/display: block;}
 
 	.detay article a.sty1 div,
-	.galleryDetail ul &gt; li figcaption a.sty1 div {padding:15px 10px; height:80px; position: relative; overflow:hidden;}
+	.galleryDetail ul > li figcaption a.sty1 div {padding:15px 10px; height:80px; position: relative; overflow:hidden;}
 	.detay article a.sty1 div span,
-	.galleryDetail ul &gt; li figcaption a.sty1 div span {display: block; overflow:hidden;  position: absolute; top: 50%; left: 10px; transform: translate(0, -50%);}
+	.galleryDetail ul > li figcaption a.sty1 div span {display: block; overflow:hidden;  position: absolute; top: 50%; left: 10px; transform: translate(0, -50%);}
 	.detay article a.sty1 em + div,
-	.galleryDetail ul &gt; li figcaption a.sty1 em + div {height: 100px; padding:0 10px;}
+	.galleryDetail ul > li figcaption a.sty1 em + div {height: 100px; padding:0 10px;}
 
 .detay article a.sty2,
-.galleryDetail ul &gt; li figcaption a.sty2 {background:url(../i/bgLinksG.png); font-size:26px; color:#202e44; font-family:ptsansnarrowbold; text-align:center; text-decoration: inherit; line-height: normal; display: table; box-sizing:border-box; width:100%; margin-bottom:10px; position:relative; min-height:80px; overflow:hidden; border-left:5px solid #c20430;
+.galleryDetail ul > li figcaption a.sty2 {background:url(../i/bgLinksG.png); font-size:26px; color:#202e44; font-family:ptsansnarrowbold; text-align:center; text-decoration: inherit; line-height: normal; display: table; box-sizing:border-box; width:100%; margin-bottom:10px; position:relative; min-height:80px; overflow:hidden; border-left:5px solid #c20430;
 	-webkit-box-shadow: 0px 0px 3px 0px rgba(154, 154, 154, 0.75);
 	-moz-box-shadow:    0px 0px 3px 0px rgba(154, 154, 154, 0.75);
 	box-shadow:         0px 0px 3px 0px rgba(154, 154, 154, 0.75);
 }
-	.detay article a.sty2 &gt; span,
-	.galleryDetail ul &gt; li figcaption a.sty2 &gt; span {display: block; padding:5px;}
+	.detay article a.sty2 > span,
+	.galleryDetail ul > li figcaption a.sty2 > span {display: block; padding:5px;}
 	.detay article a.sty2 img,
-	.galleryDetail ul &gt; li figcaption a.sty2 img {max-width: inherit; height:110px!important; float:left; margin: 0 2px;}
+	.galleryDetail ul > li figcaption a.sty2 img {max-width: inherit; height:110px!important; float:left; margin: 0 2px;}
 	.detay article a.sty2 strong,
-	.galleryDetail ul &gt; li figcaption a.sty2 strong {/*display:table-cell; vertical-align:middle; height:80px; padding:0 35px 0 10px; line-height: normal; font-weight:normal;*/display: block; height: 100px; position: relative; overflow: hidden; font-weight: normal;
+	.galleryDetail ul > li figcaption a.sty2 strong {/*display:table-cell; vertical-align:middle; height:80px; padding:0 35px 0 10px; line-height: normal; font-weight:normal;*/display: block; height: 100px; position: relative; overflow: hidden; font-weight: normal;
 		-webkit-box-sizing: border-box;
 		   -moz-box-sizing: border-box;
 		        box-sizing: border-box;
 	}
 	.detay article a.sty2 em + strong,
-	.galleryDetail ul &gt; li figcaption a.sty2 em + strong {/*padding:7px 35px 0 10px; vertical-align:middle; font-weight:normal;*/height: 110px; padding:7px 35px 0 10px;}
+	.galleryDetail ul > li figcaption a.sty2 em + strong {/*padding:7px 35px 0 10px; vertical-align:middle; font-weight:normal;*/height: 110px; padding:7px 35px 0 10px;}
 	.detay article a.sty2:before,
-	.galleryDetail ul &gt; li figcaption a.sty2:before {content:""; position:absolute; top: auto!important; left: auto!important; right:-45px; bottom:-45px; width:0!important; height:0!important; background: none; border:45px solid #c20430; border-bottom-color:transparent; border-right-color:transparent; border-top-color:transparent; transform:rotate(45deg); -webkit-transform:rotate(45deg); transition:none;}
+	.galleryDetail ul > li figcaption a.sty2:before {content:""; position:absolute; top: auto!important; left: auto!important; right:-45px; bottom:-45px; width:0!important; height:0!important; background: none; border:45px solid #c20430; border-bottom-color:transparent; border-right-color:transparent; border-top-color:transparent; transform:rotate(45deg); -webkit-transform:rotate(45deg); transition:none;}
 	.detay article a.sty2:after,
-	.galleryDetail ul &gt; li figcaption a.sty2:after {content:""; position:absolute; bottom:5px; right:5px; background:url('../i/icoLinks.png'); width:28px; height:22px;}
+	.galleryDetail ul > li figcaption a.sty2:after {content:""; position:absolute; bottom:5px; right:5px; background:url('../i/icoLinks.png'); width:28px; height:22px;}
 	.detay article a.sty2:hover:after,
-	.galleryDetail ul &gt; li figcaption a.sty2:hover:after {right:6px; bottom:6px;}
+	.galleryDetail ul > li figcaption a.sty2:hover:after {right:6px; bottom:6px;}
 	.detay article a.sty2.video,
 	.detay article a.sty2.video:before,
-	.galleryDetail ul &gt; li figcaption a.sty2.video,
-	.galleryDetail ul &gt; li figcaption a.sty2.video:before {border-left-color:#009bdf;}
+	.galleryDetail ul > li figcaption a.sty2.video,
+	.galleryDetail ul > li figcaption a.sty2.video:before {border-left-color:#009bdf;}
 	.detay article a.sty2.video:after,
-	.galleryDetail ul &gt; li figcaption a.sty2.video:after {background-position:left -82px; width:30px; height:30px; top: auto!important; left: auto!important; right:4px; bottom:4px; border: 0;}
+	.galleryDetail ul > li figcaption a.sty2.video:after {background-position:left -82px; width:30px; height:30px; top: auto!important; left: auto!important; right:4px; bottom:4px; border: 0;}
 	.detay article a.sty2.video:hover:after,
-	.galleryDetail ul &gt; li figcaption a.sty2.video:hover:after {right:5px; bottom:5px;}
+	.galleryDetail ul > li figcaption a.sty2.video:hover:after {right:5px; bottom:5px;}
 	.detay article a.sty2.plus,
 	.detay article a.sty2.plus:before,
-	.galleryDetail ul &gt; li figcaption a.sty2.plus,
-	.galleryDetail ul &gt; li figcaption a.sty2.plus:before {border-left-color:#62b1bd;}
+	.galleryDetail ul > li figcaption a.sty2.plus,
+	.galleryDetail ul > li figcaption a.sty2.plus:before {border-left-color:#62b1bd;}
 	.detay article a.sty2.plus:after,
-	.galleryDetail ul &gt; li figcaption a.sty2.plus:after {background-position:left -42px; width:20px; height:20px; right:9px; bottom:6px;}
+	.galleryDetail ul > li figcaption a.sty2.plus:after {background-position:left -42px; width:20px; height:20px; right:9px; bottom:6px;}
 	.detay article a.sty2.plus:hover:after,
-	.galleryDetail ul &gt; li figcaption a.sty2.plus:hover:after {right:10px !important; bottom:7px !important;}
+	.galleryDetail ul > li figcaption a.sty2.plus:hover:after {right:10px !important; bottom:7px !important;}
 	.detay article a.sty2 strong em,
-	.galleryDetail ul &gt; li figcaption a.sty2 strong em {/*line-height:40px; max-height:80px; overflow:hidden; font-style:normal; display:block; width:440px;*/width: 95%; display: block; overflow:hidden; display:block; position: absolute; top: 50%; left: 10px; transform: translate(0, -50%); font-style:normal;}
+	.galleryDetail ul > li figcaption a.sty2 strong em {/*line-height:40px; max-height:80px; overflow:hidden; font-style:normal; display:block; width:440px;*/width: 95%; display: block; overflow:hidden; display:block; position: absolute; top: 50%; left: 10px; transform: translate(0, -50%); font-style:normal;}
 	.detay article a.sty2 em + strong em,
-	.galleryDetail ul &gt; li figcaption a.sty2 em + strong em {}
+	.galleryDetail ul > li figcaption a.sty2 em + strong em {}
 
 	.detay article a.sty2 div,
-	.galleryDetail ul &gt; li figcaption a.sty2 div {height: 80px; padding:0 35px 0 10px; position: relative; overflow: hidden;}
+	.galleryDetail ul > li figcaption a.sty2 div {height: 80px; padding:0 35px 0 10px; position: relative; overflow: hidden;}
 	.detay article a.sty2 em + div,
-	.galleryDetail ul &gt; li figcaption a.sty2 em + div {height: 100px; padding:7px 35px 0 10px;}
+	.galleryDetail ul > li figcaption a.sty2 em + div {height: 100px; padding:7px 35px 0 10px;}
 	.detay article a.sty2 div span,
-	.galleryDetail ul &gt; li figcaption a.sty2 div span {overflow:hidden; display:block; width:430px; position: absolute; top: 50%; left: 10px; transform: translate(0, -50%);}
+	.galleryDetail ul > li figcaption a.sty2 div span {overflow:hidden; display:block; width:430px; position: absolute; top: 50%; left: 10px; transform: translate(0, -50%);}
 	.detay article a.sty2 em + div span,
-	.galleryDetail ul &gt; li figcaption a.sty2 em + div span {width:246px;}
+	.galleryDetail ul > li figcaption a.sty2 em + div span {width:246px;}
 
 body.astroloji section .row {display:inline-block; width:100%; margin-bottom:10px;}
 
@@ -11256,8 +11256,8 @@ aside .burclarB {height:225px;}
 	aside .burclarB li a strong span {font-size:12px; width:100%; padding:0; margin-top:5px; border:0;}
 	aside .burclarB li a strong span.brc {display:inline-block; border-bottom:1px solid #fff; font-style:normal; font-size:20px; width:auto; padding:0; margin:0; padding-bottom:3px; font-family:ptsansnarrowbold; font-weight:normal;}
 
-	aside .burclarB &gt; h2 {margin:0px;display: block;position: relative; color: #fff ;font: 15px/26px 'Roboto Slab', serif;font-weight: 700;height: 26px;padding: 0 10px;background-color: #42285a;}
-	aside .burclarB &gt; h2 a {display:block; color:#ffffff;}
+	aside .burclarB > h2 {margin:0px;display: block;position: relative; color: #fff ;font: 15px/26px 'Roboto Slab', serif;font-weight: 700;height: 26px;padding: 0 10px;background-color: #42285a;}
+	aside .burclarB > h2 a {display:block; color:#ffffff;}
 .burcSec {padding:40px 65px; position:relative;}
 	.burcSec:before {content:""; position:absolute; background:url(../i/astro/arrAstroH.png); width:10px; height:17px; left:319px; top:52px;}
 	.burcSec.aktif:before {background-position:left -375px;}
@@ -11408,33 +11408,33 @@ body.astroloji .yorumlar {height:49px; padding:0 15px; background:#f3d7de; posit
 	body.astroloji .yorumlar h1 {display:block; height:48px; border-bottom:1px solid #c1395c; line-height:48px; color:#c1395c; font-family:ptsansnarrowbold; font-size:24px; font-weight:normal;}
 	body.astroloji .yorumlar .selectBox {position:absolute !important; right:15px; bottom:0; width:152px; height:34px; line-height:34px; background:#fbf3f5; border:1px solid #c1395c;}
 	body.astroloji .yorumlar .selectBox .customSelect {height:100%;}
-	body.astroloji .yorumlar .selectBox .customSelect &gt; span {background:none; padding:0; border:0; height:100%;}
-	body.astroloji .yorumlar .selectBox .customSelect &gt; span span {height:100%; line-height:inherit; font-family:ptsansnarrow; color:#c44465; font-weight:normal; font-size:16px;}
-	body.astroloji .yorumlar .selectBox .customSelect &gt; span:after {background:url(../i/astro/arrAstro.png) 50% -106px no-repeat; width:34px; height:34px;}
+	body.astroloji .yorumlar .selectBox .customSelect > span {background:none; padding:0; border:0; height:100%;}
+	body.astroloji .yorumlar .selectBox .customSelect > span span {height:100%; line-height:inherit; font-family:ptsansnarrow; color:#c44465; font-weight:normal; font-size:16px;}
+	body.astroloji .yorumlar .selectBox .customSelect > span:after {background:url(../i/astro/arrAstro.png) 50% -106px no-repeat; width:34px; height:34px;}
 
 body.astroloji .yorumlar.gun {background:#f3d7de !important;}
 	body.astroloji .yorumlar.gun .selectBox {background:#fbf3f5 !important;}
 	body.astroloji .yorumlar.gun strong,
 	body.astroloji .yorumlar.gun h1,
 	body.astroloji .yorumlar.gun .selectBox,
-	body.astroloji .yorumlar.gun .selectBox .customSelect &gt; span span {border-color:#c44465 !important; color:#c44465 !important;}
-	body.astroloji .yorumlar.gun .selectBox .customSelect &gt; span:after {background-position:50% 12px !important;}
+	body.astroloji .yorumlar.gun .selectBox .customSelect > span span {border-color:#c44465 !important; color:#c44465 !important;}
+	body.astroloji .yorumlar.gun .selectBox .customSelect > span:after {background-position:50% 12px !important;}
 
 body.astroloji .yorumlar.ay {background-color:#e9d5e2 !important;}
 	body.astroloji .yorumlar.ay .selectBox {background:#f8f2f6 !important;}
 	body.astroloji .yorumlar.ay strong,
 	body.astroloji .yorumlar.ay h1,
 	body.astroloji .yorumlar.ay .selectBox,
-	body.astroloji .yorumlar.ay .selectBox .customSelect &gt; span span {border-color:#932b6c !important; color:#932b6c !important;}
-	body.astroloji .yorumlar.ay .selectBox .customSelect &gt; span:after {background-position:50% -47px !important;}
+	body.astroloji .yorumlar.ay .selectBox .customSelect > span span {border-color:#932b6c !important; color:#932b6c !important;}
+	body.astroloji .yorumlar.ay .selectBox .customSelect > span:after {background-position:50% -47px !important;}
 
 body.astroloji .yorumlar.yil {background-color:#dbd6e0 !important;}
 	body.astroloji .yorumlar.yil .selectBox {background:#f4f3f6 !important;}
 	body.astroloji .yorumlar.yil strong,
 	body.astroloji .yorumlar.yil h1,
 	body.astroloji .yorumlar.yil .selectBox,
-	body.astroloji .yorumlar.yil .selectBox .customSelect &gt; span span {border-color:#4b3065 !important; color:#4b3065 !important;}
-	body.astroloji .yorumlar.yil .selectBox .customSelect &gt; span:after {background-position:50% -106px !important;}
+	body.astroloji .yorumlar.yil .selectBox .customSelect > span span {border-color:#4b3065 !important; color:#4b3065 !important;}
+	body.astroloji .yorumlar.yil .selectBox .customSelect > span:after {background-position:50% -106px !important;}
 
 	body.astroloji .yorumlar a {color:inherit;}
 	body.astroloji aside .yorumlar {height:auto;    padding-bottom: 8px;}
@@ -11454,22 +11454,22 @@ body.astroloji .yorumlar.yil {background-color:#dbd6e0 !important;}
 	.selectDrop.yilO ul li {color:#fff !important;}
 	.selectDrop.yilO ul li:hover {background:#f4f3f6 !important; color:#4b3065 !important;}
 
-body.astroloji section.koc .yorumlar .selectBox .customSelect &gt; span:after,
-body.astroloji section.boga .yorumlar .selectBox .customSelect &gt; span:after,
-body.astroloji section.ikizler .yorumlar .selectBox .customSelect &gt; span:after,
-body.astroloji section.yengec .yorumlar .selectBox .customSelect &gt; span:after {background-position:50% 12px;}
+body.astroloji section.koc .yorumlar .selectBox .customSelect > span:after,
+body.astroloji section.boga .yorumlar .selectBox .customSelect > span:after,
+body.astroloji section.ikizler .yorumlar .selectBox .customSelect > span:after,
+body.astroloji section.yengec .yorumlar .selectBox .customSelect > span:after {background-position:50% 12px;}
 
-body.astroloji section.aslan .yorumlar .selectBox .customSelect &gt; span:after,
-body.astroloji section.basak .yorumlar .selectBox .customSelect &gt; span:after,
-body.astroloji section.terazi .yorumlar .selectBox .customSelect &gt; span:after,
-body.astroloji section.akrep .yorumlar .selectBox .customSelect &gt; span:after {background-position:50% -47px;}
+body.astroloji section.aslan .yorumlar .selectBox .customSelect > span:after,
+body.astroloji section.basak .yorumlar .selectBox .customSelect > span:after,
+body.astroloji section.terazi .yorumlar .selectBox .customSelect > span:after,
+body.astroloji section.akrep .yorumlar .selectBox .customSelect > span:after {background-position:50% -47px;}
 
 body.astroloji section.koc .yorumlar {background-color:#f9e1e7;}
 	body.astroloji section.koc .yorumlar .selectBox {background:#fef7f9;}
 	body.astroloji section.koc .yorumlar strong,
 	body.astroloji section.koc .yorumlar h1,
 	body.astroloji section.koc .yorumlar .selectBox,
-	body.astroloji section.koc .yorumlar .selectBox .customSelect &gt; span span {border-color:#e36b86; color:#e36b86;}
+	body.astroloji section.koc .yorumlar .selectBox .customSelect > span span {border-color:#e36b86; color:#e36b86;}
 	.selectDrop.koc ul {background:#f9e1e7;}
 	.selectDrop.koc ul li {color:#e36b86;}
 	.selectDrop.koc ul li:hover {background:#e36b86; color:#f9e1e7;}
@@ -11482,7 +11482,7 @@ body.astroloji section.boga .yorumlar {background-color:#f8dfe5;}
 	body.astroloji section.boga .yorumlar strong,
 	body.astroloji section.boga .yorumlar h1,
 	body.astroloji section.boga .yorumlar .selectBox,
-	body.astroloji section.boga .yorumlar .selectBox .customSelect &gt; span span {border-color:#da5d7b; color:#da5d7b;}
+	body.astroloji section.boga .yorumlar .selectBox .customSelect > span span {border-color:#da5d7b; color:#da5d7b;}
 	.selectDrop.boga ul {background:#f8dfe5;}
 	.selectDrop.boga ul li {color:#da5d7b;}
 	.selectDrop.boga ul li:hover {background:#da5d7b; color:#f8dfe5;}
@@ -11495,7 +11495,7 @@ body.astroloji section.ikizler .yorumlar {background-color:#f3d9e0;}
 	body.astroloji section.ikizler .yorumlar strong,
 	body.astroloji section.ikizler .yorumlar h1,
 	body.astroloji section.ikizler .yorumlar .selectBox,
-	body.astroloji section.ikizler .yorumlar .selectBox .customSelect &gt; span span {border-color:#c54163; color:#c54163;}
+	body.astroloji section.ikizler .yorumlar .selectBox .customSelect > span span {border-color:#c54163; color:#c54163;}
 	.selectDrop.ikizler ul {background:#f3d9e0;}
 	.selectDrop.ikizler ul li {color:#c54163;}
 	.selectDrop.ikizler ul li:hover {background:#c54163; color:#f3d9e0;}
@@ -11508,7 +11508,7 @@ body.astroloji section.yengec .yorumlar {background-color:#f3d7de;}
 	body.astroloji section.yengec .yorumlar strong,
 	body.astroloji section.yengec .yorumlar h1,
 	body.astroloji section.yengec .yorumlar .selectBox,
-	body.astroloji section.yengec .yorumlar .selectBox .customSelect &gt; span span {border-color:#c1395c; color:#c1395c;}
+	body.astroloji section.yengec .yorumlar .selectBox .customSelect > span span {border-color:#c1395c; color:#c1395c;}
 	.selectDrop.yengec ul {background:#f3d7de;}
 	.selectDrop.yengec ul li {color:#c1395c;}
 	.selectDrop.yengec ul li:hover {background:#c1395c; color:#f3d7de;}
@@ -11521,7 +11521,7 @@ body.astroloji section.aslan .yorumlar {background-color:#f0dbe8;}
 	body.astroloji section.aslan .yorumlar strong,
 	body.astroloji section.aslan .yorumlar h1,
 	body.astroloji section.aslan .yorumlar .selectBox,
-	body.astroloji section.aslan .yorumlar .selectBox .customSelect &gt; span span {border-color:#b54a8c; color:#b54a8c;}
+	body.astroloji section.aslan .yorumlar .selectBox .customSelect > span span {border-color:#b54a8c; color:#b54a8c;}
 	.selectDrop.aslan ul {background:#f0dbe8;}
 	.selectDrop.aslan ul li {color:#b54a8c;}
 	.selectDrop.aslan ul li:hover {background:#b54a8c; color:#f0dbe8;}
@@ -11534,7 +11534,7 @@ body.astroloji section.basak .yorumlar {background-color:#ecd9e5;}
 	body.astroloji section.basak .yorumlar strong,
 	body.astroloji section.basak .yorumlar h1,
 	body.astroloji section.basak .yorumlar .selectBox,
-	body.astroloji section.basak .yorumlar .selectBox .customSelect &gt; span span {border-color:#9f437c; color:#9f437c;}
+	body.astroloji section.basak .yorumlar .selectBox .customSelect > span span {border-color:#9f437c; color:#9f437c;}
 	.selectDrop.basak ul {background:#ecd9e5;}
 	.selectDrop.basak ul li {color:#9f437c;}
 	.selectDrop.basak ul li:hover {background:#9f437c; color:#ecd9e5;}
@@ -11547,7 +11547,7 @@ body.astroloji section.terazi .yorumlar {background-color:#ead8e3;}
 	body.astroloji section.terazi .yorumlar strong,
 	body.astroloji section.terazi .yorumlar h1,
 	body.astroloji section.terazi .yorumlar .selectBox,
-	body.astroloji section.terazi .yorumlar .selectBox .customSelect &gt; span span {border-color:#963b73; color:#963b73;}
+	body.astroloji section.terazi .yorumlar .selectBox .customSelect > span span {border-color:#963b73; color:#963b73;}
 	.selectDrop.terazi ul {background:#ead8e3;}
 	.selectDrop.terazi ul li {color:#963b73;}
 	.selectDrop.terazi ul li:hover {background:#963b73; color:#ead8e3;}
@@ -11560,7 +11560,7 @@ body.astroloji section.akrep .yorumlar {background-color:#e9d5e1;}
 	body.astroloji section.akrep .yorumlar strong,
 	body.astroloji section.akrep .yorumlar h1,
 	body.astroloji section.akrep .yorumlar .selectBox,
-	body.astroloji section.akrep .yorumlar .selectBox .customSelect &gt; span span {border-color:#912e6b; color:#912e6b;}
+	body.astroloji section.akrep .yorumlar .selectBox .customSelect > span span {border-color:#912e6b; color:#912e6b;}
 	.selectDrop.akrep ul {background:#e9d5e1;}
 	.selectDrop.akrep ul li {color:#912e6b;}
 	.selectDrop.akrep ul li:hover {background:#912e6b; color:#e9d5e1;}
@@ -11573,7 +11573,7 @@ body.astroloji section.yay .yorumlar {background-color:#e5dbe8;}
 	body.astroloji section.yay .yorumlar strong,
 	body.astroloji section.yay .yorumlar h1,
 	body.astroloji section.yay .yorumlar .selectBox,
-	body.astroloji section.yay .yorumlar .selectBox .customSelect &gt; span span {border-color:#7b4d8e; color:#7b4d8e;}
+	body.astroloji section.yay .yorumlar .selectBox .customSelect > span span {border-color:#7b4d8e; color:#7b4d8e;}
 	.selectDrop.yay ul {background:#e5dbe8;}
 	.selectDrop.yay ul li {color:#7b4d8e;}
 	.selectDrop.yay ul li:hover {background:#7b4d8e; color:#e5dbe8;}
@@ -11586,7 +11586,7 @@ body.astroloji section.oglak .yorumlar {background-color:#e2dae7;}
 	body.astroloji section.oglak .yorumlar strong,
 	body.astroloji section.oglak .yorumlar h1,
 	body.astroloji section.oglak .yorumlar .selectBox,
-	body.astroloji section.oglak .yorumlar .selectBox .customSelect &gt; span span {border-color:#6d4785; color:#6d4785;}
+	body.astroloji section.oglak .yorumlar .selectBox .customSelect > span span {border-color:#6d4785; color:#6d4785;}
 	.selectDrop.oglak ul {background:#e2dae7;}
 	.selectDrop.oglak ul li {color:#6d4785;}
 	.selectDrop.oglak ul li:hover {background:#6d4785; color:#e2dae7;}
@@ -11599,7 +11599,7 @@ body.astroloji section.kova .yorumlar {background-color:#ded8e3;}
 	body.astroloji section.kova .yorumlar strong,
 	body.astroloji section.kova .yorumlar h1,
 	body.astroloji section.kova .yorumlar .selectBox,
-	body.astroloji section.kova .yorumlar .selectBox .customSelect &gt; span span {border-color:#5b3e74; color:#5b3e74;}
+	body.astroloji section.kova .yorumlar .selectBox .customSelect > span span {border-color:#5b3e74; color:#5b3e74;}
 	.selectDrop.kova ul {background:#ded8e3;}
 	.selectDrop.kova ul li {color:#5b3e74;}
 	.selectDrop.kova ul li:hover {background:#5b3e74; color:#ded8e3;}
@@ -11612,7 +11612,7 @@ body.astroloji section.balik .yorumlar {background-color:#dbd6e0;}
 	body.astroloji section.balik .yorumlar strong,
 	body.astroloji section.balik .yorumlar h1,
 	body.astroloji section.balik .yorumlar .selectBox,
-	body.astroloji section.balik .yorumlar .selectBox .customSelect &gt; span span {border-color:#4a3164; color:#4a3164;}
+	body.astroloji section.balik .yorumlar .selectBox .customSelect > span span {border-color:#4a3164; color:#4a3164;}
 	.selectDrop.balik ul {background:#dbd6e0;}
 	.selectDrop.balik ul li {color:#4a3164;}
 	.selectDrop.balik ul li:hover {background:#4a3164; color:#dbd6e0;}
@@ -11713,25 +11713,25 @@ body.astroloji section.balik .yorumlar {background-color:#dbd6e0;}
 	.doganlar .date a span:nth-child(3) {width:107px; border-radius:0 4px 4px 0; background:#e36b86;}
 
 body.astroloji aside .row .main {padding:15px; display:inline-block; width:100%; box-sizing:border-box;}
-	body.astroloji aside .row .main &gt; span {display:block; margin-bottom:15px; font-size:18px; color:#da5d7b;}
-	body.astroloji aside .row .main &gt; strong {font-size:18px; font-weight:normal; color:#42285a; float:left; width:50%; font-family:ptsansnarrowbold; margin-bottom:13px;}
+	body.astroloji aside .row .main > span {display:block; margin-bottom:15px; font-size:18px; color:#da5d7b;}
+	body.astroloji aside .row .main > strong {font-size:18px; font-weight:normal; color:#42285a; float:left; width:50%; font-family:ptsansnarrowbold; margin-bottom:13px;}
 	body.astroloji aside .row .main .selectBox {float:left; width:129px; height:28px;}
 	body.astroloji aside .row .main strong + .selectBox:nth-child(2),
 	body.astroloji aside .row .main strong + strong + .selectBox  + .selectBox {float:right !important;}
-	body.astroloji aside .row .main .selectBox .customSelect &gt; span {width:auto; height:auto; border-color:#e09cad;}
-	body.astroloji aside .row .main .selectBox .customSelect &gt; span span {height:26px; line-height:26px; color:#c1395c; font-weight:normal; font-family:ptsansnarrow; padding-left:8px;}
-	body.astroloji aside .row .main .selectBox .customSelect &gt; span:after {background:url(../i/astro/arrAstro.png) no-repeat 50% 9px; width:28px; height:28px;}
+	body.astroloji aside .row .main .selectBox .customSelect > span {width:auto; height:auto; border-color:#e09cad;}
+	body.astroloji aside .row .main .selectBox .customSelect > span span {height:26px; line-height:26px; color:#c1395c; font-weight:normal; font-family:ptsansnarrow; padding-left:8px;}
+	body.astroloji aside .row .main .selectBox .customSelect > span:after {background:url(../i/astro/arrAstro.png) no-repeat 50% 9px; width:28px; height:28px;}
 	body.astroloji aside .rightItemWrap {width:100%; margin-bottom:10px;}
 	body.astroloji aside .rightItemWrap .row:last-child {margin-bottom:0px !important;}
 
 body.astroloji .bHesap h2 {background:#932b6c; border-color:#42285a;}
 body.astroloji .yukselen h2 {background:#c1395c; border-color:#932b6c;}
 
-body.astroloji aside .row .bHesap .main &gt; strong {display:block; width:auto; float:none;}
+body.astroloji aside .row .bHesap .main > strong {display:block; width:auto; float:none;}
 
-body.astroloji .bHesap .selectBox .customSelect &gt; span,
-	body.astroloji .bHesap .selectBox .customSelect &gt; span span,
-	body.astroloji .bHesap .selectBox .customSelect &gt; span:after {border-color:#c995b5 !important; color:#932b6c !important; background-position:50% 50% !important;}
+body.astroloji .bHesap .selectBox .customSelect > span,
+	body.astroloji .bHesap .selectBox .customSelect > span span,
+	body.astroloji .bHesap .selectBox .customSelect > span:after {border-color:#c995b5 !important; color:#932b6c !important; background-position:50% 50% !important;}
 
 .burcHesap {}
 	.burcHesap.yukselenH h1 {color:#c1395c; border-color:#c1395c;}
@@ -11739,9 +11739,9 @@ body.astroloji .bHesap .selectBox .customSelect &gt; span,
 	.burcHesap .main {padding-left:15px;}
 	.burcHesap strong.tit {float:left; width:145px; font-size:18px; font-weight:normal; color:#42285a; font-family:ptsansnarrowbold; line-height:50px;}
 	.burcHesap .selectBox {float:left; width:131px; height:28px; margin-right:11px;}
-	.burcHesap .main .selectBox .customSelect &gt; span {width:auto; height:auto; border-color:#e09cad;}
-	.burcHesap .main .selectBox .customSelect &gt; span span {height:26px; line-height:26px; color:#c1395c; font-weight:normal; font-family:ptsansnarrow; padding-left:8px;}
-	.burcHesap .main .selectBox .customSelect &gt; span:after {background:url(../i/astro/arrAstro.png) no-repeat 50% 9px; width:28px; height:28px;}
+	.burcHesap .main .selectBox .customSelect > span {width:auto; height:auto; border-color:#e09cad;}
+	.burcHesap .main .selectBox .customSelect > span span {height:26px; line-height:26px; color:#c1395c; font-weight:normal; font-family:ptsansnarrow; padding-left:8px;}
+	.burcHesap .main .selectBox .customSelect > span:after {background:url(../i/astro/arrAstro.png) no-repeat 50% 9px; width:28px; height:28px;}
 	.burcHesap .sonuc {height:60px; background:#a1417d; display:inline-block; margin-top:15px; line-height:60px; font-size:24px; color:#fff;}
 	.burcHesap .sonuc span {float:left; padding:0 40px 0 33px;}
 	.burcHesap .sonuc span:first-child {background:#932b6c; height:60px; position:relative; padding:0 20px;}
@@ -11832,7 +11832,7 @@ body.astroloji .yorumMain {padding:15px;}
 	.yorumMain .day .row {width:100%; display:table; box-sizing:border-box; padding:10px 0px;border-bottom: 1px solid #932b6c; margin:0px;}
 	.yorumMain .day .row strong {display:inline-block;font-weight:normal;font-family:ptsansnarrowbold; }
 	.yorumMain .day .row span { margin-left:5px;}
-	.yorumMain .day &gt;.row:last-child {border-bottom:none;}
+	.yorumMain .day >.row:last-child {border-bottom:none;}
 	.yorumMain .day .row i {display:inline-block; color:#AD3283; font-style:normal;}
 	.yorumMain .part {width:100%; overflow:hidden;}
 	.yorumMain .part h5 {width:100%;color: #932b6c;font-family: ptsansnarrowbold;font-size: 18px;font-weight: normal;border-bottom: 1px solid #932b6c;border-top: 1px solid #932b6c; line-height: 40px;height: 40px; margin:10px 0px;}
@@ -11888,8 +11888,8 @@ body.astroloji .yorumMain {padding:15px;}
 	.nextCounter .img a:after {content:""; width:0; height:0; position:absolute; top:50%; left:50%; margin-left:-8px; margin-top:-12px; border:12px solid transparent; height:0; width:0; border-left:16px solid #d11919; z-index:3;}
 	.nextCounter .img a:hover:before {background:rgba(255,255,255,0.4); width:310px; height:174px; top:0; left:0; margin:0px;}
 	.nextCounter .nextNews {float:left; width:calc(100% - 300px); height:170px;-webkit-box-shadow: 0px 0px 5px 0px rgba(220,220,220,1);-moz-box-shadow: 0px 0px 5px 0px rgba(220,220,220,1);box-shadow: 0px 0px 5px 0px rgba(220,220,220,1);}
-	.nextCounter .nextNews &gt; a {display:block; color:inherit; box-sizing:border-box; padding:0px 20px;}
-	.nextCounter .nextNews &gt; a &gt; span {display:block; line-height:94px; height:94px; overflow:hidden;}
+	.nextCounter .nextNews > a {display:block; color:inherit; box-sizing:border-box; padding:0px 20px;}
+	.nextCounter .nextNews > a > span {display:block; line-height:94px; height:94px; overflow:hidden;}
 	.nextCounter .nextNews em {font-style:normal; display:inline-block; line-height:30px; color:#d11919; font-size:24px; font-family: ptsansnarrowbold; vertical-align:middle;}
 	.nextCounter .nextNews .counterRow {display:block; font-size:18px; color:#0d4779; border-top:1px solid #bccddd; box-sizing:border-box; padding:7px 20px 0 20px;}
 	.nextCounter .nextNews .counterRow:after {content:""; display:block; clear:both;}
@@ -11932,21 +11932,21 @@ body.astroloji .yorumMain {padding:15px;}
 	.photoGallery .photoGalMenu .searchBox input[type="text"] {width:100px; height:29px; line-height:29px; padding:0 0 0 10px; border:none; background:#14233a; color:#fff; float:left;}
 	.photoGallery .photoGalMenu .searchBox input[type="button"] {width:32px; height:29px; border:none; background:#14233a url(../i/icoSearch.png) no-repeat 0 -64px; text-indent:-9999px; float:right; cursor:pointer;}
 
-	.photoGallery main &gt; section {width: 960px; float: none;}
+	.photoGallery main > section {width: 960px; float: none;}
 	.photoGallery.gallDetail main {position: relative;}
 	.photoGallery.gallDetail main:after {content: ''; width: 319px; height: 100%; position: absolute; top: 35px; right: 0; z-index: 1; background: #ebf1f6; border-left: 1px solid #bccddd;}
-	.photoGallery.gallDetail main &gt; section {width: 620px; float: left;}
-	.photoGallery.gallDetail main &gt; aside {width: 320px; margin-top: 34px; position: relative; z-index: 20;}
+	.photoGallery.gallDetail main > section {width: 620px; float: left;}
+	.photoGallery.gallDetail main > aside {width: 320px; margin-top: 34px; position: relative; z-index: 20;}
 	.photoGallery .galleryList {width: 960px; margin-bottom:8px; overflow:hidden;}
 	.photoGallery .galleryList ul {width:104%; display:inline-block; margin:-15px 0 0 -15px;}
 	.photoGallery .galleryList li {width:300px; height:250px; margin:15px; float:left; position:relative;}
 	.photoGallery .galleryList li.advert {width: 960px; height: auto; padding: 10px 0; background: url(../i/bannerBG.png);}
-	.photoGallery .galleryList li.advert &gt; div {overflow: hidden;}
-	.photoGallery .galleryList li &gt; a {display:block;}
-	.photoGallery .galleryList li &gt; a &gt; span img {display:block; position: relative; z-index: 1; transition: all 0.3s ease; -moz-transition: all 0.3s ease; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease;}
-	.photoGallery .galleryList li &gt; a &gt; span {width:100%; height:100%; display:block; position:relative; z-index:1; overflow:hidden;}
-	.photoGallery .galleryList li &gt; a &gt; span:after {content: " "; height:125px; width:100%; position:absolute; bottom:0; left:0; z-index: 2;}
-	.photoGallery .galleryList li &gt; a &gt; span:after {
+	.photoGallery .galleryList li.advert > div {overflow: hidden;}
+	.photoGallery .galleryList li > a {display:block;}
+	.photoGallery .galleryList li > a > span img {display:block; position: relative; z-index: 1; transition: all 0.3s ease; -moz-transition: all 0.3s ease; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease;}
+	.photoGallery .galleryList li > a > span {width:100%; height:100%; display:block; position:relative; z-index:1; overflow:hidden;}
+	.photoGallery .galleryList li > a > span:after {content: " "; height:125px; width:100%; position:absolute; bottom:0; left:0; z-index: 2;}
+	.photoGallery .galleryList li > a > span:after {
 		background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjElIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMDEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjciLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
 		background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.01) 1%, rgba(0,0,0,0.7) 100%);
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(1%,rgba(0,0,0,0.01)), color-stop(100%,rgba(0,0,0,0.7)));
@@ -11955,12 +11955,12 @@ body.astroloji .yorumMain {padding:15px;}
 		background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.01) 1%,rgba(0,0,0,0.7) 100%);
 		background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.01) 1%,rgba(0,0,0,0.7) 100%);
 	}
-	.photoGallery .galleryList li &gt; a &gt; strong {width:92%; height:auto; display:block; padding:12px; position:absolute; left:0; bottom:0; z-index:3; font-size:26px; color:#fff; font-weight:normal; line-height:28px; overflow:hidden; text-shadow:0px 1px 2px rgba(0,0,0,0.35); transition: all 0.3s ease; -moz-transition: all 0.3s ease; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease;}
-	.photoGallery .galleryList ul li &gt; a:hover &gt; span &gt; img {
+	.photoGallery .galleryList li > a > strong {width:92%; height:auto; display:block; padding:12px; position:absolute; left:0; bottom:0; z-index:3; font-size:26px; color:#fff; font-weight:normal; line-height:28px; overflow:hidden; text-shadow:0px 1px 2px rgba(0,0,0,0.35); transition: all 0.3s ease; -moz-transition: all 0.3s ease; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease;}
+	.photoGallery .galleryList ul li > a:hover > span > img {
 		-webkit-transform:scale(1.05); -moz-transform:scale(1.05); -ms-transform:scale(1.05); -o-transform:scale(1.05); transform:scale(1.05);
 		/*-webkit-filter: grayscale(100%); filter: grayscale(100%);*/
 	}
-	.photoGallery .galleryList li &gt; a:hover &gt; strong {bottom:-8px;}
+	.photoGallery .galleryList li > a:hover > strong {bottom:-8px;}
 
 	.galleryDetail {color: #1a2c3e;}
 /*	.galleryDetail:after {content: ''; height: 800px; width: 100%; display: inline-block; background: transparent;}*/
@@ -11971,51 +11971,51 @@ body.astroloji .yorumMain {padding:15px;}
 	.galleryDetail .info-date {margin:0 0 12px; border-bottom: 1px solid #bccddd; font-size:16px; color:#356083; white-space:nowrap; line-height: 34px;}
 	.galleryDetail .info-date strong {font-weight:normal; color:#4198d2;}
 	.galleryDetail .info-date span {padding-right: 14px;}
-	.galleryDetail &gt; ul &gt; li {width: 100%; display: inline-block; margin-top: 30px; padding-top: 30px; border-top: 1px solid #bccddd;}
-	.galleryDetail &gt; ul &gt; li:first-child {margin-top: 0; padding-top: 0; border-top: none;}
+	.galleryDetail > ul > li {width: 100%; display: inline-block; margin-top: 30px; padding-top: 30px; border-top: 1px solid #bccddd;}
+	.galleryDetail > ul > li:first-child {margin-top: 0; padding-top: 0; border-top: none;}
 	.galleryDetail li .advert {height: 250px; margin: 20px 0 -10px; padding: 20px 0 0; border-top: 1px solid #bccddd; overflow: hidden; text-align: center;}
 
-	.galleryDetail ul &gt; li .title {width: 620px; display: table; margin-bottom: 12px;}
-	.galleryDetail ul &gt; li .title &gt; li {display: table-cell; font-family: ptsansnarrowbold;}
-	.galleryDetail ul &gt; li .title &gt; li:first-child {vertical-align: top;}
-	.galleryDetail ul &gt; li .title &gt; li:nth-child(2) {vertical-align: middle;}
-	.galleryDetail ul &gt; li .title .info {width: 76px; display: inline-block; padding: 6px 0; background: #ebf1f6; border-right: 1px solid #bccddd; font-size: 25px; text-align: center;}
-	.galleryDetail ul &gt; li .title .info li {width: 50%; height: 24px; position: relative; float: left; line-height: 24px;}
-	.galleryDetail ul &gt; li .title .info li:first-child:after {content: ''; width: 1px; height: 100%; position: absolute; top: 0; right: 0; border-right: 1px solid #1a2c3e;}
-	.galleryDetail ul &gt; li .title .info li:last-child {color: #acb4bb;}
-	.galleryDetail ul &gt; li .title span {width: 370px; display: inline-block; padding: 0 10px 0 20px; font-size: 22px; line-height: 24px;}
-	.galleryDetail ul &gt; li .title .shareList {width: 144px; display: inline-block;}
-	.galleryDetail ul &gt; li .title .shareList li {margin-left: 1px; float: left;}
-	.galleryDetail ul &gt; li .title .shareList li:first-child {margin: 0;}
-	.galleryDetail ul &gt; li .title .shareList li a {width: 35px; height: 35px; display: block; background: url(../i/photoGallerySprite.png?v=3) no-repeat; text-indent: -999px; overflow: hidden;}
-	.galleryDetail ul &gt; li .title .shareList li.face a {background-position: 0 0;}
-	.galleryDetail ul &gt; li .title .shareList li.twt a {background-position: -46px 0;}
-	.galleryDetail ul &gt; li .title .shareList li.gplus a {background-position: -92px 0;}
-	.galleryDetail ul &gt; li .title .shareList li.pin a {background-position: -138px 0;}
-	.galleryDetail ul &gt; li .title .shareList li.face a:hover {background-position: 0 -60px;}
-	.galleryDetail ul &gt; li .title .shareList li.twt a:hover {background-position: -46px -60px;}
-	.galleryDetail ul &gt; li .title .shareList li.gplus a:hover {background-position: -92px -60px;}
-	.galleryDetail ul &gt; li .title .shareList li.pin a:hover {background-position: -138px -60px;}
+	.galleryDetail ul > li .title {width: 620px; display: table; margin-bottom: 12px;}
+	.galleryDetail ul > li .title > li {display: table-cell; font-family: ptsansnarrowbold;}
+	.galleryDetail ul > li .title > li:first-child {vertical-align: top;}
+	.galleryDetail ul > li .title > li:nth-child(2) {vertical-align: middle;}
+	.galleryDetail ul > li .title .info {width: 76px; display: inline-block; padding: 6px 0; background: #ebf1f6; border-right: 1px solid #bccddd; font-size: 25px; text-align: center;}
+	.galleryDetail ul > li .title .info li {width: 50%; height: 24px; position: relative; float: left; line-height: 24px;}
+	.galleryDetail ul > li .title .info li:first-child:after {content: ''; width: 1px; height: 100%; position: absolute; top: 0; right: 0; border-right: 1px solid #1a2c3e;}
+	.galleryDetail ul > li .title .info li:last-child {color: #acb4bb;}
+	.galleryDetail ul > li .title span {width: 370px; display: inline-block; padding: 0 10px 0 20px; font-size: 22px; line-height: 24px;}
+	.galleryDetail ul > li .title .shareList {width: 144px; display: inline-block;}
+	.galleryDetail ul > li .title .shareList li {margin-left: 1px; float: left;}
+	.galleryDetail ul > li .title .shareList li:first-child {margin: 0;}
+	.galleryDetail ul > li .title .shareList li a {width: 35px; height: 35px; display: block; background: url(../i/photoGallerySprite.png?v=3) no-repeat; text-indent: -999px; overflow: hidden;}
+	.galleryDetail ul > li .title .shareList li.face a {background-position: 0 0;}
+	.galleryDetail ul > li .title .shareList li.twt a {background-position: -46px 0;}
+	.galleryDetail ul > li .title .shareList li.gplus a {background-position: -92px 0;}
+	.galleryDetail ul > li .title .shareList li.pin a {background-position: -138px 0;}
+	.galleryDetail ul > li .title .shareList li.face a:hover {background-position: 0 -60px;}
+	.galleryDetail ul > li .title .shareList li.twt a:hover {background-position: -46px -60px;}
+	.galleryDetail ul > li .title .shareList li.gplus a:hover {background-position: -92px -60px;}
+	.galleryDetail ul > li .title .shareList li.pin a:hover {background-position: -138px -60px;}
 
-	.galleryDetail ul &gt; li figure {position: relative; text-align: center;}
+	.galleryDetail ul > li figure {position: relative; text-align: center;}
 
-	.galleryDetail ul &gt; li figure &gt; a {display:block;}
-	.galleryDetail ul &gt; li figure &gt; a:after {display: none; content:"";position: absolute; top: 10px; right: 10px; z-index: 2;}
-	.galleryDetail ul &gt; li figure:hover &gt; a:after {display: block;}
-	.galleryDetail ul &gt; li figure &gt; a.fancybox-effects:after {width: 48px; height: 48px;  float: left; background: url(../i/photoGallerySprite.png?v=3) -495px -47px no-repeat;}
-	.galleryDetail ul &gt; li figure &gt; a.link:after {width: 48px; height: 48px;  float: left; background: url(../i/photoGallerySprite.png?v=3) -290px -47px no-repeat;}
+	.galleryDetail ul > li figure > a {display:block;}
+	.galleryDetail ul > li figure > a:after {display: none; content:"";position: absolute; top: 10px; right: 10px; z-index: 2;}
+	.galleryDetail ul > li figure:hover > a:after {display: block;}
+	.galleryDetail ul > li figure > a.fancybox-effects:after {width: 48px; height: 48px;  float: left; background: url(../i/photoGallerySprite.png?v=3) -495px -47px no-repeat;}
+	.galleryDetail ul > li figure > a.link:after {width: 48px; height: 48px;  float: left; background: url(../i/photoGallerySprite.png?v=3) -290px -47px no-repeat;}
 
- 	.galleryDetail ul &gt; li figure &gt; a.link {display: block; position: relative; z-index: 1; text-align: center;}
- 	.galleryDetail ul &gt; li figure &gt; img,
- 	.galleryDetail ul &gt; li figure &gt; a &gt; img {max-width: 100%; height: auto; margin-bottom: 14px;}
-	.galleryDetail ul &gt; li figure figcaption {font-size: 18px; text-align: left;}
-	.galleryDetail ul &gt; li figure figcaption p {margin-bottom: 15px;}
-	.galleryDetail ul &gt; li figure .videoHolder{position:relative;}
-	.galleryDetail ul &gt; li figure .videoHolder img {width: 620px; height: 338px;}
-	.galleryDetail ul &gt; li figure .videoHolder:before {content:""; width:50px; height:50px; position:absolute; top:50%; margin-top:-25px; margin-left:-25px; left:50%; transition: all 0.3s ease; background: rgba(255,255,255,0.5); z-index:2;}
-	.galleryDetail ul &gt; li figure .videoHolder:after {content:""; width:0; height:0; position:absolute; top:50%; left:50%; margin-left:-8px; margin-top:-12px; border:12px solid transparent; height:0; width:0; border-left:16px solid #d11919; z-index:3;}
-	.galleryDetail ul &gt; li figure .videoHolder:hover:before {background:rgba(255,255,255,0.4); width:100%; height:100%; top:0; left:0;margin:0; cursor:pointer;}
-	.galleryDetail ul &gt; li figure .videoHolder #live_wrapper {z-index:20;}
+ 	.galleryDetail ul > li figure > a.link {display: block; position: relative; z-index: 1; text-align: center;}
+ 	.galleryDetail ul > li figure > img,
+ 	.galleryDetail ul > li figure > a > img {max-width: 100%; height: auto; margin-bottom: 14px;}
+	.galleryDetail ul > li figure figcaption {font-size: 18px; text-align: left;}
+	.galleryDetail ul > li figure figcaption p {margin-bottom: 15px;}
+	.galleryDetail ul > li figure .videoHolder{position:relative;}
+	.galleryDetail ul > li figure .videoHolder img {width: 620px; height: 338px;}
+	.galleryDetail ul > li figure .videoHolder:before {content:""; width:50px; height:50px; position:absolute; top:50%; margin-top:-25px; margin-left:-25px; left:50%; transition: all 0.3s ease; background: rgba(255,255,255,0.5); z-index:2;}
+	.galleryDetail ul > li figure .videoHolder:after {content:""; width:0; height:0; position:absolute; top:50%; left:50%; margin-left:-8px; margin-top:-12px; border:12px solid transparent; height:0; width:0; border-left:16px solid #d11919; z-index:3;}
+	.galleryDetail ul > li figure .videoHolder:hover:before {background:rgba(255,255,255,0.4); width:100%; height:100%; top:0; left:0;margin:0; cursor:pointer;}
+	.galleryDetail ul > li figure .videoHolder #live_wrapper {z-index:20;}
 
 	.galleryDetail .nextGallery {position: relative; margin-top: 30px; padding-top: 30px; border-top: 1px solid #bccddd; text-align: center;}
 	.galleryDetail .nextGallery figure {display: inline-block; vertical-align: top; margin-bottom: 14px; position: relative;}
@@ -12025,7 +12025,7 @@ body.astroloji .yorumMain {padding:15px;}
 				box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
 	}
 	.galleryDetail .nextGallery strong i {padding: 2px 6px; background: #30465e; color: #fff; font-style: normal;}
-	.galleryDetail .nextGallery &gt; a {display: block; position: relative; z-index: 1; text-align: center;}
+	.galleryDetail .nextGallery > a {display: block; position: relative; z-index: 1; text-align: center;}
  	.galleryDetail .nextGallery img {max-width: 100%; height: auto; display: block;}
 	.galleryDetail .nextGallery figcaption {width: 100%; padding: 30px; position: absolute; bottom: 0; left: 0; font-family: ptsansnarrowbold; font-size: 28px; color: #fff; line-height: 30px; text-align: left;
 		-webkit-box-sizing: border-box;
@@ -12043,21 +12043,21 @@ body.astroloji .yorumMain {padding:15px;}
 
 	.galleryLeft {width: 300px; /*margin-top: -23px;*/ padding: 20px 10px 20px 9px; background: #ebf1f6; border-left: 1px solid #bccddd;}
 	.galleryLeft .shareList {margin-bottom: 7px;}
-	.galleryLeft .shareList &gt; span,
-	.galleryLeft .otherGallery &gt; span {width: 100%; display: inline-block; margin-bottom: 3px; position: relative; font-size: 16px;}
-	.galleryLeft .shareList &gt; span:before,
-	.galleryLeft .otherGallery &gt; span:before {content: ''; width: 100%; height: 1px; position: absolute; top: 50%; left: 0; z-index: 1; background: #586775;}
-	.galleryLeft .shareList &gt; span em,
-	.galleryLeft .otherGallery &gt; span em {padding-right: 10px; position: relative; z-index: 2; float: left; background: #ebf1f6; font-style: normal;}
+	.galleryLeft .shareList > span,
+	.galleryLeft .otherGallery > span {width: 100%; display: inline-block; margin-bottom: 3px; position: relative; font-size: 16px;}
+	.galleryLeft .shareList > span:before,
+	.galleryLeft .otherGallery > span:before {content: ''; width: 100%; height: 1px; position: absolute; top: 50%; left: 0; z-index: 1; background: #586775;}
+	.galleryLeft .shareList > span em,
+	.galleryLeft .otherGallery > span em {padding-right: 10px; position: relative; z-index: 2; float: left; background: #ebf1f6; font-style: normal;}
 
 	.galleryLeft .shareList ul {width: 100%; display: inline-block;}
-	.galleryLeft .shareList ul &gt; li {margin-left: 4px; float: left;}
-	.galleryLeft .shareList ul &gt; li:first-child {margin: 0;}
-	.galleryLeft .shareList ul &gt; li a {width: 72px; height: 30px; display: block; background: url(../i/photoGallerySprite.png?v=3) no-repeat; text-indent: -999px; overflow: hidden;}
-	.galleryLeft .shareList ul &gt; li.face a {background-position: -213px 0;}
-	.galleryLeft .shareList ul &gt; li.twt a {background-position: -299px 0;}
-	.galleryLeft .shareList ul &gt; li.gplus a {background-position: -385px 0;}
-	.galleryLeft .shareList ul &gt; li.pin a {background-position: -471px 0;}
+	.galleryLeft .shareList ul > li {margin-left: 4px; float: left;}
+	.galleryLeft .shareList ul > li:first-child {margin: 0;}
+	.galleryLeft .shareList ul > li a {width: 72px; height: 30px; display: block; background: url(../i/photoGallerySprite.png?v=3) no-repeat; text-indent: -999px; overflow: hidden;}
+	.galleryLeft .shareList ul > li.face a {background-position: -213px 0;}
+	.galleryLeft .shareList ul > li.twt a {background-position: -299px 0;}
+	.galleryLeft .shareList ul > li.gplus a {background-position: -385px 0;}
+	.galleryLeft .shareList ul > li.pin a {background-position: -471px 0;}
 
 	.galleryLeft .advert {min-height: 260px; margin-bottom: 7px;}
 
@@ -12067,7 +12067,7 @@ body.astroloji .yorumMain {padding:15px;}
 
 	.galleryLeft .otherGallery {}
 	.galleryLeft .otherGallery ul {width: 104%; display: inline-block; margin: -5px 0 0 -5px;}
-	.galleryLeft .otherGallery ul &gt; li {width: 145px; height: 120px; margin: 5px; float: left;}
+	.galleryLeft .otherGallery ul > li {width: 145px; height: 120px; margin: 5px; float: left;}
 
 	.galleryLeft .otherGallery ul.otherList {width:100%;}
 	.galleryLeft .otherGallery ul.otherList:after,.galleryLeft .otherGallery ul.otherList li:after {content:""; clear:both; display:block;}
@@ -12090,7 +12090,7 @@ body.astroloji .yorumMain {padding:15px;}
 
 	.photoGallery.gallDetail .wrapper-sticky {z-index: 2;}
 
-	body &gt; .arrow {width: 72px; height: 60px; display: none; position: fixed; bottom: 10px; left: 0; z-index: 10000; background: url('../i/photoGallerySprite.png?v=3') -213px -35px no-repeat; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none; cursor:pointer;}
+	body > .arrow {width: 72px; height: 60px; display: none; position: fixed; bottom: 10px; left: 0; z-index: 10000; background: url('../i/photoGallerySprite.png?v=3') -213px -35px no-repeat; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none; cursor:pointer;}
 
 	.fancybox-overlay {background:rgba(255, 255, 255, 0.5)!important; /*z-index: 10003!important;*/}
 	.fancybox-skin {
@@ -12126,9 +12126,9 @@ body.astroloji .yorumMain {padding:15px;}
 	.readNewsList .caption {height: 50px; padding: 0 14px; border-bottom: 1px solid #d5dce3; font-family: ptsansnarrowbold; font-size: 20px; color: #d11919; line-height: 50px;}
 	.readNewsList ul {width: 300px; display: table;}
 	.readNewsList ul li {width: 300px; height: 52px; display: table-cell; position: relative; float: left; background: #ebf1f6; border-bottom: 1px solid #d5dce3; font-family:ptsansnarrowbold; font-size: 17px; color: #14233a; line-height: 20px; vertical-align: middle; /*transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;*/ -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none; cursor:pointer;}
-	.readNewsList ul li &gt; img {width: 80px; height: 52px; float: left;}
-	.detailNew.yazarlar .readNewsList ul li &gt; img {width: 75px; height: 63px; margin: 13px 0 0 5px;}
-	.detailNew.yazarlar .readNewsList ul li &gt; strong {height: 30px; display: block; padding: 0 14px; color: #356083; font-weight: normal; line-height: 30px; overflow: hidden;}
+	.readNewsList ul li > img {width: 80px; height: 52px; float: left;}
+	.detailNew.yazarlar .readNewsList ul li > img {width: 75px; height: 63px; margin: 13px 0 0 5px;}
+	.detailNew.yazarlar .readNewsList ul li > strong {height: 30px; display: block; padding: 0 14px; color: #356083; font-weight: normal; line-height: 30px; overflow: hidden;}
 	.readNewsList ul li .title {display: table; padding: 0 14px;}
 	.readNewsList ul li .title span {height: 52px; display: table-cell; vertical-align: middle; line-height: 26px;}
 	.detailNew.yazarlar .readNewsList ul li {height: 76px;}
@@ -12318,12 +12318,12 @@ body.astroloji .yorumMain {padding:15px;}
 	.yellowLeft .pano .text p {margin-bottom: 5px;}
 	.yList {width:100%; position:relative;margin-bottom:12px;-webkit-box-shadow: 0px 0px 13px 0px rgba(212,212,212,1);-moz-box-shadow: 0px 0px 13px 0px rgba(212,212,212,1);box-shadow: 0px 0px 13px 0px rgba(212,212,212,1);}
 	.yList .head {width:100%; background-color:#c4bca1; color:#ffffff; font-size:17px;font-family: 'ptsansnarrowbold'; height:30px; line-height:30px; box-sizing:border-box; padding-left:10px;margin-bottom:10px; }
-	.yList &gt; ul {width:100%;}
-	.yList &gt; ul &gt; li {float:left; width:33.3%; box-sizing:border-box;}
-	.yList &gt; ul &gt; li &gt; ol, .yList &gt; ul &gt; li &gt; ol &gt; li {width:100%;}
-	.yList &gt; ul &gt; li &gt; ol &gt; li a {display:block; width:100%; box-sizing:border-box; font-size:15px; color:#14233a; padding-left:14px; height:35px; line-height:35px;}
-	.yList &gt; ul &gt; li &gt; ol &gt; li a:before {content:"&gt;";display:inline-block;margin-right:5px;}
-	.yList &gt; ul &gt; li &gt; ol &gt; li a:hover{text-decoration:underline;}
+	.yList > ul {width:100%;}
+	.yList > ul > li {float:left; width:33.3%; box-sizing:border-box;}
+	.yList > ul > li > ol, .yList > ul > li > ol > li {width:100%;}
+	.yList > ul > li > ol > li a {display:block; width:100%; box-sizing:border-box; font-size:15px; color:#14233a; padding-left:14px; height:35px; line-height:35px;}
+	.yList > ul > li > ol > li a:before {content:">";display:inline-block;margin-right:5px;}
+	.yList > ul > li > ol > li a:hover{text-decoration:underline;}
 
 	.ssBox {padding-bottom:5px; width:150px; display:inline-block;}
   	.ss_kutu_r {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: x-small; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; WIDTH: 150px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #ffff99; TEXT-ALIGN: left; BORDER-BOTTOM-STYLE: none}
@@ -12408,7 +12408,7 @@ body.astroloji .yorumMain {padding:15px;}
   .timeline li .postInfo label a:after {content:"/"; display:inline-block; margin-left:5px;}
   .timeline li .postInfo label i {font-style:normal; float:left; margin-left:5px;}
   .timeline li .postWall {width:100%;position:relative; display:block; overflow:hidden; max-height:169px; padding:0 18px; box-sizing:border-box;}
-  .timeline li .postWall &gt; a {position:absolute; width:100%; height:100%; left:0px; top:0px; z-index:10;}
+  .timeline li .postWall > a {position:absolute; width:100%; height:100%; left:0px; top:0px; z-index:10;}
   .timeline li .postWall .img {float:left; width:320px; padding-right:10px;}
   .timeline li .postWall .text {display:block; padding-left:5px; vertical-align:top; font-size:17px; text-align:left;line-height: 24px;}
   .timeline li .postWall .text strong {display:block; color:#4d4d4d; font-weight: normal; font-family: 'ptsansnarrowbold'; font-size:20px; margin-bottom:0; max-height:52px; overflow:hidden; }
@@ -12456,10 +12456,10 @@ body.astroloji .yorumMain {padding:15px;}
 	.timelineNew .high {background:#fafafa; border:1px solid #ececec; display:inline-block; width:958px; margin-bottom:20px; position:relative;}
 	.timelineNew .high .image {position:absolute; height:100%; z-index:1; left:10px; top:0;}
 	.timelineNew .high .image .in {height:100%; vertical-align:middle; z-index:1; left:10px; display:table-cell;}
-	.timelineNew .high &gt; strong {display:block; font-size:24px; color:#a80a0a; line-height:34px; text-align:center; margin-top:10px; font-weight:normal;}
-	.timelineNew .high &gt; span {display:block; width:838px; background:#144c6c; padding:30px 60px; position:relative; z-index:0;}
-	.timelineNew .high &gt; span em {margin-left:212px; display:block; font-style:normal; font-size:22px; color:#fff; line-height:1.2em; min-height:69px; font-family:Arial, Helvetica, sans-serif; letter-spacing:normal;}
-	.timelineNew .high &gt; span em.bg {position:absolute; left:210px; top:0; background:url(../i/timeline/arr.png) no-repeat left 50%; width:23px; height:100%; margin:0;}
+	.timelineNew .high > strong {display:block; font-size:24px; color:#a80a0a; line-height:34px; text-align:center; margin-top:10px; font-weight:normal;}
+	.timelineNew .high > span {display:block; width:838px; background:#144c6c; padding:30px 60px; position:relative; z-index:0;}
+	.timelineNew .high > span em {margin-left:212px; display:block; font-style:normal; font-size:22px; color:#fff; line-height:1.2em; min-height:69px; font-family:Arial, Helvetica, sans-serif; letter-spacing:normal;}
+	.timelineNew .high > span em.bg {position:absolute; left:210px; top:0; background:url(../i/timeline/arr.png) no-repeat left 50%; width:23px; height:100%; margin:0;}
 	.timelineNew .high .sosyal {float:right; padding-top:8px;}
 	.timelineNew .high .sosyal ul {float:left; margin-right:30px;}
 	.timelineNew .high .sosyal li {float:left; margin-left:12px;}
@@ -12498,7 +12498,7 @@ body.astroloji .yorumMain {padding:15px;}
 	.localNewsHead .localNav ul {width:103%; display:inline-block; margin:-1px 0 0 -1px;}
 	.localNewsHead .localNav ul li {float:left; border-width:1px; border-style:solid; border-color:#ffffff #dfdfdf #dfdfdf #ffffff;}
 	.localNewsHead .localNav ul li a {width:96px; height:24px; display:block; font-family:Tahoma, Geneva, sans-serif; font-size:14px; color:#333; text-align:center; line-height:24px;}
-	.localNewsHead .localNav ul li &gt; a:hover, .localNewsHead .localNav ul li &gt; a:hover strong {background:#dfdfdf; color:#c1070e; text-decoration:none;}
+	.localNewsHead .localNav ul li > a:hover, .localNewsHead .localNav ul li > a:hover strong {background:#dfdfdf; color:#c1070e; text-decoration:none;}
 	/* for ie7 */
 	.localNewsHead .localNav ul li.all {position:relative;
 		 *zoom: expression(
@@ -12511,7 +12511,7 @@ body.astroloji .yorumMain {padding:15px;}
 	.localNewsHead .localNav ul li.all .before {content: '\e802'; font-family: "fontello"; font-style:normal; font-size:21px; color:#c1070e; font-weight:normal; speak:none; display:block; text-decoration:none; width:1em; text-align:center; font-variant:normal; line-height:22px; text-transform:none; margin-top:-9px; margin-top:-5px\9; *margin-top:-9px; position:absolute; top:50%; right:10px;}
 	@media \0screen {.localNewsHead .localNav ul li.all:before {margin-top:-9px;}}
 	.localNewsHead .localNav ul li.all.down:before {content: '\e807';}
-	.localNewsHead .localNav ul li.selected a, .localNewsHead .localNav ul li.all &gt; a {color:#c1070e;}
+	.localNewsHead .localNav ul li.selected a, .localNewsHead .localNav ul li.all > a {color:#c1070e;}
 	.localNewsHead .localNav ul li.selected a:hover {background:none!important;}
 
 	.localNewsHead .localNav .toggleWrap {width:950px; display:none; padding:10px 0; position:absolute; top:76px; left:13px; background:#f8f8f8; border:1px solid #e4e4e4; box-shadow:0 2px 2px 0 rgba(0,0,0,0.40);}
@@ -12541,19 +12541,19 @@ body.astroloji .yorumMain {padding:15px;}
 	.localNewsWidgets .grid.box2 {width:200px; height:74px; padding:0; border:1px solid #d3d3d3;}
 	.localNewsWidgets .grid.box3 {width:272px; background:#eef3fb;}
 	.localNewsWidgets .grid.box4 {width:230px; margin-right:0;}
-	.localNewsWidgets .grid &gt; strong, .localNewsWidgets .grid &gt; span {display:block; font-size:13px; color:#306fa9;}
-	.localNewsWidgets .grid &gt; strong {height:20px; border:solid #d3d3d3; border-width:0 0 1px; line-height:20px;}
-	.localNewsWidgets .grid.box1 &gt; span {height:24px; padding-right:10px; font-size:20px; color:#4f4f4f; font-weight:bold; text-align:right;}
-	.localNewsWidgets .grid.box1 &gt; strong:first-child+div+span {color:#306fa9; border-top:1px solid #fff;}
-	.localNewsWidgets .grid.box2 &gt; a strong {width:100%; height:24px; position:absolute; top:0; left:0; color:#585858; border:none; line-height:24px; text-indent:5px;}
-	.localNewsWidgets .grid.box2 &gt; a strong {background:rgba(255, 255, 255, 0.8); *filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#9cffffff', endColorstr='#9cffffff');}
-	@media \0screen {.localNewsWidgets .grid.box2 &gt; a strong {filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#9cffffff', endColorstr='#9cffffff');}}
+	.localNewsWidgets .grid > strong, .localNewsWidgets .grid > span {display:block; font-size:13px; color:#306fa9;}
+	.localNewsWidgets .grid > strong {height:20px; border:solid #d3d3d3; border-width:0 0 1px; line-height:20px;}
+	.localNewsWidgets .grid.box1 > span {height:24px; padding-right:10px; font-size:20px; color:#4f4f4f; font-weight:bold; text-align:right;}
+	.localNewsWidgets .grid.box1 > strong:first-child+div+span {color:#306fa9; border-top:1px solid #fff;}
+	.localNewsWidgets .grid.box2 > a strong {width:100%; height:24px; position:absolute; top:0; left:0; color:#585858; border:none; line-height:24px; text-indent:5px;}
+	.localNewsWidgets .grid.box2 > a strong {background:rgba(255, 255, 255, 0.8); *filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#9cffffff', endColorstr='#9cffffff');}
+	@media \0screen {.localNewsWidgets .grid.box2 > a strong {filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#9cffffff', endColorstr='#9cffffff');}}
 	.localNewsWidgets .grid.box2 img {border-radius:3px;}
-	.localNewsWidgets .grid.box3 &gt; strong {color:#4b5c74;}
-	.localNewsWidgets .grid.box3 &gt; ul {width:98%; height:36px; display:inline-block; padding-top:10px; padding-left:32px; background:url(../i/imsakiye.png?v=1) 0 8px no-repeat; border-top:1px solid #fff;}
-	.localNewsWidgets .grid.box3 &gt; ul li {width:15%; height:34px; float:left; font-size:12px; color:#4b5c74; text-align:center; border-right:1px solid #d3d3d3; border-left:1px solid #fff;}
-	.localNewsWidgets .grid.box3 &gt; ul li:first-child {border-left:none;}
-	.localNewsWidgets .grid.box3 &gt; ul li:first-child +li+li+li+li {border-right:none;}
+	.localNewsWidgets .grid.box3 > strong {color:#4b5c74;}
+	.localNewsWidgets .grid.box3 > ul {width:98%; height:36px; display:inline-block; padding-top:10px; padding-left:32px; background:url(../i/imsakiye.png?v=1) 0 8px no-repeat; border-top:1px solid #fff;}
+	.localNewsWidgets .grid.box3 > ul li {width:15%; height:34px; float:left; font-size:12px; color:#4b5c74; text-align:center; border-right:1px solid #d3d3d3; border-left:1px solid #fff;}
+	.localNewsWidgets .grid.box3 > ul li:first-child {border-left:none;}
+	.localNewsWidgets .grid.box3 > ul li:first-child +li+li+li+li {border-right:none;}
 	.localNewsWidgets .grid.box4 {
 			 *zoom: expression(
 			 this.runtimeStyle.zoom="1",
@@ -12570,7 +12570,7 @@ body.astroloji .yorumMain {padding:15px;}
 	}
 	@media \0screen {.localNewsWidgets .grid.box4 {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff6d8', endColorstr='#ffdb66',GradientType=0 ); /* IE8 */}}
 	.localNewsWidgets .grid.box4:after, .localNewsWidgets .grid.box4 .after {content:""; width:71px; height:36px; position:absolute; top:30px; left:5px; background:url(../i/sariSayfalarLogo2.png) no-repeat;}
-	.localNewsWidgets .grid.box4 &gt; strong {color:#242121; border-color:#eecb57;}
+	.localNewsWidgets .grid.box4 > strong {color:#242121; border-color:#eecb57;}
 	.localNewsWidgets .grid.box4 a {display:block; margin:5px 0 0 80px;}
 	.localNewsWidgets .grid.box4 img {margin-right:5px; float:left;}
 	.localNewsWidgets .grid.box4 span, .localNewsWidgets .grid.box4 em {display:block; padding-left:13px; font-size:11px; color:#424242; font-style:normal; *cursor:pointer;}
@@ -12647,7 +12647,7 @@ body.astroloji .yorumMain {padding:15px;}
 	.localNewsInfoBox {width:300px; display:inline-block; margin-bottom:12px; position:relative; z-index:9999; text-align:center;}
 	.localNewsInfoBox .title {overflow:hidden;}
 	.localNewsInfoBox .title strong {height:34px; display:block; margin-bottom:12px; border-bottom:3px solid #cc6600; font-size:22px; color:#232323; font-weight:bold; text-align:left; line-height:34px; box-shadow:0 2px 5px rgba(0,0,0,0.3);}
-	.localNewsInfoBox &gt; img {max-width:300px; text-align:center; }
+	.localNewsInfoBox > img {max-width:300px; text-align:center; }
 	.localNewsInfoBox .share {width:295px; display:inline-block; margin:10px 0; padding:13px 0 13px 5px; background:#ebebeb;}
 	.localNewsInfoBox .share li {float:left; width:33%; height:60px;}
 	.localNewsInfoBox .share li.editor {width:100%; height:22px; padding:0; padding-top:20px; text-align:center;}
@@ -12681,15 +12681,15 @@ body.astroloji .yorumMain {padding:15px;}
 
 .midMenuCont {margin:-2px 0 8px; position:relative; z-index:20;}
 	.midMenuCont ul {width:100%; height:54px; display:inline-block;}
-	.midMenuCont ul &gt; li {display:inline-block; margin:20px 0 20px; padding-bottom:5px; position:relative; float:left; font-size:20px; color:#666; font-weight:bold; }
-	.midMenuCont ul &gt; li:first-child {height:41px; margin:0 8px 0 0; background:#485a78; border:none; font-weight:normal;margin-right:15px;}
-	.midMenuCont ul &gt; li:nth-child(2) {margin-left:10px;}
-	.midMenuCont ul &gt; li:nth-child(2) a {border:none;}
-	.midMenuCont ul &gt; li:first-child +li {margin-left:10px;} /* for ie */
-	.midMenuCont ul &gt; li:first-child +li a {border:none;} /* for ie */
+	.midMenuCont ul > li {display:inline-block; margin:20px 0 20px; padding-bottom:5px; position:relative; float:left; font-size:20px; color:#666; font-weight:bold; }
+	.midMenuCont ul > li:first-child {height:41px; margin:0 8px 0 0; background:#485a78; border:none; font-weight:normal;margin-right:15px;}
+	.midMenuCont ul > li:nth-child(2) {margin-left:10px;}
+	.midMenuCont ul > li:nth-child(2) a {border:none;}
+	.midMenuCont ul > li:first-child +li {margin-left:10px;} /* for ie */
+	.midMenuCont ul > li:first-child +li a {border:none;} /* for ie */
 	.midMenuCont ul li h1, .midMenuCont ul li strong {height:43px; display:block; margin:8px -8px 0 8px; padding:0 8px; background:#e5e5e5; font-size:20px; color:#333; border-bottom:3px solid #485a78; line-height:43px;}
 	.midMenuCont ul li h1 a, .midMenuCont ul li strong a {color:#333;}
-	.midMenuCont ul &gt; li &gt; a {height:20px; display:block; position:relative; padding:0 16px; border-left:1px solid #666; font-size:20px; color:#666; font-weight:normal; line-height:20px;}
+	.midMenuCont ul > li > a {height:20px; display:block; position:relative; padding:0 16px; border-left:1px solid #666; font-size:20px; color:#666; font-weight:normal; line-height:20px;}
 
 
 	.detailWrap .breadC {height:22px; margin-bottom:5px; position:relative; font-size:15px; color:#666; overflow:hidden; line-height:22px;}
@@ -12710,7 +12710,7 @@ body.astroloji .yorumMain {padding:15px;}
 	.newBio .detail {width:634px; display:inline-block; position:relative; float:left; /*overflow:hidden;*/}
 	.newBio .detail.clip {height:500px; margin-bottom:20px; position:relative;}
 	.newBio .detail .iBox {width:200px; display:inline-block; margin:0 22px 22px 0; float:left;}
-	.newBio .detail .iBox &gt; img {width:200px; display:block;}
+	.newBio .detail .iBox > img {width:200px; display:block;}
 	.newBio .detail .iBox .share {width:195px; display:inline-block; margin:10px 0; padding:13px 0 13px 5px; background:#ebebeb;}
 	.newBio .detail .iBox .share li {float:left; width:33%; height:60px;}
 	.newBio .detail .iBox .share li.editor {width:100%; height:22px; padding:0; padding-top:20px; text-align:center;}
@@ -12819,8 +12819,8 @@ body.astroloji .yorumMain {padding:15px;}
 	.newBio .categoryBox .banBox ul li:first-child +li {padding-top:10px;}
 
 	.newBio .categoryList {width:100%; display:inline-block;}
-	.newBio .categoryList &gt; li {width:300px; float:left; margin-left:30px;}
-	.newBio .categoryList &gt; li:first-child {margin-left:0;}
+	.newBio .categoryList > li {width:300px; float:left; margin-left:30px;}
+	.newBio .categoryList > li:first-child {margin-left:0;}
 	.newBio .categoryList ol {display:inline-block;}
 	.newBio .categoryList ol li {display:block; margin-bottom:6px; float:none;}
 	.newBio .categoryList ol li a {display:block; font-size:12px; color:#333;}
@@ -12834,12 +12834,12 @@ body.astroloji .yorumMain {padding:15px;}
 	.newBio .category a.all {position:absolute; right:12px; bottom:12px; font-size:12px; color:#5b5b5b; text-decoration:underline;}
 	.newBio .category.v5 a.all, .newBio .category.v6 a.all {color:#be0007;}
 	.newBio .category a:hover.all {color:#be0007; text-decoration:none;}
-	.newBio .category &gt; strong {width:146px; height:37px; display:inline-block; padding:0 25px; background:#5b5b5b; font-size:14px; color:#fff; line-height:37px; border-radius:30px 0 0 0;}
-	.newBio .category.v1 &gt; strong {width:100%; padding:0;}
-	.newBio .category.v2 &gt; strong {width:100%; padding:0; background:#be0007; border-radius:0 30px 0 0;}
-	.newBio .category.v5 &gt; strong, .newBio .category.v6 &gt; strong {background:#be0007;}
-	.newBio .category &gt; strong em {display:block; margin-top:9px; padding:0 25px;  background:#fff; color:#292727; font-style:normal; line-height:28px;}
-	.newBio .category.v2 &gt; strong em {color:#be0007; text-align:right;}
+	.newBio .category > strong {width:146px; height:37px; display:inline-block; padding:0 25px; background:#5b5b5b; font-size:14px; color:#fff; line-height:37px; border-radius:30px 0 0 0;}
+	.newBio .category.v1 > strong {width:100%; padding:0;}
+	.newBio .category.v2 > strong {width:100%; padding:0; background:#be0007; border-radius:0 30px 0 0;}
+	.newBio .category.v5 > strong, .newBio .category.v6 > strong {background:#be0007;}
+	.newBio .category > strong em {display:block; margin-top:9px; padding:0 25px;  background:#fff; color:#292727; font-style:normal; line-height:28px;}
+	.newBio .category.v2 > strong em {color:#be0007; text-align:right;}
 	.newBio .category .list_carousel {width:960px; *width:978px; height:213px; padding-bottom:30px; position:relative; overflow:hidden; *border-width:0 1px 1px 1px; *border-color:#bebebe; *border-style:solid; box-shadow:0 1px 1px 0px rgba(0,0,0,0.34);}
 	@media \0screen {.newBio .category .list_carousel {width:978px; border-width:0 1px 1px 1px; border-color:#bebebe; border-style:solid;}}
 	.newBio .category.v1 .list_carousel {width:330px; padding-bottom:0; background:#5b5b5b; border-radius:0 0 0 30px; box-shadow:none;}
@@ -12869,8 +12869,8 @@ body.astroloji .yorumMain {padding:15px;}
 	.newBio .category .list_carousel .prev:hover, .newBio .category .list_carousel .next:hover {opacity:0.7; filter:alpha(opacity=70);}
 	/* otherCategory */
 	.newBio .otherCategory {width:100%; display:inline-block; margin-bottom:10px; padding-bottom:10px; border-bottom:11px solid #333;}
-	.newBio .otherCategory &gt; strong {height:32px; display:block; position:relative; margin-bottom:10px; background:#333; font-size:14px; color:#fff; font-weight:bold; text-indent:50px; line-height:38px; z-index:2;}
-	.newBio .otherCategory &gt; strong em {width:60px; height:67px; position:absolute; top:0; left:0; background:url(../i/bio_elements.png?v=1) 0 -144px no-repeat;}
+	.newBio .otherCategory > strong {height:32px; display:block; position:relative; margin-bottom:10px; background:#333; font-size:14px; color:#fff; font-weight:bold; text-indent:50px; line-height:38px; z-index:2;}
+	.newBio .otherCategory > strong em {width:60px; height:67px; position:absolute; top:0; left:0; background:url(../i/bio_elements.png?v=1) 0 -144px no-repeat;}
 	.newBio .otherCategory .list_carousel {width:980px; height:171px; position:relative; overflow:hidden; z-index:1;}
 	.newBio .otherCategory .list_carousel ul {display:block;}
 	.newBio .otherCategory .list_carousel li {width:130px; display:inline-block; float:left;}
@@ -13017,7 +13017,7 @@ div.begenBox {display:block; overflow:hidden; margin:0 0 10px; padding:25px 0 15
 	.ramadanModule .content .column .heading a.all,
 	.ramadanModule .indexFixtur .column .heading a.all:after {color:#0e6f6a;}
 
-	.ramadanModule .content .mCSB_inside &gt; .mCSB_container {padding-right:12px;}
+	.ramadanModule .content .mCSB_inside > .mCSB_container {padding-right:12px;}
 	.ramadanModule .content .inner.scrollContent .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background-color:#856a79 ;background-image:none;}
 	.ramadanModule .content .inner.scrollContent .mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {width:6px; height:30px;}
 	.ramadanModule .content .inner.scrollContent .mCSB_scrollTools .mCSB_draggerRail {width:6px; background-color:#ffffff!important;}
@@ -13272,48 +13272,48 @@ div.begenBox {display:block; overflow:hidden; margin:0 0 10px; padding:25px 0 15
 	-moz-box-shadow: 0px 0px 3px 0px rgba(154, 154, 154, 0.75);
 	box-shadow: 0px 0px 3px 0px rgba(154, 154, 154, 0.75);
 }
-	.userPrivate &gt; ul {}
-	.userPrivate &gt; ul &gt; li {float: left; border-right: 1px solid #dbdbdb;}
-	.userPrivate &gt; ul &gt; li:first-child,
-	.userPrivate &gt; ul &gt; li:last-child {border-right: none;}
-	.userPrivate &gt; ul &gt; li.city {width: 160px;}
-	.userPrivate &gt; ul &gt; li.meteor {width: 90px;}
-	.userPrivate &gt; ul &gt; li.route {width: 130px;}
-	.userPrivate &gt; ul &gt; li.timer {width: 180px;}
-	.userPrivate &gt; ul &gt; li.change {width: 392px;}
-	.userPrivate &gt; ul &gt; li.timer label {line-height: normal;width: 80px;text-align: center;font-size: 13px; left:40px;}
-	.userPrivate &gt; ul &gt; li a {display: block;}
-	.userPrivate &gt; ul &gt; li.timer a:before {content: ''; width: 46px; height: 44px; background: url('../i/icon-mosque.png') center center no-repeat; float: left;}
-	.userPrivate &gt; ul &gt; li.timer span {width: 64px; height: 24px; margin: 11px 5px 0 0; float: right; background: #356083; color: #fff; font-weight: normal; text-align: center; line-height: 24px; border-radius: 5px;}
-	.userPrivate &gt; ul &gt; li.route .fa {width: 34px; height: 44px; float: left; font-size: 28px; color: #356083; line-height: 44px; text-align: center;}
-	.userPrivate &gt; ul &gt; li a:hover {background: #ededed;}
-	.userPrivate &gt; ul &gt; li.meteor .iconDiv {width: 43px; height: 44px; display: inline-block; vertical-align: top; text-align: center; position: relative;}
-	.userPrivate &gt; ul &gt; li.meteor .iconDiv [class^="flaticon-"]:before,
-	.userPrivate &gt; ul &gt; li.meteor .iconDiv [class*=" flaticon-"]:before,
-	.userPrivate &gt; ul &gt; li.meteor .iconDiv [class^="flaticon-"]:after,
-	.userPrivate &gt; ul &gt; li.meteor .iconDiv [class*=" flaticon-"]:after {font-size: 40px; color: #356083;}
+	.userPrivate > ul {}
+	.userPrivate > ul > li {float: left; border-right: 1px solid #dbdbdb;}
+	.userPrivate > ul > li:first-child,
+	.userPrivate > ul > li:last-child {border-right: none;}
+	.userPrivate > ul > li.city {width: 160px;}
+	.userPrivate > ul > li.meteor {width: 90px;}
+	.userPrivate > ul > li.route {width: 130px;}
+	.userPrivate > ul > li.timer {width: 180px;}
+	.userPrivate > ul > li.change {width: 392px;}
+	.userPrivate > ul > li.timer label {line-height: normal;width: 80px;text-align: center;font-size: 13px; left:40px;}
+	.userPrivate > ul > li a {display: block;}
+	.userPrivate > ul > li.timer a:before {content: ''; width: 46px; height: 44px; background: url('../i/icon-mosque.png') center center no-repeat; float: left;}
+	.userPrivate > ul > li.timer span {width: 64px; height: 24px; margin: 11px 5px 0 0; float: right; background: #356083; color: #fff; font-weight: normal; text-align: center; line-height: 24px; border-radius: 5px;}
+	.userPrivate > ul > li.route .fa {width: 34px; height: 44px; float: left; font-size: 28px; color: #356083; line-height: 44px; text-align: center;}
+	.userPrivate > ul > li a:hover {background: #ededed;}
+	.userPrivate > ul > li.meteor .iconDiv {width: 43px; height: 44px; display: inline-block; vertical-align: top; text-align: center; position: relative;}
+	.userPrivate > ul > li.meteor .iconDiv [class^="flaticon-"]:before,
+	.userPrivate > ul > li.meteor .iconDiv [class*=" flaticon-"]:before,
+	.userPrivate > ul > li.meteor .iconDiv [class^="flaticon-"]:after,
+	.userPrivate > ul > li.meteor .iconDiv [class*=" flaticon-"]:after {font-size: 40px; color: #356083;}
 
-	.userPrivate &gt; ul &gt; li.change ol {width: 100%; display: inline-block; vertical-align: top;}
-	.userPrivate &gt; ul &gt; li.change ol li {width: 28%; padding: 5px 0 5px 30px; position: relative; float: left; border-right: 1px solid #dbdbdb;
+	.userPrivate > ul > li.change ol {width: 100%; display: inline-block; vertical-align: top;}
+	.userPrivate > ul > li.change ol li {width: 28%; padding: 5px 0 5px 30px; position: relative; float: left; border-right: 1px solid #dbdbdb;
 		-webkit-box-sizing: border-box;
 		   -moz-box-sizing: border-box;
 		        box-sizing: border-box;
 	}
-	.userPrivate &gt; ul &gt; li.change ol li:nth-child(2) {width: 23%;}
-	.userPrivate &gt; ul &gt; li.change ol li:nth-child(3) {width: 23%;}
-	.userPrivate &gt; ul &gt; li.change ol li:last-child {width: 26%; border: none;}
-	.userPrivate &gt; ul &gt; li.change em,
-	.userPrivate &gt; ul &gt; li.change i {display: block; font-style: normal; line-height: 18px;}
-	.userPrivate &gt; ul &gt; li.change i {font-weight: normal;}
-	.userPrivate &gt; ul &gt; li.change ol li:after {content: ''; position: absolute; background: #356083; border: 5px solid transparent; height: 0; width: 0; left:6px; top: 50%;
+	.userPrivate > ul > li.change ol li:nth-child(2) {width: 23%;}
+	.userPrivate > ul > li.change ol li:nth-child(3) {width: 23%;}
+	.userPrivate > ul > li.change ol li:last-child {width: 26%; border: none;}
+	.userPrivate > ul > li.change em,
+	.userPrivate > ul > li.change i {display: block; font-style: normal; line-height: 18px;}
+	.userPrivate > ul > li.change i {font-weight: normal;}
+	.userPrivate > ul > li.change ol li:after {content: ''; position: absolute; background: #356083; border: 5px solid transparent; height: 0; width: 0; left:6px; top: 50%;
 		-webkit-transform: translateY(-50%);
 		   -moz-transform: translateY(-50%);
 		    -ms-transform: translateY(-50%);
 		     -o-transform: translateY(-50%);
 		        transform: translateY(-50%);
 	}
-	.userPrivate &gt; ul &gt; li.change ol li.down:after {margin-top: 3px; border: 7px solid transparent; border-top: 9px solid #d11919; background: none;}
-	.userPrivate &gt; ul &gt; li.change ol li.up:after {margin-top: -5px; border: 7px solid transparent; border-bottom: 9px solid #009245; background: none;}
+	.userPrivate > ul > li.change ol li.down:after {margin-top: 3px; border: 7px solid transparent; border-top: 9px solid #d11919; background: none;}
+	.userPrivate > ul > li.change ol li.up:after {margin-top: -5px; border: 7px solid transparent; border-bottom: 9px solid #009245; background: none;}
 a.tkktLnk {text-decoration: underline;}
 
 .singleManset {width:100%;margin:10px 0px;}
@@ -13322,7 +13322,7 @@ a.tkktLnk {text-decoration: underline;}
 .mansetSingle {width:100%;margin-bottom: 10px;font-size:0px;}
 .mansetSingle a {display:block;}
 .mansetSingle img {max-width:100%; height:auto;}
-.galleryDetail &gt; ul .mansetSingle {margin-top:30px;}
+.galleryDetail > ul .mansetSingle {margin-top:30px;}
 .detay.yazarDetay + .mansetSingle {margin-top:30px;}
 
 
@@ -13358,7 +13358,7 @@ section.large:after,.reelSektorFrame:after,.reelSektorFrame .first:after {conten
 	.socialExtra .extra-navwrapper header {position: relative!important;}
 
 	.socialExtra .billBoardFrame {width: 960px; padding: 0; margin: 0 auto; background: #fff; position: relative; top: 0; left: 0; z-index: 11;}
-	.socialExtra .billBoardFrame &gt; div {border-bottom: 3px solid #cc0001;}
+	.socialExtra .billBoardFrame > div {border-bottom: 3px solid #cc0001;}
 
 	.socialExtra section {width: 100%; float: none;}
 	.socialExtra section .topDetail {padding-bottom: 20px; position: relative; z-index: 10; background: #fff;
@@ -13470,7 +13470,7 @@ section.large:after,.reelSektorFrame:after,.reelSektorFrame .first:after {conten
 	}
 
 	.sliderWrapper .headlineFrontTop .items .slick-slide {width: 100%; height: 316px;}
-	.sliderWrapper .headlineFrontTop .items &gt; li:not(:first-child) {display: none;}
+	.sliderWrapper .headlineFrontTop .items > li:not(:first-child) {display: none;}
 	.sliderWrapper .headlineFrontTop .items.slick-initialized .slick-track .slick-slide {display: block;}
 	.sliderWrapper .headlineFrontTop .items .slick-slide a {display: block; position: relative;}
 	.sliderWrapper .headlineFrontTop .items .slick-slide a img {display: block; width: 100%; height: 316px; position: relative; z-index: 3; font-size: 0px; color: transparent;}
@@ -13550,7 +13550,7 @@ section.large:after,.reelSektorFrame:after,.reelSektorFrame .first:after {conten
 	}
 
 	.sliderWrapper .lastMinNews .items .slick-slide {width: 100%; height: 55px;}
-	.sliderWrapper .lastMinNews .items &gt; li:not(:first-child) {display: none;}
+	.sliderWrapper .lastMinNews .items > li:not(:first-child) {display: none;}
 	.sliderWrapper .lastMinNews .items.slick-initialized .slick-track .slick-slide {display: block;}
 	.sliderWrapper .lastMinNews .items a {display: block; position: relative;}
 
@@ -13587,7 +13587,7 @@ section.large:after,.reelSektorFrame:after,.reelSektorFrame .first:after {conten
 	.sliderWrapper .headlineMain .items:hover .slick-next {opacity: 1;}
 
 	.sliderWrapper .headlineMain .items .slick-slide {width: 100%; height: 505px;}
-	.sliderWrapper .headlineMain .items &gt; li:not(:first-child) {display: none;}
+	.sliderWrapper .headlineMain .items > li:not(:first-child) {display: none;}
 	.sliderWrapper .headlineMain .items.slick-initialized .slick-track .slick-slide {display: block;}
 	.sliderWrapper .headlineMain .items .slick-slide a {display: block; position: relative;}
 	.sliderWrapper .headlineMain .items .slick-slide a img {display: block; width: 960px; height: auto; position: relative; z-index: 3; font-size: 0px; color: transparent;}
@@ -13829,9 +13829,9 @@ section.large:after,.reelSektorFrame:after,.reelSektorFrame .first:after {conten
 
 	.sliderWrapper .headlineMainSub .items .slick-slide {width: 100%; height: 166px; padding-left: 3px; box-sizing: border-box;}
 	.sliderWrapper .headlineMainSub .items .slick-slide:first-child {padding-left: 0;}
-	.sliderWrapper .headlineMainSub .items &gt; li {margin-left: 3px; float: left;}
-	.sliderWrapper .headlineMainSub .items &gt; li:first-child {margin-left: 0;}
-	.sliderWrapper .headlineMainSub .items &gt; li:not(:nth-child(-n+3)) {display: none;}
+	.sliderWrapper .headlineMainSub .items > li {margin-left: 3px; float: left;}
+	.sliderWrapper .headlineMainSub .items > li:first-child {margin-left: 0;}
+	.sliderWrapper .headlineMainSub .items > li:not(:nth-child(-n+3)) {display: none;}
 	.sliderWrapper .headlineMainSub .items.slick-initialized .slick-track .slick-slide {display: block;}
 	.sliderWrapper .headlineMainSub .items .slick-slide a {display: block; position: relative;}
 	.sliderWrapper .headlineMainSub .items li a img {display: block; width: 318px; height: 167px; position: relative; z-index: 3; font-size: 0px; color: transparent;}
@@ -13872,8 +13872,8 @@ section.large:after,.reelSektorFrame:after,.reelSektorFrame .first:after {conten
 	.sliderWrapper .headlineWriter .items:hover .slick-next {color: #d11919;}
 
 	.sliderWrapper .headlineWriter .items .slick-slide {width: 100%; height: 157px;}
-	.sliderWrapper .headlineWriter .items &gt; li {width: 230px; float: left;}
-	.sliderWrapper .headlineWriter .items &gt; li:not(:nth-child(-n+4)) {display: none;}
+	.sliderWrapper .headlineWriter .items > li {width: 230px; float: left;}
+	.sliderWrapper .headlineWriter .items > li:not(:nth-child(-n+4)) {display: none;}
 	.sliderWrapper .headlineWriter .items.slick-initialized .slick-track .slick-slide {display: block;}
 	.sliderWrapper .headlineWriter .items li div {float:left; text-align:center; padding:5px 0 0;}
 	.sliderWrapper .headlineWriter .items li a {display: block; position: relative; font-family: 'Roboto Slab', serif; font-size: 14px; font-weight: 700; outline: none;}
@@ -13906,8 +13906,8 @@ section.large:after,.reelSektorFrame:after,.reelSektorFrame .first:after {conten
 	.sliderWrapper .headlineGallery .items:hover .slick-prev,
 	.sliderWrapper .headlineGallery .items:hover .slick-next {opacity: 1;}
 
-	.sliderWrapper .headlineGallery .items &gt; li {width: 100%; height: 343px;}
-	.sliderWrapper .headlineGallery .items &gt; li:not(:first-child) {display: none;}
+	.sliderWrapper .headlineGallery .items > li {width: 100%; height: 343px;}
+	.sliderWrapper .headlineGallery .items > li:not(:first-child) {display: none;}
 	.sliderWrapper .headlineGallery .items.slick-initialized .slick-track .slick-slide {display: block;}
 	.sliderWrapper .headlineGallery .items .slick-slide a {display: block; position: relative;}
 	.sliderWrapper .headlineGallery .items .slick-slide a img {display: block; width: 650px; height: 343px; position: relative; z-index: 3; font-size: 0px; color: transparent;}
@@ -13966,12 +13966,12 @@ section.large:after,.reelSektorFrame:after,.reelSektorFrame .first:after {conten
 	}
 
 	.sliderWrapper .headlineMicro .items .slick-slide {width: 100%; height: 200px;}
-	.sliderWrapper .headlineMicro .items &gt; li:not(:first-child) {display: none;}
+	.sliderWrapper .headlineMicro .items > li:not(:first-child) {display: none;}
 	.sliderWrapper .headlineMicro .items.slick-initialized .slick-track .slick-slide {display: block;}
 	.sliderWrapper .headlineMicro .items .slick-slide a {display: block; position: relative;}
 	.sliderWrapper .headlineMicro .items .slick-slide a img {display: block; width: 320px; height: 169px; position: relative; z-index: 3; font-size: 0px; color: transparent;}
-	.sliderWrapper .headlineMicro .items &gt; li span,
-	.sliderWrapper .headlineMicro .items &gt; li strong {display: none;}
+	.sliderWrapper .headlineMicro .items > li span,
+	.sliderWrapper .headlineMicro .items > li strong {display: none;}
 	.sliderWrapper .headlineMicro .items .slick-slide strong {max-width: 130px; display: block; position: absolute; top: 10px; right: 0; z-index: 4; line-height: 14px; padding: 5px 10px; box-sizing:border-box; font-size:12px; font-family: 'Roboto Slab', serif; font-weight: 700; color:#fff;}
 	.sliderWrapper .headlineMicro .items .slick-slide a span {height: 31px; display: block; position: relative; z-index: 3; padding:0 5px; font-size:14px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-family: 'Roboto Slab', serif; font-weight: 700; line-height: 36px;}
 
@@ -14046,7 +14046,7 @@ section.large:after,.reelSektorFrame:after,.reelSektorFrame .first:after {conten
 	.sliderWrapper .categoryNews.type01 .items .slick-next:hover {background: rgba(255, 255, 255, .4);}
 
 	.sliderWrapper .categoryNews.type01 .items .slick-slide {width: 100%; height: 300px;}
-	.sliderWrapper .categoryNews.type01 .items &gt; li:not(:first-child) {display: none;}
+	.sliderWrapper .categoryNews.type01 .items > li:not(:first-child) {display: none;}
 	.sliderWrapper .categoryNews.type01 .items.slick-initialized .slick-track .slick-slide {display: block;}
 	.sliderWrapper .categoryNews.type01 .items .slick-slide a {display: block; position: relative;}
 	.sliderWrapper .categoryNews.type01 .items .slick-slide a img {display: block; width: 300px; height: 300px; position: relative; z-index: 3; font-size: 0px; color: transparent;}
@@ -14065,7 +14065,7 @@ section.large:after,.reelSektorFrame:after,.reelSektorFrame .first:after {conten
 	.sliderWrapper .headlineSubPage.type01 .items .slick-next {display: none;}
 
 	.sliderWrapper .headlineSubPage.type01 .items .slick-slide {width: 100%; height: 343px;}
-	.sliderWrapper .headlineSubPage.type01 .items &gt; li:not(:first-child) {display: none;}
+	.sliderWrapper .headlineSubPage.type01 .items > li:not(:first-child) {display: none;}
 	.sliderWrapper .headlineSubPage.type01 .items.slick-initialized .slick-track .slick-slide {display: block;}
 	.sliderWrapper .headlineSubPage.type01 .items .slick-slide a {display: block; position: relative;}
 	.sliderWrapper .headlineSubPage.type01 .items .slick-slide a img {display: block; width: 650px; height: auto; position: relative; z-index: 3; font-size: 0px; color: transparent;}

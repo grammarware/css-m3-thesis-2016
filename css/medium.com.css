@@ -5003,13 +5003,13 @@ body.is-swBoot {
     text-align: center
 }
 
-.button--circle&gt;.avatar,.button--circle&gt;.avatar&gt;.avatar-image {
+.button--circle>.avatar,.button--circle>.avatar>.avatar-image {
     width: 37px;
     height: 37px;
     border-radius: 100%
 }
 
-.button--circle.button--small&gt;.avatar,.button--circle.button--small&gt;.avatar&gt;.avatar-image {
+.button--circle.button--small>.avatar,.button--circle.button--small>.avatar>.avatar-image {
     width: 32px;
     height: 32px
 }
@@ -5305,12 +5305,12 @@ body.is-swBoot {
     height: 14px
 }
 
-.buttonSet&gt;.button,.buttonSet&gt;.buttonSet-inner&gt;.button {
+.buttonSet>.button,.buttonSet>.buttonSet-inner>.button {
     margin-right: 8px;
     vertical-align: middle
 }
 
-.buttonSet--withLabels&gt;.buttonSet-inner {
+.buttonSet--withLabels>.buttonSet-inner {
     margin-right: 5px
 }
 
@@ -5323,7 +5323,7 @@ body.is-swBoot {
     margin-left: 5px
 }
 
-.buttonSet&gt;.button:last-child,.buttonSet&gt;.buttonSet-inner:last-child&gt;.button:last-child {
+.buttonSet>.button:last-child,.buttonSet>.buttonSet-inner:last-child>.button:last-child {
     margin-right: 0
 }
 
@@ -5339,41 +5339,41 @@ body.is-swBoot {
     margin-right: 0
 }
 
-.buttonSet&gt;.button--chromeless+.button,.buttonSet&gt;.buttonSet-inner+.button--chromeless,.buttonSet&gt;.buttonSet-separator+.button {
+.buttonSet>.button--chromeless+.button,.buttonSet>.buttonSet-inner+.button--chromeless,.buttonSet>.buttonSet-separator+.button {
     margin-left: 8px
 }
 
-.buttonSet--wide&gt;.button,.buttonSet--wide&gt;.buttonSet-inner&gt;.button {
+.buttonSet--wide>.button,.buttonSet--wide>.buttonSet-inner>.button {
     margin-right: 16px
 }
 
-.buttonSet&gt;.button--chromeless:not(.button--circle) {
+.buttonSet>.button--chromeless:not(.button--circle) {
     margin-right: 0;
     padding-right: 8px
 }
 
-.buttonSet--wide&gt;.button--chromeless:not(.button--circle) {
+.buttonSet--wide>.button--chromeless:not(.button--circle) {
     padding-right: 16px
 }
 
-.buttonSet&gt;.button--chromeless:last-child {
+.buttonSet>.button--chromeless:last-child {
     padding-right: 0
 }
 
-.buttonSet&gt;.button--chromeless+.button--chromeless:not(.button--circle) {
+.buttonSet>.button--chromeless+.button--chromeless:not(.button--circle) {
     margin-left: 0;
     padding-left: 8px
 }
 
-.buttonSet--vertical&gt;.button--chromeless.button--fbInApp {
+.buttonSet--vertical>.button--chromeless.button--fbInApp {
     margin-right: auto
 }
 
-.buttonSet--narrow&gt;.button {
+.buttonSet--narrow>.button {
     margin-right: 4px
 }
 
-.buttonSet--narrow&gt;.button+.button,.buttonSet--narrow&gt;.buttonSet-separator+.button {
+.buttonSet--narrow>.button+.button,.buttonSet--narrow>.buttonSet-separator+.button {
     margin-left: 4px
 }
 
@@ -5386,16 +5386,16 @@ body.is-swBoot {
     padding-top: 0
 }
 
-.buttonSet--vertical&gt;.button {
+.buttonSet--vertical>.button {
     display: block;
     margin: 0 auto 10px
 }
 
-.buttonSet--vertical&gt;a.button {
+.buttonSet--vertical>a.button {
     display: inline-block
 }
 
-.buttonSet--vertical&gt;.button:last-child {
+.buttonSet--vertical>.button:last-child {
     margin-right: auto
 }
 
@@ -5407,15 +5407,15 @@ body.is-swBoot {
     border-radius: 0
 }
 
-.button--vertical:hover&gt;.label {
+.button--vertical:hover>.label {
     border-color: rgba(0,0,0,.44)
 }
 
-.button--vertical&gt;.label {
+.button--vertical>.label {
     margin: 0
 }
 
-.button--vertical&gt;.button-label {
+.button--vertical>.button-label {
     font-size: 12px
 }
 
@@ -5673,11 +5673,11 @@ body.is-swBoot {
     color: #00ab6b
 }
 
-.button--filled,.button--filled.button--primary.button--chromeless,.button--filled.button--primary.button--link,.button--filled&gt;.label,.button--primary.button--withChrome.is-active,.button--primary.button--withChrome.is-active&gt;.label {
+.button--filled,.button--filled.button--primary.button--chromeless,.button--filled.button--primary.button--link,.button--filled>.label,.button--primary.button--withChrome.is-active,.button--primary.button--withChrome.is-active>.label {
     color: #fff
 }
 
-.button--filled&gt;.svgIcon,.button--primary.button--withChrome.is-active .svgIcon {
+.button--filled>.svgIcon,.button--primary.button--withChrome.is-active .svgIcon {
     fill: #fff
 }
 
@@ -5686,7 +5686,7 @@ body.is-swBoot {
     border-color: #02b875
 }
 
-.button--filled:active&gt;.svgIcon,.button--filled:focus&gt;.svgIcon,.button--filled:hover&gt;.svgIcon {
+.button--filled:active>.svgIcon,.button--filled:focus>.svgIcon,.button--filled:hover>.svgIcon {
     fill: #fff
 }
 
@@ -5956,7 +5956,7 @@ body.is-swBoot {
     display: inline-block
 }
 
-.buttonSet&gt;.buttonSwitch {
+.buttonSet>.buttonSwitch {
     margin-right: 8px
 }
 
@@ -6025,28 +6025,28 @@ body.is-swBoot {
     transition-duration: .1s
 }
 
-.button.is-active&gt;.button-activeState,.button&gt;.button-defaultState {
+.button.is-active>.button-activeState,.button>.button-defaultState {
     display: inline
 }
 
-.button.button--withIcon.is-active&gt;.button-activeState,.button.button--withIcon&gt;.button-defaultState {
+.button.button--withIcon.is-active>.button-activeState,.button.button--withIcon>.button-defaultState {
     display: inline-block;
     vertical-align: top
 }
 
-.button.is-active&gt;.button-defaultState,.button&gt;.button-activeState {
+.button.is-active>.button-defaultState,.button>.button-activeState {
     display: none
 }
 
-.button--vertical.is-active&gt;.button-activeState,.button--vertical&gt;.button-defaultState {
+.button--vertical.is-active>.button-activeState,.button--vertical>.button-defaultState {
     display: block
 }
 
-.button--withHover:active&gt;.button-hoverState,.button--withHover:focus&gt;.button-hoverState,.button--withHover:hover&gt;.button-hoverState,.button--withHover&gt;.button-defaultState {
+.button--withHover:active>.button-hoverState,.button--withHover:focus>.button-hoverState,.button--withHover:hover>.button-hoverState,.button--withHover>.button-defaultState {
     display: inline
 }
 
-.button--withHover:active&gt;.button-defaultState,.button--withHover:focus&gt;.button-defaultState,.button--withHover:hover&gt;.button-defaultState,.button--withHover&gt;.button-hoverState {
+.button--withHover:active>.button-defaultState,.button--withHover:focus>.button-defaultState,.button--withHover:hover>.button-defaultState,.button--withHover>.button-hoverState {
     display: none
 }
 
@@ -6070,12 +6070,12 @@ body.is-swBoot {
         width: 33px
     }
 
-    .button--circle&gt;.avatar,.button--circle&gt;.avatar&gt;.avatar-image {
+    .button--circle>.avatar,.button--circle>.avatar>.avatar-image {
         width: 32px;
         height: 32px
     }
 
-    .button--activity&gt;.button-text {
+    .button--activity>.button-text {
         font-size: 14px
     }
 
@@ -6099,11 +6099,11 @@ body.is-swBoot {
         padding: 0 16px
     }
 
-    .buttonSet&gt;.button {
+    .buttonSet>.button {
         margin-right: 4px
     }
 
-    .buttonSet--vertical&gt;.button {
+    .buttonSet--vertical>.button {
         margin: 0 auto 10px
     }
 
@@ -6251,7 +6251,7 @@ body.is-swBoot {
     margin-top: 10px
 }
 
-.linkSet&gt;.button {
+.linkSet>.button {
     margin-right: 8px
 }
 
@@ -6294,7 +6294,7 @@ body.is-swBoot {
     border-bottom: 1px solid rgba(255,255,255,.2)
 }
 
-.list-item&gt;p {
+.list-item>p {
     margin-bottom: 15px
 }
 
@@ -6405,7 +6405,7 @@ body.is-swBoot {
     float: none
 }
 
-.list-itemInfo&gt;.button--delete {
+.list-itemInfo>.button--delete {
     text-decoration: underline;
     line-height: 1.4;
     margin-top: 10px
@@ -6447,12 +6447,12 @@ body.is-swBoot {
     visibility: hidden
 }
 
-.list-item--dark&gt;a {
+.list-item--dark>a {
     font-size: 16px;
     color: rgba(0,0,0,.6)
 }
 
-.list-item--dark:hover&gt;a {
+.list-item--dark:hover>a {
     color: #000
 }
 
@@ -6467,7 +6467,7 @@ body.is-swBoot {
     font-style: normal
 }
 
-.list-itemInput--inline,.list-itemInput--inline.editable&gt;.graf--p {
+.list-itemInput--inline,.list-itemInput--inline.editable>.graf--p {
     display: inline
 }
 
@@ -6712,12 +6712,12 @@ body.is-swBoot {
     margin-bottom: 10px
 }
 
-.inputGroup--text&gt;.inputGroup-title {
+.inputGroup--text>.inputGroup-title {
     color: rgba(0,0,0,.44);
     font-size: 14px
 }
 
-.inputGroup--text&gt;.textInput {
+.inputGroup--text>.textInput {
     margin: 0
 }
 
@@ -6759,19 +6759,19 @@ body.is-swBoot {
     margin-top: 10px
 }
 
-.inputGroup--error&gt;.textInput {
+.inputGroup--error>.textInput {
     border-color: #cc5454
 }
 
-.inputGroup--error&gt;.inputGroup-title {
+.inputGroup--error>.inputGroup-title {
     color: #cc5454
 }
 
-.inputGroup--success&gt;.textInput {
+.inputGroup--success>.textInput {
     border-color: rgba(0,0,0,.15)
 }
 
-.inputGroup--success&gt;.inputGroup-title {
+.inputGroup--success>.inputGroup-title {
     color: #00ab6b
 }
 
@@ -6949,12 +6949,12 @@ body.is-swBoot {
     padding-bottom: 4px
 }
 
-.editorWithUnderline&gt;p.graf--p {
+.editorWithUnderline>p.graf--p {
     padding-bottom: 2px;
     border-bottom: 1px solid rgba(0,0,0,.15)
 }
 
-.editorWithUnderline:focus&gt;p.graf--p {
+.editorWithUnderline:focus>p.graf--p {
     border-bottom: 1px solid rgba(0,0,0,.44)
 }
 
@@ -7055,15 +7055,15 @@ body.is-swBoot {
     font-weight: 700
 }
 
-.heading-content&gt;.link {
+.heading-content>.link {
     color: rgba(0,0,0,.44)
 }
 
-.is-darkBackgrounded .heading-content&gt;.link {
+.is-darkBackgrounded .heading-content>.link {
     color: rgba(255,255,255,.35)
 }
 
-.is-darkBackgrounded .heading-content&gt;.link:hover {
+.is-darkBackgrounded .heading-content>.link:hover {
     color: rgba(255,255,255,.5)
 }
 
@@ -7103,11 +7103,11 @@ body.is-swBoot {
     color: rgba(0,0,0,.8)
 }
 
-.heading--simple .heading-content&gt;.link {
+.heading--simple .heading-content>.link {
     color: rgba(0,0,0,.44)
 }
 
-.heading--simple .heading-content&gt;.link:hover {
+.heading--simple .heading-content>.link:hover {
     color: rgba(0,0,0,.8)
 }
 
@@ -7292,7 +7292,7 @@ body.is-swBoot {
     padding-right: 4px
 }
 
-.label--withIcon .label-text,.label--withIcon .label-text&gt;.link {
+.label--withIcon .label-text,.label--withIcon .label-text>.link {
     vertical-align: top
 }
 
@@ -7481,11 +7481,11 @@ body.is-zoomableActive .postActionsBar.is-visible .postActionsBar-content {
     word-wrap: break-word
 }
 
-.hero-description&gt;a {
+.hero-description>a {
     color: rgba(0,0,0,.8)
 }
 
-.hero-description&gt;a:active,.hero-description&gt;a:focus,.hero-description&gt;a:hover {
+.hero-description>a:active,.hero-description>a:focus,.hero-description>a:hover {
     text-decoration: underline
 }
 
@@ -7665,7 +7665,7 @@ body.is-zoomableActive .postActionsBar.is-visible .postActionsBar-content {
     line-height: 1.2
 }
 
-.hero-title--referrers&gt;small {
+.hero-title--referrers>small {
     color: rgba(0,0,0,.44);
     display: block;
     font-size: 24px;
@@ -7710,7 +7710,7 @@ body.is-zoomableActive .postActionsBar.is-visible .postActionsBar-content {
         font-size: 24px
     }
 
-    .hero-title--referrers&gt;small {
+    .hero-title--referrers>small {
         font-size: 18px;
         margin-bottom: 10px
     }
@@ -7871,7 +7871,7 @@ body.is-zoomableActive .postActionsBar.is-visible .postActionsBar-content {
         font-size: 12px
     }
 
-    .postMetaInline-avatar .avatar-image,.postMetaInline-avatar&gt;.avatar {
+    .postMetaInline-avatar .avatar-image,.postMetaInline-avatar>.avatar {
         width: 32px;
         height: 32px
     }
@@ -8605,7 +8605,7 @@ section.is-darkBackgrounded {
     animation-delay: .8s
 }
 
-.loadingEllipsis&gt;span:not(:first-child) {
+.loadingEllipsis>span:not(:first-child) {
     animation: fade-step-in-50 1s infinite
 }
 
@@ -8696,11 +8696,11 @@ section.is-darkBackgrounded {
     margin-bottom: 30px
 }
 
-.overlay-actions&gt;.button {
+.overlay-actions>.button {
     margin-bottom: 10px
 }
 
-.overlay-content&gt;a {
+.overlay-content>a {
     text-decoration: underline;
     color: rgba(0,0,0,.6)
 }
@@ -8725,7 +8725,7 @@ section.is-darkBackgrounded {
     margin-bottom: 10px
 }
 
-.overlay--interstitial .overlay-content&gt;p {
+.overlay--interstitial .overlay-content>p {
     width: 450px;
     line-height: 1.4
 }
@@ -8851,7 +8851,7 @@ section.is-darkBackgrounded {
     font-size: 18px
 }
 
-.overlay--import&gt;.overlay-title {
+.overlay--import>.overlay-title {
     font-size: 44px;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
     letter-spacing: 0;
@@ -8859,7 +8859,7 @@ section.is-darkBackgrounded {
     font-style: normal
 }
 
-.overlay--import&gt;.overlay-content {
+.overlay--import>.overlay-content {
     margin: 30px -100px;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
     letter-spacing: 0;
@@ -8908,7 +8908,7 @@ section.is-darkBackgrounded {
     margin-top: 25px
 }
 
-.overlayRegistration-terms&gt;a {
+.overlayRegistration-terms>a {
     text-decoration: underline
 }
 
@@ -9064,7 +9064,7 @@ section.is-darkBackgrounded {
         height: 84px
     }
 
-    .overlay--interstitial .overlay-content&gt;p {
+    .overlay--interstitial .overlay-content>p {
         width: 100%
     }
 
@@ -9162,7 +9162,7 @@ section.is-darkBackgrounded {
     z-index: 500
 }
 
-.metabar .buttonSet,.metabar .inputGroup,.metabar-block&gt;.button {
+.metabar .buttonSet,.metabar .inputGroup,.metabar-block>.button {
     margin: 10px;
     display: inline-block;
     white-space: nowrap;
@@ -9181,7 +9181,7 @@ section.is-darkBackgrounded {
     margin: 0
 }
 
-.metabar-block&gt;.buttonSet+.buttonSet {
+.metabar-block>.buttonSet+.buttonSet {
     margin-left: 0
 }
 
@@ -9290,7 +9290,7 @@ section.is-darkBackgrounded {
         line-height: 33px
     }
 
-    .metabar-block .avatar--roundedRectangle&gt;.avatar-image {
+    .metabar-block .avatar--roundedRectangle>.avatar-image {
         width: 30px;
         height: 30px
     }
@@ -9331,17 +9331,17 @@ section.is-darkBackgrounded {
     border-bottom: 0
 }
 
-.listChoice-item:last-child&gt;.button--link {
+.listChoice-item:last-child>.button--link {
     border-radius: 0 0 4px 4px
 }
 
-.listChoice-item&gt;.button--link {
+.listChoice-item>.button--link {
     width: 100%;
     padding: 10px;
     color: rgba(0,0,0,.9)
 }
 
-.listChoice-item&gt;.button--link:hover {
+.listChoice-item>.button--link:hover {
     background: rgba(0,0,0,.05)
 }
 
@@ -9371,7 +9371,7 @@ section.is-darkBackgrounded {
     margin-left: 60px
 }
 
-.listChoice-itemTitle&gt;small {
+.listChoice-itemTitle>small {
     display: block;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
     letter-spacing: 0;
@@ -9384,7 +9384,7 @@ section.is-darkBackgrounded {
     display: block
 }
 
-.listChoice-item--withoutImage&gt;.button--link {
+.listChoice-item--withoutImage>.button--link {
     padding: 15px
 }
 
@@ -9469,7 +9469,7 @@ section.is-darkBackgrounded {
     padding: 0
 }
 
-.popover-inner&gt;.button--primary {
+.popover-inner>.button--primary {
     margin-top: 15px
 }
 
@@ -9483,13 +9483,13 @@ section.is-darkBackgrounded {
     }
 }
 
-.popover--menu&gt;.popover-inner {
+.popover--menu>.popover-inner {
     padding: 8px 0;
     overflow: auto;
     -webkit-overflow-scrolling: touch
 }
 
-.browser-firefox .popover--inlinePostControl&gt;.popover-inner {
+.browser-firefox .popover--inlinePostControl>.popover-inner {
     min-width: 125px
 }
 
@@ -9559,7 +9559,7 @@ section.is-darkBackgrounded {
     display: none
 }
 
-.popover--dark&gt;.popover-inner {
+.popover--dark>.popover-inner {
     color: #fff;
     border: none;
     box-shadow: none;
@@ -9569,7 +9569,7 @@ section.is-darkBackgrounded {
     padding-bottom: 10px
 }
 
-.popover--dark&gt;.popover-arrow:after {
+.popover--dark>.popover-arrow:after {
     background: rgba(0,0,0,.8);
     border: none;
     box-shadow: none
@@ -9643,7 +9643,7 @@ section.is-darkBackgrounded {
     overflow-y: auto
 }
 
-.popover--tooltip&gt;.popover-inner {
+.popover--tooltip>.popover-inner {
     padding: 8px
 }
 
@@ -9730,7 +9730,7 @@ section.is-darkBackgrounded {
     overflow: visible
 }
 
-.popover--publish&gt;.popover-inner {
+.popover--publish>.popover-inner {
     padding: 20px;
     min-width: 220px;
     max-width: 280px
@@ -9795,7 +9795,7 @@ section.is-darkBackgrounded {
     text-align: left
 }
 
-.popover--visibility&gt;.popover-inner {
+.popover--visibility>.popover-inner {
     padding: 9px;
     width: 242px;
     max-width: 242px
@@ -9811,7 +9811,7 @@ section.is-darkBackgrounded {
     margin: 10px 0 5px 0
 }
 
-.popover--scheduler&gt;.popover-inner {
+.popover--scheduler>.popover-inner {
     min-width: 280px
 }
 
@@ -10623,11 +10623,11 @@ body.is-diagnosticsVisible .site-main {
     width: 230px
 }
 
-.popover--userActions.popover--globalNav .list-item:hover&gt;.button {
+.popover--userActions.popover--globalNav .list-item:hover>.button {
     color: rgba(0,0,0,.8)
 }
 
-.popover--userActions.popover--globalNav .list-item&gt;.button {
+.popover--userActions.popover--globalNav .list-item>.button {
     padding: 7px 25px
 }
 
@@ -10660,7 +10660,7 @@ body.is-diagnosticsVisible .site-main {
         margin-top: -6px
     }
 
-    .popover--globalNav&gt;.popover-inner {
+    .popover--globalNav>.popover-inner {
         width: 100%!important;
         max-width: 100%!important;
         height: auto!important;
@@ -10825,11 +10825,11 @@ body.is-diagnosticsVisible .site-main {
     height: 60px
 }
 
-.infoCard-actions&gt;.button&gt;.label.is-default {
+.infoCard-actions>.button>.label.is-default {
     color: rgba(0,0,0,.6)
 }
 
-.infoCard-actions&gt;.button,.infoCard-info--short .infoCard-wrapper {
+.infoCard-actions>.button,.infoCard-info--short .infoCard-wrapper {
     position: relative;
     top: 50%;
     transform: translateY(-50%)
@@ -10920,14 +10920,14 @@ body.is-diagnosticsVisible .site-main {
     font-style: normal
 }
 
-.tags .tag-token,.tags&gt;a,.tags&gt;li {
+.tags .tag-token,.tags>a,.tags>li {
     display: inline-block;
     margin-right: 5px;
     margin-bottom: 5px;
     position: relative
 }
 
-.tags .tag-button,.tags&gt;a,.tags&gt;li {
+.tags .tag-button,.tags>a,.tags>li {
     color: #fff;
     border-radius: 999em;
     padding: 0 9px;
@@ -10950,7 +10950,7 @@ body.is-diagnosticsVisible .site-main {
     cursor: text
 }
 
-.sectionTagEditor .tags&gt;.tag-token:nth-child(1)+.tags-input,.tags--navigation&gt;.tag-token:nth-child(1)+.tags-input {
+.sectionTagEditor .tags>.tag-token:nth-child(1)+.tags-input,.tags--navigation>.tag-token:nth-child(1)+.tags-input {
     display: none
 }
 
@@ -10958,11 +10958,11 @@ body.is-diagnosticsVisible .site-main {
     min-width: 100px
 }
 
-.tags--postTags&gt;.tag-token:nth-child(5)+.tags-input {
+.tags--postTags>.tag-token:nth-child(5)+.tags-input {
     min-width: 10px
 }
 
-.tags--postTags&gt;.tag-token:nth-child(5)+.tags-input .defaultValue {
+.tags--postTags>.tag-token:nth-child(5)+.tags-input .defaultValue {
     visibility: hidden;
     display: inline-block;
     width: 0
@@ -10972,7 +10972,7 @@ body.is-diagnosticsVisible .site-main {
     text-transform: uppercase
 }
 
-.tags--dark .tag-button,.tags--dark&gt;a,.tags--dark&gt;li {
+.tags--dark .tag-button,.tags--dark>a,.tags--dark>li {
     color: rgba(0,0,0,.6);
     background: rgba(0,0,0,.05)
 }
@@ -10989,12 +10989,12 @@ body.is-diagnosticsVisible .site-main {
     color: rgba(0,0,0,.8)
 }
 
-.tags--postTags .tag-token,.tags--postTags&gt;.button,.tags--postTags&gt;a,.tags--postTags&gt;li {
+.tags--postTags .tag-token,.tags--postTags>.button,.tags--postTags>a,.tags--postTags>li {
     margin-right: 8px;
     margin-bottom: 8px
 }
 
-.tags--postTags .tag-button,.tags--postTags&gt;.button,.tags--postTags&gt;a,.tags--postTags&gt;li {
+.tags--postTags .tag-button,.tags--postTags>.button,.tags--postTags>a,.tags--postTags>li {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -11008,11 +11008,11 @@ body.is-diagnosticsVisible .site-main {
     padding: 5px 10px
 }
 
-.tags--postTags .tag-token:last-child,.tags--postTags&gt;a:last-child,.tags--postTags&gt;li:last-child {
+.tags--postTags .tag-token:last-child,.tags--postTags>a:last-child,.tags--postTags>li:last-child {
     margin-right: 0
 }
 
-.tags--postTags.tags--light .tag-button,.tags--postTags.tags--light&gt;a,.tags--postTags.tags--light&gt;li {
+.tags--postTags.tags--light .tag-button,.tags--postTags.tags--light>a,.tags--postTags.tags--light>li {
     color: rgba(0,0,0,.6);
     background: rgba(255,255,255,.97)
 }
@@ -11021,24 +11021,24 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
     background-image: none
 }
 
-.tags--postTags .tag-button.is-active,.tags--postTags .tag-button:focus,.tags--postTags .tag-button:hover,.tags--postTags a:focus,.tags--postTags a:hover,.tags--postTags&gt;.button.is-active,.tags--postTags&gt;.button:focus,.tags--postTags&gt;.button:hover {
+.tags--postTags .tag-button.is-active,.tags--postTags .tag-button:focus,.tags--postTags .tag-button:hover,.tags--postTags a:focus,.tags--postTags a:hover,.tags--postTags>.button.is-active,.tags--postTags>.button:focus,.tags--postTags>.button:hover {
     color: rgba(0,0,0,.8);
     border-color: rgba(0,0,0,.15);
     background: #fff;
     text-decoration: none
 }
 
-.tags--postTagsEditor .tag-button,.tags--postTagsEditor&gt;.button,.tags--postTagsEditor&gt;a {
+.tags--postTagsEditor .tag-button,.tags--postTagsEditor>.button,.tags--postTagsEditor>a {
     transition: none
 }
 
-.tags--postTagsEditor .tag-button:hover,.tags--postTagsEditor&gt;.button:hover,.tags--postTagsEditor&gt;a:hover {
+.tags--postTagsEditor .tag-button:hover,.tags--postTagsEditor>.button:hover,.tags--postTagsEditor>a:hover {
     background: #fafafa;
     color: rgba(0,0,0,.44);
     border-color: rgba(0,0,0,.44)
 }
 
-.tags--postTagsEditor .tag-button:focus,.tags--postTagsEditor&gt;.button:focus,.tags--postTagsEditor&gt;a:focus {
+.tags--postTagsEditor .tag-button:focus,.tags--postTagsEditor>.button:focus,.tags--postTagsEditor>a:focus {
     background: #fafafa;
     color: rgba(0,0,0,.44);
     border-color: rgba(2,184,117,.8)
@@ -11068,7 +11068,7 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
     padding: 9px 0
 }
 
-.inlineEditor .tags--postTags&gt;a {
+.inlineEditor .tags--postTags>a {
     margin-bottom: 0
 }
 
@@ -11088,18 +11088,18 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
     top: -1px
 }
 
-.tags--borderless .tag-button,.tags--borderless&gt;.button,.tags--borderless&gt;a,.tags--borderless&gt;li {
+.tags--borderless .tag-button,.tags--borderless>.button,.tags--borderless>a,.tags--borderless>li {
     border: none;
     color: rgba(0,0,0,.6);
     background: rgba(0,0,0,.05)
 }
 
-.tags--borderless .tag-button.is-active,.tags--borderless .tag-button:focus,.tags--borderless .tag-button:hover,.tags--borderless&gt;.button.is-active,.tags--borderless&gt;.button:focus,.tags--borderless&gt;.button:hover,.tags--borderless&gt;a:focus,.tags--borderless&gt;a:hover,.tags--borderless&gt;li:focus,.tags--borderless&gt;li:hover {
+.tags--borderless .tag-button.is-active,.tags--borderless .tag-button:focus,.tags--borderless .tag-button:hover,.tags--borderless>.button.is-active,.tags--borderless>.button:focus,.tags--borderless>.button:hover,.tags--borderless>a:focus,.tags--borderless>a:hover,.tags--borderless>li:focus,.tags--borderless>li:hover {
     background: rgba(0,0,0,.1);
     color: rgba(0,0,0,.6)
 }
 
-.tags--borderless&gt;li&gt;a:focus,.tags--borderless&gt;li&gt;a:hover {
+.tags--borderless>li>a:focus,.tags--borderless>li>a:hover {
     background: 0 0;
     color: rgba(0,0,0,.6)
 }
@@ -11118,7 +11118,7 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
     color: rgba(0,0,0,.8)
 }
 
-.tags--onboarding&gt;.tags-token {
+.tags--onboarding>.tags-token {
     height: 100px;
     border: 0;
     padding: 2px;
@@ -11131,12 +11131,12 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
 }
 
 @media screen and (min-width:768px) {
-    .tags--onboarding&gt;.tags-token {
+    .tags--onboarding>.tags-token {
         width: 20%!important
     }
 }
 
-.tags-token&gt;.tags-button {
+.tags-token>.tags-button {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -11149,25 +11149,25 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
     text-align: center
 }
 
-.tags-token&gt;.tags-button {
+.tags-token>.tags-button {
     border-radius: 3px;
     font-size: 16px
 }
 
-.tags--onboarding&gt;.tags-token.is-dynamic {
+.tags--onboarding>.tags-token.is-dynamic {
     animation: fade-in 750ms;
     animation-fill-mode: both
 }
 
-.tags-token&gt;.tags-button:hover:not(.is-active) {
+.tags-token>.tags-button:hover:not(.is-active) {
     background-color: rgba(255,255,255,.1)
 }
 
-.tags-token&gt;.tags-button.is-active {
+.tags-token>.tags-button.is-active {
     background-color: rgba(2,184,117,.8)
 }
 
-.tags--onboarding&gt;.button.is-active {
+.tags--onboarding>.button.is-active {
     color: #fff;
     border-color: #02b875;
     background: #02b875
@@ -11248,7 +11248,7 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
 }
 
 @media all and (max-width:767px) {
-    .tags--onboarding&gt;.tags-token {
+    .tags--onboarding>.tags-token {
         height: 100px
     }
 }
@@ -11304,14 +11304,14 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
     vertical-align: top
 }
 
-.menu-item&gt;.button--chromeless {
+.menu-item>.button--chromeless {
     padding: 10px 20px 5px;
     color: rgba(0,0,0,.8);
     font-size: 24px;
     border-right: 1px solid rgba(0,0,0,.05)
 }
 
-.menu-item:last-child&gt;.button--chromeless {
+.menu-item:last-child>.button--chromeless {
     border-right: 0
 }
 
@@ -11324,16 +11324,16 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
 }
 
 @media (max-width:767px) {
-    .menu-item&gt;.button--chromeless {
+    .menu-item>.button--chromeless {
         padding: 7px 15px 3px;
         vertical-align: top
     }
 
-    .menu-item:first-child,.menu-item:first-child&gt;.button--chromeless {
+    .menu-item:first-child,.menu-item:first-child>.button--chromeless {
         padding-left: 0
     }
 
-    .menu-item:last-child,.menu-item:last-child&gt;.button--chromeless {
+    .menu-item:last-child,.menu-item:last-child>.button--chromeless {
         padding-right: 0
     }
 
@@ -11442,7 +11442,7 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
     padding-top: 10px
 }
 
-.promo--sidebar .buttonSet--vertical&gt;.button {
+.promo--sidebar .buttonSet--vertical>.button {
     margin-left: 0
 }
 
@@ -11528,11 +11528,11 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
     margin-bottom: 20px
 }
 
-.promo--hero .promo-dismissButton&gt;.svgIcon {
+.promo--hero .promo-dismissButton>.svgIcon {
     fill: rgba(255,255,255,.5)
 }
 
-.promo--hero .promo-dismissButton&gt;.svgIcon:hover {
+.promo--hero .promo-dismissButton>.svgIcon:hover {
     fill: rgba(255,255,255,.85)
 }
 
@@ -11670,11 +11670,11 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
     margin-bottom: 5px
 }
 
-.followState.is-blocking&gt;.button--unblock,.followState&gt;.button--follow {
+.followState.is-blocking>.button--unblock,.followState>.button--follow {
     display: inline-block
 }
 
-.followState.is-blocking&gt;.button--follow,.followState&gt;.button--unblock {
+.followState.is-blocking>.button--follow,.followState>.button--unblock {
     display: none
 }
 
@@ -12108,7 +12108,7 @@ body.is-swBoot .svgIcon--logoNew path:nth-child(4) {
     border-radius: 3px
 }
 
-.cardChromeless&gt;.streamItem-cardInner {
+.cardChromeless>.streamItem-cardInner {
     padding-top: 10px;
     border-bottom: none
 }
@@ -13403,7 +13403,7 @@ body.is-withMagicUnderlines .markup--anchor.markup--mixtapeEmbed-anchor {
     counter-reset: post
 }
 
-.postList&gt;li:before {
+.postList>li:before {
     position: absolute;
     display: inline-block;
     box-sizing: border-box;
@@ -13412,7 +13412,7 @@ body.is-withMagicUnderlines .markup--anchor.markup--mixtapeEmbed-anchor {
     text-align: right
 }
 
-ol.postList&gt;li:before {
+ol.postList>li:before {
     font-feature-settings: "liga" on,"lnum" on;
     -moz-font-feature-settings: "liga" on,"lnum" on;
     -webkit-font-feature-settings: "liga" on,"lnum" on;
@@ -13421,7 +13421,7 @@ ol.postList&gt;li:before {
     content: counter(post) "."
 }
 
-ul.postList&gt;li:before {
+ul.postList>li:before {
     padding-top: 4px;
     padding-right: 15px;
     content: '•'
@@ -13606,12 +13606,12 @@ body.is-withMagicUnderlines section.is-darkBackgrounded .markup--quote.is-select
     color: #bac4ce
 }
 
-.postArticle-content&gt;section {
+.postArticle-content>section {
     position: relative;
     clear: both
 }
 
-.section--cover+section&gt;.section-divider,.section--first .section-divider,section.is-backgrounded+section&gt;.section-divider,section:first-child&gt;.section-divider {
+.section--cover+section>.section-divider,.section--first .section-divider,section.is-backgrounded+section>.section-divider,section:first-child>.section-divider {
     display: none
 }
 
@@ -13619,7 +13619,7 @@ body.is-withMagicUnderlines section.is-darkBackgrounded .markup--quote.is-select
     padding-top: 75px
 }
 
-.postArticle--full.postArticle--response&gt;.postArticle-content .section--first,.postArticle:not(.postArticle--letter)&gt;.postArticle-content .section--first {
+.postArticle--full.postArticle--response>.postArticle-content .section--first,.postArticle:not(.postArticle--letter)>.postArticle-content .section--first {
     margin-top: 20px;
     padding-top: 0
 }
@@ -13632,7 +13632,7 @@ body.is-withMagicUnderlines section.is-darkBackgrounded .markup--quote.is-select
     position: relative
 }
 
-.section--bottomCenter&gt;.section-inner {
+.section--bottomCenter>.section-inner {
     vertical-align: bottom
 }
 
@@ -13723,7 +13723,7 @@ section.section-image--coverFade.is-backgrounded {
     table-layout: fixed
 }
 
-.section-doubleWidthTable&gt;.section-contentCell {
+.section-doubleWidthTable>.section-contentCell {
     width: 50%
 }
 
@@ -13740,7 +13740,7 @@ section.is-sectionUsingCanvas.is-imageBackgrounded .section-backgroundImage {
     width: 200%
 }
 
-.section-doubleWidthTable&gt;.section-contentCell {
+.section-doubleWidthTable>.section-contentCell {
     width: 50%
 }
 
@@ -14010,7 +14010,7 @@ body.is-postEditMode .markup--comment {
     clear: both
 }
 
-.graf-image,.graf-imageAnchor,.iframeContainer,.iframeContainer&gt;iframe {
+.graf-image,.graf-imageAnchor,.iframeContainer,.iframeContainer>iframe {
     display: block;
     position: relative;
     margin: auto;
@@ -14030,7 +14030,7 @@ body.is-postEditMode .markup--comment {
     overflow: hidden
 }
 
-.graf--layoutConstrainedHeightPreview&gt;.aspectRatioPlaceholder {
+.graf--layoutConstrainedHeightPreview>.aspectRatioPlaceholder {
     float: left
 }
 
@@ -14085,16 +14085,16 @@ section.is-imageBackgrounded .imageCaption,section[data-background-color]:not([d
     color: rgba(255,255,255,.65)
 }
 
-.graf--layoutFillWidth&gt;.imageCaption:before,.graf--layoutOutsetCenter&gt;.imageCaption:before,.graf--layoutOutsetLeft&gt;.imageCaption:before,.is-partialWidth&gt;.imageCaption:before,.postArticle--short .imageCaption:before {
+.graf--layoutFillWidth>.imageCaption:before,.graf--layoutOutsetCenter>.imageCaption:before,.graf--layoutOutsetLeft>.imageCaption:before,.is-partialWidth>.imageCaption:before,.postArticle--short .imageCaption:before {
     content: none
 }
 
-.graf--layoutFillWidth&gt;.imageCaption,.graf--layoutOutsetCenter&gt;.imageCaption {
+.graf--layoutFillWidth>.imageCaption,.graf--layoutOutsetCenter>.imageCaption {
     text-align: center;
     margin: 10px auto 0
 }
 
-.graf--layoutFillWidth&gt;.imageCaption {
+.graf--layoutFillWidth>.imageCaption {
     max-width: 1000px
 }
 
@@ -14105,7 +14105,7 @@ section.is-imageBackgrounded .imageCaption,section[data-background-color]:not([d
     text-align: center
 }
 
-.section-captionContent,section.is-darkBackgrounded&gt;.section-captionContent {
+.section-captionContent,section.is-darkBackgrounded>.section-captionContent {
     position: absolute;
     top: 100%;
     width: 100%;
@@ -14126,7 +14126,7 @@ section.is-imageBackgrounded .imageCaption,section[data-background-color]:not([d
     display: block
 }
 
-.aspectRatioPlaceholder.is-locked .catalog-image,.aspectRatioPlaceholder.is-locked .graf-dropCapImage,.aspectRatioPlaceholder.is-locked .graf-image,.aspectRatioPlaceholder.is-locked .graf-imageAnchor,.aspectRatioPlaceholder.is-locked .iframeContainer,.aspectRatioPlaceholder.is-locked .iframeContainer&gt;iframe {
+.aspectRatioPlaceholder.is-locked .catalog-image,.aspectRatioPlaceholder.is-locked .graf-dropCapImage,.aspectRatioPlaceholder.is-locked .graf-image,.aspectRatioPlaceholder.is-locked .graf-imageAnchor,.aspectRatioPlaceholder.is-locked .iframeContainer,.aspectRatioPlaceholder.is-locked .iframeContainer>iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -14244,7 +14244,7 @@ section.is-imageBackgrounded .imageCaption,section[data-background-color]:not([d
     line-height: 1.45
 }
 
-.postArticle--full.postArticle--letter&gt;.postArticle-content .section--first {
+.postArticle--full.postArticle--letter>.postArticle-content .section--first {
     padding-top: 20px
 }
 
@@ -14252,11 +14252,11 @@ section.is-imageBackgrounded .imageCaption,section[data-background-color]:not([d
     display: none
 }
 
-.postArticle--full.postArticle--letter&gt;.postArticle-content {
+.postArticle--full.postArticle--letter>.postArticle-content {
     padding-top: 0
 }
 
-.postArticle--full.postArticle--letter&gt;.postArticle-content .section--first:not(.is-imageBackgrounded):before {
+.postArticle--full.postArticle--letter>.postArticle-content .section--first:not(.is-imageBackgrounded):before {
     content: '';
     text-align: center;
     display: block;
@@ -14316,7 +14316,7 @@ section.is-imageBackgrounded .imageCaption,section[data-background-color]:not([d
     -webkit-overflow-scrolling: touch
 }
 
-.iframeContainer&gt;iframe {
+.iframeContainer>iframe {
     transform: translateZ(0)
 }
 
@@ -14391,7 +14391,7 @@ section.is-imageBackgrounded .imageCaption,section[data-background-color]:not([d
         display: block
     }
 
-    .postArticle--full.postArticle--letter&gt;.postArticle-content .section--first:not(.is-imageBackgrounded):before {
+    .postArticle--full.postArticle--letter>.postArticle-content .section--first:not(.is-imageBackgrounded):before {
         margin-left: 20px;
         margin-right: 20px
     }
@@ -14452,7 +14452,7 @@ section.is-imageBackgrounded .imageCaption,section[data-background-color]:not([d
         border-left: .17em solid #000
     }
 
-    ul.postList&gt;li:before {
+    ul.postList>li:before {
         padding-top: 3px
     }
 
@@ -14503,11 +14503,11 @@ section.is-imageBackgrounded .imageCaption,section[data-background-color]:not([d
         padding-top: 200px
     }
 
-    .postArticle--full.postArticle--response&gt;.postArticle-content .section--first {
+    .postArticle--full.postArticle--response>.postArticle-content .section--first {
         padding-top: 0
     }
 
-    .postArticle--full.postArticle--response&gt;.postArticle-content .section--first:not(.is-imageBackgrounded):before {
+    .postArticle--full.postArticle--response>.postArticle-content .section--first:not(.is-imageBackgrounded):before {
         display: none
     }
 
@@ -14660,7 +14660,7 @@ section.is-imageBackgrounded .imageCaption,section[data-background-color]:not([d
     letter-spacing: -.003em
 }
 
-ul.postList&gt;li:before {
+ul.postList>li:before {
     font-size: 16.8px
 }
 
@@ -14753,12 +14753,12 @@ hr.section-divider:before {
     vertical-align: top
 }
 
-.graf--p.graf--startsWithSingleQuote&gt;.graf-dropCap {
+.graf--p.graf--startsWithSingleQuote>.graf-dropCap {
     text-indent: -.13em;
     margin-right: 6px
 }
 
-.graf--p.graf--startsWithDoubleQuote&gt;.graf-dropCap {
+.graf--p.graf--startsWithDoubleQuote>.graf-dropCap {
     text-indent: -.28em;
     margin-right: 6px
 }
@@ -14833,7 +14833,7 @@ hr.section-divider:before {
     letter-spacing: -.004em
 }
 
-.postArticle--short ul.postList&gt;li:before {
+.postArticle--short ul.postList>li:before {
     font-size: 14.4px
 }
 
@@ -14906,7 +14906,7 @@ hr.section-divider:before {
         letter-spacing: -.004em
     }
 
-    ul.postList&gt;li:before {
+    ul.postList>li:before {
         font-size: 14.4px
     }
 
@@ -14936,7 +14936,7 @@ hr.section-divider:before {
         margin-right: 2px
     }
 
-    .graf--p.graf--startsWithDoubleQuote&gt;.graf-dropCap {
+    .graf--p.graf--startsWithDoubleQuote>.graf-dropCap {
         text-indent: -8px;
         margin-right: 6px
     }
@@ -15045,7 +15045,7 @@ hr.section-divider:before {
         font-size: 14.28px
     }
 
-    ul.postList&gt;li:before {
+    ul.postList>li:before {
         font-size: 11.42px
     }
 
@@ -15925,16 +15925,16 @@ section.is-imageBackgrounded+section.is-imageBackgrounded {
     padding-left: 0
 }
 
-.postArticle--series .postList&gt;li:before {
+.postArticle--series .postList>li:before {
     width: 4.875em;
     margin-left: -4.875em
 }
 
-.postArticle--series ol.postList&gt;li:before {
+.postArticle--series ol.postList>li:before {
     padding-right: .75em
 }
 
-.postArticle--series ul.postList&gt;li:before {
+.postArticle--series ul.postList>li:before {
     padding-top: .25em;
     padding-right: .9375em
 }
@@ -16110,11 +16110,11 @@ body.is-withMagicUnderlines .markup--anchor.markup--figure-anchor {
     background-position: 0 .98em
 }
 
-body.is-withMagicUnderlines .is-sectionUsingCanvas.is-imageBackgrounded&gt;.section-inner .markup--anchor,body.is-withMagicUnderlines section[data-background-color]:not([data-background-color$=Light])&gt;.section-inner .markup--anchor {
+body.is-withMagicUnderlines .is-sectionUsingCanvas.is-imageBackgrounded>.section-inner .markup--anchor,body.is-withMagicUnderlines section[data-background-color]:not([data-background-color$=Light])>.section-inner .markup--anchor {
     background-image: linear-gradient(to bottom,#fff 50%,rgba(255,255,255,0) 50%)
 }
 
-body.is-withMagicUnderlines .is-sectionUsingCanvas.is-imageBackgrounded&gt;.section-inner .markup--h2-anchor,body.is-withMagicUnderlines .is-sectionUsingCanvas.is-imageBackgrounded&gt;.section-inner .markup--h3-anchor,body.is-withMagicUnderlines section[data-background-color]:not([data-background-color$=Light])&gt;.section-inner .markup--h2-anchor,body.is-withMagicUnderlines section[data-background-color]:not([data-background-color$=Light])&gt;.section-inner .markup--h3-anchor {
+body.is-withMagicUnderlines .is-sectionUsingCanvas.is-imageBackgrounded>.section-inner .markup--h2-anchor,body.is-withMagicUnderlines .is-sectionUsingCanvas.is-imageBackgrounded>.section-inner .markup--h3-anchor,body.is-withMagicUnderlines section[data-background-color]:not([data-background-color$=Light])>.section-inner .markup--h2-anchor,body.is-withMagicUnderlines section[data-background-color]:not([data-background-color$=Light])>.section-inner .markup--h3-anchor {
     background-image: linear-gradient(to bottom,#fff,#fff)
 }
 
@@ -16269,11 +16269,11 @@ body.os-ios.is-withMagicUnderlines .markup--p-quote .markup--li-anchor,body.os-i
     word-wrap: break-word
 }
 
-.privateNotes-list&gt;.privateNotes-item {
+.privateNotes-list>.privateNotes-item {
     margin-bottom: 35px
 }
 
-.privateNotes-list&gt;.privateNotes-item:last-child {
+.privateNotes-list>.privateNotes-item:last-child {
     margin-bottom: 0;
     padding-bottom: 0;
     border-bottom: 0
@@ -16335,7 +16335,7 @@ body.os-ios.is-withMagicUnderlines .markup--p-quote .markup--li-anchor,body.os-i
     text-decoration: underline
 }
 
-.privateNotes-authorLockup,.privateNotes-item&gt;.avatar {
+.privateNotes-authorLockup,.privateNotes-item>.avatar {
     display: inline-block;
     vertical-align: middle
 }
@@ -16408,7 +16408,7 @@ body.os-ios.is-withMagicUnderlines .markup--p-quote .markup--li-anchor,body.os-i
     right: 0
 }
 
-.notesPositionContainer&gt;.notesMarkers {
+.notesPositionContainer>.notesMarkers {
     z-index: 60;
     overflow: visible
 }
@@ -16746,7 +16746,7 @@ section.is-darkBackgrounded .markup--highlight {
     cursor: text
 }
 
-.editable&gt;p {
+.editable>p {
     margin-bottom: 0
 }
 
@@ -16782,7 +16782,7 @@ section.is-darkBackgrounded .markup--highlight {
     display: none
 }
 
-.graf--figure.is-defaultValue.is-selected.is-partialWidth:last-child .imageCaption,.is-mediaRowFocused&gt;.graf--figure.is-partialWidth:last-child .imageCaption {
+.graf--figure.is-defaultValue.is-selected.is-partialWidth:last-child .imageCaption,.is-mediaRowFocused>.graf--figure.is-partialWidth:last-child .imageCaption {
     display: block
 }
 
@@ -16816,11 +16816,11 @@ section.is-darkBackgrounded .markup--highlight {
     box-shadow: 0 0 0 3px #cc5454
 }
 
-.section-image--aspectRatioViewport.is-sectionFocused&gt;.section-background {
+.section-image--aspectRatioViewport.is-sectionFocused>.section-background {
     box-shadow: 0 0 0 3px #02b875 inset
 }
 
-.section-image--aspectRatioViewport.is-sectionFocused&gt;.section-background[data-is-featured] {
+.section-image--aspectRatioViewport.is-sectionFocused>.section-background[data-is-featured] {
     box-shadow: 0 0 0 3px #cc5454 inset
 }
 
@@ -17215,7 +17215,7 @@ section.is-darkBackgrounded .markup--highlight {
     border-radius: 5px
 }
 
-.buttonSet&gt;.button--highlightMenu {
+.buttonSet>.button--highlightMenu {
     height: 44px;
     line-height: 46px
 }
@@ -17351,7 +17351,7 @@ section.is-darkBackgrounded .markup--highlight {
     -moz-font-feature-settings: "liga" on
 }
 
-.highlightMenu-linkinput&gt;.button {
+.highlightMenu-linkinput>.button {
     position: absolute;
     top: 0;
     right: 10px;
@@ -17409,7 +17409,7 @@ section.is-darkBackgrounded .markup--highlight {
     transition: transform .1s
 }
 
-.inlineTooltip.is-scaled&gt;.button--inlineTooltipControl {
+.inlineTooltip.is-scaled>.button--inlineTooltipControl {
     transition: transform 250ms;
     transform: rotate(45deg)
 }

@@ -661,7 +661,7 @@ a:focus,a:hover {
     padding-right: 10px
 }
 
-.ie8 .ps-container.ps-active-x&gt;.ps-scrollbar-x-rail,.ie8 .ps-container.ps-active-y&gt;.ps-scrollbar-y-rail {
+.ie8 .ps-container.ps-active-x>.ps-scrollbar-x-rail,.ie8 .ps-container.ps-active-y>.ps-scrollbar-y-rail {
     display: none
 }
 
@@ -677,11 +677,11 @@ a.chs-btn-skin,a.chs-btn-skin:focus,a.chs-btn-skin:visited {
     border: 0
 }
 
-.ps-container.ps-active-x&gt;.ps-scrollbar-x-rail,.ps-container.ps-active-y&gt;.ps-scrollbar-y-rail {
+.ps-container.ps-active-x>.ps-scrollbar-x-rail,.ps-container.ps-active-y>.ps-scrollbar-y-rail {
     display: block
 }
 
-.ps-container&gt;.ps-scrollbar-x-rail {
+.ps-container>.ps-scrollbar-x-rail {
     display: none;
     position: absolute;
     -webkit-border-radius: 4px;
@@ -695,7 +695,7 @@ a.chs-btn-skin,a.chs-btn-skin:focus,a.chs-btn-skin:visited {
     height: 8px
 }
 
-.ps-container&gt;.ps-scrollbar-x-rail&gt;.ps-scrollbar-x {
+.ps-container>.ps-scrollbar-x-rail>.ps-scrollbar-x {
     position: absolute;
     background-color: #aaa;
     -webkit-border-radius: 4px;
@@ -706,14 +706,14 @@ a.chs-btn-skin,a.chs-btn-skin:focus,a.chs-btn-skin:visited {
     height: 8px
 }
 
-.ps-container&gt;.ps-scrollbar-x-rail.in-scrolling {
+.ps-container>.ps-scrollbar-x-rail.in-scrolling {
     background-color: #eee;
     opacity: .9;
     -ms-filter: "alpha(Opacity=90)";
     filter: alpha(opacity=90)
 }
 
-.ps-container&gt;.ps-scrollbar-y-rail {
+.ps-container>.ps-scrollbar-y-rail {
     display: none;
     position: absolute;
     -webkit-border-radius: 4px;
@@ -727,7 +727,7 @@ a.chs-btn-skin,a.chs-btn-skin:focus,a.chs-btn-skin:visited {
     width: 8px
 }
 
-.ps-container&gt;.ps-scrollbar-y-rail&gt;.ps-scrollbar-y {
+.ps-container>.ps-scrollbar-y-rail>.ps-scrollbar-y {
     position: absolute;
     background-color: #aaa;
     -webkit-border-radius: 4px;
@@ -738,42 +738,42 @@ a.chs-btn-skin,a.chs-btn-skin:focus,a.chs-btn-skin:visited {
     width: 8px
 }
 
-.ps-container&gt;.ps-scrollbar-y-rail.in-scrolling {
+.ps-container>.ps-scrollbar-y-rail.in-scrolling {
     background-color: #eee;
     opacity: .9;
     -ms-filter: "alpha(Opacity=90)";
     filter: alpha(opacity=90)
 }
 
-.ps-container:hover&gt;.ps-scrollbar-x-rail,.ps-container:hover&gt;.ps-scrollbar-y-rail {
+.ps-container:hover>.ps-scrollbar-x-rail,.ps-container:hover>.ps-scrollbar-y-rail {
     opacity: .6;
     -ms-filter: "alpha(Opacity=60)";
     filter: alpha(opacity=60)
 }
 
-.ps-container:hover&gt;.ps-scrollbar-x-rail.in-scrolling,.ps-container:hover&gt;.ps-scrollbar-x-rail:hover,.ps-container:hover&gt;.ps-scrollbar-y-rail.in-scrolling {
+.ps-container:hover>.ps-scrollbar-x-rail.in-scrolling,.ps-container:hover>.ps-scrollbar-x-rail:hover,.ps-container:hover>.ps-scrollbar-y-rail.in-scrolling {
     background-color: #eee;
     opacity: .9;
     -ms-filter: "alpha(Opacity=90)";
     filter: alpha(opacity=90)
 }
 
-.ps-container:hover&gt;.ps-scrollbar-x-rail:hover&gt;.ps-scrollbar-x {
+.ps-container:hover>.ps-scrollbar-x-rail:hover>.ps-scrollbar-x {
     background-color: #999
 }
 
-.ps-container:hover&gt;.ps-scrollbar-y-rail:hover {
+.ps-container:hover>.ps-scrollbar-y-rail:hover {
     background-color: #eee;
     opacity: .9;
     -ms-filter: "alpha(Opacity=90)";
     filter: alpha(opacity=90)
 }
 
-.ps-container:hover&gt;.ps-scrollbar-y-rail:hover&gt;.ps-scrollbar-y {
+.ps-container:hover>.ps-scrollbar-y-rail:hover>.ps-scrollbar-y {
     background-color: #999
 }
 
-.chs-autocomplete .chs-popover-content&gt;.ps-scrollbar-x-rail,.chs-autocomplete .chs-popover-content&gt;.ps-scrollbar-y-rail {
+.chs-autocomplete .chs-popover-content>.ps-scrollbar-x-rail,.chs-autocomplete .chs-popover-content>.ps-scrollbar-y-rail {
     opacity: .6
 }
 
@@ -878,7 +878,7 @@ a.chs-btn-skin,a.chs-btn-skin:focus,a.chs-btn-skin:visited {
     text-indent: -9999px
 }
 
-.ml-navigation .chs-icon-heart,.ml-navigation .chs-icon-notification,.ml-navigation .chs-icon-question-sign,.ml-navigation .ml-account&gt;a {
+.ml-navigation .chs-icon-heart,.ml-navigation .chs-icon-notification,.ml-navigation .chs-icon-question-sign,.ml-navigation .ml-account>a {
     padding: 3px 7px
 }
 
@@ -1321,12 +1321,12 @@ a.chs-btn-skin,a.chs-btn-skin:focus,a.chs-btn-skin:visited {
     overflow: hidden
 }
 
-.notification-container&gt;li {
+.notification-container>li {
     border-top: 1px solid #ededed;
     position: relative
 }
 
-.notification-container&gt;li.read {
+.notification-container>li.read {
     background: #f2f2f2
 }
 
@@ -1724,7 +1724,7 @@ body {
     z-index: 900
 }
 
-.nav-header.nav-header-sticky+main&gt;.nav-bounds,.nav-header.nav-header-sticky+main&gt;.nav-main-content,.nav-header.nav-header-sticky~main&gt;.nav-bounds,.nav-header.nav-header-sticky~main&gt;.nav-main-content {
+.nav-header.nav-header-sticky+main>.nav-bounds,.nav-header.nav-header-sticky+main>.nav-main-content,.nav-header.nav-header-sticky~main>.nav-bounds,.nav-header.nav-header-sticky~main>.nav-main-content {
     padding-top: 50px
 }
 
@@ -1981,7 +1981,7 @@ button.nav-search-btn,button.nav-search-btn:focus {
     font-size: 13px
 }
 
-.nav-footer-user.logged&gt;a {
+.nav-footer-user.logged>a {
     margin-left: 7.5px
 }
 
@@ -2354,7 +2354,7 @@ button.nav-search-btn,button.nav-search-btn:focus {
         outline: 0
     }
 
-    .nav-header.nav-header-sticky+main&gt;.nav-bounds,.nav-header.nav-header-sticky+main&gt;.nav-main-content,.nav-header.nav-header-sticky~main&gt;.nav-bounds,.nav-header.nav-header-sticky~main&gt;.nav-main-content {
+    .nav-header.nav-header-sticky+main>.nav-bounds,.nav-header.nav-header-sticky+main>.nav-main-content,.nav-header.nav-header-sticky~main>.nav-bounds,.nav-header.nav-header-sticky~main>.nav-main-content {
         padding-top: 54px
     }
 
@@ -2676,7 +2676,7 @@ button.nav-search-btn,button.nav-search-btn:focus {
     }
 
     .nav-icon.nav-icon-downloadapp {
-        background: url('data:image/svg+xml;utf8,&lt;svg width="13" height="20" viewBox="0 0 13 20" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M0 .8C0 .4.4 0 .8 0h11.4c.4 0 .8.4.8.8v18.4c0 .4-.4.8-.8.8H.8c-.4 0-.8-.4-.8-.8V.8zm6.5 17.5c.4 0 .8-.3.8-.8s-.4-.8-.8-.8-.8.3-.8.8.4.8.8.8zm-5-16.6h10v14h-10v-14z" fill="%23333" fill-rule="evenodd"/&gt;&lt;/svg&gt;');
+        background: url('data:image/svg+xml;utf8,<svg width="13" height="20" viewBox="0 0 13 20" xmlns="http://www.w3.org/2000/svg"><path d="M0 .8C0 .4.4 0 .8 0h11.4c.4 0 .8.4.8.8v18.4c0 .4-.4.8-.8.8H.8c-.4 0-.8-.4-.8-.8V.8zm6.5 17.5c.4 0 .8-.3.8-.8s-.4-.8-.8-.8-.8.3-.8.8.4.8.8.8zm-5-16.6h10v14h-10v-14z" fill="%23333" fill-rule="evenodd"/></svg>');
         width: 13px;
         height: 20px;
         display: inline-block;
@@ -4657,7 +4657,7 @@ a.ch-btn-skin,a.ch-btn-skin:focus,a.ch-btn-skin:visited {
     text-align: right
 }
 
-.explore-header&gt;div,.explore-header ul {
+.explore-header>div,.explore-header ul {
     margin-bottom: 25px
 }
 
@@ -5604,7 +5604,7 @@ a.ch-btn-skin,a.ch-btn-skin:focus,a.ch-btn-skin:visited {
     min-height: 290px
 }
 
-.main-slide .list-items&gt;p {
+.main-slide .list-items>p {
     color: #666;
     font-size: 14px;
     margin-left: 1px
@@ -5635,7 +5635,7 @@ a.ch-btn-skin,a.ch-btn-skin:focus,a.ch-btn-skin:visited {
     display: block
 }
 
-.main-slide .promo-container&gt;a {
+.main-slide .promo-container>a {
     float: left;
     width: 280px
 }
@@ -5658,12 +5658,12 @@ a.ch-btn-skin,a.ch-btn-skin:focus,a.ch-btn-skin:visited {
     margin-left: 10px
 }
 
-.secondary-slide&gt;a {
+.secondary-slide>a {
     position: relative;
     overflow: hidden
 }
 
-.secondary-slide&gt;a img {
+.secondary-slide>a img {
     left: 50%;
     position: absolute;
     -webkit-transform: translateX(-50%);
@@ -5992,7 +5992,7 @@ a.ch-btn-skin,a.ch-btn-skin:focus,a.ch-btn-skin:visited {
     background: url(https://http2.mlstatic.com/resources/frontend/web-homes/ui-dist/images/slider/banner-free-moda.jpg) no-repeat bottom transparent
 }
 
-.banner-free-moda&gt;span {
+.banner-free-moda>span {
     display: block;
     height: 100%;
     margin: 0 auto;
@@ -6193,7 +6193,7 @@ a.ch-btn-skin,a.ch-btn-skin:focus,a.ch-btn-skin:visited {
     background-image: url(https://http2.mlstatic.com/resources/frontend/web-homes/ui-dist/images/banner-apparel-MLB-temporadas.png)
 }
 
-.winter-promo-banner&gt;a {
+.winter-promo-banner>a {
     display: inline-block;
     width: 100%
 }
@@ -6246,7 +6246,7 @@ a.ch-btn-skin,a.ch-btn-skin:focus,a.ch-btn-skin:visited {
     width: 49%
 }
 
-.banner-half&gt;div {
+.banner-half>div {
     -webkit-border-radius: 4px;
     border-radius: 4px;
     color: #fff;
@@ -6331,7 +6331,7 @@ a.ch-btn-skin,a.ch-btn-skin:focus,a.ch-btn-skin:visited {
     right: 0
 }
 
-.banner-footer&gt;a {
+.banner-footer>a {
     display: block;
     height: 160px;
     left: 0;
@@ -6424,7 +6424,7 @@ a.ch-btn-skin,a.ch-btn-skin:focus,a.ch-btn-skin:visited {
     z-index: 1
 }
 
-.banner-box-apparel .banner-raffle&gt;div {
+.banner-box-apparel .banner-raffle>div {
     background: #fdfcc5;
     color: #000;
     cursor: default;
@@ -10598,13 +10598,13 @@ input[readonly],input[readonly]:focus {
     font-weight: normal
 }
 
-.no-js .ch-tabs .ch-box-lite&gt;div {
+.no-js .ch-tabs .ch-box-lite>div {
     border-top: 1px solid #ededed;
     margin-top: 10px;
     padding-top: 10px
 }
 
-.no-js .ch-tabs .ch-box-lite&gt;div:first-child {
+.no-js .ch-tabs .ch-box-lite>div:first-child {
     border-top: 0;
     margin-top: 0;
     padding-top: 0

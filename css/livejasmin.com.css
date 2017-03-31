@@ -1,5 +1,5 @@
-.perf_container[data-status="2"] &gt; a:after,
-		.perf_container[data-status="3"] &gt; a:after {
+.perf_container[data-status="2"] > a:after,
+		.perf_container[data-status="3"] > a:after {
     content: "In Private Chat";
 }
 
@@ -8,7 +8,7 @@
     content: "Private Chat";
 }
 
-.perf_container[data-status="0"] &gt; a:after,
+.perf_container[data-status="0"] > a:after,
 		.model_box_livecam[data-status="0"] .status_indicator:after {
     content: "Offline";
 }
@@ -111,7 +111,7 @@ body:not(#chat\.performer) #header .env_jasmin {
     }
 }
 
-#listpage article&gt;a {
+#listpage article>a {
     position: absolute;
     overflow: hidden;
     left: 3px;
@@ -132,11 +132,11 @@ body:not(#chat\.performer) #header .env_jasmin {
     background-position: 3px 3px
 }
 
-#listpage article&gt;a {
+#listpage article>a {
     text-align: center
 }
 
-#listpage article&gt;.cover {
+#listpage article>.cover {
     position: absolute;
     width: calc(100% - 6px);
     height: calc(100% - 6px);
@@ -147,7 +147,7 @@ body:not(#chat\.performer) #header .env_jasmin {
     background-repeat: no-repeat
 }
 
-#listpage article&gt;.cover&gt;* {
+#listpage article>.cover>* {
     width: 100%;
     height: 100%
 }
@@ -261,19 +261,19 @@ body.overflow #inner_container {
     transition: bottom .2s .2s linear
 }
 
-#listpage article.perf_container&gt;a,#listpage article.perf_container&gt;.cover,#listpage article.commercial_container&gt;a,#listpage article.commercial_container&gt;.cover {
+#listpage article.perf_container>a,#listpage article.perf_container>.cover,#listpage article.commercial_container>a,#listpage article.commercial_container>.cover {
     opacity: 0
 }
 
-#listpage article.perf_container.image_loaded&gt;a,#listpage article.perf_container.image_loaded&gt;.cover,#listpage article.perf_container.image_loading&gt;.cover,#listpage article.commercial_container.image_loaded&gt;a,#listpage article.commercial_container.image_loaded&gt;.cover,#listpage article.commercial_container.image_loading&gt;.cover {
+#listpage article.perf_container.image_loaded>a,#listpage article.perf_container.image_loaded>.cover,#listpage article.perf_container.image_loading>.cover,#listpage article.commercial_container.image_loaded>a,#listpage article.commercial_container.image_loaded>.cover,#listpage article.commercial_container.image_loading>.cover {
     opacity: 1
 }
 
-#listpage article.commercial_container&gt;a div {
+#listpage article.commercial_container>a div {
     opacity: 0
 }
 
-#listpage article.commercial_container.image_loaded&gt;a div {
+#listpage article.commercial_container.image_loaded>a div {
     opacity: 1
 }
 
@@ -323,11 +323,11 @@ body.overflow #inner_container {
     width: 50%
 }
 
-#listpage .perf_container&gt;a.hover {
+#listpage .perf_container>a.hover {
     z-index: 111
 }
 
-#listpage .perf_container&gt;a .performer_name,#listpage .perf_container&gt;a::after {
+#listpage .perf_container>a .performer_name,#listpage .perf_container>a::after {
     display: block;
     height: 22px;
     font: bold 11px/22px Arial;
@@ -341,43 +341,43 @@ body.overflow #inner_container {
     pointer-events: none
 }
 
-#listpage .perf_container&gt;a .performer_name {
+#listpage .perf_container>a .performer_name {
     transition: bottom .2s 0s linear
 }
 
-#listpage .perf_container&gt;a .performer_name .icon-vipshow {
+#listpage .perf_container>a .performer_name .icon-vipshow {
     display: none;
     margin: 0 20px 0 0;
     color: #fc0
 }
 
-#listpage .perf_container&gt;a .performer_name .icon-vipshow:last-child {
+#listpage .perf_container>a .performer_name .icon-vipshow:last-child {
     margin: 0 0 0 20px
 }
 
-#listpage .perf_container&gt;a .performer_name .vipshow_text {
+#listpage .perf_container>a .performer_name .vipshow_text {
     display: none
 }
 
-#listpage .perf_container&gt;a .performer_name.vipshow .icon-vipshow,#listpage .perf_container&gt;a .performer_name.vipshow .vipshow_text {
+#listpage .perf_container>a .performer_name.vipshow .icon-vipshow,#listpage .perf_container>a .performer_name.vipshow .vipshow_text {
     display: inline-block
 }
 
-#listpage .perf_container&gt;a::after {
+#listpage .perf_container>a::after {
     transition: bottom .2s .2s linear
 }
 
-#listpage .perf_container&gt;a:hover .performer_name {
+#listpage .perf_container>a:hover .performer_name {
     bottom: 0;
     transition: bottom .2s .2s linear
 }
 
-#listpage .perf_container&gt;a:hover::after {
+#listpage .perf_container>a:hover::after {
     bottom: -22px !important;
     transition: bottom .2s 0s linear
 }
 
-#listpage .perf_container&gt;a .badge {
+#listpage .perf_container>a .badge {
     display: block;
     position: absolute;
     right: 5px;
@@ -385,46 +385,46 @@ body.overflow #inner_container {
     z-index: 151
 }
 
-#listpage .perf_container&gt;a .badge.vibratoy {
+#listpage .perf_container>a .badge.vibratoy {
     display: block;
     position: absolute
 }
 
-#listpage .perf_container&gt;a .hustler_model {
+#listpage .perf_container>a .hustler_model {
     width: 62px;
     height: 33px
 }
 
-#listpage .perf_container&gt;a .porn_star {
+#listpage .perf_container>a .porn_star {
     width: 52px;
     height: 37px
 }
 
-#listpage .perf_container&gt;a .sale {
+#listpage .perf_container>a .sale {
     width: 48px;
     height: 38px
 }
 
-#listpage .perf_container&gt;a .new_performer {
+#listpage .perf_container>a .new_performer {
     width: 37px;
     height: 27px
 }
 
-#listpage .perf_container&gt;a .birthday {
+#listpage .perf_container>a .birthday {
     width: 65px;
     height: 32px
 }
 
-#listpage .perf_container&gt;a .favorite.hidden {
+#listpage .perf_container>a .favorite.hidden {
     visibility: hidden !important
 }
 
-#listpage .perf_container&gt;a:hover .favorite,#listpage .perf_container&gt;a .animating {
+#listpage .perf_container>a:hover .favorite,#listpage .perf_container>a .animating {
     display: block;
     visibility: visible !important
 }
 
-#listpage .perf_container.lpp_playing&gt;a {
+#listpage .perf_container.lpp_playing>a {
     z-index: 111
 }
 
@@ -432,11 +432,11 @@ body.overflow #inner_container {
     display: none !important
 }
 
-#listpage .perf_container[data-status="2"]&gt;a::after,#listpage .perf_container[data-status="3"]&gt;a::after,#listpage .perf_container[data-status="0"]&gt;a::after {
+#listpage .perf_container[data-status="2"]>a::after,#listpage .perf_container[data-status="3"]>a::after,#listpage .perf_container[data-status="0"]>a::after {
     bottom: 0
 }
 
-#listpage.no_status&gt;a .status {
+#listpage.no_status>a .status {
     display: none
 }
 
@@ -655,7 +655,7 @@ body.oldLayout #private_teaser_infotext {
     z-index: 1599
 }
 
-.commercial_container a&gt;img {
+.commercial_container a>img {
     width: 100%;
     max-width: 100%;
     height: auto
@@ -4542,7 +4542,7 @@ body.masked #body_unload_mask {
     margin-left: 5px
 }
 
-.dropdown&gt;ul::before {
+.dropdown>ul::before {
     visibility: hidden;
     opacity: 0;
     height: 0;
@@ -4566,7 +4566,7 @@ body.masked #body_unload_mask {
     border-top: 0
 }
 
-.dropdown.active&gt;ul::before,.dropdown.active&gt;ul,.dropdown li.active&gt;ul {
+.dropdown.active>ul::before,.dropdown.active>ul,.dropdown li.active>ul {
     visibility: visible;
     opacity: 1
 }
@@ -4595,7 +4595,7 @@ body.masked #body_unload_mask {
     position: relative
 }
 
-.dropdown ul li.nested_bottom&gt;ul {
+.dropdown ul li.nested_bottom>ul {
     right: 0;
     top: 50px;
     width: 190px
@@ -4622,11 +4622,11 @@ body.masked #body_unload_mask {
     opacity: 1
 }
 
-.dropdown ul li.active&gt;a,.dropdown ul li.active:hover&gt;a {
+.dropdown ul li.active>a,.dropdown ul li.active:hover>a {
     color: #fc0
 }
 
-.dropdown ul li:hover&gt;a {
+.dropdown ul li:hover>a {
     color: #fff
 }
 
@@ -4964,11 +4964,11 @@ body#chat\.performer #header_container.header_menu_opened {
     margin: 0 11px 0 0
 }
 
-#header .global_menu&gt;li&gt;a {
+#header .global_menu>li>a {
     color: #fcc
 }
 
-#header .global_menu&gt;li&gt;a:hover,#header .global_menu&gt;li&gt;a.active {
+#header .global_menu>li>a:hover,#header .global_menu>li>a.active {
     color: #fff
 }
 
@@ -4980,7 +4980,7 @@ body#chat\.performer #header_container.header_menu_opened {
     font-size: 16px
 }
 
-#header .global_menu&gt;li,#header .login_menu li {
+#header .global_menu>li,#header .login_menu li {
     height: 24px;
     width: auto;
     font: bold 11px/24px Arial;
@@ -5010,7 +5010,7 @@ body#chat\.performer #header_container.header_menu_opened {
     height: 24px
 }
 
-#header #user_menu&gt;a .warning {
+#header #user_menu>a .warning {
     display: block;
     float: left;
     width: 19px;
@@ -5109,144 +5109,144 @@ body#chat\.performer #header_container.header_menu_opened {
     top: 8px
 }
 
-#header #user_menu ul li.nested_menu:hover&gt;a .icon i,#header #user_menu ul li.nested_menu.active&gt;a .icon i {
+#header #user_menu ul li.nested_menu:hover>a .icon i,#header #user_menu ul li.nested_menu.active>a .icon i {
     display: none
 }
 
-#header #user_menu ul li.nested_menu:hover&gt;a .icon {
+#header #user_menu ul li.nested_menu:hover>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -160px -199px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.nested_menu.active&gt;a .icon {
+#header #user_menu ul li.nested_menu.active>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -64px -199px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_content:hover&gt;a .icon {
+#header #user_menu ul li.menu_content:hover>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -160px -199px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_history&gt;a .icon {
+#header #user_menu ul li.menu_history>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -96px -166px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_history:hover&gt;a .icon {
+#header #user_menu ul li.menu_history:hover>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -32px -166px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_channels&gt;a .icon {
+#header #user_menu ul li.menu_channels>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -448px -166px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_channels:hover&gt;a .icon {
+#header #user_menu ul li.menu_channels:hover>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -448px -166px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_messages&gt;a .icon {
+#header #user_menu ul li.menu_messages>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -384px -166px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_messages:hover&gt;a .icon {
+#header #user_menu ul li.menu_messages:hover>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -501px -34px;
     width: 27px;
     height: 29px
 }
 
-#header #user_menu ul li.menu_messages.new_messages&gt;a .icon {
+#header #user_menu ul li.menu_messages.new_messages>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -320px -166px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_profile&gt;a .icon {
+#header #user_menu ul li.menu_profile>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -192px -199px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_profile:hover&gt;a .icon {
+#header #user_menu ul li.menu_profile:hover>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -96px -199px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_credits&gt;a .icon {
+#header #user_menu ul li.menu_credits>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -480px -166px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_credits:hover&gt;a .icon {
+#header #user_menu ul li.menu_credits:hover>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -416px -166px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_account&gt;a .icon {
+#header #user_menu ul li.menu_account>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -352px -166px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_account:hover&gt;a .icon {
+#header #user_menu ul li.menu_account:hover>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -288px -166px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_account.warning&gt;a .icon,#header #user_menu ul li.menu_account.warning:hover&gt;a .icon {
+#header #user_menu ul li.menu_account.warning>a .icon,#header #user_menu ul li.menu_account.warning:hover>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -197px -120px;
     width: 27px;
     height: 24px
 }
 
-#header #user_menu ul li.menu_general&gt;a .icon {
+#header #user_menu ul li.menu_general>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -352px -166px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_general:hover&gt;a .icon {
+#header #user_menu ul li.menu_general:hover>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -160px -199px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_extras&gt;a .icon {
+#header #user_menu ul li.menu_extras>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: 0px -166px;
     width: 27px;
@@ -5257,54 +5257,54 @@ body#chat\.performer #header_container.header_menu_opened {
     color: #fc0
 }
 
-#header #user_menu ul li.menu_previous&gt;a .icon {
+#header #user_menu ul li.menu_previous>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: 0px -199px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_previous:hover&gt;a .icon {
+#header #user_menu ul li.menu_previous:hover>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -32px -199px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_logout&gt;a .icon,#header #user_menu ul li.menu_logout.active&gt;a .icon {
+#header #user_menu ul li.menu_logout>a .icon,#header #user_menu ul li.menu_logout.active>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -192px -166px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_logout:hover&gt;a .icon,#header #user_menu ul li.menu_logout.active:hover&gt;a .icon {
+#header #user_menu ul li.menu_logout:hover>a .icon,#header #user_menu ul li.menu_logout.active:hover>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -128px -166px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_onlinesupport&gt;a .icon {
+#header #user_menu ul li.menu_onlinesupport>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -224px -166px;
     width: 27px;
     height: 28px
 }
 
-#header #user_menu ul li.menu_onlinesupport:hover&gt;a .icon {
+#header #user_menu ul li.menu_onlinesupport:hover>a .icon {
     background: transparent url(../../../site/livejasmin/image/sprite/member_sprite-33abc.png) no-repeat;
     background-position: -256px -166px;
     width: 27px;
     height: 28px
 }
 
-#header .global_menu&gt;li:first-child,#header .login_menu li:first-child {
+#header .global_menu>li:first-child,#header .login_menu li:first-child {
     margin: 0 1px 0 0;
     border-radius: 3px 0 0 3px
 }
 
-#header .global_menu&gt;li&gt;a,#header .login_menu li a {
+#header .global_menu>li>a,#header .login_menu li a {
     padding: 4px 7px
 }
 
@@ -8326,7 +8326,7 @@ body#mychannelslistpage\.index #listpage a::after {
     height: 20px
 }
 
-.video-controls&gt;a {
+.video-controls>a {
     position: absolute;
     display: inline-block;
     height: 16px;
@@ -8341,7 +8341,7 @@ body#mychannelslistpage\.index #listpage a::after {
     transition: opacity .2s linear
 }
 
-.video-controls&gt;a:hover {
+.video-controls>a:hover {
     opacity: 1
 }
 
@@ -8363,7 +8363,7 @@ body#mychannelslistpage\.index #listpage a::after {
     background: rgba(255,255,255,0.3)
 }
 
-.video-controls .progress-bar&gt;.current-progress,.video-controls .progress-bar&gt;.buffer-progress,.video-controls .volume-meter&gt;.current-progress,.video-controls .volume-meter&gt;.buffer-progress {
+.video-controls .progress-bar>.current-progress,.video-controls .progress-bar>.buffer-progress,.video-controls .volume-meter>.current-progress,.video-controls .volume-meter>.buffer-progress {
     display: block;
     border-radius: 4px;
     position: absolute;
@@ -8386,11 +8386,11 @@ body#mychannelslistpage\.index #listpage a::after {
     height: 8px
 }
 
-.video-controls .progress-bar&gt;.current-progress,.video-controls .progress-bar&gt;.buffer-progress {
+.video-controls .progress-bar>.current-progress,.video-controls .progress-bar>.buffer-progress {
     height: 8px
 }
 
-.video-controls .progress-bar&gt;.current-progress {
+.video-controls .progress-bar>.current-progress {
     z-index: 2
 }
 
@@ -8423,18 +8423,18 @@ body#mychannelslistpage\.index #listpage a::after {
     box-shadow: inset 0 1px 1px rgba(255,255,255,0.5),0 0 6px rgba(0,0,0,0.8)
 }
 
-.video-controls&gt;a.play-pause-btn {
+.video-controls>a.play-pause-btn {
     left: 20px
 }
 
-.video-controls&gt;a.icon-video-fullscreen,.video-controls&gt;a.icon-video-fillscreen {
+.video-controls>a.icon-video-fullscreen,.video-controls>a.icon-video-fillscreen {
     width: 20px;
     height: 20px;
     right: 20px;
     display: none
 }
 
-.video-controls&gt;a.icon-video-fillscreen {
+.video-controls>a.icon-video-fillscreen {
     right: 55px
 }
 
@@ -8470,17 +8470,17 @@ body#mychannelslistpage\.index #listpage a::after {
     width: 8px
 }
 
-.video-controls .volume-meter&gt;.current-progress {
+.video-controls .volume-meter>.current-progress {
     bottom: 0;
     left: 0;
     width: 8px
 }
 
-.video-controls .volume-meter.muted&gt;.current-progress {
+.video-controls .volume-meter.muted>.current-progress {
     height: 0 !important
 }
 
-.video-controls .volume-meter.muted&gt;.ui-slider-handle {
+.video-controls .volume-meter.muted>.ui-slider-handle {
     display: none
 }
 
@@ -8623,11 +8623,11 @@ body#mychannelslistpage\.index #listpage a::after {
     right: 140px
 }
 
-.video_player_container.show-fill-button.show-volume-controls .video-controls&gt;a.icon-video-fillscreen,.video_player_container.show-volume-controls.show-fullscreen-button .video-controls&gt;a.icon-video-fillscreen,.video_player_container.show-fill-button.show-fullscreen-button .video-controls&gt;a.icon-video-fillscreen {
+.video_player_container.show-fill-button.show-volume-controls .video-controls>a.icon-video-fillscreen,.video_player_container.show-volume-controls.show-fullscreen-button .video-controls>a.icon-video-fillscreen,.video_player_container.show-fill-button.show-fullscreen-button .video-controls>a.icon-video-fillscreen {
     right: 55px
 }
 
-.video_player_container.show-volume-controls.show-fill-button .video-controls&gt;a.icon-video-fillscreen {
+.video_player_container.show-volume-controls.show-fill-button .video-controls>a.icon-video-fillscreen {
     right: 20px
 }
 
@@ -8643,7 +8643,7 @@ body#mychannelslistpage\.index #listpage a::after {
     right: 115px
 }
 
-.video_player_container.show-volume-controls .video-controls .volume-controls,.video_player_container.show-fullscreen-button .video-controls&gt;a.icon-video-fullscreen,.video_player_container.show-fill-button .video-controls&gt;a.icon-video-fillscreen {
+.video_player_container.show-volume-controls .video-controls .volume-controls,.video_player_container.show-fullscreen-button .video-controls>a.icon-video-fullscreen,.video_player_container.show-fill-button .video-controls>a.icon-video-fillscreen {
     right: 20px;
     display: block
 }
@@ -8660,7 +8660,7 @@ body#mychannelslistpage\.index #listpage a::after {
     right: 173px
 }
 
-.video_player_container.show-fill-button.show-fullscreen-button.show-volume-controls .video-controls&gt;a.icon-video-fillscreen {
+.video_player_container.show-fill-button.show-fullscreen-button.show-volume-controls .video-controls>a.icon-video-fillscreen {
     right: 55px
 }
 
@@ -9291,75 +9291,75 @@ body:not(#chat\.performer) #chatblock.full #biopage_container {
     right: -2px
 }
 
-#container article.performer&gt;.cover,#container article.perf_container&gt;.cover {
+#container article.performer>.cover,#container article.perf_container>.cover {
     background-image: url(../../../site/livejasmin/image/background/jasmin_model/girls_new_performer_bg_440x248-15b99.jpg)
 }
 
-#container article.performer&gt;a.hover,#container article.perf_container&gt;a.hover {
+#container article.performer>a.hover,#container article.perf_container>a.hover {
     background: url(../../../site/livejasmin/image/background/spacer-0d63c.gif)
 }
 
-#container .page[data-big-count="1"] article.perf_container:nth-child(1)&gt;.cover {
+#container .page[data-big-count="1"] article.perf_container:nth-child(1)>.cover {
     background-image: url(../../../site/livejasmin/image/background/jasmin_model/girls_new_performer_bg_886x502-26012.jpg)
 }
 
-#container .page[data-big-count="2"] article.perf_container:nth-child(1)&gt;.cover {
+#container .page[data-big-count="2"] article.perf_container:nth-child(1)>.cover {
     background-image: url(../../../site/livejasmin/image/background/jasmin_model/girls_new_performer_bg_886x502-26012.jpg)
 }
 
-#container .page[data-big-count="3"] article.perf_container:nth-child(1)&gt;.cover {
+#container .page[data-big-count="3"] article.perf_container:nth-child(1)>.cover {
     background-image: url(../../../site/livejasmin/image/background/jasmin_model/girls_new_performer_bg_886x502-26012.jpg)
 }
 
-#container .page[data-big-count="2"] article.perf_container:nth-child(10)&gt;.cover {
+#container .page[data-big-count="2"] article.perf_container:nth-child(10)>.cover {
     background-image: url(../../../site/livejasmin/image/background/jasmin_model/girls_new_performer_bg_886x502-26012.jpg)
 }
 
-#container .page[data-big-count="3"] article.perf_container:nth-child(10)&gt;.cover {
+#container .page[data-big-count="3"] article.perf_container:nth-child(10)>.cover {
     background-image: url(../../../site/livejasmin/image/background/jasmin_model/girls_new_performer_bg_886x502-26012.jpg)
 }
 
-#container .page[data-big-count="3"] article.perf_container:nth-child(21)&gt;.cover {
+#container .page[data-big-count="3"] article.perf_container:nth-child(21)>.cover {
     background-image: url(../../../site/livejasmin/image/background/jasmin_model/girls_new_performer_bg_886x502-26012.jpg)
 }
 
-#container.boy article.perf_container&gt;.cover {
+#container.boy article.perf_container>.cover {
     background-image: url(../../../site/livejasmin/image/background/jasmin_model/boys_new_performer_bg_440x248-d2ac0.jpg)
 }
 
-#container.boy .page[data-big-count="1"] article.perf_container:nth-child(1)&gt;.cover {
+#container.boy .page[data-big-count="1"] article.perf_container:nth-child(1)>.cover {
     background-image: url(../../../site/livejasmin/image/background/jasmin_model/boys_new_performer_bg_886x502-82d0a.jpg)
 }
 
-#container.boy .page[data-big-count="2"] article.perf_container:nth-child(1)&gt;.cover {
+#container.boy .page[data-big-count="2"] article.perf_container:nth-child(1)>.cover {
     background-image: url(../../../site/livejasmin/image/background/jasmin_model/boys_new_performer_bg_886x502-82d0a.jpg)
 }
 
-#container.boy .page[data-big-count="3"] article.perf_container:nth-child(1)&gt;.cover {
+#container.boy .page[data-big-count="3"] article.perf_container:nth-child(1)>.cover {
     background-image: url(../../../site/livejasmin/image/background/jasmin_model/boys_new_performer_bg_886x502-82d0a.jpg)
 }
 
-#container.boy .page[data-big-count="1"] article.perf_container:nth-child(10)&gt;.cover {
+#container.boy .page[data-big-count="1"] article.perf_container:nth-child(10)>.cover {
     background-image: url(../../../site/livejasmin/image/background/jasmin_model/boys_new_performer_bg_886x502-82d0a.jpg)
 }
 
-#container.boy .page[data-big-count="2"] article.perf_container:nth-child(10)&gt;.cover {
+#container.boy .page[data-big-count="2"] article.perf_container:nth-child(10)>.cover {
     background-image: url(../../../site/livejasmin/image/background/jasmin_model/boys_new_performer_bg_886x502-82d0a.jpg)
 }
 
-#container.boy .page[data-big-count="3"] article.perf_container:nth-child(10)&gt;.cover {
+#container.boy .page[data-big-count="3"] article.perf_container:nth-child(10)>.cover {
     background-image: url(../../../site/livejasmin/image/background/jasmin_model/boys_new_performer_bg_886x502-82d0a.jpg)
 }
 
-#container.boy .page[data-big-count="1"] article.perf_container:nth-child(21)&gt;.cover {
+#container.boy .page[data-big-count="1"] article.perf_container:nth-child(21)>.cover {
     background-image: url(../../../site/livejasmin/image/background/jasmin_model/boys_new_performer_bg_886x502-82d0a.jpg)
 }
 
-#container.boy .page[data-big-count="2"] article.perf_container:nth-child(21)&gt;.cover {
+#container.boy .page[data-big-count="2"] article.perf_container:nth-child(21)>.cover {
     background-image: url(../../../site/livejasmin/image/background/jasmin_model/boys_new_performer_bg_886x502-82d0a.jpg)
 }
 
-#container.boy .page[data-big-count="3"] article.perf_container:nth-child(21)&gt;.cover {
+#container.boy .page[data-big-count="3"] article.perf_container:nth-child(21)>.cover {
     background-image: url(../../../site/livejasmin/image/background/jasmin_model/boys_new_performer_bg_886x502-82d0a.jpg)
 }
 
@@ -9369,7 +9369,7 @@ body:not(#chat\.performer) #chatblock.full #biopage_container {
     text-align: left
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div {
     float: none;
     width: auto;
     height: auto;
@@ -9377,7 +9377,7 @@ body:not(#chat\.performer) #chatblock.full #biopage_container {
     padding: 20px
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div figure {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div figure {
     display: inline-block;
     width: 90px;
     height: 90px;
@@ -9389,7 +9389,7 @@ body:not(#chat\.performer) #chatblock.full #biopage_container {
     background-clip: content-box
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div .rating {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div .rating {
     position: relative;
     top: 34px;
     left: 20px;
@@ -9397,18 +9397,18 @@ body:not(#chat\.performer) #chatblock.full #biopage_container {
     display: inline-block
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div .rating i.icon-star {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div .rating i.icon-star {
     color: rgba(204,204,204,0.6);
     font-size: 16px
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div .rating span {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div .rating span {
     display: block;
     font-size: 12px;
     line-height: 1.5
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div p {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div p {
     margin-top: 15px;
     text-align: left;
     display: block;
@@ -9416,7 +9416,7 @@ body:not(#chat\.performer) #chatblock.full #biopage_container {
     padding-bottom: 15px
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards {
     font-size: 0;
     padding: 15px 0 15px;
     border: solid 1px rgba(255,153,153,0.1);
@@ -9425,45 +9425,45 @@ body:not(#chat\.performer) #chatblock.full #biopage_container {
     text-align: center
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards em {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards em {
     position: relative;
     display: inline-block;
     width: 33%
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards em.n1&gt;span strong {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards em.n1>span strong {
     color: #fc0
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards em.n1 i {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards em.n1 i {
     color: #fc0;
     text-shadow: 0px -1px 0 #FFDB4D
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards em.n2&gt;span strong {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards em.n2>span strong {
     color: #999
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards em.n2 i {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards em.n2 i {
     color: #999;
     text-shadow: 0px -1px 0 #ccc
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards em.n3&gt;span strong {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards em.n3>span strong {
     color: #CE8032
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards em.n3 i {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards em.n3 i {
     color: #CE8032;
     text-shadow: 0px -1px 0 #F98706
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards em.zero&gt;span strong,#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards em.zero span,#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards em.zero i {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards em.zero>span strong,#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards em.zero span,#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards em.zero i {
     color: rgba(0,0,0,0.4);
     text-shadow: 0 1px 0 rgba(166,0,0,0.4)
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards em sup {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards em sup {
     position: absolute;
     top: -6px;
     left: 15px;
@@ -9477,39 +9477,39 @@ body:not(#chat\.performer) #chatblock.full #biopage_container {
     text-shadow: none
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards em&gt;span {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards em>span {
     display: inline-block;
     padding-left: 5px;
     text-align: left
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards em&gt;span strong,#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards em&gt;span span {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards em>span strong,#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards em>span span {
     display: block;
     max-width: 60px
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards em&gt;span strong {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards em>span strong {
     font-weight: bold;
     font-size: 13px;
     overflow: hidden;
     line-height: 1
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards em&gt;span span {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards em>span span {
     font-size: 11px
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.awards i.icon-trophy {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.awards i.icon-trophy {
     position: relative;
     font-size: 30px
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.model-info {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.model-info {
     font-size: 0;
     text-align: center
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.model-info em {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.model-info em {
     padding-top: 15px;
     position: relative;
     display: inline-block;
@@ -9520,18 +9520,18 @@ body:not(#chat\.performer) #chatblock.full #biopage_container {
     box-sizing: border-box
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.model-info em strong,#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.model-info em span {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.model-info em strong,#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.model-info em span {
     display: block;
     overflow: hidden;
     text-overflow: ellipsis;
     text-align: left
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.model-info em strong {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.model-info em strong {
     font-size: 18px
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content .bio_content&gt;div div.model-info em span {
+#channel_block_container #channel_block_inner #channel_inner_content .bio_content>div div.model-info em span {
     font-size: 11px;
     color: #fcc
 }
@@ -15293,7 +15293,7 @@ body#chat\.performer #private_end_container {
     background: #A60000
 }
 
-[id$="messages_container"] .messages_header&gt;* {
+[id$="messages_container"] .messages_header>* {
     display: inline-block;
     height: 42px
 }
@@ -15777,7 +15777,7 @@ body.overlay_show #freechat {
     overflow-y: auto
 }
 
-#overlay_component_container.overlay_content_hide&gt;div,#overlay_container.overlay_content_hide&gt;div {
+#overlay_component_container.overlay_content_hide>div,#overlay_container.overlay_content_hide>div {
     display: none !important
 }
 
@@ -15787,7 +15787,7 @@ body.overlay_show #freechat {
     top: 0
 }
 
-#overlay_component_container.show&gt;.show,#overlay_container.show&gt;.show {
+#overlay_component_container.show>.show,#overlay_container.show>.show {
     position: absolute;
     top: 0;
     left: 0;
@@ -15797,7 +15797,7 @@ body.overlay_show #freechat {
     pointer-events: none
 }
 
-#overlay_component_container.show&gt;.show *,#overlay_container.show&gt;.show * {
+#overlay_component_container.show>.show *,#overlay_container.show>.show * {
     pointer-events: auto
 }
 
@@ -17168,7 +17168,7 @@ body.ext-mac.ext-safari #enable_flash_plugin_message .info_link {
     float: left
 }
 
-#overlay_account_settings .content_row .checkbox_holder&gt;div {
+#overlay_account_settings .content_row .checkbox_holder>div {
     display: inline-block
 }
 
@@ -17214,7 +17214,7 @@ body.ext-mac.ext-safari #enable_flash_plugin_message .info_link {
     height: 21px
 }
 
-#overlay_account_settings .content_row&gt;a,#overlay_account_settings .default_state a {
+#overlay_account_settings .content_row>a,#overlay_account_settings .default_state a {
     position: absolute;
     right: 0;
     margin: 0 22px;
@@ -17257,7 +17257,7 @@ body.ext-mac.ext-safari #enable_flash_plugin_message .info_link {
     left: -8px
 }
 
-#overlay_account_settings .content_row:hover&gt;a {
+#overlay_account_settings .content_row:hover>a {
     text-decoration: underline
 }
 
@@ -19630,7 +19630,7 @@ body#firstbillstandalone\.index #inner_container {
     padding: 15px 0 0
 }
 
-#firstbill .payment_breadcrumb .step&gt;div {
+#firstbill .payment_breadcrumb .step>div {
     float: left;
     position: relative
 }
@@ -20735,7 +20735,7 @@ body#chat\.performer #inner_container {
     display: block
 }
 
-.join_channel_button[data-subscription-status="subscribed"] .joined_content&gt;div,.renew_subscription_button[data-subscription-status="subscribed"] .joined_content&gt;div,.subscription_button[data-subscription-status="subscribed"] .joined_content&gt;div {
+.join_channel_button[data-subscription-status="subscribed"] .joined_content>div,.renew_subscription_button[data-subscription-status="subscribed"] .joined_content>div,.subscription_button[data-subscription-status="subscribed"] .joined_content>div {
     display: inline-block
 }
 
@@ -21147,7 +21147,7 @@ body#chat\.performer #inner_container {
     box-sizing: border-box
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content article&gt;div {
+#channel_block_container #channel_block_inner #channel_inner_content article>div {
     background: #fff;
     width: 100%;
     height: 100%;
@@ -21200,7 +21200,7 @@ body#chat\.performer #inner_container {
     font: bold 20px Arial
 }
 
-#channel_block_container #channel_block_inner #channel_inner_content article .be_my_fan_content .be_my_fan_header .counter_wrapper&gt;span {
+#channel_block_container #channel_block_inner #channel_inner_content article .be_my_fan_content .be_my_fan_header .counter_wrapper>span {
     font-size: 52px;
     line-height: 42px;
     color: #fff;
@@ -22963,7 +22963,7 @@ body.ext-ie8 .overlay_comment_container.fitscreen.picture .content_container img
     text-align: center
 }
 
-.overlay_comment_container .exclusive_content_wrapper .exclusive_content&gt;span {
+.overlay_comment_container .exclusive_content_wrapper .exclusive_content>span {
     display: block;
     margin: 0 auto;
     background: transparent url(../../../site/livejasmin/image/sprite/channel_sprite-8b7fe.png) no-repeat;
@@ -22972,7 +22972,7 @@ body.ext-ie8 .overlay_comment_container.fitscreen.picture .content_container img
     height: 70px
 }
 
-.overlay_comment_container .exclusive_content_wrapper .exclusive_content&gt;p {
+.overlay_comment_container .exclusive_content_wrapper .exclusive_content>p {
     opacity: .5;
     font-size: 20px;
     text-transform: uppercase;
@@ -22980,7 +22980,7 @@ body.ext-ie8 .overlay_comment_container.fitscreen.picture .content_container img
     color: #fff
 }
 
-.overlay_comment_container .exclusive_content_wrapper .exclusive_content&gt;h2 {
+.overlay_comment_container .exclusive_content_wrapper .exclusive_content>h2 {
     line-height: 20px;
     color: #fc0
 }
@@ -23223,17 +23223,17 @@ _:-ms-input-placeholder,:root [data-exclusive=true].note.overlay_comment_contain
     }
 }
 
-body#jasminchannellistpage\.index #header&gt;div,body#jasminlivecamslistpage\.livecams #header&gt;div {
+body#jasminchannellistpage\.index #header>div,body#jasminlivecamslistpage\.livecams #header>div {
     width: 100%;
     padding: 0 60px;
     box-sizing: border-box
 }
 
-body#jasminchannellistpage\.index #header&gt;div .left_side,body#jasminlivecamslistpage\.livecams #header&gt;div .left_side {
+body#jasminchannellistpage\.index #header>div .left_side,body#jasminlivecamslistpage\.livecams #header>div .left_side {
     padding: 0
 }
 
-body#jasminchannellistpage\.index #header&gt;div .right_side,body#jasminlivecamslistpage\.livecams #header&gt;div .right_side {
+body#jasminchannellistpage\.index #header>div .right_side,body#jasminlivecamslistpage\.livecams #header>div .right_side {
     right: 60px
 }
 
@@ -23247,11 +23247,11 @@ body#jasminchannellistpage\.index .topmenu_container .categories #short_filters,
 }
 
 @media screen and (max-width: 1366px) {
-    body#jasminchannellistpage\.index #header&gt;div,body#jasminlivecamslistpage\.livecams #header&gt;div {
+    body#jasminchannellistpage\.index #header>div,body#jasminlivecamslistpage\.livecams #header>div {
         padding: 0 40px
     }
 
-    body#jasminchannellistpage\.index #header&gt;div .right_side,body#jasminlivecamslistpage\.livecams #header&gt;div .right_side {
+    body#jasminchannellistpage\.index #header>div .right_side,body#jasminlivecamslistpage\.livecams #header>div .right_side {
         right: 40px
     }
 
@@ -23261,7 +23261,7 @@ body#jasminchannellistpage\.index .topmenu_container .categories #short_filters,
 }
 
 @media screen and (max-width: 1260px) {
-    body#jasminchannellistpage\.index #header&gt;div .right_side,body#jasminlivecamslistpage\.livecams #header&gt;div .right_side {
+    body#jasminchannellistpage\.index #header>div .right_side,body#jasminlivecamslistpage\.livecams #header>div .right_side {
         right: 0
     }
 
@@ -23270,22 +23270,22 @@ body#jasminchannellistpage\.index .topmenu_container .categories #short_filters,
     }
 }
 
-body#jasmin\.landing #header&gt;div {
+body#jasmin\.landing #header>div {
     width: 100%;
     padding: 0 40px;
     box-sizing: border-box
 }
 
-body#jasmin\.landing #header&gt;div .left_side {
+body#jasmin\.landing #header>div .left_side {
     padding: 0
 }
 
-body#jasmin\.landing #header&gt;div .right_side {
+body#jasmin\.landing #header>div .right_side {
     right: 40px
 }
 
 @media screen and (max-width: 1090px) {
-    body#jasmin\.landing #header&gt;div .right_side {
+    body#jasmin\.landing #header>div .right_side {
         right: 0
     }
 }
@@ -23425,7 +23425,7 @@ body.no-script #signup_success {
     z-index: 10001
 }
 
-body.no-script #listpage .perf_container&gt;a .favorite {
+body.no-script #listpage .perf_container>a .favorite {
     display: none
 }
 
@@ -23441,7 +23441,7 @@ body.no-script #listpage .button_container {
     display: block
 }
 
-body.no-script #listpage .perf_container&gt;a,body.no-script #listpage .perf_container&gt;img,body.no-script #listpage .commercial_container&gt;a,body.no-script #listpage .commercial_container&gt;img {
+body.no-script #listpage .perf_container>a,body.no-script #listpage .perf_container>img,body.no-script #listpage .commercial_container>a,body.no-script #listpage .commercial_container>img {
     opacity: 1
 }
 
@@ -23599,7 +23599,7 @@ body.no-script #awards_container .performer.small .details .vote_button {
     display: none
 }
 
-body.no-script #awards_container article&gt;.vote_button.no-script {
+body.no-script #awards_container article>.vote_button.no-script {
     display: block;
     left: auto;
     bottom: 15px;
@@ -23661,7 +23661,7 @@ body.no-script .dropdown {
     transition: all .15s ease .25s
 }
 
-body.no-script .dropdown&gt;ul::before {
+body.no-script .dropdown>ul::before {
     transition: all .15s ease .25s
 }
 
@@ -23669,13 +23669,13 @@ body.no-script .dropdown ul {
     transition: all .15s ease .25s
 }
 
-body.no-script .dropdown:hover&gt;ul::before {
+body.no-script .dropdown:hover>ul::before {
     transition: all .15s ease 0s;
     visibility: visible;
     opacity: 1
 }
 
-body.no-script .dropdown:hover&gt;ul,body.no-script .dropdown:hover li:hover&gt;ul {
+body.no-script .dropdown:hover>ul,body.no-script .dropdown:hover li:hover>ul {
     transition: all .15s ease 0s;
     visibility: visible;
     opacity: 1
@@ -23736,7 +23736,7 @@ body#jasminlivecamslistpage\.livecams.no-script #inner_container {
     }
 }
 
-body#jasminlivecamslistpage\.livecams.no-script #listpage .page article&gt;.cover:first-child {
+body#jasminlivecamslistpage\.livecams.no-script #listpage .page article>.cover:first-child {
     display: initial
 }
 
@@ -23755,13 +23755,13 @@ body#jasminlivecamslistpage\.livecams.no-script .topmenu_container.no_filter+#li
     box-sizing: border-box
 }
 
-.protip-container&gt;i {
+.protip-container>i {
     position: absolute;
     top: 10px;
     left: 10px
 }
 
-.protip-container&gt;i+div {
+.protip-container>i+div {
     padding-left: 20px
 }
 
@@ -23789,7 +23789,7 @@ body#jasminlivecamslistpage\.livecams.no-script .topmenu_container.no_filter+#li
     -webkit-transform: translateZ(0px)
 }
 
-.protip-skin-jasmin--scheme-pro.protip-container&gt;i {
+.protip-skin-jasmin--scheme-pro.protip-container>i {
     font-size: 1.2em
 }
 

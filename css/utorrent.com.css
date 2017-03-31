@@ -118,7 +118,7 @@
     line-height: 18px;
 }
 
-#smartbanner .sb-info &gt; span {
+#smartbanner .sb-info > span {
     display: block;
 }
 
@@ -1365,11 +1365,11 @@ table {
         -webkit-overflow-scrolling: touch
     }
 
-    .table-responsive&gt;.table {
+    .table-responsive>.table {
         margin-bottom: 0
     }
 
-    .table-responsive&gt;.table&gt;thead&gt;tr th,.table-responsive&gt;.table&gt;thead&gt;tr td,.table-responsive&gt;.table&gt;tbody&gt;tr th,.table-responsive&gt;.table&gt;tbody&gt;tr td,.table-responsive&gt;.table&gt;tfoot&gt;tr th,.table-responsive&gt;.table&gt;tfoot&gt;tr td {
+    .table-responsive>.table>thead>tr th,.table-responsive>.table>thead>tr td,.table-responsive>.table>tbody>tr th,.table-responsive>.table>tbody>tr td,.table-responsive>.table>tfoot>tr th,.table-responsive>.table>tfoot>tr td {
         white-space: nowrap
     }
 }
@@ -1528,12 +1528,12 @@ ol {
     counter-reset: list
 }
 
-ol&gt;li {
+ol>li {
     position: relative;
     padding-left: 32px
 }
 
-ol&gt;li:before {
+ol>li:before {
     counter-increment: list;
     content: "0" counter(list);
     color: inherit;
@@ -1543,11 +1543,11 @@ ol&gt;li:before {
     left: 0
 }
 
-ol.decimal&gt;li {
+ol.decimal>li {
     padding-bottom: 10px
 }
 
-ol.decimal&gt;li:before {
+ol.decimal>li:before {
     content: counter(list)"."
 }
 
@@ -5359,19 +5359,19 @@ header.downloadable .locales {
     clear: both
 }
 
-.nav-main&gt;ul {
+.nav-main>ul {
     display: block;
     margin: 0;
     padding: 0
 }
 
-.nav-main&gt;ul&gt;li {
+.nav-main>ul>li {
     margin: 0 0 0 20px;
     position: relative;
     z-index: 10
 }
 
-.nav-main&gt;ul&gt;li.nav-dropdown-parent {
+.nav-main>ul>li.nav-dropdown-parent {
     cursor: pointer
 }
 
@@ -5447,7 +5447,7 @@ header.downloadable .locales {
         transform: translateX(0)
     }
 
-    .nav-main&gt;ul&gt;li {
+    .nav-main>ul>li {
         margin: 0 0 10px;
         display: block
     }

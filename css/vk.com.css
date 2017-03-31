@@ -38,7 +38,7 @@
     display: none
 }
 
-#box_loader .loader,#layer_stl_text,#side_bar .left_icon,#stl_text,.audio_add,.audio_hq_label_show .audio_row.hq .audio_hq_label,.audio_play,.audio_row .audio_acts .audio_act&gt;div,.audio_search_rows .audio_row.hq .audio_hq_label,.box_body.box_loading .box_x_button,.box_body.box_loading_empty:before,.box_grey .box_title .back,.box_loading .box_x_button,.box_title .back,.box_title .security,.box_title_wrap.box_grey.box_loading .box_x_button,.box_title_wrap.box_grey .box_x_button,.box_x_button,.box_x_button.box_x_tabs,.button_gray .button_lock,.button_lock,.checkbox.dark:before,.checkbox:before,.emoji_css,.error,.event:after,.flat_button.flat_button_loading:before,.flat_button.secondary.flat_button_loading:before,.flat_button.ui_load_more_btn.with_arrow:after,.hide_icon,.hint_icon:after,.info_msg,.left_hide_button,.left_menu_more:after,.left_settings_inner,.media-check-btn-icon,.media-photo-thumb-background,.media-video-play,.media-video-thumb-background,.media-video-thumb-wrap-background,.media_check_btn_wrap .media_check_btn,.mob_onl,.ok_msg,.online:after,.ow_ava,.page_block_header .header_side_link.with_arrow:after,.page_block_sub_header .header_side_link.with_arrow:after,.page_verified,.page_verified.ph_verified,.pages_loading,.progress,.progress_inline,.progress_inv,.progress_inv_img,.progress_inv_mini,.radiobtn:before,.round_spinner,.round_spinner_big,.sort_not_rev_icon,.sort_rev_icon,.summary_tab_x,.top_audio_player .top_audio_player_btn .top_audio_player_btn_icon,.top_home_link .top_home_logo,.top_nav_btn .top_nav_btn_icon,.top_profile_arrow,.ts_cont_wrap .page_verified,.ts_cont_wrap .page_verified.ph_verified,.ts_contact_photo.online:after,.ts_contact_status,.ui_tabs_header .header_side_link.with_arrow:after,.ui_tabs_sub_header .header_side_link.with_arrow:after,.video_thumb_play,.video_wm,.wk_wiki_content.box_loading .box_x_button,.wk_wiki_content.box_loading_empty:before,input.text.ts_input {
+#box_loader .loader,#layer_stl_text,#side_bar .left_icon,#stl_text,.audio_add,.audio_hq_label_show .audio_row.hq .audio_hq_label,.audio_play,.audio_row .audio_acts .audio_act>div,.audio_search_rows .audio_row.hq .audio_hq_label,.box_body.box_loading .box_x_button,.box_body.box_loading_empty:before,.box_grey .box_title .back,.box_loading .box_x_button,.box_title .back,.box_title .security,.box_title_wrap.box_grey.box_loading .box_x_button,.box_title_wrap.box_grey .box_x_button,.box_x_button,.box_x_button.box_x_tabs,.button_gray .button_lock,.button_lock,.checkbox.dark:before,.checkbox:before,.emoji_css,.error,.event:after,.flat_button.flat_button_loading:before,.flat_button.secondary.flat_button_loading:before,.flat_button.ui_load_more_btn.with_arrow:after,.hide_icon,.hint_icon:after,.info_msg,.left_hide_button,.left_menu_more:after,.left_settings_inner,.media-check-btn-icon,.media-photo-thumb-background,.media-video-play,.media-video-thumb-background,.media-video-thumb-wrap-background,.media_check_btn_wrap .media_check_btn,.mob_onl,.ok_msg,.online:after,.ow_ava,.page_block_header .header_side_link.with_arrow:after,.page_block_sub_header .header_side_link.with_arrow:after,.page_verified,.page_verified.ph_verified,.pages_loading,.progress,.progress_inline,.progress_inv,.progress_inv_img,.progress_inv_mini,.radiobtn:before,.round_spinner,.round_spinner_big,.sort_not_rev_icon,.sort_rev_icon,.summary_tab_x,.top_audio_player .top_audio_player_btn .top_audio_player_btn_icon,.top_home_link .top_home_logo,.top_nav_btn .top_nav_btn_icon,.top_profile_arrow,.ts_cont_wrap .page_verified,.ts_cont_wrap .page_verified.ph_verified,.ts_contact_photo.online:after,.ts_contact_status,.ui_tabs_header .header_side_link.with_arrow:after,.ui_tabs_sub_header .header_side_link.with_arrow:after,.video_thumb_play,.video_wm,.wk_wiki_content.box_loading .box_x_button,.wk_wiki_content.box_loading_empty:before,input.text.ts_input {
     -ms-high-contrast-adjust: none
 }
 
@@ -2035,7 +2035,7 @@ body.body_im.firefox.layers_showing #page_wrap,body.body_im.firefox.layers_shown
     transition-delay: 0ms
 }
 
-.left_fixer,.left_fixer&gt;span {
+.left_fixer,.left_fixer>span {
     display: block
 }
 
@@ -2379,7 +2379,7 @@ body.no_stl #stl_bg {
     text-overflow: ellipsis;
     white-space: nowrap;
     display: none;
-    width: expression(this.width &gt; 200 ? '200px' : '')
+    width: expression(this.width > 200 ? '200px' : '')
 }
 
 #top_back_link.active {
@@ -4545,7 +4545,7 @@ body[data-useragent=safari] .page_verified {
     padding: 0 20px
 }
 
-.tabs_pane&gt;.tab {
+.tabs_pane>.tab {
     float: left;
     padding: 5px 8px;
     border-radius: 3px 3px 0 0;
@@ -4554,21 +4554,21 @@ body[data-useragent=safari] .page_verified {
     color: #2a5885
 }
 
-.tabs_pane&gt;.tab:hover {
+.tabs_pane>.tab:hover {
     background-color: #e1e7ed;
     text-decoration: none
 }
 
-.tabs_pane&gt;.tab a {
+.tabs_pane>.tab a {
     text-decoration: none
 }
 
-.tabs_pane&gt;.tab.selected {
+.tabs_pane>.tab.selected {
     background-color: #597da3;
     color: #fff
 }
 
-.tabs_pane&gt;.tab.selected:hover {
+.tabs_pane>.tab.selected:hover {
     background-color: #597da3
 }
 
@@ -5235,13 +5235,13 @@ button.ui_load_more_btn {
     pointer-events: none
 }
 
-.ui_gridsorter_cont&gt;.ui_gridsorter_placeholder {
+.ui_gridsorter_cont>.ui_gridsorter_placeholder {
     z-index: 0;
     display: inline-block;
     vertical-align: top
 }
 
-.ui_gridsorter_cont&gt;a,.ui_gridsorter_cont&gt;div {
+.ui_gridsorter_cont>a,.ui_gridsorter_cont>div {
     position: relative;
     top: 0;
     left: 0;
@@ -5433,7 +5433,7 @@ button.ui_load_more_btn {
     background-position: 0 -78px
 }
 
-.top_audio_player.top_audio_player_playing .top_audio_player_play&gt;div {
+.top_audio_player.top_audio_player_playing .top_audio_player_play>div {
     background-position: -17px -78px
 }
 
@@ -5507,7 +5507,7 @@ button.ui_load_more_btn {
     top: 1px
 }
 
-.audio_row .audio_acts .audio_act&gt;div {
+.audio_row .audio_acts .audio_act>div {
     height: 13px;
     width: 13px;
     background-image: url(/images/icons/common.png?6);
@@ -5519,32 +5519,32 @@ button.ui_load_more_btn {
     display: block
 }
 
-.audio_row .audio_acts #recom&gt;div {
+.audio_row .audio_acts #recom>div {
     background-position: 0 -126px
 }
 
-.audio_row .audio_acts #delete&gt;div {
+.audio_row .audio_acts #delete>div {
     background-position: 1px -29px
 }
 
-.audio_row .audio_acts #edit&gt;div {
+.audio_row .audio_acts #edit>div {
     background-position: 0 -44px
 }
 
-.audio_row .audio_acts #add&gt;div {
+.audio_row .audio_acts #add>div {
     background-position: 0 0
 }
 
-.audio_row .audio_acts #next&gt;div {
+.audio_row .audio_acts #next>div {
     background-position: 0 -92px;
     width: 14px
 }
 
-.audio_row .audio_acts #edit_moder&gt;div {
+.audio_row .audio_acts #edit_moder>div {
     background-position: 0 -219px
 }
 
-.audio_row .audio_acts #remove_moder&gt;div {
+.audio_row .audio_acts #remove_moder>div {
     background-position: 0 -204px
 }
 
@@ -5646,7 +5646,7 @@ button.ui_load_more_btn {
     font-size: 12px
 }
 
-.audio_row.claim_mode .audio_acts&gt;.audio_act {
+.audio_row.claim_mode .audio_acts>.audio_act {
     display: none!important
 }
 
@@ -5731,11 +5731,11 @@ button.ui_load_more_btn {
     display: block
 }
 
-.audio_row.added .audio_act#add&gt;div {
+.audio_row.added .audio_act#add>div {
     background-position: 0 -15px
 }
 
-.audio_row.audio_added_next #next&gt;div {
+.audio_row.audio_added_next #next>div {
     background-position: -18px -92px;
     width: 14px
 }
@@ -5772,7 +5772,7 @@ button.ui_load_more_btn {
     display: none!important
 }
 
-.audio_search_focused .audio_performer&gt;em,.audio_search_focused .audio_title&gt;em {
+.audio_search_focused .audio_performer>em,.audio_search_focused .audio_title>em {
     background-color: #e7edf2
 }
 
@@ -6815,7 +6815,7 @@ body.mac .ui_search.ui_search_fixed {
     top: 42px
 }
 
-.page_block&gt;.ui_search:first-child {
+.page_block>.ui_search:first-child {
     border-radius: 2px 2px 0 0
 }
 
@@ -7758,7 +7758,7 @@ a.ui_search_custom_link {
     pointer-events: none
 }
 
-.ui_actions_menu_item.ui_actions_menu_item_lock&gt;b {
+.ui_actions_menu_item.ui_actions_menu_item_lock>b {
     color: transparent
 }
 
@@ -8088,11 +8088,11 @@ a.ui_search_custom_link {
     padding-right: 50px
 }
 
-.ui_scroll_native&gt;.ui_scroll_overflow&gt;.ui_scroll_blocker&gt;.ui_scroll_outer,.ui_scroll_native&gt;.ui_scroll_overflow&gt;.ui_scroll_outer {
+.ui_scroll_native>.ui_scroll_overflow>.ui_scroll_blocker>.ui_scroll_outer,.ui_scroll_native>.ui_scroll_overflow>.ui_scroll_outer {
     padding-right: 0
 }
 
-.ui_scroll_unnecessary&gt;.ui_scroll_overflow&gt;.ui_scroll_blocker&gt;.ui_scroll_outer {
+.ui_scroll_unnecessary>.ui_scroll_overflow>.ui_scroll_blocker>.ui_scroll_outer {
     margin: 0!important
 }
 
@@ -8132,7 +8132,7 @@ a.ui_search_custom_link {
     right: 0
 }
 
-.ui_scroll_disabled&gt;.ui_scroll_bar_container,.ui_scroll_unnecessary&gt;.ui_scroll_bar_container {
+.ui_scroll_disabled>.ui_scroll_bar_container,.ui_scroll_unnecessary>.ui_scroll_bar_container {
     opacity: 0!important;
     filter: alpha(opacity=0)!important;
     pointer-events: none
@@ -8153,12 +8153,12 @@ a.ui_search_custom_link {
     cursor: pointer
 }
 
-.ui_scroll_hidden&gt;.ui_scroll_bar_container {
+.ui_scroll_hidden>.ui_scroll_bar_container {
     opacity: 0;
     filter: alpha(opacity=0)
 }
 
-.ui_scroll_hidden.ui_scroll_dragging&gt;.ui_scroll_bar_container,.ui_scroll_hidden.ui_scroll_scrolled&gt;.ui_scroll_bar_container,.ui_scroll_hidden&gt;.ui_scroll_bar_container:hover {
+.ui_scroll_hidden.ui_scroll_dragging>.ui_scroll_bar_container,.ui_scroll_hidden.ui_scroll_scrolled>.ui_scroll_bar_container,.ui_scroll_hidden>.ui_scroll_bar_container:hover {
     opacity: 1;
     -webkit-filter: none;
     filter: none
@@ -8221,7 +8221,7 @@ a.ui_search_custom_link {
     top: 0
 }
 
-.ui_scroll_shadow_top_visible&gt;.ui_scroll_overflow&gt;.ui_scroll_shadow_top {
+.ui_scroll_shadow_top_visible>.ui_scroll_overflow>.ui_scroll_shadow_top {
     opacity: 1;
     -webkit-filter: none;
     filter: none
@@ -8231,23 +8231,23 @@ a.ui_search_custom_link {
     bottom: 0
 }
 
-.ui_scroll_shadow_bottom_visible&gt;.ui_scroll_overflow&gt;.ui_scroll_shadow_bottom {
+.ui_scroll_shadow_bottom_visible>.ui_scroll_overflow>.ui_scroll_shadow_bottom {
     opacity: 1;
     -webkit-filter: none;
     filter: none
 }
 
-.ui_scroll_disabled&gt;.ui_scroll_overflow&gt;.ui_scroll_blocker,.ui_scroll_disabled&gt;.ui_scroll_overflow&gt;.ui_scroll_blocker&gt;.ui_scroll_outer,.ui_scroll_disabled&gt;.ui_scroll_overflow&gt;.ui_scroll_outer {
+.ui_scroll_disabled>.ui_scroll_overflow>.ui_scroll_blocker,.ui_scroll_disabled>.ui_scroll_overflow>.ui_scroll_blocker>.ui_scroll_outer,.ui_scroll_disabled>.ui_scroll_overflow>.ui_scroll_outer {
     overflow: hidden!important;
     padding: 0!important
 }
 
-.ui_scroll_default_theme&gt;.ui_scroll_bar_container&gt;.ui_scroll_bar_outer {
+.ui_scroll_default_theme>.ui_scroll_bar_container>.ui_scroll_bar_outer {
     -o-transition: background-color 200ms linear;
     transition: background-color 200ms linear
 }
 
-.ui_scroll_default_theme&gt;.ui_scroll_bar_container&gt;.ui_scroll_bar_outer&gt;.ui_scroll_bar_inner {
+.ui_scroll_default_theme>.ui_scroll_bar_container>.ui_scroll_bar_outer>.ui_scroll_bar_inner {
     -o-transition: background-color 200ms linear, width 150ms linear;
     transition: background-color 200ms linear, width 150ms linear;
     background: #dae1e8;
@@ -8255,24 +8255,24 @@ a.ui_search_custom_link {
     width: 6px
 }
 
-.ui_scroll_default_theme&gt;.ui_scroll_bar_container {
+.ui_scroll_default_theme>.ui_scroll_bar_container {
     -o-transition: opacity 250ms linear;
     transition: opacity 250ms linear;
     border: 3px solid transparent
 }
 
-.ui_scroll_default_theme&gt;.ui_scroll_overflow&gt;.ui_scroll_shadow_bottom,.ui_scroll_default_theme&gt;.ui_scroll_overflow&gt;.ui_scroll_shadow_top {
+.ui_scroll_default_theme>.ui_scroll_overflow>.ui_scroll_shadow_bottom,.ui_scroll_default_theme>.ui_scroll_overflow>.ui_scroll_shadow_top {
     -o-transition: opacity 250ms linear;
     transition: opacity 250ms linear;
     box-shadow: 0 2px 3px -1px rgba(0,0,0,.12);
     height: 3px
 }
 
-.ui_scroll_default_theme&gt;.ui_scroll_overflow&gt;.ui_scroll_shadow_top {
+.ui_scroll_default_theme>.ui_scroll_overflow>.ui_scroll_shadow_top {
     top: -3px
 }
 
-.ui_scroll_default_theme&gt;.ui_scroll_overflow&gt;.ui_scroll_shadow_bottom {
+.ui_scroll_default_theme>.ui_scroll_overflow>.ui_scroll_shadow_bottom {
     bottom: -3px;
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -8280,28 +8280,28 @@ a.ui_search_custom_link {
     transform: rotate(180deg)
 }
 
-.ui_scroll_default_theme .ui_scroll_bar_container:hover&gt;.ui_scroll_bar_outer&gt;.ui_scroll_bar_inner,.ui_scroll_default_theme.ui_scroll_dragging&gt;.ui_scroll_bar_outer&gt;.ui_scroll_bar_inner {
+.ui_scroll_default_theme .ui_scroll_bar_container:hover>.ui_scroll_bar_outer>.ui_scroll_bar_inner,.ui_scroll_default_theme.ui_scroll_dragging>.ui_scroll_bar_outer>.ui_scroll_bar_inner {
     width: 8px;
     background: #bec8d3;
     border-radius: 4px
 }
 
-.ui_scroll_default_theme.ui_scroll_scrolled&gt;.ui_scroll_bar_container&gt;.ui_scroll_bar_outer&gt;.ui_scroll_bar_inner {
+.ui_scroll_default_theme.ui_scroll_scrolled>.ui_scroll_bar_container>.ui_scroll_bar_outer>.ui_scroll_bar_inner {
     background: #bec8d3
 }
 
-.ui_scroll_no_transition_theme&gt;.ui_scroll_bar_container&gt;.ui_scroll_bar_outer,.ui_scroll_no_transition_theme&gt;.ui_scroll_bar_container&gt;.ui_scroll_bar_outer&gt;.ui_scroll_bar_inner {
+.ui_scroll_no_transition_theme>.ui_scroll_bar_container>.ui_scroll_bar_outer,.ui_scroll_no_transition_theme>.ui_scroll_bar_container>.ui_scroll_bar_outer>.ui_scroll_bar_inner {
     -o-transition: initial;
     transition: initial
 }
 
-.ui_scroll_no_transition_theme .ui_scroll_bar_container:hover&gt;.ui_scroll_bar_outer&gt;.ui_scroll_bar_inner,.ui_scroll_no_transition_theme.ui_scroll_dragging&gt;.ui_scroll_bar_outer&gt;.ui_scroll_bar_inner {
+.ui_scroll_no_transition_theme .ui_scroll_bar_container:hover>.ui_scroll_bar_outer>.ui_scroll_bar_inner,.ui_scroll_no_transition_theme.ui_scroll_dragging>.ui_scroll_bar_outer>.ui_scroll_bar_inner {
     width: 6px;
     background: #dae1e8;
     border-radius: 3px
 }
 
-.ui_scroll_no_transition_theme.ui_scroll_scrolled&gt;.ui_scroll_bar_container&gt;.ui_scroll_bar_outer&gt;.ui_scroll_bar_inner {
+.ui_scroll_no_transition_theme.ui_scroll_scrolled>.ui_scroll_bar_container>.ui_scroll_bar_outer>.ui_scroll_bar_inner {
     background: #dae1e8
 }
 
@@ -9202,7 +9202,7 @@ a.ui_search_custom_link {
     background-position: left -351px
 }
 
-.media_selector&gt;.ms_item {
+.media_selector>.ms_item {
     float: left;
     width: 22px;
     height: 22px;
@@ -9212,7 +9212,7 @@ a.ui_search_custom_link {
     overflow: hidden
 }
 
-.media_selector&gt;.ms_item:before {
+.media_selector>.ms_item:before {
     left: 0
 }
 
@@ -9381,7 +9381,7 @@ a.ui_search_custom_link {
     padding: 0
 }
 
-.chat_onl:after,.chat_tab_close:after,.chat_tab_imgcont.online:after,.chats_sp,.emoji_cats_title_helper:after,.emoji_smile_icon,.emoji_sprite,.emoji_sprite_0,.emoji_sprite_1,.emoji_sprite_2,.fc_chronicle_icon,.fc_contact_over:hover .fc_contact_status,.fc_msg_att_icon_doc,.fc_msg_att_icon_mail,.fc_msg_att_icon_wall,.fc_snapster_invite_cover,.fc_snapster_invite_ic,.fc_snapster_invite_ic_ios,.fc_tab_attach .media_selector .ms_item_more,.notifier_close_wrap:before,.notify_tt_thumb,.sticker_hints_arrow,.ui_scroll_default_theme.ui_scroll_emoji_theme&gt;.ui_scroll_overflow&gt;.ui_scroll_shadow_bottom,.ui_scroll_default_theme.ui_scroll_emoji_theme&gt;.ui_scroll_overflow&gt;.ui_scroll_shadow_top,span.fc_contact_photo.online:after {
+.chat_onl:after,.chat_tab_close:after,.chat_tab_imgcont.online:after,.chats_sp,.emoji_cats_title_helper:after,.emoji_smile_icon,.emoji_sprite,.emoji_sprite_0,.emoji_sprite_1,.emoji_sprite_2,.fc_chronicle_icon,.fc_contact_over:hover .fc_contact_status,.fc_msg_att_icon_doc,.fc_msg_att_icon_mail,.fc_msg_att_icon_wall,.fc_snapster_invite_cover,.fc_snapster_invite_ic,.fc_snapster_invite_ic_ios,.fc_tab_attach .media_selector .ms_item_more,.notifier_close_wrap:before,.notify_tt_thumb,.sticker_hints_arrow,.ui_scroll_default_theme.ui_scroll_emoji_theme>.ui_scroll_overflow>.ui_scroll_shadow_bottom,.ui_scroll_default_theme.ui_scroll_emoji_theme>.ui_scroll_overflow>.ui_scroll_shadow_top,span.fc_contact_photo.online:after {
     -ms-high-contrast-adjust: none
 }
 
@@ -13815,17 +13815,17 @@ div.chat_tab_img {
     pointer-events: none
 }
 
-.ui_scroll_default_theme.ui_scroll_emoji_theme&gt;.ui_scroll_overflow&gt;.ui_scroll_blocker&gt;.ui_scroll_outer,.ui_scroll_default_theme.ui_scroll_emoji_theme&gt;.ui_scroll_overflow&gt;.ui_scroll_outer {
+.ui_scroll_default_theme.ui_scroll_emoji_theme>.ui_scroll_overflow>.ui_scroll_blocker>.ui_scroll_outer,.ui_scroll_default_theme.ui_scroll_emoji_theme>.ui_scroll_overflow>.ui_scroll_outer {
     position: relative
 }
 
-.ui_scroll_default_theme.ui_scroll_emoji_theme&gt;.ui_scroll_overflow&gt;.ui_scroll_shadow_bottom,.ui_scroll_default_theme.ui_scroll_emoji_theme&gt;.ui_scroll_overflow&gt;.ui_scroll_shadow_top {
+.ui_scroll_default_theme.ui_scroll_emoji_theme>.ui_scroll_overflow>.ui_scroll_shadow_bottom,.ui_scroll_default_theme.ui_scroll_emoji_theme>.ui_scroll_overflow>.ui_scroll_shadow_top {
     background: url(/images/emoji_sprite.png?12) 0 -29px;
     box-shadow: none;
     height: 10px
 }
 
-.ui_scroll_default_theme.ui_scroll_emoji_theme&gt;.ui_scroll_bar_container&gt;.ui_scroll_bar_outer {
+.ui_scroll_default_theme.ui_scroll_emoji_theme>.ui_scroll_bar_container>.ui_scroll_bar_outer {
     right: -9px
 }
 
@@ -14200,19 +14200,19 @@ div.chat_tab_img {
     white-space: normal
 }
 
-.top_notify_cont .ui_scroll_content&gt;.pr {
+.top_notify_cont .ui_scroll_content>.pr {
     padding: 50px 0;
     text-align: center
 }
 
-.top_notify_cont .ui_scroll_content&gt;.pr .pr_bt {
+.top_notify_cont .ui_scroll_content>.pr .pr_bt {
     width: 8px;
     height: 8px;
     border-radius: 4px;
     margin-right: 4px
 }
 
-.top_notify_cont .ui_scroll_content&gt;.pr .pr_bt:last-child {
+.top_notify_cont .ui_scroll_content>.pr .pr_bt:last-child {
     margin-right: 0
 }
 
@@ -14611,7 +14611,7 @@ div.chat_tab_img {
     height: 20px
 }
 
-.audio-msg-track .slider .slider_slide&gt;svg {
+.audio-msg-track .slider .slider_slide>svg {
     stroke-opacity: 0.5
 }
 
@@ -15746,20 +15746,20 @@ div.chat_tab_img {
     border-bottom: none
 }
 
-.wall_module&gt;.page_block:first-child {
+.wall_module>.page_block:first-child {
     border-radius: 2px 2px 0 0
 }
 
-.wall_module&gt;.page_block:first-child:last-child {
+.wall_module>.page_block:first-child:last-child {
     border-radius: 2px
 }
 
-.wall_module .wall_posts.all&gt;.all,.wall_module .wall_posts.all&gt;.all.unshown+.all,.wall_module .wall_posts.all&gt;.all.unshown+.all_ads_promoted_post,.wall_module .wall_posts.all&gt;.all_ads_promoted_post,.wall_module .wall_posts .no_posts,.wall_module .wall_posts .no_rows,.wall_module .wall_posts.own&gt;.own,.wall_module .wall_posts.own&gt;.own.unshown+.own,.wall_module .wall_posts.own&gt;.own.unshown+.own_ads_promoted_post,.wall_module .wall_posts.own&gt;.own_ads_promoted_post,.wall_module .wall_posts.postponed&gt;.postponed,.wall_module .wall_posts.suggested&gt;.suggest,.wall_module .wall_posts_search&gt;.post {
+.wall_module .wall_posts.all>.all,.wall_module .wall_posts.all>.all.unshown+.all,.wall_module .wall_posts.all>.all.unshown+.all_ads_promoted_post,.wall_module .wall_posts.all>.all_ads_promoted_post,.wall_module .wall_posts .no_posts,.wall_module .wall_posts .no_rows,.wall_module .wall_posts.own>.own,.wall_module .wall_posts.own>.own.unshown+.own,.wall_module .wall_posts.own>.own.unshown+.own_ads_promoted_post,.wall_module .wall_posts.own>.own_ads_promoted_post,.wall_module .wall_posts.postponed>.postponed,.wall_module .wall_posts.suggested>.suggest,.wall_module .wall_posts_search>.post {
     margin-top: 0;
     border-radius: 0 0 2px 2px
 }
 
-.wall_module .wall_posts.all&gt;.all~.all,.wall_module .wall_posts.all&gt;.all~.all_ads_promoted_post,.wall_module .wall_posts.own&gt;.own~.own,.wall_module .wall_posts.own&gt;.own~.own_ads_promoted_post,.wall_module .wall_posts.postponed&gt;.postponed~.postponed,.wall_module .wall_posts.suggested&gt;.suggest~.suggest,.wall_module .wall_posts_search&gt;.post~.post {
+.wall_module .wall_posts.all>.all~.all,.wall_module .wall_posts.all>.all~.all_ads_promoted_post,.wall_module .wall_posts.own>.own~.own,.wall_module .wall_posts.own>.own~.own_ads_promoted_post,.wall_module .wall_posts.postponed>.postponed~.postponed,.wall_module .wall_posts.suggested>.suggest~.suggest,.wall_module .wall_posts_search>.post~.post {
     margin-top: 15px;
     border-radius: 2px
 }
@@ -19144,7 +19144,7 @@ div.submit_post_field[contenteditable=true]:empty:not(.submit_post_inited):not(.
     color: #b8b9bb
 }
 
-div.submit_post_field&gt;p,div.submit_post_field[contenteditable=true]&gt;p {
+div.submit_post_field>p,div.submit_post_field[contenteditable=true]>p {
     margin: 0
 }
 
@@ -19361,7 +19361,7 @@ div.submit_post_field&gt;p,div.submit_post_field[contenteditable=true]&gt;p {
     padding: 7px 15px
 }
 
-.post_reply_tt_choose&gt;.radiobtn {
+.post_reply_tt_choose>.radiobtn {
     margin: 8px 0
 }
 
@@ -20490,7 +20490,7 @@ textarea.page_poll_export_code {
     width: 46px
 }
 
-.page_cover_info .group_send_msg,.page_cover_info .page_actions&gt;.flat_button {
+.page_cover_info .group_send_msg,.page_cover_info .page_actions>.flat_button {
     float: left;
     width: 157px;
     margin-right: 10px
@@ -22269,7 +22269,7 @@ button.wall_block_app_btn {
     margin-top: 10px
 }
 
-.page_photo .module_body&gt;.flat_button:first-child,.page_photo .page_actions_expanded:first-child {
+.page_photo .module_body>.flat_button:first-child,.page_photo .page_actions_expanded:first-child {
     margin-top: 0
 }
 
@@ -23069,7 +23069,7 @@ button.wall_block_app_btn {
     background: #f0f2f5
 }
 
-.feed_new_posts&gt;b {
+.feed_new_posts>b {
     display: inline-block;
     background-color: #618ab8;
     color: #fff;
@@ -23082,7 +23082,7 @@ button.wall_block_app_btn {
     text-align: left
 }
 
-.mac.firefox .feed_new_posts&gt;b {
+.mac.firefox .feed_new_posts>b {
     line-height: 14px
 }
 
@@ -25464,7 +25464,7 @@ a.page_poll_code {
     padding: 2px 0 0
 }
 
-.page_poll_total .page_poll_total_count&gt;b {
+.page_poll_total .page_poll_total_count>b {
     background: none
 }
 

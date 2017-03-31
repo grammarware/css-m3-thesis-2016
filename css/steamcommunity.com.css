@@ -1240,7 +1240,7 @@ html.responsive.touch .commentthread_comment_author .actionlink:not(.community_b
     font-weight: bold;
 }
 
-body.flat_page &gt; .perf_timing_area .perf_timing_link, body.headerless_page &gt; .perf_timing_area .perf_timing_link {
+body.flat_page > .perf_timing_area .perf_timing_link, body.headerless_page > .perf_timing_area .perf_timing_link {
     position: absolute;
     left: 15px;
     bottom: 15px;
@@ -1774,7 +1774,7 @@ button.gray_square_button::-moz-focus-inner {
     text-align: center;
 }
 
-.notLoggedInButtons &gt; a {
+.notLoggedInButtons > a {
     margin-right: 5px;
 }
 
@@ -1917,7 +1917,7 @@ select.gray_bevel {
     padding-left: 5px;
 }
 
-.shareItemLink .btn_medium &gt; span {
+.shareItemLink .btn_medium > span {
     padding: 0px 10px;
     line-height: 28px;
 }
@@ -2494,15 +2494,15 @@ center {
     background: linear-gradient( to bottom, rgba(103,193,245,1) 5%, rgba(103,193,245,0) 95%);
 }
 
-.apphub_sectionTab.new &gt; span {
+.apphub_sectionTab.new > span {
     border-bottom: 1px solid #65c0f9;
 }
 
-.apphub_sectionTab.active &gt; span {
+.apphub_sectionTab.active > span {
     border-bottom: none;
 }
 
-.apphub_sectionTab.active &gt; span, .apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner {
+.apphub_sectionTab.active > span, .apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner {
     padding: 0 17px;
     border-radius: 2px;
     border-bottom-left-radius: 0px;
@@ -4185,7 +4185,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: linear-gradient( to bottom, #a4d007 5%, #536904 95%);
 }
 
-.btn_green_white_innerfade &gt; span {
+.btn_green_white_innerfade > span {
     border-radius: 2px;
     display: block;
     background: #799905;
@@ -4201,7 +4201,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: linear-gradient( to bottom, #b6d908 5%, #80a006 95%);
 }
 
-.btn_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; span {
+.btn_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
     background: #a1bf07;
     background: -webkit-linear-gradient( top, #a1bf07 5%, #80a006 95%);
     background: linear-gradient( to bottom, #a1bf07 5%, #80a006 95%);
@@ -4220,7 +4220,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: linear-gradient( to bottom, #aaceff 5%, #3c6091 95%);
 }
 
-.btn_blue_white_innerfade &gt; span {
+.btn_blue_white_innerfade > span {
     border-radius: 2px;
     display: block;
     background: #82a6d7;
@@ -4236,7 +4236,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: linear-gradient( to bottom, #bbd8ff 5%, #4873a7 95%);
 }
 
-.btn_blue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; span {
+.btn_blue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
     background: #9ab7de;
     background: -webkit-linear-gradient( top, #9ab7de 5%, #4873a7 95%);
     background: linear-gradient( to bottom, #9ab7de 5%, #4873a7 95%);
@@ -4255,7 +4255,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: linear-gradient( to bottom, rgba(47,137,188,1) 5%, rgba(23,67,92,1) 95%);
 }
 
-.btn_darkblue_white_innerfade &gt; span {
+.btn_darkblue_white_innerfade > span {
     border-radius: 2px;
     display: block;
     background: rgba(33,101,138,1);
@@ -4271,7 +4271,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: linear-gradient( to bottom, rgba(102,192,244,1) 5%, rgba(47,137,188,1) 95%);
 }
 
-.btn_darkblue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; span {
+.btn_darkblue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
     background: transparent;
 }
 
@@ -4281,7 +4281,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: #fff !important;
 }
 
-.btn_darkblue_white_innerfade.btn_active &gt; span, btn_darkblue_white_innerfade.active &gt; span {
+.btn_darkblue_white_innerfade.btn_active > span, btn_darkblue_white_innerfade.active > span {
     background: #989b9e;
     background: -webkit-linear-gradient( top, #989b9e 5%, #aeb1b5 95%);
     background: linear-gradient( to bottom, #989b9e 5%, #aeb1b5 95%);
@@ -4300,7 +4300,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: linear-gradient( to bottom, #acb5bd 5%, #414a52 95%);
 }
 
-.btn_grey_white_innerfade &gt; span {
+.btn_grey_white_innerfade > span {
     border-radius: 2px;
     display: block;
     background: #778088;
@@ -4316,7 +4316,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: linear-gradient( to bottom, #cfd8e0 5%, #565f67 95%);
 }
 
-.btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; span {
+.btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
     background: #99a2aa;
     background: -webkit-linear-gradient( top, #99a2aa 5%, #565f67 95%);
     background: linear-gradient( to bottom, #99a2aa 5%, #565f67 95%);
@@ -4333,7 +4333,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: rgba( 0, 0, 0, 0.4);
 }
 
-.btn_grey_grey &gt; span {
+.btn_grey_grey > span {
     border-radius: 2px;
     display: block;
     background: transparent;
@@ -4345,7 +4345,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: #7bb7e3;
 }
 
-.btn_grey_grey:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; span {
+.btn_grey_grey:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
     background: transparent;
 }
 
@@ -4360,7 +4360,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: #000;
 }
 
-.btn_grey_grey_outer_bevel &gt; span {
+.btn_grey_grey_outer_bevel > span {
     border-radius: 2px;
     display: block;
     background: #2B2B2B;
@@ -4376,13 +4376,13 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: linear-gradient( to bottom, #57749e 5%, #364963 95%);
 }
 
-.btn_grey_grey_outer_bevel:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; span {
+.btn_grey_grey_outer_bevel:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
     background: #445b7c;
     background: -webkit-linear-gradient( top, #445b7c 5%, #364963 95%);
     background: linear-gradient( to bottom, #445b7c 5%, #364963 95%);
 }
 
-.btn_grey_grey_outer_bevel:not(:hover) &gt; span {
+.btn_grey_grey_outer_bevel:not(:hover) > span {
     box-shadow: inset 0 1px 1px #434343;
 }
 
@@ -4397,7 +4397,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: rgba(0, 0, 0, 0.5 );
 }
 
-.btn_grey_black &gt; span {
+.btn_grey_black > span {
     border-radius: 2px;
     display: block;
     background: transparent;
@@ -4409,7 +4409,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: rgba( 102, 192, 244, 0.4 );
 }
 
-.btn_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; span {
+.btn_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
     background: transparent;
 }
 
@@ -4420,7 +4420,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     ;
 }
 
-.btn_grey_black.btn_active &gt; span, btn_grey_black.active &gt; span {
+.btn_grey_black.btn_active > span, btn_grey_black.active > span {
     background: transparent;
 }
 
@@ -4435,7 +4435,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: #000;
 }
 
-.btn_black &gt; span {
+.btn_black > span {
     border-radius: 2px;
     display: block;
     background: transparent;
@@ -4447,7 +4447,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: #97C0E3;
 }
 
-.btn_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; span {
+.btn_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
     background: transparent;
 }
 
@@ -4462,7 +4462,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: rgba( 103, 193, 245, 0.2 );
 }
 
-.btnv6_blue_hoverfade &gt; span {
+.btnv6_blue_hoverfade > span {
     border-radius: 2px;
     display: block;
     background: transparent;
@@ -4477,7 +4477,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     );
 }
 
-.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; span {
+.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
     background: transparent;
 }
 
@@ -4488,7 +4488,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     ;
 }
 
-.btnv6_blue_hoverfade.btn_active &gt; span, btnv6_blue_hoverfade.active &gt; span {
+.btnv6_blue_hoverfade.btn_active > span, btnv6_blue_hoverfade.active > span {
     background: transparent;
 }
 
@@ -4505,7 +4505,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: linear-gradient( to bottom, rgba(193,228,249,1) 5%, rgba(148,183,202,1) 95%);
 }
 
-.btnv6_lightblue_blue &gt; span {
+.btnv6_lightblue_blue > span {
     border-radius: 2px;
     display: block;
     background: transparent;
@@ -4520,7 +4520,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: linear-gradient( to bottom, rgba(102,192,244,1) 5%, rgba(47,137,188,1) 95%);
 }
 
-.btnv6_lightblue_blue:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; span {
+.btnv6_lightblue_blue:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
     background: transparent;
 }
 
@@ -4537,7 +4537,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: linear-gradient( to bottom, rgba(47,137,188,1) 5%, rgba(23,67,92,1) 95%);
 }
 
-.btnv6_blue_blue_innerfade &gt; span {
+.btnv6_blue_blue_innerfade > span {
     border-radius: 2px;
     display: block;
     background: transparent;
@@ -4552,7 +4552,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: linear-gradient( to bottom, rgba(102,192,244,1) 5%, rgba(47,137,188,1) 95%);
 }
 
-.btnv6_blue_blue_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; span {
+.btnv6_blue_blue_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
     background: transparent;
 }
 
@@ -4569,7 +4569,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: linear-gradient( to bottom, rgba(121,153,5,1) 5%, rgba(83,105,4,1) 95%);
 }
 
-.btnv6_green_white_innerfade &gt; span {
+.btnv6_green_white_innerfade > span {
     border-radius: 2px;
     display: block;
     background: transparent;
@@ -4584,7 +4584,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: linear-gradient( to bottom, rgba(164,208,7,1) 5%, rgba(107,135,5,1) 95%);
 }
 
-.btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; span {
+.btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
     background: transparent;
 }
 
@@ -4599,7 +4599,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: #212c3d;
 }
 
-.btnv6_grey_black &gt; span {
+.btnv6_grey_black > span {
     border-radius: 2px;
     display: block;
     background: transparent;
@@ -4611,7 +4611,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: #66c0f4;
 }
 
-.btnv6_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; span {
+.btnv6_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
     background: transparent;
 }
 
@@ -4622,7 +4622,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     ;
 }
 
-.btnv6_grey_black.btn_active &gt; span, btnv6_grey_black.active &gt; span {
+.btnv6_grey_black.btn_active > span, btnv6_grey_black.active > span {
     background: transparent;
 }
 
@@ -4637,7 +4637,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: #transparent;
 }
 
-.btnv6_white_transparent &gt; span {
+.btnv6_white_transparent > span {
     border-radius: 2px;
     display: block;
     background: transparent;
@@ -4651,7 +4651,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     background: #transparent;
 }
 
-.btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; span {
+.btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
     background: transparent;
     border: 1px solid rgba(255,255,255,1);
     border-radius: 2px;
@@ -4668,7 +4668,7 @@ div.statsselect div.option img, div.statsselect_options div.option img {
     box-shadow: 2px 2px 5px rgba(0,0,0,0.75) inset, -2px -2px 5px rgba(150,150,150,1) inset;
 }
 
-/* fix for mozilla &lt;button&gt; elements */
+/* fix for mozilla <button> elements */
 button::-moz-focus-inner {
     padding: 0;
     border: none;
@@ -4680,7 +4680,7 @@ button::-moz-focus-inner {
     border: 2px solid #172030;
 }
 
-.btn_border_2px &gt; span {
+.btn_border_2px > span {
     border-radius: 3px;
 }
 
@@ -4689,24 +4689,24 @@ button::-moz-focus-inner {
     border: 2px solid #17202f;
 }
 
-.btnv6_border_2px &gt; span {
+.btnv6_border_2px > span {
     border-radius: 3px;
 }
 
 /* Sizing */
-.btn_large &gt; span, input.btn_large {
+.btn_large > span, input.btn_large {
     padding: 0 15px;
     font-size: 16px;
     line-height: 40px;
 }
 
-.btn_medium_tall &gt; span, input.btn_medium_tall {
+.btn_medium_tall > span, input.btn_medium_tall {
     padding: 0 15px;
     font-size: 15px;
     line-height: 36px;
 }
 
-.btn_medium &gt; span, input.btn_medium {
+.btn_medium > span, input.btn_medium {
     padding: 0 15px;
     font-size: 15px;
     line-height: 30px;
@@ -4717,50 +4717,50 @@ button::-moz-focus-inner {
     vertical-align: top;
 }
 
-.btn_medium_thin &gt; span, input.btn_medium_thin {
+.btn_medium_thin > span, input.btn_medium_thin {
     padding: 0 5px;
     font-size: 15px;
     line-height: 30px;
 }
 
-.btn_medium_wide &gt; span, input.btn_medium_wide {
+.btn_medium_wide > span, input.btn_medium_wide {
     padding: 0 24px;
     font-size: 15px;
     line-height: 30px;
 }
 
-.btn_small &gt; span, input.btn_small {
+.btn_small > span, input.btn_small {
     padding: 0 15px;
     font-size: 12px;
     line-height: 20px;
 }
 
-.btn_small_thin &gt; span, input.btn_small_thin {
+.btn_small_thin > span, input.btn_small_thin {
     padding: 0 5px;
     font-size: 12px;
     line-height: 20px;
 }
 
-.btn_small_tall &gt; span, input.btn_small_tall {
+.btn_small_tall > span, input.btn_small_tall {
     padding: 0 15px;
     font-size: 12px;
     line-height: 24px;
 }
 
-.btn_small_wide &gt; span, input.btn_small_wide {
+.btn_small_wide > span, input.btn_small_wide {
     padding: 0 24px;
     font-size: 12px;
     line-height: 20px;
 }
 
-.btn_tiny &gt; span, input.btn_tiny {
+.btn_tiny > span, input.btn_tiny {
     padding: 0 7px;
     font-size: 11px;
     line-height: 17px;
 }
 
 /* Misc effects */
-.btn_uppercase &gt; span {
+.btn_uppercase > span {
     text-transform: uppercase;
 }
 
@@ -5035,7 +5035,7 @@ button::-moz-focus-inner {
 .avatar_block_status_offline,
 .appHubIconHolder.ignored {
 
-	background: -webkit-linear-gradient( top, rgba(106,106,106,1) 5%, rgba(85,85,85,1) 95%);background: linear-gradient( to bottom, rgba(106,106,106,1) 5%, rgba(85,85,85,1) 95%);	/* IE &lt;= 9 doesn't support rounded corners and gradient.  The gradient isn't too noticable so just disable the filter in IE9 */
+	background: -webkit-linear-gradient( top, rgba(106,106,106,1) 5%, rgba(85,85,85,1) 95%);background: linear-gradient( to bottom, rgba(106,106,106,1) 5%, rgba(85,85,85,1) 95%);	/* IE <= 9 doesn't support rounded corners and gradient.  The gradient isn't too noticable so just disable the filter in IE9 */
 	filter: none;
 }
 .playerAvatar.offline img,
@@ -5052,7 +5052,7 @@ button::-moz-focus-inner {
 .avatar_block_status_online {
 	background-color: #57cbde;
 
-	background: -webkit-linear-gradient( top, rgba(83,164,196,1) 5%, rgba(69,128,151,1) 95%);background: linear-gradient( to bottom, rgba(83,164,196,1) 5%, rgba(69,128,151,1) 95%);	/* IE &lt;= 9 doesn't support rounded corners and gradient.  The gradient isn't too noticable so just disable the filter in IE9 */
+	background: -webkit-linear-gradient( top, rgba(83,164,196,1) 5%, rgba(69,128,151,1) 95%);background: linear-gradient( to bottom, rgba(83,164,196,1) 5%, rgba(69,128,151,1) 95%);	/* IE <= 9 doesn't support rounded corners and gradient.  The gradient isn't too noticable so just disable the filter in IE9 */
 	filter: none;
 }
 .playerAvatar.online img,
@@ -5069,7 +5069,7 @@ button::-moz-focus-inner {
 .avatar_block_status_in-game {
 	background-color: #90ba3c;
 
-	background: -webkit-linear-gradient( top, rgba(143,185,59,1) 5%, rgba(110,140,49,1) 95%);background: linear-gradient( to bottom, rgba(143,185,59,1) 5%, rgba(110,140,49,1) 95%);	/* IE &lt;= 9 doesn't support rounded corners and gradient.  The gradient isn't too noticable so just disable the filter in IE9 */
+	background: -webkit-linear-gradient( top, rgba(143,185,59,1) 5%, rgba(110,140,49,1) 95%);background: linear-gradient( to bottom, rgba(143,185,59,1) 5%, rgba(110,140,49,1) 95%);	/* IE <= 9 doesn't support rounded corners and gradient.  The gradient isn't too noticable so just disable the filter in IE9 */
 	filter: none;
 }
 .playerAvatar.in-game img,
@@ -6021,7 +6021,7 @@ div#global_actions #global_action_menu {
 	display: inline-block;
 }
 
-#global_action_menu &gt; * {
+#global_action_menu > * {
 	vertical-align: middle;
 }
 
@@ -6091,7 +6091,7 @@ div#global_header .activebg {
 	color: #ffffff;
 }
 
-#account_dropdown &gt; .popup_body {
+#account_dropdown > .popup_body {
 	width: 150px;
 }
 
@@ -6705,11 +6705,11 @@ span.bb_spoiler:hover {
     color: #ffffff;
 }
 
-span.bb_spoiler &gt; span {
+span.bb_spoiler > span {
     visibility: hidden;
 }
 
-span.bb_spoiler:hover &gt; span {
+span.bb_spoiler:hover > span {
     visibility: visible;
 }
 
@@ -6872,7 +6872,7 @@ body.v6 #footer_nav .popup_menu .hr {
     transition: left 0.3s, top 0.3s;
 }
 
-.v_scrollbar &gt; .handle {
+.v_scrollbar > .handle {
     background: #3d6c8d;
  /* Old browsers */
     background: -moz-linear-gradient(-45deg,  #3d6c8d 0%, #2e5470 100%);
@@ -6900,12 +6900,12 @@ body.v6 #footer_nav .popup_menu .hr {
     width: 14px;
 }
 
-.v_scrollbar.vertical &gt; .handle {
+.v_scrollbar.vertical > .handle {
     height: 24px;
     width: 14px;
 }
 
-.v_scrollbar.horizontal &gt; .handle {
+.v_scrollbar.horizontal > .handle {
     height: 14px;
     width: 24px;
 }
@@ -7699,7 +7699,7 @@ html.responsive body {
     padding: 0 12px 24px 12px;
 }
 
-.mainmenu_footer .mainmenu_valve_links &gt; a {
+.mainmenu_footer .mainmenu_valve_links > a {
     color: #8a8a8a;
 }
 
@@ -7998,13 +7998,13 @@ html.force_desktop body #footer_responsive_optin_spacer {
 	height: 64px;
 }
 
-.responsive_optin_link .btn_medium &gt; span {
+.responsive_optin_link .btn_medium > span {
 	line-height: 150%;
 }
 
 @media screen and ( max-device-width: 640px )
 {
-	.responsive_optin_link .btn_medium &gt; span {
+	.responsive_optin_link .btn_medium > span {
 		font-size: 22px;
 	}
 
@@ -8015,7 +8015,7 @@ html.force_desktop body #footer_responsive_optin_spacer {
 
 @media screen and ( max-device-width: 500px )
 {
-	.responsive_optin_link .btn_medium &gt; span {
+	.responsive_optin_link .btn_medium > span {
 		font-size: 26px;
 	}
 
@@ -8030,7 +8030,7 @@ html.force_desktop body #footer_responsive_optin_spacer {
 
 @media screen and ( max-device-width: 400px )
 {
-	.responsive_optin_link .btn_medium &gt; span {
+	.responsive_optin_link .btn_medium > span {
 		font-size: 34px;
 	}
 
@@ -8090,7 +8090,7 @@ a.headerLink,a.headerLink:active,a.headerLink:visited,a.headerLink:hover {
 	padding-right:27px;
 }
 
-#headerLinks&gt;p {
+#headerLinks>p {
 	margin-bottom:0;
 	padding-bottom:0;
 }
@@ -8124,7 +8124,7 @@ a.headerLink,a.headerLink:active,a.headerLink:visited,a.headerLink:hover {
 	height:19px;
 }
 
-#headerLinks&gt;p {
+#headerLinks>p {
 	padding-left:6px;
 }
 
@@ -8269,7 +8269,7 @@ a.subHeaderLink,a.subHeaderLink:hover,a.subHeaderLink:visited,a.subHeaderLink:ac
 	z-index:180;
 }
 
-#reporter&gt;a,#reporter&gt;a:hover,#reporter&gt;a:visited,#reporter&gt;a:active {
+#reporter>a,#reporter>a:hover,#reporter>a:visited,#reporter>a:active {
 	display:inline;
 	visibility:visible;
 	color:#e1e1e1;
@@ -8746,14 +8746,14 @@ div#headerSearch {
 	text-align: left;
 }
 
-	.supernav_content &gt; a {
+	.supernav_content > a {
 		display: block;
 		padding: 6px 0;
 		text-transform: uppercase;
 		font-size: 12px;
 	}
 
-		.supernav_content &gt; a:hover {
+		.supernav_content > a:hover {
 			color: #4897cf;
 			text-decoration: none;
 		}

@@ -3704,20 +3704,20 @@ a:focus.onDark:focus {
     color: #126bc5
 }
 
-.jpui.alert.primary&gt;.icon {
+.jpui.alert.primary>.icon {
     margin-right: .75em;
     margin-top: .3125em;
     float: left
 }
 
 @media (max-width:768px) {
-    .jpui.alert.primary&gt;.icon {
+    .jpui.alert.primary>.icon {
         margin-top: .25em
     }
 }
 
 @media (max-width:768px) {
-    .jpui.alert.primary&gt;.icon i {
+    .jpui.alert.primary>.icon i {
         font-size: .875em;
         height: 1.429em;
         width: 1.429em
@@ -4895,7 +4895,7 @@ a:focus.onDark:focus {
     opacity: 1!important
 }
 
-.jpui.draganddrop .item.droptarget&gt;.text {
+.jpui.draganddrop .item.droptarget>.text {
     color: #fff
 }
 
@@ -5346,7 +5346,7 @@ a:focus.onDark:focus {
     border-top: 0
 }
 
-.jpui.grouped.table thead&gt;tr&gt;th {
+.jpui.grouped.table thead>tr>th {
     border-bottom: 0;
     padding: 5px 10px;
     vertical-align: top;
@@ -5356,15 +5356,15 @@ a:focus.onDark:focus {
     font-size: .875em
 }
 
-.jpui.grouped.table thead&gt;tr&gt;th.right.text {
+.jpui.grouped.table thead>tr>th.right.text {
     text-align: right
 }
 
-.jpui.grouped.table thead&gt;tr&gt;th:first-child {
+.jpui.grouped.table thead>tr>th:first-child {
     padding-left: 0
 }
 
-.jpui.grouped.table thead&gt;tr&gt;th:last-child {
+.jpui.grouped.table thead>tr>th:last-child {
     padding-right: 0
 }
 
@@ -5372,46 +5372,46 @@ a:focus.onDark:focus {
     border-collapse: collapse
 }
 
-.jpui.grouped.table tbody&gt;tr {
+.jpui.grouped.table tbody>tr {
     border-bottom: 1px solid #999
 }
 
-.jpui.grouped.table tbody&gt;tr:last-child {
+.jpui.grouped.table tbody>tr:last-child {
     border-bottom: 0
 }
 
-.jpui.grouped.table tbody&gt;tr&gt;td {
+.jpui.grouped.table tbody>tr>td {
     border: 0
 }
 
-.jpui.grouped.table tbody&gt;tr.no.bottom.border&gt;td {
+.jpui.grouped.table tbody>tr.no.bottom.border>td {
     border-bottom: 0
 }
 
-.jpui.grouped.table tbody&gt;tr:nth-child(even) {
+.jpui.grouped.table tbody>tr:nth-child(even) {
     background: 0
 }
 
-.jpui.grouped.table tbody&gt;tr&gt;td {
+.jpui.grouped.table tbody>tr>td {
     font-size: .875em;
     font-weight: 400;
     padding: 5px 10px 10px;
     color: #403F41
 }
 
-.jpui.grouped.table tbody&gt;tr&gt;td.emphasize {
+.jpui.grouped.table tbody>tr>td.emphasize {
     font-size: 1.125em
 }
 
-.jpui.grouped.table tbody&gt;tr&gt;td.right.text {
+.jpui.grouped.table tbody>tr>td.right.text {
     text-align: right
 }
 
-.jpui.grouped.table tbody&gt;tr&gt;td:first-child {
+.jpui.grouped.table tbody>tr>td:first-child {
     padding-left: 0
 }
 
-.jpui.grouped.table tbody&gt;tr&gt;td:last-child {
+.jpui.grouped.table tbody>tr>td:last-child {
     padding-right: 0
 }
 
@@ -6731,7 +6731,7 @@ a:focus.onDark:focus {
     }
 }
 
-.jpui.navbar.vertical.topLevel&gt;.listItem {
+.jpui.navbar.vertical.topLevel>.listItem {
     font-size: 2em;
     color: #666;
     background-color: #dbd5ca;
@@ -6742,7 +6742,7 @@ a:focus.onDark:focus {
     margin-bottom: 1em
 }
 
-.jpui.navbar.vertical.category&gt;.listItem {
+.jpui.navbar.vertical.category>.listItem {
     font-size: .875em;
     font-weight: 600;
     background-color: #ede9e3;
@@ -6758,7 +6758,7 @@ a:focus.onDark:focus {
     width: 100%
 }
 
-.jpui.navbar.vertical.category .bottom&gt;a {
+.jpui.navbar.vertical.category .bottom>a {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -6773,33 +6773,33 @@ a:focus.onDark:focus {
     text-decoration: none
 }
 
-.jpui.navbar.vertical.category .bottom&gt;a.active {
+.jpui.navbar.vertical.category .bottom>a.active {
     border-left: .5em solid #0b6efd;
     padding-left: 1.5em;
     color: #414042
 }
 
-.jpui.navbar.vertical.category .bottom&gt;a:focus {
+.jpui.navbar.vertical.category .bottom>a:focus {
     outline: 1px dashed #126bc5
 }
 
-.jpui.navbar.vertical.category .bottom&gt;a:hover {
+.jpui.navbar.vertical.category .bottom>a:hover {
     background-color: #f3f0e9;
     color: #414042
 }
 
-.jpui.navbar.vertical.category .bottom&gt;a:active {
+.jpui.navbar.vertical.category .bottom>a:active {
     background-color: #0b6efd;
     color: #fff
 }
 
-.jpui.navbar.vertical.subcategory&gt;.listItem {
+.jpui.navbar.vertical.subcategory>.listItem {
     padding: .8125em 2em;
     height: 2.75em;
     color: #717171
 }
 
-.jpui.navbar.vertical.subcategory&gt;.listItem:hover {
+.jpui.navbar.vertical.subcategory>.listItem:hover {
     background-color: #dbd5ca
 }
 
@@ -6808,7 +6808,7 @@ a:focus.onDark:focus {
     width: 100%
 }
 
-.jpui.navbar.vertical.subcategory .bottom&gt;a {
+.jpui.navbar.vertical.subcategory .bottom>a {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -6823,22 +6823,22 @@ a:focus.onDark:focus {
     text-decoration: none
 }
 
-.jpui.navbar.vertical.subcategory .bottom&gt;a.active {
+.jpui.navbar.vertical.subcategory .bottom>a.active {
     border-left: .5em solid #0b6efd;
     padding-left: 2.5em;
     color: #414042
 }
 
-.jpui.navbar.vertical.subcategory .bottom&gt;a:focus {
+.jpui.navbar.vertical.subcategory .bottom>a:focus {
     outline: 1px dashed #126bc5
 }
 
-.jpui.navbar.vertical.subcategory .bottom&gt;a:hover {
+.jpui.navbar.vertical.subcategory .bottom>a:hover {
     background-color: #f3f0e9;
     color: #414042
 }
 
-.jpui.navbar.vertical.subcategory .bottom&gt;a:active {
+.jpui.navbar.vertical.subcategory .bottom>a:active {
     background-color: #0b6efd;
     color: #fff
 }
@@ -6899,7 +6899,7 @@ a:focus.onDark:focus {
     margin-bottom: 0
 }
 
-.jpui.navbar.vertical.dark .category&gt;.listItem {
+.jpui.navbar.vertical.dark .category>.listItem {
     color: #fff;
     background-color: #25201c
 }
@@ -6943,16 +6943,16 @@ a:focus.onDark:focus {
     background-color: inherit
 }
 
-.jpui.navbar.vertical.horizontal.topLevel&gt;ul {
+.jpui.navbar.vertical.horizontal.topLevel>ul {
     height: 52px
 }
 
-.jpui.navbar.vertical.horizontal.topLevel&gt;ul&gt;li {
+.jpui.navbar.vertical.horizontal.topLevel>ul>li {
     height: 52px;
     display: inline-block
 }
 
-.jpui.navbar.vertical.horizontal.topLevel&gt;ul&gt;li::after {
+.jpui.navbar.vertical.horizontal.topLevel>ul>li::after {
     font-size: 30px;
     color: #717171;
     content: "\007c";
@@ -6960,11 +6960,11 @@ a:focus.onDark:focus {
     padding-right: 16px
 }
 
-.jpui.navbar.vertical.horizontal.topLevel&gt;ul&gt;li:last-child {
+.jpui.navbar.vertical.horizontal.topLevel>ul>li:last-child {
     padding-right: 0
 }
 
-.jpui.navbar.vertical.horizontal.topLevel&gt;ul&gt;li:last-child::after {
+.jpui.navbar.vertical.horizontal.topLevel>ul>li:last-child::after {
     content: ''
 }
 
@@ -6997,7 +6997,7 @@ a:focus.onDark:focus {
     display: block
 }
 
-.jpui.navbar.vertical.horizontal .category&gt;.listItem {
+.jpui.navbar.vertical.horizontal .category>.listItem {
     display: block;
     padding: 16px 20px;
     font-size: 18px;
@@ -7005,7 +7005,7 @@ a:focus.onDark:focus {
     margin: 0
 }
 
-.jpui.navbar.vertical.horizontal .category&gt;.listItem.active {
+.jpui.navbar.vertical.horizontal .category>.listItem.active {
     border-top: 5px solid green;
     padding-top: 11px
 }
@@ -7134,7 +7134,7 @@ a:focus.onDark:focus {
     padding: 0
 }
 
-.jpui.panel .table&gt;tbody&gt;tr:nth-child(even) {
+.jpui.panel .table>tbody>tr:nth-child(even) {
     background-color: #f8f8f8
 }
 
@@ -7250,11 +7250,11 @@ a:focus.onDark:focus {
     z-index: 1
 }
 
-.jpui.radiobutton input[type=radio]:focus+label&gt;div:first-child {
+.jpui.radiobutton input[type=radio]:focus+label>div:first-child {
     outline: 1px dotted
 }
 
-.jpui.radiobutton input[type=radio]~label&gt;div:first-child {
+.jpui.radiobutton input[type=radio]~label>div:first-child {
     border: 1px solid #ccc;
     border-radius: 30px;
     background: #fff;
@@ -7264,7 +7264,7 @@ a:focus.onDark:focus {
     display: inline-block
 }
 
-.jpui.radiobutton input[type=radio]~label&gt;div:first-child&gt;div {
+.jpui.radiobutton input[type=radio]~label>div:first-child>div {
     width: 10px;
     border: 0;
     outline: 0;
@@ -7272,7 +7272,7 @@ a:focus.onDark:focus {
     margin: .25em 0 0 .25em
 }
 
-.jpui.radiobutton input[type=radio]:checked+label&gt;div:first-child&gt;div {
+.jpui.radiobutton input[type=radio]:checked+label>div:first-child>div {
     background: #0b6efd;
     border-color: #0b6efd;
     border-style: solid;
@@ -7342,7 +7342,7 @@ a:focus.onDark:focus {
     background: #959595
 }
 
-.jpui.radiobutton input[type=radio]:disabled+label.alternate&gt;div:first-child&gt;div {
+.jpui.radiobutton input[type=radio]:disabled+label.alternate>div:first-child>div {
     background: #fff;
     border-color: #959595
 }
@@ -7741,16 +7741,16 @@ a:focus.onDark:focus {
     text-align: left
 }
 
-.jpui.simple.table th.sortable&gt;span:after,.jpui.simple.table td.sortable&gt;span:after {
+.jpui.simple.table th.sortable>span:after,.jpui.simple.table td.sortable>span:after {
     content: "";
     margin: 0 .3em
 }
 
-.jpui.simple.table th.sortable.ascending&gt;span:after,.jpui.simple.table td.sortable.ascending&gt;span:after {
+.jpui.simple.table th.sortable.ascending>span:after,.jpui.simple.table td.sortable.ascending>span:after {
     content: "icon font for down arrow"
 }
 
-.jpui.simple.table th.sortable.descending&gt;span:after,.jpui.simple.table td.sortable.descending&gt;span:after {
+.jpui.simple.table th.sortable.descending>span:after,.jpui.simple.table td.sortable.descending>span:after {
     content: "icon font for up arrow"
 }
 
@@ -7783,7 +7783,7 @@ a:focus.onDark:focus {
         padding: .313em
     }
 
-    .jpui.simple.table tbody&gt;tr&gt;td {
+    .jpui.simple.table tbody>tr>td {
         border-bottom: 0
     }
 
@@ -8225,7 +8225,7 @@ a:focus.onDark:focus {
     width: 100%
 }
 
-.jpui.table&gt;caption&gt;span {
+.jpui.table>caption>span {
     position: absolute!important;
     clip: rect(1px 1px 1px 1px);
     clip: rect(1px,1px,1px,1px);
@@ -8236,7 +8236,7 @@ a:focus.onDark:focus {
     overflow: hidden
 }
 
-.jpui.table&gt;caption&gt;span a,.jpui.table&gt;caption&gt;span a:link,.jpui.table&gt;caption&gt;span a:visited,.jpui.table&gt;caption&gt;span a:hover,.jpui.table&gt;caption&gt;span a:active,.jpui.table&gt;caption&gt;span a:focus {
+.jpui.table>caption>span a,.jpui.table>caption>span a:link,.jpui.table>caption>span a:visited,.jpui.table>caption>span a:hover,.jpui.table>caption>span a:active,.jpui.table>caption>span a:focus {
     position: absolute!important;
     clip: rect(1px 1px 1px 1px);
     clip: rect(1px,1px,1px,1px);
@@ -8257,7 +8257,7 @@ a:focus.onDark:focus {
         left: -9999px
     }
 
-    .jpui.table tbody&gt;tr&gt;td {
+    .jpui.table tbody>tr>td {
         text-align: right
     }
 
@@ -10262,7 +10262,7 @@ a.caret-link {
     margin: 0 0 1.125em 0
 }
 
-.accordians__inner--content__buttons--desc &gt; h1,.accordians__inner--content__buttons--desc &gt; h2,.accordians__inner--content__buttons--desc &gt; h3,.accordians__inner--content__buttons--desc &gt; h4,.accordians__inner--content__buttons--desc &gt; p {
+.accordians__inner--content__buttons--desc > h1,.accordians__inner--content__buttons--desc > h2,.accordians__inner--content__buttons--desc > h3,.accordians__inner--content__buttons--desc > h4,.accordians__inner--content__buttons--desc > p {
     font-size: 16px;
     line-height: 22px;
     color: #717171;
@@ -23315,7 +23315,7 @@ a.caret-link {
     position: fixed
 }
 
-.lt-ie9 .left-nav--wrapper + .detailpagebodycopycontainer &gt; .detail__content {
+.lt-ie9 .left-nav--wrapper + .detailpagebodycopycontainer > .detail__content {
     border-left: 1px solid #ccc !important;
     width: 75%
 }

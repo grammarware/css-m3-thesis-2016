@@ -2766,7 +2766,7 @@ a#fancybox-close {
     padding: 10px 5px
 }
 
-.stand-out&gt;.content {
+.stand-out>.content {
     padding: 15px
 }
 
@@ -2853,15 +2853,15 @@ span.stepnum {
     transition: all .5s
 }
 
-.tabs__wrapper&gt;.tabs__input:hover+.tabs__item {
+.tabs__wrapper>.tabs__input:hover+.tabs__item {
     background: rgba(0,0,0,0.1)
 }
 
-.tabs__wrapper&gt;.tabs__input:checked+.tabs__item {
+.tabs__wrapper>.tabs__input:checked+.tabs__item {
     font-weight: bold
 }
 
-.tabs__wrapper&gt;.tabs__input:checked+.tabs__item,.tabs__wrapper&gt;.tabs__input:hover+.tabs__item {
+.tabs__wrapper>.tabs__input:checked+.tabs__item,.tabs__wrapper>.tabs__input:hover+.tabs__item {
     color: #333
 }
 
@@ -3083,7 +3083,7 @@ body[class*="transparentHT"] .container_30 .rail.alpha .pod.grid_6 {
     *margin-bottom: 20px
 }
 
-body[class*="transparent"] .container_30 .box-shadow,body[class*="transparentHT"] .container_30 .grid_8 .content_image&gt;img,body[class*="transparentHT"] .container_30 .grid_8 .content_image a&gt;img,body[class*="transparentHT"] .container_30 #content_article {
+body[class*="transparent"] .container_30 .box-shadow,body[class*="transparentHT"] .container_30 .grid_8 .content_image>img,body[class*="transparentHT"] .container_30 .grid_8 .content_image a>img,body[class*="transparentHT"] .container_30 #content_article {
     box-shadow: 1px 2px 4px rgba(0,0,0,0.5)
 }
 
@@ -3155,7 +3155,7 @@ body[class*="transparentHT"] .slider_pagination {
     right: 17px
 }
 
-body[class*="transparentHT"] .slider .hero_wrapper .spad&gt;img {
+body[class*="transparentHT"] .slider .hero_wrapper .spad>img {
     box-shadow: 1px 2px 4px rgba(0,0,0,0.5)
 }
 
@@ -4698,41 +4698,41 @@ div.jumpNav ul.linkList li {
     margin: 5px 0 0 0
 }
 
-.vertical-navigation&gt;ul {
+.vertical-navigation>ul {
     padding: 0 0 10px;
     margin: 0 0 10px;
     float: left;
     width: 100%
 }
 
-.vertical-navigation&gt;ul&gt;li {
+.vertical-navigation>ul>li {
     display: block;
     position: relative;
     font-weight: bold
 }
 
-.vertical-navigation&gt;ul&gt;li a {
+.vertical-navigation>ul>li a {
     display: block;
     padding: 8px 0;
     position: relative;
     overflow: hidden
 }
 
-.vertical-navigation&gt;ul&gt;li a.active {
+.vertical-navigation>ul>li a.active {
     background: #666;
     color: #fff;
     text-decoration: none;
     overflow: visible
 }
 
-.vertical-navigation&gt;ul&gt;li a:hover {
+.vertical-navigation>ul>li a:hover {
     background: #666;
     color: #fff;
     text-decoration: none;
     overflow: visible
 }
 
-.vertical-navigation&gt;ul&gt;li a::after {
+.vertical-navigation>ul>li a::after {
     content: '';
     position: absolute;
     right: -16px;
@@ -4745,30 +4745,30 @@ div.jumpNav ul.linkList li {
     z-index: 3
 }
 
-.vertical-navigation&gt;ul&gt;li a span {
+.vertical-navigation>ul>li a span {
     padding: 0 0 0 20px
 }
 
-.vertical-navigation&gt;ul&gt;li&gt;.content {
+.vertical-navigation>ul>li>.content {
     background: #fff;
     padding: 0 10px
 }
 
-.vertical-navigation&gt;ul&gt;li&gt;.content a {
+.vertical-navigation>ul>li>.content a {
     display: block;
     font-weight: normal
 }
 
-.vertical-navigation&gt;ul&gt;li&gt;.content a:hover {
+.vertical-navigation>ul>li>.content a:hover {
     color: #000;
     font-weight: bold
 }
 
-.vertical-navigation&gt;ul&gt;li&gt;.content ul li {
+.vertical-navigation>ul>li>.content ul li {
     padding: 0 0 0 10px
 }
 
-.vertical-navigation&gt;ul&gt;li&gt;.content ul li a:hover {
+.vertical-navigation>ul>li>.content ul li a:hover {
     background: none;
     font-weight: bold;
     overflow: hidden
@@ -4797,11 +4797,11 @@ div.jumpNav ul.linkList li {
         display: none
     }
 
-    .vertical-navigation&gt;ul&gt;li a {
+    .vertical-navigation>ul>li a {
         border-bottom: 1px solid #ccc
     }
 
-    .vertical-navigation&gt;ul&gt;li&gt;.content li a {
+    .vertical-navigation>ul>li>.content li a {
         padding-left: 25px;
         border-bottom: none;
         background-image: url("../../node_modules/olt-global-styles/images//mobile/images/Mobile_Sprite.png");
@@ -4809,39 +4809,39 @@ div.jumpNav ul.linkList li {
         background-position: right -295px
     }
 
-    .vertical-navigation&gt;ul&gt;li&gt;.content li a:hover {
+    .vertical-navigation>ul>li>.content li a:hover {
         background-image: url("../../node_modules/olt-global-styles/images//mobile/images/Mobile_Sprite.png");
         background-repeat: no-repeat;
         background-position: right -295px
     }
 
-    .vertical-navigation&gt;ul {
+    .vertical-navigation>ul {
         padding: 0px
     }
 
-    .vertical-navigation&gt;ul&gt;li a:after {
+    .vertical-navigation>ul>li a:after {
         border-left: 0px
     }
 
-    .vertical-navigation&gt;ul&gt;li&gt;.content {
+    .vertical-navigation>ul>li>.content {
         padding: 0px
     }
 
-    .vertical-navigation&gt;ul&gt;li&gt;.content ul li {
+    .vertical-navigation>ul>li>.content ul li {
         padding: 0px !important;
         border-bottom: 1px solid #ccc
     }
 
-    .vertical-navigation&gt;ul&gt;li a span {
+    .vertical-navigation>ul>li a span {
         padding: 0 0 0 10px
     }
 
-    .vertical-navigation&gt;ul&gt;li&gt;.content ul li a:hover {
+    .vertical-navigation>ul>li>.content ul li a:hover {
         font-weight: normal !important;
         font-size: 12px !important
     }
 
-    .vertical-navigation&gt;ul&gt;li&gt;.content ul li a {
+    .vertical-navigation>ul>li>.content ul li a {
         font-size: 12px
     }
 
@@ -4860,7 +4860,7 @@ div.jumpNav ul.linkList li {
         margin: 0 0 0 20px
     }
 
-    .vertical-navigation&gt;ul&gt;li a {
+    .vertical-navigation>ul>li a {
         padding: 10px 0px 9px 0px
     }
 
@@ -4868,7 +4868,7 @@ div.jumpNav ul.linkList li {
         display: none
     }
 
-    .white&gt;li:first-child {
+    .white>li:first-child {
         border-top: none
     }
 }
@@ -4959,11 +4959,11 @@ div.jumpNav ul.linkList li {
     margin-bottom: 0px
 }
 
-.ratings_head,div#content_article .dogear a,.ratings_data&gt;span {
+.ratings_head,div#content_article .dogear a,.ratings_data>span {
     float: left
 }
 
-ul.ratings_info,ul.ratings_info&gt;li {
+ul.ratings_info,ul.ratings_info>li {
     float: right
 }
 
@@ -6595,11 +6595,11 @@ ul.intm-checkboxes li ul li {
     margin-left: 15px
 }
 
-li.with-image label&gt;.checkbox-custom {
+li.with-image label>.checkbox-custom {
     margin-top: -5px
 }
 
-li.with-image&gt;label.control-label.checkbox {
+li.with-image>label.control-label.checkbox {
     font-size: 18px;
     margin-bottom: 0px
 }
@@ -7164,7 +7164,7 @@ form.form-grid-12 .help-text.required,.grid_12 form .help-text.required {
     margin: 0 0 5px 100px
 }
 
-.control-label-long&gt;.btn-first {
+.control-label-long>.btn-first {
     margin-left: 45px
 }
 
@@ -7315,7 +7315,7 @@ input[type=text]#HeaderArea {
     width: auto
 }
 
-.slider_window&gt;.row {
+.slider_window>.row {
     float: left
 }
 
@@ -7551,7 +7551,7 @@ input[type=text]#HeaderArea {
     width: 100%
 }
 
-.search-history&gt;* {
+.search-history>* {
     padding: 0
 }
 
@@ -7699,7 +7699,7 @@ input[type=text]#HeaderArea {
     overflow: hidden
 }
 
-.typeahead .detail .links&gt;ul&gt;li a {
+.typeahead .detail .links>ul>li a {
     text-transform: capitalize
 }
 
@@ -8676,7 +8676,7 @@ input.SearchBox__input--ghost {
     overflow: hidden
 }
 
-html&gt;body .selectionBlocks {
+html>body .selectionBlocks {
     margin-top: 5px
 }
 
@@ -8702,7 +8702,7 @@ html&gt;body .selectionBlocks {
     padding: 0 0 5px 0px
 }
 
-html&gt;body .selectionBlocks ul li {
+html>body .selectionBlocks ul li {
     padding: 0 0 5px 2px
 }
 
@@ -8979,7 +8979,7 @@ div.widgetEmailPrintTable .widget {
     clear: both
 }
 
-.sharewidgeth&gt;span {
+.sharewidgeth>span {
     display: inline-block
 }
 
@@ -9493,12 +9493,12 @@ ul#ulSug {
     margin: 10px 0px 0px 20px
 }
 
-ul#ulSug&gt;li {
+ul#ulSug>li {
     padding-bottom: 5px;
     font-size: 14px
 }
 
-ul#ulSug&gt;li&gt;a {
+ul#ulSug>li>a {
     color: #F96302
 }
 
@@ -9799,7 +9799,7 @@ body {
     padding-left: 10px
 }
 
-.grid.flush&gt;[class*="col__"] {
+.grid.flush>[class*="col__"] {
     padding: 0
 }
 
@@ -9814,7 +9814,7 @@ body {
     padding: 10px
 }
 
-[class*='col__']&gt;.grid {
+[class*='col__']>.grid {
     margin-left: -10px;
     margin-right: -10px;
     width: auto
@@ -12511,7 +12511,7 @@ li select#sortby {
     justify-content: flex-start
 }
 
-.flexbox--left-top&gt;* {
+.flexbox--left-top>* {
     max-width: 100%
 }
 
@@ -12526,7 +12526,7 @@ li select#sortby {
     justify-content: center
 }
 
-.flexbox--left-center&gt;* {
+.flexbox--left-center>* {
     max-width: 100%
 }
 
@@ -12541,7 +12541,7 @@ li select#sortby {
     justify-content: flex-end
 }
 
-.flexbox--left-bottom&gt;* {
+.flexbox--left-bottom>* {
     max-width: 100%
 }
 
@@ -12556,7 +12556,7 @@ li select#sortby {
     justify-content: flex-start
 }
 
-.flexbox--center-top&gt;* {
+.flexbox--center-top>* {
     max-width: 100%
 }
 
@@ -12571,7 +12571,7 @@ li select#sortby {
     justify-content: center
 }
 
-.flexbox--center-center&gt;* {
+.flexbox--center-center>* {
     max-width: 100%
 }
 
@@ -12586,7 +12586,7 @@ li select#sortby {
     justify-content: flex-end
 }
 
-.flexbox--center-bottom&gt;* {
+.flexbox--center-bottom>* {
     max-width: 100%
 }
 
@@ -12601,7 +12601,7 @@ li select#sortby {
     justify-content: flex-start
 }
 
-.flexbox--right-top&gt;* {
+.flexbox--right-top>* {
     max-width: 100%
 }
 
@@ -12616,7 +12616,7 @@ li select#sortby {
     justify-content: center
 }
 
-.flexbox--right-center&gt;* {
+.flexbox--right-center>* {
     max-width: 100%
 }
 
@@ -12631,7 +12631,7 @@ li select#sortby {
     justify-content: flex-end
 }
 
-.flexbox--right-bottom&gt;* {
+.flexbox--right-bottom>* {
     max-width: 100%
 }
 
@@ -13412,7 +13412,7 @@ li select#sortby {
     height: 0
 }
 
-.carousel__stage .carousel__item:last-child&gt;* {
+.carousel__stage .carousel__item:last-child>* {
     margin-right: 20px
 }
 
@@ -13608,7 +13608,7 @@ li select#sortby {
     box-pack: center
 }
 
-.md-modal-atc .flex&gt;.flex-grow-1 {
+.md-modal-atc .flex>.flex-grow-1 {
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
     -ms-box-flex: 1;
@@ -13617,11 +13617,11 @@ li select#sortby {
     flex-grow: 1
 }
 
-.md-modal-atc html.no-flexbox .flex&gt;.flex-grow-1 {
+.md-modal-atc html.no-flexbox .flex>.flex-grow-1 {
     float: left
 }
 
-.md-modal-atc .flex&gt;.flex-grow-2 {
+.md-modal-atc .flex>.flex-grow-2 {
     -webkit-box-flex: 2;
     -moz-box-flex: 2;
     -ms-box-flex: 2;
@@ -14188,7 +14188,7 @@ li select#sortby {
     margin-left: -3px
 }
 
-.md-modal-atc .input-append .add-on:last-child,.md-modal-atc .input-append .btn:last-child,.md-modal-atc .input-append .btn-group:last-child&gt;.dropdown-toggle {
+.md-modal-atc .input-append .add-on:last-child,.md-modal-atc .input-append .btn:last-child,.md-modal-atc .input-append .btn-group:last-child>.dropdown-toggle {
     -webkit-border-radius: 0 4px 4px 0;
     -moz-border-radius: 0 4px 4px 0;
     border-radius: 0 4px 4px 0
@@ -16367,7 +16367,7 @@ li select#sortby {
     z-index: 1103
 }
 
-.md-modal-atc #appliance-parts-services-config-modal .md-content&gt;h3:first-child {
+.md-modal-atc #appliance-parts-services-config-modal .md-content>h3:first-child {
     font-weight: 300
 }
 
@@ -16545,7 +16545,7 @@ h3 .md-close {
     box-shadow: 0 0 10px #666
 }
 
-.md-content&gt;h3:first-child {
+.md-content>h3:first-child {
     margin: 0;
     height: auto;
     padding: 14px 15px;
@@ -16564,7 +16564,7 @@ h3.md-title {
     padding: 10px 0 0
 }
 
-.md-content&gt;div ul li {
+.md-content>div ul li {
     padding: 5px 0
 }
 
@@ -19567,7 +19567,7 @@ body.thd-overlay__body--behind-mobile {
     height: 0px
 }
 
-body.thd-overlay__body--behind-mobile&gt;*:not(.thd-overlay):not(.lp_mobile) {
+body.thd-overlay__body--behind-mobile>*:not(.thd-overlay):not(.lp_mobile) {
     display: none
 }
 
@@ -19728,7 +19728,7 @@ body.thd-overlay__body--behind-mobile&gt;*:not(.thd-overlay):not(.lp_mobile) {
     background-color: rgba(255,255,255,0.5)
 }
 
-.pre-loader&gt;* {
+.pre-loader>* {
     max-width: 100%
 }
 
@@ -23105,7 +23105,7 @@ nav#sliderArrowNav {
     width: 100% !important
 }
 
-.tabs--content div#dualSignIn-password-meter&gt;div#l-passwordMeter&gt;div {
+.tabs--content div#dualSignIn-password-meter>div#l-passwordMeter>div {
     overflow: hidden;
     display: inline-block
 }

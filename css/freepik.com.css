@@ -440,7 +440,7 @@ button {
     clear: both
 }
 
-.fullwidth .main-nav&gt;li&gt;a {
+.fullwidth .main-nav>li>a {
     padding: 8px
 10px 9px
 }
@@ -509,7 +509,7 @@ li {
     position: relative
 }
 
-.fullwidth .main-nav&gt;li {
+.fullwidth .main-nav>li {
     margin-right: 3px
 }
 
@@ -517,18 +517,18 @@ li {
     margin-right: -5px
 }
 
-.main-nav&gt;li&gt;a {
+.main-nav>li>a {
     display: block;
     padding: 10px
 12px;
     color: #000
 }
 
-.main-nav&gt;li.exclusive&gt;a {
+.main-nav>li.exclusive>a {
     color: #2363C3
 }
 
-.main-nav&gt;li.exclusive&gt;a:hover {
+.main-nav>li.exclusive>a:hover {
     color: #4989E9
 }
 
@@ -537,7 +537,7 @@ li {
     text-decoration: none
 }
 
-.main-nav li.has-drop-down&gt;a&gt;span {
+.main-nav li.has-drop-down>a>span {
     padding-right: 15px;
     margin-right: -2px;
     display: inline-block;
@@ -545,7 +545,7 @@ li {
     background: url(/img/sprite.png) no-repeat 100% -22px
 }
 
-.main-nav li.has-drop-down:hover&gt;a {
+.main-nav li.has-drop-down:hover>a {
     background: #1D60C0;
     color: #fff
 }
@@ -657,7 +657,7 @@ span {
     width: auto
 }
 
-.drop-down .list-holder .img-list&gt;li {
+.drop-down .list-holder .img-list>li {
     width: 49px !important
 }
 
@@ -1505,35 +1505,35 @@ a {
     text-indent: -9999px
 }
 
-.select-holder&gt;li {
+.select-holder>li {
     float: left;
     position: relative;
     margin: 0
 0 0 48px
 }
 
-.select-holder&gt;li&gt;label:focus:before,.select-holder&gt;li&gt;label:hover:before {
+.select-holder>li>label:focus:before,.select-holder>li>label:hover:before {
     background-position: -46px -550px
 }
 
-.select-holder&gt;li.popup-active&gt;label:hover {
+.select-holder>li.popup-active>label:hover {
     color: #666
 }
 
-.select-holder&gt;li&gt;label {
+.select-holder>li>label {
     display: block
 }
 
-.select-holder&gt;li&gt;label:hover {
+.select-holder>li>label:hover {
     text-decoration: none;
     color: #000
 }
 
-.select-holder&gt;li&gt;label:hover:before {
+.select-holder>li>label:hover:before {
     background-position: -72px -550px
 }
 
-.select-holder&gt;li&gt;label:before {
+.select-holder>li>label:before {
     content: "";
     float: right;
     margin: 8px
@@ -7827,14 +7827,14 @@ ul.horizontal {
 19.7%
 }
 
-.tabs ul.horizontal .tabs-container&gt;li {
+.tabs ul.horizontal .tabs-container>li {
     display: inline-block;
     color: #8a8a8a;
     background-color: #e6e6e6;
     margin-top: 1px
 }
 
-.tabs ul.horizontal .tabs-container &gt; li
+.tabs ul.horizontal .tabs-container > li
 a {
     font-family: 'Open Sans',sans-serif;
     font-weight: bold;
@@ -7851,12 +7851,12 @@ solid #c2c2c2;
     background-color: #d8d8d8
 }
 
-.tabs ul.horizontal .tabs-container&gt;li.active {
+.tabs ul.horizontal .tabs-container>li.active {
     background: #e6e6e6;
     position: relative
 }
 
-.tabs ul.horizontal .tabs-container &gt; li.active
+.tabs ul.horizontal .tabs-container > li.active
 a {
     color: #fff;
     background-color: #a5adaf;
@@ -7923,7 +7923,7 @@ ul {
     z-index: 3
 }
 
-.comments .bouncer&gt;div {
+.comments .bouncer>div {
     background-color: #ddd
 }
 
@@ -9595,7 +9595,7 @@ h3 {
     white-space: nowrap
 }
 
-.images&gt;.slide {
+.images>.slide {
     -webkit-align-self: flex-end;
     -moz-align-self: flex-end;
     -ms-align-self: flex-end;
@@ -10299,14 +10299,14 @@ img {
     display: none
 }
 
-.justified-gallery&gt;a,.justified-gallery&gt;div {
+.justified-gallery>a,.justified-gallery>div {
     position: absolute !important;
     display: inline-block;
     opacity: 0;
     filter: alpha(opacity=0)
 }
 
-.justified-gallery&gt;a&gt;img,.justified-gallery&gt;div&gt;img {
+.justified-gallery>a>img,.justified-gallery>div>img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -10315,7 +10315,7 @@ img {
     border: none
 }
 
-.justified-gallery&gt;.entry-visible {
+.justified-gallery>.entry-visible {
     opacity: 1.0;
     filter: alpha(opacity=100);
     -webkit-animation: justified-gallery-show-entry-animation 300ms 0 ease;
@@ -11302,7 +11302,7 @@ a {
     background-color: #DB423F
 }
 
-.banner-holder&gt;div {
+.banner-holder>div {
     text-align: center;
     background-color: #2363C3;
     color: #fff;
@@ -11311,23 +11311,23 @@ a {
     overflow: hidden
 }
 
-.banner-holder&gt;div:empty {
+.banner-holder>div:empty {
     padding: 0
 }
 
-.banner-holder &gt; div
+.banner-holder > div
 p {
     margin: 0;
     padding-right: 30px
 }
 
-.banner-holder &gt; div
+.banner-holder > div
 a {
     color: white;
     text-decoration: none
 }
 
-.banner-holder &gt; div .close-banner {
+.banner-holder > div .close-banner {
     position: absolute;
     top: 50%;
     right: 10px;
@@ -11341,11 +11341,11 @@ a {
     transform: translateY(-50%)
 }
 
-.banner-holder &gt; div .close-banner:before {
+.banner-holder > div .close-banner:before {
     content: '\d7'
 }
 
-.banner-holder &gt; div .close-banner:hover {
+.banner-holder > div .close-banner:hover {
     background-color: #DB423F
 }
 
@@ -11481,7 +11481,7 @@ auto;
     border-radius: 20px
 }
 
-.todos-btn&gt;strong {
+.todos-btn>strong {
     display: block;
     font-size: 18px;
     line-height: 18px
@@ -12182,7 +12182,7 @@ a {
     margin-right: 6px
 }
 
-.user-menu&gt;li {
+.user-menu>li {
     display: inline-block;
     vertical-align: middle;
     padding: 0
@@ -12998,7 +12998,7 @@ button {
     margin: -10px 0 0 -35px
 }
 
-.bouncer&gt;div {
+.bouncer>div {
     width: 18px;
     height: 18px;
     background-color: #fff;
@@ -13386,7 +13386,7 @@ img {
     border-radius: 4px
 }
 
-.card-loader&gt;img {
+.card-loader>img {
     display: block;
     position: relative;
     left: 50%;
@@ -14571,7 +14571,7 @@ strong {
     display: inline
 }
 
-.non-premium .gallery .mask&gt;a:after {
+.non-premium .gallery .mask>a:after {
     display: none
 }
 
@@ -15691,7 +15691,7 @@ auto;
     border-radius: 20px
 }
 
-#header .todos-btn&gt;strong {
+#header .todos-btn>strong {
     display: block;
     font-size: 18px;
     line-height: 18px
@@ -15876,7 +15876,7 @@ fadeIn {
     }
 }
 
-#header .user-menu&gt;li {
+#header .user-menu>li {
     display: inline-block;
     vertical-align: middle;
     padding: 0
@@ -15885,20 +15885,20 @@ fadeIn {
 }
 
 @media screen and (max-width: 910px) {
-    #header .user-menu&gt;li.link-trabaja {
+    #header .user-menu>li.link-trabaja {
         display: none
     }
 }
 
 @media screen and (max-width: 880px) {
-    #header .user-menu&gt;li.link-login a
+    #header .user-menu>li.link-login a
 span {
         display: none
     }
 }
 
 @media screen and (max-width: 880px) {
-    #header .user-menu&gt;li.link-login a:before {
+    #header .user-menu>li.link-login a:before {
         content: "\6f";
         font-family: 'Flaticon';
         font-size: 1.8em;
@@ -15910,7 +15910,7 @@ span {
 }
 
 @media screen and (max-width: 880px) {
-    #header .user-menu&gt;li.link-register {
+    #header .user-menu>li.link-register {
         display: none
     }
 }
@@ -16285,7 +16285,7 @@ body .home #header .top-bar .menu-home-mobile.active span:nth-child(3) {
     left: 4px
 }
 
-body .home #header .drop-down .list-holder .img-list&gt;li {
+body .home #header .drop-down .list-holder .img-list>li {
     width: 48px !important
 }
 
@@ -16772,7 +16772,7 @@ body.fr .home .top-banner .inner .search-form input[type="text"] {
         width: 300px
     }
 
-    #detail-exclusive #main #sidebar&gt;.download.download-fixed,#detail #main #sidebar&gt;.download.download-fixed {
+    #detail-exclusive #main #sidebar>.download.download-fixed,#detail #main #sidebar>.download.download-fixed {
         width: 300px
     }
 
@@ -16817,7 +16817,7 @@ h1 {
         width: 636px
     }
 
-    #detail-exclusive #main .content-holder #content .gallery .mask&gt;a,#detail #main .content-holder #content .gallery .mask&gt;a {
+    #detail-exclusive #main .content-holder #content .gallery .mask>a,#detail #main .content-holder #content .gallery .mask>a {
         width: 626px
     }
 
@@ -16844,7 +16844,7 @@ span {
         left: 40px
     }
 
-    #detail-exclusive #main .content-holder #sidebar&gt;.download,#detail #main .content-holder #sidebar&gt;.download {
+    #detail-exclusive #main .content-holder #sidebar>.download,#detail #main .content-holder #sidebar>.download {
         position: fixed;
         z-index: 30;
         margin: 0;
@@ -16856,7 +16856,7 @@ span {
         border-radius: 0
     }
 
-    #detail-exclusive #main .content-holder #sidebar&gt;.download .favourite,#detail #main .content-holder #sidebar&gt;.download
+    #detail-exclusive #main .content-holder #sidebar>.download .favourite,#detail #main .content-holder #sidebar>.download
 .favourite {
         width: 90px;
         position: absolute;
@@ -16901,7 +16901,7 @@ p {
         border-radius: 4px 0 0 0
     }
 
-    #detail-exclusive #main .content-holder #sidebar .download-holder .favourite&gt;span,#detail #main .content-holder #sidebar .download-holder .favourite&gt;span {
+    #detail-exclusive #main .content-holder #sidebar .download-holder .favourite>span,#detail #main .content-holder #sidebar .download-holder .favourite>span {
         display: block;
         margin: 0
     }
@@ -16992,7 +16992,7 @@ h1 {
         width: 100%
     }
 
-    #detail-exclusive #main .content-holder #content .gallery .mask&gt;a,#detail #main .content-holder #content .gallery .mask&gt;a {
+    #detail-exclusive #main .content-holder #content .gallery .mask>a,#detail #main .content-holder #content .gallery .mask>a {
         width: 100%
     }
 
@@ -18191,7 +18191,7 @@ iframe {
         width: 100%
     }
 
-    .liquid.explore .fullwidth .search_top_view .imageList&gt;.slide:first-child {
+    .liquid.explore .fullwidth .search_top_view .imageList>.slide:first-child {
         width: 100%;
         max-width: none;
         height: auto;
@@ -18200,40 +18200,40 @@ iframe {
         overflow: visible
     }
 
-    .liquid.explore .fullwidth .search_top_view .imageList&gt;.slide:first-child .side-block.categories ul li
+    .liquid.explore .fullwidth .search_top_view .imageList>.slide:first-child .side-block.categories ul li
 a {
         padding: 7px
 !important
     }
 
-    .liquid.explore .fullwidth .search_top_view .imageList&gt;.slide:first-child .side-nav
+    .liquid.explore .fullwidth .search_top_view .imageList>.slide:first-child .side-nav
 li {
         display: block;
         width: 20%;
         float: left
     }
 
-    .liquid.explore .fullwidth .search_top_view .imageList&gt;.slide:first-child .side-nav li
+    .liquid.explore .fullwidth .search_top_view .imageList>.slide:first-child .side-nav li
 a {
         text-indent: -9999px
     }
 
-    .liquid.explore .fullwidth .search_top_view .imageList&gt;.slide:first-child .side-nav li a:after {
+    .liquid.explore .fullwidth .search_top_view .imageList>.slide:first-child .side-nav li a:after {
         right: 50% !important;
         margin-right: -10px
     }
 
-    .liquid.explore .fullwidth .search_top_view .imageList&gt;.slide:first-child .side-block.categories&gt;a {
+    .liquid.explore .fullwidth .search_top_view .imageList>.slide:first-child .side-block.categories>a {
         width: 50%
     }
 
-    .liquid.explore .fullwidth .search_top_view .imageList&gt;.slide:first-child .side-block.categories .show-categories {
+    .liquid.explore .fullwidth .search_top_view .imageList>.slide:first-child .side-block.categories .show-categories {
         display: block !important;
         width: 30px;
         float: right
     }
 
-    .liquid.explore .fullwidth .search_top_view .imageList&gt;.slide:first-child .side-block.categories .show-categories
+    .liquid.explore .fullwidth .search_top_view .imageList>.slide:first-child .side-block.categories .show-categories
 span {
         width: 100%;
         display: block;
@@ -18247,11 +18247,11 @@ span {
         transition: all 0.3s ease-in-out
     }
 
-    .liquid.explore .fullwidth .search_top_view .imageList&gt;.slide:first-child .side-block.categories .show-categories.active {
+    .liquid.explore .fullwidth .search_top_view .imageList>.slide:first-child .side-block.categories .show-categories.active {
         background: none !important
     }
 
-    .liquid.explore .fullwidth .search_top_view .imageList&gt;.slide:first-child .side-block.categories .show-categories.active span:nth-child(1) {
+    .liquid.explore .fullwidth .search_top_view .imageList>.slide:first-child .side-block.categories .show-categories.active span:nth-child(1) {
         -webkit-transform: rotate(45deg);
         -moz-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
@@ -18263,7 +18263,7 @@ span {
         top: 1px
     }
 
-    .liquid.explore .fullwidth .search_top_view .imageList&gt;.slide:first-child .side-block.categories .show-categories.active span:nth-child(2) {
+    .liquid.explore .fullwidth .search_top_view .imageList>.slide:first-child .side-block.categories .show-categories.active span:nth-child(2) {
         -webkit-transform: rotate(-90deg);
         -moz-transform: rotate(-90deg);
         -ms-transform: rotate(-90deg);
@@ -18274,7 +18274,7 @@ span {
         width: 18px
     }
 
-    .liquid.explore .fullwidth .search_top_view .imageList&gt;.slide:first-child .side-block.categories .show-categories.active span:nth-child(3) {
+    .liquid.explore .fullwidth .search_top_view .imageList>.slide:first-child .side-block.categories .show-categories.active span:nth-child(3) {
         -webkit-transform: rotate(-45deg);
         -moz-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
@@ -18286,13 +18286,13 @@ span {
         left: 2px
     }
 
-    .liquid.explore .fullwidth .search_top_view .imageList&gt;.slide:first-child .side-block.categories
+    .liquid.explore .fullwidth .search_top_view .imageList>.slide:first-child .side-block.categories
 ul {
         height: 0;
         overflow: hidden
     }
 
-    .liquid.explore .fullwidth .search_top_view .imageList&gt;.slide:first-child .side-block.categories
+    .liquid.explore .fullwidth .search_top_view .imageList>.slide:first-child .side-block.categories
 ul.expanded {
         height: auto
     }
@@ -18303,7 +18303,7 @@ ul.expanded {
         width: 50%
     }
 
-    .liquid.explore .fullwidth .search_top_view .imageList&gt;.slide:first-child {
+    .liquid.explore .fullwidth .search_top_view .imageList>.slide:first-child {
         width: 100% !important;
         margin-left: 0 !important
     }
@@ -18564,7 +18564,7 @@ li {
     height: 47px
 }
 
-#e404 #header .drop-down .list-holder .img-list&gt;li {
+#e404 #header .drop-down .list-holder .img-list>li {
     width: 48px !important
 }
 

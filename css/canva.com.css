@@ -250,7 +250,7 @@
     box-sizing: border-box
 }
 
-.navigationMenuDropdown__item&gt;.navigationMenuDropdown__button {
+.navigationMenuDropdown__item>.navigationMenuDropdown__button {
     min-width: 125px
 }
 
@@ -808,7 +808,7 @@
     position: relative
 }
 
-body.globalFeedbackAlertContainer&gt;.feedbackAlert--global {
+body.globalFeedbackAlertContainer>.feedbackAlert--global {
     position: fixed
 }
 
@@ -1136,7 +1136,7 @@ html {
 }
 
 @media screen and (max-width:1095px) {
-    .header__menu,.footer__menu&gt;.menu__item:not(:first-child),#quotes {
+    .header__menu,.footer__menu>.menu__item:not(:first-child),#quotes {
         display: none
     }
 }
@@ -1146,7 +1146,7 @@ html {
         display: block
     }
 
-    .header__form,.footer__menu&gt;.menu__item:not(:first-child),.footer__menu__headerReplacement {
+    .header__form,.footer__menu>.menu__item:not(:first-child),.footer__menu__headerReplacement {
         display: none
     }
 }

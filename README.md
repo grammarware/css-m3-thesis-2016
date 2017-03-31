@@ -329,7 +329,7 @@
 1. [digikala.com](http://digikala.com) — **[CSS](css/digikala.com.css)**
 1. [google.fi](http://google.fi) — removed (duplicate of google.com)
 1. [kompas.com](http://kompas.com) — **[CSS](css/kompas.com.css)**
-1. [onclickpredictiv.com](http://onclickpredictiv.com) — remove (403 Forbidden)
+1. [onclickpredictiv.com](http://onclickpredictiv.com) — removed (403 Forbidden)
 1. [sabah.com.tr](http://sabah.com.tr) — **[CSS](css/sabah.com.tr.css)**
 1. [web.de](http://web.de) — **[CSS](css/web.de.css)**
 1. [youku.com](http://youku.com) — **[CSS](css/youku.com.css)**

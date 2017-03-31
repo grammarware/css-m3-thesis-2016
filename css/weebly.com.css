@@ -1639,7 +1639,7 @@ th,td {
     vertical-align: middle
 }
 
-.table-group tbody tr&gt;th {
+.table-group tbody tr>th {
     border-bottom: 1px solid #e5e5e5
 }
 
@@ -1811,14 +1811,14 @@ tr.table-group__item {
     }
 }
 
-.table-group__action&gt;a {
+.table-group__action>a {
     display: block;
     width: 100%;
     color: #c9cdcf;
     text-align: center
 }
 
-.table-group__action&gt;a:hover,.table-group__action&gt;a:focus {
+.table-group__action>a:hover,.table-group__action>a:focus {
     color: #9ba0a3
 }
 
@@ -2993,7 +2993,7 @@ html {
     box-shadow: none
 }
 
-.btn--cta-primary&gt;.icon,.btn--cta-primary:hover&gt;.icon {
+.btn--cta-primary>.icon,.btn--cta-primary:hover>.icon {
     color: #fff
 }
 
@@ -3036,11 +3036,11 @@ html {
     box-shadow: inset 0 0 0 1px #63b6ff
 }
 
-.btn--cta-secondary&gt;.icon,.btn--cta-secondary:hover&gt;.icon {
+.btn--cta-secondary>.icon,.btn--cta-secondary:hover>.icon {
     color: #2990ea
 }
 
-.btn--icon-with-text&gt;.icon {
+.btn--icon-with-text>.icon {
     margin-right: 10px
 }
 
@@ -3197,7 +3197,7 @@ html {
     display: block
 }
 
-.btn-group&gt;.btn,.btn-group&gt;button {
+.btn-group>.btn,.btn-group>button {
     position: relative;
     float: left;
     margin-left: -1px;
@@ -3205,17 +3205,17 @@ html {
     z-index: 1
 }
 
-.btn-group&gt;.btn:hover,.btn-group&gt;button:hover {
+.btn-group>.btn:hover,.btn-group>button:hover {
     z-index: 2
 }
 
-.btn-group&gt;.btn:first-child,.btn-group&gt;button:first-child {
+.btn-group>.btn:first-child,.btn-group>button:first-child {
     border-bottom-left-radius: 2px;
     border-top-left-radius: 2px;
     margin-left: 0
 }
 
-.btn-group&gt;.btn:last-child,.btn-group&gt;button:last-child {
+.btn-group>.btn:last-child,.btn-group>button:last-child {
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px
 }
@@ -3227,7 +3227,7 @@ html {
     z-index: 2
 }
 
-.btn-group .is-active&gt;.icon {
+.btn-group .is-active>.icon {
     color: #fff
 }
 
@@ -5684,7 +5684,7 @@ hr {
     width: 100%
 }
 
-.alert__content&gt;:last-child {
+.alert__content>:last-child {
     margin-bottom: 0
 }
 
@@ -5834,7 +5834,7 @@ hr {
     right: auto
 }
 
-.selectize-control.rtl .selectize-input&gt;input {
+.selectize-control.rtl .selectize-input>input {
     margin: 0 4px 0 -2px !important
 }
 
@@ -5938,7 +5938,7 @@ hr {
     border: 1px solid #63b6ff
 }
 
-.selectize-input&gt;* {
+.selectize-input>* {
     vertical-align: baseline;
     display: -moz-inline-stack;
     display: inline-block
@@ -5948,11 +5948,11 @@ hr {
     cursor: default !important
 }
 
-.selectize-input&gt;input::-ms-clear {
+.selectize-input>input::-ms-clear {
     display: none
 }
 
-.selectize-input&gt;input:focus {
+.selectize-input>input:focus {
     outline: none !important
 }
 
@@ -15412,12 +15412,12 @@ img {
 }
 }
 
-#overlay_region #plan-details-overlay:not(.trial-test) .plan-form&gt;h1 {
+#overlay_region #plan-details-overlay:not(.trial-test) .plan-form>h1 {
     display: none
 }
 
 @media screen and (min-height: 550px) {
-    #overlay_region #plan-details-overlay:not(.trial-test) .plan-form&gt;h1 {
+    #overlay_region #plan-details-overlay:not(.trial-test) .plan-form>h1 {
         display: block
     }
 }
@@ -18851,7 +18851,7 @@ img[border="0"][width="1"][height="1"] {
     }
 }
 
-.ps-container.ps-active-x&gt;.ps-scrollbar-x-rail,.ps-container.ps-active-y&gt;.ps-scrollbar-y-rail {
+.ps-container.ps-active-x>.ps-scrollbar-x-rail,.ps-container.ps-active-y>.ps-scrollbar-y-rail {
     display: block;
     background-color: rgba(255,255,255,0.3)
 }
@@ -18860,23 +18860,23 @@ img[border="0"][width="1"][height="1"] {
     pointer-events: none
 }
 
-.ps-container.ps-in-scrolling.ps-x&gt;.ps-scrollbar-x-rail {
+.ps-container.ps-in-scrolling.ps-x>.ps-scrollbar-x-rail {
     background-color: rgba(255,255,255,0.3)
 }
 
-.ps-container.ps-in-scrolling.ps-x&gt;.ps-scrollbar-x-rail&gt;.ps-scrollbar-x {
+.ps-container.ps-in-scrolling.ps-x>.ps-scrollbar-x-rail>.ps-scrollbar-x {
     background-color: #fff
 }
 
-.ps-container.ps-in-scrolling.ps-y&gt;.ps-scrollbar-y-rail {
+.ps-container.ps-in-scrolling.ps-y>.ps-scrollbar-y-rail {
     background-color: rgba(255,255,255,0.3)
 }
 
-.ps-container.ps-in-scrolling.ps-y&gt;.ps-scrollbar-y-rail&gt;.ps-scrollbar-y {
+.ps-container.ps-in-scrolling.ps-y>.ps-scrollbar-y-rail>.ps-scrollbar-y {
     background-color: #fff
 }
 
-.ps-container&gt;.ps-scrollbar-x-rail {
+.ps-container>.ps-scrollbar-x-rail {
     display: none;
     position: absolute;
     border-radius: 2px;
@@ -18884,7 +18884,7 @@ img[border="0"][width="1"][height="1"] {
     height: 5px
 }
 
-.ps-container&gt;.ps-scrollbar-x-rail&gt;.ps-scrollbar-x {
+.ps-container>.ps-scrollbar-x-rail>.ps-scrollbar-x {
     position: absolute;
     background-color: #fff;
     border-radius: 2px;
@@ -18893,7 +18893,7 @@ img[border="0"][width="1"][height="1"] {
     height: 5px
 }
 
-.ps-container&gt;.ps-scrollbar-y-rail {
+.ps-container>.ps-scrollbar-y-rail {
     display: none;
     position: absolute;
     border-radius: 2px;
@@ -18901,7 +18901,7 @@ img[border="0"][width="1"][height="1"] {
     width: 5px
 }
 
-.ps-container&gt;.ps-scrollbar-y-rail&gt;.ps-scrollbar-y {
+.ps-container>.ps-scrollbar-y-rail>.ps-scrollbar-y {
     position: absolute;
     background-color: #fff;
     border-radius: 2px;
@@ -18914,35 +18914,35 @@ img[border="0"][width="1"][height="1"] {
     pointer-events: none
 }
 
-.ps-container:hover.ps-in-scrolling.ps-x&gt;.ps-scrollbar-x-rail {
+.ps-container:hover.ps-in-scrolling.ps-x>.ps-scrollbar-x-rail {
     background-color: rgba(255,255,255,0.3)
 }
 
-.ps-container:hover.ps-in-scrolling.ps-x&gt;.ps-scrollbar-x-rail&gt;.ps-scrollbar-x {
+.ps-container:hover.ps-in-scrolling.ps-x>.ps-scrollbar-x-rail>.ps-scrollbar-x {
     background-color: #fff
 }
 
-.ps-container:hover.ps-in-scrolling.ps-y&gt;.ps-scrollbar-y-rail {
+.ps-container:hover.ps-in-scrolling.ps-y>.ps-scrollbar-y-rail {
     background-color: rgba(255,255,255,0.3)
 }
 
-.ps-container:hover.ps-in-scrolling.ps-y&gt;.ps-scrollbar-y-rail&gt;.ps-scrollbar-y {
+.ps-container:hover.ps-in-scrolling.ps-y>.ps-scrollbar-y-rail>.ps-scrollbar-y {
     background-color: #fff
 }
 
-.ps-container:hover&gt;.ps-scrollbar-x-rail:hover {
+.ps-container:hover>.ps-scrollbar-x-rail:hover {
     background-color: rgba(255,255,255,0.3)
 }
 
-.ps-container:hover&gt;.ps-scrollbar-x-rail:hover&gt;.ps-scrollbar-x {
+.ps-container:hover>.ps-scrollbar-x-rail:hover>.ps-scrollbar-x {
     background-color: #fff
 }
 
-.ps-container:hover&gt;.ps-scrollbar-y-rail:hover {
+.ps-container:hover>.ps-scrollbar-y-rail:hover {
     background-color: rgba(255,255,255,0.3)
 }
 
-.ps-container:hover&gt;.ps-scrollbar-y-rail:hover&gt;.ps-scrollbar-y {
+.ps-container:hover>.ps-scrollbar-y-rail:hover>.ps-scrollbar-y {
     background-color: #fff
 }
 

@@ -282,7 +282,7 @@ div.mc_right_player_box div.dmpi_video_playerv4 {
     line-height: 16px
 }
 
-.sd_recommended-users .media .media-block&gt;span {
+.sd_recommended-users .media .media-block>span {
     display: block;
     color: #7F7F7F;
     font-size: 0.875rem
@@ -363,7 +363,7 @@ div.mc_right_player_box div.dmpi_video_playerv4 {
     -ms-filter: blur(3px);
     -o-filter: blur(3px);
     filter: blur(3px);
-    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns='http:///www.w3.org/2000/svg'&gt;&lt;filter id='blur'&gt;&lt;feGaussianBlur stdDeviation='3'/&gt;&lt;/filter&gt;&lt;/svg&gt;#blur");
+    filter: url("data:image/svg+xml;utf8,<svg xmlns='http:///www.w3.org/2000/svg'><filter id='blur'><feGaussianBlur stdDeviation='3'/></filter></svg>#blur");
     filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3)"
 }
 
@@ -841,30 +841,30 @@ div.mc_right_player_box div.dmpi_video_playerv4 {
     clear: both
 }
 
-.mo_tabs&gt;li {
+.mo_tabs>li {
     position: relative;
     margin-bottom: 0px;
     cursor: pointer
 }
 
-.mo_tabs&gt;li.pull-end {
+.mo_tabs>li.pull-end {
     margin-left: 20px
 }
 
-.mo_tabs&gt;li.pull-start {
+.mo_tabs>li.pull-start {
     margin-right: 20px
 }
 
-.mo_tabs&gt;li.active,.mo_tabs&gt;li.active:hover {
+.mo_tabs>li.active,.mo_tabs>li.active:hover {
     cursor: default
 }
 
-.mo_tabs&gt;li.active:not(.pull-end) .tab-content {
+.mo_tabs>li.active:not(.pull-end) .tab-content {
     border-bottom-width: 4px;
     border-bottom-style: solid
 }
 
-.mo_tabs&gt;li .tab-content {
+.mo_tabs>li .tab-content {
     -webkit-transition: all 0 0.15s ease-in 0.2s;
     -moz-transition: all 0 0.15s ease-in 0.2s;
     -ms-transition: all 0 0.15s ease-in 0.2s;
@@ -875,11 +875,11 @@ div.mc_right_player_box div.dmpi_video_playerv4 {
     white-space: nowrap
 }
 
-.mo_tabs&gt;li .tab-content:hover {
+.mo_tabs>li .tab-content:hover {
     text-decoration: none
 }
 
-.mo_tabs&gt;li .tab-content:first-letter {
+.mo_tabs>li .tab-content:first-letter {
     text-transform: uppercase
 }
 
@@ -2213,7 +2213,7 @@ body.responsive-grid .no-gutter-end {
     vertical-align: middle
 }
 
-.center_vertically&gt;* {
+.center_vertically>* {
     display: inline-block;
     vertical-align: middle
 }
@@ -2473,19 +2473,19 @@ input[type=text]:hover,select:hover,textarea:hover,input[type=text]:focus,input[
     border-color: #F5F5F5
 }
 
-.mo_tabs&gt;li .tab-content {
+.mo_tabs>li .tab-content {
     border-color: #0066DC
 }
 
-.mo_tabs&gt;li&gt;a,.mo_tabs&gt;li&gt;span {
+.mo_tabs>li>a,.mo_tabs>li>span {
     color: #7F7F7F
 }
 
-.mo_tabs&gt;li&gt;a:hover,.mo_tabs&gt;li&gt;span:hover {
+.mo_tabs>li>a:hover,.mo_tabs>li>span:hover {
     color: #0066DC
 }
 
-.mo_tabs&gt;li.active&gt;a,.mo_tabs&gt;li.active&gt;span {
+.mo_tabs>li.active>a,.mo_tabs>li.active>span {
     color: #0066DC
 }
 
@@ -2983,11 +2983,11 @@ button,.button,.btn {
     font-size: inherit
 }
 
-.btn_v2&gt;*+* {
+.btn_v2>*+* {
     padding: 0 0 0 0.3em
 }
 
-.btn_v2&gt;* {
+.btn_v2>* {
     display: inline-block;
     vertical-align: middle;
     line-height: 1.9
@@ -3001,7 +3001,7 @@ button,.button,.btn {
     transform: rotate(180deg)
 }
 
-.btn_v2--reverse&gt;* {
+.btn_v2--reverse>* {
     -webkit-transform: rotate(-180deg);
     -moz-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
@@ -3009,7 +3009,7 @@ button,.button,.btn {
     transform: rotate(-180deg)
 }
 
-.btn_v2--reverse&gt;*+* {
+.btn_v2--reverse>*+* {
     padding: 0 0.3em 0 0
 }
 
@@ -3017,7 +3017,7 @@ button,.button,.btn {
     padding-right: 0
 }
 
-.btn_v2--merge&gt;:last-child {
+.btn_v2--merge>:last-child {
     background-color: #fff;
     color: #404040;
     padding: 0.2em 0.6em;
@@ -3025,7 +3025,7 @@ button,.button,.btn {
     border-left: solid 1px transparent
 }
 
-.btn_v2--border&gt;:last-child {
+.btn_v2--border>:last-child {
     border-left: solid 1px rgba(0,0,0,0.1)
 }
 
@@ -3090,7 +3090,7 @@ button,.button,.btn {
     box-shadow: none
 }
 
-.tipsy-inner&gt;a {
+.tipsy-inner>a {
     display: block
 }
 
@@ -3480,7 +3480,7 @@ html[dir="rtl"] .select2-container .select2-choice {
     margin-right: 42px
 }
 
-.select2-container .select2-choice&gt;.select2-chosen {
+.select2-container .select2-choice>.select2-chosen {
     margin-right: 36px;
     line-height: 32px;
     display: block;
@@ -3491,7 +3491,7 @@ html[dir="rtl"] .select2-container .select2-choice {
     width: auto
 }
 
-html[dir="rtl"] .select2-container .select2-choice&gt;.select2-chosen {
+html[dir="rtl"] .select2-container .select2-choice>.select2-chosen {
     margin-left: 26px;
     margin-right: 0
 }
@@ -3702,7 +3702,7 @@ html[dir="rtl"] .select2-results {
     background-image: none
 }
 
-.select2-results li.select2-result-with-children&gt;.select2-result-label {
+.select2-results li.select2-result-with-children>.select2-result-label {
     font-weight: bold
 }
 
@@ -4753,7 +4753,7 @@ body .dm-tour-step-bg {
     border-bottom: none
 }
 
-.sd_header .sd_header__tabs&gt;li&gt;a {
+.sd_header .sd_header__tabs>li>a {
     color: #fff;
     padding-bottom: 16px;
     -webkit-transition: none;
@@ -4764,7 +4764,7 @@ body .dm-tour-step-bg {
     border-bottom: solid 6px transparent
 }
 
-.sd_header .sd_header__tabs&gt;li&gt;a:hover {
+.sd_header .sd_header__tabs>li>a:hover {
     color: #fff
 }
 
@@ -5509,11 +5509,11 @@ body .dm-tour-step-bg {
     vertical-align: middle
 }
 
-.sd_footer .sd_footer__wrapper .sd_footer__credits&gt;span {
+.sd_footer .sd_footer__wrapper .sd_footer__credits>span {
     margin-right: 10px
 }
 
-.sd_footer .sd_footer__wrapper .sd_footer__credits&gt;span,.sd_footer .sd_footer__wrapper .sd_footer__credits a {
+.sd_footer .sd_footer__wrapper .sd_footer__credits>span,.sd_footer .sd_footer__wrapper .sd_footer__credits a {
     color: #000
 }
 
@@ -6844,7 +6844,7 @@ div.dmco_clear {
     text-decoration: underline
 }
 
-.form_input--merged&gt;:first-child,.form_input--merged input:first-child {
+.form_input--merged>:first-child,.form_input--merged input:first-child {
     width: auto !important;
     border-radius: 3px 0 0 3px;
     float: left
@@ -6977,7 +6977,7 @@ textarea {
     color: #000
 }
 
-.date_picker_cont&gt;.date_picker {
+.date_picker_cont>.date_picker {
     width: 210px !important
 }
 
@@ -6989,7 +6989,7 @@ textarea {
     width: auto
 }
 
-.time_picker_cont&gt;.time_picker {
+.time_picker_cont>.time_picker {
     width: 80px !important;
     min-width: 80px
 }
