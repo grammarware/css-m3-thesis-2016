@@ -81,7 +81,7 @@
 1. [xhamster.com](http://xhamster.com) — **[CSS](css/xhamster.com.css)**
 1. [pixnet.net](http://pixnet.net) — **[CSS](css/pixnet.net.css)**
 1. [login.tmall.com](http://login.tmall.com) — removed (duplicate)
-1. [soso.com](http://soso.com) — **[CSS](css/soso.com.css)**
+1. [soso.com](http://soso.com) — removed (duplicate)
 1. [coccoc.com](http://coccoc.com) — **[CSS](css/coccoc.com.css)**
 1. [txxx.com](http://txxx.com) — **[CSS](css/txxx.com.css)**
 1. [bongacams.com](http://bongacams.com) — **[CSS](css/bongacams.com.css)**
@@ -149,7 +149,7 @@
 1. [buzzfeed.com](http://buzzfeed.com) — **[CSS](css/buzzfeed.com.css)**
 1. [google.com.vn](http://google.com.vn) — removed (duplicate)
 1. [askcom.me](http://askcom.me) — **[CSS](css/askcom.me.css)**
-1. [fbcdn.net](http://fbcdn.net) — **[CSS](css/fbcdn.net.css)**
+1. [fbcdn.net](http://fbcdn.net) — removed (duplicate)
 1. [alibaba.com](http://alibaba.com) — **[CSS](css/alibaba.com.css)**
 1. [tribunnews.com](http://tribunnews.com) — **[CSS](css/tribunnews.com.css)**
 1. [chase.com](http://chase.com) — **[CSS](css/chase.com.css)**
@@ -188,7 +188,7 @@
 1. [google.com.ua](http://google.com.ua) — removed (duplicate)
 1. [godaddy.com](http://godaddy.com) — **[CSS](css/godaddy.com.css)**
 1. [zhihu.com](http://zhihu.com) — **[CSS](css/zhihu.com.css)**
-1. [force.com](http://force.com) — **[CSS](css/force.com.css)**
+1. [force.com](http://force.com) — removed (duplicate)
 1. [gfycat.com](http://gfycat.com) — **[CSS](css/gfycat.com.css)**
 1. [theladbible.com](http://theladbible.com) — **[CSS](css/theladbible.com.css)**
 1. [blogspot.co.id](http://blogspot.co.id) — removed (duplicate)
@@ -204,7 +204,7 @@
 1. [china.com.cn](http://china.com.cn) — removed (duplicate)
 1. [slack.com](http://slack.com) — **[CSS](css/slack.com.css)**
 1. [google.at](http://google.at) — removed (duplicate)
-1. [pinimg.com](http://pinimg.com) — **[CSS](css/pinimg.com.css)**
+1. [pinimg.com](http://pinimg.com) — removed (duplicate)
 1. [upornia.com](http://upornia.com) — **[CSS](css/upornia.com.css)**
 1. [google.co.kr](http://google.co.kr) — removed (duplicate)
 1. [openload.co](http://openload.co) — **[CSS](css/openload.co.css)**
