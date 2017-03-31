@@ -411,7 +411,7 @@
 1. [atlassian.net](http://atlassian.net) — **[CSS](css/atlassian.net.css)**
 1. [wix.com](http://wix.com) — **[CSS](css/wix.com.css)**
 1. [streamable.com](http://streamable.com) — **[CSS](css/streamable.com.css)**
-1. [taleo.net](http://taleo.net) — **[CSS](css/taleo.net.css)**
+1. [taleo.net](http://taleo.net) — removed (duplicate)
 1. [usps.com](http://usps.com) — **[CSS](css/usps.com.css)**
 1. [ensonhaber.com](http://ensonhaber.com) — **[CSS](css/ensonhaber.com.css)**
 1. [samsung.com](http://samsung.com) — **[CSS](css/samsung.com.css)**
